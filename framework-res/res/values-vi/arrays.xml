@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Cá nhân</item>
+        <item>Làm việc</item>
+        <item>Khác</item>
+        <item>T.chỉnh</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Làm việc</item>
+        <item>Khác</item>
+        <item>T.chỉnh</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Nhà</item>
+        <item>Bộ nhớ điện thoại</item>
+        <item>Làm việc</item>
+        <item>Fax của công ty</item>
+        <item>Fax tại nhà</item>
+        <item>Máy nhắn tin</item>
+        <item>Khác</item>
+        <item>T.chỉnh</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Nhà</item>
+        <item>Làm việc</item>
+        <item>Khác</item>
+        <item>T.chỉnh</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Nhà</item>
+        <item>Làm việc</item>
+        <item>Khác</item>
+        <item>T.chỉnh</item>
+    </string-array>
+</resources>

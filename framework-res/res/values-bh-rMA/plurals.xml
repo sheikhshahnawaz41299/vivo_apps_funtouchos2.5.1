@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">SIM बन्द करवासँ पहिने अहांकें %d बाँकी प्रयास अछि।</item>
+        <item quantity="one">SIM बन्द करवासँ पहिने अहांकें %d बाँकी प्रयास अछि।</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">%d सेकेण्ड पहिले</item>
+        <item quantity="one">1 सेकेंड पहिले</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d मिनिट पहिले</item>
+        <item quantity="one">1 मिनट पहिले</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%d घंटा पहिले</item>
+        <item quantity="one">1 घंटा पहिले</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">अन्तिम %d दिन</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%d दिन पहिले</item>
+        <item quantity="one">काल्हि</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">%d सेकेंड में</item>
+        <item quantity="one">1 सेकेंड में</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">%d मिनट में</item>
+        <item quantity="one">1 मिनट में</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">%d घंटा में</item>
+        <item quantity="one">1 घंटा में</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">%d दिन में</item>
+        <item quantity="one">काल्हि</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%d सेकेण्ड पहिले</item>
+        <item quantity="one">1 सेकेंड पहिले</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d मिनिट पहिले</item>
+        <item quantity="one">1 मिनट पहिले</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%d घंटा पहिले</item>
+        <item quantity="one">1 घंटा पहिले</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%d दिन पहिले</item>
+        <item quantity="one">काल्हि</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">%d सेकेंड में</item>
+        <item quantity="one">1 सेकेंड में</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">%d मिनटमे</item>
+        <item quantity="one">1 मिनट में</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">%d घंटा में</item>
+        <item quantity="one">1 घंटा में</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">%d दिन में</item>
+        <item quantity="one">काल्हि</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d सेकंड</item>
+        <item quantity="one">1 सेकेंड</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d मिनट</item>
+        <item quantity="one">1 मिनट</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d घंटे</item>
+        <item quantity="one">1 घंटा</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Wi-Fi नेटवर्क उपलब्ध</item>
+        <item quantity="one">Wi-Fi नेटवर्क उपलब्ध</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Wi-Fi उपलब्ध नेटवर्क खोलु</item>
+        <item quantity="one">Wi-Fi उपलब्ध नेटवर्क खोलु</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d क तत्व(सब) %2$d</item>
+        <item quantity="one">1 गोट मेल होइत</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">%d सेकंडमे फेरसँ प्रयास करू</item>
+        <item quantity="one">1 सेकंडमे पुन: प्रयास करु</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">%d मिनट’क लेल</item>
+        <item quantity="one">1 मिनट</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">%d घण्टा’क लेल</item>
+        <item quantity="one">1 घंटा</item>
+    </plurals>
+</resources>

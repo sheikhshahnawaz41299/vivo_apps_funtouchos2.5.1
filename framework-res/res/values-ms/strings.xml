@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ok">OK</string>
+    <string name="VideoView_error_button">OK</string>
+    <string name="yes">OK</string>
+    <string name="httpErrorOk">OK</string>
+    <string name="global_action_power_off">Matikan kuasa</string>
+    <string name="permlab_accessWifiState">lihat sambungan Wi-Fi</string>
+    <string name="permdesc_accessWifiState">Membenarkan apl melihat maklumat tentang rangkaian Wi-Fi, seperti sama ada Wi-Fi didayakan dan nama peranti Wi-Fi yang disambungkan.</string>
+    <string name="permlab_changeWifiState">sambung dan putuskan dari Wi-Fi</string>
+    <string name="permdesc_changeWifiState">Membenarkan apl menyambung ke dan memutuskan sambungan dari titik capaian Wi-Fi dan membuat perubahan kepada konfigurasi peranti untuk rangkaian Wi-Fi.</string>
+    <string name="permlab_changeWifiMulticastState">benarkan penerimaan Wi-Fi Multisiar</string>
+    <string name="permdesc_changeWifiMulticastState">Membenarkan apl menerima paket yang dihantar kepada semua peranti pada rangkaian Wi-Fi menggunakan alamat multisiar, bukan hanya telefon anda. Ia menggunakan lebih kuasa berbanding mod bukan multisiar.</string>
+    <string name="eventTypeAnniversary">Ulang tahun</string>
+    <string name="emailTypeWork">Kerja</string>
+    <string name="lockscreen_carrier_default">Tiada perkhidmatan</string>
+    <string name="low_internal_storage_view_title">Ruang tidak mencukupi</string>
+    <string name="low_internal_storage_view_text">Sila bersihkan ruang sistem segera</string>
+    <string name="whichApplication">Pilihkan Apps</string>
+    <string name="force_close">OK</string>
+    <string name="wifi_available_sign_in">Log masuk ke rangkaian Wi-Fi</string>
+    <string name="wifi_p2p_invitation_to_connect_title">Jemputan untuk menyambung</string>
+    <string name="wifi_p2p_from_message">Daripada:</string>
+    <string name="wifi_p2p_to_message">Kepada:</string>
+    <string name="dlg_ok">OK</string>
+    <string name="usb_mtp_notification_title">Disambungkan sebagai peranti media</string>
+    <string name="usb_notification_message">Klik untuk tukar tetapan USB.</string>
+    <string name="select_input_method">Pilih kaedah input</string>
+    <string name="low_data_space_view_title">Ruang tidak mencukupi</string>
+    <string name="low_data_space_view_text">Sila bersihkan ruang sistem segera</string>
+    <string name="low_data_space_view_text1">Sila cuba menyahpasang atau mengalihkan beberapa aplikasi untuk mengosongkan sedikit ruang</string>
+    <string name="criticallowmessage_tip">Ruang sistem kurang daripada 4 MB</string>
+    <string name="deleteApps">Sila bersihkan ruang sistem segera bagi memastikan telefon beroperasi dengan normal.</string>
+    <string name="deleteApps1">Sila menyahpasang atau mengalihkan beberapa aplikasi untuk mengosongkan sedikit ruang supaya telefon boleh beroperasi dengan lancar</string>
+    <string name="low_data_space_view_text_mtk">Sila nyahpasang beberapa aplikasi</string>
+    <string name="cleanSpace">Urus aplikasi</string>
+    <string name="cleanSpace1">Bersihkan</string>
+    <string name="join_plan_tip">Sertai pelan peningkatan pengalaman pelanggan</string>
+    <string name="low_udisk_space_view_text">Sila kosongkan segera</string>
+    <string name="low_udisk_space_view_title">Ruang storan tidak mencukupi di pemacu flash telefon selular</string>
+    <string name="udisk_criticallowmessage_tip">Storan telefon kurang daripada 4M</string>
+    <string name="udisk_deleteApps">Sila kosongkan storan telefon segera bagi memastikan telefon beroperasi dengan normal.</string>
+    <string name="online_view_detail">Lihat butiran dalam talian</string>
+</resources>

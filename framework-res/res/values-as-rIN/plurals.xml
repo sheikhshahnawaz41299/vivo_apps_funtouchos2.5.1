@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">SIM লক হোৱাৰ পূৰ্বে আপোনাৰ %d অৱশিষ্ট চেষ্টা আছে৷</item>
+        <item quantity="one">SIM লক হোৱাৰ পূৰ্বে আপোনাৰ %d অৱশিষ্ট চেষ্টা আছে৷</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">%d ছেকেণ্ড পূৰ্বে</item>
+        <item quantity="one">1 ছেকেণ্ড পূৰ্বে</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d মিনিট পূৰ্বে</item>
+        <item quantity="one">1 মিনিটৰ পূৰ্বে</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%d ঘণ্টামান পূৰ্বে</item>
+        <item quantity="one">1 ঘণ্টা পূৰ্বে</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">যোৱা %d দিনবোৰ</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%d কেইদিনমানৰ পূৰ্বে</item>
+        <item quantity="one">যোৱাকালি</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">%d কেইছেকেণ্ডমানত</item>
+        <item quantity="one">1 ছেকেণ্ডত</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">%d কেই মিনিটমানত</item>
+        <item quantity="one">1 মিনিটত</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">%d ঘণ্টাত</item>
+        <item quantity="one">1 ঘণ্টাত</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">%d দিন হিচাপত</item>
+        <item quantity="one">অহাকালিলৈ</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%d ছেকেণ্ড পূৰ্বে</item>
+        <item quantity="one">1 ছেকেণ্ড পূৰ্বে</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d মিনিট পূৰ্বে</item>
+        <item quantity="one">1 মিনিটৰ পূৰ্বে</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%d ঘণ্টামান পূৰ্বে</item>
+        <item quantity="one">1 ঘণ্টা পূৰ্বে</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%d কেইদিনমানৰ পূৰ্বে</item>
+        <item quantity="one">যোৱাকালি</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">%d কেইছেকেণ্ডমানত</item>
+        <item quantity="one">1 ছেকেণ্ডত</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">%d মিনিটত</item>
+        <item quantity="one">1 মিনিটত</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">%d ঘণ্টাত</item>
+        <item quantity="one">1 ঘণ্টাত</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">%d দিন হিচাপত</item>
+        <item quantity="one">অহাকালিলৈ</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d ছেকেণ্ড</item>
+        <item quantity="one">1 ছেকেণ্ড</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d মিনিট</item>
+        <item quantity="one">1 মিনিট</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d ঘণ্টা</item>
+        <item quantity="one">1 ঘণ্টা</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Wi-Fi নেটৱৰ্ক উপলব্ধ</item>
+        <item quantity="one">Wi-Fi নেটৱৰ্ক উপলব্ধ</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">উপলব্ধ Wi-Fi নেটৱৰ্ক খোলক</item>
+        <item quantity="one">উপলব্ধ Wi-Fi নেটৱৰ্ক খোলক</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d আইটেম(ছ) অফ %2$d</item>
+        <item quantity="one">1 মিল।</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">%d ক্ষন্তেক পিছত চেষ্টা কৰক</item>
+        <item quantity="one">1 ছেকেণ্ডত পুনৰ চেষ্টা কৰক</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">%d মিনিটৰ বাবে</item>
+        <item quantity="one">1 মিনিট</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">%d ঘণ্টাৰ বাবে</item>
+        <item quantity="one">1 ঘণ্টা</item>
+    </plurals>
+</resources>

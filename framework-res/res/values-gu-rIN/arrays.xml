@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>વ્યક્તિગત</item>
+        <item>કાર્ય</item>
+        <item>અન્ય</item>
+        <item>કસ્ટમાઇઝ</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>કાર્ય</item>
+        <item>અન્ય</item>
+        <item>કસ્ટમાઇઝ</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>ઘર</item>
+        <item>ફોન સંગ્રહ</item>
+        <item>કાર્ય</item>
+        <item>કાર્યાલયનો ફેક્સ</item>
+        <item>ઘરનો ફેક્સ</item>
+        <item>પેજર</item>
+        <item>અન્ય</item>
+        <item>કસ્ટમાઇઝ</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>ઘર</item>
+        <item>કાર્ય</item>
+        <item>અન્ય</item>
+        <item>કસ્ટમાઇઝ</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>ઘર</item>
+        <item>કાર્ય</item>
+        <item>અન્ય</item>
+        <item>કસ્ટમાઇઝ</item>
+    </string-array>
+</resources>

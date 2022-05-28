@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>ବ୍ୟକ୍ତିଗତ</item>
+        <item>କାର୍ଯ୍ୟ</item>
+        <item>ଅନ୍ୟାନ୍ୟ</item>
+        <item>କଷ୍ଟମାଇଜ୍</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>କାର୍ଯ୍ୟ</item>
+        <item>ଅନ୍ୟାନ୍ୟ</item>
+        <item>କଷ୍ଟମାଇଜ୍</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>ହୋମ୍</item>
+        <item>ଫୋନ୍</item>
+        <item>କାର୍ଯ୍ୟ</item>
+        <item>କାର୍ଯ୍ୟ ଫ୍ୟାକ୍ସ</item>
+        <item>ଘର ଫ୍ୟାକ୍ସ</item>
+        <item>ପେଜର୍</item>
+        <item>ଅନ୍ୟାନ୍ୟ</item>
+        <item>କଷ୍ଟମାଇଜ୍</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>ହୋମ୍</item>
+        <item>କାର୍ଯ୍ୟ</item>
+        <item>ଅନ୍ୟାନ୍ୟ</item>
+        <item>କଷ୍ଟମାଇଜ୍</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>ହୋମ୍</item>
+        <item>କାର୍ଯ୍ୟ</item>
+        <item>ଅନ୍ୟାନ୍ୟ</item>
+        <item>କଷ୍ଟମାଇଜ୍</item>
+    </string-array>
+</resources>
