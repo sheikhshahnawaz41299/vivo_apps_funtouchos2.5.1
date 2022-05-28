@@ -1,0 +1,481 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: GKDHnEMfIlWBp7k2/2CUI28psew=
+
+Name: res/anim/anim_learn_mr_touch_control_maps.xml
+SHA1-Digest-Manifest: KvEbwDmV1KUgagpGvYya/S931KI=
+
+Name: res/drawable-hdpi-v4/learn_mr_wake_browser_4.png
+SHA1-Digest-Manifest: 3UH9aT+raKoIH83s3sjVzlVWOn8=
+
+Name: res/drawable-hdpi-v4/learn_mr_wake_email_1.png
+SHA1-Digest-Manifest: 2NUzVp+UMbYzaZ51WMBmtPcK07o=
+
+Name: res/drawable-hdpi-v4/learn_mr_to_unlock_1.png
+SHA1-Digest-Manifest: PgtN9p2GhAmINQmc561t1MkyuJw=
+
+Name: res/drawable-hdpi-v4/learn_mr_smart_keep_screen_enable_2.png
+SHA1-Digest-Manifest: 7SOqrX4TuCixddsUW56jL+uZlGc=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_quick_open_camera_1.png
+SHA1-Digest-Manifest: dxOsYz8zUeoUpb6qGKSnVqANexI=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_wake_dile_3.png
+SHA1-Digest-Manifest: iPiGC9QSKl2rxARc18ZLsRrOE3E=
+
+Name: res/anim/anim_learn_mr_mute.xml
+SHA1-Digest-Manifest: 9nKTzbZeHzthF96jwJM/Jl4/vW4=
+
+Name: res/drawable-hdpi-v4/learn_mr_wake_email_3.png
+SHA1-Digest-Manifest: LQeStzct4tdGqw0qiHoDqaONcBA=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_wake_music_3.png
+SHA1-Digest-Manifest: V9qe7L/CuAvapJF9bkojST/0y0I=
+
+Name: res/drawable-sw360dp-hdpi-v13/gesture_2.png
+SHA1-Digest-Manifest: E9OhXaMT3U+rQBD/30jn2MM1D60=
+
+Name: res/anim/anim_learn_mr_wake_dile.xml
+SHA1-Digest-Manifest: RfiAelprPRoFuszWGKgiyVBGgSY=
+
+Name: res/drawable-sw360dp-hdpi-v13/gesture_3.png
+SHA1-Digest-Manifest: 2OHZdI43V5ONcUULWk4nyXcXImU=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_mute_2.png
+SHA1-Digest-Manifest: PuU4Y0NMoL9kouwGNurZxI5rnhA=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_wake_wechat_4.png
+SHA1-Digest-Manifest: ZUj2ROcts55tBtsKBPOL2H89EXc=
+
+Name: res/drawable-hdpi-v4/learn_mr_wake_music_1.png
+SHA1-Digest-Manifest: QZYY7L4ExtFybhNZg9LT3rQrWGk=
+
+Name: res/drawable-hdpi-v4/learn_mr_wake_music_4.png
+SHA1-Digest-Manifest: l+c+B/Zi8vfaJ2yOm8G+gujjdGY=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_wake_wechat_2.png
+SHA1-Digest-Manifest: 58RiXqHi5ChkSEUvFmP20F3G9rY=
+
+Name: res/drawable-hdpi-v4/learn_mr_wake_wechat_3.png
+SHA1-Digest-Manifest: HlXxW00zG+TzvZvIYBlKlxJWEBI=
+
+Name: res/drawable-hdpi-v4/learn_mr_wake_browser_2.png
+SHA1-Digest-Manifest: hzgMD470ojVNdch6zBbWfckrYgs=
+
+Name: res/drawable-hdpi-v4/learn_mr_wake_music_5.png
+SHA1-Digest-Manifest: mWfQQBRvP3DELHzKVMIzuOxqCHc=
+
+Name: res/drawable-hdpi-v4/leak_canary_icon.png
+SHA1-Digest-Manifest: dfQq7zAI4BU97fUGfXLFYzYImoI=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_to_unlock_1.png
+SHA1-Digest-Manifest: hZ0OgrAQpCd7amsPfiN0lUVZh9M=
+
+Name: res/drawable-hdpi-v4/learn_mr_wake_wechat_4.png
+SHA1-Digest-Manifest: RevkpCfssVOO246jvzNTlxRtaUI=
+
+Name: res/anim/anim_learn_mr_wave.xml
+SHA1-Digest-Manifest: 8pQHNQz7uplXfukeZVCQU2H6sBg=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_wake_email_4.png
+SHA1-Digest-Manifest: OI4Y5dqCvfTbr6X0y/WRtIEFkVI=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_change_music_3.png
+SHA1-Digest-Manifest: n0VtLnUPpayPwTnWWoZ7BIRBicI=
+
+Name: res/anim/anim_learn_mr_change_music.xml
+SHA1-Digest-Manifest: 22hantildYvTYnT/GZQJ9N5BTyI=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_unlock_3.png
+SHA1-Digest-Manifest: uLoFO0BqD/8iVq+z6naX46e5918=
+
+Name: res/drawable-hdpi-v4/learn_mr_shake_2.png
+SHA1-Digest-Manifest: xEOr9uy6K9AbGpIPXTOQKV3Q0qU=
+
+Name: res/anim/anim_learn_mr_tilt_phone_zoom_photes.xml
+SHA1-Digest-Manifest: jG3pwwymExkwq4kE3dfyJKlkhMc=
+
+Name: res/drawable-hdpi-v4/lean_scale_3.png
+SHA1-Digest-Manifest: +WQjuu4QevVB2FotPIeF11tkZXY=
+
+Name: res/xml/smart_phone_settings.xml
+SHA1-Digest-Manifest: 8lvexAZfmCONc+T42KZU8XpIb84=
+
+Name: res/drawable-nodpi-v4/small_icon.png
+SHA1-Digest-Manifest: Zf3VsgW0Gw3RFbZ8U19Jd+vMbaQ=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_wakeup_1.png
+SHA1-Digest-Manifest: ABBl1aRClmbE4i0OmPagFwNLlvE=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_smart_keep_screen_enable_
+ 2.png
+SHA1-Digest-Manifest: O7dqv0TJ7snoLXgcwjXbtrACe+U=
+
+Name: res/anim/anim_learn_mr_wake_browser.xml
+SHA1-Digest-Manifest: 9aYMrK1yRnHIuzeq+gMjQcMSCNo=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_wake_dile_4.png
+SHA1-Digest-Manifest: bPYhlSDjV1J+f8ckfOEIHyvd+IE=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_wakeup_3.png
+SHA1-Digest-Manifest: m3uQg64zPzP/v5+h+NNmcI7cDNI=
+
+Name: res/layout/learn_mr_dialog.xml
+SHA1-Digest-Manifest: DUA8V/Xzwap7h8tp8wu8gL8wDgI=
+
+Name: res/drawable-hdpi-v4/learn_mr_wake_email_4.png
+SHA1-Digest-Manifest: Xy0fPyAbhbDpML2RB7L9Hm9egEA=
+
+Name: res/drawable-hdpi-v4/learn_mr_change_music_1.png
+SHA1-Digest-Manifest: KFa5G0WDt3a0WtyD7032hKkEKzI=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_change_music_2.png
+SHA1-Digest-Manifest: 3y+q0yv+EDa0Il+d5AK4kU9YgQA=
+
+Name: res/anim/anim_learn_mr_pocket_out.xml
+SHA1-Digest-Manifest: conwHXZRz3agoPLyfU5fLuHHvx4=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_wake_music_4.png
+SHA1-Digest-Manifest: FITvlSL7DNJboITOmkZ2IP6yLfc=
+
+Name: res/layout-v17/custom_gesture_preference.xml
+SHA1-Digest-Manifest: XaTWRftV83d8B9rFnasMrufOJo4=
+
+Name: res/drawable-hdpi-v4/learn_mr_wakeup_1.png
+SHA1-Digest-Manifest: /zRmuhUO6C+XyYskBxppSJ/BeRw=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_wake_browser_3.png
+SHA1-Digest-Manifest: xeif9pnHjWHY6/NL/RrlnBH2U1U=
+
+Name: res/xml/seperate_motion_operation_settings.xml
+SHA1-Digest-Manifest: h52ZuZV5iEooFN8f/YQfC2Caavs=
+
+Name: res/drawable-hdpi-v4/learn_mr_call_1.png
+SHA1-Digest-Manifest: ufbt68wCYu+IoK3qgqsKDDplBQI=
+
+Name: res/drawable-hdpi-v4/lean_scale_1.png
+SHA1-Digest-Manifest: jr4GZIrsqJJB9b1Ieza+Onr4GSs=
+
+Name: res/anim/anim_learn_mr_wake_wechat.xml
+SHA1-Digest-Manifest: zX0LIlBXD8nWDB10IzCjrv4ORPU=
+
+Name: res/anim/anim_learn_mr_to_unlock.xml
+SHA1-Digest-Manifest: Ry5s70oTseLndXOpDN+b7sOeyTg=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_wakeup_2.png
+SHA1-Digest-Manifest: ON5bQfRsWlGY/szfngeehL+Q7u4=
+
+Name: res/anim/anim_learn_mr_switch.xml
+SHA1-Digest-Manifest: 2FfRJ0jKvvaOu/CPDhlouaDW1SQ=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_to_unlock_2.png
+SHA1-Digest-Manifest: zO+ND7SxpAJBpXXnneng70d4Am8=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_quick_open_camera_2.png
+SHA1-Digest-Manifest: BBu4fcGCCRwoNLS5+CumhBrHvb4=
+
+Name: resources.arsc
+SHA1-Digest-Manifest: XpHPWlC3qGOza4ZUvENwt8VGo00=
+
+Name: res/drawable-hdpi-v4/learn_mr_pocket_out_2.png
+SHA1-Digest-Manifest: O1acFw2HNQYh/m9spfNt59myT0s=
+
+Name: res/drawable-hdpi-v4/learn_mr_wakeup_2.png
+SHA1-Digest-Manifest: f7Kja0dKZYD5u2BtC7KIDEM1HEo=
+
+Name: res/xml/motion_recognition_nodes.xml
+SHA1-Digest-Manifest: DIa3qw5OhWKy+d0BCKGyAp+MxNY=
+
+Name: res/drawable-hdpi-v4/learn_mr_wake_dile_3.png
+SHA1-Digest-Manifest: cwzedlkj7e8vHfflroHS6KQQUzs=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_wake_facebook_3.png
+SHA1-Digest-Manifest: 1HhZ/9C97HJ61M+DxC01/9dXFHA=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_unlock_2.png
+SHA1-Digest-Manifest: 60dKmmBOFH5lq9N48XjDjhwOE3U=
+
+Name: AndroidManifest.xml
+SHA1-Digest-Manifest: AkVETMT2SpI4MZ7VCvYVfDmwCOk=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_pocket_out_3.png
+SHA1-Digest-Manifest: JdxFUuEDjMwW4hqgk5xLw0BsQS8=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_wake_facebook_1.png
+SHA1-Digest-Manifest: T+/bARkPYqY8R8o8TGGyQYiZlhY=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_wake_music_5.png
+SHA1-Digest-Manifest: n9xlvaaUa8BgdvcNTeJmOQLk13g=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_unlock_1.png
+SHA1-Digest-Manifest: KXWhDW75qqPXNKS+k6yM6yN1GkU=
+
+Name: res/anim/anim_learn_mr_quick_open_camera.xml
+SHA1-Digest-Manifest: BtZNck/wnTqXfqOFUYpfCMFAoPM=
+
+Name: res/drawable-hdpi-v4/learn_mr_wakeup_3.png
+SHA1-Digest-Manifest: AQHdKpYz0Y/6kFMpKEVJ9u/F/HE=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_wake_dile_2.png
+SHA1-Digest-Manifest: LogxdXidq/tvmbBDYj1ivWn2g20=
+
+Name: res/anim/anim_learn_mr_call.xml
+SHA1-Digest-Manifest: zM5PXGEJst1Q3o3JEWvWz3r7U3Y=
+
+Name: res/drawable-sw360dp-hdpi-v13/lean_scale_2.png
+SHA1-Digest-Manifest: h9/QeKkC7OKR+ojbYyOX36WFZB4=
+
+Name: res/drawable-hdpi-v4/learn_mr_wake_dile_2.png
+SHA1-Digest-Manifest: hcfmu9lYWWm972PEvLzVFuaGLCE=
+
+Name: res/drawable-hdpi-v4/learn_mr_change_music_3.png
+SHA1-Digest-Manifest: NT59QG98zuoXBSud3V2EZ1KUXL8=
+
+Name: res/drawable-hdpi-v4/learn_mr_quick_open_camera_2.png
+SHA1-Digest-Manifest: +OeV/T2OzQ6Z3YRCcGnPq287mNc=
+
+Name: classes.dex
+SHA1-Digest-Manifest: qdGCnb99NivIsF3GPQ8pNg0hwZU=
+
+Name: res/anim/anim_learn_mr_remind.xml
+SHA1-Digest-Manifest: RQ/KefT/7b6JtlmyaLtk3niXWY4=
+
+Name: res/anim/anim_learn_mr_wake_email.xml
+SHA1-Digest-Manifest: TL6zJVTmqdbhbGrNwwmYGK9239w=
+
+Name: res/drawable-hdpi-v4/learn_mr_quick_open_camera_1.png
+SHA1-Digest-Manifest: IejZkSdsahjj3yso4NfcVEZ1ko4=
+
+Name: res/drawable-hdpi-v4/learn_mr_wake_wechat_2.png
+SHA1-Digest-Manifest: HwFY26g+zTWGKTeoSCnkDXSupOc=
+
+Name: res/drawable-hdpi-v4/learn_mr_pocket_out_1.png
+SHA1-Digest-Manifest: zonRyL+A1cVUms07bnEiCACqwwY=
+
+Name: res/drawable-hdpi-v4/learn_mr_wake_dile_1.png
+SHA1-Digest-Manifest: bHKp+WrYjXUNS3FpGiaJoamYpUo=
+
+Name: res/drawable-hdpi-v4/learn_mr_call_2.png
+SHA1-Digest-Manifest: DI5qjq59A89MwyimO96gY9x8ZdY=
+
+Name: res/drawable-hdpi-v4/gesture_1.png
+SHA1-Digest-Manifest: LEXD45gxGE07Cx+SZIrg+LOfkBQ=
+
+Name: res/drawable-hdpi-v4/learn_mr_wake_dile_4.png
+SHA1-Digest-Manifest: Me5sDPPSXnM5pKKHlPZR5tK6xZY=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_wake_dile_1.png
+SHA1-Digest-Manifest: XUridQM4N4FYlcn+0Bw6iW8O0yA=
+
+Name: res/anim/anim_learn_mr_wake_music.xml
+SHA1-Digest-Manifest: xpzs807P1wnEgK5ZfT9+6Em1kRg=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_smart_keep_screen_enable_
+ 1.png
+SHA1-Digest-Manifest: 8YB/dmv4dJjvqskCfXJzCaEAeBQ=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_shake_1.png
+SHA1-Digest-Manifest: zzQpggGj7GjX+v3Vr5Pb3rZ/8Uw=
+
+Name: res/drawable-hdpi-v4/learn_mr_pocket_out_3.png
+SHA1-Digest-Manifest: os96nrnol3rALtrUUqA0/cxboQI=
+
+Name: res/drawable-hdpi-v4/learn_mr_wake_email_2.png
+SHA1-Digest-Manifest: dtvo7me+C7u+PdF6zE2uOpDXvHY=
+
+Name: res/anim/anim_learn_mr_wakeup.xml
+SHA1-Digest-Manifest: FdU42hG20IXT0EJKaiuPiTQaVxs=
+
+Name: res/drawable-hdpi-v4/learn_mr_wake_facebook_3.png
+SHA1-Digest-Manifest: 9hk8UV9nX4n663sXmOr9h+dOckY=
+
+Name: res/drawable-hdpi-v4/leak_canary_notification.png
+SHA1-Digest-Manifest: cQwd749QNvPn8tQ+Qp/3admY6Gg=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_remind_2.png
+SHA1-Digest-Manifest: Wom4QSWgbDFx2zLfAYFOTlktN8k=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_wake_wechat_3.png
+SHA1-Digest-Manifest: VdVJB2ZYzC0zYakGVBA+6QsjoNE=
+
+Name: res/drawable-hdpi-v4/learn_mr_wake_facebook_2.png
+SHA1-Digest-Manifest: XCO2gymy4jOI+Vgyw80soIkluW0=
+
+Name: res/drawable-hdpi-v4/learn_mr_wake_wechat_1.png
+SHA1-Digest-Manifest: SjhNSaRVVHzbp0k1xBBSWqmv7Mw=
+
+Name: res/drawable-hdpi-v4/learn_mr_remind_3.png
+SHA1-Digest-Manifest: FOKz3efQ11dO7P+sFON1Wbv5qAs=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_wake_email_2.png
+SHA1-Digest-Manifest: u5wp15KnLtQUEZH/C+yEurDE/LU=
+
+Name: res/drawable-hdpi-v4/learn_mr_smart_keep_screen_enable_3.png
+SHA1-Digest-Manifest: Ozbx4lW/4sbeTeVT3VkK4kaD7zg=
+
+Name: res/anim/anim_learn_touch_control_standby_interface_unlock.xml
+SHA1-Digest-Manifest: BzK16vE+oy8DtLFVojwuczDSak4=
+
+Name: res/anim/anim_learn_mr_shake.xml
+SHA1-Digest-Manifest: Q/BJtKIoiMwU8DPEcYNHmJLpDBY=
+
+Name: res/layout/custom_gesture_preference.xml
+SHA1-Digest-Manifest: dzs4n1qqOzRjmJ4YDE6DLM/OTdY=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_remind_3.png
+SHA1-Digest-Manifest: oNFU+9/ufVQ7TIMop9X+coF2xFc=
+
+Name: res/drawable-hdpi-v4/learn_mr_wake_facebook_1.png
+SHA1-Digest-Manifest: HfrUxcfxlyLbIIINI/p2BzL5ddU=
+
+Name: res/drawable-hdpi-v4/learn_mr_unlock_1.png
+SHA1-Digest-Manifest: xPaLpFU+dN+T6uv43xuN6UGNbAM=
+
+Name: res/drawable-sw360dp-hdpi-v13/lean_scale_3.png
+SHA1-Digest-Manifest: lJh4ZiqXtjtkxks2Q5CNKNSvxzY=
+
+Name: res/drawable-hdpi-v4/ic_smart_motion.png
+SHA1-Digest-Manifest: bs9qvvrdQPwpSojbFwCeLrDh1V8=
+
+Name: res/drawable-hdpi-v4/learn_mr_wake_browser_1.png
+SHA1-Digest-Manifest: rnnPq5tQPCnHfprF79Ibmo3klDQ=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_remind_1.png
+SHA1-Digest-Manifest: FttezJEdTB0HanpDU+nORxf/SY4=
+
+Name: res/anim/anim_learn_mr_to_view.xml
+SHA1-Digest-Manifest: nDhPPakTcKp2qXc6GA8pUmYkcy4=
+
+Name: res/xml/smart_wake_settings.xml
+SHA1-Digest-Manifest: okrP6UJxZJrwWeRSZd7wNsCg/Wg=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_mute_1.png
+SHA1-Digest-Manifest: zM8tKyIHr+9IpPCDTiTUOfSy0q8=
+
+Name: res/drawable-sw360dp-hdpi-v13/gesture_1.png
+SHA1-Digest-Manifest: BeP9Egi6dG8SymrcSqF6sOWP6ZM=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_smart_keep_screen_enable_
+ 3.png
+SHA1-Digest-Manifest: kx8kzdybQMTMTkSghmVKl/lLosA=
+
+Name: res/drawable-hdpi-v4/gesture_3.png
+SHA1-Digest-Manifest: 9ePOXx++X2RmHZV88hzEh8eQI0I=
+
+Name: res/xml/motion_recognition_settings.xml
+SHA1-Digest-Manifest: 0WJOpeKgIt4TjgkQ7T6XKi/vyGg=
+
+Name: res/drawable-hdpi-v4/lean_scale_2.png
+SHA1-Digest-Manifest: JPQe5RrGjdFxe0uPmteNoFYdtig=
+
+Name: res/drawable-hdpi-v4/learn_mr_remind_2.png
+SHA1-Digest-Manifest: UXB5Rd5ZimA5T2HaA9DArt9pcoQ=
+
+Name: res/anim/anim_learn_mr_unlock.xml
+SHA1-Digest-Manifest: 0FX7lvNbJLdtdaiQI01JFpOA008=
+
+Name: res/anim/anim_learn_mr_keep_screen_enable.xml
+SHA1-Digest-Manifest: Cfzd7iXggqbG8hEdHep4LKzoks4=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_wake_music_1.png
+SHA1-Digest-Manifest: pUn0fjfsbkZF7PXEGDhN8YSLLMI=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_change_music_1.png
+SHA1-Digest-Manifest: XBYQhkrExm/AAF66XYSdmoWKoI0=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_pocket_out_1.png
+SHA1-Digest-Manifest: Ci5TCNt5aKn/dLb+386aNZvRzjo=
+
+Name: res/anim/anim_learn_mr_screenoff.xml
+SHA1-Digest-Manifest: vjJzO57b+U/BhxR4XRGoTDed5+k=
+
+Name: res/drawable-hdpi-v4/learn_mr_change_music_2.png
+SHA1-Digest-Manifest: zucQR1yPqtc793wSqXyMtQUyhnc=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_call_2.png
+SHA1-Digest-Manifest: QU3/xCcNdk0gZmrcmXnzU21/G5Q=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_wake_browser_4.png
+SHA1-Digest-Manifest: uzzXc2viJrQrWMfOVhC9GEa4vfI=
+
+Name: res/drawable-hdpi-v4/learn_mr_wake_music_2.png
+SHA1-Digest-Manifest: MGdvSiWPoU5VcetltabGmVQS7P4=
+
+Name: res/xml/smart_wakeup_settings.xml
+SHA1-Digest-Manifest: wvd4fXW0oE1VGXgQN2GRqZas7VE=
+
+Name: res/drawable-hdpi-v4/learn_mr_mute_1.png
+SHA1-Digest-Manifest: oxhmormFEeVyM5G7kO4JEU8OGMY=
+
+Name: res/drawable-sw360dp-hdpi-v13/lean_scale_1.png
+SHA1-Digest-Manifest: gIO2B3yNE/0i9OADkweV6PtorlE=
+
+Name: res/drawable-hdpi-v4/learn_mr_smart_keep_screen_enable_1.png
+SHA1-Digest-Manifest: iWY6xXQ4aCnIqd/JtCVb7SzhqAo=
+
+Name: res/drawable-hdpi-v4/learn_mr_wake_music_3.png
+SHA1-Digest-Manifest: D4Ar4KMVqm/Cclar/XeBRy4aJXE=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_shake_2.png
+SHA1-Digest-Manifest: 9DAZ6SOviG2oCyUG3miPSHbfFHE=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_wake_email_1.png
+SHA1-Digest-Manifest: ooKOD4A/cViUmZfReK1ntsEGlQ4=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_wake_facebook_2.png
+SHA1-Digest-Manifest: AOShIN+6HFT7uf3pUp+kGZUZ7eM=
+
+Name: res/drawable-hdpi-v4/learn_mr_shake_1.png
+SHA1-Digest-Manifest: ywPL7m1TiCmAlYdvigrWde1irXk=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_wake_music_2.png
+SHA1-Digest-Manifest: sicEIu1fl0XxZOFM/YXyGrdFXco=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_call_1.png
+SHA1-Digest-Manifest: Am/aE3ZFWECvU/uk9Srixu2rcAI=
+
+Name: res/drawable-hdpi-v4/learn_mr_wake_browser_3.png
+SHA1-Digest-Manifest: /xArNPaBGr4EQEjUEHcD1G7icv4=
+
+Name: res/anim/anim_learn_mr_answer.xml
+SHA1-Digest-Manifest: xC+Nd2evpGx9LabHrKHuhJ7MRcw=
+
+Name: res/drawable-hdpi-v4/learn_mr_remind_1.png
+SHA1-Digest-Manifest: FDoCkGV76CRFQ0+nBGsu5KG8yyY=
+
+Name: res/drawable-hdpi-v4/learn_mr_unlock_3.png
+SHA1-Digest-Manifest: DzYkY7ap+N/gaJU8o7ZA1nkhglY=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_wake_browser_2.png
+SHA1-Digest-Manifest: pm9bZgbwUldQUihOeLYfr4mhSoc=
+
+Name: res/anim/anim_learn_mr_wake_facebook.xml
+SHA1-Digest-Manifest: EKLNBq9OdzLRuAxPwHVFhDX8/fc=
+
+Name: res/drawable-hdpi-v4/gesture_2.png
+SHA1-Digest-Manifest: 7aZzqy9cFqGabfT21kpWsNLUluk=
+
+Name: res/drawable-hdpi-v4/learn_mr_mute_2.png
+SHA1-Digest-Manifest: dZjpYpZX6vbIu0dgzuhGvYbcsVw=
+
+Name: res/drawable-hdpi-v4/learn_mr_unlock_2.png
+SHA1-Digest-Manifest: 3VA9qZktLmJv8zzllom+AoZ4id4=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_pocket_out_2.png
+SHA1-Digest-Manifest: RZZY3ty8W9ILmOvcL87ndJzOG1s=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_wake_browser_1.png
+SHA1-Digest-Manifest: FOCJN4WC2yjMmg7dRo6hb1tUeeU=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_wake_wechat_1.png
+SHA1-Digest-Manifest: BBGIpmSiR4Q8uUKWPLQYVXAipEc=
+
+Name: res/drawable-sw360dp-hdpi-v13/learn_mr_wake_email_3.png
+SHA1-Digest-Manifest: WMegZFWHSR/srYrA0u4z3u7S3WE=
+
+Name: res/drawable-hdpi-v4/learn_mr_to_unlock_2.png
+SHA1-Digest-Manifest: hBTuFLBXS/L9xNPMBp7usCkpajk=
+
+Name: res/xml/custom_add_preference.xml
+SHA1-Digest-Manifest: toIOqEUHSe2zweztpl6mW/pZ1OM=
+

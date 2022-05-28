@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="application_settings_entries">
+        <item>Фонарь</item>
+        <item>Камера</item>
+        <item>Плавающее окно с мини-экраном</item>
+    </string-array>
+    <string-array name="sound_settings_entries">
+        <item>При поднятии телефона рингтон становится тише</item>
+        <item>Продолжать воспроизводить сигнал при поднятии телефона</item>
+    </string-array>
+    <string-array name="touch_settings_entries">
+        <item>Проведите ладонью для отключения звука</item>
+        <item>Проведите рукой, чтобы использовать гарнитуру</item>
+    </string-array>
+</resources>

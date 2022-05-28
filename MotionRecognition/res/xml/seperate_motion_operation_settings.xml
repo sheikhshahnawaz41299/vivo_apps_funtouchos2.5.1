@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/seperate_motion_operation_settings" android:key="seperate_motion_operation_settings_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.vivo.motionrecognition">
+    <PreferenceCategory android:title="@string/click_content_preform_experience" android:key="click_content_preform_experience" />
+    <VivoCheckBoxPreference android:title="@string/screen_disable_to_view_setting" android:key="screen_disable_to_view_setting" android:defaultValue="false" />
+    <VivoCheckBoxPreference android:title="@string/motion_unlock_setting" android:key="motion_unlock_setting" android:defaultValue="false" />
+    <VivoCheckBoxPreference android:title="@string/touch_control_maps_setting" android:key="touch_control_maps_setting" android:defaultValue="false" />
+    <VivoCheckBoxPreference android:title="@string/touch_control_standby_interface_setting" android:key="touch_control_standby_interface_setting" android:defaultValue="false" />
+</PreferenceScreen>

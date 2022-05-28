@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="application_settings_entries">
+        <item>ફ્લૅશલાઇટ</item>
+        <item>કૅમેરા</item>
+        <item>મિની સ્ક્રીન ફ્લૉટિંગ વિન્ડો</item>
+    </string-array>
+    <string-array name="sound_settings_entries">
+        <item>ફોન ઉપાડવામાં આવે ત્યારે રિંગટોન શાંત થાય છે</item>
+        <item>ફોન ઉપાડવામાં આવે ત્યારે રિંગ થવાનું ચાલુ રાખો</item>
+    </string-array>
+    <string-array name="touch_settings_entries">
+        <item>મ્યૂટ કરવા માટે હાથ હલાવો</item>
+        <item>હેન્ડ્સ ફ્રી કરવા માટે હાથ હલાવો</item>
+    </string-array>
+</resources>

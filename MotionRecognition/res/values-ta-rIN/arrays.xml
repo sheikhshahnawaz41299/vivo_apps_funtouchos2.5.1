@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="application_settings_entries">
+        <item>பிளாஷ்ஒளி</item>
+        <item>கேமரா</item>
+        <item>மினி திரை மிதக்கும் சாளரம்</item>
+    </string-array>
+    <string-array name="sound_settings_entries">
+        <item>தொலைபேசியை எடுக்கும்போது ரிங்டோன் அமைதியாகி விடும்</item>
+        <item>தொலைபேசியை எடுக்கும்போது தொடர்ந்து ரிங்கில் வைத்திரு</item>
+    </string-array>
+    <string-array name="touch_settings_entries">
+        <item>ஒலிஅணைக்க அசைக்கவும்</item>
+        <item>ஹேண்ட்ஸ் ஃப்ரீயைப் பயன்படுத்துவதற்கு அசைக்கவும்</item>
+    </string-array>
+</resources>

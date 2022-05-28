@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Light" />
+    <style name="SettingsTheme" parent="@vivo:style/Theme.Vigour.Light">
+        <item name="vivo:titleButtonStyle">@vivo:style/Vigour.TitleButton.Internet.Light</item>
+        <item name="vivo:titleBtnIconStyle">@vivo:style/Vigour.TitleBtnIcon.Internet.Light</item>
+    </style>
+</resources>

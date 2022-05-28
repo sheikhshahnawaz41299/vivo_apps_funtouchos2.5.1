@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="application_settings_entries">
+        <item>ଫ୍ଲାସ୍‌ଲାଇଟ୍</item>
+        <item>କ୍ୟାମେରା</item>
+        <item>ମିନି ସ୍କ୍ରିନ୍ ଭାସମାନ ୱିଣ୍ଡୋ</item>
+    </string-array>
+    <string-array name="sound_settings_entries">
+        <item>ଫୋନ୍ ଉଠାଯିବା ବେଳେ ରିଂଟୋନ୍ ଧୀର ହୋଇଥାଏ</item>
+        <item>ଫୋନ୍ ଉଠାଯିବା ବେଳେ ରିଂ ହେବା ଜାରି ରଖନ୍ତୁ</item>
+    </string-array>
+    <string-array name="touch_settings_entries">
+        <item>ମ୍ୟୁଟ୍ କରିବାକୁ ୱେଭ୍ କରନ୍ତୁ</item>
+        <item>ହ୍ୟାଣ୍ଡସ୍ ଫ୍ରୀ ବ୍ୟବହାର କରିବାକୁ ୱେଭ୍ କରନ୍ତୁ</item>
+    </string-array>
+</resources>

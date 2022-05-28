@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="application_settings_entries">
+        <item>फ़्लैशलाइट</item>
+        <item>कैमरा</item>
+        <item>मिनी स्क्रीन फ़्लोटिंग विंडो</item>
+    </string-array>
+    <string-array name="sound_settings_entries">
+        <item>जब फ़ोन उठाया जाता है तो रिंगटोन शांत हो जाती है</item>
+        <item>फ़ोन उठाया जाने पर रिंग बजाते रहें</item>
+    </string-array>
+    <string-array name="touch_settings_entries">
+        <item>म्यूट करने के लिए लहराएं</item>
+        <item>हैंड्स-फ्री का उपयोग करने के लिए लहराएँ</item>
+    </string-array>
+</resources>

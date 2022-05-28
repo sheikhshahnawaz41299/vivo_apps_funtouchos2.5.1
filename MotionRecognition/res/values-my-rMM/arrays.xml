@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="application_settings_entries">
+        <item>ဖလက်ရှ်မီး</item>
+        <item>ကင်မရာ</item>
+        <item>စခရင်ငယ်</item>
+    </string-array>
+    <string-array name="sound_settings_entries">
+        <item>ဖုန်းကိုကောက်ကိုင်လိုက်သောအခါ ဖုန်းမြည်သံများ တိုးသွားမည်</item>
+        <item>ဖုန်းကိုကောက်ကိုင်လိုက်သောအခါ ဖုန်းမြည်သံ ဆက်ရှိနေပါ</item>
+    </string-array>
+    <string-array name="touch_settings_entries">
+        <item>အသံတိတ်ရန် ဝှေ့ယမ်းပြပါ</item>
+        <item>လက်ကိုင်မဲ့အသုံးပြုရန် ဝှေ့ယမ်းပြပါ</item>
+    </string-array>
+</resources>

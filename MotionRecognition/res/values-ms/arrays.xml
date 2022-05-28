@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="application_settings_entries">
+        <item>Lampu suluh</item>
+        <item>Kamera</item>
+        <item>Skrin kecil</item>
+    </string-array>
+    <string-array name="sound_settings_entries">
+        <item>Nada dering lebih kecil semasa mengangkat telefon</item>
+        <item>Angkat telefon dan nada dering kekal sama</item>
+    </string-array>
+    <string-array name="touch_settings_entries">
+        <item>Sapu untuk menyenyapkan</item>
+        <item>Sapu untuk pembesar suara</item>
+    </string-array>
+</resources>

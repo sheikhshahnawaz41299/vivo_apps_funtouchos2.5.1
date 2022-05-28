@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="application_settings_entries">
+        <item>手電筒</item>
+        <item>相機</item>
+        <item>小螢幕懸浮窗</item>
+    </string-array>
+    <string-array name="sound_settings_entries">
+        <item>拿起手機降低鈴聲音量</item>
+        <item>拿起手機鈴聲音量不變</item>
+    </string-array>
+    <string-array name="touch_settings_entries">
+        <item>平滑處理靜音</item>
+        <item>平滑處理免提接聽</item>
+    </string-array>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="application_settings_entries">
+        <item>फ्लॅशलाइट</item>
+        <item>कॅमेरा</item>
+        <item>लहान स्क्रीन तरंगती विंडो</item>
+    </string-array>
+    <string-array name="sound_settings_entries">
+        <item>फोन उचलल्यावर रिंगटोन अधिकाधिक शांत होते</item>
+        <item>फोन उचलल्यावर रिंग करणे चालू ठेवा</item>
+    </string-array>
+    <string-array name="touch_settings_entries">
+        <item>मूक करण्यासाठी हलवा</item>
+        <item>हँड्स फ्री वापरण्यासाठी हलवा</item>
+    </string-array>
+</resources>

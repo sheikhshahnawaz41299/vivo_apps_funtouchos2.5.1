@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="application_settings_entries">
+        <item>ဖလက္ရွ္မီး</item>
+        <item>ကင္မရာ</item>
+        <item>စခရင္ငယ္</item>
+    </string-array>
+    <string-array name="sound_settings_entries">
+        <item>ဖုန္းကိုေကာက္ကိုင္လုိက္ေသာအခါ ဖုန္းျမည္သံမ်ား တိုးသြားမည္</item>
+        <item>ဖုန္းကိုေကာက္ကိုင္လုိက္ေသာအခါ ဖုန္းျမည္သံ ဆက္ရွိေနပါ</item>
+    </string-array>
+    <string-array name="touch_settings_entries">
+        <item>အသံတိတ္ရန္ ေ၀ွ႕ယမ္းျပပါ</item>
+        <item>လက္ကိုင္မဲ့အသံုးျပဳရန္ ေ၀ွ႕ယမ္းျပပါ</item>
+    </string-array>
+</resources>

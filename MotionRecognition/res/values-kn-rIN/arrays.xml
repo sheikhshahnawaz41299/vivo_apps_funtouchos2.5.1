@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="application_settings_entries">
+        <item>ಎಲೆಕ್ಟ್ರಿಕ್ ಟಾರ್ಚ್</item>
+        <item>ಕ್ಯಾಮರಾ</item>
+        <item>ಮಿನಿ ಪರದೆಯ ತೇಲುವ ವಿಂಡೋ</item>
+    </string-array>
+    <string-array name="sound_settings_entries">
+        <item>ಫೋನ್ ಎತ್ತಿಕೊಂಡಾಗ ರಿಂಗ್‌ಟೋನ್ ಶಾಂತಗೊಳ್ಳುತ್ತದೆ</item>
+        <item>ಫೋನ್ ಎತ್ತಿಕೊಂಡಾಗಲೂ ರಿಂಗ್ ಆಗುತ್ತಿರಲಿ</item>
+    </string-array>
+    <string-array name="touch_settings_entries">
+        <item>ಮ್ಯೂಟ್ ಮಾಡಲು ಅಂಗೈ ಬೀಸಿ</item>
+        <item>ಹ್ಯಾಂಡ್ಸ್ ಫ್ರೀ ಬಳಸಲು ಕೈಬೀಸಿ</item>
+    </string-array>
+</resources>

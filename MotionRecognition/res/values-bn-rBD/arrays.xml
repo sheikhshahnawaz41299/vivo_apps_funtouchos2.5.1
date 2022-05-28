@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="application_settings_entries">
+        <item>টর্চলাইট</item>
+        <item>ক্যামেরা</item>
+        <item>মিনি স্ক্রীন ভাসমান উইন্ডো</item>
+    </string-array>
+    <string-array name="sound_settings_entries">
+        <item>যখন ফোন তোলা হয় তখন রিংটোন তুলনামূলক ধীর হয়।</item>
+        <item>যখন ফোন তোলা হয় তখন রিং করা চালিয়ে যান</item>
+    </string-array>
+    <string-array name="touch_settings_entries">
+        <item>নীরব করতে প্রবাহিত করুন</item>
+        <item>হ্যান্ডস ফ্রি ব্যবহার করতে প্রবাহিত করুন</item>
+    </string-array>
+</resources>

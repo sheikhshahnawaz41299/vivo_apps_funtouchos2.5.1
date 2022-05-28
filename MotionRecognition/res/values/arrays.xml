@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="application_settings_entries">
+        <item>Flashlight</item>
+        <item>Camera</item>
+        <item>Mini screen</item>
+    </string-array>
+    <string-array name="sound_settings_entries">
+        <item>Ringtones smaller when pick up phone</item>
+        <item>Keep ringing when pick up phone</item>
+    </string-array>
+    <string-array name="touch_settings_entries">
+        <item>Wave to mute</item>
+        <item>Wave to hands free</item>
+    </string-array>
+    <string-array name="default_sim_settings_entries">
+        <item>SIM1</item>
+        <item>SIM2</item>
+    </string-array>
+    <string-array name="default_sim_settings_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

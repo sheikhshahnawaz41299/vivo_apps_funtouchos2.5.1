@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="application_settings_entries">
+        <item>Senter</item>
+        <item>Kamera</item>
+        <item>Layar mini</item>
+    </string-array>
+    <string-array name="sound_settings_entries">
+        <item>Nada dering lebih kecil ketika mengangkat telepon</item>
+        <item>Tetap berdering ketika telepon diangkat</item>
+    </string-array>
+    <string-array name="touch_settings_entries">
+        <item>Lambaikan untuk membungkam</item>
+        <item>Lambaikan untuk fungsi bebas genggam</item>
+    </string-array>
+</resources>

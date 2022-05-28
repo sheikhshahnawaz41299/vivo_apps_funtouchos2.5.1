@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="application_settings_entries">
+        <item>ضوء الفلاش</item>
+        <item>كاميرا</item>
+        <item>نافذة عائمة صغيرة على الشاشة</item>
+    </string-array>
+    <string-array name="sound_settings_entries">
+        <item>كتم صوت نغمة الرنين عند التقاط الهاتف</item>
+        <item>استمرار صوت نغمة الرنين عند التقاط الهاتف</item>
+    </string-array>
+    <string-array name="touch_settings_entries">
+        <item>تحريك لكتم الصوت</item>
+        <item>تحريك اليد لاستخدام وضع حر اليدين</item>
+    </string-array>
+</resources>

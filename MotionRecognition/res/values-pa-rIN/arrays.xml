@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="application_settings_entries">
+        <item>ਫਲੈਸ਼ਲਾਈਟ</item>
+        <item>ਕੈਮਰਾ</item>
+        <item>ਮਿੰਨੀ ਸਕ੍ਰੀਨ ਫਲੋਟਿੰਗ ਵਿੰਡੋ</item>
+    </string-array>
+    <string-array name="sound_settings_entries">
+        <item>ਜਦੋਂ ਫੋਨ ਉਠਾਇਆ ਜਾਂਦਾ ਹੈ ਤਾਂ ਰਿੰਗਟੋਨ ਬੰਦ ਹੋ ਜਾਂਦੀ ਹੈ</item>
+        <item>ਰਿੰਗਟੋਨ ਵੱਜਦੀ ਰਹਿੰਦੀ ਹੈ ਜਦੋਂ ਫੋਨ ਉਠਾਇਆ ਜਾਂਦਾ ਹੈ</item>
+    </string-array>
+    <string-array name="touch_settings_entries">
+        <item>ਮਿਊਟ ਕਰਨ ਲਈ ਲਹਿਰਾਉ</item>
+        <item>ਹੈਂਡਜ਼ ਫਰੀ ਵਰਤੋਂ ਕਰਨ ਲਈ ਲਹਿਰਾਉ</item>
+    </string-array>
+</resources>

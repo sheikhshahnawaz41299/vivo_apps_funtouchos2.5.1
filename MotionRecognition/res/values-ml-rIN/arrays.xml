@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="application_settings_entries">
+        <item>വൈദ്യുത ടോർച്ച്</item>
+        <item>ക്യാമറ</item>
+        <item>മിനി സ്ക്രീൻ ഫ്ലോട്ടിംഗ് വിൻഡോ</item>
+    </string-array>
+    <string-array name="sound_settings_entries">
+        <item>ഫോൺ എടുക്കുമ്പോൾ റിംഗ്ടോൺ നിശബ്‌ദമാകുന്നു</item>
+        <item>ഫോൺ എടുത്തതിന് ശേഷവും റിംഗ്ചെയ്യുന്നത് തുടരുക</item>
+    </string-array>
+    <string-array name="touch_settings_entries">
+        <item>മ്യൂട്ടുചെയ്യുന്നതിനായി ചലിപ്പിക്കുക</item>
+        <item>ഹാൻഡ്സ് ഫ്രീ ഉപയോഗിക്കുന്നതിന് ചലിപ്പിക്കുക</item>
+    </string-array>
+</resources>

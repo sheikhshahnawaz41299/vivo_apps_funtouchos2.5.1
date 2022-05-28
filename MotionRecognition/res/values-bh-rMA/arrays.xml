@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="application_settings_entries">
+        <item>टार्च</item>
+        <item>कैमरा</item>
+        <item>छोट स्क्रीन घुमैत Window</item>
+    </string-array>
+    <string-array name="sound_settings_entries">
+        <item>रिंगटोन तेज होएत जहन फोन उठाओल जाएत</item>
+        <item>बाजैत रहत जहन फोन उठाओल जाएत</item>
+    </string-array>
+    <string-array name="touch_settings_entries">
+        <item>चुप करबाक लेल हिलाउ</item>
+        <item>हाथ खालीक पयोग करवाक लेल हिलाउ</item>
+    </string-array>
+</resources>

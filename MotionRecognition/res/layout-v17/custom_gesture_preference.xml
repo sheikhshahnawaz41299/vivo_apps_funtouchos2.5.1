@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ges_img" android:layout_width="@dimen/small_icon_width" android:layout_height="@dimen/small_icon_height" android:scaleType="fitXY" android:layout_centerVertical="true" android:layout_marginStart="@dimen/image_to_left" />
+    <ImageView android:id="@id/arrow" android:background="?vivo:btnArrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/arrow_to_right" android:layout_alignParentEnd="true" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/ges_img">
+        <TextView android:textAppearance="?vivo:textAppearancePreferenceTitle" android:ellipsize="end" android:id="@id/ges_tip" android:layout_width="@dimen/ges_tip_lenght" android:layout_height="wrap_content" android:maxLines="2" android:singleLine="false" android:layout_marginStart="@dimen/tip_to_image" />
+        <TextView android:textAppearance="?vivo:textAppearancePreferenceSummary" android:id="@id/ges_status" android:layout_width="@dimen/ges_tip_lenght" android:layout_height="wrap_content" android:layout_below="@id/ges_tip" android:layout_alignStart="@id/ges_tip" />
+    </RelativeLayout>
+</RelativeLayout>

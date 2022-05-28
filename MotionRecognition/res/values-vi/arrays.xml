@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="application_settings_entries">
+        <item>Đèn flash</item>
+        <item>Camera</item>
+        <item>Cửa sổ màn hình mini nổi</item>
+    </string-array>
+    <string-array name="sound_settings_entries">
+        <item>Nhạc chuông sẽ nhỏ đi khi bạn cầm điện thoại lên</item>
+        <item>Tiếp tục đổ chuông khi bạn cầm điện thoại lên</item>
+    </string-array>
+    <string-array name="touch_settings_entries">
+        <item>Vẫy tay để tắt tiếng</item>
+        <item>Vẫy tay để dùng chế độ rảnh tay</item>
+    </string-array>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/app_name" android:key="motion_recognition_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.vivo.motionrecognition">
+    <PreferenceScreen android:title="@string/smart_wake_settings" android:key="smart_wake_settings">
+        <intent android:action="com.vivo.motionrecognition.smart_wake_settings" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/seperate_motion_operation_settings" android:key="seperate_motion_operation_settings">
+        <intent android:action="com.vivo.motionrecognition.seperate_motion_operation_settings" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/smart_wakeup_off_settings" android:key="smart_wakeup_settings">
+        <intent android:action="com.vivo.motionrecognition.smart_wakeup_settings" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/smart_phone_settings" android:key="smart_phone_settings">
+        <intent android:action="com.vivo.motionrecognition.smart_phone_settings" />
+    </PreferenceScreen>
+    <PreferenceCategory android:title="@string/click_content_preform_experience" android:key="wave_open_application">
+        <VivoCheckBoxPreference android:title="@string/wave_open_Flashlight_setting" android:key="wave_open_application_setting" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/wave_open_application_setting_tips" android:key="wave_open_application_setting_tips" />
+    <VivoCheckBoxPreference android:title="@string/tilt_phone_zoom_photes_setting" android:key="tilt_phone_zoom_photes_setting" android:defaultValue="false" />
+    <VivoCheckBoxPreference android:title="@string/smart_remind_setting" android:key="smart_remind_setting" android:defaultValue="false" />
+</PreferenceScreen>

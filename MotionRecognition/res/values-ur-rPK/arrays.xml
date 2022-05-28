@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="application_settings_entries">
+        <item>فلیش لائٹ</item>
+        <item>کیمرا</item>
+        <item>منی اسکرین فلوٹنگ وِنڈو</item>
+    </string-array>
+    <string-array name="sound_settings_entries">
+        <item>فون اٹھانے پر رنگ ٹون خاموش تر ہو جاتا ہے</item>
+        <item>فون اٹھانے پر بجتا رہتا ہے</item>
+    </string-array>
+    <string-array name="touch_settings_entries">
+        <item>خاموش کرنے کے لئے لہرائیں</item>
+        <item>ہنڈس فری کرنے کے لئے گھمائیں</item>
+    </string-array>
+</resources>

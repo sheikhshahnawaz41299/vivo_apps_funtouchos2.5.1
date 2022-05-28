@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="application_settings_entries">
+        <item>Flashlight</item>
+        <item>Camera</item>
+        <item>Floating na window ng maliit na screen</item>
+    </string-array>
+    <string-array name="sound_settings_entries">
+        <item>Tatahimik ang ringtone kapag kinuha ang telepono</item>
+        <item>Manatiling nagri-ring kapag kinuha ang telepono</item>
+    </string-array>
+    <string-array name="touch_settings_entries">
+        <item>Kumumpas para i-mute</item>
+        <item>Kumumpas para gumamit nang handsfree</item>
+    </string-array>
+</resources>

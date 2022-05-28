@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="ges_img" />
+    <item type="id" name="arrow" />
+    <item type="id" name="ges_tip" />
+    <item type="id" name="ges_status" />
+    <item type="id" name="learn_motion_recognition_tip" />
+    <item type="id" name="learn_motion_recognition_img" />
+    <item type="id" name="learn_motion_recognition_tip1" />
+</resources>

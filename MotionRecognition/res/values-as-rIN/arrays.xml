@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="application_settings_entries">
+        <item>ফ্লেচলাইট</item>
+        <item>কেমেৰা</item>
+        <item>"ক্ষুদ্ৰ স্ক্ৰীণ ফ্লটিং উইণ্ড'"</item>
+    </string-array>
+    <string-array name="sound_settings_entries">
+        <item>ফোন উঠোৱাৰ সময়ত ৰিংটন নীৰৱ হয়</item>
+        <item>ফোন উঠোৱাৰ সময়ত ৰিং কৰি থাকক</item>
+    </string-array>
+    <string-array name="touch_settings_entries">
+        <item>মিউট কৰিবলৈ ৱেভ কৰক</item>
+        <item>হেণ্ডছ ফ্ৰি ব্যৱহাৰ কৰিবলৈ হাত লৰাওক</item>
+    </string-array>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/smart_wake_settings" android:key="smart_wakeup_settings_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.vivo.motionrecognition">
+    <PreferenceCategory android:title="@string/click_content_preform_experience" android:key="click_content_preform_experience" />
+    <VivoCheckBoxPreference android:title="@string/screen_disable_to_unlock_setting" android:key="screen_disable_to_unlock_setting" android:defaultValue="false" />
+    <VivoCheckBoxPreference android:title="@string/screen_disable_wake_camera_setting" android:key="screen_disable_wake_camera_setting" android:defaultValue="false" />
+    <VivoCheckBoxPreference android:title="@string/screen_disable_wake_dial_setting" android:key="screen_disable_wake_dial_setting" android:defaultValue="false" />
+    <VivoCheckBoxPreference android:title="@string/screen_disable_wake_music_setting" android:key="screen_disable_wake_music_setting" android:defaultValue="false" />
+    <VivoCheckBoxPreference android:title="@string/screen_disable_change_music_setting" android:key="screen_disable_change_music_setting" android:defaultValue="false" />
+    <VivoCheckBoxPreference android:title="@string/screen_disable_wake_browser_setting" android:key="screen_disable_wake_browser_setting" android:defaultValue="false" />
+    <VivoCheckBoxPreference android:title="@string/screen_disable_wake_wechat_setting" android:key="screen_disable_wake_wechat_setting" android:defaultValue="false" />
+    <VivoCheckBoxPreference android:title="@string/screen_disable_wake_facebook_setting" android:key="screen_disable_wake_facebook_setting" android:defaultValue="false" />
+    <VivoCheckBoxPreference android:title="@string/screen_disable_wake_email_setting" android:key="screen_disable_wake_email_setting" android:defaultValue="false" />
+</PreferenceScreen>

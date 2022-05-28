@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_icon_width">31.0dip</dimen>
+    <dimen name="small_icon_height">31.0dip</dimen>
+    <dimen name="image_to_left">21.0dip</dimen>
+    <dimen name="tip_to_image">10.0dip</dimen>
+    <dimen name="arrow_to_right">20.0dip</dimen>
+    <dimen name="status_to_arrow">10.0dip</dimen>
+    <dimen name="ges_tip_lenght">256.0dip</dimen>
+    <dimen name="ges_tip_text_size">17.0sp</dimen>
+    <dimen name="ges_status_text_size">14.0sp</dimen>
+    <dimen name="location_left_margin">6.0dip</dimen>
+    <dimen name="location_icon_margin">12.0dip</dimen>
+    <dimen name="app_bg_size">27.0dip</dimen>
+</resources>

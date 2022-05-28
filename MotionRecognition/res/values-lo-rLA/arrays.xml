@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="application_settings_entries">
+        <item>​ໄຟ​ສາຍ</item>
+        <item>ກ້ອງຖ່າຍຮູບ</item>
+        <item>ໜ້າຕ່າງລອຍຂອງໜ້າຈໍຂະໜາດນ້ອຍ</item>
+    </string-array>
+    <string-array name="sound_settings_entries">
+        <item>ຣິງໂທນມິດລົງເມື່ອໂທລະສັບຖືກຈັບຂຶ້ນມາ</item>
+        <item>ໃຫ້ມີສຽງດັງຕໍ່ໄປເມື່ອໂທລະສັບຖືກຈັບຂຶ້ນມາ</item>
+    </string-array>
+    <string-array name="touch_settings_entries">
+        <item>ເລື່ອນຂຶ້ນລົງເພື່ອປິດສຽງ</item>
+        <item>ເລື່ອນຂຶ້ນລົງເພື່ອໃຊ້ ໂໝດບໍ່ໃຊ້ມື</item>
+    </string-array>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/smart_phone_settings" android:key="smart_phone_settings_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.vivo.motionrecognition">
+    <PreferenceCategory android:title="@string/click_content_preform_experience" android:key="default_sim">
+        <VivoCheckBoxPreference android:title="@string/smart_call_setting" android:key="smart_call_setting" android:defaultValue="false" />
+        <ListPreference android:persistent="false" android:enabled="false" android:entries="@array/default_sim_settings_entries" android:title="@string/default_sim_settings" android:key="default_sim_settings" android:summary="@string/default_sim_settings_tips" android:entryValues="@array/default_sim_settings_values" />
+    </PreferenceCategory>
+    <VivoCheckBoxPreference android:title="@string/smart_answer_setting" android:key="smart_answer_setting" android:defaultValue="false" />
+    <VivoCheckBoxPreference android:title="@string/smart_switch_setting" android:key="smart_switch_setting" android:defaultValue="false" />
+    <VivoCheckBoxPreference android:title="@string/cover_screen_mute_setting" android:key="cover_screen_mute_setting" android:defaultValue="false" />
+    <VivoCheckBoxPreference android:title="@string/smart_touch_setting" android:key="smart_touch_setting" android:defaultValue="false" />
+</PreferenceScreen>

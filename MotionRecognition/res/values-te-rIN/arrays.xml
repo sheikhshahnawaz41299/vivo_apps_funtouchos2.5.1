@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="application_settings_entries">
+        <item>ఫ్లాష్‌లైట్</item>
+        <item>కెమెరా</item>
+        <item>చిన్న స్క్రీన్ ఫ్లోటింగ్ విండో</item>
+    </string-array>
+    <string-array name="sound_settings_entries">
+        <item>ఫోన్ ఎత్తినప్పుడు రింగ్‌టోన్ నిశ్శబ్దమవుతుంది</item>
+        <item>ఫోన్ ఎత్తినప్పుడు రింగ్ చేయడం కొనసాగించు</item>
+    </string-array>
+    <string-array name="touch_settings_entries">
+        <item>మ్యూట్ చేయడానికి ఊపండి</item>
+        <item>హ్యాండ్స్ ఫ్రీ ఉపయోగించడానికి ఊపండి</item>
+    </string-array>
+</resources>

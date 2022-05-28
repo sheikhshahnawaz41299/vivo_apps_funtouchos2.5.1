@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="application_settings_entries">
+        <item>ไฟฉาย</item>
+        <item>กล้องถ่ายรูป</item>
+        <item>หน้าต่างมัลติทาส์ก</item>
+    </string-array>
+    <string-array name="sound_settings_entries">
+        <item>เสียงเรียกเข้าเบาลงเมื่อหยิบโทรศัพท์</item>
+        <item>เสียงเรียกเข้าดังปกติเมื่อหยิบโทรศัพท์</item>
+    </string-array>
+    <string-array name="touch_settings_entries">
+        <item>ปัดเพื่อปิดเสียง</item>
+        <item>ปัดเพื่อรับสายแฮนด์ฟรี</item>
+    </string-array>
+</resources>

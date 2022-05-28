@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/smart_wakeup_off_settings" android:key="smart_wakeup_settings_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.vivo.motionrecognition">
+    <PreferenceCategory android:title="@string/click_content_preform_experience" android:key="click_content_preform_experience" />
+    <VivoCheckBoxPreference android:title="@string/screen_enable_out_pocket_setting" android:key="screen_enable_out_pocket_setting" android:defaultValue="false" />
+    <VivoCheckBoxPreference android:title="@string/smart_wakeup_setting" android:key="smart_wakeup_setting" android:defaultValue="true" />
+    <VivoCheckBoxPreference android:title="@string/smart_keep_screen_enable_setting" android:key="smart_keep_screen_enable_setting" android:defaultValue="false" />
+    <VivoCheckBoxPreference android:title="@string/dblclick_to_off_screen_setting" android:key="dblclick_to_off_screen_setting" android:defaultValue="false" />
+</PreferenceScreen>
