@@ -1,0 +1,1488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Vigour.Light" parent="@style/Theme.Vigour" />
+    <style name="Theme.Vigour.Dark" parent="@style/Theme.Vigour">
+        <item name="android:textColorPrimary">@color/vigour_text_color_primary_dark</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/vigour_text_color_primary_dark</item>
+        <item name="android:textColorSecondary">@color/vigour_text_color_secondary_dark</item>
+        <item name="android:textColorPrimaryInverse">@color/vigour_text_color_primary_inverse_dark</item>
+        <item name="android:textColorSecondaryInverse">@color/vigour_text_color_secondary_inverse_dark</item>
+        <item name="android:buttonStyle">@style/Widget.Vigour.Button.Dark</item>
+        <item name="android:buttonStyleSmall">@style/Widget.Vigour.Button.Small.Dark</item>
+        <item name="android:buttonStyleInset">@style/Widget.Vigour.Button.Inset.Dark</item>
+        <item name="android:buttonStyleToggle">@style/Widget.Vigour.Button.Toggle.Dark</item>
+        <item name="android:windowBackground">@drawable/APKTOOL_DUMMY_3d5</item>
+        <item name="android:windowTitleStyle">@style/Vigour.WindowTitle.Dark</item>
+        <item name="android:windowTitleBackgroundStyle">@style/Vigour.WindowTitleBackground.Dark</item>
+        <item name="android:panelBackground">@drawable/vigour_menu_bg_dark</item>
+        <item name="android:panelFullBackground">@drawable/vigour_menu_bg_dark</item>
+        <item name="android:autoCompleteTextViewStyle">@style/Widget.Vigour.AutoCompleteTextView.Dark</item>
+        <item name="android:checkboxStyle">@style/Widget.Vigour.CheckBox.Dark</item>
+        <item name="android:dropDownListViewStyle">@style/Widget.Vigour.ListView.DropDown.Dark</item>
+        <item name="android:editTextStyle">@style/Widget.Vigour.EditText.Dark</item>
+        <item name="android:expandableListViewStyle">@style/Widget.Vigour.ExpandableListView.Dark</item>
+        <item name="android:gridViewStyle">@style/Widget.Vigour.GridView.Dark</item>
+        <item name="android:listViewStyle">@style/Widget.Vigour.ListView.Dark</item>
+        <item name="android:listViewWhiteStyle">@style/Widget.Vigour.ListView.White.Dark</item>
+        <item name="android:progressBarStyle">@style/Widget.Vigour.ProgressBar.Dark</item>
+        <item name="android:progressBarStyleHorizontal">@style/Widget.Vigour.ProgressBar.Horizontal.Dark</item>
+        <item name="android:progressBarStyleSmall">@style/Widget.Vigour.ProgressBar.Dark</item>
+        <item name="android:progressBarStyleLarge">@style/Widget.Vigour.ProgressBar.Dark</item>
+        <item name="android:seekBarStyle">@style/Widget.Vigour.SeekBar.Dark</item>
+        <item name="android:radioButtonStyle">@style/Widget.Vigour.RadioButton.Dark</item>
+        <item name="android:spinnerStyle">@style/Widget.Vigour.Spinner.Dark</item>
+        <item name="android:tabWidgetStyle">@style/Widget.Vigour.TabWidget.Dark</item>
+        <item name="android:dropDownItemStyle">@style/Widget.Vigour.DropDownItem.Dark</item>
+        <item name="android:spinnerItemStyle">@style/Widget.Vigour.TextView.SpinnerItem.Dark</item>
+        <item name="android:textColorHighlight">@color/vigour_text_color_highlight_dark</item>
+        <item name="android:textColorHint">@color/edittext_hint_color_dark</item>
+        <item name="android:progressBarStyleSmallTitle">@style/Widget.Vigour.ProgressBar.Dark</item>
+        <item name="android:textColorTertiary">@color/vigour_text_tertiary_dark</item>
+        <item name="android:listDivider">@drawable/vigour_divider_horizontal_dark</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/vigour_btn_radio_dark</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/vigour_btn_check_dark</item>
+        <item name="android:progressBarStyleInverse">@style/Widget.Vigour.ProgressBar.Dark</item>
+        <item name="android:progressBarStyleSmallInverse">@style/Widget.Vigour.ProgressBar.Dark</item>
+        <item name="android:progressBarStyleLargeInverse">@style/Widget.Vigour.ProgressBar.Dark</item>
+        <item name="android:textColorPrimaryInverseDisableOnly">@color/vigour_primary_text_bright_disable_only_dark</item>
+        <item name="android:expandableListViewWhiteStyle">@style/Widget.Vigour.ExpandableListView.White.Dark</item>
+        <item name="android:webTextViewStyle">@style/Widget.Vigour.WebTextView.Dark</item>
+        <item name="android:listChoiceBackgroundIndicator">@drawable/vigour_list_bg_dark</item>
+        <item name="android:listPopupWindowStyle">@style/Widget.Vigour.ListPopupWindow.Dark</item>
+        <item name="android:popupMenuStyle">@style/Widget.Vigour.PopupMenu.Dark</item>
+        <item name="android:listDividerAlertDialog">@drawable/vigour_divider_horizontal_dark</item>
+        <item name="android:textColorAlertDialogListItem">@color/vigour_primary_text_bright_disable_only_dark</item>
+        <item name="android:dialogTheme">@style/Theme.Vigour.Dark.Dialog</item>
+        <item name="android:alertDialogTheme">@style/Theme.Vigour.Dark.Dialog.Alert</item>
+        <item name="android:selectableItemBackground">@drawable/vigour_item_bg_dark</item>
+        <item name="android:textColorHighlightInverse">@color/vigour_text_color_highlight_inverse_dark</item>
+        <item name="android:editTextColor">@color/vigour_text_primary_dark</item>
+        <item name="android:alertDialogIcon">@drawable/vigour_dialog_close_btn_dark</item>
+        <item name="android:textSuggestionsWindowStyle">@style/Widget.Vigour.TextSuggestionsPopupWindow.Dark</item>
+        <item name="android:textAppearanceListItemSmall">@style/TextAppearance.Vigour.MenuItem.Dark</item>
+        <item name="android:errorMessageBackground">@drawable/vigour_popup_inline_error_dark</item>
+        <item name="android:errorMessageAboveBackground">@drawable/vigour_popup_inline_error_above_dark</item>
+        <item name="android:panelMenuListTheme">@style/Vigour.CompactMenu.Dark</item>
+        <item name="btnArrow">@drawable/vigour_ic_btn_arrow_dark</item>
+        <item name="titleButtonStyle">@style/Vigour.TitleButton.Dark</item>
+        <item name="textAppearancePreferenceSummary">@style/TextAppearance.Vigour.PrefenceSummary.Dark</item>
+        <item name="generalBackground">@drawable/vigour_preference_unround_dark</item>
+        <item name="tabSelectorStyle">@style/Vigour.TabSelector.Personal.Dark</item>
+        <item name="titleBtnIconStyle">@style/Vigour.TitleBtnIcon.Dark</item>
+        <item name="pickerTextColor">@color/picker_text_color_dark</item>
+        <item name="scrollItemColor">@color/scroll_item_color_dark</item>
+        <item name="selectedItemColor">@color/selected_item_color_dark</item>
+        <item name="pickerBanner">@drawable/APKTOOL_DUMMY_2a6</item>
+        <item name="textAppearancePreferenceTitle">@style/TextAppearance.Vigour.PrefenceTitle.Dark</item>
+        <item name="textAppearanceSmallContentNull">@style/TextAppearance.Vigour.SmallContentNull.Dark</item>
+        <item name="textAppearanceNormalContentNull">@style/TextAppearance.Vigour.NormalContentNull.Dark</item>
+        <item name="generalBackgroundExt">@drawable/APKTOOL_DUMMY_2d1</item>
+        <item name="textAppearancePreferenceCategory">@style/TextAppearance.Vigour.PrefenceCategory.Dark</item>
+        <item name="textAppearancePreferenceCategoryExplain">@style/TextAppearance.Vigour.PrefenceCategory.Explain.Dark</item>
+        <item name="generalBackgroundTransparency">@drawable/vigour_general_background_transparency_dark</item>
+        <item name="preferenceGroupStyle">@style/Vigour.PreferenceGroup.Dark</item>
+        <item name="moveBoolButtonStyle">@style/Vigour.MoveBoolButton.Dark</item>
+        <item name="textAppearanceBootDialog">@style/TextAppearance.Vigour.BootDialog.Dark</item>
+        <item name="bootProgressBarStyle">@style/Widget.Vigour.BootNotifyProgressBar.Dark</item>
+        <item name="editorModeStyle">@style/Vigour.EditorMode.Dark</item>
+        <item name="searchViewStyle">@style/Vigour.SearchView.Dark</item>
+        <item name="abcThumbSelectStyle">@style/Vigour.AbcThumbSelect.Dark</item>
+        <item name="indicatorAnimStyle">@style/Vigour.IndicatorAnim.Dark</item>
+        <item name="textViewToolbarStyle">@style/Vigour.TextViewToolbar.Dark</item>
+        <item name="ToastTextStyle">@style/Widget.Vigour.ToastText.Dark</item>
+        <item name="ThumbSelectorStyle">@style/Widget.Vigour.ThumbSelector.Dark</item>
+        <item name="linearViewStyle">@style/Widget.Vigour.LinearView.Dark</item>
+        <item name="searchTitleViewStyle">@style/Widget.Vigour.SearchTitleView.Light</item>
+        <item name="titleViewStyle">@style/Widget.Vigour.TitleView.Light</item>
+        <item name="contextMenuListItemStyle">@style/Widget.Vigour.ContextMenuItem.ListItem.Dark</item>
+        <item name="contextMenuIconItemStyle">@style/Widget.Vigour.ContextMenuItem.IconItem.Dark</item>
+        <item name="searchViewEditStyle">@style/Widget.Vigour.SearchView_Edit.Dark</item>
+        <item name="scrollNumberPicker">@style/Widget.Vigour.ScrollNumberPicker.Light</item>
+        <item name="markupViewBackgroundStyle">@drawable/APKTOOL_DUMMY_296</item>
+        <item name="bbkMarkupButtonStyle">@style/Vigour.MarkupViewButton.Dark</item>
+        <item name="vivoBtnPanel">@drawable/vigour_btn_panel_dark</item>
+        <item name="vivoContextMenuBg">@drawable/vigour_contextmenu_bg_dark</item>
+        <item name="vivoDividerHorizontal">@drawable/vigour_divider_horizontal_dark</item>
+        <item name="vivoContextMenuItemTextColor">@color/vigour_contextmenu_item_text_dark</item>
+        <item name="vivoContextMenuItemMoreTextColor">@color/vigour_contextmenu_item_text_more_dark</item>
+        <item name="vivoListMenuBg">@drawable/vigour_menu_bg_dark</item>
+        <item name="vivoListMenuItemBg">@drawable/vigour_general_background_transparency_dark</item>
+        <item name="vivoListMenuItemTextColor">@color/vigour_text_color_primary_inverse_dark</item>
+        <item name="vivoContextMenuMore">@drawable/vigour_contextmenu_more_dark</item>
+        <item name="vivoContextMenuExpanded">@drawable/vigour_contextmenu_more_expanded_dark</item>
+    </style>
+    <style name="Theme.Vigour.Light.Dialog" parent="@style/Theme.Vigour.Light">
+        <item name="android:textColorPrimaryDisableOnly">@android:color/primary_text_dark_disable_only</item>
+        <item name="android:windowBackground">@drawable/vigour_dialog_full_light</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowTitleStyle">@style/Vigour.WindowTitle.Dialog.Light</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:buttonBarStyle">@style/ButtonBar.Vigour</item>
+        <item name="android:buttonBarButtonStyle">@style/Widget.Vigour.Button.AlertDialog</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:listPreferredItemPaddingLeft">10.0dip</item>
+        <item name="android:listPreferredItemPaddingRight">10.0dip</item>
+        <item name="android:listPreferredItemPaddingStart">10.0dip</item>
+        <item name="android:listPreferredItemPaddingEnd">10.0dip</item>
+        <item name="android:preferencePanelStyle">@android:style/PreferencePanel.Dialog</item>
+    </style>
+    <style name="Theme.Vigour.Dark.Dialog" parent="@style/Theme.Vigour.Dark">
+        <item name="android:textColorPrimaryDisableOnly">@android:color/primary_text_dark_disable_only</item>
+        <item name="android:windowBackground">@drawable/vigour_dialog_full_light</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowTitleStyle">@style/Vigour.WindowTitle.Dialog.Dark</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:buttonBarStyle">@style/ButtonBar.Vigour</item>
+        <item name="android:buttonBarButtonStyle">@style/Widget.Vigour.Button.AlertDialog.Dark</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:listPreferredItemPaddingLeft">10.0dip</item>
+        <item name="android:listPreferredItemPaddingRight">10.0dip</item>
+        <item name="android:listPreferredItemPaddingStart">10.0dip</item>
+        <item name="android:listPreferredItemPaddingEnd">10.0dip</item>
+        <item name="android:preferencePanelStyle">@android:style/PreferencePanel.Dialog</item>
+    </style>
+    <style name="Theme.Vigour.Light.Dialog.Alert" parent="@style/Theme.Vigour.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:alertDialogStyle">@style/AlertDialog.Vigour</item>
+        <item name="android:itemTextAppearance">@android:style/TextAppearance.Medium.Inverse</item>
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+        <item name="android:textAppearanceListItem">@android:style/TextAppearance.Medium.Inverse</item>
+        <item name="android:textAppearanceListItemSmall">@android:style/TextAppearance.Medium.Inverse</item>
+        <item name="android:textAppearanceListItemSecondary">@android:style/TextAppearance.Small.Inverse</item>
+    </style>
+    <style name="Theme.Vigour.Dark.Dialog.Alert" parent="@style/Theme.Vigour.Dark.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:alertDialogStyle">@style/AlertDialog.Vigour.Dark</item>
+        <item name="android:itemTextAppearance">@android:style/TextAppearance.Medium.Inverse</item>
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+        <item name="android:textAppearanceListItem">@android:style/TextAppearance.Medium.Inverse</item>
+        <item name="android:textAppearanceListItemSmall">@android:style/TextAppearance.Medium.Inverse</item>
+        <item name="android:textAppearanceListItemSecondary">@android:style/TextAppearance.Small.Inverse</item>
+    </style>
+    <style name="Theme.Vigour.Light.NoTitleBar" parent="@style/Theme.Vigour.Light">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Vigour.Dark.NoTitleBar" parent="@style/Theme.Vigour.Dark">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Vigour.Light.NoTitleBar.FullScreen" parent="@style/Theme.Vigour.Light.NoTitleBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="Theme.Vigour.Dark.NoTitleBar.FullScreen" parent="@style/Theme.Vigour.Dark.NoTitleBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="Theme.Vigour.Light.NoDisplay" parent="@style/Theme.Vigour.Light">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowNoDisplay">true</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+    <style name="Theme.Vigour.Dark.NoDisplay" parent="@style/Theme.Vigour.Dark">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowNoDisplay">true</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+    <style name="Vigour.WindowTitle.Light" parent="@style/Vigour.WindowTitle" />
+    <style name="Vigour.WindowTitle.Dark" parent="@style/Vigour.WindowTitle">
+        <item name="android:textAppearance">@style/TextAppearance.Vigour.WindowTitle.Dark</item>
+    </style>
+    <style name="Vigour.TitleButton.Light" parent="@style/Vigour.TitleButton" />
+    <style name="Vigour.TitleButton.Dark" parent="@style/Vigour.TitleButton">
+        <item name="android:textColor">@color/vigour_title_btn_text_default_dark</item>
+    </style>
+    <style name="Vigour.TitleButton.Personal.Light" parent="@style/Vigour.TitleButton.Personal" />
+    <style name="Vigour.TitleButton.Personal.Dark" parent="@style/Vigour.TitleButton.Personal">
+        <item name="android:textColor">@color/vigour_title_btn_text_personal_dark</item>
+    </style>
+    <style name="Vigour.TitleButton.Internet.Light" parent="@style/Vigour.TitleButton.Internet" />
+    <style name="Vigour.TitleButton.Internet.Dark" parent="@style/Vigour.TitleButton.Internet">
+        <item name="android:textColor">@color/vigour_title_btn_text_internet_dark</item>
+    </style>
+    <style name="Vigour.TitleButton.Multimedia.Light" parent="@style/Vigour.TitleButton.Multimedia" />
+    <style name="Vigour.TitleButton.Multimedia.Dark" parent="@style/Vigour.TitleButton.Multimedia">
+        <item name="android:textColor">@color/vigour_title_btn_text_multimedia_dark</item>
+    </style>
+    <style name="Vigour.TitleButton.Contact.Light" parent="@style/Vigour.TitleButton.Contact" />
+    <style name="Vigour.TitleButton.Contact.Dark" parent="@style/Vigour.TitleButton.Contact">
+        <item name="android:textColor">@color/vigour_title_btn_text_contact_dark</item>
+    </style>
+    <style name="Vigour.TitleBtnIcon.Personal.Light" parent="@style/Vigour.TitleBtnIcon.Personal" />
+    <style name="Vigour.TitleBtnIcon.Personal.Dark" parent="@style/Vigour.TitleBtnIcon.Personal">
+        <item name="titleBtnCreate">@drawable/vigour_btn_title_create_center_personal_dark</item>
+        <item name="titleBtnNew">@drawable/vigour_btn_title_new_center_personal_dark</item>
+        <item name="titleBtnBack">@drawable/vigour_btn_title_back_center_personal_dark</item>
+    </style>
+    <style name="Vigour.TitleBtnIcon.Internet.Light" parent="@style/Vigour.TitleBtnIcon.Internet" />
+    <style name="Vigour.TitleBtnIcon.Internet.Dark" parent="@style/Vigour.TitleBtnIcon.Internet">
+        <item name="titleBtnCreate">@drawable/vigour_btn_title_create_center_internet_dark</item>
+        <item name="titleBtnNew">@drawable/vigour_btn_title_new_center_internet_dark</item>
+        <item name="titleBtnBack">@drawable/vigour_btn_title_back_center_internet_dark</item>
+    </style>
+    <style name="Vigour.TitleBtnIcon.Multimedia.Light" parent="@style/Vigour.TitleBtnIcon.Multimedia" />
+    <style name="Vigour.TitleBtnIcon.Multimedia.Dark" parent="@style/Vigour.TitleBtnIcon.Multimedia">
+        <item name="titleBtnCreate">@drawable/vigour_btn_title_create_center_multimedia_dark</item>
+        <item name="titleBtnNew">@drawable/vigour_btn_title_new_center_multimedia_dark</item>
+        <item name="titleBtnBack">@drawable/vigour_btn_title_back_center_multimedia_dark</item>
+    </style>
+    <style name="Vigour.TitleBtnIcon.Contact.Light" parent="@style/Vigour.TitleBtnIcon.Contact" />
+    <style name="Vigour.TitleBtnIcon.Contact.Dark" parent="@style/Vigour.TitleBtnIcon.Contact">
+        <item name="titleBtnCreate">@drawable/vigour_btn_title_create_center_contact_dark</item>
+        <item name="titleBtnNew">@drawable/vigour_btn_title_new_center_contact_dark</item>
+        <item name="titleBtnBack">@drawable/vigour_btn_title_back_center_contact_dark</item>
+    </style>
+    <style name="TextAppearance.Vigour.Medium" parent="@style/TextAppearance.Vigour">
+        <item name="android:textSize">@dimen/text_medium_text_size</item>
+    </style>
+    <style name="TextAppearance.Vigour.Small" parent="@style/TextAppearance.Vigour">
+        <item name="android:textSize">@dimen/text_small_text_size</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Vigour.Large.Inverse" parent="@style/TextAppearance.Vigour.Large">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+        <item name="android:textColorLink">?android:textColorLinkInverse</item>
+    </style>
+    <style name="TextAppearance.Vigour.Large" parent="@style/TextAppearance.Vigour">
+        <item name="android:textSize">@dimen/text_large_text_size</item>
+    </style>
+    <style name="TextAppearance.Vigour.Medium.Inverse" parent="@style/TextAppearance.Vigour.Medium">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+        <item name="android:textColorLink">?android:textColorLinkInverse</item>
+    </style>
+    <style name="TextAppearance.Vigour.Small.Inverse" parent="@style/TextAppearance.Vigour.Small">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+        <item name="android:textColorLink">?android:textColorLinkInverse</item>
+    </style>
+    <style name="TextAppearance.Vigour.TabWidget.Light" parent="@style/TextAppearance.Vigour.TabWidget" />
+    <style name="TextAppearance.Vigour.TabWidget.Dark" parent="@style/TextAppearance.Vigour.TabWidget">
+        <item name="android:textColor">@color/vigour_tab_indicator_text_dark</item>
+    </style>
+    <style name="Widget.Vigour.Button.Light" parent="@style/Widget.Vigour.Button" />
+    <style name="Widget.Vigour.Button.Dark" parent="@style/Widget.Vigour.Button">
+        <item name="android:textColor">@color/vigour_markup_view_text_dark</item>
+        <item name="android:background">@drawable/vigour_btn_default_dark</item>
+    </style>
+    <style name="Widget.Vigour.Button.Small.Light" parent="@style/Widget.Vigour.Button.Small" />
+    <style name="Widget.Vigour.Button.Small.Dark" parent="@style/Widget.Vigour.Button.Small">
+        <item name="android:textColor">@color/vigour_markup_view_text_dark</item>
+        <item name="android:background">@drawable/vigour_btn_default_small_dark</item>
+    </style>
+    <style name="Widget.Vigour.TabWidget.Light" parent="@style/Widget.Vigour.TabWidget" />
+    <style name="Widget.Vigour.TabWidget.Dark" parent="@style/Widget.Vigour.TabWidget">
+        <item name="android:textAppearance">@style/TextAppearance.Vigour.TabWidget.Dark</item>
+    </style>
+    <style name="Widget.Vigour.TabWidget.Personal.Light" parent="@style/Widget.Vigour.TabWidget.Personal" />
+    <style name="Widget.Vigour.TabWidget.Personal.Dark" parent="@style/Widget.Vigour.TabWidget.Personal">
+        <item name="android:textColor">@color/vigour_tab_indicator_text_person_dark</item>
+    </style>
+    <style name="Widget.Vigour.TabWidget.Internet.Light" parent="@style/Widget.Vigour.TabWidget.Internet" />
+    <style name="Widget.Vigour.TabWidget.Internet.Dark" parent="@style/Widget.Vigour.TabWidget.Internet">
+        <item name="android:textColor">@color/vigour_tab_indicator_text_internet_dark</item>
+    </style>
+    <style name="Widget.Vigour.TabWidget.Multimedia.Light" parent="@style/Widget.Vigour.TabWidget.Multimedia" />
+    <style name="Widget.Vigour.TabWidget.Multimedia.Dark" parent="@style/Widget.Vigour.TabWidget.Multimedia">
+        <item name="android:textColor">@color/vigour_tab_indicator_text_media_dark</item>
+    </style>
+    <style name="Widget.Vigour.TabWidget.Contact.Light" parent="@style/Widget.Vigour.TabWidget.Contact" />
+    <style name="Widget.Vigour.TabWidget.Contact.Dark" parent="@style/Widget.Vigour.TabWidget.Contact">
+        <item name="android:textColor">@color/vigour_tab_indicator_text_contact_dark</item>
+    </style>
+    <style name="Vigour.TabSelector.Light" parent="@style/Vigour.TabSelector" />
+    <style name="Vigour.TabSelector.Dark" parent="@style/Vigour.TabSelector">
+        <item name="tabLeftSelector">@drawable/APKTOOL_DUMMY_123</item>
+        <item name="tabRightSelector">@drawable/APKTOOL_DUMMY_14a</item>
+        <item name="tabCenterSelector">@drawable/vigour_btn_title_tab_mid_dark</item>
+        <item name="tabTextColor">@color/vigour_tabselector_text_color_normal_dark</item>
+    </style>
+    <style name="Vigour.TabSelector.Personal.Light" parent="@style/Vigour.TabSelector.Personal" />
+    <style name="Vigour.TabSelector.Personal.Dark" parent="@style/Vigour.TabSelector.Personal">
+        <item name="tabLeftSelector">@drawable/vigour_btn_title_tab_left_center_personal_dark</item>
+        <item name="tabRightSelector">@drawable/vigour_btn_title_tab_right_center_personal_dark</item>
+        <item name="tabTextColor">@color/vigour_tabselector_text_color_personal_dark</item>
+    </style>
+    <style name="Vigour.TabSelector.Contact.Light" parent="@style/Vigour.TabSelector.Contact" />
+    <style name="Vigour.TabSelector.Contact.Dark" parent="@style/Vigour.TabSelector.Contact" />
+    <style name="Vigour.TabSelector.Internet.Light" parent="@style/Vigour.TabSelector.Internet" />
+    <style name="Vigour.TabSelector.Internet.Dark" parent="@style/Vigour.TabSelector.Internet" />
+    <style name="Vigour.TabSelector.Mutimedia.Light" parent="@style/Vigour.TabSelector.Mutimedia" />
+    <style name="Vigour.TabSelector.Mutimedia.Dark" parent="@style/Vigour.TabSelector.Mutimedia" />
+    <style name="Widget.Vigour.ListView.Light" parent="@style/Widget.Vigour.ListView" />
+    <style name="Widget.Vigour.ListView.Dark" parent="@style/Widget.Vigour.ListView">
+        <item name="android:listSelector">@android:drawable/item_background_holo_dark</item>
+        <item name="android:divider">@drawable/vigour_divider_horizontal_dark</item>
+    </style>
+    <style name="Widget.Vigour.GridView.Light" parent="@style/Widget.Vigour.GridView" />
+    <style name="Widget.Vigour.GridView.Dark" parent="@style/Widget.Vigour.GridView">
+        <item name="android:listSelector">@drawable/vigour_list_bg_dark</item>
+    </style>
+    <style name="Widget.Vigour.ScrollView.Light" parent="@style/Widget.Vigour.ScrollView" />
+    <style name="Widget.Vigour.ScrollView.Dark" parent="@style/Widget.Vigour.ScrollView" />
+    <style name="Widget.Vigour.ScrollView.Horizontal.Light" parent="@style/Widget.Vigour.ScrollView.Horizontal" />
+    <style name="Widget.Vigour.ScrollView.Horizontal.Dark" parent="@style/Widget.Vigour.ScrollView.Horizontal" />
+    <style name="Widget.Vigour.SeekBar.Light" parent="@style/Widget.Vigour.SeekBar" />
+    <style name="Widget.Vigour.SeekBar.Dark" parent="@style/Widget.Vigour.SeekBar">
+        <item name="android:progressDrawable">@drawable/vigour_progress_horizontal_dark</item>
+        <item name="android:thumb">@drawable/vigour_seek_thumb_dark</item>
+    </style>
+    <style name="Widget.Vigour.ProgressBar.Light" parent="@style/Widget.Vigour.ProgressBar" />
+    <style name="Widget.Vigour.ProgressBar.Dark" parent="@style/Widget.Vigour.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/vigour_progress_dark</item>
+    </style>
+    <style name="Widget.Vigour.ProgressBar.Horizontal.Light" parent="@style/Widget.Vigour.ProgressBar.Horizontal" />
+    <style name="Widget.Vigour.ProgressBar.Horizontal.Dark" parent="@style/Widget.Vigour.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/vigour_progress_horizontal_dark</item>
+    </style>
+    <style name="Widget.Vigour.CheckBox.Light" parent="@style/Widget.Vigour.CheckBox" />
+    <style name="Widget.Vigour.CheckBox.Dark" parent="@style/Widget.Vigour.CheckBox">
+        <item name="android:button">@drawable/vigour_btn_check_dark</item>
+    </style>
+    <style name="Widget.Vigour.RadioButton.Light" parent="@style/Widget.Vigour.RadioButton" />
+    <style name="Widget.Vigour.RadioButton.Dark" parent="@style/Widget.Vigour.RadioButton">
+        <item name="android:button">@drawable/vigour_btn_radio_dark</item>
+    </style>
+    <style name="Widget.Vigour.EditText.Light" parent="@style/Widget.Vigour.EditText" />
+    <style name="Widget.Vigour.EditText.Dark" parent="@style/Widget.Vigour.EditText">
+        <item name="android:textColor">@color/round_edittext_color_dark</item>
+        <item name="android:background">@drawable/vigour_edit_text_dark</item>
+    </style>
+    <style name="Widget.Vigour.PopupMenu.Light" parent="@style/Widget.Vigour.PopupMenu" />
+    <style name="Widget.Vigour.PopupMenu.Dark" parent="@style/Widget.Vigour.PopupMenu">
+        <item name="android:dropDownSelector">@drawable/vigour_list_bg_dark</item>
+        <item name="android:popupBackground">@drawable/APKTOOL_DUMMY_2c1</item>
+    </style>
+    <style name="Widget.Vigour.Spinner.Light" parent="@style/Widget.Vigour.Spinner" />
+    <style name="Widget.Vigour.Spinner.Dark" parent="@style/Widget.Vigour.Spinner">
+        <item name="android:dropDownSelector">@drawable/vigour_list_bg_dark</item>
+    </style>
+    <style name="Widget.Vigour.TextView.SpinnerItem.Light" parent="@style/Widget.Vigour.TextView.SpinnerItem" />
+    <style name="Widget.Vigour.TextView.SpinnerItem.Dark" parent="@style/Widget.Vigour.TextView.SpinnerItem">
+        <item name="android:textColor">@color/vigour_text_color_primary_dark</item>
+    </style>
+    <style name="Widget.Vigour.DropDownItem.Light" parent="@style/Widget.Vigour.DropDownItem" />
+    <style name="Widget.Vigour.DropDownItem.Dark" parent="@style/Widget.Vigour.DropDownItem">
+        <item name="android:textColor">@color/vigour_text_color_primary_inverse_dark</item>
+    </style>
+    <style name="Widget.Vigour.ExpandableListView.Light" parent="@style/Widget.Vigour.ExpandableListView" />
+    <style name="Widget.Vigour.ExpandableListView.Dark" parent="@style/Widget.Vigour.ExpandableListView">
+        <item name="android:childDivider">@drawable/vigour_divider_horizontal_dark</item>
+        <item name="android:divider">@drawable/vigour_divider_horizontal_dark</item>
+    </style>
+    <style name="Widget.Vigour.AutoCompleteTextView.Light" parent="@style/Widget.Vigour.AutoCompleteTextView" />
+    <style name="Widget.Vigour.AutoCompleteTextView.Dark" parent="@style/Widget.Vigour.AutoCompleteTextView">
+        <item name="android:textColor">@color/round_edittext_color_dark</item>
+        <item name="android:background">@drawable/vigour_edit_text_dark</item>
+        <item name="android:dropDownSelector">@drawable/vigour_list_bg_dark</item>
+        <item name="android:popupBackground">@drawable/APKTOOL_DUMMY_2c1</item>
+    </style>
+    <style name="Widget.Vigour.ListPopupWindow.Light" parent="@style/Widget.Vigour.ListPopupWindow" />
+    <style name="Widget.Vigour.ListPopupWindow.Dark" parent="@style/Widget.Vigour.ListPopupWindow">
+        <item name="android:dropDownSelector">@drawable/vigour_list_bg_dark</item>
+        <item name="android:popupBackground">@drawable/APKTOOL_DUMMY_2c1</item>
+    </style>
+    <style name="Widget.Vigour.Button.Toggle.Light" parent="@style/Widget.Vigour.Button.Toggle" />
+    <style name="Widget.Vigour.Button.Toggle.Dark" parent="@style/Widget.Vigour.Button.Toggle">
+        <item name="android:textColor">@color/vigour_text_primary_dark</item>
+    </style>
+    <style name="Widget.Vigour.Button.Inset.Light" parent="@style/Widget.Vigour.Button.Inset" />
+    <style name="Widget.Vigour.Button.Inset.Dark" parent="@style/Widget.Vigour.Button.Inset">
+        <item name="android:textColor">@color/vigour_text_primary_dark</item>
+    </style>
+    <style name="Widget.Vigour.ListView.DropDown.Light" parent="@style/Widget.Vigour.ListView.DropDown" />
+    <style name="Widget.Vigour.ListView.DropDown.Dark" parent="@style/Widget.Vigour.ListView.DropDown">
+        <item name="android:background">@drawable/vigour_list_drop_down_bg_dark</item>
+        <item name="android:listSelector">@drawable/vigour_list_bg_dark</item>
+        <item name="android:divider">@drawable/vigour_divider_horizontal_dark</item>
+    </style>
+    <style name="Theme.Vigour.Light.Dialog.Alert.Slide" parent="@style/Theme.Vigour.Light.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:alertDialogStyle">@style/SlideListDialog.Vigour</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.InputMethod</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/vigour_btn_radio_light</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/vigour_btn_check_light</item>
+        <item name="android:alertDialogIcon">@null</item>
+    </style>
+    <style name="Widget.Vigour.TextStyle" parent="@android:style/Widget.TextView" />
+    <style name="Preference.Vigour" parent="@android:style/Preference">
+        <item name="android:layout">@layout/vigour_preference</item>
+    </style>
+    <style name="Preference.Vigour.Light" parent="@style/Preference.Vigour" />
+    <style name="Preference.Vigour.Dark" parent="@style/Preference.Vigour" />
+    <style name="Preference.Vigour.Category" parent="@style/Preference.Vigour">
+        <item name="android:layout">@layout/vigour_preference_category</item>
+        <item name="android:selectable">false</item>
+        <item name="android:shouldDisableView">false</item>
+    </style>
+    <style name="Preference.Vigour.Category.Light" parent="@style/Preference.Vigour.Category" />
+    <style name="Preference.Vigour.Category.Dark" parent="@style/Preference.Vigour.Category" />
+    <style name="Preference.Vigour.InformationStyle" parent="@style/Preference.Vigour">
+        <item name="android:enabled">false</item>
+        <item name="android:selectable">false</item>
+        <item name="android:shouldDisableView">false</item>
+    </style>
+    <style name="Preference.Vigour.InformationStyle.Dark" parent="@style/Preference.Vigour.InformationStyle" />
+    <style name="Preference.Vigour.InformationStyle.Light" parent="@style/Preference.Vigour.InformationStyle" />
+    <style name="Preference.Vigour.ExplainPreference" parent="@style/Preference.Vigour">
+        <item name="android:layout">@layout/vigour_preference_explain_category</item>
+    </style>
+    <style name="Preference.Vigour.ExplainPreference.Dark" parent="@style/Preference.Vigour.ExplainPreference" />
+    <style name="Preference.Vigour.ExplainPreference.Light" parent="@style/Preference.Vigour.ExplainPreference" />
+    <style name="Preference.Vigour.CheckBoxPreference" parent="@style/Preference.Vigour">
+        <item name="android:widgetLayout">@layout/vigour_preference_widget_checkbox</item>
+    </style>
+    <style name="Preference.Vigour.CheckBoxPreference.Dark" parent="@style/Preference.Vigour.CheckBoxPreference" />
+    <style name="Preference.Vigour.CheckBoxPreference.Light" parent="@style/Preference.Vigour.CheckBoxPreference" />
+    <style name="Preference.Vigour.DialogPreference" parent="@style/Preference.Vigour">
+        <item name="android:positiveButtonText">@android:string/ok</item>
+        <item name="android:negativeButtonText">@android:string/cancel</item>
+    </style>
+    <style name="Preference.Vigour.DialogPreference.Light" parent="@style/Preference.Vigour.DialogPreference" />
+    <style name="Preference.Vigour.DialogPreference.Dark" parent="@style/Preference.Vigour.DialogPreference" />
+    <style name="Preference.Vigour.PreferenceScreen" parent="@style/Preference.Vigour">
+        <item name="android:widgetLayout">@layout/vigour_preference_widget_arrow</item>
+    </style>
+    <style name="Preference.Vigour.PreferenceScreen.Dark" parent="@style/Preference.Vigour.PreferenceScreen" />
+    <style name="Preference.Vigour.PreferenceScreen.Light" parent="@style/Preference.Vigour.PreferenceScreen" />
+    <style name="Preference.Vigour.PreferenceDivider" parent="@style/Preference.Vigour">
+        <item name="android:layout">@layout/vigour_preference_divider</item>
+        <item name="android:selectable">false</item>
+        <item name="android:shouldDisableView">false</item>
+    </style>
+    <style name="Preference.Vigour.PreferenceDivider.Dark" parent="@style/Preference.Vigour.PreferenceDivider" />
+    <style name="Preference.Vigour.PreferenceDivider.Light" parent="@style/Preference.Vigour.PreferenceDivider" />
+    <style name="Preference.Vigour.EditTextPreference" parent="@style/Preference.Vigour">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:positiveButtonText">@android:string/ok</item>
+        <item name="android:negativeButtonText">@android:string/cancel</item>
+        <item name="android:dialogLayout">@layout/vigour_preference_dialog_edittext</item>
+    </style>
+    <style name="Preference.Vigour.EditTextPreference.Dark" parent="@style/Preference.Vigour.EditTextPreference" />
+    <style name="Preference.Vigour.EditTextPreference.Light" parent="@style/Preference.Vigour.EditTextPreference" />
+    <style name="Preference.Vigour.RingtonePreference" parent="@style/Preference.Vigour">
+        <item name="android:ringtoneType">ringtone</item>
+        <item name="android:showDefault">true</item>
+        <item name="android:showSilent">true</item>
+    </style>
+    <style name="Preference.Vigour.RingtonePreference.Light" parent="@style/Preference.Vigour.RingtonePreference" />
+    <style name="Preference.Vigour.RingtonePreference.Dark" parent="@style/Preference.Vigour.RingtonePreference" />
+    <style name="TextAppearance.Vigour" parent="@android:style/TextAppearance" />
+    <style name="TextAppearance.Vigour.Inverse" parent="@android:style/TextAppearance.Inverse" />
+    <style name="TextAppearance.Vigour.WindowTitle" parent="@style/TextAppearance.Vigour">
+        <item name="android:textSize">@dimen/bbkwindowTitleTextSize</item>
+        <item name="android:textColor">@color/window_Title_Color_light</item>
+    </style>
+    <style name="TextAppearance.Vigour.WindowTitle.Light" parent="@style/TextAppearance.Vigour.WindowTitle" />
+    <style name="TextAppearance.Vigour.WindowTitle.Dark" parent="@style/TextAppearance.Vigour.WindowTitle">
+        <item name="android:textColor">@color/window_Title_Color_dark</item>
+    </style>
+    <style name="TextAppearance.Vigour.TabWidget" parent="@style/TextAppearance.Vigour">
+        <item name="android:textSize">@dimen/vigour_tabwidget_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/vigour_tab_indicator_text_light</item>
+    </style>
+    <style name="TextAppearance.Vigour.SmallContentNull" parent="@style/TextAppearance.Vigour">
+        <item name="android:textSize">@dimen/small_null_content_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/small_content_null_color_light</item>
+    </style>
+    <style name="TextAppearance.Vigour.SmallContentNull.Light" parent="@style/TextAppearance.Vigour.SmallContentNull" />
+    <style name="TextAppearance.Vigour.SmallContentNull.Dark" parent="@style/TextAppearance.Vigour.SmallContentNull">
+        <item name="android:textColor">@color/small_content_null_color_dark</item>
+    </style>
+    <style name="TextAppearance.Vigour.NormalContentNull" parent="@style/TextAppearance.Vigour">
+        <item name="android:textSize">@dimen/normal_content_null_font_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/normal_content_null_color_light</item>
+    </style>
+    <style name="TextAppearance.Vigour.NormalContentNull.Light" parent="@style/TextAppearance.Vigour.NormalContentNull" />
+    <style name="TextAppearance.Vigour.NormalContentNull.Dark" parent="@style/TextAppearance.Vigour.NormalContentNull">
+        <item name="android:textColor">@color/normal_content_null_color_dark</item>
+    </style>
+    <style name="TextAppearance.Vigour.PrefenceTitle" parent="@style/TextAppearance.Vigour">
+        <item name="android:textSize">@dimen/bbkPreferenceTitleTextSize</item>
+        <item name="android:textColor">@color/vigour_preference_title_text_color</item>
+    </style>
+    <style name="TextAppearance.Vigour.PrefenceTitle.Light" parent="@style/TextAppearance.Vigour.PrefenceTitle" />
+    <style name="TextAppearance.Vigour.PrefenceTitle.Dark" parent="@style/TextAppearance.Vigour.PrefenceTitle" />
+    <style name="TextAppearance.Vigour.PrefenceSummary" parent="@style/TextAppearance.Vigour">
+        <item name="android:textSize">@dimen/bbkPreferenceSummaryTextSize</item>
+        <item name="android:textColor">@color/vigour_preference_summary_text_color</item>
+    </style>
+    <style name="TextAppearance.Vigour.PrefenceSummary.Light" parent="@style/TextAppearance.Vigour.PrefenceSummary" />
+    <style name="TextAppearance.Vigour.PrefenceSummary.Dark" parent="@style/TextAppearance.Vigour.PrefenceSummary" />
+    <style name="TextAppearance.Vigour.PrefenceCategory" parent="@style/TextAppearance.Vigour">
+        <item name="android:textSize">@dimen/bbkPreferenceCategoryTextSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/vivoPreferenceCatetoryColorLight</item>
+    </style>
+    <style name="TextAppearance.Vigour.PrefenceCategory.Light" parent="@style/TextAppearance.Vigour.PrefenceCategory" />
+    <style name="TextAppearance.Vigour.PrefenceCategory.Dark" parent="@style/TextAppearance.Vigour.PrefenceCategory">
+        <item name="android:textColor">@color/vivoPreferenceCatetoryColorDark</item>
+    </style>
+    <style name="TextAppearance.Vigour.PrefenceCategory.Explain" parent="@style/TextAppearance.Vigour.PrefenceCategory">
+        <item name="android:textColor">@color/vivoPreferenceExplainColorLight</item>
+    </style>
+    <style name="TextAppearance.Vigour.PrefenceCategory.Explain.Light" parent="@style/TextAppearance.Vigour.PrefenceCategory.Explain" />
+    <style name="TextAppearance.Vigour.PrefenceCategory.Explain.Dark" parent="@style/TextAppearance.Vigour.PrefenceCategory.Explain" />
+    <style name="TextAppearance.Vigour.BootDialog" parent="@style/TextAppearance.Vigour">
+        <item name="android:textSize">@dimen/vivo_progress_full_window_text_size</item>
+        <item name="android:textColor">@color/vigourBootDailogTextColorLight</item>
+    </style>
+    <style name="TextAppearance.Vigour.BootDialog.Light" parent="@style/TextAppearance.Vigour.BootDialog" />
+    <style name="TextAppearance.Vigour.BootDialog.Dark" parent="@style/TextAppearance.Vigour.BootDialog">
+        <item name="android:textColor">@color/vigourBootDailogTextColorDark</item>
+    </style>
+    <style name="TextAppearance.Vigour.PopupMenu" parent="@android:style/TextAppearance.Widget.PopupMenu">
+        <item name="android:textColor">?android:editTextColor</item>
+        <item name="android:textColorHighlight">?android:textColorHighlight</item>
+    </style>
+    <style name="TextAppearance.Vigour.PopupMenu.Large" parent="@style/TextAppearance.Vigour.PopupMenu">
+        <item name="android:textSize">@dimen/pop_menu_large_text_size</item>
+    </style>
+    <style name="TextAppearance.Vigour.PopupMenu.Small" parent="@style/TextAppearance.Vigour.PopupMenu">
+        <item name="android:textSize">@dimen/pop_menu_small_text_size</item>
+        <item name="android:textColor">@android:color/secondary_text_light</item>
+    </style>
+    <style name="TextAppearance.Vigour.PopupToolbar" parent="@style/TextAppearance.Vigour">
+        <item name="android:textSize">@dimen/primary_text_toolbar_size</item>
+        <item name="android:textColor">@color/primary_text_toolbar_normal</item>
+    </style>
+    <style name="TextAppearance.Vigour.PopupToolbar.Light" parent="@style/TextAppearance.Vigour.PopupToolbar" />
+    <style name="TextAppearance.Vigour.PopupToolbar.Dark" parent="@style/TextAppearance.Vigour.PopupToolbar" />
+    <style name="Widget.Vigour" parent="@android:style/Widget" />
+    <style name="Widget.Vigour.TabWidget" parent="@android:style/Widget.TabWidget">
+        <item name="android:textAppearance">@style/TextAppearance.Vigour.TabWidget.Light</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:tabStripEnabled">false</item>
+        <item name="android:tabLayout">@layout/vigour_tab_indicator</item>
+    </style>
+    <style name="Widget.Vigour.TabWidget.Personal" parent="@style/Widget.Vigour.TabWidget">
+        <item name="android:textColor">@color/vigour_tab_indicator_text_person_light</item>
+    </style>
+    <style name="Widget.Vigour.TabWidget.Internet" parent="@style/Widget.Vigour.TabWidget">
+        <item name="android:textColor">@color/vigour_tab_indicator_text_internet_light</item>
+    </style>
+    <style name="Widget.Vigour.TabWidget.Multimedia" parent="@style/Widget.Vigour.TabWidget">
+        <item name="android:textColor">@color/vigour_tab_indicator_text_media_light</item>
+    </style>
+    <style name="Widget.Vigour.TabWidget.Contact" parent="@style/Widget.Vigour.TabWidget">
+        <item name="android:textColor">@color/vigour_tab_indicator_text_contact_light</item>
+    </style>
+    <style name="Widget.Vigour.SeekBar" parent="@android:style/Widget.SeekBar">
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">@dimen/seek_bar_padding_left</item>
+        <item name="android:paddingRight">@dimen/seek_bar_padding_right</item>
+        <item name="android:maxHeight">2.0dip</item>
+        <item name="android:indeterminateDrawable">@drawable/vigour_seekbar_horizontal</item>
+        <item name="android:progressDrawable">@drawable/vigour_progress_horizontal_light</item>
+        <item name="android:minHeight">2.0dip</item>
+        <item name="android:thumb">@drawable/vigour_seek_thumb_light</item>
+        <item name="android:thumbOffset">@dimen/seekbar_thumb_offset</item>
+        <item name="android:mirrorForRtl">true</item>
+        <item name="android:splitTrack">false</item>
+    </style>
+    <style name="Widget.Vigour.ProgressBar.Horizontal" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:maxHeight">2.0dip</item>
+        <item name="android:progressDrawable">@drawable/vigour_progress_horizontal_light</item>
+        <item name="android:minHeight">2.0dip</item>
+    </style>
+    <style name="Widget.Vigour.BootNotifyProgressBar" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:maxHeight">@dimen/vivo_progress_full_window_progressbar_hight</item>
+        <item name="android:progressDrawable">@drawable/vigour_progress_dialog_bar</item>
+        <item name="android:minHeight">@dimen/vivo_progress_full_window_progressbar_hight</item>
+    </style>
+    <style name="Widget.Vigour.BootNotifyProgressBar.Light" parent="@style/Widget.Vigour.BootNotifyProgressBar" />
+    <style name="Widget.Vigour.BootNotifyProgressBar.Dark" parent="@style/Widget.Vigour.BootNotifyProgressBar" />
+    <style name="Widget.Vigour.Button" parent="@android:style/Widget.Button">
+        <item name="android:textAppearance">?android:textAppearanceSmallInverse</item>
+        <item name="android:textColor">@color/vigour_markup_view_text_light</item>
+        <item name="android:background">@drawable/vigour_btn_default_light</item>
+    </style>
+    <style name="Widget.Vigour.Button.Small" parent="@style/Widget.Vigour.Button">
+        <item name="android:background">@drawable/vigour_btn_default_small_light</item>
+    </style>
+    <style name="Widget.Vigour.Button.PackageInstaller" parent="@style/Widget.Vigour.Button">
+        <item name="android:textAppearance">?android:textAppearance</item>
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@color/vigour_title_btn_text_internet_dark</item>
+        <item name="android:background">@null</item>
+        <item name="android:minWidth">46.0dip</item>
+        <item name="android:minHeight">34.0dip</item>
+    </style>
+    <style name="Widget.Vigour.CheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:button">@drawable/vigour_btn_check_light</item>
+    </style>
+    <style name="Widget.Vigour.RadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:button">@drawable/vigour_btn_radio_light</item>
+    </style>
+    <style name="Widget.Vigour.EditText" parent="@android:style/Widget.EditText">
+        <item name="android:textAppearance">?android:textAppearanceMediumInverse</item>
+        <item name="android:textColor">@color/round_edittext_color_light</item>
+        <item name="android:textColorHint">@color/edittext_hint_color_light</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/vigour_edit_text_light</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:maxLength">10000</item>
+    </style>
+    <style name="Widget.Vigour.InputMethodEditText" parent="@style/Widget.Vigour.EditText">
+        <item name="android:background">@drawable/vigour_textfield_default_fullscreen</item>
+    </style>
+    <style name="Widget.Vigour.InputMethodEditText.Light" parent="@style/Widget.Vigour.InputMethodEditText" />
+    <style name="Widget.Vigour.InputMethodEditText.Dark" parent="@style/Widget.Vigour.InputMethodEditText">
+        <item name="android:textColor">@color/round_edittext_color_dark</item>
+    </style>
+    <style name="Widget.Vigour.Spinner" parent="@android:style/Widget.Spinner">
+        <item name="android:background">@drawable/vigour_btn_dropdown_light</item>
+        <item name="android:dropDownSelector">@drawable/vigour_list_bg_light</item>
+    </style>
+    <style name="Widget.Vigour.TextView.SpinnerItem" parent="@android:style/Widget.TextView.SpinnerItem">
+        <item name="android:textSize">@dimen/spinner_item_text_size</item>
+        <item name="android:textColor">@color/vigour_text_color_primary_light</item>
+    </style>
+    <style name="Widget.Vigour.DropDownItem" parent="@android:style/Widget.DropDownItem">
+        <item name="android:textColor">@color/vigour_text_color_primary_inverse_light</item>
+    </style>
+    <style name="Widget.Vigour.DropDownItem.Spinner" parent="@style/Widget.Vigour.DropDownItem">
+        <item name="android:checkMark">?android:listChoiceIndicatorSingle</item>
+    </style>
+    <style name="Widget.Vigour.DropDownItem.Spinner.Light" parent="@style/Widget.Vigour.DropDownItem.Spinner" />
+    <style name="Widget.Vigour.DropDownItem.Spinner.Dark" parent="@style/Widget.Vigour.DropDownItem.Spinner" />
+    <style name="Widget.Vigour.ProgressBar" parent="@android:style/Widget.ProgressBar">
+        <item name="android:maxWidth">20.0dip</item>
+        <item name="android:maxHeight">20.0dip</item>
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateDrawable">@drawable/vigour_progress_light</item>
+        <item name="android:indeterminateDuration">3500</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:minWidth">20.0dip</item>
+        <item name="android:minHeight">20.0dip</item>
+        <item name="android:interpolator">@anim/vigour_progressbar_accelerate_decelerate_interpolator</item>
+    </style>
+    <style name="Widget.Vigour.ListView" parent="@style/Widget.Vigour.AbsListView">
+        <item name="android:listSelector">@drawable/vigour_general_background_transparency_light</item>
+        <item name="android:cacheColorHint">@null</item>
+        <item name="android:divider">@drawable/vigour_divider_horizontal_light</item>
+        <item name="android:dividerHeight">@dimen/divider_height</item>
+    </style>
+    <style name="Widget.Vigour.ExpandableListView" parent="@style/Widget.Vigour.ListView">
+        <item name="android:groupIndicator">@drawable/vigour_expander_group</item>
+        <item name="android:indicatorLeft">?android:expandableListPreferredItemIndicatorLeft</item>
+        <item name="android:indicatorRight">?android:expandableListPreferredItemIndicatorRight</item>
+        <item name="android:childDivider">@drawable/vigour_divider_horizontal_dark_opaque</item>
+    </style>
+    <style name="Widget.Vigour.ExpandableListView.White" parent="@style/Widget.Vigour.ExpandableListView">
+        <item name="android:listSelector">@drawable/vigour_list_selector_bg_bright</item>
+        <item name="android:childDivider">@drawable/vigour_divider_horizontal_bright_opaque</item>
+        <item name="android:divider">@drawable/vigour_divider_horizontal_dark_bright</item>
+    </style>
+    <style name="Widget.Vigour.ExpandableListView.White.Light" parent="@style/Widget.Vigour.ExpandableListView.White" />
+    <style name="Widget.Vigour.ExpandableListView.White.Dark" parent="@style/Widget.Vigour.ExpandableListView.White" />
+    <style name="Widget.Vigour.MenuList" parent="@style/Widget.Vigour.AbsListView">
+        <item name="android:listSelector">@drawable/vigour_list_menu_bg_light</item>
+        <item name="android:cacheColorHint">@null</item>
+        <item name="android:divider">@drawable/vigour_divider_horizontal_light</item>
+    </style>
+    <style name="Widget.Vigour.MenuList.Light" parent="@style/Widget.Vigour.MenuList" />
+    <style name="Widget.Vigour.MenuList.Dark" parent="@style/Widget.Vigour.MenuList">
+        <item name="android:listSelector">@drawable/vigour_list_menu_bg_dark</item>
+        <item name="android:divider">@drawable/vigour_divider_horizontal_dark</item>
+    </style>
+    <style name="Widget.Vigour.Button.AlertDialog" parent="@android:style/Widget.Button">
+        <item name="android:textSize">@dimen/VigourDailogButtonTextSize</item>
+        <item name="android:textColor">@color/vigour_dialog_btn_text_light</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:background">@drawable/vigour_item_background_light</item>
+        <item name="android:padding">4.0dip</item>
+        <item name="android:minHeight">@dimen/dialog_button_bar_height</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="Widget.Vigour.Button.AlertDialog.Light" parent="@style/Widget.Vigour.Button.AlertDialog" />
+    <style name="Widget.Vigour.Button.AlertDialog.Dark" parent="@style/Widget.Vigour.Button.AlertDialog">
+        <item name="android:textColor">@color/vigour_dialog_btn_text_dark</item>
+        <item name="android:background">@drawable/vigour_item_background_dark</item>
+    </style>
+    <style name="Widget.Vigour.GridView" parent="@style/Widget.Vigour.AbsListView">
+        <item name="android:listSelector">@drawable/vigour_list_bg_light</item>
+    </style>
+    <style name="Widget.Vigour.AbsListView" parent="@style/Widget.Vigour">
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:overScrollMode">never</item>
+    </style>
+    <style name="Widget.Vigour.ListView.White" parent="@style/Widget.Vigour.ListView">
+        <item name="android:divider">@drawable/vigour_divider_horizontal_bright_opaque</item>
+    </style>
+    <style name="Widget.Vigour.ListView.White.Light" parent="@style/Widget.Vigour.ListView.White" />
+    <style name="Widget.Vigour.ListView.White.Dark" parent="@style/Widget.Vigour.ListView.White">
+        <item name="android:listSelector">@drawable/vigour_list_bg_dark</item>
+    </style>
+    <style name="Widget.Vigour.ScrollView" parent="@android:style/Widget.ScrollView">
+        <item name="android:fadingEdge">none</item>
+        <item name="android:overScrollMode">never</item>
+    </style>
+    <style name="Widget.Vigour.ScrollView.Horizontal" parent="@style/Widget.Vigour.ScrollView">
+        <item name="android:scrollbars">horizontal</item>
+    </style>
+    <style name="Widget.Vigour.AutoCompleteTextView" parent="@style/Widget.Vigour.EditText">
+        <item name="android:completionHintView">@android:layout/simple_dropdown_hint</item>
+        <item name="android:completionThreshold">2</item>
+        <item name="android:dropDownSelector">@drawable/vigour_list_bg_light</item>
+        <item name="android:popupBackground">@drawable/vigour_preference_bottom_bg_light</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:dropDownHorizontalOffset">0.0dip</item>
+        <item name="android:dropDownVerticalOffset">-6.0dip</item>
+    </style>
+    <style name="Widget.Vigour.WebTextView" parent="@android:style/Widget.WebTextView">
+        <item name="android:dropDownSelector">@drawable/vigour_list_bg_light</item>
+    </style>
+    <style name="Widget.Vigour.WebTextView.Light" parent="@style/Widget.Vigour.WebTextView" />
+    <style name="Widget.Vigour.WebTextView.Dark" parent="@style/Widget.Vigour.WebTextView">
+        <item name="android:dropDownSelector">@drawable/vigour_list_bg_dark</item>
+    </style>
+    <style name="Widget.Vigour.TextSuggestionsPopupWindow" parent="@android:style/Widget.TextSuggestionsPopupWindow">
+        <item name="android:dropDownSelector">@drawable/vigour_list_bg_light</item>
+    </style>
+    <style name="Widget.Vigour.TextSuggestionsPopupWindow.Light" parent="@style/Widget.Vigour.TextSuggestionsPopupWindow" />
+    <style name="Widget.Vigour.TextSuggestionsPopupWindow.Dark" parent="@style/Widget.Vigour.TextSuggestionsPopupWindow">
+        <item name="android:dropDownSelector">@drawable/vigour_list_bg_dark</item>
+    </style>
+    <style name="Widget.Vigour.ListPopupWindow" parent="@android:style/Widget.ListPopupWindow">
+        <item name="android:dropDownSelector">@drawable/vigour_list_bg_light</item>
+        <item name="android:popupBackground">@drawable/vigour_preference_bottom_bg_light</item>
+    </style>
+    <style name="Widget.Vigour.PopupMenu" parent="@style/Widget.Vigour.ListPopupWindow" />
+    <style name="Widget.Vigour.Button.Toggle" parent="@android:style/Widget.Button.Toggle">
+        <item name="android:textColor">@color/vigour_text_primary_light</item>
+    </style>
+    <style name="Widget.Vigour.Button.Inset" parent="@android:style/Widget.Button.Inset">
+        <item name="android:textColor">@color/vigour_text_primary_light</item>
+    </style>
+    <style name="Vigour" />
+    <style name="Vigour.PreferenceGroup" parent="@style/Vigour">
+        <item name="preferenceTopRound">@drawable/vigour_preference_top_round_light</item>
+        <item name="preferenceBottomRound">@drawable/vigour_preference_bottom_round_light</item>
+        <item name="preferenceAllRound">@drawable/vigour_preference_all_round_light</item>
+        <item name="preferenceUnRound">@drawable/vigour_preference_unround_light</item>
+        <item name="preferenceGap">@dimen/preference_divider_height</item>
+    </style>
+    <style name="Vigour.PreferenceGroup.Light" parent="@style/Vigour.PreferenceGroup" />
+    <style name="Vigour.PreferenceGroup.Dark" parent="@style/Vigour.PreferenceGroup">
+        <item name="preferenceTopRound">@drawable/vigour_preference_top_round_dark</item>
+        <item name="preferenceBottomRound">@drawable/vigour_preference_bottom_round_dark</item>
+        <item name="preferenceAllRound">@drawable/vigour_preference_all_round_dark</item>
+        <item name="preferenceUnRound">@drawable/vigour_preference_unround_dark</item>
+    </style>
+    <style name="Vigour.WindowTitle" parent="@style/Vigour">
+        <item name="android:textAppearance">@style/TextAppearance.Vigour.WindowTitle.Light</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textDirection">anyRtl</item>
+        <item name="android:paddingStart">46.0dip</item>
+        <item name="android:paddingEnd">46.0dip</item>
+    </style>
+    <style name="Vigour.WindowTitle.Dialog" parent="@style/Vigour.WindowTitle">
+        <item name="android:textAppearance">@style/TextAppearance.Vigour.Large</item>
+        <item name="android:textSize">@dimen/bbkDailogTitleTextSize</item>
+        <item name="android:textColor">@color/dialog_title_color</item>
+        <item name="android:paddingStart">40.0dip</item>
+        <item name="android:paddingEnd">40.0dip</item>
+    </style>
+    <style name="Vigour.WindowTitle.Dialog.Light" parent="@style/Vigour.WindowTitle.Dialog" />
+    <style name="Vigour.WindowTitle.Dialog.Dark" parent="@style/Vigour.WindowTitle.Dialog">
+        <item name="android:textAppearance">@style/TextAppearance.Vigour.WindowTitle.Dark</item>
+    </style>
+    <style name="Vigour.TitleButton" parent="@style/Vigour">
+        <item name="android:textSize">@dimen/bbkwindowTitleButtonTextSize</item>
+        <item name="android:textColor">@color/vigour_title_btn_text_default_light</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/vigour_btn_title_default</item>
+        <item name="android:padding">0.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:singleLine">false</item>
+    </style>
+    <style name="Vigour.TitleButton.Personal" parent="@style/Vigour.TitleButton">
+        <item name="android:textColor">@color/vigour_title_btn_text_personal_light</item>
+    </style>
+    <style name="Vigour.TitleButton.Internet" parent="@style/Vigour.TitleButton">
+        <item name="android:textColor">@color/vigour_title_btn_text_internet_light</item>
+    </style>
+    <style name="Vigour.TitleButton.Multimedia" parent="@style/Vigour.TitleButton">
+        <item name="android:textColor">@color/vigour_title_btn_text_multimedia_light</item>
+    </style>
+    <style name="Vigour.TitleButton.Contact" parent="@style/Vigour.TitleButton">
+        <item name="android:textColor">@color/vigour_title_btn_text_contact_light</item>
+    </style>
+    <style name="Vigour.TitleBtnIcon" parent="@style/Vigour">
+        <item name="titleBtnCreate">@drawable/vigour_btn_title_default</item>
+        <item name="titleBtnNew">@drawable/vigour_btn_title_default</item>
+        <item name="titleBtnBack">@drawable/vigour_btn_title_default</item>
+        <item name="titleBtnNormal">@drawable/vigour_btn_title_default</item>
+    </style>
+    <style name="Vigour.TitleBtnIcon.Light" parent="@style/Vigour.TitleBtnIcon" />
+    <style name="Vigour.TitleBtnIcon.Dark" parent="@style/Vigour.TitleBtnIcon" />
+    <style name="Vigour.TitleBtnIcon.Personal" parent="@style/Vigour.TitleBtnIcon">
+        <item name="titleBtnCreate">@drawable/vigour_btn_title_create_center_personal_light</item>
+        <item name="titleBtnNew">@drawable/vigour_btn_title_new_center_personal_light</item>
+        <item name="titleBtnBack">@drawable/vigour_btn_title_back_center_personal_light</item>
+    </style>
+    <style name="Vigour.TitleBtnIcon.Internet" parent="@style/Vigour.TitleBtnIcon">
+        <item name="titleBtnCreate">@drawable/vigour_btn_title_create_center_internet_light</item>
+        <item name="titleBtnNew">@drawable/vigour_btn_title_new_center_internet_light</item>
+        <item name="titleBtnBack">@drawable/vigour_btn_title_back_center_internet_light</item>
+    </style>
+    <style name="Vigour.TitleBtnIcon.Multimedia" parent="@style/Vigour.TitleBtnIcon">
+        <item name="titleBtnCreate">@drawable/vigour_btn_title_create_center_multimedia_light</item>
+        <item name="titleBtnNew">@drawable/vigour_btn_title_new_center_multimedia_light</item>
+        <item name="titleBtnBack">@drawable/vigour_btn_title_back_center_multimedia_light</item>
+    </style>
+    <style name="Vigour.TitleBtnIcon.Contact" parent="@style/Vigour.TitleBtnIcon">
+        <item name="titleBtnCreate">@drawable/vigour_btn_title_create_center_contact_light</item>
+        <item name="titleBtnNew">@drawable/vigour_btn_title_new_center_contact_light</item>
+        <item name="titleBtnBack">@drawable/vigour_btn_title_back_center_contact_light</item>
+    </style>
+    <style name="Vigour.MarkupViewButton" parent="@style/Vigour">
+        <item name="android:textSize">@dimen/markup_view_text_size</item>
+        <item name="android:textColor">@color/vigour_markup_view_text_light</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/vigour_btn_default_small_light</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textDirection">locale</item>
+    </style>
+    <style name="Vigour.MarkupViewButton.Light" parent="@style/Vigour.MarkupViewButton" />
+    <style name="Vigour.MarkupViewButton.Dark" parent="@style/Vigour.MarkupViewButton">
+        <item name="android:textColor">@color/vigour_markup_view_text_dark</item>
+        <item name="android:background">@drawable/vigour_btn_default_small_dark</item>
+    </style>
+    <style name="Vigour.DialogButton" parent="@style/Vigour">
+        <item name="android:textSize">@dimen/dialog_button_text_size</item>
+        <item name="android:textColor">@color/vigour_dialog_btn_text_light</item>
+        <item name="android:background">@drawable/vigour_dialog_btn</item>
+    </style>
+    <style name="Vigour.DialogButton.Light" parent="@style/Vigour.DialogButton" />
+    <style name="Vigour.DialogButton.Dark" parent="@style/Vigour.DialogButton" />
+    <style name="Vigour.CompactMenu" parent="@style/Theme.Vigour.Light">
+        <item name="android:textAppearance">?android:textAppearanceListItemSmall</item>
+        <item name="android:textColorPrimary">@color/vigour_text_color_primary_light</item>
+        <item name="android:textColorSecondary">@color/vigour_text_color_secondary_light</item>
+        <item name="android:textColorPrimaryInverse">@color/vigour_text_color_primary_inverse_light</item>
+        <item name="android:textColorSecondaryInverse">@color/vigour_text_color_secondary_inverse_light</item>
+        <item name="android:listViewStyle">@style/Widget.Vigour.MenuList.Light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:listPreferredItemHeightSmall">@dimen/bottom_bar_height</item>
+    </style>
+    <style name="Vigour.CompactMenu.Light" parent="@style/Vigour.CompactMenu" />
+    <style name="Vigour.CompactMenu.Dark" parent="@style/Vigour.CompactMenu">
+        <item name="android:textColorPrimary">@color/vigour_text_color_primary_dark</item>
+        <item name="android:textColorSecondary">@color/vigour_text_color_secondary_dark</item>
+        <item name="android:textColorPrimaryInverse">@color/vigour_text_color_primary_inverse_dark</item>
+        <item name="android:textColorSecondaryInverse">@color/vigour_text_color_secondary_inverse_dark</item>
+        <item name="android:listViewStyle">@style/Widget.Vigour.MenuList.Dark</item>
+    </style>
+    <style name="AlertDialog.Vigour" parent="@android:style/AlertDialog">
+        <item name="android:fullDark">@drawable/vigour_dialog_full_light</item>
+        <item name="android:topDark">@drawable/vigour_dialog_top_light</item>
+        <item name="android:centerDark">@drawable/vigour_dialog_middle_light</item>
+        <item name="android:bottomDark">@drawable/vigour_dialog_bottom_light</item>
+        <item name="android:fullBright">@drawable/vigour_dialog_full_light</item>
+        <item name="android:topBright">@drawable/vigour_dialog_top_light</item>
+        <item name="android:centerBright">@drawable/vigour_dialog_middle_light</item>
+        <item name="android:bottomBright">@drawable/vigour_dialog_bottom_light</item>
+        <item name="android:bottomMedium">@drawable/vigour_dialog_bottom_light</item>
+        <item name="android:centerMedium">@drawable/vigour_dialog_middle_light</item>
+        <item name="android:layout">@layout/vigour_alert_dialog</item>
+        <item name="android:listLayout">@layout/vigour_select_dialog</item>
+        <item name="android:multiChoiceItemLayout">@layout/vigour_select_dialog_multichoice</item>
+        <item name="android:singleChoiceItemLayout">@layout/vigour_select_dialog_singlechoice</item>
+        <item name="android:listItemLayout">@layout/vigour_select_dialog_item</item>
+        <item name="android:progressLayout">@layout/vigour_progress_dialog</item>
+    </style>
+    <style name="SlideListDialog.Vigour" parent="@style/AlertDialog.Vigour">
+        <item name="android:layout">@layout/vigour_slide_alert_dialog</item>
+    </style>
+    <style name="AlertDialog.Vigour.Light" parent="@style/AlertDialog.Vigour" />
+    <style name="AlertDialog.Vigour.Dark" parent="@style/AlertDialog.Vigour">
+        <item name="android:fullDark">@drawable/vigour_dialog_full_dark</item>
+        <item name="android:topDark">@drawable/vigour_dialog_top_dark</item>
+        <item name="android:centerDark">@drawable/vigour_dialog_middle_dark</item>
+        <item name="android:bottomDark">@drawable/vigour_dialog_bottom_dark</item>
+        <item name="android:fullBright">@drawable/vigour_dialog_full_dark</item>
+        <item name="android:topBright">@drawable/vigour_dialog_top_dark</item>
+        <item name="android:centerBright">@drawable/vigour_dialog_middle_dark</item>
+        <item name="android:bottomBright">@drawable/vigour_dialog_bottom_dark</item>
+        <item name="android:bottomMedium">@drawable/vigour_dialog_bottom_dark</item>
+        <item name="android:centerMedium">@drawable/vigour_dialog_middle_dark</item>
+    </style>
+    <style name="AlertDialog.Vigour.BootNotify" parent="@style/AlertDialog.Vigour">
+        <item name="android:horizontalProgressLayout">@layout/vigour_progress_full_dialog</item>
+    </style>
+    <style name="ButtonBar.Vigour" parent="@android:style/ButtonBar">
+        <item name="android:background">@null</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:divider">?android:dividerVertical</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">0.0dip</item>
+        <item name="android:paddingStart">0.0dip</item>
+        <item name="android:paddingEnd">0.0dip</item>
+    </style>
+    <style name="Widget.Vigour.ListView.DropDown" parent="@android:style/Widget.ListView.DropDown">
+        <item name="android:background">@drawable/vigour_list_drop_down_bg_light</item>
+        <item name="android:listSelector">@drawable/vigour_list_bg_light</item>
+        <item name="android:divider">@drawable/vigour_divider_horizontal_bright_opaque</item>
+    </style>
+    <style name="Vigour.GlobalActionDialog" parent="@style/Vigour">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Vigour.GlobalActionDialog</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="Animation.Vigour.GlobalActionDialog" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/vigour_global_action_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/vigour_global_action_dialog_out</item>
+    </style>
+    <style name="Vigour.MoveBoolButton" parent="@style/Vigour">
+        <item name="boolButtonBgOn">@drawable/vigour_bool_btn_bg_on_light</item>
+        <item name="boolButtonBgOff">@drawable/vigour_bool_btn_bg_off_light</item>
+        <item name="boolButtonHand">@drawable/vigour_bool_btn_hand_normal_light</item>
+        <item name="boolButtonHandDisabled">@drawable/vigour_bool_btn_hand_disabled_light</item>
+        <item name="boolButtonHandLeft">@drawable/vigour_bool_btn_handleft_normal_light</item>
+        <item name="boolButtonHandRight">@drawable/vigour_bool_btn_handright_normal_light</item>
+        <item name="boolButtonHandLeftDisabled">@drawable/vigour_bool_btn_handleft_disabled_light</item>
+        <item name="boolButtonHandRightDisabled">@drawable/vigour_bool_btn_handright_disabled_light</item>
+        <item name="boolButtonCircleColor">@color/vigour_progressloading_check_on_enable_focused_light</item>
+        <item name="boolButtonPaddingTop">@dimen/vigour_boolbutton_toppadding</item>
+        <item name="boolButtonPaddingBottom">@dimen/vigour_boolbutton_bottompadding</item>
+        <item name="boolButtonHandMaxWidth">@dimen/vigour_bool_btn_hand_maxwidth</item>
+        <item name="pathInterpolator">@anim/vigour_move_button_interpolator</item>
+    </style>
+    <style name="Vigour.MoveBoolButton.Light" parent="@style/Vigour.MoveBoolButton" />
+    <style name="Vigour.MoveBoolButton.Dark" parent="@style/Vigour.MoveBoolButton">
+        <item name="boolButtonBgOn">@drawable/APKTOOL_DUMMY_51</item>
+        <item name="boolButtonBgOff">@drawable/APKTOOL_DUMMY_4f</item>
+        <item name="boolButtonHand">@drawable/APKTOOL_DUMMY_56</item>
+        <item name="boolButtonHandDisabled">@drawable/APKTOOL_DUMMY_54</item>
+        <item name="boolButtonHandLeft">@drawable/APKTOOL_DUMMY_5a</item>
+        <item name="boolButtonHandRight">@drawable/APKTOOL_DUMMY_5e</item>
+        <item name="boolButtonHandLeftDisabled">@drawable/APKTOOL_DUMMY_58</item>
+        <item name="boolButtonHandRightDisabled">@drawable/APKTOOL_DUMMY_5c</item>
+        <item name="boolButtonCircleColor">@color/vigour_progressloading_check_on_enable_focused_dark</item>
+    </style>
+    <style name="Vigour.SearchView" parent="@style/Vigour">
+        <item name="searchBackground">@drawable/vigour_list_search_bar_bg_light</item>
+        <item name="searchMark">@drawable/vigour_list_search_icon_light</item>
+        <item name="clearMark">@drawable/vigour_btn_list_search_delete_light</item>
+        <item name="contentBgEanble">@drawable/vigour_list_search_bg_normal_light</item>
+        <item name="contentBgDisable">@drawable/vigour_list_search_bg_disable_light</item>
+        <item name="gapLen">@dimen/vigour_searchview_gap_len</item>
+        <item name="searchReslutBg">@drawable/search_resoult_bg_light</item>
+    </style>
+    <style name="Vigour.SearchView.Light" parent="@style/Vigour.SearchView" />
+    <style name="Vigour.SearchView.Dark" parent="@style/Vigour.SearchView">
+        <item name="searchBackground">@drawable/APKTOOL_DUMMY_274</item>
+        <item name="searchMark">@drawable/APKTOOL_DUMMY_27a</item>
+        <item name="clearMark">@drawable/APKTOOL_DUMMY_8a</item>
+        <item name="contentBgEanble">@drawable/APKTOOL_DUMMY_278</item>
+        <item name="contentBgDisable">@drawable/APKTOOL_DUMMY_276</item>
+        <item name="searchReslutBg">@drawable/search_resoult_bg_dark</item>
+    </style>
+    <style name="Widget.Vigour.SearchView_Edit" parent="@style/Widget.Vigour">
+        <item name="android:textSize">@dimen/vigour_searchview_textsize</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">0.0dip</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:imeOptions">actionSearch</item>
+    </style>
+    <style name="Widget.Vigour.SearchView_Edit.Light" parent="@style/Widget.Vigour.SearchView_Edit" />
+    <style name="Widget.Vigour.SearchView_Edit.Dark" parent="@style/Widget.Vigour.SearchView_Edit" />
+    <style name="Vigour.EditorMode" parent="@style/Vigour">
+        <item name="checkMark">@drawable/vigour_btn_check_light</item>
+        <item name="leftPadding">7.0dip</item>
+        <item name="rightPadding">0.0dip</item>
+        <item name="topPadding">-1.0px</item>
+        <item name="ltr">true</item>
+    </style>
+    <style name="Vigour.EditorMode.Light" parent="@style/Vigour.EditorMode" />
+    <style name="Vigour.EditorMode.Dark" parent="@style/Vigour.EditorMode">
+        <item name="checkMark">@drawable/vigour_btn_check_dark</item>
+    </style>
+    <style name="Vigour.AbcThumbSelect" parent="@style/Vigour">
+        <item name="abcThumbSelectBg">@drawable/vigour_abc_thumb_bg_light</item>
+        <item name="abcThumbSelectPopupWinBg">@drawable/vigour_abc_thumb_popwin_bg_light</item>
+    </style>
+    <style name="Vigour.AbcThumbSelect.Light" parent="@style/Vigour.AbcThumbSelect" />
+    <style name="Vigour.AbcThumbSelect.Dark" parent="@style/Vigour.AbcThumbSelect">
+        <item name="abcThumbSelectBg">@drawable/vigour_abc_thumb_bg_dark</item>
+        <item name="abcThumbSelectPopupWinBg">@drawable/vigour_abc_thumb_popwin_bg_dark</item>
+    </style>
+    <style name="Vigour.IndicatorAnim" parent="@style/Vigour">
+        <item name="indicatorActiveBg">@drawable/vigour_launcher_indicator_light_active</item>
+        <item name="indicatorNormalBg">@drawable/vigour_launcher_indicator_light_normal</item>
+        <item name="indicatorAnimArrayRes">@array/indicator_anim_light</item>
+    </style>
+    <style name="Vigour.IndicatorAnim.Light" parent="@style/Vigour.IndicatorAnim" />
+    <style name="Vigour.IndicatorAnim.Dark" parent="@style/Vigour.IndicatorAnim">
+        <item name="indicatorActiveBg">@drawable/vigour_launcher_indicator_dark_active</item>
+        <item name="indicatorNormalBg">@drawable/vigour_launcher_indicator_dark_normal</item>
+        <item name="indicatorAnimArrayRes">@array/indicator_anim_dark</item>
+    </style>
+    <style name="Vigour.TextViewToolbar" parent="@style/Vigour">
+        <item name="android:textAppearance">@style/TextAppearance.Vigour.PopupToolbar</item>
+        <item name="toolbarleftBg">@drawable/vigour_text_toolbar_left_light</item>
+        <item name="toolbarRightBg">@drawable/vigour_text_toolbar_right_light</item>
+        <item name="toolbarCenterBg">@drawable/vigour_text_toolbar_center_light</item>
+        <item name="toolbarSingleBg">@drawable/vigour_text_toolbar_single_light</item>
+        <item name="toolbarArrowUpBg">@drawable/vigour_text_toolbar_position_arrow_above_light</item>
+        <item name="toolbarArrowDownBg">@drawable/vigour_text_toolbar_position_arrow_below_light</item>
+        <item name="toolbarButtonTextAppearance">@style/TextAppearance.Vigour.PopupToolbar</item>
+    </style>
+    <style name="Vigour.TextViewToolbar.Light" parent="@style/Vigour.TextViewToolbar">
+        <item name="android:textAppearance">@style/TextAppearance.Vigour.PopupToolbar.Light</item>
+        <item name="toolbarButtonTextAppearance">@style/TextAppearance.Vigour.PopupToolbar.Light</item>
+    </style>
+    <style name="Vigour.TextViewToolbar.Dark" parent="@style/Vigour.TextViewToolbar">
+        <item name="android:textAppearance">@style/TextAppearance.Vigour.PopupToolbar.Dark</item>
+        <item name="toolbarleftBg">@drawable/vigour_text_toolbar_left_dark</item>
+        <item name="toolbarRightBg">@drawable/vigour_text_toolbar_right_dark</item>
+        <item name="toolbarCenterBg">@drawable/vigour_text_toolbar_center_dark</item>
+        <item name="toolbarSingleBg">@drawable/vigour_text_toolbar_single_dark</item>
+        <item name="toolbarArrowUpBg">@drawable/vigour_text_toolbar_position_arrow_above_dark</item>
+        <item name="toolbarArrowDownBg">@drawable/vigour_text_toolbar_position_arrow_below_dark</item>
+        <item name="toolbarButtonTextAppearance">@style/TextAppearance.Vigour.PopupToolbar.Dark</item>
+    </style>
+    <style name="Vigour.TabSelector" parent="@style/Vigour">
+        <item name="android:textSize">@dimen/vigour_tabselector_text_size</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="tabItemWidth">@dimen/vigour_tabselector_width</item>
+        <item name="tabLeftSelector">@drawable/vigour_btn_title_tab_left_normal_light</item>
+        <item name="tabRightSelector">@drawable/vigour_btn_title_tab_right_normal_light</item>
+        <item name="tabCenterSelector">@drawable/vigour_btn_title_tab_mid_light</item>
+        <item name="tabTextColor">@color/vigour_tabselector_text_color_normal_light</item>
+    </style>
+    <style name="Vigour.TabSelector.Personal" parent="@style/Vigour.TabSelector">
+        <item name="tabLeftSelector">@drawable/vigour_btn_title_tab_left_center_personal_light</item>
+        <item name="tabRightSelector">@drawable/vigour_btn_title_tab_right_center_personal_light</item>
+        <item name="tabCenterSelector">@drawable/vigour_btn_title_tab_mid_center_personal</item>
+        <item name="tabTextColor">@color/vigour_tabselector_text_color_personal_light</item>
+    </style>
+    <style name="Vigour.TabSelector.Contact" parent="@style/Vigour.TabSelector">
+        <item name="tabLeftSelector">@drawable/vigour_btn_title_tab_left_center_contact</item>
+        <item name="tabRightSelector">@drawable/vigour_btn_title_tab_right_center_contact</item>
+        <item name="tabCenterSelector">@drawable/vigour_btn_title_tab_mid_center_contact</item>
+        <item name="tabTextColor">@color/vigour_tabselector_text_color_contact</item>
+    </style>
+    <style name="Vigour.TabSelector.Internet" parent="@style/Vigour.TabSelector">
+        <item name="tabLeftSelector">@drawable/vigour_btn_title_tab_left_center_internet</item>
+        <item name="tabRightSelector">@drawable/vigour_btn_title_tab_right_center_internet</item>
+        <item name="tabCenterSelector">@drawable/vigour_btn_title_tab_mid_center_internet</item>
+        <item name="tabTextColor">@color/vigour_tabselector_text_color_internet</item>
+    </style>
+    <style name="Vigour.TabSelector.Mutimedia" parent="@style/Vigour.TabSelector">
+        <item name="tabLeftSelector">@drawable/vigour_btn_title_tab_left_center_multimedia</item>
+        <item name="tabRightSelector">@drawable/vigour_btn_title_tab_right_center_multimedia</item>
+        <item name="tabCenterSelector">@drawable/vigour_btn_title_tab_mid_center_multimedia</item>
+        <item name="tabTextColor">@color/vigour_tabselector_text_color_mutimedia</item>
+    </style>
+    <style name="Vigour.WindowTitleBackground" parent="@style/Vigour">
+        <item name="android:background">@drawable/vigour_activity_title_bar_bg_light</item>
+    </style>
+    <style name="Vigour.WindowTitleBackground.Light" parent="@style/Vigour.WindowTitleBackground" />
+    <style name="Vigour.WindowTitleBackground.Dark" parent="@style/Vigour.WindowTitleBackground">
+        <item name="android:background">@drawable/APKTOOL_DUMMY_46</item>
+    </style>
+    <style name="TextAppearance.Vigour.MenuItem" parent="@style/TextAppearance.Vigour">
+        <item name="android:textSize">@dimen/menu_item_text_size</item>
+        <item name="android:textColor">@color/vigour_menu_text_color</item>
+    </style>
+    <style name="TextAppearance.Vigour.MenuItem.Light" parent="@style/TextAppearance.Vigour.MenuItem" />
+    <style name="TextAppearance.Vigour.MenuItem.Dark" parent="@style/TextAppearance.Vigour.MenuItem" />
+    <style name="Widget.Vigour.ThumbSelector" parent="@android:style/Widget.ImageButton">
+        <item name="android:background">@drawable/vigour_tmbsel_bground</item>
+        <item name="android:paddingTop">@dimen/vigour_tmbsel_top_and_bottom_padding</item>
+        <item name="android:paddingBottom">@dimen/vigour_tmbsel_top_and_bottom_padding</item>
+        <item name="android:minWidth">@dimen/vigour_tmbsel_min_width</item>
+        <item name="thumbSelectorTextSize">@dimen/vigour_tmbsel_text_size</item>
+        <item name="thumbSelectorTextColor">@color/vigour_tmbsel_text_color</item>
+    </style>
+    <style name="Widget.Vigour.ThumbSelector.Light" parent="@style/Widget.Vigour.ThumbSelector" />
+    <style name="Widget.Vigour.ThumbSelector.Dark" parent="@style/Widget.Vigour.ThumbSelector" />
+    <style name="Widget.Vigour.ToastText" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/vigour_tmbtoast_text_size</item>
+        <item name="android:textColor">@color/vigour_tmbtoast_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/vigour_abc_thumb_popwin_bg_light</item>
+        <item name="android:height">@dimen/vigour_tmbtoast_height</item>
+        <item name="android:width">@dimen/vigour_tmbtoast_width</item>
+    </style>
+    <style name="Widget.Vigour.ToastText.Light" parent="@style/Widget.Vigour.ToastText" />
+    <style name="Widget.Vigour.ToastText.Dark" parent="@style/Widget.Vigour.ToastText" />
+    <style name="Widget.Vigour.LinearView" parent="@style/Widget.Vigour">
+        <item name="android:background">@drawable/vigour_markup_view_bg_light</item>
+        <item name="android:minHeight">@dimen/bottom_bar_height</item>
+        <item name="userPaddingStart">@array/linearview_padding_start</item>
+        <item name="userPaddingEnd">@array/linearview_padding_end</item>
+        <item name="itemLayout">@layout/vigour_linearview_item_layout</item>
+        <item name="itemSpace">@array/linearview_item_space</item>
+        <item name="itemTextBackground">@drawable/vigour_btn_default_small_light</item>
+        <item name="itemTextColor">@color/vigour_markup_view_text_light</item>
+        <item name="dividerDrawable">@null</item>
+        <item name="dividerWidth">0.0px</item>
+        <item name="dividerHeight">0.0px</item>
+    </style>
+    <style name="Widget.Vigour.LinearView.Light" parent="@style/Widget.Vigour.LinearView" />
+    <style name="Widget.Vigour.LinearView.Dark" parent="@style/Widget.Vigour.LinearView">
+        <item name="itemTextBackground">@drawable/vigour_btn_default_small_dark</item>
+        <item name="itemTextColor">@color/vigour_markup_view_text_dark</item>
+    </style>
+    <style name="Widget.Vigour.SearchTitleView" parent="@style/Widget.Vigour">
+        <item name="android:background">@drawable/vigour_activity_title_bar_bg_light</item>
+        <item name="android:minHeight">@dimen/window_title_height</item>
+        <item name="searchBackground">@drawable/vigour_list_search_bg_normal_light</item>
+        <item name="searchImageBackground">@drawable/vigour_list_search_icon_light</item>
+        <item name="searchDeleteBackground">@drawable/vigour_btn_list_search_delete_light</item>
+        <item name="searchGaplen">@dimen/vigour_searchview_gap_len</item>
+    </style>
+    <style name="Widget.Vigour.SearchTitleView.Light" parent="@style/Widget.Vigour.SearchTitleView" />
+    <style name="Widget.Vigour.SearchTitleView.Dark" parent="@style/Widget.Vigour.SearchTitleView">
+        <item name="android:background">@drawable/APKTOOL_DUMMY_46</item>
+        <item name="searchBackground">@drawable/APKTOOL_DUMMY_278</item>
+        <item name="searchImageBackground">@drawable/APKTOOL_DUMMY_27a</item>
+        <item name="searchDeleteBackground">@drawable/APKTOOL_DUMMY_8a</item>
+    </style>
+    <style name="Widget.Vigour.TitleView" parent="@style/Widget.Vigour">
+        <item name="android:minHeight">@dimen/window_title_height</item>
+        <item name="textPaddingInner">@dimen/titleview_text_padding_inner</item>
+        <item name="textPaddingOuter">@dimen/titleview_text_padding_outer</item>
+        <item name="imagePaddingOuter">@dimen/titleview_image_padding_outer</item>
+    </style>
+    <style name="Widget.Vigour.TitleView.Light" parent="@style/Widget.Vigour.TitleView" />
+    <style name="Widget.Vigour.TitleView.Dark" parent="@style/Widget.Vigour.TitleView" />
+    <style name="Widget.Vigour.ContextMenuItem" parent="@style/Widget.Vigour">
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="Widget.Vigour.ContextMenuItem.ListItem" parent="@style/Widget.Vigour.ContextMenuItem">
+        <item name="android:textSize">@dimen/contextmenu_listitem_text_size</item>
+        <item name="android:minHeight">@dimen/contextmenu_listitem_min_height</item>
+        <item name="android:maxLines">3</item>
+    </style>
+    <style name="Widget.Vigour.ContextMenuItem.ListItem.Light" parent="@style/Widget.Vigour.ContextMenuItem.ListItem" />
+    <style name="Widget.Vigour.ContextMenuItem.ListItem.Dark" parent="@style/Widget.Vigour.ContextMenuItem.ListItem" />
+    <style name="Widget.Vigour.ContextMenuItem.IconItem" parent="@style/Widget.Vigour.ContextMenuItem">
+        <item name="android:textSize">@dimen/contextmenu_iconitem_text_size</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="Widget.Vigour.ContextMenuItem.IconItem.Light" parent="@style/Widget.Vigour.ContextMenuItem.IconItem" />
+    <style name="Widget.Vigour.ContextMenuItem.IconItem.Dark" parent="@style/Widget.Vigour.ContextMenuItem.IconItem">
+        <item name="android:textColor">@color/vigour_contextmenu_item_text_light</item>
+    </style>
+    <style name="Widget.Vigour.ScrollNumberPicker" parent="@style/Widget.Vigour">
+        <item name="android:gravity">center</item>
+        <item name="pickerTextColor">@color/picker_text_color_light</item>
+        <item name="scrollItemColor">@color/scroll_item_color_light</item>
+        <item name="selectedItemColor">@color/selected_item_color_light</item>
+        <item name="pickerTextSize">@dimen/vigour_picker_text_size</item>
+        <item name="scrollItemSize">@dimen/vigour_scroll_item_text_size</item>
+        <item name="selectedItemSize">@dimen/vigour_scroll_selected_item_text_size</item>
+        <item name="scrollItemHeight">@dimen/scroll_number_picker_scroll_item_height</item>
+        <item name="scrollItemPickerGap">@dimen/scroll_number_picker_item_picker_gap</item>
+    </style>
+    <style name="Widget.Vigour.ScrollNumberPicker.Light" parent="@style/Widget.Vigour.ScrollNumberPicker" />
+    <style name="Widget.Vigour.ScrollNumberPicker.Dark" parent="@style/Widget.Vigour.ScrollNumberPicker">
+        <item name="pickerTextColor">@color/picker_text_color_dark</item>
+        <item name="scrollItemColor">@color/scroll_item_color_dark</item>
+        <item name="selectedItemColor">@color/selected_item_color_dark</item>
+    </style>
+    <style name="Animation.Vigour" parent="@android:style/Animation" />
+    <style name="Animation.Vigour.Menu" parent="@style/Animation.Vigour">
+        <item name="android:windowEnterAnimation">@anim/vigour_menu_window_enter</item>
+        <item name="android:windowExitAnimation">@anim/vigour_menu_window_exit</item>
+    </style>
+    <style name="Animation.Vigour.MenuEx" parent="@style/Animation.Vigour">
+        <item name="android:windowEnterAnimation">@anim/vigour_menu_window_enter_ex</item>
+        <item name="android:windowExitAnimation">@anim/vigour_menu_window_exit_ex</item>
+    </style>
+    <style name="Animation.Vigour.MenuExF" parent="@style/Animation.Vigour">
+        <item name="android:windowEnterAnimation">@anim/vigour_menu_window_enter_ex</item>
+        <item name="android:windowExitAnimation">@anim/vigour_menu_window_exit_exf</item>
+    </style>
+    <style name="Widget.Vigour.ToolbarItem" parent="@style/Widget.Vigour">
+        <item name="android:textAppearance">@style/TextAppearance.Vigour.PopupToolbar</item>
+        <item name="android:minWidth">@dimen/touch_area_min_width</item>
+    </style>
+    <style name="Widget.Vigour.ToolbarItem.Light" parent="@style/Widget.Vigour.ToolbarItem">
+        <item name="android:textAppearance">@style/TextAppearance.Vigour.PopupToolbar.Light</item>
+    </style>
+    <style name="Widget.Vigour.ToolbarItem.Dark" parent="@style/Widget.Vigour.ToolbarItem">
+        <item name="android:textAppearance">@style/TextAppearance.Vigour.PopupToolbar.Dark</item>
+    </style>
+    <style name="Theme.Vigour" parent="@android:style/Theme">
+        <item name="android:textColorPrimary">@color/vigour_text_color_primary_light</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/vigour_text_color_primary_light</item>
+        <item name="android:textColorSecondary">@color/vigour_text_color_secondary_light</item>
+        <item name="android:textColorPrimaryInverse">@color/vigour_text_color_primary_inverse_light</item>
+        <item name="android:textColorSecondaryInverse">@color/vigour_text_color_secondary_inverse_light</item>
+        <item name="android:textAppearanceLarge">@style/TextAppearance.Vigour.Large</item>
+        <item name="android:textAppearanceMedium">@style/TextAppearance.Vigour.Medium</item>
+        <item name="android:textAppearanceSmall">@style/TextAppearance.Vigour.Small</item>
+        <item name="android:textAppearanceLargeInverse">@style/TextAppearance.Vigour.Large.Inverse</item>
+        <item name="android:textAppearanceMediumInverse">@style/TextAppearance.Vigour.Medium.Inverse</item>
+        <item name="android:textAppearanceSmallInverse">@style/TextAppearance.Vigour.Small.Inverse</item>
+        <item name="android:buttonStyle">@style/Widget.Vigour.Button.Light</item>
+        <item name="android:buttonStyleSmall">@style/Widget.Vigour.Button.Small.Light</item>
+        <item name="android:buttonStyleInset">@style/Widget.Vigour.Button.Inset.Light</item>
+        <item name="android:buttonStyleToggle">@style/Widget.Vigour.Button.Toggle.Light</item>
+        <item name="android:listPreferredItemHeight">64.0dip</item>
+        <item name="android:windowBackground">@drawable/vigour_window_bg_light</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleSize">@dimen/bbkwindowTitleTextSize</item>
+        <item name="android:windowTitleStyle">@style/Vigour.WindowTitle.Light</item>
+        <item name="android:windowTitleBackgroundStyle">@style/Vigour.WindowTitleBackground.Light</item>
+        <item name="android:panelBackground">@drawable/vigour_menu_bg_light</item>
+        <item name="android:panelFullBackground">@drawable/vigour_menu_bg_light</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/vigour_scrollbar_handle_horizontal</item>
+        <item name="android:scrollbarThumbVertical">@drawable/vigour_scrollbar_handle_vertical</item>
+        <item name="android:absListViewStyle">@style/Widget.Vigour.AbsListView</item>
+        <item name="android:autoCompleteTextViewStyle">@style/Widget.Vigour.AutoCompleteTextView.Light</item>
+        <item name="android:checkboxStyle">@style/Widget.Vigour.CheckBox.Light</item>
+        <item name="android:dropDownListViewStyle">@style/Widget.Vigour.ListView.DropDown.Light</item>
+        <item name="android:editTextStyle">@style/Widget.Vigour.EditText.Light</item>
+        <item name="android:expandableListViewStyle">@style/Widget.Vigour.ExpandableListView.Light</item>
+        <item name="android:gridViewStyle">@style/Widget.Vigour.GridView.Light</item>
+        <item name="android:listViewStyle">@style/Widget.Vigour.ListView.Light</item>
+        <item name="android:listViewWhiteStyle">@style/Widget.Vigour.ListView.White.Light</item>
+        <item name="android:progressBarStyle">@style/Widget.Vigour.ProgressBar.Light</item>
+        <item name="android:progressBarStyleHorizontal">@style/Widget.Vigour.ProgressBar.Horizontal.Light</item>
+        <item name="android:progressBarStyleSmall">@style/Widget.Vigour.ProgressBar.Light</item>
+        <item name="android:progressBarStyleLarge">@style/Widget.Vigour.ProgressBar.Light</item>
+        <item name="android:seekBarStyle">@style/Widget.Vigour.SeekBar.Light</item>
+        <item name="android:radioButtonStyle">@style/Widget.Vigour.RadioButton.Light</item>
+        <item name="android:scrollViewStyle">@style/Widget.Vigour.ScrollView</item>
+        <item name="android:spinnerStyle">@style/Widget.Vigour.Spinner.Light</item>
+        <item name="android:tabWidgetStyle">@style/Widget.Vigour.TabWidget.Light</item>
+        <item name="android:textViewStyle">@style/Widget.Vigour.TextStyle</item>
+        <item name="android:dropDownItemStyle">@style/Widget.Vigour.DropDownItem.Light</item>
+        <item name="android:spinnerDropDownItemStyle">@style/Widget.Vigour.DropDownItem.Spinner</item>
+        <item name="android:spinnerItemStyle">@style/Widget.Vigour.TextView.SpinnerItem.Light</item>
+        <item name="android:preferenceScreenStyle">@style/Preference.Vigour.PreferenceScreen</item>
+        <item name="android:preferenceCategoryStyle">@style/Preference.Vigour.Category</item>
+        <item name="android:preferenceInformationStyle">@style/Preference.Vigour.InformationStyle</item>
+        <item name="android:preferenceStyle">@style/Preference.Vigour</item>
+        <item name="android:checkBoxPreferenceStyle">@style/Preference.Vigour.CheckBoxPreference</item>
+        <item name="android:dialogPreferenceStyle">@style/Preference.Vigour.DialogPreference</item>
+        <item name="android:editTextPreferenceStyle">@style/Preference.Vigour.EditTextPreference</item>
+        <item name="android:ringtonePreferenceStyle">@style/Preference.Vigour.RingtonePreference</item>
+        <item name="android:textColorHighlight">@color/vigour_text_color_highlight_light</item>
+        <item name="android:textColorHint">@color/edittext_hint_color_light</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Activity</item>
+        <item name="android:progressBarStyleSmallTitle">@style/Widget.Vigour.ProgressBar.Light</item>
+        <item name="android:textColorTertiary">@color/vigour_text_tertiary_light</item>
+        <item name="android:listDivider">@drawable/vigour_divider_horizontal_light</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/vigour_btn_radio_light</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/vigour_btn_check_light</item>
+        <item name="android:progressBarStyleInverse">@style/Widget.Vigour.ProgressBar.Light</item>
+        <item name="android:progressBarStyleSmallInverse">@style/Widget.Vigour.ProgressBar.Light</item>
+        <item name="android:progressBarStyleLargeInverse">@style/Widget.Vigour.ProgressBar.Light</item>
+        <item name="android:textColorPrimaryInverseDisableOnly">@color/vigour_primary_text_bright_disable_only_light</item>
+        <item name="android:expandableListViewWhiteStyle">@style/Widget.Vigour.ExpandableListView.White.Light</item>
+        <item name="android:webTextViewStyle">@style/Widget.Vigour.WebTextView.Light</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:listChoiceBackgroundIndicator">@drawable/vigour_list_bg_light</item>
+        <item name="android:listPopupWindowStyle">@style/Widget.Vigour.ListPopupWindow.Light</item>
+        <item name="android:popupMenuStyle">@style/Widget.Vigour.PopupMenu.Light</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/TextAppearance.Vigour.PopupMenu.Large</item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/TextAppearance.Vigour.PopupMenu.Small</item>
+        <item name="android:listDividerAlertDialog">@drawable/vigour_divider_horizontal_light</item>
+        <item name="android:textColorAlertDialogListItem">@color/dialog_text_color</item>
+        <item name="android:dialogTheme">@style/Theme.Vigour.Light.Dialog</item>
+        <item name="android:alertDialogTheme">@style/Theme.Vigour.Light.Dialog.Alert</item>
+        <item name="android:dividerVertical">?android:listDivider</item>
+        <item name="android:selectableItemBackground">@drawable/vigour_item_bg_light</item>
+        <item name="android:dividerHorizontal">?android:listDivider</item>
+        <item name="android:textColorHighlightInverse">@color/vigour_text_color_highlight_inverse_light</item>
+        <item name="android:editTextColor">@color/vigour_text_primary_light</item>
+        <item name="android:horizontalScrollViewStyle">@style/Widget.Vigour.ScrollView.Horizontal</item>
+        <item name="android:alertDialogIcon">@drawable/vigour_dialog_close_btn_light</item>
+        <item name="android:textCursorDrawable">@drawable/vigour_text_cursor</item>
+        <item name="android:textSuggestionsWindowStyle">@style/Widget.Vigour.TextSuggestionsPopupWindow.Light</item>
+        <item name="android:listPreferredItemHeightLarge">80.0dip</item>
+        <item name="android:listPreferredItemHeightSmall">@dimen/listItemHeightSmall</item>
+        <item name="android:textAppearanceListItem">?android:textAppearanceMedium</item>
+        <item name="android:textAppearanceListItemSmall">@style/TextAppearance.Vigour.MenuItem.Light</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/vivo_window_statusbar_bg_color</item>
+        <item name="android:errorMessageBackground">@drawable/vigour_popup_inline_error_light</item>
+        <item name="android:errorMessageAboveBackground">@drawable/vigour_popup_inline_error_above_light</item>
+        <item name="android:panelMenuListWidth">@dimen/panel_menu_list_width</item>
+        <item name="android:panelMenuListTheme">@style/Vigour.CompactMenu.Light</item>
+        <item name="android:searchDialogTheme">@style/Theme.SearchBar</item>
+        <item name="btnArrow">@drawable/vigour_ic_btn_arrow_light</item>
+        <item name="titleButtonStyle">@style/Vigour.TitleButton.Light</item>
+        <item name="textAppearancePreferenceSummary">@style/TextAppearance.Vigour.PrefenceSummary.Light</item>
+        <item name="dividerPreferenceStyle">@style/Preference.Vigour.PreferenceDivider</item>
+        <item name="generalBackground">@drawable/vigour_preference_unround_light</item>
+        <item name="explainPreferenceStyle">@style/Preference.Vigour.ExplainPreference</item>
+        <item name="tabSelectorStyle">@style/Vigour.TabSelector.Personal.Light</item>
+        <item name="titleBtnIconStyle">@style/Vigour.TitleBtnIcon.Light</item>
+        <item name="pickerTextColor">@color/picker_text_color_light</item>
+        <item name="scrollItemColor">@color/scroll_item_color_light</item>
+        <item name="selectedItemColor">@color/selected_item_color_light</item>
+        <item name="pickerBanner">@drawable/vigour_picker_banner_light</item>
+        <item name="textAppearancePreferenceTitle">@style/TextAppearance.Vigour.PrefenceTitle.Light</item>
+        <item name="textAppearanceSmallContentNull">@style/TextAppearance.Vigour.SmallContentNull.Light</item>
+        <item name="textAppearanceNormalContentNull">@style/TextAppearance.Vigour.NormalContentNull.Light</item>
+        <item name="generalBackgroundExt">@drawable/vigour_preference_unround_bg_light</item>
+        <item name="statusbarIconColor">auto</item>
+        <item name="textAppearancePreferenceCategory">@style/TextAppearance.Vigour.PrefenceCategory.Light</item>
+        <item name="textAppearancePreferenceCategoryExplain">@style/TextAppearance.Vigour.PrefenceCategory.Explain.Light</item>
+        <item name="generalBackgroundTransparency">@drawable/vigour_general_background_transparency_light</item>
+        <item name="isVigourTheme">true</item>
+        <item name="preferenceGroupStyle">@style/Vigour.PreferenceGroup.Light</item>
+        <item name="textCursorColor">@color/lightTextCursorColor</item>
+        <item name="moveBoolButtonStyle">@style/Vigour.MoveBoolButton.Light</item>
+        <item name="textAppearanceBootDialog">@style/TextAppearance.Vigour.BootDialog.Light</item>
+        <item name="bootProgressBarStyle">@style/Widget.Vigour.BootNotifyProgressBar.Light</item>
+        <item name="editorModeStyle">@style/Vigour.EditorMode.Light</item>
+        <item name="searchViewStyle">@style/Vigour.SearchView.Light</item>
+        <item name="abcThumbSelectStyle">@style/Vigour.AbcThumbSelect.Light</item>
+        <item name="indicatorAnimStyle">@style/Vigour.IndicatorAnim.Light</item>
+        <item name="textViewToolbarStyle">@style/Vigour.TextViewToolbar.Light</item>
+        <item name="ToastTextStyle">@style/Widget.Vigour.ToastText.Light</item>
+        <item name="ThumbSelectorStyle">@style/Widget.Vigour.ThumbSelector.Light</item>
+        <item name="linearViewStyle">@style/Widget.Vigour.LinearView.Light</item>
+        <item name="searchTitleViewStyle">@style/Widget.Vigour.SearchTitleView.Light</item>
+        <item name="titleViewStyle">@style/Widget.Vigour.TitleView.Light</item>
+        <item name="contextMenuListItemStyle">@style/Widget.Vigour.ContextMenuItem.ListItem.Light</item>
+        <item name="contextMenuIconItemStyle">@style/Widget.Vigour.ContextMenuItem.IconItem.Light</item>
+        <item name="searchViewEditStyle">@style/Widget.Vigour.SearchView_Edit.Light</item>
+        <item name="scrollNumberPicker">@style/Widget.Vigour.ScrollNumberPicker.Light</item>
+        <item name="markupViewBackgroundStyle">@drawable/vigour_markup_view_bg_light</item>
+        <item name="bbkMarkupButtonStyle">@style/Vigour.MarkupViewButton.Light</item>
+        <item name="vivoBtnPanel">@drawable/vigour_btn_panel_light</item>
+        <item name="vivoContextMenuBg">@drawable/vigour_contextmenu_bg_light</item>
+        <item name="vivoDividerHorizontal">@drawable/vigour_divider_horizontal_light</item>
+        <item name="vivoContextMenuItemTextColor">@color/vigour_contextmenu_item_text_light</item>
+        <item name="vivoContextMenuItemMoreTextColor">@color/vigour_contextmenu_item_text_more_light</item>
+        <item name="vivoListMenuBg">@drawable/vigour_menu_bg_light</item>
+        <item name="vivoListMenuItemBg">@drawable/vigour_general_background_transparency_light</item>
+        <item name="vivoListMenuItemTextColor">@color/vigour_text_color_primary_inverse_light</item>
+        <item name="vivoContextMenuMore">@drawable/vigour_contextmenu_more_light</item>
+        <item name="vivoContextMenuExpanded">@drawable/vigour_contextmenu_more_expanded_light</item>
+    </style>
+    <style name="Theme.Vigour.Light.Dialog.PackageInstaller" parent="@style/Theme.Vigour.Light.Dialog">
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:buttonBarButtonStyle">@style/Widget.Vigour.Button.PackageInstaller</item>
+    </style>
+    <style name="Theme.Vigour.Light.InputMethod" parent="@style/Theme.Vigour.Light">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:editTextStyle">@style/Widget.Vigour.InputMethodEditText.Light</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.InputMethod</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:imeFullscreenBackground">@color/vivo_ime_fullscreen_background_color</item>
+        <item name="android:imeExtractEnterAnimation">@android:anim/input_method_extract_enter</item>
+        <item name="android:imeExtractExitAnimation">@android:anim/input_method_extract_exit</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="Theme.Vigour.Dark.InputMethod" parent="@style/Theme.Vigour.Dark">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:editTextStyle">@style/Widget.Vigour.InputMethodEditText.Dark</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.InputMethod</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:imeFullscreenBackground">@color/vivo_ime_fullscreen_background_color</item>
+        <item name="android:imeExtractEnterAnimation">@android:anim/input_method_extract_enter</item>
+        <item name="android:imeExtractExitAnimation">@android:anim/input_method_extract_exit</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="Theme.Vigour.Light.Dialog.ContextMenuDialog" parent="@style/Theme.Vigour.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Vigour.Menu</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="Theme.Vigour.Dark.Dialog.ContextMenuDialog" parent="@style/Theme.Vigour.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.InputMethod</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="Theme.SearchBar" parent="@android:style/Theme.Holo.Light.Panel">
+        <item name="android:windowBackground">@color/bbk_search_window_background</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.SearchBar</item>
+    </style>
+    <style name="Theme.Vigour.Light.FullScreen" parent="@style/Theme.Vigour.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="Theme.Vigour.Dark.FullScreen" parent="@style/Theme.Vigour.Dark">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="Theme.Vigour.Light.BootNotifyDialog" parent="@style/Theme.Vigour.Light.FullScreen">
+        <item name="android:windowBackground">@drawable/vigour_progress_bg</item>
+        <item name="android:alertDialogStyle">@style/AlertDialog.Vigour.BootNotify</item>
+    </style>
+    <style name="Theme.Vigour.Dark.BootNotifyDialog" parent="@style/Theme.Vigour.Dark.FullScreen">
+        <item name="android:windowBackground">@drawable/vigour_progress_bg</item>
+        <item name="android:alertDialogStyle">@style/AlertDialog.Vigour</item>
+    </style>
+</resources>

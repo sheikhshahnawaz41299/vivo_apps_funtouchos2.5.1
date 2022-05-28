@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/bbkPreferenceHeight">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@android:id/widget_frame">
+            <TextView android:textAppearance="?textAppearancePreferenceTitle" android:textSize="@dimen/bbkPreferenceTitleTextSize" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" android:paddingEnd="6.0dip" android:layout_marginStart="@dimen/preference_left_margin" />
+            <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textSize="@dimen/bbkPreferenceSummaryTextSize" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" android:layout_below="@android:id/title" android:textDirection="anyRtl" android:paddingEnd="6.0dip" android:layout_alignStart="@android:id/title" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/preference_right_margin" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:id="@id/divider" android:background="?android:dividerHorizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" android:layout_marginStart="@dimen/preference_left_margin" />
+</LinearLayout>

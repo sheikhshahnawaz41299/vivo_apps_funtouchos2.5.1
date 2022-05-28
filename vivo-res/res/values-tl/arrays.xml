@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lunar_months">
+        <item>正</item>
+        <item>Mar</item>
+        <item>Miy</item>
+        <item>Huw</item>
+        <item>Biy</item>
+        <item>Sab</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>腊</item>
+    </string-array>
+    <string-array name="lunar_days_prefix">
+        <item>初</item>
+        <item>十</item>
+        <item>20</item>
+        <item>Miy</item>
+    </string-array>
+    <string-array name="lunar_days_suffix">
+        <item>Lun</item>
+        <item>Mar</item>
+        <item>Miy</item>
+        <item>Huw</item>
+        <item>Biy</item>
+        <item>Sab</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+    </string-array>
+    <string-array name="solar_term">
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+        <item>春分</item>
+        <item>Qingming Festival</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>小雪</item>
+        <item>大雪</item>
+        <item>冬至</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_jan">
+        <item>Araw ng Bagong Taon</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_feb">
+        <item>Araw ng Mga Puso</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_apr">
+        <item>愚人节</item>
+        <item>Earth Day</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_june">
+        <item>"Children's Day"</item>
+        <item>World Environment Day</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_oct">
+        <item>国庆节</item>
+        <item>Halloween</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_dec">
+        <item>Bisperas ng Pasko</item>
+        <item>Pasko</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday">
+        <item>Araw ng Bagong Taon</item>
+        <item>World Wetlands Day</item>
+        <item>Araw ng Mga Puso</item>
+        <item>National Ear Care Day</item>
+        <item>Youth Volunteer Service Day</item>
+        <item>"International Women's Day"</item>
+        <item>Mother River Protection Day</item>
+        <item>Chinese Arbor Day</item>
+        <item>White Valentine, International Police Day</item>
+        <item>World Consumer Rights Day</item>
+        <item>World Forestry Day, World Sleep Day</item>
+        <item>World Water Day</item>
+        <item>World Meteorological Day</item>
+        <item>World Tuberculosis Day</item>
+        <item>愚人节</item>
+        <item>Qingming Festival</item>
+        <item>World Health Day</item>
+        <item>World Earth Day</item>
+        <item>World Intellectual Property Day</item>
+        <item>"International Workers' Day"</item>
+        <item>World Asthma Day</item>
+        <item>Chinese Youth Day</item>
+        <item>World Red Cross Day</item>
+        <item>International Nurses Day</item>
+        <item>International Day of Families</item>
+        <item>World Telecommunication Day</item>
+        <item>National Student Nutrition Day</item>
+        <item>World Milk Day</item>
+        <item>World No Tobacco Day</item>
+        <item>"International Children's Day"</item>
+        <item>World Environment Day</item>
+        <item>National Ear Care Day</item>
+        <item>World Day to Combat Desertification and Drought</item>
+        <item>International Olympic Day</item>
+        <item>National Land Day</item>
+        <item>International Day Against Drug Abuse</item>
+        <item>Birthday of Communist Party of China, International Architecture Day</item>
+        <item>"Chinese People's War Victory Day"</item>
+        <item>World Population Day</item>
+        <item>"Day of Chinese People's Liberation Army"</item>
+        <item>International Youth Day</item>
+        <item>International Literacy Day</item>
+        <item>"Chinese Teacher's Day"</item>
+        <item>Chinese Brain Health Day, International Day for the Preservation of the Ozone Layer</item>
+        <item>National Love Teeth Day</item>
+        <item>World Ceasefire Day</item>
+        <item>World Tourism Day</item>
+        <item>National Day of PRC, International Music Day, International Day of Older Persons</item>
+        <item>World Animal Day</item>
+        <item>"World Teachers' Day"</item>
+        <item>National Hypertension Day</item>
+        <item>World Post Day</item>
+        <item>World Mental Health Day</item>
+        <item>World Standards Day</item>
+        <item>"International Day of the Blind, World Rural Women's Day"</item>
+        <item>World Food Day</item>
+        <item>International Day for the Eradication of Poverty</item>
+        <item>United Nations Day, World Development Information Day</item>
+        <item>"Chinese Men's Health Day"</item>
+        <item>International Day for Biological Diversity</item>
+        <item>Halloween</item>
+        <item>"Chinese Journalists' Day"</item>
+        <item>Fire Awareness Day</item>
+        <item>World Diabetes Day</item>
+        <item>International College Students Day</item>
+        <item>International Day for the Elimination of Violence Against Women</item>
+        <item>World AIDS Day</item>
+        <item>International Day of Disabled Persons</item>
+        <item>National Legal Publicity Day</item>
+        <item>World Football Day</item>
+        <item>Bisperas ng Pasko</item>
+        <item>Pasko</item>
+        <item>International Day for Biological Diversity</item>
+    </string-array>
+    <string-array name="complex_gregorian_holiday">
+        <item>World Leprosy Day</item>
+        <item>Safety Education Day para sa mga Primary at Secondary School</item>
+        <item>Easter</item>
+        <item>Araw ng Mga Ina</item>
+        <item>National Disability Day</item>
+        <item>Araw ng Mga Ama</item>
+        <item>International Day of Peace</item>
+        <item>National Defense Education Day</item>
+        <item>International Day of the Deaf</item>
+        <item>World Habitat Day</item>
+        <item>Canadian Thanksgiving Day</item>
+        <item>International Day for Natural Disaster Reduction</item>
+        <item>World Sight Day</item>
+        <item>US Thanksgiving Day</item>
+    </string-array>
+    <string-array name="year_name">
+        <item>〇</item>
+        <item>Lun</item>
+        <item>Mar</item>
+        <item>Miy</item>
+        <item>Huw</item>
+        <item>Biy</item>
+        <item>Sab</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+    </string-array>
+    <string-array name="month_name">
+        <item>Lun</item>
+        <item>Mar</item>
+        <item>Miy</item>
+        <item>Huw</item>
+        <item>Biy</item>
+        <item>Sab</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>" "</item>
+    </string-array>
+    <string-array name="Week_name">
+        <item>Linggo</item>
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miyerkules</item>
+        <item>Huwebes</item>
+        <item>Biyernes</item>
+        <item>Sabado</item>
+    </string-array>
+</resources>

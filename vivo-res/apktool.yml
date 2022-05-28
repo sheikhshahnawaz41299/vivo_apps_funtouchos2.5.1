@@ -1,0 +1,25 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: vivo-res.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- png
+- jpg
+isFrameworkApk: true
+packageInfo:
+  forcedPackageId: '3'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '22'
+  targetSdkVersion: '22'
+sharedLibrary: false
+sparseResources: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.5.0
+versionInfo:
+  versionCode: '22'
+  versionName: 5.1.1-eng.compiler.20170308

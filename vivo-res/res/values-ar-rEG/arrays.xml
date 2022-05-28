@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lunar_months">
+        <item>正</item>
+        <item>ثلاثاء</item>
+        <item>أربعاء</item>
+        <item>خميس</item>
+        <item>جمعة</item>
+        <item>سبت</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>腊</item>
+    </string-array>
+    <string-array name="lunar_days_prefix">
+        <item>初</item>
+        <item>十</item>
+        <item>عشرون</item>
+        <item>أربعاء</item>
+    </string-array>
+    <string-array name="lunar_days_suffix">
+        <item>اثنين</item>
+        <item>ثلاثاء</item>
+        <item>أربعاء</item>
+        <item>خميس</item>
+        <item>جمعة</item>
+        <item>سبت</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+    </string-array>
+    <string-array name="solar_term">
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+        <item>春分</item>
+        <item>احتفالات تشينج مينج</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>ثلوج خفيفة</item>
+        <item>ثلوج كثيفة</item>
+        <item>冬至</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_jan">
+        <item>عيد رأس السنة الميلادية</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_feb">
+        <item>عيد الحب</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_mar">
+        <item>يوم المرأة</item>
+        <item>يوم زراعة الأشجار</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_apr">
+        <item>كذبة أبريل</item>
+        <item>يوم الأرض</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_may">
+        <item>يوم العمال العالمي</item>
+        <item>青年节</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_june">
+        <item>يوم الطفولة</item>
+        <item>يوم البيئة العالمي</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_aug">
+        <item>عيد القوات المسلحة</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_sept">
+        <item>يوم المعلم</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_oct">
+        <item>اليوم الوطني</item>
+        <item>عشية عيد القديسين</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_dec">
+        <item>عشية عيد الميلاد</item>
+        <item>عيد الميلاد</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday">
+        <item>عيد رأس السنة الميلادية</item>
+        <item>اليوم العالمي للأراضي الرطبة</item>
+        <item>عيد الحب</item>
+        <item>اليوم الوطني لرعاية الأذن</item>
+        <item>يوم الخدمات التطوعية للشباب</item>
+        <item>اليوم العالمي للمرأة</item>
+        <item>يوم حماية النهر الأم</item>
+        <item>يوم الشجرة في الصين</item>
+        <item>اليوم الأبيض، يوم الشرطة العالمي</item>
+        <item>اليوم العالمي لحقوق المستهلك</item>
+        <item>اليوم العالمي للغابات، اليوم العالمي للنوم</item>
+        <item>يوم الماء العالمي</item>
+        <item>اليوم العالمي للأرصاد الجوية</item>
+        <item>اليوم العالمي لمكافحة السل</item>
+        <item>كذبة أبريل</item>
+        <item>Qingming Festival</item>
+        <item>يوم الصحة العالمي</item>
+        <item>يوم الأرض العالمي</item>
+        <item>اليوم العالمي للملكية الفكرية</item>
+        <item>يوم العمال العالمي</item>
+        <item>اليوم العالمي للربو</item>
+        <item>يوم الشباب الصيني</item>
+        <item>اليوم العالمي للصليب الأحمر</item>
+        <item>اليوم العالمي للتمريض</item>
+        <item>اليوم الدولي للأسر</item>
+        <item>اليوم العالمي للاتصالات</item>
+        <item>اليوم الوطني لتغذية الطلاب</item>
+        <item>يوم اللبن العالمي</item>
+        <item>اليوم العالمي لمكافحة التبغ</item>
+        <item>يوم الطفل العالمي</item>
+        <item>World Environment Day</item>
+        <item>اليوم الوطني للعناية بالعين</item>
+        <item>اليوم العالمي لمكافحة التصحر والجفاف</item>
+        <item>اليوم العالمي للأولمبياد</item>
+        <item>اليوم الوطني للأرض</item>
+        <item>اليوم الدولي لمكافحة إساءة استعمال المخدرات</item>
+        <item>Birthday of Communist Party of China, International Architecture Day</item>
+        <item>"Chinese People's War Victory Day"</item>
+        <item>اليوم العالمي للسكان</item>
+        <item>"Day of Chinese People's Liberation Army"</item>
+        <item>اليوم الدولي للشباب</item>
+        <item>اليوم العالمي للتحصيل</item>
+        <item>"Chinese Teacher's Day"</item>
+        <item>Chinese Brain Health Day, International Day for the Preservation of the Ozone Layer</item>
+        <item>اليوم الوطني للعناية بالأسنان</item>
+        <item>اليوم العالمي لوقف إطلاق النار</item>
+        <item>اليوم العالمي للسياحة</item>
+        <item>National Day of PRC, International Music Day, International Day of Older Persons</item>
+        <item>اليوم العالمي للحيوان</item>
+        <item>اليوم العالمي للمعلم</item>
+        <item>اليوم الوطني لارتفاع ضغط الدم</item>
+        <item>اليوم العالمي للبريد</item>
+        <item>اليوم العالمي للصحة النفسية</item>
+        <item>اليوم العالمي لتوحيد المقاييس</item>
+        <item>اليوم العالمي للمكفوفين، اليوم الدولي للمرأة الريفية</item>
+        <item>اليوم العالمي للغذاء</item>
+        <item>اليوم الدولي للقضاء على الفقر</item>
+        <item>يوم الأمم المتحدة، اليوم العالمي للإعلام الإنمائي</item>
+        <item>يوم صحة الرجل في الصين</item>
+        <item>اليوم الدولي للتنوع البيولوجي</item>
+        <item>عشية عيد القديسين</item>
+        <item>"Chinese Journalists' Day"</item>
+        <item>يوم التوعية بالسلامة من الحرائق</item>
+        <item>اليوم العالمي للسكري</item>
+        <item>اليوم الدولي لطلاب الجامعة</item>
+        <item>اليوم الدولي للقضاء على العنف ضد المرأة</item>
+        <item>اليوم العالمي لمكافحة الإيدز</item>
+        <item>اليوم الدولي للأشخاص ذوي الإعاقة</item>
+        <item>اليوم الوطني للدعاية القانونية</item>
+        <item>اليوم العالمي لكرة القدم</item>
+        <item>عشية عيد الميلاد</item>
+        <item>عيد الميلاد</item>
+        <item>اليوم الدولي للتنوع البيولوجي</item>
+    </string-array>
+    <string-array name="complex_gregorian_holiday">
+        <item>اليوم العالمي للجذام</item>
+        <item>يوم التعليم في مجال السلامة للمدارس الابتدائية والثانوية</item>
+        <item>عيد الفصح</item>
+        <item>عيد الأم</item>
+        <item>اليوم الوطني للمعاقين</item>
+        <item>عيد الأب</item>
+        <item>اليوم العالمي للسلام</item>
+        <item>يوم تعليم الدفاع الوطني</item>
+        <item>اليوم العالمي للصم</item>
+        <item>اليوم العالمي للإسكان</item>
+        <item>عيد الشكر الكندي</item>
+        <item>اليوم الدولي للحد من الكوارث الطبيعية</item>
+        <item>اليوم العالمي للبصر</item>
+        <item>عيد الشكر في الولايات المتحدة</item>
+    </string-array>
+    <string-array name="lunar_holiday">
+        <item>احتفالات الربيع</item>
+        <item>元宵节</item>
+        <item>端午节</item>
+        <item>عيد الحب في الصين</item>
+        <item>中秋节</item>
+        <item>重阳节</item>
+        <item>腊八节</item>
+    </string-array>
+    <string-array name="year_name">
+        <item>〇</item>
+        <item>اثنين</item>
+        <item>ثلاثاء</item>
+        <item>أربعاء</item>
+        <item>خميس</item>
+        <item>جمعة</item>
+        <item>سبت</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+    </string-array>
+    <string-array name="month_name">
+        <item>اثنين</item>
+        <item>ثلاثاء</item>
+        <item>أربعاء</item>
+        <item>خميس</item>
+        <item>جمعة</item>
+        <item>سبت</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>" "</item>
+    </string-array>
+    <string-array name="Week_name">
+        <item>الأحد</item>
+        <item>الاثنين</item>
+        <item>الثلاثاء</item>
+        <item>الأربعاء</item>
+        <item>الخميس</item>
+        <item>الجمعة</item>
+        <item>السبت</item>
+    </string-array>
+</resources>

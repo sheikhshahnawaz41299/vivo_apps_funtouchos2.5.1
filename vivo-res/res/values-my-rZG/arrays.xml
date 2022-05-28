@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animal_years">
+        <item>ေျမာက္</item>
+        <item>ၾကက္ဖ</item>
+        <item>狗</item>
+        <item>၀က္</item>
+        <item>ၾကြက္</item>
+        <item>ကၽြဲ</item>
+        <item>က်ား</item>
+        <item>ယုန္</item>
+        <item>နဂါး</item>
+        <item>ေျမြ</item>
+        <item>ျမင္း</item>
+        <item>သိုး</item>
+    </string-array>
+    <string-array name="lunar_months">
+        <item>正</item>
+        <item>二</item>
+        <item>ဟူး</item>
+        <item>ေတး</item>
+        <item>ၾကာ</item>
+        <item>ေန</item>
+        <item>" 7"</item>
+        <item>" 8"</item>
+        <item>" 9"</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>腊</item>
+    </string-array>
+    <string-array name="lunar_days_prefix">
+        <item>初</item>
+        <item>十</item>
+        <item>20</item>
+        <item>ဟူး</item>
+    </string-array>
+    <string-array name="lunar_days_suffix">
+        <item>လာ</item>
+        <item>二</item>
+        <item>ဟူး</item>
+        <item>ေတး</item>
+        <item>ၾကာ</item>
+        <item>ေန</item>
+        <item>" 7"</item>
+        <item>" 8"</item>
+        <item>" 9"</item>
+        <item>十</item>
+    </string-array>
+    <string-array name="solar_term">
+        <item>အနည္းငယ္ ေအး</item>
+        <item>အလြန္ ေအး</item>
+        <item>立春</item>
+        <item>မိုးေရ</item>
+        <item>ပိုးမႊားမ်ားေၾကာင့္ ႏိုးေနသည္</item>
+        <item>ေႏြဦးေပါက္ အီေကြတာတည့္တည့္ေနေရာက္ခ်ိန္</item>
+        <item>ကြင္မင္း ပြဲေတာ္</item>
+        <item>မိုးသီးေပါက္</item>
+        <item>ေႏြရာသီအစ</item>
+        <item>အေစ့ႀကီး</item>
+        <item>နားထဲမွ အေစ့</item>
+        <item>ေနႏွင့္အီေကြတာေ၀းသည့္ ေႏြရာသီ</item>
+        <item>အနည္းငယ္ ပူ</item>
+        <item>အလြန္ ပူ</item>
+        <item>ေဆာင္းဦးရာသီအစ</item>
+        <item>အပူ ကန္႕သတ္ခ်က္</item>
+        <item>အျဖဳေရာင္ဆီးႏွင္း</item>
+        <item>ေဆာင္းဦးေပါက္ အီေကြတာတည့္တည့္ေနေရာက္ခ်ိန္</item>
+        <item>ေအးျမသည့္ ဆီးႏွင္း</item>
+        <item>ေအးခဲ သက္ဆင္းမႈ</item>
+        <item>ေဆာင္းရာသီအစ</item>
+        <item>小雪</item>
+        <item>大雪</item>
+        <item>冬至</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_jan">
+        <item>ႏွစ္သစ္ကူးေန႔</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_feb">
+        <item>ခ်စ္သူမ်ားေန႔</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_apr">
+        <item>愚人节</item>
+        <item>ကမာၻေျမေန႔</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_june">
+        <item>ကေလးမ်ားေန႔</item>
+        <item>ကမာၻ႔ ပတ္၀န္းက်င္ေန႔</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_oct">
+        <item>国庆节</item>
+        <item>ေဟာလို၀င္းပြဲေတာ္</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_dec">
+        <item>ခရစၥမတ္အႀကိဳေန႔</item>
+        <item>ခရစၥမတ္</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday">
+        <item>ႏွစ္သစ္ကူးေန႔</item>
+        <item>ကမာၻ႔ စိမ့္ေျမမ်ားေန႔</item>
+        <item>ခ်စ္သူမ်ားေန႔</item>
+        <item>ႏိုင္ငံေတာ္ နားေစာင့္ေရွာက္ေရးေန႔</item>
+        <item>လူငယ္ ပရဟိတ ဝန္ေဆာင္ေရးေန႔</item>
+        <item>ႏိုင္ငံတကာ အမ်ဳိးသမီးမ်ားေန႔</item>
+        <item>မိခင္ျမစ္ ကာကြယ္ေရးေန႔</item>
+        <item>တ႐ုတ္ႏိုင္ငံ ဥယ်ာဥ္သစ္ပင္ေန႔</item>
+        <item>အျဖဴေရာင္ ဗယ္လင္တိုင္း၊ ႏိုင္ငံတကာ ရဲတပ္ဖြဲ႔ေန႔</item>
+        <item>ကမာၻ႔ စားသံုးသူ အခြင့္အေရးေန႔</item>
+        <item>ကမာၻ႔ သစ္ေတာေန႔၊ ကမာၻ႔ အိပ္စက္မႈေန႔</item>
+        <item>ကမာၻ႔ ေရေန႔</item>
+        <item>ကမာၻ႔ မိုးေလဝသေန႔</item>
+        <item>ကမာၻ႔ တီဘီေရာဂါေန႔</item>
+        <item>愚人节</item>
+        <item>ကြင္မင္း ပြဲေတာ္</item>
+        <item>ကမာၻ႔ က်န္းမာေရးေန႔</item>
+        <item>ကမာၻ႔ ၿဂိဳလ္ကမာၻေန႔</item>
+        <item>ကမာၻ႔ ဉာဏ ပစၥည္းဥစၥာေန႔</item>
+        <item>ႏိုင္ငံတကာ အလုပ္သမားေန႔</item>
+        <item>ကမာၻ႔ ပန္းနာေန႔</item>
+        <item>တ႐ုတ္ႏိုင္ငံ လူငယ္မ်ားေန႔</item>
+        <item>ကမာၻ႔ ၾကက္ေျခနီေန႔</item>
+        <item>ႏိုင္ငံတကာ သူနာျပဳေန႔</item>
+        <item>ႏိုင္ငံတကာ မိသားစုမ်ားေန႔</item>
+        <item>ကမာၻ႔ ေၾကးနန္းဆက္သြယ္ေရးေန႔</item>
+        <item>ႏိုင္ငံေတာ္ ေက်ာင္းသူေက်ာင္းသားမ်ား အာဟာရေန႔</item>
+        <item>ကမာၻ႔ ႏြားႏို႔ေန႔</item>
+        <item>ကမာၻ႔ ေဆးရြက္ႀကီး ကင္းစင္ေရးေန႔</item>
+        <item>ႏိုင္ငံတကာ ကေလးမ်ားေန႔</item>
+        <item>ကမာၻ႔ ပတ္၀န္းက်င္ေန႔</item>
+        <item>ႏိုင္ငံေတာ္ မ်က္စိေစာင့္ေရွာက္ေရးေန႔</item>
+        <item>ကမာၻ႔ ကႏၱာရျဖစ္လာျခင္းႏွင့္ မိုးေခါင္မႈ ကာကြယ္ေရးေန႔</item>
+        <item>ႏိုင္ငံတကာ အိုလံပစ္အားကစားေန႔</item>
+        <item>ႏိုင္ငံေတာ္ ေျမနယ္နိမိတ္ေန႔</item>
+        <item>ႏိုင္ငံတကာ မူးယစ္ေဆး အလြဲသံုးမႈဆန္႔က်င္ေရးေန႔</item>
+        <item>တ႐ုတ္ႏိုင္ငံ ကြန္ျမဴနစ္ပါတီ ႏွစ္ပတ္လည္ေန႔၊ ႏိုင္ငံတကာ ဗိသုကာလက္ရာေန႔</item>
+        <item>တ႐ုတ္ႏိုင္ငံ ျပည္သူလူထု၏ ဂ်ပန္ေတာ္လွန္ေရး စစ္ပြဲ ေအာင္ႏိုင္မႈေန႔</item>
+        <item>ကမာၻ႔ လူဦးေရေန႔</item>
+        <item>တ႐ုတ္ႏိုင္ငံ ျပည္သူ႔လြတ္ေျမာက္ေရး တပ္မေတာ္ေန႔</item>
+        <item>ႏိုင္ငံတကာ လူငယ္မ်ားေန႔</item>
+        <item>ႏိုင္ငံတကာ စာတတ္ေျမာက္မႈေန႔</item>
+        <item>တ႐ုတ္ႏုိင္ငံ ဆရာမ်ားေန႔</item>
+        <item>တ႐ုတ္ႏုိင္ငံ ဦးေႏွာက္က်န္းမာေရးေန႔၊ ႏိုင္ငံတကာ အိုဇုန္းလႊာ ကာကြယ္ေရးေန႔</item>
+        <item>ႏိုင္ငံေတာ္ သြား ခ်စ္ခင္ျမတ္ႏိုးေရးေန႔</item>
+        <item>ကမာၻ႔ အပစ္အခတ္ရပ္စဲေရးေန႔</item>
+        <item>ကမာၻ႔ ခရီးသြားလာေရးေန႔</item>
+        <item>ႏိုင္ငံေတာ္ PRC ေန႔၊ ႏိုင္ငံတကာ ေတးဂီတေန႔၊ ႏိုင္ငံတကာ သက္ႀကီးရြယ္အိုမ်ားေန႔</item>
+        <item>ကမာၻ႔ တိရိစာၦန္မ်ားေန႔</item>
+        <item>ကမာၻ႔ ဆရာမ်ားေန႔</item>
+        <item>ႏိုင္ငံေတာ္ ေသြးတိုးေရာဂါေန႔</item>
+        <item>ကမာၻ႔ စာပို႔ေရးေန႔</item>
+        <item>ကမာၻ႔ စိတ္က်န္းမာေရးေန႔</item>
+        <item>ကမာၻ႔ စံခ်ိန္စံညႊန္းမ်ားေန႔</item>
+        <item>ႏိုင္ငံတကာ မ်က္မျမင္မ်ားေန႔၊ ကမာၻ႔ ေက်းလက္ေဒသ အမ်ဳိးသမီးမ်ားေန႔</item>
+        <item>ကမာၻ႔ စားနပ္ရိကၡာေန႔</item>
+        <item>ႏိုင္ငံတကာ ဆင္းရဲမြဲေတမႈ ပေပ်ာက္ေရးေန႔</item>
+        <item>ကမာၻ႔ ကုလသမဂၢေန႔၊ ကမာၻ႔ အခ်က္အလက္ ဖြံ႔ၿဖိဳးတိုးတက္ေရးေန႔</item>
+        <item>တ႐ုတ္ႏိုင္ငံ အမ်ဳိးသားမ်ား က်န္းမာေရးေန႔</item>
+        <item>ႏိုင္ငံတကာ ဇီဝဆိုင္ရာ ကြဲျပားျဖစ္တည္မႈေန႔</item>
+        <item>ေဟာလို၀င္းပြဲေတာ္</item>
+        <item>တ႐ုတ္ႏိုင္ငံ သတင္းစာဆရာမ်ားေန႔</item>
+        <item>မီးသတိျပဳေရးေန႔</item>
+        <item>ကမာၻ႔ ဆီးခ်ဳိေရာဂါေန႔</item>
+        <item>ႏိုင္ငံတကာ ေကာလိပ္ေက်ာင္းသားမ်ားေန႔</item>
+        <item>ႏိုင္ငံတကာ အမ်ဳိးအသီးမ်ားအေပၚ အၾကမ္းဖက္ခ်ဳိးေဖာက္မႈ ပေပ်ာက္ေရးေန႔</item>
+        <item>ကမာၻ႔ ေအ့ဒ္စ္ေရာဂါေန႔</item>
+        <item>ႏိုင္ငံတကာ မသန္စြမ္းသူမ်ားေန႔</item>
+        <item>ႏိုင္ငံေတာ္ တရားဝင္ သတင္းျပန္ၾကားေရးေန႔</item>
+        <item>ကမာၻ႔ ေဘာလံုးအားကစားေန႔</item>
+        <item>ခရစၥမတ္အႀကိဳေန႔</item>
+        <item>ခရစၥမတ္</item>
+        <item>ႏိုင္ငံတကာ ဇီဝဆိုင္ရာ ကြဲျပားျဖစ္တည္မႈေန႔</item>
+    </string-array>
+    <string-array name="complex_gregorian_holiday">
+        <item>ကမာၻ႔ အႏူေရာဂါသည္မ်ားေန႔</item>
+        <item>အေျခခံႏွင့္ အလယ္တန္း ေက်ာင္းမ်ားအတြက္ ေဘးကင္းသည့္ ပညာေရးေန႔</item>
+        <item>အစၥတာ</item>
+        <item>အေမေန႔</item>
+        <item>ႏိုင္ငံေတာ္ မသန္စြမ္းသူမ်ားေန႔</item>
+        <item>အေဖေန႔</item>
+        <item>ႏိုင္ငံတကာ ၿငိမ္းခ်မ္းေရးေန႔</item>
+        <item>ႏိုင္ငံေတာ္ ကာကြယ္မႈ ပညာေရးေန႔</item>
+        <item>ႏိုင္ငံတကာ ဆြံ႔အနားမၾကားသူမ်ားေန႔</item>
+        <item>ကမာၻ႔ အိမ္ယာေဆာက္လုပ္ေရးေန႔</item>
+        <item>ကေနဒါႏိုင္ငံ ေက်းဇူးေတာ္ ခ်ီးမြမ္းပြဲေန႔</item>
+        <item>ႏိုင္ငံတကာ သဘာဝ ကပ္ေဘးအႏၱရာယ္ ေလ်ာ့ပါးေရးေန႔</item>
+        <item>ကမာၻ႔ ျမင္ကြင္းေန႔</item>
+        <item>US ေက်းဇူးေတာ္ ခ်ီးမြမ္းပြဲေန႔</item>
+    </string-array>
+    <string-array name="year_name">
+        <item>〇</item>
+        <item>လာ</item>
+        <item>二</item>
+        <item>ဟူး</item>
+        <item>ေတး</item>
+        <item>ၾကာ</item>
+        <item>ေန</item>
+        <item>7.0</item>
+        <item>8.0</item>
+        <item>9.0</item>
+    </string-array>
+    <string-array name="month_name">
+        <item>လာ</item>
+        <item>二</item>
+        <item>ဟူး</item>
+        <item>ေတး</item>
+        <item>ၾကာ</item>
+        <item>ေန</item>
+        <item>" 7"</item>
+        <item>" 8"</item>
+        <item>" 9"</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>" "</item>
+    </string-array>
+    <string-array name="Week_name">
+        <item>တနဂၤေႏြ</item>
+        <item>တနလာၤ</item>
+        <item>အဂၤါ</item>
+        <item>ဗုဒၶဟူး</item>
+        <item>ၾကာသပေတး</item>
+        <item>ေသာၾကာ</item>
+        <item>စေန</item>
+    </string-array>
+</resources>

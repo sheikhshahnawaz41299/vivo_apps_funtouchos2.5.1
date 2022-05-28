@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center_vertical" android:background="?pickerBanner" android:layout_width="fill_parent" android:layout_height="@dimen/scroll_number_picker_scroll_item_height" />
+    <com.vivo.common.widget.BBKTimePicker android:layout_gravity="center_horizontal" android:id="@id/bbktimePicker" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

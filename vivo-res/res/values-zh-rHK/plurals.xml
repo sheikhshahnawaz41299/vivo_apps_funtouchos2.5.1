@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="vivo_hotspot_notification_dataUsage_plurals">
+        <item quantity="other">已透過Wi-Fi共享%1$sMB數據用量（%2$d個連接）</item>
+        <item quantity="one">已透過Wi-Fi共享%1$sMB數據用量（%2$d個連接）</item>
+    </plurals>
+</resources>

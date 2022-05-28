@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="vivo_hotspot_notification_dataUsage_plurals">
+        <item quantity="other">Wi-Fi (%2$d کنیکشن) دے زریعے %1$sMB ڈیٹا دی سانجھے داری کیتی گئی اے</item>
+        <item quantity="one">Wi-Fi (%2$d کنیکشن) دے زریعے %1$sMB ڈیٹا دی سانجھے داری کیتی گئی اے</item>
+    </plurals>
+</resources>

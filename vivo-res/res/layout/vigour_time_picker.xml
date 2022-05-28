@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/bbk_time_parent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.vivo.common.widget.ScrollNumberPicker android:id="@id/bbk_hour" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_alignParentLeft="true" />
+    <com.vivo.common.widget.ScrollNumberPicker android:id="@id/bbk_minute" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_toRightOf="@id/bbk_hour" />
+    <com.vivo.common.widget.ScrollNumberPicker android:id="@id/bbk_ampm" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_alignParentRight="true" />
+</LinearLayout>

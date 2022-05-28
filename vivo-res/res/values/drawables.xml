@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="search_resoult_bg_light">#fff4f4f4</item>
+    <item type="drawable" name="search_resoult_bg_dark">#ff0f121d</item>
+</resources>

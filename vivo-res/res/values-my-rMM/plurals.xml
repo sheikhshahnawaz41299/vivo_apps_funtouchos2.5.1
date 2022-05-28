@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="vivo_hotspot_notification_dataUsage_plurals">
+        <item quantity="other">ဒေတာ %1$s MB ကို Wi-Fi (%2$d ချိတ်ဆက်မှု) မှ မှျှဝေပြီးပါပြီ</item>
+        <item quantity="one">ဒေတာ %1$s MB ကို Wi-Fi (%2$d ချိတ်ဆက်မှု) မှ မှျှဝေပြီးပါပြီ</item>
+    </plurals>
+</resources>

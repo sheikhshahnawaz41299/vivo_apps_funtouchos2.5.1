@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lunar_months">
+        <item>正</item>
+        <item>អង្គារ</item>
+        <item>ពុធ</item>
+        <item>ព្រហ</item>
+        <item>សុក្រ</item>
+        <item>សៅរ៍</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>腊</item>
+    </string-array>
+    <string-array name="lunar_days_prefix">
+        <item>初</item>
+        <item>十</item>
+        <item>ម្ភៃ</item>
+        <item>ពុធ</item>
+    </string-array>
+    <string-array name="lunar_days_suffix">
+        <item>ច័ន្ទ</item>
+        <item>អង្គារ</item>
+        <item>ពុធ</item>
+        <item>ព្រហ</item>
+        <item>សុក្រ</item>
+        <item>សៅរ៍</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+    </string-array>
+    <string-array name="solar_term">
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+        <item>春分</item>
+        <item>បុណ្យឆេងម៉េង</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>ធ្លាក់ព្រិលតិចៗ</item>
+        <item>ធ្លាក់ព្រិលខ្លាំង</item>
+        <item>冬至</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_jan">
+        <item>ថ្ងៃចូលឆ្នាំថ្មី</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_feb">
+        <item>ថ្ងៃបុណ្យនៃសេក្ដីស្រលាញ់</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_mar">
+        <item>ទិវានារី</item>
+        <item>ទិវាដាំដើមឈើ</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_apr">
+        <item>ទិវាមេសាមុខត្លុក</item>
+        <item>ទិវាភពផែនដី</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_may">
+        <item>ទិវាពលកម្មអន្ដរជាតិ</item>
+        <item>青年节</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_june">
+        <item>ទិវាកុមារ</item>
+        <item>ទិវាបរិស្ថានពិភពលោក</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_aug">
+        <item>ទិវាកងទ័ព</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_sept">
+        <item>ទិវាគ្រូបង្រៀន</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_oct">
+        <item>ទិវាបុណ្យជាតិ</item>
+        <item>បុណ្យ​ហាឡូវីន</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_dec">
+        <item>ថ្ងៃមុណបុណ្យគ្រិស្ដម៉ាស</item>
+        <item>បុណ្យគ្រិស្ដម៉ាស</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday">
+        <item>ថ្ងៃចូលឆ្នាំថ្មី</item>
+        <item>ទិវាដីសើម​ពិភពលោក</item>
+        <item>ថ្ងៃបុណ្យនៃសេក្ដីស្រលាញ់</item>
+        <item>ទិវាជាតិថែទាំសុខភាពត្រចៀក</item>
+        <item>ទិវាសេវាយុវជនស្ម័គ្រចិត្ត</item>
+        <item>ទិវានារីអន្ដរជាតិ</item>
+        <item>ទិវាការពារមាតាទន្លេ</item>
+        <item>ទិវាដាំដើមឈើចិន</item>
+        <item>បុណ្យនៃក្ដីស្រឡាញ់ពណ៌ស ទិវា​ប៉ូលីសអន្ដរជាតិ</item>
+        <item>ទិវាសិទ្ធិ​អ្នកប្រើប្រាស់ពិភពលោក</item>
+        <item>ទិវាព្រៃឈើពិភពលោក ទិវាដំណេកពិភពលោក</item>
+        <item>ទិវាទឹកស្អាតពិភពលោក</item>
+        <item>ទិវាឧត្តុនិយម​ពិភពលោក</item>
+        <item>ទិវាប្រឆាំងជំងឺរបេងពិភពលោក</item>
+        <item>ទិវាមេសាមុខត្លុក</item>
+        <item>បុណ្យឆេងម៉េង</item>
+        <item>ទិវាសុខភាពពិភពលោក</item>
+        <item>ទិវាភពផែនដី</item>
+        <item>ទិវាកម្មសិទ្ធិ​បញ្ញាពិភពលោក</item>
+        <item>ទិវាពលកម្មអន្ដរជាតិ</item>
+        <item>ទិវាប្រឆាំងជំងឺហឺតពិភពលោក</item>
+        <item>ទិវាយុវជនចិន</item>
+        <item>ទិវាកាកបាទក្រហម​អន្ដរជាតិ</item>
+        <item>ទិវាគិលានុបដ្ឋាយិកាអន្ដរជាតិ</item>
+        <item>ទិវាគ្រួសារ​អន្ដរជាតិ</item>
+        <item>ទិវាទូរគមនាគមន៍ពិភពលោក</item>
+        <item>ទិវាអាហារបំប៉នសិស្សថ្នាក់ជាតិ​</item>
+        <item>ទិវាទឹកដោះពិភពលោក</item>
+        <item>ទិវាគ្មានថ្នាំជក់ពិភពលោក</item>
+        <item>ទិវាកុមារអន្ដរជាតិ</item>
+        <item>ទិវាបរិស្ថានពិភពលោក</item>
+        <item>ទិវាជាតិថែទាំភ្នែក</item>
+        <item>ទិវាពិភពលោក​ប្រយុទ្ធប្រឆាំងនឹងការប្រែក្លាយ​ជាវាលរហោឋាន និងភាពរាំងស្ងួត</item>
+        <item>ទិវាអូឡាំពិចអន្ដរជាតិ</item>
+        <item>ទិវាដីថ្នាក់​ជាតិ</item>
+        <item>ទិវាប្រឆាំង​ការសេពគ្រឿងញៀន​អន្ដរជាតិ</item>
+        <item>Birthday of Communist Party of China, International Architecture Day</item>
+        <item>"Chinese People's War Victory Day"</item>
+        <item>ទិវាប្រជាជនពិភពលោក</item>
+        <item>"Day of Chinese People's Liberation Army"</item>
+        <item>ទិវាយុវជនអន្ដរជាតិ</item>
+        <item>ទិវាអក្ខរកម្មអន្ដរជាតិ</item>
+        <item>"Chinese Teacher's Day"</item>
+        <item>Chinese Brain Health Day, International Day for the Preservation of the Ozone Layer</item>
+        <item>ទិវាស្រឡាញ់ធ្មេញ​ថ្នាក់ជាតិ</item>
+        <item>ទិវាបទឈប់បាញ់ពិភពលោក</item>
+        <item>ទិវាទេសចរណ៍ពិភពលោក</item>
+        <item>National Day of PRC, International Music Day, International Day of Older Persons</item>
+        <item>ទិវាសត្វពាហនៈពិភពលោក</item>
+        <item>ទិវាគ្រូបង្រៀនអន្ដរជាតិ</item>
+        <item>ទិវាជាតិប្រឆាំងជំងឺលើសឈាម</item>
+        <item>ទិវាប្រៃសណីយ៍ពិភពលោក</item>
+        <item>ទិវាសុខភាពផ្លូវចិត្តពិភពលោក</item>
+        <item>ទិវាស្ដង់ដារពិភពលោក</item>
+        <item>ទិវាជនពិការភ្នែក​អន្ដរជាតិ ទិវា​ស្ត្រីជន​បទពិភពលោក</item>
+        <item>ទិវាអាហារពិភពលោក</item>
+        <item>ទិវាអន្ដរជាតិ​សម្រាប់ការលប់បំបាត់ភាពក្រីក្រ</item>
+        <item>ទិវាអង្គការសហប្រជាជាតិ ទិវា​ព័ត៌មានអភិវឌ្ឍន៍ពិភពលោក</item>
+        <item>ទិវាសុខភាព​បុរសចិន</item>
+        <item>ទិវា​អន្ដរជាតិសម្រាប់​ភាពចម្រុះជីវសាស្ត្រ</item>
+        <item>បុណ្យ​ហាឡូវីន</item>
+        <item>"Chinese Journalists' Day"</item>
+        <item>ទិវាលើកកម្ពស់ការយល់ដឹងពីអគ្គិភ័យ</item>
+        <item>ទិវាប្រឆាំងជំងឺទឹកនោមផ្អែម​ពិភពលោក</item>
+        <item>ទិវាសិស្សមហាវិទ្យាល័យ​អន្ដរជាតិ</item>
+        <item>ទិវាអន្ដរជាតិ​សម្រាប់​ការលុបបំបាត់​អំពើហិង្សាលើស្ត្រី</item>
+        <item>ទិវាកម្ចាត់ជំងឺអេដស៍ពិភពលោក</item>
+        <item>ទិវាជនពិការអន្ដរជាតិ</item>
+        <item>ទិវាជាតិនៃការផ្សាយជាសាធារណៈស្របច្បាប់</item>
+        <item>ទិវាបាល់ទាត់ពិភពលោក</item>
+        <item>ថ្ងៃមុណបុណ្យគ្រិស្ដម៉ាស</item>
+        <item>បុណ្យគ្រិស្ដម៉ាស</item>
+        <item>ទិវា​អន្ដរជាតិសម្រាប់​ភាពចម្រុះជីវសាស្ត្រ</item>
+    </string-array>
+    <string-array name="complex_gregorian_holiday">
+        <item>ទិវាប្រឆាំងជំងឺឃ្លង់ពិភពលោក</item>
+        <item>ទិវាអប់រំផ្នែកសុវត្ថិភាពសម្រាប់​សាលាបឋមសិក្សា និង​សាលាមធ្យម​សិក្សា</item>
+        <item>បុណ្យព្រះយេស៊ូមានព្រះជន្មរស់</item>
+        <item>ទិវាម្ដាយ</item>
+        <item>ទិវាជនពិការពិភពលោក</item>
+        <item>ទិវាឪពុក</item>
+        <item>ទិវាសន្ដិភាព​អន្ដរជាតិ</item>
+        <item>ទិវាអប់រំការពារ​ជាតិ</item>
+        <item>ទិវាមនុស្សគថ្លង់អន្ដរជាតិ</item>
+        <item>ទិវាសិទ្ធិលំនៅដ្ឋានពិភពលោក</item>
+        <item>ទិវាបុណ្យ​អំណរគុណព្រះ​របស់ប្រទេសកាណាដា</item>
+        <item>ទិវា​អន្ដរជាតិស្ដីពីការកាត់បន្ថយ​គ្រោះ​​​ធម្មជាតិ</item>
+        <item>ទិវាសុខភាពភ្នែកពិភពលោក</item>
+        <item>ទិវាបុណ្យ​អំណរគុណព្រះ​របស់សហរដ្ឋអាមេរិក</item>
+    </string-array>
+    <string-array name="lunar_holiday">
+        <item>ថ្ងៃចូលឆ្នាំចិន</item>
+        <item>元宵节</item>
+        <item>端午节</item>
+        <item>ថ្ងៃបុណ្យនៃសេក្ដីស្រលាញ់ចិន</item>
+        <item>中秋节</item>
+        <item>重阳节</item>
+        <item>腊八节</item>
+    </string-array>
+    <string-array name="year_name">
+        <item>〇</item>
+        <item>ច័ន្ទ</item>
+        <item>អង្គារ</item>
+        <item>ពុធ</item>
+        <item>ព្រហ</item>
+        <item>សុក្រ</item>
+        <item>សៅរ៍</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+    </string-array>
+    <string-array name="month_name">
+        <item>ច័ន្ទ</item>
+        <item>អង្គារ</item>
+        <item>ពុធ</item>
+        <item>ព្រហ</item>
+        <item>សុក្រ</item>
+        <item>សៅរ៍</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>" "</item>
+    </string-array>
+    <string-array name="Week_name">
+        <item>អាទិត្យ</item>
+        <item>ច័ន្ទ</item>
+        <item>អង្គារ</item>
+        <item>ពុធ</item>
+        <item>ព្រហស្បតិ៍</item>
+        <item>ថ្ងៃសុក្រ</item>
+        <item>សៅរ៍</item>
+    </string-array>
+</resources>

@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="celestial_stem">
+        <item>庚</item>
+        <item>辛</item>
+        <item>壬</item>
+        <item>癸</item>
+        <item>甲</item>
+        <item>乙</item>
+        <item>丙</item>
+        <item>丁</item>
+        <item>戊</item>
+        <item>己</item>
+    </string-array>
+    <string-array name="terrestrial_branch">
+        <item>申</item>
+        <item>酉</item>
+        <item>戌</item>
+        <item>亥</item>
+        <item>子</item>
+        <item>丑</item>
+        <item>寅</item>
+        <item>卯</item>
+        <item>辰</item>
+        <item>巳</item>
+        <item>午</item>
+        <item>未</item>
+    </string-array>
+    <string-array name="animal_years">
+        <item>猴</item>
+        <item>鸡</item>
+        <item>狗</item>
+        <item>猪</item>
+        <item>鼠</item>
+        <item>牛</item>
+        <item>虎</item>
+        <item>兔</item>
+        <item>龙</item>
+        <item>蛇</item>
+        <item>马</item>
+        <item>羊</item>
+    </string-array>
+    <string-array name="lunar_months">
+        <item>正</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>腊</item>
+    </string-array>
+    <string-array name="lunar_days_prefix">
+        <item>初</item>
+        <item>十</item>
+        <item>廿</item>
+        <item>三</item>
+    </string-array>
+    <string-array name="lunar_days_suffix">
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+    </string-array>
+    <string-array name="solar_term">
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+        <item>春分</item>
+        <item>清明</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>小雪</item>
+        <item>大雪</item>
+        <item>冬至</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_jan">
+        <item>元旦</item>
+    </string-array>
+    <integer-array name="holiday_date_jan">
+        <item>1</item>
+    </integer-array>
+    <string-array name="simple_gregorian_holiday_feb">
+        <item>情人节</item>
+    </string-array>
+    <integer-array name="holiday_date_feb">
+        <item>14</item>
+    </integer-array>
+    <string-array name="simple_gregorian_holiday_mar">
+        <item>妇女节</item>
+        <item>植树节</item>
+    </string-array>
+    <integer-array name="holiday_date_mar">
+        <item>8</item>
+        <item>12</item>
+    </integer-array>
+    <string-array name="simple_gregorian_holiday_apr">
+        <item>愚人节</item>
+        <item>地球日</item>
+    </string-array>
+    <integer-array name="holiday_date_apr">
+        <item>1</item>
+        <item>22</item>
+    </integer-array>
+    <string-array name="simple_gregorian_holiday_may">
+        <item>劳动节</item>
+        <item>青年节</item>
+    </string-array>
+    <integer-array name="holiday_date_may">
+        <item>1</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="simple_gregorian_holiday_june">
+        <item>儿童节</item>
+        <item>环境日</item>
+    </string-array>
+    <integer-array name="holiday_date_june">
+        <item>1</item>
+        <item>5</item>
+    </integer-array>
+    <array name="simple_gregorian_holiday_july" />
+    <array name="holiday_date_july" />
+    <string-array name="simple_gregorian_holiday_aug">
+        <item>建军节</item>
+    </string-array>
+    <integer-array name="holiday_date_aug">
+        <item>1</item>
+    </integer-array>
+    <string-array name="simple_gregorian_holiday_sept">
+        <item>教师节</item>
+    </string-array>
+    <integer-array name="holiday_date_sept">
+        <item>10</item>
+    </integer-array>
+    <string-array name="simple_gregorian_holiday_oct">
+        <item>国庆节</item>
+        <item>万圣节</item>
+    </string-array>
+    <integer-array name="holiday_date_oct">
+        <item>1</item>
+        <item>31</item>
+    </integer-array>
+    <array name="simple_gregorian_holiday_nov" />
+    <array name="holiday_date_nov" />
+    <string-array name="simple_gregorian_holiday_dec">
+        <item>平安夜</item>
+        <item>圣诞节</item>
+    </string-array>
+    <integer-array name="holiday_date_dec">
+        <item>24</item>
+        <item>25</item>
+    </integer-array>
+    <string-array name="simple_gregorian_holiday">
+        <item>元旦</item>
+        <item>世界湿地日</item>
+        <item>情人节</item>
+        <item>全国爱耳日</item>
+        <item>青年志愿者服务日</item>
+        <item>国际妇女节</item>
+        <item>保护母亲河日</item>
+        <item>中国植树节</item>
+        <item>白色情人节,国际警察日</item>
+        <item>世界消费者权益日</item>
+        <item>世界森林日,世界睡眠日</item>
+        <item>世界水日</item>
+        <item>世界气象日</item>
+        <item>世界防治结核病日</item>
+        <item>愚人节</item>
+        <item>清明节</item>
+        <item>世界卫生日</item>
+        <item>世界地球日</item>
+        <item>世界知识产权日</item>
+        <item>国际劳动节</item>
+        <item>世界哮喘日</item>
+        <item>中国青年节</item>
+        <item>世界红十字日</item>
+        <item>国际护士节</item>
+        <item>国际家庭日</item>
+        <item>世界电信日</item>
+        <item>全国学生营养日</item>
+        <item>国际牛奶日</item>
+        <item>世界无烟日</item>
+        <item>国际儿童节</item>
+        <item>世界环境日</item>
+        <item>全国爱眼日</item>
+        <item>世界防治荒漠化和干旱日</item>
+        <item>国际奥林匹克日</item>
+        <item>全国土地日</item>
+        <item>国际禁毒日</item>
+        <item>中国共产党诞生日,国际建筑日</item>
+        <item>中国人民抗日战争纪念日</item>
+        <item>世界人口日</item>
+        <item>中国人民解放军建军节</item>
+        <item>国际青年节</item>
+        <item>国际扫盲日</item>
+        <item>中国教师节</item>
+        <item>中国脑健康日,国际臭氧层保护日</item>
+        <item>全国爱牙日</item>
+        <item>世界停火日</item>
+        <item>世界旅游日</item>
+        <item>中华人民共和国国庆节,国际音乐日,国际老年人日</item>
+        <item>世界动物日</item>
+        <item>世界教师日</item>
+        <item>全国高血压日</item>
+        <item>世界邮政日</item>
+        <item>世界精神卫生日</item>
+        <item>世界标准日</item>
+        <item>国际盲人节,世界农村妇女日</item>
+        <item>世界粮食日</item>
+        <item>国际消除贫困日</item>
+        <item>联合国日,世界发展新闻日</item>
+        <item>中国男性健康日</item>
+        <item>国际生物多样性日</item>
+        <item>万圣节</item>
+        <item>中国记者节</item>
+        <item>消防宣传日</item>
+        <item>世界糖尿病日</item>
+        <item>国际大学生节</item>
+        <item>国际消除对妇女的暴力日</item>
+        <item>世界爱滋病日</item>
+        <item>世界残疾人日</item>
+        <item>全国法制宣传日</item>
+        <item>世界足球日</item>
+        <item>平安夜</item>
+        <item>圣诞节</item>
+        <item>国际生物多样性日</item>
+    </string-array>
+    <integer-array name="simple_gregorian_holiday_date">
+        <item>101</item>
+        <item>202</item>
+        <item>214</item>
+        <item>303</item>
+        <item>305</item>
+        <item>308</item>
+        <item>309</item>
+        <item>312</item>
+        <item>314</item>
+        <item>315</item>
+        <item>321</item>
+        <item>322</item>
+        <item>323</item>
+        <item>324</item>
+        <item>401</item>
+        <item>405</item>
+        <item>407</item>
+        <item>422</item>
+        <item>426</item>
+        <item>501</item>
+        <item>503</item>
+        <item>504</item>
+        <item>508</item>
+        <item>512</item>
+        <item>515</item>
+        <item>517</item>
+        <item>520</item>
+        <item>523</item>
+        <item>531</item>
+        <item>601</item>
+        <item>605</item>
+        <item>606</item>
+        <item>617</item>
+        <item>623</item>
+        <item>625</item>
+        <item>626</item>
+        <item>701</item>
+        <item>707</item>
+        <item>711</item>
+        <item>801</item>
+        <item>812</item>
+        <item>908</item>
+        <item>910</item>
+        <item>916</item>
+        <item>920</item>
+        <item>921</item>
+        <item>927</item>
+        <item>1001</item>
+        <item>1004</item>
+        <item>1005</item>
+        <item>1008</item>
+        <item>1009</item>
+        <item>1010</item>
+        <item>1014</item>
+        <item>1015</item>
+        <item>1016</item>
+        <item>1017</item>
+        <item>1024</item>
+        <item>1028</item>
+        <item>1029</item>
+        <item>1031</item>
+        <item>1108</item>
+        <item>1109</item>
+        <item>1114</item>
+        <item>1117</item>
+        <item>1125</item>
+        <item>1201</item>
+        <item>1203</item>
+        <item>1204</item>
+        <item>1209</item>
+        <item>1224</item>
+        <item>1225</item>
+        <item>1229</item>
+    </integer-array>
+    <string-array name="complex_gregorian_holiday">
+        <item>国际麻风节</item>
+        <item>中小学生安全教育日</item>
+        <item>复活节</item>
+        <item>母亲节</item>
+        <item>全国助残日</item>
+        <item>父亲节</item>
+        <item>国际和平日</item>
+        <item>全国国防教育日</item>
+        <item>国际聋人节</item>
+        <item>世界住房日</item>
+        <item>加拿大感恩节</item>
+        <item>国际减轻自然灾害日</item>
+        <item>世界爱眼日</item>
+        <item>美国感恩节</item>
+    </string-array>
+    <string-array name="lunar_holiday">
+        <item>春节</item>
+        <item>元宵节</item>
+        <item>端午节</item>
+        <item>七夕节</item>
+        <item>中秋节</item>
+        <item>重阳节</item>
+        <item>腊八节</item>
+    </string-array>
+    <integer-array name="lunar_holiday_date">
+        <item>101</item>
+        <item>115</item>
+        <item>505</item>
+        <item>707</item>
+        <item>815</item>
+        <item>909</item>
+        <item>1208</item>
+    </integer-array>
+    <string-array name="year_name">
+        <item>〇</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+    </string-array>
+    <string-array name="month_name">
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>" "</item>
+    </string-array>
+    <string-array name="day_name">
+        <item>初一</item>
+        <item>初二</item>
+        <item>初三</item>
+        <item>初四</item>
+        <item>初五</item>
+        <item>初六</item>
+        <item>初七</item>
+        <item>初八</item>
+        <item>初九</item>
+        <item>初十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>十三</item>
+        <item>十四</item>
+        <item>十五</item>
+        <item>十六</item>
+        <item>十七</item>
+        <item>十八</item>
+        <item>十九</item>
+        <item>二十</item>
+        <item>廿一</item>
+        <item>廿二</item>
+        <item>廿三</item>
+        <item>廿四</item>
+        <item>廿五</item>
+        <item>廿六</item>
+        <item>廿七</item>
+        <item>廿八</item>
+        <item>廿九</item>
+        <item>三十</item>
+    </string-array>
+    <string-array name="Week_name">
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </string-array>
+</resources>

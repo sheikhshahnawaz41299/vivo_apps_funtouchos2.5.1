@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/vigour_stat_sys_tether_wifi_default" android:maxLevel="0" />
+    <item android:drawable="@drawable/vigour_stat_sys_tether_wifi_color_6" android:maxLevel="1" />
+    <item android:drawable="@drawable/vigour_stat_sys_tether_wifi_white_6" android:maxLevel="2" />
+</level-list>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_lowBatteryWarningLevel_2">3</integer>
+    <integer name="bbkStatusbarBackgroundIndex">1</integer>
+    <integer name="bbkThirdpartyAppsStatusbarBackgroundIndex">4</integer>
+    <integer name="toolbar_item_padding_bottom">0</integer>
+    <integer name="list_selector_FadeOutTime">400</integer>
+    <integer name="vigour_config_multiwindow_tinyMinAnimTime">50</integer>
+    <integer name="vigour_config_multiwindow_shortMinAnimTime">100</integer>
+    <integer name="vigour_config_multiwindow_shortAnimTime">200</integer>
+    <integer name="vigour_config_multiwindow_shortMaxAnimTime">250</integer>
+    <integer name="vigour_config_multiwindow_midMinAnimTime">300</integer>
+    <integer name="vigour_config_multiwindow_midMaxminAnimTime">350</integer>
+    <integer name="vigour_config_multiwindow_mediumMinAnimTime">400</integer>
+    <integer name="vigour_config_multiwindow_mediumMaxAnimTime">450</integer>
+    <integer name="vigour_config_multiwindow_longAnimTime">500</integer>
+    <integer name="vivoContextListDialogTitleMaxLine">3</integer>
+    <integer name="APKTOOL_DUMMY_e" />
+    <integer name="APKTOOL_DUMMY_f" />
+</resources>

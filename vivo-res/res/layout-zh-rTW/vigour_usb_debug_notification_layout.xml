@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <FrameLayout android:layout_gravity="center" android:id="@id/frameLayout_left_image" android:layout_width="64.0dip" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/sys_noti_usb_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vigour_usb_debug_noti_stat_img" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/usb_debug_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/linearLayout2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/vigour_usb_noti_adb_debug_tv_size" android:textColor="@color/vigour_usb_noti_usb_adb_debug_color" android:ellipsize="end" android:id="@id/usb_debug_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vigour_usb_noti_usb_adb_debug_text" android:singleLine="true" />
+                <TextView android:textSize="@dimen/vigour_usb_noti_adb_debug_info_tv_size" android:textColor="@color/vigour_usb_noti_adb_debug_info_tv_color" android:ellipsize="end" android:id="@id/usb_debug_info_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vigour_usb_noti_usb_adb_debug_info_text" android:maxLines="2" android:singleLine="false" />
+            </LinearLayout>
+            <Button android:textSize="11.0dip" android:textColor="@color/vigour_btn_usb_noti_adb_debug_tips_color" android:ellipsize="end" android:gravity="center" android:layout_gravity="end|center" android:id="@id/usb_debug_tips_bt_id" android:background="@drawable/vigour_usb_debug_noti_btn_selector_cn" android:layout_width="@dimen/vigour_btn_usb_noti_adb_bt_tips_width" android:layout_height="@dimen/vigour_btn_usb_noti_adb_bt_tips_height" android:text="@string/vigour_usb_noti_usb_adb_tips_text" android:singleLine="true" android:textAllCaps="false" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" android:layout_marginEnd="15.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

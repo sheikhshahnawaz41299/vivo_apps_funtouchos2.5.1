@@ -1,0 +1,5208 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: jAtFoCTw1ZiGgaeHeeO2DcT0ZoU=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_text_toolbar_left_normal_li
+ ght.9.png
+SHA1-Digest-Manifest: xunMh1HJLfATuTzlXePmtgVVctU=
+
+Name: res/drawable-mdpi-v4/vigour_bool_btn_bg_press.png
+SHA1-Digest-Manifest: 4KdReXvq2/J2F1abgHKQkQ8r+9E=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_create_center_multim
+ edia_pressed_light.9.png
+SHA1-Digest-Manifest: IU1fMK16209pE856rCyPwbYayZQ=
+
+Name: res/drawable-ldrtl-sw360dp-hdpi-v13/vigour_btn_title_create_cent
+ er_personal_disable_light.9.png
+SHA1-Digest-Manifest: vOUwZC0v6/Xu7Bf6FuvBaFvbuIM=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_default_small_disable_l
+ ight.9.png
+SHA1-Digest-Manifest: 7G42pwUZ01oA/aDYj56Om4V38f0=
+
+Name: res/drawable-mdpi-v4/vigour_content_no_records.png
+SHA1-Digest-Manifest: GpJ37QQK99m+VkLzuU51GWFvXEc=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_dialog_list_content_for_and
+ roid.9.png
+SHA1-Digest-Manifest: 4BKopcKW6Q5JtPCiyW3T9GcCZiM=
+
+Name: res/drawable-mdpi-v4/vigour_btn_list_search_delete_light.png
+SHA1-Digest-Manifest: 7o35OmBgG29yhl/nc/Le+sWRQvU=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_34.png
+SHA1-Digest-Manifest: WZUsfDI4Oj9LraQkb3gtQYEMU3k=
+
+Name: res/drawable-hdpi-v4/vigour_holiday_wallpaper_womenday.jpg
+SHA1-Digest-Manifest: ggQ3hoHbM/d+vqwE9Y8wB7So1OQ=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_icon_bg_one.png
+SHA1-Digest-Manifest: s4zHzVobISoaun3KcYeSOlxWjJs=
+
+Name: res/drawable-mdpi-v4/vigour_text_toolbar_single_normal_light.9.p
+ ng
+SHA1-Digest-Manifest: 5pJfUvwWgpp/V9FX+YfNUlaYHrQ=
+
+Name: res/color/vigour_tabselector_text_color_personal_light.xml
+SHA1-Digest-Manifest: 0UntQCMV0LYufnF/PIbQx80VK48=
+
+Name: res/anim/vigour_editor_close_enter.xml
+SHA1-Digest-Manifest: Yz6u/X7G4ljk4MOkUB4Psq5DhcM=
+
+Name: res/drawable/vigour_text_toolbar_single_dark.xml
+SHA1-Digest-Manifest: oKKcifTT2KnBTmKGXpPzfbv/1EQ=
+
+Name: res/drawable-hdpi-v4/vigour_stat_sys_tether_wifi_bright.png
+SHA1-Digest-Manifest: piwEV/rWmfGCzJyZte4C7zYBKqw=
+
+Name: res/drawable-mdpi-v4/vigour_btn_radio_off_normal_light.png
+SHA1-Digest-Manifest: EVeuoCkXga+9O9vP0GIGfAE0gDI=
+
+Name: res/anim/vigour_anim_smartmultiwindow_transition_mediummin.xml
+SHA1-Digest-Manifest: BQKFRoWtWvfQMMFKJfdvlSj77Jg=
+
+Name: res/drawable-hdpi-v4/vigour_stat_sys_tether_wifi_white_3.png
+SHA1-Digest-Manifest: 3ff+CsCAPSbAeSrqgyHhbqwJH3k=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_00.png
+SHA1-Digest-Manifest: DXFL81VvNQSdgjPNWWdEUHd9cZE=
+
+Name: res/drawable-hdpi-v4/vigour_markup_mid_left_press.9.png
+SHA1-Digest-Manifest: YykJTTnHaK/yvgaMj3qqyM7Slfc=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_ic_notification_ime_bright.
+ png
+SHA1-Digest-Manifest: JX0WwWndbSGeSEmDoM3FO2bZx2w=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_holiday_wallpaper_earthday.
+ jpg
+SHA1-Digest-Manifest: CRRkmMrSfdMQ3nBWzuSHjWZB/pw=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_tab_left_pressed_lig
+ ht.9.png
+SHA1-Digest-Manifest: 6WqQTmo8EaK8LeZuhPkM7n7te2E=
+
+Name: res/anim/vigour_anim_smartmultiwindow_transition_long.xml
+SHA1-Digest-Manifest: 6j0p0U/DcWlD+sVVn2+rXjc/gaE=
+
+Name: res/drawable/vigour_btn_title_back_center_multimedia_dark.xml
+SHA1-Digest-Manifest: 4q1WTTeVDHIUl1v9UbcHo4jEDzw=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_19.png
+SHA1-Digest-Manifest: mHw2iYnShrF+zoNGRzxZGHAlVp0=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_04.png
+SHA1-Digest-Manifest: 1pD4e/qQJXCB75kZtLHGY1OXeEs=
+
+Name: res/drawable-hdpi-v4/vigour_dialog_top_light.9.png
+SHA1-Digest-Manifest: zXiyXu8ymKTNM/K943rlkdhV90I=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_abc_thumb_popwin_bg_dark.pn
+ g
+SHA1-Digest-Manifest: e4hug7OnXWgyZQaTfxnMWXXAWak=
+
+Name: res/drawable-mdpi-v4/vigour_content_no_contacts.png
+SHA1-Digest-Manifest: jUqDPh4XVrgCH7fvzO2NWGVGdvg=
+
+Name: res/drawable/vigour_progress_light.xml
+SHA1-Digest-Manifest: Y8E9L2ylEV3Rpx+XSHWM0B0vApA=
+
+Name: res/drawable/vigour_popup_inline_error_light.xml
+SHA1-Digest-Manifest: xyYJJTi/4skL5zrd7C0QEYeOuYA=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_mid_center_multimedia_
+ normal.9.png
+SHA1-Digest-Manifest: h+iunxs2MxXO/HMeUcN7RxyuflE=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_shut_down_pressed.png
+SHA1-Digest-Manifest: g6H6a67TPQV4KPyMQan+uW0ekJ0=
+
+Name: res/drawable-mdpi-v4/vigour_abc_e.png
+SHA1-Digest-Manifest: wC1ak+NIDdb8bAHHfIPwtAhObt0=
+
+Name: res/layout/vigour_tab_indicator.xml
+SHA1-Digest-Manifest: VfyfguMGGkt5gftLnBcvGQHTIeU=
+
+Name: res/drawable-hdpi-v4/vigour_granted_disabled.png
+SHA1-Digest-Manifest: 69+OlYd00Q3UVhMzvCin6EY1xF8=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_left_normal_light.9.pn
+ g
+SHA1-Digest-Manifest: 3Yd5GTXdrZrH7JLxB5bhKwRj9A4=
+
+Name: res/anim/vigour_editor_open_enter.xml
+SHA1-Digest-Manifest: VxiSwzu1JkbbJLfyM3+ulYPpXjM=
+
+Name: res/drawable-mdpi-v4/vigour_holiday_wallpaper_dragonboatfestival
+ .jpg
+SHA1-Digest-Manifest: 1WB7TTY/dKfm8CUioVNf632UmRs=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_holiday_wallpaper_halloween
+ .jpg
+SHA1-Digest-Manifest: GombDa1iG4pljSYH+rwG7+tAqWM=
+
+Name: res/layout/vigour_time_picker_dialog.xml
+SHA1-Digest-Manifest: zJ+vy0krdkcPXEutX1E5Cu+vkho=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_contextmenu_more_pressed_li
+ ght.png
+SHA1-Digest-Manifest: 1B8t8pLaxsAFrqnnX4ZpeGTYhTM=
+
+Name: res/drawable/vigour_list_menu_bg_dark.xml
+SHA1-Digest-Manifest: 6rI1CtDSzKcqAF/iL3cfcRUypTM=
+
+Name: res/drawable/vigour_btn_title_tab_left_dark.xml
+SHA1-Digest-Manifest: tZGa9vPhAmEkF8XhQgpcq6dLZSU=
+
+Name: res/drawable-hdpi-v4/vigour_bool_btn_handleft_normal_light.png
+SHA1-Digest-Manifest: dChGtLSGk9wg+Y21D/cGh1G26yo=
+
+Name: res/layout/vigour_time_picker.xml
+SHA1-Digest-Manifest: kDIJUkCiswcqWvBxhwyN3j07xiM=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_58.png
+SHA1-Digest-Manifest: SKpjpiWOY0nU54+vW9sj31zHvRA=
+
+Name: res/layout/vigour_slide_alert_dialog.xml
+SHA1-Digest-Manifest: cC0qxyahR7U1VPJhsGkdIsIxUD4=
+
+Name: res/layout/vigour_global_action_dialog.xml
+SHA1-Digest-Manifest: Ba11A+lEdj2YKPZ9r830MIpr+bs=
+
+Name: res/drawable-mdpi-v4/vigour_abc_g.png
+SHA1-Digest-Manifest: UKYnPzWA+rxXFwlLBHq85+XtCDs=
+
+Name: res/drawable-hdpi-v4/vigour_noti_usb_bright.png
+SHA1-Digest-Manifest: ryvmcw4miKNfRq7hebbtQ8MtHJ8=
+
+Name: res/drawable-mdpi-v4/vigour_abc_k_touch.png
+SHA1-Digest-Manifest: r3MvPJf/Od5B/NTaneNKVCSJHgk=
+
+Name: res/drawable-mdpi-v4/vigour_dialog_list_content_for_android.9.pn
+ g
+SHA1-Digest-Manifest: 6fo509IOHrLTQ58sEc7D3WbdEFU=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_abc_thumb_bg_light.9.png
+SHA1-Digest-Manifest: rbxNj/E6ORTMw43U0XD21z0iu8c=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_26.png
+SHA1-Digest-Manifest: +T4j5Z7xxlDg+wOLag3py0fll5w=
+
+Name: res/drawable-hdpi-v4/vigour_content_no_contact.png
+SHA1-Digest-Manifest: 54V8FkKsWgF0H3TW4W8EAIj0C0g=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_52.png
+SHA1-Digest-Manifest: CcGboVawVAHVwselNKCAbB7/glo=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_usb_noti_right_btn_press.9
+ .png
+SHA1-Digest-Manifest: jkBW0GjmAes+YcKlMdxZdfI6QTA=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_stat_sys_tether_wifi_white_
+ 1.png
+SHA1-Digest-Manifest: gcKZAVfxQJFmc+Vt0KC3A6ylxoA=
+
+Name: res/drawable-mdpi-v4/vigour_btn_title_tab_right_pressed_light.9.
+ png
+SHA1-Digest-Manifest: /8tlPSKsLbQSTNWDVhUJhFgo+OU=
+
+Name: res/anim-sw360dp-hdpi-v13/vigour_menu_window_exit_ex.xml
+SHA1-Digest-Manifest: FZg/GdEyTGL/Tr/fVXA3zLSN8e8=
+
+Name: res/anim/vigour_menu_window_exit_exf.xml
+SHA1-Digest-Manifest: de98uNUuH4MKPndLsr9EsW//lkU=
+
+Name: res/color/vigour_tabselector_text_color_mutimedia.xml
+SHA1-Digest-Manifest: yiHtu7GUecaTCKRDZRba/ShsfWM=
+
+Name: res/drawable-hdpi-v4/vigour_dialog_button_all_round_disable.9.pn
+ g
+SHA1-Digest-Manifest: BKgRqwTx8eQOM4VHvIknFm1bSew=
+
+Name: res/drawable-ldrtl-sw360dp-hdpi-v13/vigour_btn_title_create_cent
+ er_contact_normal_light.9.png
+SHA1-Digest-Manifest: dwz1aVOWgKx8+qhKNON/AeLYMZ4=
+
+Name: res/layout/vigour_simple_list_item_2_single_choice.xml
+SHA1-Digest-Manifest: i/BgTm39G52IlyQWl3kiUWm6SnQ=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_02.png
+SHA1-Digest-Manifest: 5VVpUUK/OFVhjSrpLslekyJOGGA=
+
+Name: res/drawable-hdpi-v4/vigour_stat_notify_disk_full_white.png
+SHA1-Digest-Manifest: +30hi1GsyDd3qpGkpmr6oSI6zI0=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_23.png
+SHA1-Digest-Manifest: 3JjoxQ1lQl5jJD5ndspJsC/UBP8=
+
+Name: res/drawable-mdpi-v4/vigour_web_text_select_handle_middle.png
+SHA1-Digest-Manifest: zhTlrOGvqUSw8NnfsSH8xcrFDag=
+
+Name: res/drawable-hdpi-v4/vigour_popup_dialog_top.9.png
+SHA1-Digest-Manifest: uNRa1kn1W5qQmJ1NURzlDPkbhjU=
+
+Name: res/drawable-hdpi-v4/vigour_general_background_transparency_bg_d
+ ark.9.png
+SHA1-Digest-Manifest: BFKMfFnQd24nryVhgFlKeXXCysI=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_26.png
+SHA1-Digest-Manifest: GTSm/PCtsWQjTAiD4nnsUOnOkvw=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_red_normal.9.png
+SHA1-Digest-Manifest: 7fLevVq73d5UTZpjp5XrbJbRy0s=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_04.png
+SHA1-Digest-Manifest: wojPcQid2K2ckVxqImCw6P8FswA=
+
+Name: res/drawable-ldrtl-sw360dp-hdpi-v13/vigour_btn_title_create_cent
+ er_personal_pressed_light.9.png
+SHA1-Digest-Manifest: UnU1MUjr36H0rIcEgbEQo37/Ny4=
+
+Name: res/drawable-mdpi-v4/vigour_ic_btn_arrow_normal_light.png
+SHA1-Digest-Manifest: Z8eIWryimWYrZLxwhdN2j+/I2c4=
+
+Name: res/layout/vigour_adb_install_confirm.xml
+SHA1-Digest-Manifest: 2B9ZkGnBUwvypckmxOKW/yfYVUk=
+
+Name: res/color/vigour_text_primary_light.xml
+SHA1-Digest-Manifest: 2bGFN/AguAamJQXoQTqGqmCue2c=
+
+Name: res/drawable-hdpi-v4/vigour_btn_red_normal.9.png
+SHA1-Digest-Manifest: eNNZAdCRtUzSU1FaPv54SQmgBHs=
+
+Name: res/drawable-mdpi-v4/vigour_menu_highlight_top_selected.9.png
+SHA1-Digest-Manifest: umNCxHp9zO/1IBWgRLP4LyO6hkY=
+
+Name: res/drawable/vigour_btn_title_new_center_personal_dark.xml
+SHA1-Digest-Manifest: yh2LrA6NZalYatxlLL0qumWoDYA=
+
+Name: res/anim/vigour_close_exit_interpolator.xml
+SHA1-Digest-Manifest: rdVtYbWVbCFd91NOvFPFDHbieXw=
+
+Name: res/drawable-hdpi-v4/vigour_holiday_wallpaper_christmaseve.jpg
+SHA1-Digest-Manifest: 0vHnv5ud0oHlHc1wBogokfq35rA=
+
+Name: res/drawable-hdpi-v4/vigour_preference_round_bg_light.9.png
+SHA1-Digest-Manifest: MVhMIp6nYUnJZw0ZytSly6EdHPQ=
+
+Name: res/drawable-mdpi-v4/vigour_abc_m.png
+SHA1-Digest-Manifest: wxw6NlMjuEHrEBtmJuPOEhRisM4=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_back_center_contact_
+ pressed_light.9.png
+SHA1-Digest-Manifest: SOsM4hasIbf+vRh8qAhtLSbdthk=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_18.png
+SHA1-Digest-Manifest: eslMz/xe/JHpMX11st7CV4yv+xY=
+
+Name: res/drawable-hdpi-v4/vigour_contextmenu_more_pressed_light.png
+SHA1-Digest-Manifest: rhVwMgrZj2oVDZlNHkytDsYsuX0=
+
+Name: res/drawable-hdpi-v4/vigour_content_no_records.png
+SHA1-Digest-Manifest: qhsQUoz6DpfwIGF1D6FKFCr5WeY=
+
+Name: res/drawable-hdpi-v4/vigour_abc_thumb_bg_dark.9.png
+SHA1-Digest-Manifest: U/hjUkqgvwyvBnhN0tezAANf4Tk=
+
+Name: res/drawable-hdpi-v4/vigour_divider_horizontal_bright_opaque.9.p
+ ng
+SHA1-Digest-Manifest: OQUgRzMXFH58Sc0aLAt4gQI7KkE=
+
+Name: res/layout-zh-CN/vigour_usb_debug_notification_layout.xml
+SHA1-Digest-Manifest: 5K9WkE37y6qbNL+IBYHEc/Bjavo=
+
+Name: res/drawable-hdpi-v4/vigour_holiday_wallpaper_newyearday.jpg
+SHA1-Digest-Manifest: t54ecC9ZNM439aOfGoHO6S/dCz4=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_create_center_multimedia_d
+ isable_light.9.png
+SHA1-Digest-Manifest: fnn5eHYieaZlkZmOjzj4555mORo=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_holiday_wallpaper_christmas
+ day.jpg
+SHA1-Digest-Manifest: RZLUCd5USif8OXWq+u9JCNDdFI4=
+
+Name: res/drawable-hdpi-v4/vigour_contextmenu_more_expanded_normal_lig
+ ht.png
+SHA1-Digest-Manifest: Dee9u5Ou5eRTIpsX5x6IvLKA+Fc=
+
+Name: res/drawable-hdpi-v4/vigour_dialog_list_content_for_android.9.pn
+ g
+SHA1-Digest-Manifest: 2g20CQX1QNlTjSnhYdqKiDhRR+0=
+
+Name: res/drawable/vigour_seek_thumb_light.xml
+SHA1-Digest-Manifest: 88UpEuSOBmmRPKXearMVPxhmRL4=
+
+Name: res/drawable-mdpi-v4/vigour_icon_cover.png
+SHA1-Digest-Manifest: 2VR2FSnzHfLD8YnyJkZA+GJGC/w=
+
+Name: res/drawable-hdpi-v4/vigour_content_no_update.png
+SHA1-Digest-Manifest: 8cU5TEkfFfk+f3mkHqn9rfEuU7I=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_43.png
+SHA1-Digest-Manifest: P9ua61rDNV4/RZtN/DjPj0A1Ev0=
+
+Name: res/drawable-mdpi-v4/vigour_holiday_wallpaper_dongzhi.jpg
+SHA1-Digest-Manifest: gs8XDQRnbfHo8ty/gFQsYkCzD50=
+
+Name: res/drawable-mdpi-v4/vigour_content_no_contact.png
+SHA1-Digest-Manifest: JzUq5e0l10Y0c0t5JZIsLsLMQeo=
+
+Name: res/drawable-hdpi-v4/vigour_stat_sys_tether_wifi_color_2.png
+SHA1-Digest-Manifest: IMgdMXUFlojbTadTfT4RLAKVsFY=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_right_center_internet_
+ pressed.9.png
+SHA1-Digest-Manifest: 0eZ3ZM2iZbUV90hZFWrwAuo38yA=
+
+Name: res/color/vigour_primary_text_bright_disable_only_dark.xml
+SHA1-Digest-Manifest: zWOLvDqZKKkWLURUhr1IgMpajW0=
+
+Name: res/drawable-hdpi-v4/vigour_markup_left_disable.9.png
+SHA1-Digest-Manifest: INfvb2rH8VODPzJ4ZpAPjz8lFBE=
+
+Name: res/drawable-mdpi-v4/vigour_btn_title_tab_right_normal_light.9.p
+ ng
+SHA1-Digest-Manifest: EE+RzFc+Y3AYOlCbmpSIX1HzPYY=
+
+Name: res/layout/vigour_preference_dialog_edittext.xml
+SHA1-Digest-Manifest: e2jiKrI46w2/A4pFhtkwaLAf7vw=
+
+Name: res/drawable-hdpi-v4/vigour_dialog_bottom_light.9.png
+SHA1-Digest-Manifest: KBrNuabmp1fprWvrUnouwwLhI8I=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_tab_left_center_mult
+ imedia_normal.9.png
+SHA1-Digest-Manifest: P5lrmmr3QJMvLOqmjJoHqIf1BWE=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_51.png
+SHA1-Digest-Manifest: KkSAgGSVZ6cL79nha47gAy+VJzk=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_15.png
+SHA1-Digest-Manifest: YgVnbRP2cmCt++1pDkDPcYdTzNc=
+
+Name: res/drawable-mdpi-v4/vigour_ic_global_lock_silent_mode_off.png
+SHA1-Digest-Manifest: n4Tm2UMIYd6DE/k/v+go4+lqoMM=
+
+Name: res/drawable-mdpi-v4/vigour_markup_mid_left_disable.9.png
+SHA1-Digest-Manifest: rkWlyMQPqkpOSgD6qtQWq/FJJ54=
+
+Name: res/drawable-hdpi-v4/vigour_seek_thumb_selected_light.png
+SHA1-Digest-Manifest: 8ysr1Xyb8Sip3qFhk0BPKSBam3Q=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_create_center_contac
+ t_normal_light.9.png
+SHA1-Digest-Manifest: GK34ZshzOSswv2KbANoWRZOrnLE=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_tab_right_center_per
+ sonal_normal_light.9.png
+SHA1-Digest-Manifest: +o1YmgLZq0wmW0j66ZyqnmhmFvU=
+
+Name: res/drawable-hdpi-v4/vigour_holiday_wallpaper_dongzhi.jpg
+SHA1-Digest-Manifest: eKQ4mR/VX8Zj3VC+CHpJR8oPm6U=
+
+Name: res/drawable/vigour_markup_view_btn_bg.xml
+SHA1-Digest-Manifest: kvTmYH19WOnpNP5Ti/3ZaBqM1nI=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_07.png
+SHA1-Digest-Manifest: 3jyjZprp1vv69G3vAmVbYhcaAU0=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_31.png
+SHA1-Digest-Manifest: mzOL98XfoNquaIuHmKLz4WEy74w=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_bool_btn_bg_on_light.png
+SHA1-Digest-Manifest: TbcRzzjmc5KMMNNuQ21zzFZUq3s=
+
+Name: res/drawable-mdpi-v4/vigour_abc_search_touch.png
+SHA1-Digest-Manifest: giNFL3gP4U8aQywrgccEcn+CKDM=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_06.png
+SHA1-Digest-Manifest: gTP8iA3DE20NmytXr7K5FWpMazI=
+
+Name: res/drawable-hdpi-v4/vigour_content_no_favorites.png
+SHA1-Digest-Manifest: 1HqS6y4j5BqyNmkMQgT8ul4lAWk=
+
+Name: res/drawable-mdpi-v4/vigour_markup_mid_left_press.9.png
+SHA1-Digest-Manifest: LtjGqlFAdOGmKaWHMvKerCTaJLY=
+
+Name: res/drawable-mdpi-v4/vigour_textfield_disabled_light.9.png
+SHA1-Digest-Manifest: akZVDqnhqlI/vZpVpqyU2Hvr2rU=
+
+Name: res/color/vigour_text_color_secondary_dark.xml
+SHA1-Digest-Manifest: zwYYL4h25OZQuA91cCXdmQctuZM=
+
+Name: res/anim/vigour_editor_open_exit.xml
+SHA1-Digest-Manifest: /xSuLl8nbIlsXrOgHmLJrlGPQ2c=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_28.png
+SHA1-Digest-Manifest: kpmdq6xynjDKFB1KVqRsv7oiuCA=
+
+Name: res/drawable-hdpi-v4/vigour_sim_bright_blue.png
+SHA1-Digest-Manifest: +s76VcuzK0d0dFTgZ0uXrpjQOWc=
+
+Name: res/layout/vigour_bottom_view.xml
+SHA1-Digest-Manifest: /clHJirrBFQ/Mc6ihgN04RCbJe0=
+
+Name: res/drawable-mdpi-v4/vigour_icon_bg_one.png
+SHA1-Digest-Manifest: 0M1lnDweoKb2zKN90F8yA3cbptI=
+
+Name: res/drawable-mdpi-v4/vigour_btn_title_pressed.9.png
+SHA1-Digest-Manifest: tg35/iKsRe/JBjiBehJ6kl88fN0=
+
+Name: res/drawable-hdpi-v4/vivo_sys_usb_notification_checked_box.png
+SHA1-Digest-Manifest: zo4DdwS99eyVsy6HuALfi7S6pss=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_list_search_delete_ligh
+ t.png
+SHA1-Digest-Manifest: kx+uzvzv6FE3o6bSk6IHEogcNVk=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_16.png
+SHA1-Digest-Manifest: mveV5nbeUOiAa7n5RagI4bWnnr0=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_20.png
+SHA1-Digest-Manifest: BreMP+Rogn0LhEpFkGvT+QwlzBc=
+
+Name: res/drawable/vigour_btn_title_back_center_personal_light.xml
+SHA1-Digest-Manifest: G6q8jTxOyc0p4FLjDIZntxH8jjg=
+
+Name: res/drawable/vigour_btn_red.xml
+SHA1-Digest-Manifest: yMZvQ0Aa0uRXKemo+5oX4o4KXx8=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_list_header_bg_light.9.png
+SHA1-Digest-Manifest: +VtiDtm6EAL33RAuocEth7UnO2I=
+
+Name: res/drawable/vigour_dialog_btn.xml
+SHA1-Digest-Manifest: 0YVtFKaiPjd9//Cn07QRx5o0T5I=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_holiday_wallpaper_dongzhi.j
+ pg
+SHA1-Digest-Manifest: Lfs8ojWL+bJoIwuaIY6srLJ5ZlM=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_new_center_multimedi
+ a_disable_light.9.png
+SHA1-Digest-Manifest: E2uIq3eOUxEZvKNrqDo3+bN1jeM=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_back_center_perso
+ nal_pressed_light.9.png
+SHA1-Digest-Manifest: MPunWupPI5Uhl3bWVr9I+Z3o8u0=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_ic_btn_arrow_disable_light.png
+SHA1-Digest-Manifest: FvntMpxVbFoil7zUl5iIAiNV7xU=
+
+Name: res/drawable-hdpi-v4/vigour_menu_bg_dark.9.png
+SHA1-Digest-Manifest: 8XShhxSnc/p7lfQFqNPlQJBt0u4=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_44.png
+SHA1-Digest-Manifest: ndNwhAH+qjkmKoKUWC90HwClFG8=
+
+Name: res/drawable-hdpi-v4/vigour_btn_usb_noti_usb_help_ic.9.png
+SHA1-Digest-Manifest: CD6UeiCukC8Of3bsP3yOflTHYO4=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_radio_on_normal_light.p
+ ng
+SHA1-Digest-Manifest: 8rsPTrFdKrosMYXh9X3FuyjIP8c=
+
+Name: res/drawable-hdpi-v4/vigour_text_select_handle_right_dark.9.png
+SHA1-Digest-Manifest: 20GJ3vv/Z2L55XfNHbNnuKcDvU8=
+
+Name: res/color/vigour_markup_view_text_dark.xml
+SHA1-Digest-Manifest: vLO7tqi/Aly563rfZ7jAFG2wsyE=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_26.png
+SHA1-Digest-Manifest: FJMlE3/uX1NnHotQ3c8pzbJmhhg=
+
+Name: res/drawable-mdpi-v4/vigour_btn_default_normal_light.9.png
+SHA1-Digest-Manifest: 8sOphc+09ggqFsR5ICDB/D+eP0M=
+
+Name: res/drawable-hdpi-v4/vigour_seek_thumb_normal_light.png
+SHA1-Digest-Manifest: rr/lSa8DaVjPAL+HkTvBUU5FR5Q=
+
+Name: res/drawable-mdpi-v4/vigour_abc_j.png
+SHA1-Digest-Manifest: MOrPqXthhycvwrPsZ6gIXJASbSk=
+
+Name: res/drawable-mdpi-v4/vigour_abc_t_touch.png
+SHA1-Digest-Manifest: WsHdls1rstJXP+WIJahTgQf7P3g=
+
+Name: res/drawable-hdpi-v4/vigour_dialog_top_dark.9.png
+SHA1-Digest-Manifest: M7c8r9Mc/MKWETZZCjPdOO4Mbps=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_38.png
+SHA1-Digest-Manifest: CjZPsVgnJdrflJUvYZmedgxQU7Q=
+
+Name: res/layout/vigour_scene_ic_title.xml
+SHA1-Digest-Manifest: qB66xhLC92VlWYe6A1qPD/VcP5A=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_56.png
+SHA1-Digest-Manifest: +7efwwiUH1gPf9vg9eOPNUMufr0=
+
+Name: res/drawable-hdpi-v4/vigour_list_menu_bg_focus_light.9.png
+SHA1-Digest-Manifest: uuci0L0fOTcxFFfW5KnT/Bpa+8M=
+
+Name: res/drawable/vigour_btn_default_dark.xml
+SHA1-Digest-Manifest: F0asPHMkHXjFptaLyBp99woyJAQ=
+
+Name: res/drawable/vigour_btn_title_new_center_multimedia_light.xml
+SHA1-Digest-Manifest: xooQ0xJ910QDQuZlbBlxa7mbil0=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_ic_btn_arrow_disable_light.
+ png
+SHA1-Digest-Manifest: cpDIrdplkZ6Yo/M0ZiNXfpyLOvk=
+
+Name: res/drawable-mdpi-v4/vigour_text_toolbar_inputmethod.png
+SHA1-Digest-Manifest: A9GkCrR0u0nRKKv/RFlw9uSBx5c=
+
+Name: res/drawable-hdpi-v4/vigour_btn_usb_noti_left_btn_press.9.png
+SHA1-Digest-Manifest: dXXse5X6LfwKe3LmOjxYFViCHlk=
+
+Name: res/drawable-hdpi-v4/vigour_btn_radio_off_disable_light.png
+SHA1-Digest-Manifest: sucvaScJr6M6yB/KXkRwam9sxlA=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_new_center_multimedi
+ a_pressed_light.9.png
+SHA1-Digest-Manifest: Z6Lo4hk4GizVSq00ALAJbkQkdWw=
+
+Name: res/drawable-hdpi-v4/vigour_holiday_wallpaper_teacherday.jpg
+SHA1-Digest-Manifest: niFCGgGwrX3aJ9mfzuPTR/jWsTA=
+
+Name: res/drawable-hdpi-v4/vigour_holiday_wallpaper_halloween.jpg
+SHA1-Digest-Manifest: rzuWhsvOg/AYJcqoIj3SRvgtOmw=
+
+Name: res/drawable/vigour_seekbar_horizontal.xml
+SHA1-Digest-Manifest: IFf6NpiDsw1ufCAnHM1mfX0XA7U=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_new_disable_light.9.png
+SHA1-Digest-Manifest: 3UVUefS+Lv1m/tEuktjpoBuEq0Y=
+
+Name: res/drawable/vigour_stat_notify_wifi_in_range.xml
+SHA1-Digest-Manifest: 9oNAGCpgDFSd0ma6CeIYfw8R1mA=
+
+Name: res/drawable-mdpi-v4/vigour_abc_s_touch.png
+SHA1-Digest-Manifest: BrSFEkxiE4B3IKwXTipTX8LJ7tw=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_content_no_contacts.png
+SHA1-Digest-Manifest: 5Y+zYmXZ3TVovwly4A81Zf3Se5Y=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_13.png
+SHA1-Digest-Manifest: CzWhHyDxnTER9cIYHBKLNHwRobY=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_51.png
+SHA1-Digest-Manifest: 9Vw4Q/Wlbd5wvdH1+hlYyU1pE8k=
+
+Name: res/drawable-mdpi-v4/vigour_seek_thumb_selected_light.png
+SHA1-Digest-Manifest: 6Y3OAoHDBrRmv5MciKMYl8CxaWQ=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_text_toolbar_left_pressed_l
+ ight.9.png
+SHA1-Digest-Manifest: EDXuCFkf1CdCJALczXltklXXiYs=
+
+Name: res/drawable-nodpi-v4/vigour_smart_wake_camera.png
+SHA1-Digest-Manifest: NsuNCflW5vvnS4IaHxLc4opFjHk=
+
+Name: res/color/vigour_tab_indicator_text_contact_dark.xml
+SHA1-Digest-Manifest: VPPQgti/R+xaWXQ6FFs/potHVfw=
+
+Name: res/drawable/vigour_btn_title_tab_right_center_personal_light.xm
+ l
+SHA1-Digest-Manifest: Z7kbDEvToHxEP+c/2mstsbxXXZk=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_30.png
+SHA1-Digest-Manifest: b/3x2iwTeiYmANf+R1C2hgasj9c=
+
+Name: res/drawable-hdpi-v4/vigour_btn_remove_normal.png
+SHA1-Digest-Manifest: /53OqkVSCzKagfx7RmZZo99HNWY=
+
+Name: res/drawable-mdpi-v4/vigour_holiday_wallpaper_environmentday.jpg
+SHA1-Digest-Manifest: vtDRDz0Vo7hnuwBty+x5segq94g=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_create_pressed.pn
+ g
+SHA1-Digest-Manifest: zwDUgEDd3wo5bCQkXDkj3Y93MVk=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_31.png
+SHA1-Digest-Manifest: BgZ4vWjKLDjmAYhocgAyojXTxBg=
+
+Name: res/drawable-hdpi-v4/vigour_menu_highlight_top_pressed.9.png
+SHA1-Digest-Manifest: qd8u9PTC9ze34ooNYbxorR/oVn4=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_12.png
+SHA1-Digest-Manifest: /EtWvIMKjy5ijQ1lautlYIwu9jY=
+
+Name: res/drawable-hdpi-v4/vigour_text_toolbar_position_arrow_below_da
+ rk.png
+SHA1-Digest-Manifest: /a7tfYP9tSDGL+65x1xx5T1LhkA=
+
+Name: res/drawable-hdpi-v4/vigour_btn_dropdown_disabled_focused_light.
+ 9.png
+SHA1-Digest-Manifest: ifdm5KnK45rVSx5kQsfUG3pYSTs=
+
+Name: res/drawable-hdpi-v4/vigour_dialog_button_all_round_pressed.9.pn
+ g
+SHA1-Digest-Manifest: t5e3Az2mvxsHSHJlo9rImOJhiTU=
+
+Name: res/drawable/vigour_item_bg_light.xml
+SHA1-Digest-Manifest: 6ui4mBwCxTqRUlz7nLQdFDpQQXQ=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_text_select_handle_right.9.
+ png
+SHA1-Digest-Manifest: t/lAOIzXb5ZVfs46/iIh9aGJfIs=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_14.png
+SHA1-Digest-Manifest: T3YLG6kym9Ov49OIz1sqLix7bok=
+
+Name: res/drawable-hdpi-v4/vigour_btn_red_pressed.9.png
+SHA1-Digest-Manifest: X7jI2FHbgOcJKO4oh2z80m5KAGQ=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_back_center_multimedia_dis
+ able_light.9.png
+SHA1-Digest-Manifest: 1/Re4u7so9B2OUOcZqV65nEv2cQ=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_stat_sys_tether_wifi_color_
+ 6.png
+SHA1-Digest-Manifest: Xf8t0OV3sLnbJFZk9OJQeFjLcLs=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_28.png
+SHA1-Digest-Manifest: hDnaMkfWOv7GKLtcbApSYoz22iM=
+
+Name: res/drawable-hdpi-v4/vigour_dialog_button_not_round_normal.9.png
+SHA1-Digest-Manifest: cEnmb8vK+Sc9+HzEgIIiAr8OXoE=
+
+Name: res/drawable-mdpi-v4/vigour_ic_menu_softwareinstalled.png
+SHA1-Digest-Manifest: l8RH6P+h85SxkEPGosBMoMc9VK0=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_new_center_multimedia_disa
+ ble_light.9.png
+SHA1-Digest-Manifest: YGZnVkvyc0JmYnuD5A0ABU86aao=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_content_no_music.png
+SHA1-Digest-Manifest: soWQyumNgRI+FDimBP1vpxMV3f0=
+
+Name: res/drawable-hdpi-v4/vigour_stat_sys_srs_vip_plus.png
+SHA1-Digest-Manifest: DO/jtxPBd7W0Lvel4OU71ldTK4Y=
+
+Name: res/drawable-hdpi-v4/vigour_markup_mid_right_disable.9.png
+SHA1-Digest-Manifest: 72TOEmUAaXoSpqQs6BqKW0m57jg=
+
+Name: res/drawable-mdpi-v4/vigour_text_toolbar_center_normal_light.9.p
+ ng
+SHA1-Digest-Manifest: 9XLpzMxPYggY99vlYiBHd+Fq784=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_left_pressed_dark.9.pn
+ g
+SHA1-Digest-Manifest: WG+xWfaq5yAmRFlnxM+UzLsmMdg=
+
+Name: res/drawable-hdpi-v4/vigour_btn_check_off_normal_light.png
+SHA1-Digest-Manifest: euz9EdwHNUBtUbjOKO614JuUv7g=
+
+Name: res/drawable-mdpi-v4/vigour_btn_check_on_disable_light.png
+SHA1-Digest-Manifest: W/nROr/kNK7NdZ8FaB8FlHkKcK8=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_holiday_wallpaper_laborday.
+ jpg
+SHA1-Digest-Manifest: ipPjfVyaMmtJKXVgb+7F6zlP3OM=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_29.png
+SHA1-Digest-Manifest: 6UwNIY2h2Kaz2Hguj2MF4jSg10g=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_delete_normal.png
+SHA1-Digest-Manifest: 6zDZmLMg8bj2k31yrF+XnN0UVz8=
+
+Name: res/drawable-hdpi-v4/vigour_sim_bg_orange_light.png
+SHA1-Digest-Manifest: imqexSiDb2GxO2slMi4y9ct4nZM=
+
+Name: res/drawable-hdpi-v4/vigour_menu_bg_light.9.png
+SHA1-Digest-Manifest: Xea+TuZk/Jg7ZkUS4zbDKvkLuuE=
+
+Name: res/drawable/vigour_markup_view_center_right_btn_bg.xml
+SHA1-Digest-Manifest: KqkiOZwV6aUEBGcN5HTIqyLMllI=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_32.png
+SHA1-Digest-Manifest: pfT8s2dvxY/7tZpYb0YJy3SdCqQ=
+
+Name: res/drawable-hdpi-v4/vigour_sim_black_blue.png
+SHA1-Digest-Manifest: Y0ni48nyL1aimy2fUJIdhw0l2Tw=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_10.png
+SHA1-Digest-Manifest: LccsA7AFAyYbC4Cra/EUXihfe+g=
+
+Name: res/drawable-mdpi-v4/vigour_content_no_download.png
+SHA1-Digest-Manifest: auLo8mxofgSs4gfbdkGXZ97ZFDI=
+
+Name: res/drawable-mdpi-v4/vigour_super_power_lockscreen_wallpaper.png
+SHA1-Digest-Manifest: sJXeJBAwja9u3mYwCtZI1WcYabU=
+
+Name: res/layout/vigour_date_picker_dialog.xml
+SHA1-Digest-Manifest: gAGY2QBkbWqCVt/A7QGHwJujM7w=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_right_center_
+ multimedia_pressed.9.png
+SHA1-Digest-Manifest: nVvNI26qbalwNQSU+GQtg6IwN+U=
+
+Name: res/color/vigour_title_btn_text_multimedia_dark.xml
+SHA1-Digest-Manifest: czRHKmdY/LV4MtepOZ3KBaTpB14=
+
+Name: res/drawable/vigour_btn_title_tab_mid_center_internet.xml
+SHA1-Digest-Manifest: /y0PG5VuYlt5K4PIK4ikmlRH0XU=
+
+Name: res/drawable/vigour_stat_sys_tether_wifi_8.xml
+SHA1-Digest-Manifest: mNvVmt0TdnCXksUPF7uD6amr37o=
+
+Name: res/drawable-hdpi-v4/vigour_textfield_normal_light.9.png
+SHA1-Digest-Manifest: YIzUyH1SP4vU+BrDvL6wTS4SD10=
+
+Name: res/drawable-hdpi-v4/vigour_virus_scan_img_dangerous.png
+SHA1-Digest-Manifest: +KGdngaN+3jQR5wRH4oG5OfTNi0=
+
+Name: res/drawable-ldrtl-sw360dp-hdpi-v13/vigour_btn_title_new_center_
+ contact_pressed_light.9.png
+SHA1-Digest-Manifest: QtHa10aN1Vl1eywp7IhDP0YQZwo=
+
+Name: res/drawable-mdpi-v4/vigour_abc_thumb_float_search.png
+SHA1-Digest-Manifest: lJ6PFdyHqcfd2nAhZLzpi5vmQ/4=
+
+Name: res/drawable-hdpi-v4/vigour_stat_sys_tether_wifi_color_6.png
+SHA1-Digest-Manifest: Scb2dzZ0K8IgkQcGsH6+oHkW4lk=
+
+Name: res/drawable-hdpi-v4/vigour_dialog_button_normal.9.png
+SHA1-Digest-Manifest: M3a9lskRgeIfRAxler7gpw/KQuY=
+
+Name: res/drawable/vigour_btn_title_create.xml
+SHA1-Digest-Manifest: VmnDiwoLqU8hWlg4VGiB9lhKGcM=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_tab_right_normal_lig
+ ht.9.png
+SHA1-Digest-Manifest: iO/FtBEcf27Q2DbF44aYj2FDolo=
+
+Name: res/drawable-mdpi-v4/vigour_content_no_alramclocks.png
+SHA1-Digest-Manifest: 0UddsapasBCASGuCnXOntP++gUY=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_left_center_personal_p
+ ressed_light.9.png
+SHA1-Digest-Manifest: 99CBrhxrXbUucKCg5HqBFwe5k48=
+
+Name: res/drawable-mdpi-v4/vigour_abc_b.png
+SHA1-Digest-Manifest: xI+gabVqf2SBj4Zkm7FFd/04yhk=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_back_center_personal
+ _normal_light.9.png
+SHA1-Digest-Manifest: FCXCFAEgWnmx0JB5Q8OxlSDSai8=
+
+Name: res/drawable-hdpi-v4/vigour_popup_dialog_bottom.9.png
+SHA1-Digest-Manifest: rpFUlrNsF15sCVbG0RTlu2dBZFg=
+
+Name: res/drawable-hdpi-v4/vigour_stat_sys_tether_wifi_color_4.png
+SHA1-Digest-Manifest: RhIGwMC8k7AA+cCXNnV2pCSeYNQ=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_32.png
+SHA1-Digest-Manifest: s6Os7HiN5S/vfhT731W3t+hxQFo=
+
+Name: res/drawable-mdpi-v4/vigour_holiday_wallpaper_fatherday.jpg
+SHA1-Digest-Manifest: 9yiiQkzdOmUNfoqM7F+JroF30ng=
+
+Name: res/drawable-mdpi-v4/vigour_holiday_wallpaper_tombsweepingday.jp
+ g
+SHA1-Digest-Manifest: YfKVvRj8t/PbqZU6wephv0cEtFM=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_bottom_bar_bg_light.9.png
+SHA1-Digest-Manifest: FdjiSZzQ/dWXddGjSsLxgCMeUIk=
+
+Name: res/drawable-mdpi-v4/vigour_content_no_worldclock.png
+SHA1-Digest-Manifest: CoLKhLU3GOJ+sCs3mhJjSr5wU3g=
+
+Name: res/drawable-mdpi-v4/vigour_holiday_wallpaper_earthday.jpg
+SHA1-Digest-Manifest: XwYbleZCD635xfwz9vXvgwmGLxY=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_new_center_multim
+ edia_normal_light.9.png
+SHA1-Digest-Manifest: e8dcFDiESYaIgu7H74GEFcHkLes=
+
+Name: res/drawable-hdpi-v4/vigour_text_select_handle_left_dark.9.png
+SHA1-Digest-Manifest: YZiPLzihZtQiqza7gSRmoWNq1Y8=
+
+Name: res/drawable-hdpi-v4/vigour_dialog_button_pressed.9.png
+SHA1-Digest-Manifest: +hPnWZ1N24D7h5HqQgIxd+cg1GE=
+
+Name: res/drawable-mdpi-v4/vigour_btn_dropdown_pressed_light.9.png
+SHA1-Digest-Manifest: vHV6dS/AgdKAWvCUqfJPMshnptQ=
+
+Name: res/drawable/vigour_preference_unround_dark.xml
+SHA1-Digest-Manifest: mNtYfSHKWgj9D6sVDAQ+m1qFCxA=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_red_pressed.9.png
+SHA1-Digest-Manifest: jmjdviEzh30xmP+T8SIhOvYgeFI=
+
+Name: res/layout/vigour_context_list_item_layout.xml
+SHA1-Digest-Manifest: 6PAbGo5aacL7y+iyutphSTAoO08=
+
+Name: res/drawable-hdpi-v4/vigour_text_toolbar_position_arrow_above_da
+ rk.png
+SHA1-Digest-Manifest: gYQxiKBosrCa5bbMcKW8/dCPn0c=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_mid_center_mu
+ ltimedia_normal.9.png
+SHA1-Digest-Manifest: OEIPU4VW0d0Aa3yhSo59jWleL1g=
+
+Name: res/drawable-mdpi-v4/vigour_abc_f_touch.png
+SHA1-Digest-Manifest: EKsubD8VT0b+rNu6k6L6wHyndyQ=
+
+Name: res/drawable-mdpi-v4/vigour_dialog_button_normal.9.png
+SHA1-Digest-Manifest: l4HllQAN0Nmq9qRGOcZbT2zdyP8=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_09.png
+SHA1-Digest-Manifest: ATmkU5/MHjxRuSK87G6ZX4Cnwtc=
+
+Name: res/anim/vigour_incall_open_enter.xml
+SHA1-Digest-Manifest: DisEFQvvsAfzyVCtok+vWtWMCiQ=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_17.png
+SHA1-Digest-Manifest: qcmwQI4Eq2w4gUV1k6bL3BRrKOg=
+
+Name: res/drawable-ldrtl-sw360dp-hdpi-v13/vigour_btn_title_new_disable
+ _light.9.png
+SHA1-Digest-Manifest: Fh9Fmf57AaUkcawEyB5+Y+CpdrU=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_30.png
+SHA1-Digest-Manifest: DaeSAoUoakzyYuJKBj1OzW47qOE=
+
+Name: res/drawable-mdpi-v4/vigour_list_search_bar_bg_light.9.png
+SHA1-Digest-Manifest: tc2tXTWDdpkCe+3useEVA4ghRNk=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_25.png
+SHA1-Digest-Manifest: pUpfKmog/3dYU6DXsegkQUb8yso=
+
+Name: res/drawable/vigour_btn_title_default.xml
+SHA1-Digest-Manifest: 54ARXG74zIPKLvCcL/y+bAX2rI4=
+
+Name: res/drawable-nodpi-v4/vigour_smart_wake_up.png
+SHA1-Digest-Manifest: y6sAS2pG0H7sYN+A8h4fEyWPfzQ=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_00.png
+SHA1-Digest-Manifest: 0XGm/2dVqRCjQMkIjfedieOQU4g=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_31.png
+SHA1-Digest-Manifest: /MaKx8RJ3NXPeHJiA7L6kLJOtD0=
+
+Name: res/drawable-mdpi-v4/vigour_markup_mid_right_press.9.png
+SHA1-Digest-Manifest: mRRVcwi6JLd0CzrU+MwlMhL06No=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_right_center_contact_n
+ ormal.9.png
+SHA1-Digest-Manifest: 3RfIssrerI9nHQbsnhllEi06L3M=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_mid_center_contact_pre
+ ssed.9.png
+SHA1-Digest-Manifest: eKemiQzgNv6dNRB2SnTxeADNYjM=
+
+Name: res/drawable/vigour_btn_title_create_center_contact_light.xml
+SHA1-Digest-Manifest: JrMtjro3d0pCFGgpVuqytz/a3KI=
+
+Name: res/color/vigour_title_btn_text_internet_light.xml
+SHA1-Digest-Manifest: qz0NOMYAsXb3U9zbZG1cw6kc6MY=
+
+Name: res/drawable-mdpi-v4/vigour_progress_horizontal_progress_bg.png
+SHA1-Digest-Manifest: AgvMioY5k9miu1IIt/yLrfacAEM=
+
+Name: res/drawable-hdpi-v4/vigour_holiday_wallpaper_valentineday.jpg
+SHA1-Digest-Manifest: ly6UvdQVdERpfVnvAcmEj1G5Jro=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_46.png
+SHA1-Digest-Manifest: Yc1YobmY7fEFnr7F678AykAnZYg=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_date_pick_top.9.png
+SHA1-Digest-Manifest: dcLoI5JB/Qf1PNSAVdsy/11xmp0=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_36.png
+SHA1-Digest-Manifest: 92ZB2Q5d/8YL5IU9ZCUya7d3a/Y=
+
+Name: res/drawable-ldrtl-sw360dp-hdpi-v13/vigour_btn_title_new_center_
+ personal_pressed_light.9.png
+SHA1-Digest-Manifest: ypf387tmy/GwLVn3l1vqYdrStLc=
+
+Name: res/anim/vigour_accelerate_interpolator.xml
+SHA1-Digest-Manifest: BXrlTKpAaSSSYefLuuJ3z94DFYw=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_create_disable_light
+ .9.png
+SHA1-Digest-Manifest: e2kHvAVg7S2MP2Lpqmec9A/QPIo=
+
+Name: res/layout/vigour_preference_widget_arrow.xml
+SHA1-Digest-Manifest: ugiwW52zn2EgRptKyg0k52hR1iY=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_new_center_personal_
+ normal_light.9.png
+SHA1-Digest-Manifest: rfyfkKV0A9g1O6ZM2ueoiYK6GHY=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_textfield_selected_light.9.
+ png
+SHA1-Digest-Manifest: TxMWadaDCQSORsrNNDuvEGfbueA=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_content_no_install.png
+SHA1-Digest-Manifest: E7k9RXL1byAl1heFS6uPmSRKjVs=
+
+Name: res/drawable-hdpi-v4/vigour_btn_panel_light.9.png
+SHA1-Digest-Manifest: VYAeYD7xGiCMJ2u7TyfZ944xkoM=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_36.png
+SHA1-Digest-Manifest: CnofnZMaF0rHFgNxgedkbx/I+kk=
+
+Name: res/drawable-mdpi-v4/vigour_abc_jing.png
+SHA1-Digest-Manifest: CwRQUgXKtFX7q/kOI7XPUxKw6r8=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_new_center_contact_disable
+ _light.9.png
+SHA1-Digest-Manifest: 9nlCUgM/y4QxMop0Cfu6iHvRIB0=
+
+Name: res/drawable-mdpi-v4/vigour_abc_r.png
+SHA1-Digest-Manifest: E9llr1nnJiPIz0eUWHBTIGyuqzE=
+
+Name: res/drawable-hdpi-v4/vigour_scrollbar_handle_horizontal.9.png
+SHA1-Digest-Manifest: ZqFRsG+OzdwAIFnq0FGdCKJzwQU=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_back_disable_ligh
+ t.9.png
+SHA1-Digest-Manifest: XgEVCOSyqzPKfMUXN5HgB97ohko=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_16.png
+SHA1-Digest-Manifest: pfIoHuSM55l50ZT29GlSjlgzOsw=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_42.png
+SHA1-Digest-Manifest: roHmmyX9Yce035BeSgRpn/gWEuk=
+
+Name: res/drawable-mdpi-v4/vigour_icon_mask.png
+SHA1-Digest-Manifest: cr6emOL7n98/xQ9EqEaxXRl+3Jg=
+
+Name: res/drawable-hdpi-v4/vigour_dialog_button_right_round_normal.9.p
+ ng
+SHA1-Digest-Manifest: FbX326AWLpGtR1Z2prCSjV8bexk=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_16.png
+SHA1-Digest-Manifest: HQnDfIPlYiLh8aFWxMCIEt5pIdU=
+
+Name: res/drawable-hdpi-v4/vigour_text_toolbar_divider.9.png
+SHA1-Digest-Manifest: ZlLkqJKhlsaKJFW1KYmUTlVVsWU=
+
+Name: res/drawable-hdpi-v4/vigour_ic_global_lock_silent_mode.png
+SHA1-Digest-Manifest: 6T0OUO9U7msuecoafnoAaXqvlxY=
+
+Name: res/drawable-hdpi-v4/vigour_text_toolbar_right_pressed_light.9.p
+ ng
+SHA1-Digest-Manifest: 8f+3jwAQcB+vW4pK9TbtOzJ8gIw=
+
+Name: res/drawable-hdpi-v4/vigour_resolver_icon_cover.png
+SHA1-Digest-Manifest: wfypoF0vVjQclKolNau+9X8GNRI=
+
+Name: res/color/vigour_tab_indicator_text_contact_light.xml
+SHA1-Digest-Manifest: kbDH9n/TJ0eh8KLQv5a3fM4xS7M=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_create_normal_lig
+ ht.9.png
+SHA1-Digest-Manifest: 0QLUXJUkywyVGYARGXpA8zWe44Q=
+
+Name: res/drawable-hdpi-v4/vigour_list_menu_bg_disabled_dark.9.png
+SHA1-Digest-Manifest: guY78Iqaht9IFWmEDw1GE/wOEX4=
+
+Name: res/drawable-hdpi-v4/vigour_dialog_list_content_bg.9.png
+SHA1-Digest-Manifest: ufQUuc/R2fUNLJ2pJcW3BcYJI9s=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_27.png
+SHA1-Digest-Manifest: E4LUSk9yFbzMwVn7kteL4GzC5Rw=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_left_center_i
+ nternet_pressed.9.png
+SHA1-Digest-Manifest: BEldKX60S0ht8ll4JAwkHq9OpCQ=
+
+Name: res/drawable-hdpi-v4/vigour_text_toolbar_single_normal_dark.9.pn
+ g
+SHA1-Digest-Manifest: vKJ3yqqXQICuEhD7Phyta6O4ruk=
+
+Name: res/drawable/vigour_btn_title_create_center_multimedia_dark.xml
+SHA1-Digest-Manifest: FQNbl6IJsHY4DRxWZ3MORY9c5tQ=
+
+Name: res/drawable-hdpi-v4/vigour_holiday_wallpaper_childrenday.jpg
+SHA1-Digest-Manifest: XfwSd4mQoLHKMioVoohQFqKDO/Y=
+
+Name: res/drawable-mdpi-v4/vigour_abc_r_touch.png
+SHA1-Digest-Manifest: dcT9xMIOLBQmzfDicUDB0xBYvDY=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_left_center_c
+ ontact_pressed.9.png
+SHA1-Digest-Manifest: g70EsHoW7Tv8XqZN0kes8h/1MU0=
+
+Name: res/drawable-mdpi-v4/vigour_btn_dropdown_disabled_light.9.png
+SHA1-Digest-Manifest: Rwfkka4u5U3g+xYFZCu4DjPzRgY=
+
+Name: res/drawable-hdpi-v4/vigour_text_toolbar_inputmethod.png
+SHA1-Digest-Manifest: 6gSsMz1e1RA/yIignm7DI2XHgxw=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_42.png
+SHA1-Digest-Manifest: KlcjQzjRz/hLhAWeCjKaacKqqNM=
+
+Name: res/drawable-hdpi-v4/vigour_grid_selector_background_focus_light
+ .9.png
+SHA1-Digest-Manifest: aFfE9aa4L1nWpg/PUF6ymczagHM=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_stat_sys_tether_wifi_white_
+ 2.png
+SHA1-Digest-Manifest: lIhzer6zO9GsC18GSIYJZH+5YNc=
+
+Name: res/drawable-hdpi-v4/vigour_text_magnifier.png
+SHA1-Digest-Manifest: /G+DTH0cBMCfDTD1wRugo8vLzqo=
+
+Name: res/drawable/vigour_grid_selector_bg_light.xml
+SHA1-Digest-Manifest: UZ5QV5VG5xfGV+SAGfTVwjLkpUw=
+
+Name: res/color/vigour_tab_indicator_text_internet_dark.xml
+SHA1-Digest-Manifest: KHiHB9otVTp/ydC4sFHZxAw6EKI=
+
+Name: res/drawable/vigour_ic_btn_arrow_dark.xml
+SHA1-Digest-Manifest: yZ07xys4rP2K6ZIR9l+vipiusAk=
+
+Name: res/drawable/vigour_list_transition_bg_dark.xml
+SHA1-Digest-Manifest: 6IEJZyu6k7knaMfgSvwXxCj8PCw=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_radio_off_normal_light.
+ png
+SHA1-Digest-Manifest: rw5zBZrMBTEp6pTUyuQP6EQy5+Q=
+
+Name: res/drawable-hdpi-v4/vigour_wifi_stat_notify_wifi_in_range_color
+ .png
+SHA1-Digest-Manifest: aHfQv2HgZtHD80kibAc+3reKGZI=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_09.png
+SHA1-Digest-Manifest: Kfd2PszHox4+cC4Kz2dTUvPdBQ8=
+
+Name: res/layout-zh-CN/vigour_time_picker.xml
+SHA1-Digest-Manifest: 4ioKonJWZgmS5B+ILvZSccBSy6c=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_mid_center_in
+ ternet_pressed.9.png
+SHA1-Digest-Manifest: WctpXUPYIJbIudXu+XeSWdmRaWw=
+
+Name: res/layout/vigour_popup_toolbar_layout.xml
+SHA1-Digest-Manifest: nDBfWE0BkWGFH7J44H2ctmd+DZM=
+
+Name: res/drawable-hdpi-v4/vigour_launcher_indicator_light_active.png
+SHA1-Digest-Manifest: 7nVit4IfvIuA5j7uaMip+LOWCEM=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_holiday_wallpaper_arborday.
+ jpg
+SHA1-Digest-Manifest: 5N56oqOKyYri803nzTawoWDu7AI=
+
+Name: res/drawable-ldrtl-sw360dp-hdpi-v13/vigour_btn_title_create_norm
+ al_light.9.png
+SHA1-Digest-Manifest: 26oH9r5rj5NpYwhdB/wUt+ofWSo=
+
+Name: res/drawable/vigour_dialog_close_btn_dark.xml
+SHA1-Digest-Manifest: NrfLiFgZ7zOCHveMUCnJdm+JEVE=
+
+Name: res/drawable-mdpi-v4/vigour_abc_f.png
+SHA1-Digest-Manifest: xHDmlounID+AFhcR3tHDmKrm4pA=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_back_center_multimedia_nor
+ mal_light.9.png
+SHA1-Digest-Manifest: NWrCw+69bhGf0/0gh/Ud6iOzPsE=
+
+Name: res/drawable-mdpi-v4/vigour_markup_left_normal.9.png
+SHA1-Digest-Manifest: j0f8fz8tHr/Cq6CtLHrI/JJiY90=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_mid_pressed_dark.9.png
+SHA1-Digest-Manifest: ltptK43Tw5RguixQFuCoJfI5vT8=
+
+Name: res/drawable-hdpi-v4/vigour_list_selector_bg_disabled_bright.9.p
+ ng
+SHA1-Digest-Manifest: NrpUa+/tBWT+GiQUh3kpACB6XiQ=
+
+Name: res/drawable-hdpi-v4/vigour_holiday_wallpaper_arborday.jpg
+SHA1-Digest-Manifest: fGNywEQKJC55GLawueuqCnRWZ+o=
+
+Name: res/drawable-hdpi-v4/vigour_holiday_wallpaper_dragonboatfestival
+ .jpg
+SHA1-Digest-Manifest: 1r9MUcmaQqG7/z1pWFq7yQYjyOA=
+
+Name: res/drawable-ldrtl-sw360dp-hdpi-v13/vigour_ic_btn_arrow_pressed_
+ light.png
+SHA1-Digest-Manifest: spQOLmHPGEeyeoYKETFvy8NHoiA=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_22.png
+SHA1-Digest-Manifest: qL2NOpyBQii7SQN1bsKnAL3uyTI=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_back_center_multi
+ media_normal_light.9.png
+SHA1-Digest-Manifest: D+0lC5xRi4H2p6bbw7Zk/8CVWeE=
+
+Name: res/drawable-mdpi-v4/vigour_text_toolbar_right_pressed_light.9.p
+ ng
+SHA1-Digest-Manifest: Pci/lRE4OJWEZGGiDZ19REfAwak=
+
+Name: res/drawable-hdpi-v4/vigour_abc_thumb_popwin_bg_light.png
+SHA1-Digest-Manifest: bkv+bx2VDk7w8thM/91w6NxHZRc=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_create_center_con
+ tact_pressed_light.9.png
+SHA1-Digest-Manifest: nfE17L51NNhNPC75JN6L84rerDo=
+
+Name: res/drawable-hdpi-v4/vigour_holiday_wallpaper_labariceporridgefe
+ stival.jpg
+SHA1-Digest-Manifest: rDamLqCF25XkbRylUHozArCpB10=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_back_normal_light.9.
+ png
+SHA1-Digest-Manifest: U+NeruMh7+fjQ/JvYJKo/KGdZh0=
+
+Name: res/drawable-hdpi-v4/vigour_popup_dialog_top_no_divider.9.png
+SHA1-Digest-Manifest: Nl/gBXOamZaplrRblsorV/o+aaA=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_usb_noti_left_btn_normal.9
+ .png
+SHA1-Digest-Manifest: 59n36fHgUreCNe9/Lk9NESyPhjk=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_new_center_contac
+ t_normal_light.9.png
+SHA1-Digest-Manifest: mL5aBXAoExXdHYAlROBXdqzqZso=
+
+Name: res/drawable-hdpi-v4/vigour_list_selector_disabled_dark.9.png
+SHA1-Digest-Manifest: FpOMcPNcSibumLzp6tr37hjVx90=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_36.png
+SHA1-Digest-Manifest: 43tGdUakydWzpAZQ24E82zueOu0=
+
+Name: res/drawable-mdpi-v4/vigour_markup_left_press.9.png
+SHA1-Digest-Manifest: jwMmFwkzmMtH0LlZ7j3jVHGEXSw=
+
+Name: res/drawable/vigour_btn_title_tab_right_center_personal_dark.xml
+SHA1-Digest-Manifest: rdrRtihwkURGyQ356cUIJFUJsDo=
+
+Name: res/drawable-hdpi-v4/vigour_bool_btn_handleft_disabled_light.png
+SHA1-Digest-Manifest: EwXV6nmVMpY/xBL7SruZ9uFHmUo=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_tab_left_center_cont
+ act_normal.9.png
+SHA1-Digest-Manifest: 0d28XTPGEyMRnL+KE8uHDGIezZk=
+
+Name: res/drawable-mdpi-v4/vigour_abc_h_touch.png
+SHA1-Digest-Manifest: pvG5BUqTyC6diERG9k2Hixid8Ag=
+
+Name: res/drawable-mdpi-v4/vigour_abc_b_touch.png
+SHA1-Digest-Manifest: 4NWoQMJ4ka0K4fwFe41PpE37s4o=
+
+Name: res/layout/vigour_preference_category.xml
+SHA1-Digest-Manifest: +y8x3s3hMVWfnPxcNAt/HJRZ8+o=
+
+Name: res/color/vigour_text_color_primary_dark.xml
+SHA1-Digest-Manifest: d+BtKGKaVuxi+Ye62wu5ohlGUfs=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_list_search_icon_light.png
+SHA1-Digest-Manifest: srHacWcvPszwzJ/Qq11+KOucS24=
+
+Name: res/drawable/vigour_text_cursor.xml
+SHA1-Digest-Manifest: u1Jga//SCJa+N+IsAnRGrMXene0=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_26.png
+SHA1-Digest-Manifest: dGnht150GGIMxJNekrLvZh2MRr0=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_49.png
+SHA1-Digest-Manifest: tgr/aAZIFYst+Zy6VCBB+cL2jDg=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_left_center_c
+ ontact_normal.9.png
+SHA1-Digest-Manifest: 1OAxSc4TMVzPE938Mn3Z8/WPh5g=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_mid_center_multimedia_
+ pressed.9.png
+SHA1-Digest-Manifest: FWFFSAwpmvS/vCT7e4Y1MyYl5zA=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_holiday_wallpaper_christmas
+ eve.jpg
+SHA1-Digest-Manifest: qtH8QN9eW/Ekgfbzi1Z+SUHKhMQ=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_back_center_personal_press
+ ed_light.9.png
+SHA1-Digest-Manifest: 7a3tOYdwAAbMcuSeKC92JU5f9kE=
+
+Name: res/drawable-hdpi-v4/vigour_dialog_button_not_round_disable.9.pn
+ g
+SHA1-Digest-Manifest: Cw0bADzWGy+98/DMDFJZhwiOAFg=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_left_center_p
+ ersonal_normal_light.9.png
+SHA1-Digest-Manifest: XfXEYhHbGUKONyiKcTGCc3rIPCE=
+
+Name: res/color/vigour_tab_indicator_text_media_light.xml
+SHA1-Digest-Manifest: gBVsqGX1SzY8rENnbDxeGTRmNQg=
+
+Name: res/drawable-mdpi-v4/vigour_ic_btn_arrow_pressed_light.png
+SHA1-Digest-Manifest: Uflnkq3g5r5qGop32Ai5LLIbM94=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_back_pressed_ligh
+ t.9.png
+SHA1-Digest-Manifest: U539QxrgwHK+KGPcMucZJHNNn8I=
+
+Name: res/drawable-hdpi-v4/vigour_btn_usb_noti_right_btn_press.9.png
+SHA1-Digest-Manifest: WqVy2yuNhPvziQKCK2IeKdgVkHM=
+
+Name: res/drawable-mdpi-v4/vigour_btn_dialog_close_disable_light.png
+SHA1-Digest-Manifest: NVHz0ZvRfDEjduX4jchXxZJ4cZo=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_holiday_wallpaper_springfes
+ tival.jpg
+SHA1-Digest-Manifest: p/FKwVJEe3qodsrIbZrOPW68Byk=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_37.png
+SHA1-Digest-Manifest: EndaxGpWOhIZkApDCnUCLvq3oDk=
+
+Name: res/drawable-hdpi-v4/vigour_virus_scan_bg_img.9.png
+SHA1-Digest-Manifest: 5HeM++Ggo96duhyG/cM2JgUGpbo=
+
+Name: res/drawable-hdpi-v4/vigour_web_text_select_handle_right.png
+SHA1-Digest-Manifest: GLlrMr8tKnbm1KI/91nQp1OXgMA=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_tab_right_center_con
+ tact_normal.9.png
+SHA1-Digest-Manifest: KU64t1UIVU9jKP/G0TzsqGwj1jQ=
+
+Name: res/drawable-mdpi-v4/vigour_list_header_bg_light.9.png
+SHA1-Digest-Manifest: Em7oer/YXqWRYNec83dBcLOaNrk=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_55.png
+SHA1-Digest-Manifest: eeBj+YPA7sU6Wv4LJPykXOGSBZY=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_44.png
+SHA1-Digest-Manifest: N8XlipXTeBfbNjjNEWCVaDD8Cqg=
+
+Name: res/drawable-hdpi-v4/vigour_stat_sys_tether_wifi_color.png
+SHA1-Digest-Manifest: L2/vd7u6IW8I/Q8ydpU5bo5KU10=
+
+Name: res/drawable-nodpi-v4/vigour_air_wake_v.png
+SHA1-Digest-Manifest: VBO2ScC3L4vIabq/hnJQchJ1WN8=
+
+Name: res/drawable/vigour_btn_check_light.xml
+SHA1-Digest-Manifest: 46E1NVITIluNggyfvS3zP+wFKxA=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_03.png
+SHA1-Digest-Manifest: Bl1V0rNL0Yvaf5vqwxB/+2ryv80=
+
+Name: res/drawable-hdpi-v4/vigour_list_selector_bg_disabled_light.9.pn
+ g
+SHA1-Digest-Manifest: 83JitMHsr/PnupHqTNwuWB46rR0=
+
+Name: res/drawable-mdpi-v4/vigour_btn_default_small_normal_light.9.png
+SHA1-Digest-Manifest: qK9jdV8Epdk6IZowd2zxtB+rWlI=
+
+Name: res/drawable-hdpi-v4/vigour_abc_thumb_star.png
+SHA1-Digest-Manifest: MMJMw/M3BPhwbYYDc60yr3/9/fA=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_holiday_wallpaper_chuxi.jpg
+SHA1-Digest-Manifest: nlqQ+PUrk++Aei9NR2tL+1HEVKg=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_holiday_wallpaper_teacherda
+ y.jpg
+SHA1-Digest-Manifest: VQxt67DP7P5JUYwdr3HeVXEpwAQ=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_06.png
+SHA1-Digest-Manifest: Acpbpg96LWCRY5E1fBpv/YlT6bI=
+
+Name: res/drawable-mdpi-v4/vigour_preference_unround_bg_light.9.png
+SHA1-Digest-Manifest: Ao7B0E188KXwkN22H3LsOHcSVn8=
+
+Name: res/drawable-ldrtl-sw360dp-hdpi-v13/vigour_btn_title_new_center_
+ personal_normal_light.9.png
+SHA1-Digest-Manifest: 2mnBQxB4dzrfVk1ZuHWmq8Ecx1w=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_right_center_
+ personal_normal_light.9.png
+SHA1-Digest-Manifest: eC0IW0voIcmOMJdxq6XvD8tvUTk=
+
+Name: res/drawable-hdpi-v4/vigour_holiday_wallpaper_tombsweepingday.jp
+ g
+SHA1-Digest-Manifest: FAoqdf0l61eDg6OBZf+NnbSWf7M=
+
+Name: res/drawable-mdpi-v4/vigour_content_no_favorites.png
+SHA1-Digest-Manifest: CCKjh7tZ+5HRa0dkeKiRBUf2uH0=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_virus_scan_img.png
+SHA1-Digest-Manifest: h7byUP+tB42kV50VlnP7s4dzg/4=
+
+Name: res/drawable-mdpi-v4/vigour_super_power_save_exit.png
+SHA1-Digest-Manifest: G9N3lTTAJSKQ2+ExWRn79xiOepQ=
+
+Name: res/drawable-hdpi-v4/vigour_noti_usb_color.png
+SHA1-Digest-Manifest: iANULi22YTuxEG7tGJKQqml+iec=
+
+Name: res/drawable-ldrtl-sw360dp-hdpi-v13/vigour_ic_btn_arrow_normal_l
+ ight.png
+SHA1-Digest-Manifest: N7BEnrfH7I3ObiH3Nw5Gfrt0t2Q=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_19.png
+SHA1-Digest-Manifest: ps8gmaP9UalHCfWxu+ex3kAtkVA=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_new_center_contac
+ t_disable_light.9.png
+SHA1-Digest-Manifest: LnfiOCKXlXJKCVtEUyj3A64LIFk=
+
+Name: res/drawable-hdpi-v4/vigour_progress_horizontal_progress_bg_ligh
+ t.9.png
+SHA1-Digest-Manifest: kt5jAuOGq87TM23uUNRY6ypC7Kw=
+
+Name: res/drawable-hdpi-v4/vigour_list_drop_down_bg_dark.9.png
+SHA1-Digest-Manifest: QrMNA25ETyLokVZVhPJrMGVSV7I=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_web_text_select_handle_righ
+ t.png
+SHA1-Digest-Manifest: wUmIC4wQrFBfFwMianyhgbXMHc8=
+
+Name: res/anim/vigour_anim_smartmultiwindow_transition_shortmin.xml
+SHA1-Digest-Manifest: EEfXuvd8SI59v26hz8WBFZtXEFo=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_create_center_mul
+ timedia_pressed_light.9.png
+SHA1-Digest-Manifest: eeFmerl9gcMiNO1nVyDwB1FPq/w=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_check_on_disable_light.
+ png
+SHA1-Digest-Manifest: FRv7jcmNyYuPEAoQwTFKOfERcfo=
+
+Name: res/drawable/vigour_progress_blue.xml
+SHA1-Digest-Manifest: dTUhsbSw9DZcPTeSpAw7FsJwpbA=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_text_toolbar_center_normal_
+ light.9.png
+SHA1-Digest-Manifest: fY03CXNszsPyeIPwA91cfYu/RSc=
+
+Name: res/drawable-hdpi-v4/vigour_progress_bg.png
+SHA1-Digest-Manifest: 5kYzKt9A4lpXgljW3xI9tMRyAZ0=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_00.png
+SHA1-Digest-Manifest: PSe4i4IBjOGpbp1kyBOLzIZ+e2s=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_18.png
+SHA1-Digest-Manifest: GlIbI1hdcLQ3ZTXDQT5MZkvD0Nw=
+
+Name: res/drawable-hdpi-v4/vigour_preference_top_bg_normal_light.9.png
+SHA1-Digest-Manifest: SNrHb4gXEJgs04UisY0Ug5z7J9A=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_seek_thumb_normal_light.png
+SHA1-Digest-Manifest: pbTaJ/gzaDKOwVXqKsWhV2nK7/E=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_contextmenu_more_normal_lig
+ ht.png
+SHA1-Digest-Manifest: oGTWMzurltaaQtA49F4TEHLGA90=
+
+Name: res/drawable/vigour_usb_debug_noti_btn_selector_cn.xml
+SHA1-Digest-Manifest: rtpRaMeiiFvNzq9faasaj5dm4qg=
+
+Name: res/drawable/vigour_btn_title_tab_mid_center_multimedia.xml
+SHA1-Digest-Manifest: 4zzknJQNiQW7+H5O7m2f7SKh3p0=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_create_center_con
+ tact_normal_light.9.png
+SHA1-Digest-Manifest: p7D1o21alDbmqcxuzx5O++oVTEE=
+
+Name: res/drawable-hdpi-v4/vigour_quickcontact_badge_pressed.9.png
+SHA1-Digest-Manifest: w1lH3Ujo0ARUE8sAY0Fu/EpTHuY=
+
+Name: res/drawable-mdpi-v4/vigour_holiday_wallpaper_christmaseve.jpg
+SHA1-Digest-Manifest: vs7v2CLUBy3XXV3SY0LPNuK7Q4Y=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_new_center_personal_
+ disable_light.9.png
+SHA1-Digest-Manifest: V0UbrRVc+UUlzSj3/lJ4sExCNaw=
+
+Name: res/drawable/vigour_edit_text_dark.xml
+SHA1-Digest-Manifest: hfA5kzzNrCb4LoJ9XYOF7Rk08bA=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_back_center_personal
+ _pressed_light.9.png
+SHA1-Digest-Manifest: A/R7Wj+yGsEQgceVCgIM2aCeAA8=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_stat_sys_tether_wifi_white_
+ 8.png
+SHA1-Digest-Manifest: JctEQSE0wbQwgJhZ7J9AXhc6YyY=
+
+Name: res/layout/vigour_search_view_cancel_button.xml
+SHA1-Digest-Manifest: Z0UghukaYglCi+gt0nh++AtP7ZM=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_dialog_close_disable_li
+ ght.png
+SHA1-Digest-Manifest: FN2PIHp8UEwl6LiH5eAVx2Eavfs=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_29.png
+SHA1-Digest-Manifest: KFrOD4bVxQJ87bEFie/MK5gx448=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_new_center_multimedi
+ a_normal_light.9.png
+SHA1-Digest-Manifest: 7usiT1sIt8jJeeDG7uYgjkxNNqw=
+
+Name: res/drawable-nodpi-v4/vigour_smart_wake_c.png
+SHA1-Digest-Manifest: s3gVWu6E8AukAkepzNyq5usJlCw=
+
+Name: res/drawable-hdpi-v4/vigour_dialog_button_right_round_pressed.9.
+ png
+SHA1-Digest-Manifest: Dhnan3UdwDdpzh5GlN9VUXFLtSs=
+
+Name: res/drawable-hdpi-v4/vigour_dialog_bottom_dark.9.png
+SHA1-Digest-Manifest: BZJQDMemFH98HDcjbTIk6lRzG4w=
+
+Name: res/drawable-hdpi-v4/vigour_list_search_bg_normal_light.9.png
+SHA1-Digest-Manifest: XEIWM1Uugl6md1A9h/ZvXAM1jOQ=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_14.png
+SHA1-Digest-Manifest: k2fkhkSLgNCnQbyh5eupc9qFfSY=
+
+Name: res/color/vigour_tab_indicator_text_person_dark.xml
+SHA1-Digest-Manifest: S6GHeWgXNT6Iqi8WgCXA1po9ADw=
+
+Name: res/xml/theme_infomation.xml
+SHA1-Digest-Manifest: evEdZqsSqVPAcRS5HQtVr0bBVQE=
+
+Name: res/drawable-hdpi-v4/vigour_ic_menu_to_scene.png
+SHA1-Digest-Manifest: poZxKsCtWD8sSp0Th1LqufV+fkA=
+
+Name: res/drawable-hdpi-v4/vigour_bool_btn_hand_disabled_light.png
+SHA1-Digest-Manifest: HYNqlvBJWGYA1KvcODZw8YuLO/M=
+
+Name: res/drawable/vigour_markup_view_right_btn_bg.xml
+SHA1-Digest-Manifest: vMz7LEBdbuOd9KoJGPbUE//H//g=
+
+Name: res/drawable-mdpi-v4/vigour_holiday_wallpaper_teacherday.jpg
+SHA1-Digest-Manifest: NrI22jcOXIwBDXGTkL10PGidVQg=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_back_normal_light
+ .9.png
+SHA1-Digest-Manifest: qD0ICe/U92IpKYfhZnfNlv3NExE=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_09.png
+SHA1-Digest-Manifest: KzfmUIF7s/AgPcO/UQtSjDFcbOM=
+
+Name: res/drawable-hdpi-v4/vivo_sys_usb_notification_uncheck_box.png
+SHA1-Digest-Manifest: urr5OXIYPCd3n46DKh8Sec6JZes=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_08.png
+SHA1-Digest-Manifest: YpDu/rw2XCUasRvD2V5XqsZAuGo=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_create_center_personal_nor
+ mal_light.9.png
+SHA1-Digest-Manifest: aVodvb7btVS9ofsrYPBnqmyaQRM=
+
+Name: res/drawable-hdpi-v4/vigour_dialog_button_disable.9.png
+SHA1-Digest-Manifest: 7EaKhYt8Z7upTaHAYRuFOYOyjeM=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_mid_center_co
+ ntact_normal.9.png
+SHA1-Digest-Manifest: 4gHE8XaGNYChRV0cxRVsoRJ9tAk=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_left_center_m
+ ultimedia_normal.9.png
+SHA1-Digest-Manifest: etPpR5l207+jCkb+0oJACUQ31zg=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_11.png
+SHA1-Digest-Manifest: EfdGF2OHJViv51HFwjG3otJLRMk=
+
+Name: res/drawable/vigour_bool_btn_bg.xml
+SHA1-Digest-Manifest: 9LJqERypFkWr3ZB6yIouIWVZ4ms=
+
+Name: res/raw/vivo_gestures
+SHA1-Digest-Manifest: OzFzlOnFI/3Si330HeolyuqkNJc=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_new_center_multimedia_pres
+ sed_light.9.png
+SHA1-Digest-Manifest: UAvaoawew8bMUfwpQ0mldm7m+7s=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_53.png
+SHA1-Digest-Manifest: ZfjsbPlgdR0Ol2jO6eAquTeIFF8=
+
+Name: res/interpolator/vigour_smartmultiwindow_accelerate_quad.xml
+SHA1-Digest-Manifest: PGTeAoS6Q4o02tY6RuzPCdk0gRg=
+
+Name: res/drawable-hdpi-v4/vigour_virus_scan_img.png
+SHA1-Digest-Manifest: AgFz2NieEKjGyHMo1pjPWwuq5gI=
+
+Name: res/color/vigour_contextmenu_item_text_more_light.xml
+SHA1-Digest-Manifest: NBd2qZoNQTW2rulh1lH2zKR7MVg=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_24.png
+SHA1-Digest-Manifest: gjEn07sm3oeqTWM/4ayS396J9Uc=
+
+Name: res/drawable-hdpi-v4/vigour_btn_usb_noti_right_btn_normal.9.png
+SHA1-Digest-Manifest: L/dbYP0Am5Rx38ijwxhAJYgAI1Q=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_default_normal_light.9.
+ png
+SHA1-Digest-Manifest: +o+L2Iefm1WORtca8wCLwW3Fh+Y=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_27.png
+SHA1-Digest-Manifest: IDOE2F35IV5CwrCKu1JX9ERitQc=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_divider_horizontal_dark.9.p
+ ng
+SHA1-Digest-Manifest: 17jtr64Mtt/Nzaff0pNFb9ON7ng=
+
+Name: res/drawable-hdpi-v4/vigour_holiday_wallpaper_christmasday.jpg
+SHA1-Digest-Manifest: VR6V/0wZbaPRO+P2Lmv1cxINqK8=
+
+Name: res/drawable-hdpi-v4/vigour_holiday_wallpaper_doubleseventhday.j
+ pg
+SHA1-Digest-Manifest: bj2H9fd5ocUwgkenJqNjPNr5Bpc=
+
+Name: res/layout/vigour_lunardate_picker_dialog.xml
+SHA1-Digest-Manifest: Ez1TuB4kglaLGSz4gvFzqRdFYHU=
+
+Name: res/drawable-hdpi-v4/vigour_holiday_wallpaper_springfestival.jpg
+SHA1-Digest-Manifest: phuZ5lMLXBN8QjVygkzZgqOp5NE=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_38.png
+SHA1-Digest-Manifest: ellsDgCzIo7ZJcHwZvGfiyLc+yw=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_new_normal_light.9.p
+ ng
+SHA1-Digest-Manifest: U7uUy/B7Q5SK7Y4+2XAKd2AYC6E=
+
+Name: res/drawable-mdpi-v4/vigour_abc_i.png
+SHA1-Digest-Manifest: 3ua9OfPxAY7u+Y81u4lAZcYr8t0=
+
+Name: res/anim/vigour_anim_smartmultiwindow_transition_tiny.xml
+SHA1-Digest-Manifest: 0Obc/0cXuOqXrOe1LEmoYeUSdSU=
+
+Name: res/drawable/vigour_stat_notify_warning.xml
+SHA1-Digest-Manifest: gvcXdHr3sOiY2O69a3faC9m2I/k=
+
+Name: res/drawable-mdpi-v4/vigour_text_toolbar_left_normal_light.9.png
+SHA1-Digest-Manifest: rj+1BVmt6k7ug02rY9zTfzrW9/w=
+
+Name: res/drawable-hdpi-v4/vigour_picker_banner_light.9.png
+SHA1-Digest-Manifest: hORQ19mU40gizOsjM7szNHGMeY0=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_56.png
+SHA1-Digest-Manifest: /uDpHQJbnGwgCrZKkzn1sooNRIM=
+
+Name: res/drawable-mdpi-v4/vigour_holiday_wallpaper_childrenday.jpg
+SHA1-Digest-Manifest: TT3JJMWHFGfDDv7Z2olN4DoYo1A=
+
+Name: res/drawable-hdpi-v4/vigour_divider_horizontal_dark_opaque.9.png
+SHA1-Digest-Manifest: eB6lehQDq7gxG9UrcqYNAoFovbA=
+
+Name: res/layout/vigour_linearview_item_layout.xml
+SHA1-Digest-Manifest: 3klZjWun1u6ilHq4h8wGVzn2zdU=
+
+Name: res/color/vigour_text_tertiary_light.xml
+SHA1-Digest-Manifest: TzL+SZAHtY+er8ksSeEWrap5M0w=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_19.png
+SHA1-Digest-Manifest: lld3tSvRE5bMHPHbRQ9Ojw3XSAc=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_35.png
+SHA1-Digest-Manifest: EJdrtOrzLf9TOtZDFRfAfwBXy6Q=
+
+Name: res/drawable-mdpi-v4/vigour_dialog_list_content_has_title.9.png
+SHA1-Digest-Manifest: 4ShF0XyCe2lcopRcOmTxZMGVU2s=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_dropdown_selected_light.9.
+ png
+SHA1-Digest-Manifest: cYRL0+ggGTOsoeyk9lnJhIBYZ1M=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_back_disable_light.9
+ .png
+SHA1-Digest-Manifest: Fl8z93rild/Mlo1VCKjKWrF+ATY=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_text_select_handle_middle.p
+ ng
+SHA1-Digest-Manifest: Fs4UPo56/s7tdssVUpYYFW/jPLs=
+
+Name: res/drawable-mdpi-v4/vigour_preference_round_bg_light.9.png
+SHA1-Digest-Manifest: nCEWMEUEEFHSNz/0cQQ4zthixJI=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_new_center_contact_normal_
+ light.9.png
+SHA1-Digest-Manifest: rNgbkKXQrUxMkwyVvYbjB3R5G7o=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_10.png
+SHA1-Digest-Manifest: KwIRvQmfPIAtkJETL7cjJZYjTuk=
+
+Name: res/drawable-mdpi-v4/vigour_markup_right_normal.9.png
+SHA1-Digest-Manifest: +NLwuqCL8cPgyVEvLjkQpGFRJV0=
+
+Name: res/drawable-hdpi-v4/vigour_bool_btn_bg_normal.png
+SHA1-Digest-Manifest: m5mzBxVUd3bJhYCW21GHSREpE0g=
+
+Name: res/drawable/vigour_btn_check_dark.xml
+SHA1-Digest-Manifest: IdsmyX+qDgQ246cPl4mJxhQly5I=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_43.png
+SHA1-Digest-Manifest: BdorUpz3p6Dfw+sZT1CG3brcJ5o=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_left_center_multimedia
+ _normal.9.png
+SHA1-Digest-Manifest: TrVAVBBULa9dz+GaVwEj85dh5vk=
+
+Name: res/drawable-hdpi-v4/vigour_text_toolbar_single_pressed_light.9.
+ png
+SHA1-Digest-Manifest: iDl+daldmua1q184Nm97gpIjr9s=
+
+Name: res/layout/vigour_lunar_date_picker.xml
+SHA1-Digest-Manifest: MRMupKZYvXFOZX/Sgw/4PfP//rs=
+
+Name: res/drawable-mdpi-v4/vigour_holiday_wallpaper_laborday.jpg
+SHA1-Digest-Manifest: o0vFxpm4MXX5COhekwLnkKMXdps=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_35.png
+SHA1-Digest-Manifest: xj4LS/AnnLBHnRxvDxrC2owOW5k=
+
+Name: res/layout/vigour_permission_confirm_content.xml
+SHA1-Digest-Manifest: VT1kx6zKsSZm+uAgUcn+Tj6J0SQ=
+
+Name: res/drawable-hdpi-v4/vigour_content_no_alramclocks.png
+SHA1-Digest-Manifest: 1Tot3NNsrQF8e6eEeDTocDWPZs8=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_activity_title_bar_bg_light
+ .9.png
+SHA1-Digest-Manifest: m542ULd7DZ+nfTnGChGJHnEpOOk=
+
+Name: res/drawable-mdpi-v4/vigour_btn_title_new_disable.png
+SHA1-Digest-Manifest: okxH6NR7FdDBioHR1Pf+XmY2HYA=
+
+Name: res/drawable-hdpi-v4/vigour_content_no_messages.png
+SHA1-Digest-Manifest: hSvypipbrgEomTW4Zc3Ln6K96YU=
+
+Name: res/drawable/vigour_notification_icon.xml
+SHA1-Digest-Manifest: Vu5+F7fl37O2+l5fe1+ojVjB7os=
+
+Name: res/drawable-hdpi-v4/vigour_sim_black_orange.png
+SHA1-Digest-Manifest: hBFhCUiNRCWzByo4BAZxi5yZ4bs=
+
+Name: res/drawable/vigour_btn_title_new.xml
+SHA1-Digest-Manifest: nRAdxHQ6u4MkqGDX3dNDH+O2ORE=
+
+Name: res/drawable-hdpi-v4/vigour_btn_check_on_normal_light.png
+SHA1-Digest-Manifest: H/9M26HkuS1/ghBP/hF0/ZFd0j0=
+
+Name: res/drawable-mdpi-v4/vigour_btn_default_small_disable_light.9.pn
+ g
+SHA1-Digest-Manifest: 4+6q4NA0FY3xBdL2o3ZUIxzvX2Q=
+
+Name: res/drawable-mdpi-v4/vigour_seek_thumb_pressed_light.png
+SHA1-Digest-Manifest: UUMZBeYPmSnkEjSFgOlsE0T5Wf8=
+
+Name: res/drawable-hdpi-v4/vigour_list_search_bg_disable_light.9.png
+SHA1-Digest-Manifest: LE2pbEnnBw39EpZHCN2iRS7mJmw=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_dropdown_disabled_light.9.
+ png
+SHA1-Digest-Manifest: IgjUJJMzO6MrTJA+X8R2abZTTUs=
+
+Name: res/drawable-mdpi-v4/vigour_list_search_bg_disable_light.9.png
+SHA1-Digest-Manifest: KHmomxYZkg5oHUpzAcqfgPpZTD4=
+
+Name: res/drawable-mdpi-v4/vigour_abc_o.png
+SHA1-Digest-Manifest: PkzarniotOolMQC4kdE84j2OcuM=
+
+Name: res/raw/mediactrlmediatypes.ini
+SHA1-Digest-Manifest: k8v8Y33bDyvb8VW17a8eFCd654I=
+
+Name: res/layout/vigour_adb_install_app_permission_item_old.xml
+SHA1-Digest-Manifest: 1KV7wDt1yfxLC94hHfzdNfj8D6U=
+
+Name: res/drawable/vigour_btn_shutdown.xml
+SHA1-Digest-Manifest: THzzz0B3u3tm8AJOFSF4rr4Fezs=
+
+Name: res/drawable/vigour_btn_title_tab_left_light.xml
+SHA1-Digest-Manifest: aE4YF4BXGG/6uD0qViwLxB/apUg=
+
+Name: res/drawable-ldrtl-sw360dp-hdpi-v13/vigour_btn_title_new_disable
+ _center_multimedia.9.png
+SHA1-Digest-Manifest: KlseL5q4x4b+DMGvPHIwe0MfBlU=
+
+Name: res/drawable-hdpi-v4/vigour_btn_default_normal_disable_light.9.p
+ ng
+SHA1-Digest-Manifest: T6LAS2ZLNzeOIcv1xPo2f9LDPzw=
+
+Name: res/drawable-hdpi-v4/vigour_dialog_middle_dark.9.png
+SHA1-Digest-Manifest: fsjiBSGL7Z1k4kX1w9VlyUfgYOk=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_create_center_multim
+ edia_normal_light.9.png
+SHA1-Digest-Manifest: z3dp3Hb7EV+Dm+LrYbUaWi6KDBc=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_holiday_wallpaper_doublenin
+ thfestival.jpg
+SHA1-Digest-Manifest: K+azrPYL2Bprqcu7JBsB8AogBuw=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_mid_center_personal_no
+ rmal.9.png
+SHA1-Digest-Manifest: 5+jFY7/4I8S7djeu6Krw1YA+9DY=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_24.png
+SHA1-Digest-Manifest: BpqakHqtA9QvHfExhwviZVrzjVs=
+
+Name: res/drawable-hdpi-v4/vigour_spinner_blue.png
+SHA1-Digest-Manifest: 9G+81xMnYCZtmtDiI/3Knhiy2yg=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_text_toolbar_right_normal_l
+ ight.9.png
+SHA1-Digest-Manifest: VqLnjYV8UG8/sIu1P5FeJFJh00s=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_mid_normal_light.9.png
+SHA1-Digest-Manifest: We7+xhPT+BEUlmOytiZZLJ7xcac=
+
+Name: res/drawable-mdpi-v4/vigour_abc_a_touch.png
+SHA1-Digest-Manifest: a4rGWmSTDKd2vIJrnggnZVytMjU=
+
+Name: res/drawable-mdpi-v4/vigour_bool_btn_bg_normal.png
+SHA1-Digest-Manifest: YOwGyNM7xKixmbasfUcdwbfDL68=
+
+Name: res/color/vigour_text_color_primary_inverse_light.xml
+SHA1-Digest-Manifest: oLwBhxERxuAPW/3/NXx0H5zKfYA=
+
+Name: res/color/vigour_text_color_primary_inverse_dark.xml
+SHA1-Digest-Manifest: nx6XNTbM7nkdtqE2Yu6Y3TZb5zE=
+
+Name: res/drawable-hdpi-v4/vigour_textfield_disabled_light.9.png
+SHA1-Digest-Manifest: ErhHH6oOPFhprj+KSBDs4x3Ax7c=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_create_center_contac
+ t_pressed_light.9.png
+SHA1-Digest-Manifest: 91ShHN8OM+jGHBmDYnOraf70MgY=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_holiday_wallpaper_womenday.
+ jpg
+SHA1-Digest-Manifest: ePDfoT6u98e5iQoNJyn8xacVLqY=
+
+Name: res/drawable-hdpi-v4/vigour_activity_title_bar_bg_light.9.png
+SHA1-Digest-Manifest: 9P9fIdsO84nmmUZv3cpQw9haRUU=
+
+Name: res/drawable-hdpi-v4/vigour_holiday_wallpaper_fatherday.jpg
+SHA1-Digest-Manifest: u8kVhB5Z3ltjsIc4D/pwMWNRG+Y=
+
+Name: res/drawable-mdpi-v4/vigour_btn_check_off_normal_light.png
+SHA1-Digest-Manifest: zXPGvW73rw1wHS8Wgz/TpIijOfs=
+
+Name: res/drawable/vigour_popup_toolbar_single.xml
+SHA1-Digest-Manifest: gwc7ZQI4YXaad9g1wGtsbcGkZ4s=
+
+Name: res/anim/vigour_anim_smartmultiwindow_transition_default.xml
+SHA1-Digest-Manifest: DTZmVXBTtzTouCMNWUs3bu6E6Rs=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_scene_noti_secure_color_02.
+ png
+SHA1-Digest-Manifest: eh5jcJM6hC11x2uezVf6zQo+cIA=
+
+Name: res/anim/vigour_menu_exit_interpolator.xml
+SHA1-Digest-Manifest: T/0ZHKSrJDGN/49AKjY413WzZnI=
+
+Name: res/drawable-hdpi-v4/vigour_dialog_button_left_round_normal.9.pn
+ g
+SHA1-Digest-Manifest: q3HF/TqYRfDaKjL5F3ESawCyC58=
+
+Name: res/color/vigour_title_btn_text_internet_dark.xml
+SHA1-Digest-Manifest: d7XJmow8D+aorTnwiLIMWnWGj3A=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_content_no_contact.png
+SHA1-Digest-Manifest: we6FSIkvACo5YuDXxo7Xp86WmoI=
+
+Name: res/anim/vigour_anim_smartmultiwindow_transition_midmin.xml
+SHA1-Digest-Manifest: 51YDTcEu9P78ERKEiCayNhKo/Ik=
+
+Name: res/drawable-mdpi-v4/vigour_abc_p_touch.png
+SHA1-Digest-Manifest: ARvBzmTPM08Y5qwbMFIaa/EHToY=
+
+Name: res/drawable-hdpi-v4/vigour_progress_dialog_bar_bg.9.png
+SHA1-Digest-Manifest: pjPN5WK9wzVmv9d0n/LpA1KkIuQ=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_41.png
+SHA1-Digest-Manifest: v000UI3GV41CA8L04e4KI687y10=
+
+Name: AndroidManifest.xml
+SHA1-Digest-Manifest: JeAbm5c6Ho3igqXhkav1/aFXChU=
+
+Name: res/drawable/vigour_btn_title_tab_left_center_personal_light.xml
+SHA1-Digest-Manifest: ZW/P/trHUeilEiMIRMWGtUhKtnc=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_37.png
+SHA1-Digest-Manifest: 6qI3/vl9BvVWI5ypJRrPKn2lEyM=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_new_center_person
+ al_normal_light.9.png
+SHA1-Digest-Manifest: J4kIimTbm6CwrrYNMCbV64xkisc=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_disable.9.png
+SHA1-Digest-Manifest: Ud39vTTQkusx2XwIVzY+CLwWDQo=
+
+Name: res/layout/vigour_adb_install_app_details.xml
+SHA1-Digest-Manifest: Ovr8ms+BSx3C/5H4PFDb5J5r7GA=
+
+Name: res/drawable-mdpi-v4/vigour_btn_check_off_disable_light.png
+SHA1-Digest-Manifest: 3r1J3BJONOEucOC7Bvoj2EpPZhE=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_progress_horizontal_seconde
+ ry_bg_light.9.png
+SHA1-Digest-Manifest: Ui4i8/lWLcaUp/FRc7dNYcT1HLo=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_list_search_bg_disable_ligh
+ t.9.png
+SHA1-Digest-Manifest: eNi6gC002xhESSXE2fQ+k4PY3SQ=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_43.png
+SHA1-Digest-Manifest: iQEq0GmeP9wKWh8vtkp7vTE9fME=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_tab_right_center_int
+ ernet_normal.9.png
+SHA1-Digest-Manifest: KWpoXMMCoT1XYSUn6QJ4zI4wHjk=
+
+Name: res/drawable/vigour_stat_sys_tether_general.xml
+SHA1-Digest-Manifest: i1U+SSknmCvmDABowxIBjfKYpUk=
+
+Name: res/drawable-hdpi-v4/vigour_popup_top_black.9.png
+SHA1-Digest-Manifest: ajZ2CukfYfHwu+g6S54za8JmauI=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_content_no_update.png
+SHA1-Digest-Manifest: st6OQlEbEhLH8G+cigH0U0aMXH0=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_dialog_black.9.png
+SHA1-Digest-Manifest: CBWbbOvvurHlsgPzZyqbZ1dtN/E=
+
+Name: res/drawable-hdpi-v4/vigour_list_search_icon_light.png
+SHA1-Digest-Manifest: yNiPB6lt06rnFLxcGEyw4XNDzBE=
+
+Name: res/drawable-mdpi-v4/vigour_abc_l_touch.png
+SHA1-Digest-Manifest: zYAWnbIF6Gqx6VGCeBQjUAjai0s=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_new_center_multimedia_norm
+ al_light.9.png
+SHA1-Digest-Manifest: dzcyhLYgtpgneusCvyjznJ0J4sg=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_05.png
+SHA1-Digest-Manifest: FnqhagkY9Y/cOHXVD9BSptB5p2U=
+
+Name: res/drawable-hdpi-v4/vigour_launcher_indicator_dark_active.png
+SHA1-Digest-Manifest: 9FyxvTSznIL23gvq+KyfQ8I2c28=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_virus_scan_img_dangerous.pn
+ g
+SHA1-Digest-Manifest: KPXPSNTC3UXEVHo+6FrZ2fq5HkA=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_panel_light.9.png
+SHA1-Digest-Manifest: JYWJ5Ix0b+Yl4y3Q8A8b1NMUsvI=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_back_center_contact_normal
+ _light.9.png
+SHA1-Digest-Manifest: X53ieFTtJ/tLDa9hS0oiuoqYRBE=
+
+Name: res/drawable-hdpi-v4/vigour_markup_right_normal.9.png
+SHA1-Digest-Manifest: UbjR5ljvUn8IVDttI6jIn2YQotU=
+
+Name: res/layout/vigour_icon_menu_layout.xml
+SHA1-Digest-Manifest: pyrdz0GuLQT3W8syPTABVHKa8TQ=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_46.png
+SHA1-Digest-Manifest: 0vwLVd1B4jTeGGzwFzG/0Ko+xUA=
+
+Name: res/drawable-mdpi-v4/vigour_progress_horizontal_background_bg.pn
+ g
+SHA1-Digest-Manifest: p/1VaCVwbMCVRkBMPsswiU5J2ac=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_13.png
+SHA1-Digest-Manifest: 1KRWU5wjl5yLCgVaT5zm0WmY8uo=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_content_no_alramclocks.png
+SHA1-Digest-Manifest: h8rNNyqMtgF/CEeiUgWpSEJyDG8=
+
+Name: res/drawable-hdpi-v4/vigour_markup_left_press.9.png
+SHA1-Digest-Manifest: MnTo5DKBxupZoJo1lw8m8EcWvKA=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_21.png
+SHA1-Digest-Manifest: OUhtj6OvFQ96/6BJPi1Guw56B9s=
+
+Name: res/drawable-mdpi-v4/vigour_holiday_wallpaper_arborday.jpg
+SHA1-Digest-Manifest: Dv+GxIsfEnxw3/4rDLiHyp4vp8o=
+
+Name: res/drawable-nodpi-v4/vigour_smart_wake_o.png
+SHA1-Digest-Manifest: QCPF3JX4ujKEURQKC6/fRdLIfe4=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_03.png
+SHA1-Digest-Manifest: CRS2HiWJUUt/7XBnHwFLPWUHikY=
+
+Name: res/drawable-hdpi-v4/vigour_bool_btn_bg_off_light.png
+SHA1-Digest-Manifest: zq9kb3hed+Ly7XUotJ5i4u0W7nI=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_holiday_wallpaper_doublesev
+ enthday.jpg
+SHA1-Digest-Manifest: PxvkvYrshSGEgEB+WCyNojiac9s=
+
+Name: res/drawable-hdpi-v4/vigour_ic_global_lock_silent_mode_off.png
+SHA1-Digest-Manifest: v2u3KfYVCyPhnNCHeY719y8a6D8=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_holiday_wallpaper_nationald
+ ay.jpg
+SHA1-Digest-Manifest: sjyZVlrdAJe066j9lXuLpL9dLNk=
+
+Name: res/drawable/vigour_popup_inline_error_above_dark.xml
+SHA1-Digest-Manifest: byTHHmW3jR0orndjf0nG9DQLtQk=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_create_center_multimedia_n
+ ormal_light.9.png
+SHA1-Digest-Manifest: xFhEJ/nSPjOSMQQIZi5B0/rpUYE=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_progress_horizontal_backgro
+ und_bg_light.9.png
+SHA1-Digest-Manifest: +IV2IReEx9i4WOLHB8LziIpFgzs=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_right_normal_
+ light.9.png
+SHA1-Digest-Manifest: TO1vQ8GT2XbvkTx59HYIkz4CCU8=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_default_pressed_light.9
+ .png
+SHA1-Digest-Manifest: hf6XHElwGfP175p84bNMVAqDnss=
+
+Name: res/drawable-mdpi-v4/vigour_abc_thumb_star.png
+SHA1-Digest-Manifest: b94kGHL0aLHwwf9D1ghPfwj43tE=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_back_center_multimedia_pre
+ ssed_light.9.png
+SHA1-Digest-Manifest: DLkwddC0RdQMYq1BpCOW3l+cUR0=
+
+Name: res/drawable-hdpi-v4/vigour_btn_reboot_default.png
+SHA1-Digest-Manifest: WjuJ+b4Zad8/HeynqvWERqHrL7c=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_text_select_handle_right_da
+ rk.9.png
+SHA1-Digest-Manifest: p7Z0FfEy61B9xyJHqTAVwTOLowQ=
+
+Name: res/color/vigour_floating_text.xml
+SHA1-Digest-Manifest: Buz9oSqTAVSM7quz/6+U5/C2fac=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_dialog_button_pressed.9.png
+SHA1-Digest-Manifest: UJqAWa1a+JoeCdF7FzW8KNUMMh4=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_55.png
+SHA1-Digest-Manifest: 8juRs9OF3qKQUkgo31RuayBfPkA=
+
+Name: res/drawable-hdpi-v4/vigour_btn_dropdown_disabled_light.9.png
+SHA1-Digest-Manifest: lnVVfb+9CWtjBZnAa6wyjl6TksA=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_super_power_lockscreen_wall
+ paper.png
+SHA1-Digest-Manifest: zZGTAJbdfgcEqHCx8nSIbDoEzkM=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_mid_center_internet_no
+ rmal.9.png
+SHA1-Digest-Manifest: wcuWGLDivG6xo9nAMkzMxpn7w90=
+
+Name: res/anim/vigour_menu_window_enter_ex.xml
+SHA1-Digest-Manifest: 4KAG6hfwYgAaJfYpJLTNRzKqROI=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_01.png
+SHA1-Digest-Manifest: AV/9jvIKn7D7EYbw0got+wOF7XI=
+
+Name: res/drawable-mdpi-v4/vigour_abc_o_touch.png
+SHA1-Digest-Manifest: h2Z68EWZtEx/KqgYHBvC24wSWQ4=
+
+Name: res/drawable-mdpi-v4/vigour_abc_q.png
+SHA1-Digest-Manifest: nfdRxvnMzJ0OutSWzzW/yJwfpsM=
+
+Name: res/layout/vigour_lock_screen_guide_view.xml
+SHA1-Digest-Manifest: IF7O5SFdnZo1EOiyT8HJ6SY1QIo=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_reboot_pressed.png
+SHA1-Digest-Manifest: JD0e/IwQ6ZnKjVsK/eI/nitBsNw=
+
+Name: res/drawable-hdpi-v4/vigour_holiday_wallpaper_motherday.jpg
+SHA1-Digest-Manifest: 6M0wtHGisJKj1wRtzIPfLvPi6pI=
+
+Name: res/layout/vigour_list_menu_item_layout.xml
+SHA1-Digest-Manifest: bZkIKy0nPCAYDexarX34zvvN35I=
+
+Name: res/drawable-hdpi-v4/vigour_launcher_draglayer_bg.9.png
+SHA1-Digest-Manifest: Lt2kmU0oMl97YNLii8s4+bxTxBc=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_content_no_worldclock.png
+SHA1-Digest-Manifest: Vz/Ctcr1HKZ1s9maBkZOXrtQc3c=
+
+Name: res/drawable-ldrtl-sw360dp-hdpi-v13/vigour_btn_title_new_center_
+ multimedia_normal_light.9.png
+SHA1-Digest-Manifest: 9/4HYu3juTBUF+nOogDnTOjt69A=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_tab_left_center_pers
+ onal_normal_light.9.png
+SHA1-Digest-Manifest: WUVsjRaioOxLlTQjBkeMJu1JJCE=
+
+Name: res/drawable-mdpi-v4/vigour_abc_a.png
+SHA1-Digest-Manifest: 9/chOCV7et1+B6GQ5PVc54IjcZs=
+
+Name: res/drawable-mdpi-v4/vigour_ic_global_lock_airplane_mode_off.png
+SHA1-Digest-Manifest: VfZY4wv8irMiD2/kzIajTHkup1c=
+
+Name: res/drawable-mdpi-v4/vigour_content_no_video.png
+SHA1-Digest-Manifest: F3/ppUl7vDxuPE306T5Et/ezTsU=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_create_pressed_li
+ ght.9.png
+SHA1-Digest-Manifest: OiykLzQQLEEsQv1l+DbtCy9gxzc=
+
+Name: res/drawable/vigour_edit_text_light.xml
+SHA1-Digest-Manifest: yAdYRDe1nXUCouCy0NdPS+fsjiI=
+
+Name: res/color/vigour_text_color_secondary_inverse_dark.xml
+SHA1-Digest-Manifest: SRRw5rfk5fa4kBwY0u/CN1iq/ls=
+
+Name: res/drawable-mdpi-v4/vigour_markup_mid_left_normal.9.png
+SHA1-Digest-Manifest: iyTpURrHPmSnHej7HOFOhYcOmvA=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_holiday_wallpaper_dragonboa
+ tfestival.jpg
+SHA1-Digest-Manifest: LB38HQATaq+PnyYgg/hiuIMfPMM=
+
+Name: res/drawable-hdpi-v4/vigour_holiday_wallpaper_doubleninthfestiva
+ l.jpg
+SHA1-Digest-Manifest: 242Uo/WhP44oDGkAnqw86TE0mJo=
+
+Name: res/drawable/vigour_btn_title_tab_right_center_internet.xml
+SHA1-Digest-Manifest: XLG9Thd9lFJybREB+q3ghOFMajs=
+
+Name: res/drawable-mdpi-v4/vigour_abc_u.png
+SHA1-Digest-Manifest: BLLEETXoSYfbMT9/ZcngRWGEKlg=
+
+Name: res/drawable-hdpi-v4/vigour_launcher_indicator_light_normal.png
+SHA1-Digest-Manifest: 9n+dSCzTjSdRSWauruw7x6bUYqg=
+
+Name: res/drawable/vigour_text_toolbar_right_light.xml
+SHA1-Digest-Manifest: Qo1Zasabhj2Md0FGa/+3hLORlr0=
+
+Name: res/drawable/vigour_scene_shortcut_app_zone.xml
+SHA1-Digest-Manifest: suAvsGHnQBI/YhzShPl7pzJ+JuE=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_reboot_default.png
+SHA1-Digest-Manifest: O3Suk8/GhrHzIscO6dVWlyeEsDo=
+
+Name: res/drawable/vigour_menu_top.xml
+SHA1-Digest-Manifest: yxkrz12LEIGw+Va+fi8cMpomd9Q=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_abc_thumb_star.png
+SHA1-Digest-Manifest: QLGDNUH13C4q29BJQL+8hDQd6h4=
+
+Name: res/drawable-hdpi-v4/vigour_stat_sys_tether_wifi_color_3.png
+SHA1-Digest-Manifest: +qKsyhRTgzo3posaB1201AZAnkY=
+
+Name: res/drawable-mdpi-v4/vigour_holiday_wallpaper_motherday.jpg
+SHA1-Digest-Manifest: j3cfITYF/zESBbWfJi9WzPsXWqM=
+
+Name: res/drawable-hdpi-v4/vigour_btn_default_small_disable_light.9.pn
+ g
+SHA1-Digest-Manifest: Vz7hMWUES1KGHGVMRimd9LNauOI=
+
+Name: res/drawable-hdpi-v4/vigour_list_focused.9.png
+SHA1-Digest-Manifest: i2JfJ6rTbvc2CPfvEj91hIslu7U=
+
+Name: res/drawable/vigour_btn_radio_dark.xml
+SHA1-Digest-Manifest: U4eoDE29m+FUtLrj485ZNTwjq8U=
+
+Name: res/drawable-mdpi-v4/vigour_window_bg_light.9.png
+SHA1-Digest-Manifest: gQt5fRoQmBIhmpCbP47wo0K/17A=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_create_center_contact_norm
+ al_light.9.png
+SHA1-Digest-Manifest: QOvFj/kmeykJaF9aD5J8A7fphYg=
+
+Name: res/drawable/vigour_btn_title_tab_mid_dark.xml
+SHA1-Digest-Manifest: sbRRocmURb55CeuOSSyFiOPq+O8=
+
+Name: res/drawable-nodpi-v4/vigour_smart_wake_at.png
+SHA1-Digest-Manifest: kuMuiDyewQ44bFCsavsdV9ZKDrg=
+
+Name: res/drawable/vigour_btn_radio_light.xml
+SHA1-Digest-Manifest: wF8sGYoMCF23iv2+Ci6W0nmcrZY=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_18.png
+SHA1-Digest-Manifest: mRJtSobxbCylQzKDhTKs9L276cw=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_57.png
+SHA1-Digest-Manifest: CEavkIsOaDBPR+eSEqyv6v0NMgk=
+
+Name: res/drawable-mdpi-v4/vigour_abc_thumb_search.png
+SHA1-Digest-Manifest: Zpt3YKEZ6hvjCCHgfWjx/aAFHh0=
+
+Name: res/drawable-mdpi-v4/vigour_markup_left_disable.9.png
+SHA1-Digest-Manifest: p1Gz4xV7TuOJGDpSahX01AOQIMM=
+
+Name: res/drawable-hdpi-v4/vigour_list_selector_disabled_light.9.png
+SHA1-Digest-Manifest: KSmKBC/dAk8PcUKN9iSbJRnyQN4=
+
+Name: res/drawable-hdpi-v4/vigour_contextmenu_bg_dark.9.png
+SHA1-Digest-Manifest: Bb23sTiDjSoySdC6SFcr53tjk2w=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_left_center_p
+ ersonal_pressed_light.9.png
+SHA1-Digest-Manifest: rDJH0Pi4vORt8HTdHYtAuCMZ6C4=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_popup_dialog_bottom.9.png
+SHA1-Digest-Manifest: X2i6Gv2oKmwF4sx8SJnKqnGpBXI=
+
+Name: res/anim-sw360dp-hdpi-v13/vigour_menu_window_enter_ex.xml
+SHA1-Digest-Manifest: juFpi3nL1qkwWgVsq5AZPq8NDaE=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_14.png
+SHA1-Digest-Manifest: OJfCxjl9HmKFC6Sn/LVHNoQMay4=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_52.png
+SHA1-Digest-Manifest: MBKc0sqthyRkYPmN8SKHRZkkFQA=
+
+Name: res/drawable-hdpi-v4/vigour_btn_dropdown_pressed_light.9.png
+SHA1-Digest-Manifest: 1ZMnSmxWDFZpM1YNCaqqLt76Aec=
+
+Name: res/drawable-hdpi-v4/vigour_scene_mainmenu_shortcut_item_bg.png
+SHA1-Digest-Manifest: PRgWyXrbJjEWKR4DaYYrO2YTaME=
+
+Name: res/drawable-hdpi-v4/vigour_btn_shut_down_default.png
+SHA1-Digest-Manifest: jnf0wn1ySqgMNJitD59AtF3ZM4Q=
+
+Name: res/color/vigour_tab_indicator_text_internet_light.xml
+SHA1-Digest-Manifest: A7LSqBcUmUAc1cf9aB4a7piM22A=
+
+Name: res/drawable-hdpi-v4/vigour_bool_btn_bg_on_light.png
+SHA1-Digest-Manifest: iIPDSqhrmL5J7ngb11icLU0fjIc=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_time_picker_bg.9.png
+SHA1-Digest-Manifest: TQG0ZoQPfS25xy+chL5Tq12vSco=
+
+Name: res/drawable-hdpi-v4/vigour_dialog_button_all_round_normal.9.png
+SHA1-Digest-Manifest: 6gZwGTLdGSaj7a0KmUdHVBq8x4I=
+
+Name: res/drawable-hdpi-v4/vigour_bool_btn_bg_press.png
+SHA1-Digest-Manifest: s/024RnJTT6c7SY0+zXDVsxQnDs=
+
+Name: res/drawable-hdpi-v4/vigour_super_power_lockscreen_wallpaper.png
+SHA1-Digest-Manifest: ix/W2oisnyVWWy41vEed/5fq5Hc=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_content_no_files.png
+SHA1-Digest-Manifest: 6uwAFaFY/UNY+dtbktVzW21hJLw=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_stat_sys_tether_wifi_color_
+ 3.png
+SHA1-Digest-Manifest: JABNM2ciy02k9OMwJhdX/RI0JOk=
+
+Name: res/color/vigour_text_color_primary_light.xml
+SHA1-Digest-Manifest: H5Wp5Cic5Qrdd/jOVmeR5n4E4Os=
+
+Name: res/drawable-nodpi-v4/vigour_smart_wake_w.png
+SHA1-Digest-Manifest: /2n5ZLGlbSuNiSlRkxp67J9Aho8=
+
+Name: res/drawable-mdpi-v4/vigour_btn_title_create_disable.png
+SHA1-Digest-Manifest: J+qrKGTC8bYICf41fr57pQx6Rj8=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_left_pressed_light.9.p
+ ng
+SHA1-Digest-Manifest: wEtBYZqCDrwXE7GkVcbcZOVDLlU=
+
+Name: res/drawable-hdpi-v4/vigour_calendar_bg.png
+SHA1-Digest-Manifest: 4rM/410g73zYEtkGQa3hjBs95kI=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_mid_center_personal_pr
+ essed.9.png
+SHA1-Digest-Manifest: tKHn4GDykpf2UGq8nBhSemvxJAE=
+
+Name: res/drawable/vigour_general_background_transparency_light.xml
+SHA1-Digest-Manifest: 8CQEYvsNN61GrnA95/Sv0hRue8c=
+
+Name: res/drawable-hdpi-v4/vigour_holiday_wallpaper_foolsday.jpg
+SHA1-Digest-Manifest: YX1SPq7vZVXXLrmjBwn0+rzXlFQ=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_left_center_contact_pr
+ essed.9.png
+SHA1-Digest-Manifest: wuB1WHUBVabIujodTWINWn1yojE=
+
+Name: res/drawable-hdpi-v4/vigour_dialog_button_right_round_disable.9.
+ png
+SHA1-Digest-Manifest: ADTyM0ed46ht7lQXdHlr/48XlXk=
+
+Name: res/drawable-hdpi-v4/vigour_btn_dialog_close_disable_light.png
+SHA1-Digest-Manifest: wZoSt8tWVCbpN5SuIRWmJufqusY=
+
+Name: res/xml/wholetheme_config.xml
+SHA1-Digest-Manifest: kEJuIOZ4k2vcaDx9AGiymvhbZqg=
+
+Name: res/drawable-hdpi-v4/vigour_markup_mid_left_normal.9.png
+SHA1-Digest-Manifest: ShcOHqLFa5Y/tBZ3KYNPJLk9BYs=
+
+Name: res/drawable-hdpi-v4/vigour_stat_sys_data_usb.png
+SHA1-Digest-Manifest: FM/HEjZFT7gmUOyPnix92HNfKPQ=
+
+Name: res/drawable-mdpi-v4/vigour_popup_top_black.9.png
+SHA1-Digest-Manifest: 7a41etbBdGMTPnDr3nZfMNydXgE=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_04.png
+SHA1-Digest-Manifest: 9jK7j/0kxoEEFF6wM2blpmxpjHA=
+
+Name: res/color/vigour_tab_indicator_text_light.xml
+SHA1-Digest-Manifest: y6JP4oRxIXTmluztHAnkt6DFqVc=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_new_center_contac
+ t_pressed_light.9.png
+SHA1-Digest-Manifest: kTaXJUX0ediVA5YK8Y3ylZdqQ8g=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_39.png
+SHA1-Digest-Manifest: YKvUnZbu946rzTBBj41+zFmWAVo=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_wifi_stat_notify_wifi_in_ra
+ nge_color.png
+SHA1-Digest-Manifest: IMrjERg/Ut7xqx03c7KM2GFT92c=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_dialog_button_right_round_pres
+ sed.9.png
+SHA1-Digest-Manifest: SEwOvSv9QKpAxjuJJ7MA3ra5520=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_right_center_
+ contact_pressed.9.png
+SHA1-Digest-Manifest: ErLnl9TZ+F++nXn+DJjVmdzKQns=
+
+Name: res/drawable-mdpi-v4/vigour_holiday_wallpaper_doubleninthfestiva
+ l.jpg
+SHA1-Digest-Manifest: +TI6ecMOLKGcQhshYL/8S1ts8Oo=
+
+Name: res/drawable-hdpi-v4/vigour_icon_mask.png
+SHA1-Digest-Manifest: 3h7HBmW4NCDyyoV1q8EkQogsNa0=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_create_center_multim
+ edia_disable_light.9.png
+SHA1-Digest-Manifest: crklWC/UbwsdqC0dZwzfF4Ne+jk=
+
+Name: res/drawable-hdpi-v4/vigour_dialog_middle_light.9.png
+SHA1-Digest-Manifest: UZ351ahHCins2DYWbyjKkLhZO6E=
+
+Name: res/drawable-hdpi-v4/vigour_stat_sys_tether_wifi_color_1.png
+SHA1-Digest-Manifest: giYOXwoGhtAONWepJR4oNMaIHWk=
+
+Name: res/layout/vigour_search_title_view.xml
+SHA1-Digest-Manifest: 2LX2AN/EuDhgUOd+GzqU6Vi0PQM=
+
+Name: res/drawable-mdpi-v4/vigour_holiday_wallpaper_nationalday.jpg
+SHA1-Digest-Manifest: 5vtQyuCqPjLivzI31WetqQj4Q+Q=
+
+Name: res/drawable-mdpi-v4/vigour_btn_title_normal.9.png
+SHA1-Digest-Manifest: ZI17W0ifQqoXRmu5ONEGq96TalE=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_20.png
+SHA1-Digest-Manifest: Jt4Y/CRNBhPmJ1r7uJFYCK5dmi4=
+
+Name: res/drawable-hdpi-v4/vigour_holiday_wallpaper_chuxi.jpg
+SHA1-Digest-Manifest: KZmS0y9dcCBl8J/IzU7QhQ+Yb94=
+
+Name: res/drawable-ldrtl-sw360dp-hdpi-v13/vigour_btn_title_create_cent
+ er_multimedia_normal_light.9.png
+SHA1-Digest-Manifest: sgxVoVkZvo2QWvMK9icC/7hkzx4=
+
+Name: res/drawable/vigour_contextmenu_more_expanded_light.xml
+SHA1-Digest-Manifest: g45q4GRPKG85EeInJ71AgOy+FW0=
+
+Name: res/layout/vigour_usb_debug_notification_layout.xml
+SHA1-Digest-Manifest: KV84d5novLosG+a8XDAA/nY6lgM=
+
+Name: res/color/vigour_tab_indicator_text_dark.xml
+SHA1-Digest-Manifest: k2s4f0wv573oZzW68lEw1Db2P/Q=
+
+Name: res/drawable-hdpi-v4/vigour_text_toolbar_right_normal_light.9.pn
+ g
+SHA1-Digest-Manifest: dbEELO4zeuaa7daDreUP84MZZds=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_right_center_
+ internet_pressed.9.png
+SHA1-Digest-Manifest: 69zesvqx/EkSjpTT/nzI+Vr87KA=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_13.png
+SHA1-Digest-Manifest: LOzSmDaywVSROhQuj+tKUbwbsRc=
+
+Name: res/drawable-mdpi-v4/vigour_abc_x.png
+SHA1-Digest-Manifest: dXD4M+vOSAleK7IkNQsp1bjA8VI=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_ic_notification_ime_color.p
+ ng
+SHA1-Digest-Manifest: XaHsmtukQ2B+gZc+NOerm/x3cxQ=
+
+Name: res/drawable-mdpi-v4/vigour_btn_radio_on_normal_light.png
+SHA1-Digest-Manifest: g3Q3v/MRnx6YwZipFEBqJvg31CI=
+
+Name: res/drawable-hdpi-v4/vigour_holiday_wallpaper_midautumnfestival.
+ jpg
+SHA1-Digest-Manifest: HWGfKrpIMxOnit7v0loOQpHqmeE=
+
+Name: res/drawable-mdpi-v4/vigour_textfield_selected_light.9.png
+SHA1-Digest-Manifest: P2HjBOzZEvjy0hKXNi3ny0WyZjk=
+
+Name: res/drawable-mdpi-v4/vigour_abc_t.png
+SHA1-Digest-Manifest: pFkKVga4OOSMbPNT2kUohyV28dY=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_new_center_personal_
+ pressed_light.9.png
+SHA1-Digest-Manifest: qtFlcHI8L7jwLqrWu2JD1aS4bzg=
+
+Name: res/layout/vigour_notification_layout.xml
+SHA1-Digest-Manifest: Qh9GZtAzhqnAnftWLHTD5cv6hzU=
+
+Name: res/drawable-hdpi-v4/vigour_content_no_music.png
+SHA1-Digest-Manifest: CFZ4lZo3KEZIxO4q1G0YNhlm5E4=
+
+Name: res/drawable/vigour_markup_view_center_left_btn_bg.xml
+SHA1-Digest-Manifest: nNqtUBhVE1c7OfYZB4QQL8YLlMM=
+
+Name: res/drawable-mdpi-v4/vigour_btn_title_tab_left_pressed_light.9.p
+ ng
+SHA1-Digest-Manifest: Zkl3Dte+y7HInbQkLz2dHpX4qPE=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_new_pressed_light.9.png
+SHA1-Digest-Manifest: lFuZy+X4goZMSJcy1+iJsuGyB94=
+
+Name: res/drawable/vigour_btn_title_create_center_personal_light.xml
+SHA1-Digest-Manifest: ZdsCsze0EeluaTJI2n07/7sF/R4=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_27.png
+SHA1-Digest-Manifest: lBlQEiw+OaAP29k8T8IHi4w/qVs=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_dialog_close_normal_lig
+ ht.png
+SHA1-Digest-Manifest: sdw+V+5a3GNrMiUGrEoVHjKFDi0=
+
+Name: res/color/vigour_contextmenu_item_text_dark.xml
+SHA1-Digest-Manifest: cP/xCW3F7TE229tpX7t/z7pNojo=
+
+Name: res/drawable/vigour_btn_usb_noti_btn_selector.xml
+SHA1-Digest-Manifest: fAdLYxmSgy/KLMznaOdrIKBBStk=
+
+Name: res/color/vigour_preference_title_text_color.xml
+SHA1-Digest-Manifest: NzoWsvPlTp6Jn5y9GqQgLyVNNCU=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_bar_medium.9.png
+SHA1-Digest-Manifest: pD4fViW+XPClo63PGrfyYQoAS40=
+
+Name: res/drawable-hdpi-v4/vigour_noti_color.png
+SHA1-Digest-Manifest: 86uE7jFpRNAOgDAPe8Q61FcpGOw=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_left_pressed_
+ light.9.png
+SHA1-Digest-Manifest: 1q7rMbvGpbcqfpZ5g8ls91WNqzw=
+
+Name: res/drawable-mdpi-v4/vigour_abc_p.png
+SHA1-Digest-Manifest: UkYBfkd4/pBTenpt4lSWYOCGdSU=
+
+Name: res/drawable/vigour_btn_default_small_light.xml
+SHA1-Digest-Manifest: Ow3PukOZr/O6ODwdrbM/R7AfSxk=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_40.png
+SHA1-Digest-Manifest: ZRcWfFUySAqG/GcwBUDVsIiY54M=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_radio_off_disable_light
+ .png
+SHA1-Digest-Manifest: yTkezjk80GXU76xFUjABlkBw7OM=
+
+Name: res/drawable-hdpi-v4/vigour_usb_debug_noti_stat_img.png
+SHA1-Digest-Manifest: SxQ9fcweTsDia8eoQgS0B7ib/5E=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_dropdown_normal_light.9.pn
+ g
+SHA1-Digest-Manifest: R7R86P13J+KUBIJhr+tSa3s2Sxw=
+
+Name: res/drawable-mdpi-v4/vigour_list_search_bg_normal_light.9.png
+SHA1-Digest-Manifest: 3aQFMW1siGlu/u4b+AbYqsFwsJE=
+
+Name: res/drawable-hdpi-v4/vigour_content_no_install.png
+SHA1-Digest-Manifest: 14frEFoul/stZj1cvbPEAZMudUc=
+
+Name: res/layout/vigour_context_list_dialog.xml
+SHA1-Digest-Manifest: toxgt/kkfLgYsEBDHhayKO/CbI8=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_stat_sys_tether_wifi_color_
+ 7.png
+SHA1-Digest-Manifest: 5vuCZTXlI/tFR59lvi2lDMblSqs=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_create_center_con
+ tact_disable_light.9.png
+SHA1-Digest-Manifest: x5hCyRrkN0G+nNskFGXStvcMzeU=
+
+Name: res/drawable-hdpi-v4/vigour_progress_horizontal_secondery_bg_lig
+ ht.9.png
+SHA1-Digest-Manifest: pJhUGiPW/syskGyNJnYiG3gKKRI=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_super_power_save_exit.png
+SHA1-Digest-Manifest: NE9bqIMo/E0iTD8Lt+/o4halOko=
+
+Name: res/drawable-hdpi-v4/vigour_bool_btn_handright_normal_light.png
+SHA1-Digest-Manifest: iuWPxTbHcRDa+DjZRd6SfturhTI=
+
+Name: res/drawable-mdpi-v4/vigour_super_power_save_enter.png
+SHA1-Digest-Manifest: 2RImV7SXdQsAUGZ0HnMmxYFsYWo=
+
+Name: res/drawable-hdpi-v4/vigour_adb_noti_updater_color_01.png
+SHA1-Digest-Manifest: 8aftqnZFqtKcP5GF0ohxQMyp18g=
+
+Name: res/drawable/vigour_stat_sys_tether_usb.xml
+SHA1-Digest-Manifest: 5kI1Gjp1c29RygnNfAsaRbOTrnw=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_41.png
+SHA1-Digest-Manifest: OLF7C44HcunpUj0mvGklnA+DdSQ=
+
+Name: res/drawable-hdpi-v4/vigour_abc_thumb_search.png
+SHA1-Digest-Manifest: izCiZy/UibubGWoifQ+gvO3xLrs=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_content_no_favorites.png
+SHA1-Digest-Manifest: JfA1CM6gixhmj4TOBKm3NR5psiM=
+
+Name: res/drawable/vigour_contextmenu_more_light.xml
+SHA1-Digest-Manifest: WmZfZmXPT4sztofBBCfwnFxt8p8=
+
+Name: res/drawable-mdpi-v4/vigour_abc_star_touch.png
+SHA1-Digest-Manifest: Awc11Kuuzn6D10vslLnTXD2oAAA=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_dialog_button_left_round_disab
+ le.9.png
+SHA1-Digest-Manifest: Suu9qxwZp2rHx9zn4DhvF097S8M=
+
+Name: res/drawable/vigour_stat_sys_tether_wifi_3.xml
+SHA1-Digest-Manifest: xD1JyabIavtrMi+nDXgkRmY2UDw=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_new_center_contact_n
+ ormal_light.9.png
+SHA1-Digest-Manifest: fX0ppyYxLf6rCzdKv4BCLRlme/A=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_picker_banner_light.9.png
+SHA1-Digest-Manifest: 92hWU1pkLzShH9tKHlkGXzRTKy4=
+
+Name: res/drawable-hdpi-v4/vigour_general_background_transparency_bg_s
+ elected_dark.9.png
+SHA1-Digest-Manifest: SYE1YWfIY/VwxNDvLv0Zb7fQViE=
+
+Name: res/drawable-mdpi-v4/vigour_ic_btn_arrow_disable_light.png
+SHA1-Digest-Manifest: 3K4hC+c0HbYXAsjU4jrGSwcTjQw=
+
+Name: res/drawable-hdpi-v4/vivo_sys_usb_notification_middle_divide.9.p
+ ng
+SHA1-Digest-Manifest: 6tcMsnj3OeeHImoBMTYKaALnfWU=
+
+Name: res/color/vigour_tabselector_text_color_internet.xml
+SHA1-Digest-Manifest: fUyD/lJJ0J6c4W62bbieOdzJ1VI=
+
+Name: res/drawable-mdpi-v4/vigour_holiday_wallpaper_newyearday.jpg
+SHA1-Digest-Manifest: WJejifBN7vm+5O0K7+5/zXkcx2A=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_12.png
+SHA1-Digest-Manifest: zy7yrQ8o6HmQOsM5eXviiSj/TtM=
+
+Name: res/drawable-mdpi-v4/vigour_holiday_wallpaper_foolsday.jpg
+SHA1-Digest-Manifest: geS22azJxAF5/bWK2ZweqVD+AZg=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_tab_right_center_mul
+ timedia_pressed.9.png
+SHA1-Digest-Manifest: xDnj20rcJGqiKSh89lm5yrz9ImU=
+
+Name: res/drawable-hdpi-v4/vigour_dialog_list_content_has_title.9.png
+SHA1-Digest-Manifest: rwLEYy3JdWvpSNrZMfZD1sn00K0=
+
+Name: res/drawable-hdpi-v4/vigour_btn_radio_on_disable_light.png
+SHA1-Digest-Manifest: renqXYaVVDt0vEGxmiEU0Q9mP3Q=
+
+Name: res/layout/vigour_progress_full_dialog.xml
+SHA1-Digest-Manifest: VyEDL0xV9Imdg7aedyFzq1sL1qQ=
+
+Name: res/drawable-mdpi-v4/vigour_holiday_wallpaper_christmasday.jpg
+SHA1-Digest-Manifest: GO7Cq0883ZCm1YOkRnmxHuNvBd0=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_normal.9.png
+SHA1-Digest-Manifest: +NmZ32SCQVQk/e/wtJbecyqu/KY=
+
+Name: res/drawable-mdpi-v4/vigour_btn_title_new_normal.png
+SHA1-Digest-Manifest: gYpTtmFn5rS2IFmr0pY7ygRVy2c=
+
+Name: res/color/vigour_tab_indicator_text_media_dark.xml
+SHA1-Digest-Manifest: 6jeagZslXcvU98prukj+36yIOHA=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_19.png
+SHA1-Digest-Manifest: 7b6IrxkSWueF8K9zbDZ/V1HoZAI=
+
+Name: res/drawable/vigour_btn_title_tab_right_dark.xml
+SHA1-Digest-Manifest: mx5tcRzfG4kh73H8p/dlcdeFdmo=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_default_normal_disable_
+ light.9.png
+SHA1-Digest-Manifest: EvsSPS88u2MAzA7Z+mkTHPLbfUY=
+
+Name: res/drawable-ldrtl-sw360dp-hdpi-v13/vigour_btn_title_create_cent
+ er_multimedia_disable_light.9.png
+SHA1-Digest-Manifest: wp0620fFH5Gr4ag2XbwuJsZvTTQ=
+
+Name: res/color/vigour_text_color_secondary_light.xml
+SHA1-Digest-Manifest: DxJqnNq8KDGGV14kUfInsIx2HUA=
+
+Name: res/drawable-hdpi-v4/vigour_divider_horizontal_light.9.png
+SHA1-Digest-Manifest: lXaZylAlapOPiVe8cNBV772zlGA=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_06.png
+SHA1-Digest-Manifest: C0xlS/Q0owJPmC44FR/blm6EKQc=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_stat_sys_tether_wifi_defaul
+ t.png
+SHA1-Digest-Manifest: zsM1MjQrPFrX7hlm048AVXcNvo8=
+
+Name: res/drawable-hdpi-v4/vigour_markup_left_normal.9.png
+SHA1-Digest-Manifest: QQjtFy9/ggxCcUEgSisU9CfAjSk=
+
+Name: res/layout/vigour_global_actions_item.xml
+SHA1-Digest-Manifest: hh3P0AmrMZorK9wIBbyapqTNI98=
+
+Name: res/drawable-hdpi-v4/vigour_abc_thumb_float_search.png
+SHA1-Digest-Manifest: eopKYwn/JqUGLqyuT65y0ahpYf0=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_popup_top_bright.9.png
+SHA1-Digest-Manifest: gb0ZCm4PAyUTTSzazIepIQVPA1M=
+
+Name: res/drawable/vigour_stat_sys_tether_wifi_5.xml
+SHA1-Digest-Manifest: rUxPfgesnJgyH56mYKl4GBOZjwY=
+
+Name: res/drawable-hdpi-v4/vigour_icon_cover.png
+SHA1-Digest-Manifest: oauMDjhPx6unb4t2GvopK0GG7mQ=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_preference_unround_bg_light
+ .9.png
+SHA1-Digest-Manifest: 6onYyx3pRlNmQgA0YXJCnLNfdm8=
+
+Name: res/drawable-hdpi-v4/vigour_scene_app_folder_icon.png
+SHA1-Digest-Manifest: hawO/+Jrtxm/1sNLjngPLbMFV8E=
+
+Name: res/anim/vigour_menu_enter_interpolator.xml
+SHA1-Digest-Manifest: qEvqV2DgyyJbPuWPtWBgsuDYFOk=
+
+Name: res/drawable-mdpi-v4/vigour_dialog_button_pressed.9.png
+SHA1-Digest-Manifest: kwXl4Oxr+t7Ifr0pVLsVOBozjCw=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_text_toolbar_position_arrow
+ _above_light.png
+SHA1-Digest-Manifest: WvNm+ZHABWzwp0FK9UFBhE+gyEg=
+
+Name: res/drawable/vigour_popup_inline_error_above_light.xml
+SHA1-Digest-Manifest: cUHF9+10qn1MbxsJpLZNR+dbeEM=
+
+Name: res/drawable-hdpi-v4/vigour_btn_shut_down_pressed.png
+SHA1-Digest-Manifest: xgE8eqLDFdIA3d9mFoKdi7S6NZ4=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_39.png
+SHA1-Digest-Manifest: PUlgLZy0/k+j55+EL/mEwqgy3Ww=
+
+Name: res/color/vigour_tab_indicator_text_person_light.xml
+SHA1-Digest-Manifest: UbISDeU1dHOx90EWH0dXUsDwr7w=
+
+Name: res/drawable-hdpi-v4/vigour_granted.png
+SHA1-Digest-Manifest: qb0FBYgBp/K7kYGpCq0rU7w9r3c=
+
+Name: res/drawable/vigour_general_background_transparency_dark.xml
+SHA1-Digest-Manifest: qSklp7evwlbcrkCB8EngTmH6GM4=
+
+Name: res/drawable-hdpi-v4/vigour_ic_global_lock_power_off.png
+SHA1-Digest-Manifest: lQxTcfkJZ8hGXldkBk71jDu61Og=
+
+Name: res/anim/vigour_progressbar_accelerate_decelerate_interpolator.x
+ ml
+SHA1-Digest-Manifest: 7MRl8nH6fAysOLyJkZJj9dmjCb8=
+
+Name: res/drawable/vigour_stat_sys_tether_wifi_7.xml
+SHA1-Digest-Manifest: aCOVmJqYgyWdg3VzBtLnKZgvDvA=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_37.png
+SHA1-Digest-Manifest: 6AH0+uqNFz9+zcMJQMPAWrCHIdw=
+
+Name: res/drawable-mdpi-v4/vigour_preference_bottom_bg_selected_light.
+ 9.png
+SHA1-Digest-Manifest: ypy3BqDNFkVBaQuiNLbwdvJs6qY=
+
+Name: res/drawable/vigour_btn_title_tab_mid_light.xml
+SHA1-Digest-Manifest: SKzTJQ+dwJlcOo06JJ+Fg12GRmA=
+
+Name: res/drawable-hdpi-v4/vigour_contextmenu_bg_light.9.png
+SHA1-Digest-Manifest: 96pnSNP+STKdvk9lawDnDQqPA1Q=
+
+Name: res/anim/vigour_floating_main_view_out.xml
+SHA1-Digest-Manifest: 2yUarR+5mLPI7U//SWbDDpHa1Qo=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_dialog_button_disable.9.png
+SHA1-Digest-Manifest: 1UbIJWbBPSS37jGAAuOlVpsoW2I=
+
+Name: res/drawable/vigour_btn_title_back_dark.xml
+SHA1-Digest-Manifest: 8tdxhMwUa2bE6wwCWzY+zUvx/54=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_left_center_contact_no
+ rmal.9.png
+SHA1-Digest-Manifest: VlrOrYJVu1WiaclhUC7Oxwbocw8=
+
+Name: res/drawable-hdpi-v4/vigour_folder_icon_cover_01.png
+SHA1-Digest-Manifest: 7yOrlM8FjyL01c7bqx0e8zDXo28=
+
+Name: res/drawable/vigour_item_bg_dark.xml
+SHA1-Digest-Manifest: uepQ0nyB9GmuEbNhuv94WgFn4oI=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_back_center_contact_disabl
+ e_light.9.png
+SHA1-Digest-Manifest: xuj5NNY9W0QLqMc4qwVjtlNCvyA=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_mid_center_pe
+ rsonal_normal.9.png
+SHA1-Digest-Manifest: fbBbU1Cp/BSaBFljtmpc7g24UnQ=
+
+Name: res/drawable-hdpi-v4/vigour_general_background_transparency_bg_s
+ elected_light.9.png
+SHA1-Digest-Manifest: 2vbDa4gPNo4Yjx3+PH5FHHeQ4ek=
+
+Name: res/drawable-hdpi-v4/vigour_content_no_files.png
+SHA1-Digest-Manifest: 5buk1lPOA+wg8rHjPszOqyeoTNM=
+
+Name: res/drawable-mdpi-v4/vigour_btn_title_create_pressed.png
+SHA1-Digest-Manifest: MzQXr1PqOF8czmTH/DP2Rfp8OqA=
+
+Name: res/drawable-hdpi-v4/vigour_scene_preview_img.jpg
+SHA1-Digest-Manifest: 18LlxZ/Trd0AfyduZWCitt1n4kk=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_text_toolbar_divider.9.png
+SHA1-Digest-Manifest: axV0FcDTCy/Dbgto4T2QvAIja4g=
+
+Name: res/drawable-mdpi-v4/vigour_abc_c.png
+SHA1-Digest-Manifest: eAsvSLNThjF79ZAoHXnEr47ozvQ=
+
+Name: res/drawable-hdpi-v4/vigour_text_toolbar_left_pressed_light.9.pn
+ g
+SHA1-Digest-Manifest: fxhB33C4fj0JmXpRno7dAbiHf2g=
+
+Name: res/drawable-hdpi-v4/vigour_abc_thumb_popwin_bg_dark.png
+SHA1-Digest-Manifest: 3mhK88bJJ38SLbzdQtofcDUTqHo=
+
+Name: res/layout/vigour_select_dialog_item.xml
+SHA1-Digest-Manifest: VDytS+c3fr1F7gaFtnHnMCYwtAI=
+
+Name: res/drawable-hdpi-v4/vigour_textfield_default_fullscreen.9.png
+SHA1-Digest-Manifest: CJSF6IKv1aP+Pz1PXL58j7PHt/E=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_progress_horizontal_progres
+ s_bg_light.9.png
+SHA1-Digest-Manifest: vINADUDscQCyIHVr6K0vCZTMleo=
+
+Name: res/drawable/vigour_text_toolbar_left_dark.xml
+SHA1-Digest-Manifest: E+EjEc2G5N1mjnPhy8+TFr14l70=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_popup_inline_error_am_light
+ .9.png
+SHA1-Digest-Manifest: K3ewGl75iofaLbLpe6nM4+O/6yg=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_new_center_personal_disabl
+ e_light.9.png
+SHA1-Digest-Manifest: BdA1HERZixz7/JbdHfjZwZ6JCTM=
+
+Name: res/drawable-ldrtl-sw360dp-hdpi-v13/vigour_ic_btn_arrow_disable_
+ light.png
+SHA1-Digest-Manifest: YPJGRq+UBHnzZHnNT3rTREuj8Gs=
+
+Name: res/drawable-mdpi-v4/vigour_btn_remove_normal.png
+SHA1-Digest-Manifest: z6N9tDW4tJYchiLfmIZVpanikdM=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_contextmenu_more_expanded_p
+ ressed_light.png
+SHA1-Digest-Manifest: p9r+LUdnX/vgcEgzurVty7UKMLg=
+
+Name: res/drawable-mdpi-v4/vigour_btn_title_back_normal_light.9.png
+SHA1-Digest-Manifest: AqlXFkZhjHaTyAEgu2AZQZke/5g=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_create_normal.png
+SHA1-Digest-Manifest: z6ithPeNkOLe2eYlAqZi6YP9dmk=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_50.png
+SHA1-Digest-Manifest: t2sZ+ZZQwhZwf8/bsm2S6iK8EgI=
+
+Name: res/layout/vigour_permission_first_time_denied_content.xml
+SHA1-Digest-Manifest: obqobheLYA4aVqIXy7EOk6wfza8=
+
+Name: res/drawable-hdpi-v4/vigour_ic_btn_arrow_disable_light.png
+SHA1-Digest-Manifest: 9lkijLSjRPN7mkIsPMWbgn+2Uuk=
+
+Name: res/drawable-hdpi-v4/vigour_ic_btn_arrow_normal_light.png
+SHA1-Digest-Manifest: Q7wPhtCXjjtr4bbcaG7WNgr95dw=
+
+Name: res/drawable-hdpi-v4/vigour_list_search_bar_bg_light.9.png
+SHA1-Digest-Manifest: 7S1bWP49dc/MKptKXHWhGcRVmTc=
+
+Name: res/drawable-hdpi-v4/vigour_markup_mid_right_normal.9.png
+SHA1-Digest-Manifest: wcUBj06JWzPAnlN9SE1XfO5squQ=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_adb_noti_updater_white_01.p
+ ng
+SHA1-Digest-Manifest: j5v2c1Kn9ZD0pMVc8aZeAh5RT3o=
+
+Name: res/anim/vigour_incall_close_exit.xml
+SHA1-Digest-Manifest: 834rhcqY+2wMv5yfQn5Z0OI2kRI=
+
+Name: res/drawable/vigour_btn_title_back_center_contact_light.xml
+SHA1-Digest-Manifest: ssGSxKfaLorfEo2pWFjPZXfzxoc=
+
+Name: res/drawable-hdpi-v4/vigour_list_header_bg_light.9.png
+SHA1-Digest-Manifest: WtY466wSwPpBZEjG8s6E+2L2XaU=
+
+Name: res/drawable-hdpi-v4/vigour_virus_scan_img_safe.png
+SHA1-Digest-Manifest: yxjJdc8pReWhinnt43Q18BDNLi4=
+
+Name: res/drawable-hdpi-v4/vigour_noti_white.png
+SHA1-Digest-Manifest: Do0SUmTa+YXETOPUpwcAkTeAAX4=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_17.png
+SHA1-Digest-Manifest: 9oL536S211+beulFdrI2L4Zm9G0=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_contextmenu_bg_light.9.png
+SHA1-Digest-Manifest: jn6dv8YZsjOhaUfqGsJkSVnG4fI=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_16.png
+SHA1-Digest-Manifest: pV0OSKyBgZUoRg8kIONJj4CU4FA=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_popup_dialog_top.9.png
+SHA1-Digest-Manifest: QevLJ/ppfZuiDxLFrPGh9HFC/cg=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_bool_btn_bg_normal.png
+SHA1-Digest-Manifest: eKHJo72l2G5aJYQidjuVhOe1ZFo=
+
+Name: res/drawable-hdpi-v4/vigour_text_toolbar_right_pressed_dark.9.pn
+ g
+SHA1-Digest-Manifest: FCXE7bs9mUSjL8z+bVm7SbknjbA=
+
+Name: res/drawable-hdpi-v4/vigour_stat_sys_tether_wifi_white_1.png
+SHA1-Digest-Manifest: UxydqT6XgV0+5Gg+ecw1Hy/z5Cs=
+
+Name: res/drawable-mdpi-v4/vigour_btn_default_normal_disable_light.9.p
+ ng
+SHA1-Digest-Manifest: 3slvZHjAo9D0jgE8P2XKZ5+AVrg=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_back_center_personal
+ _disable_light.9.png
+SHA1-Digest-Manifest: 3JgsOIHqe16XFL6oE+zeOALi5s0=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_shut_down_default.png
+SHA1-Digest-Manifest: X8GJ1Tqc6NYqYrn2eOGQr7VncCU=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_right_center_internet_
+ normal.9.png
+SHA1-Digest-Manifest: UaqHSpAQ9BBBkUefwqAVbtAXEJo=
+
+Name: res/drawable-mdpi-v4/vigour_abc_x_touch.png
+SHA1-Digest-Manifest: QGLp8hAhGgybQ31X/b8qLsOPmXI=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_02.png
+SHA1-Digest-Manifest: isO30cqpE5fua/+lsp6nWkyUezQ=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_preference_round_bg_light.9
+ .png
+SHA1-Digest-Manifest: KT15srEmtIhS693ty6f+pj6087g=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_new_pressed.png
+SHA1-Digest-Manifest: Xt4O9G9kKTiqCsn8nlAB7ogYLQc=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_check_off_disable_light
+ .png
+SHA1-Digest-Manifest: Ccz7xkH6uygkF9T6qyIW0BGjsgg=
+
+Name: res/drawable-hdpi-v4/vigour_stat_sys_tether_wifi_color_8.png
+SHA1-Digest-Manifest: HFQ284qcWQ3dLQwMFkJzOvvwtzw=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_holiday_wallpaper_fatherday
+ .jpg
+SHA1-Digest-Manifest: GX3dS9hiD7RF0UI9xZwINL4+KYg=
+
+Name: res/drawable-mdpi-v4/vigour_web_text_select_handle_right.png
+SHA1-Digest-Manifest: IUKReytbjsfX1skC+t0AQqb+rOM=
+
+Name: res/drawable-hdpi-v4/vigour_text_toolbar_position_arrow_above_li
+ ght.png
+SHA1-Digest-Manifest: Xw+RHfy+1YEE4ga/SlYP8Rlxz6o=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_right_center_personal_
+ normal_light.9.png
+SHA1-Digest-Manifest: AKzxwu99E6bfl/Wu5yMuDbtsXTE=
+
+Name: res/drawable-mdpi-v4/vigour_text_magnifier.png
+SHA1-Digest-Manifest: eqGMZYDpHbi2vyN2cH0OP1zdHaU=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_left_center_internet_p
+ ressed.9.png
+SHA1-Digest-Manifest: dQdohLKxJ9AOIzVndmV99HzKtWM=
+
+Name: res/drawable-hdpi-v4/vigour_stat_sys_tether_wifi_default.png
+SHA1-Digest-Manifest: dUrZeOtT3H24/ux0E4xKCwoVg+M=
+
+Name: res/drawable-mdpi-v4/vigour_abc_n.png
+SHA1-Digest-Manifest: 2Kf1obav+BWHX+3xFSsw5diWe6A=
+
+Name: res/drawable-hdpi-v4/vigour_resolver_icon_mask.png
+SHA1-Digest-Manifest: SrV1QTmQl5uA1uWXNZR4NLrJjp0=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_32.png
+SHA1-Digest-Manifest: bOJIghfyFh3ENYk4FxObol59s6Q=
+
+Name: res/drawable-nodpi-v4/vigour_smart_wake_f2.png
+SHA1-Digest-Manifest: 3IVvZhw+i0YPwyTEKec9QWxNsy8=
+
+Name: res/drawable-ldrtl-sw360dp-hdpi-v13/vigour_btn_title_create_disa
+ ble_light.9.png
+SHA1-Digest-Manifest: YfYHJVc8Axo+4O04N3GW1bU8N84=
+
+Name: res/drawable/vigour_popup_inline_error_dark.xml
+SHA1-Digest-Manifest: YV9N2+aPsbzXqeYtqAoWlq1daoU=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_popup_top_black.9.png
+SHA1-Digest-Manifest: FpX+Vb4KB+IH+OYmWRTri9Z0fno=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_dropdown_pressed_light.9.p
+ ng
+SHA1-Digest-Manifest: x9ngAveP5sYv2IK9RkZP3TsZCHU=
+
+Name: res/drawable-hdpi-v4/vigour_text_toolbar_center_pressed_light.9.
+ png
+SHA1-Digest-Manifest: VG5qfcluYA0HQGOROYdsMGbFuh4=
+
+Name: res/drawable-mdpi-v4/vigour_holiday_wallpaper_womenday.jpg
+SHA1-Digest-Manifest: F/syAJQvZwJ1ZGFALvqjArdSVDk=
+
+Name: res/drawable-hdpi-v4/vigour_super_power_save_enter.png
+SHA1-Digest-Manifest: gGDSzvEOedpQ/QgDhajVvAHu7N0=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_21.png
+SHA1-Digest-Manifest: BqyFzmv9WAnznUllm91+5eNjSjU=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_abc_thumb_popwin_bg_light.p
+ ng
+SHA1-Digest-Manifest: ZG/K3VQ6ZAGqI1rqI3lg9dR5wx4=
+
+Name: res/drawable/vigour_btn_title_back_light.xml
+SHA1-Digest-Manifest: AC4CThIE/4LG6t9zgi6OBjRWFac=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_41.png
+SHA1-Digest-Manifest: B3epEQoQrPOHf2Fn/wzjAv0Od2c=
+
+Name: res/drawable-mdpi-v4/vigour_time_picker_select_bg.9.png
+SHA1-Digest-Manifest: ulg06iGURHp9rbVtS+aDDrSfspw=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_right_center_multimedi
+ a_normal.9.png
+SHA1-Digest-Manifest: j6r4sX5pJnfcMeh9rhBTdj3pLwc=
+
+Name: res/drawable-hdpi-v4/vigour_scene_checked.png
+SHA1-Digest-Manifest: IUTMtHRjdDfGCO29H03HVeOlBTk=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_virus_scan_bg_img.9.png
+SHA1-Digest-Manifest: WzA03Mp40dUbVtv2mRVp4F+yDmM=
+
+Name: res/layout/vigour_scene_ic.xml
+SHA1-Digest-Manifest: HyBxZbv7fzFqyO5IEAMv+3uaq5Y=
+
+Name: res/drawable-mdpi-v4/vigour_holiday_wallpaper_lanternfestival.jp
+ g
+SHA1-Digest-Manifest: VPCRkHwfMH45BR6VnoEykM058Oc=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_create_center_per
+ sonal_disable_light.9.png
+SHA1-Digest-Manifest: yZgQKsDkG6H1ODLF2gwSGjbHUMk=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_11.png
+SHA1-Digest-Manifest: rwDvqZuG073BxFnVXnQi3wM/WZw=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_create_center_per
+ sonal_normal_light.9.png
+SHA1-Digest-Manifest: k3ZWQaYf+Z5/FgFHVcl9piA0+hs=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_dialog_button_right_round_disa
+ ble.9.png
+SHA1-Digest-Manifest: yyUCGBXA19mWS2i8Cmty53TN1wM=
+
+Name: res/layout/vigour_select_dialog.xml
+SHA1-Digest-Manifest: nRwYhONsVSO7iyupjfRP0jrrORg=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_create_normal_light.9.png
+SHA1-Digest-Manifest: 3PCxQLdUDTWsIY/176IlFzbHrcM=
+
+Name: res/drawable/vigour_progress_horizontal_light.xml
+SHA1-Digest-Manifest: Waq95U6CMa4e9rJff939Q75X5xA=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_05.png
+SHA1-Digest-Manifest: +nU+qUSKnz0eNBI/DLyibwL0ReM=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_holiday_wallpaper_childrend
+ ay.jpg
+SHA1-Digest-Manifest: 3fwbpXLxWhV5LmaqdXIotAj/U5Y=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_text_toolbar_center_pressed
+ _light.9.png
+SHA1-Digest-Manifest: 667G6N43OCBV0G+wLPXodmGhxQk=
+
+Name: res/drawable/vigour_popup_toolbar_left.xml
+SHA1-Digest-Manifest: R0tAKx96uRxz/6JCT+P9U5JpajM=
+
+Name: res/drawable-hdpi-v4/vigour_scrollbar_handle_vertical.9.png
+SHA1-Digest-Manifest: CsON1GuEtcxgiq2n+4x14OTo23Y=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_holiday_wallpaper_tombsweep
+ ingday.jpg
+SHA1-Digest-Manifest: LwlvV4YZduA9dcO+2wg/y7MU/vk=
+
+Name: res/drawable/vigour_text_toolbar_center_light.xml
+SHA1-Digest-Manifest: yeXBav6Ks6+5nCRDsIaLzToTeqw=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_create_center_personal_dis
+ able_light.9.png
+SHA1-Digest-Manifest: +hal7fzR/WgFqZuW3BG4+cNJcL0=
+
+Name: res/layout/vigour_screen_title.xml
+SHA1-Digest-Manifest: CzXiZA/RgnBaDNj9P7kaHy8cWVY=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_42.png
+SHA1-Digest-Manifest: VK9sUeXITNwR95w/KHR6jOXFO/A=
+
+Name: res/drawable-hdpi-v4/vigour_ic_menu_softwareinstalled.png
+SHA1-Digest-Manifest: EgXzKin0dKPZ1veXjOA3ofoCGf0=
+
+Name: res/layout/vigour_context_menu_layout.xml
+SHA1-Digest-Manifest: vb8tZYArFG3Tlr1hCicPBJoPdnk=
+
+Name: res/drawable-hdpi-v4/vigour_sim_bg_blue_light.png
+SHA1-Digest-Manifest: voN5aweTSdai+Ebx7iQDF2lxDKw=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_back_disable_light.9.png
+SHA1-Digest-Manifest: koNB8trd1gHNprtSexoJUdAN9OU=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_web_text_select_handle_left
+ .png
+SHA1-Digest-Manifest: /h/xokbIAkAsWJw2P1msMBOZxts=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_content_no_video.png
+SHA1-Digest-Manifest: DsSQGyMKFqw7uaIvFDKboIHG/PA=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_create_normal_light.
+ 9.png
+SHA1-Digest-Manifest: xx2pRv4gzSyxDbV/8XzEfqcRRpU=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_right_pressed
+ _light.9.png
+SHA1-Digest-Manifest: GFxkdzV6RILYGlad8yPHER7tXGs=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_back_center_multimed
+ ia_normal_light.9.png
+SHA1-Digest-Manifest: mrqzGUdhZljjcsgepBVrWVNUhmg=
+
+Name: res/drawable-hdpi-v4/vigour_list_selector_bg_pressed_bright.9.pn
+ g
+SHA1-Digest-Manifest: n7NqD9WDn1jSiuYdlOFMDmQQWq8=
+
+Name: res/anim/vigour_dock_top_exit.xml
+SHA1-Digest-Manifest: 6MIEp+fGZ/k7jD+QO5Rhjaidqdw=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_01.png
+SHA1-Digest-Manifest: LCv+WAtiuNTzknuqcgfRwffEA1U=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_holiday_wallpaper_motherday
+ .jpg
+SHA1-Digest-Manifest: sxipq0/zE8h4jyXuB8spVITtwIY=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_back_center_personal_norma
+ l_light.9.png
+SHA1-Digest-Manifest: oggf/M4PXKuby4x8KvspywtM51o=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_ic_btn_arrow_normal_light.p
+ ng
+SHA1-Digest-Manifest: jRJEC3TaG/maIeiWEIWlWq3riWM=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_22.png
+SHA1-Digest-Manifest: AARIIQEzqjj7AP7Csr4cvVXFVRQ=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_07.png
+SHA1-Digest-Manifest: sEaieyEk6ljmfOYfa30/ICqjmm4=
+
+Name: res/drawable-mdpi-v4/vigour_holiday_wallpaper_midautumnfestival.
+ jpg
+SHA1-Digest-Manifest: deHHkyY9YgNSsf0ETvcYuD4aiAo=
+
+Name: res/drawable/vigour_list_menu_bg_light.xml
+SHA1-Digest-Manifest: WZa9zAYyQLD7bCYzvMFE+mLp7os=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_17.png
+SHA1-Digest-Manifest: 4PcM2oVx/8Nkh4P7IxV0JBqZbb4=
+
+Name: res/drawable-mdpi-v4/vigour_ic_menu_to_scene.png
+SHA1-Digest-Manifest: cAcKz6noWMni7qP/I8BSeJoOR30=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_bool_btn_handright_normal_l
+ ight.png
+SHA1-Digest-Manifest: b2ac5N678RtjkCiwxAXMBoS2S2g=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_usb_noti_right_btn_normal.
+ 9.png
+SHA1-Digest-Manifest: 52OYqIESsBFxnHvLkmPigMUVd88=
+
+Name: res/drawable-hdpi-v4/vigour_holiday_wallpaper_earthday.jpg
+SHA1-Digest-Manifest: Z/eJVhaA3uIvXlHIRATxSy1jfCs=
+
+Name: res/drawable-hdpi-v4/vigour_web_text_select_handle_left.png
+SHA1-Digest-Manifest: jtHL5Quv4LeHtsS7buteuVkBkPM=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_20.png
+SHA1-Digest-Manifest: Ywg64LBokj4uy6TjizUmqvzQozw=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_08.png
+SHA1-Digest-Manifest: cnA30BwRkyCfOlqqxk/9fxaOGM4=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_dialog_list_content_has_tit
+ le.9.png
+SHA1-Digest-Manifest: eO3AA2h7Gy5UJAbCaKvbSz9weOo=
+
+Name: res/drawable-hdpi-v4/vigour_btn_list_search_delete_light.png
+SHA1-Digest-Manifest: XeK4SK6eFYWhprHRupRpVhUxhsw=
+
+Name: res/drawable/vigour_text_toolbar_right_dark.xml
+SHA1-Digest-Manifest: N8Ae1KPncjn+vmwpwArb7mTV3+Q=
+
+Name: res/drawable-hdpi-v4/vigour_corner_clone_theme_global.png
+SHA1-Digest-Manifest: MYf0y3G0mrve3Y7e00+QTwdNZ9U=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_tab_left_normal_ligh
+ t.9.png
+SHA1-Digest-Manifest: 1N85ygeeWkMvAeFGMNJCmfrMLO8=
+
+Name: res/color/vigour_contextmenu_item_text_more_dark.xml
+SHA1-Digest-Manifest: BN5dwf+5IWWjXJ5cQIB5D+PNydw=
+
+Name: res/drawable/vigour_btn_title_create_center_multimedia_light.xml
+SHA1-Digest-Manifest: xWrjJr4qwepc+7AZhmtOi7hXNbc=
+
+Name: res/drawable/vigour_progress_horizontal_dark.xml
+SHA1-Digest-Manifest: KiAhmyOz5sTLvAeJtSBHCrFTrVs=
+
+Name: res/drawable-mdpi-v4/vigour_holiday_wallpaper_doubleseventhday.j
+ pg
+SHA1-Digest-Manifest: sRIAgV7UMJ76PbyM9siD9tWu5P8=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_holiday_wallpaper_lichun.jp
+ g
+SHA1-Digest-Manifest: IlcZ4hWTAxJslr2BsDJXX0pZgeY=
+
+Name: res/color/vigour_tabselector_text_color_personal_dark.xml
+SHA1-Digest-Manifest: 7Jt8BlldswWX/pts1ZeQe0kOM2w=
+
+Name: res/drawable-hdpi-v4/vigour_divider_horizontal_dark.9.png
+SHA1-Digest-Manifest: jV8LSqPuZAyDhcEsLqBVfJMULaE=
+
+Name: res/drawable-hdpi-v4/vigour_list_selector_bg_pressed_light.9.png
+SHA1-Digest-Manifest: LbhlSm5cDJwP0TU1yFUCuwoa92o=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_usb_noti_left_btn_press.9.
+ png
+SHA1-Digest-Manifest: m8jjJHZZoWXbsYYqRvBn1JI6k7w=
+
+Name: res/layout/vigour_alert_dialog.xml
+SHA1-Digest-Manifest: 2Ize6r0kaLcMcm8GI4MA4tooIoA=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_new_center_multim
+ edia_pressed_light.9.png
+SHA1-Digest-Manifest: laBXOVxViWasBab9EsvgDG33Qok=
+
+Name: res/drawable-hdpi-v4/vigour_text_toolbar_center_pressed_dark.9.p
+ ng
+SHA1-Digest-Manifest: E+7Fe8V5uNMi9txooWP0P12XASA=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_create_center_contact_pres
+ sed_light.9.png
+SHA1-Digest-Manifest: IH6WjiAiPNrJ/UBOGI/FLu1Lzek=
+
+Name: res/drawable-ldrtl-sw360dp-hdpi-v13/vigour_btn_title_new_center_
+ multimedia_pressed_light.9.png
+SHA1-Digest-Manifest: x5fz7iHwh+u9zY+xPj8OJ5DakXM=
+
+Name: res/drawable-hdpi-v4/vigour_holiday_wallpaper_laborday.jpg
+SHA1-Digest-Manifest: 0UrP+AzWmMRhVP108He/XZsoHJc=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_40.png
+SHA1-Digest-Manifest: t//l65UONkDGPvw/iiK5VLdkTf8=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_22.png
+SHA1-Digest-Manifest: 1jddaiRleG2iSp9t26JIfgGdtUs=
+
+Name: res/drawable-mdpi-v4/vigour_btn_title_create_normal.png
+SHA1-Digest-Manifest: ffC+CtZpDh6SFLunXrJJlERd6VE=
+
+Name: res/drawable-mdpi-v4/vigour_holiday_wallpaper_labariceporridgefe
+ stival.jpg
+SHA1-Digest-Manifest: vJa9Vi0CyRdzPhUTMtjV+t+RjJ8=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_wifi_stat_notify_wifi_in_ra
+ nge_bright.png
+SHA1-Digest-Manifest: UPcBSGTG9C+ikv4smsKNL1CQPwo=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_39.png
+SHA1-Digest-Manifest: PxSZIwFu9SvpeBFkrwFHFJ2BzCw=
+
+Name: res/drawable-mdpi-v4/vigour_btn_dialog_close_normal_light.png
+SHA1-Digest-Manifest: 09u9VfybW1Lo9KFug6IKjvU/u/k=
+
+Name: res/drawable-hdpi-v4/vigour_preference_bottom_bg_selected_light.
+ 9.png
+SHA1-Digest-Manifest: u7/UnOpZNe5nv0qwJ9Y5YNnWAko=
+
+Name: res/drawable-mdpi-v4/vigour_btn_title_back_pressed_light.9.png
+SHA1-Digest-Manifest: MnM5IkASR8RDY0deIjzvYxm1KHQ=
+
+Name: res/drawable-hdpi-v4/vigour_btn_check_on_disable_light.png
+SHA1-Digest-Manifest: 0/x9txRQnidUJCjTz+2xRuli05Y=
+
+Name: res/color/vigour_text_primary_dark.xml
+SHA1-Digest-Manifest: YahD7xkLQ40SAkAYIhfDGGovDHk=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_create_center_contact_disa
+ ble_light.9.png
+SHA1-Digest-Manifest: f/9ZCiCJoTW3mwsK2CgVj60Dg6A=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_44.png
+SHA1-Digest-Manifest: 7vETFXHKt0AEXAEK1PjplMqX/38=
+
+Name: res/anim/vigour_global_action_dialog_in.xml
+SHA1-Digest-Manifest: /yvlQ0zb3OK9nX4WUf/8y6fh6GU=
+
+Name: res/anim/vigour_decelerate_interpolator.xml
+SHA1-Digest-Manifest: tVQ+lEE/otqrF9he1xupgNAesck=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_seek_thumb_pressed_light.pn
+ g
+SHA1-Digest-Manifest: Oce3AccyQuXjhgMYgSDklDFo6zM=
+
+Name: res/color/vigour_dialog_btn_text_dark.xml
+SHA1-Digest-Manifest: 4IGybJiPXtL73tAXGEHIHt/n8Gc=
+
+Name: res/drawable-hdpi-v4/vigour_text_toolbar_position_arrow_below_li
+ ght.png
+SHA1-Digest-Manifest: X8gmps8Gr6rStgrn450NzawbM9Y=
+
+Name: res/drawable-hdpi-v4/vigour_quickcontact_badge_unpressed.9.png
+SHA1-Digest-Manifest: 77dsA3qmSoXQs1y5p6nLo5tp5wA=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_14.png
+SHA1-Digest-Manifest: Ge2RIi4plEP6aFjVAQvujoomm+k=
+
+Name: res/drawable-hdpi-v4/vigour_web_text_select_handle_middle.png
+SHA1-Digest-Manifest: 6xjlUhNVXjNdm2IqAkkCyvKeZkQ=
+
+Name: res/drawable-mdpi-v4/vigour_abc_h.png
+SHA1-Digest-Manifest: iEp3a3lS2ZDv3KUb/KAu2UkYsQg=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_34.png
+SHA1-Digest-Manifest: 8FRXB3Ut371pyc+SBnGtQ3x43XY=
+
+Name: res/drawable-mdpi-v4/vigour_btn_title_back_disable_light.9.png
+SHA1-Digest-Manifest: dgkLPgMQJI+Y795gNnM2r/5ALmY=
+
+Name: res/drawable-mdpi-v4/vigour_btn_dropdown_disabled_focused_light.
+ 9.png
+SHA1-Digest-Manifest: ZN/MV3y6ZJ/pTzGGYwQDn1Ffzpo=
+
+Name: res/drawable-ldrtl-sw360dp-hdpi-v13/vigour_btn_title_create_cent
+ er_contact_pressed_light.9.png
+SHA1-Digest-Manifest: IuaHgbJJJiJ0yhd1xeELnITAUkc=
+
+Name: res/drawable-mdpi-v4/vigour_preference_top_bg_selected_light.9.p
+ ng
+SHA1-Digest-Manifest: zyY1xPfvQswFkuiUSFg8xhquiVY=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_text_toolbar_right_pressed_
+ light.9.png
+SHA1-Digest-Manifest: IL3iCVCd86DgtrIpQhNUzFMWNpI=
+
+Name: res/drawable/vigour_popup_toolbar_middle.xml
+SHA1-Digest-Manifest: lPLKAzAVGPKeYjznRfk5E34LQpA=
+
+Name: res/drawable-mdpi-v4/vigour_btn_dialog_close_pressed_light.png
+SHA1-Digest-Manifest: sh5ki9T3Y368a8s3wVfaPgoZXK4=
+
+Name: res/drawable/vigour_item_background_dark.xml
+SHA1-Digest-Manifest: Sk2C9EHY97RCjtSXc/EzK7STg1o=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_virus_scan_img_safe.png
+SHA1-Digest-Manifest: f0SQoicwwB2I6A6mfIXDjIUk7p0=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_28.png
+SHA1-Digest-Manifest: Re1KQg0VOArHNkrt11dx3QVH5/k=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_right_center_
+ multimedia_normal.9.png
+SHA1-Digest-Manifest: W4mItOghxB956n7UD7NzQya+NaM=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_45.png
+SHA1-Digest-Manifest: +tPUnemv9ViC2uYjJLSy7kjhDQk=
+
+Name: res/drawable-mdpi-v4/vigour_markup_mid_right_normal.9.png
+SHA1-Digest-Manifest: 9CPEg/cyxiyic5ZuIvjSsapJ1A0=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_content_no_download.png
+SHA1-Digest-Manifest: Q8bWb+L9EewnpayDiNKjUNVOXws=
+
+Name: res/drawable-mdpi-v4/vigour_btn_radio_off_disable_light.png
+SHA1-Digest-Manifest: ePdspoKivRBW7ADBiIYRB1HSsuI=
+
+Name: res/drawable-hdpi-v4/vigour_ic_global_lock_airplane_mode.png
+SHA1-Digest-Manifest: C1l2AGNLThbAQytBZYtL+76CHio=
+
+Name: res/drawable/vigour_btn_title_create_center_personal_dark.xml
+SHA1-Digest-Manifest: FIxSx7K7yq7HZQ0jwFcNWfWiJE8=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_create_disable.pn
+ g
+SHA1-Digest-Manifest: s9J/R3AbcSagS0WT36XRr6Ggox8=
+
+Name: res/drawable/vigour_adb_notification_icon.xml
+SHA1-Digest-Manifest: 20b4bCGLn3kw7Vlj0xFZKCysPYo=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_30.png
+SHA1-Digest-Manifest: IAoRfSu3NFD9qo8I1K3C8SRzDrQ=
+
+Name: res/drawable-hdpi-v4/vigour_textfield_selected_light.9.png
+SHA1-Digest-Manifest: /GB3ekMvgRmm+CGOtMSJZp9N/r4=
+
+Name: res/drawable-hdpi-v4/vigour_list_menu_bg_focus_dark.9.png
+SHA1-Digest-Manifest: +LXHPCDaFFvXN7WrtO6qUYhreUU=
+
+Name: res/drawable-hdpi-v4/vigour_icon_bg_one.png
+SHA1-Digest-Manifest: ec2anLB8fMNuIuHPEs/RmGQrbi0=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_08.png
+SHA1-Digest-Manifest: We2ks3r12GIzb9oh/4v5HzAVsUk=
+
+Name: res/drawable-ldrtl-sw360dp-hdpi-v13/vigour_btn_title_new_center_
+ contact_normal_light.9.png
+SHA1-Digest-Manifest: YgtUialDHmMXUuh6U2jcrwP5R6Q=
+
+Name: res/drawable/vigour_stat_sys_tether_wifi_2.xml
+SHA1-Digest-Manifest: 8H+78QNfPS2yE2rtqMBIUByG3Tg=
+
+Name: res/drawable/vigour_preference_bottom_round_light.xml
+SHA1-Digest-Manifest: 3a8a2ckZAcnXwDOwN5RePmrpaAo=
+
+Name: res/drawable-hdpi-v4/vigour_ic_notification_ime_default.png
+SHA1-Digest-Manifest: Yj1UWISLqP/evnz2iFavGP2lkOU=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_holiday_wallpaper_labaricep
+ orridgefestival.jpg
+SHA1-Digest-Manifest: iFuyejxstKumiuBfj4HLDaikj30=
+
+Name: res/drawable-hdpi-v4/vigour_list_selector_bg_focus_bright.9.png
+SHA1-Digest-Manifest: OZ9Stk/PSNHQIXad0YWrip9di3E=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_delete_disabled.png
+SHA1-Digest-Manifest: j1Ck45kysD6rm8yOuKNn0aQirNY=
+
+Name: res/drawable-mdpi-v4/vigour_bottom_bar_bg_light.9.png
+SHA1-Digest-Manifest: +vdNY+xpDKmwYUOulVe/F8+BmvQ=
+
+Name: res/drawable-hdpi-v4/vigour_sim_bright_orange.png
+SHA1-Digest-Manifest: Ktve56HtosJ5oxkfOk6tO+7Ho80=
+
+Name: res/drawable-hdpi-v4/vigour_preference_round_bg_selected_light.9
+ .png
+SHA1-Digest-Manifest: vYVcwdSnLozlOMSZCoGii4ZPRY8=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_18.png
+SHA1-Digest-Manifest: q0id492fAaW6Gz01d0w44hL5As4=
+
+Name: res/anim/vigour_menu_window_enter.xml
+SHA1-Digest-Manifest: aUBV7zCrK6uzjBjc9dp3yNRoEIQ=
+
+Name: res/color/vigour_markup_view_text_light.xml
+SHA1-Digest-Manifest: lPIa1jJrA5Udl24d15GruajzY7s=
+
+Name: res/drawable/vigour_btn_title_tab_left_center_contact.xml
+SHA1-Digest-Manifest: oMqrkuN8tEO5D7PAKhRRj9ETdYA=
+
+Name: res/drawable/vigour_btn_title_tab_mid_center_contact.xml
+SHA1-Digest-Manifest: o5q/FR0M++AazRu+bRVMMiHMc5E=
+
+Name: res/drawable-hdpi-v4/vigour_dialog_full_light.9.png
+SHA1-Digest-Manifest: Hus1qCeEBubQDMOj5zVdEVr+bAY=
+
+Name: res/layout/vigour_preference.xml
+SHA1-Digest-Manifest: E32WTr3EGkFcDw0SKMcPt5WAvOM=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_49.png
+SHA1-Digest-Manifest: ssVBGtCkaUtiVFPl8chVuw0mM0w=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_new_center_personal_normal
+ _light.9.png
+SHA1-Digest-Manifest: brrIUCXK1Clvl/+mE7okI5hNeiA=
+
+Name: res/color/vigour_dialog_btn_text_light.xml
+SHA1-Digest-Manifest: /lmZAv67czCiphui0frGhonUHGw=
+
+Name: res/drawable-mdpi-v4/vigour_btn_title_bar_medium.9.png
+SHA1-Digest-Manifest: +iUAv3EO1bh3tqChO32P+1lBVU4=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_06.png
+SHA1-Digest-Manifest: Tul0a7MWNBf5aHa4/b1+jZLuGAg=
+
+Name: res/drawable/vigour_btn_title_back_center_internet_dark.xml
+SHA1-Digest-Manifest: XCpKcRXlLTeljvETAbchSFpEo18=
+
+Name: res/drawable-hdpi-v4/vigour_text_toolbar_center_normal_light.9.p
+ ng
+SHA1-Digest-Manifest: xDNxx7mbBGe08a4ot5WobKB6P2o=
+
+Name: res/drawable-hdpi-v4/vigour_btn_check_off_disable_light.png
+SHA1-Digest-Manifest: j5ixSt+IxKXc0AVmVga816AqS8A=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_right_center_multimedi
+ a_pressed.9.png
+SHA1-Digest-Manifest: G5Tsj+4+wNMBTikl0GTiu6s2ABQ=
+
+Name: res/drawable/vigour_item_background_light.xml
+SHA1-Digest-Manifest: r1CSPUVSLsZihJA8ODnfL8sqXXA=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_mid_normal_li
+ ght.9.png
+SHA1-Digest-Manifest: bnhgz4hePLPgHb2ErlupglZsaIM=
+
+Name: res/drawable/vigour_contextmenu_more_dark.xml
+SHA1-Digest-Manifest: 9bGOV3Xo3xj50dW6KpgAKxsb1kQ=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_mid_center_mu
+ ltimedia_pressed.9.png
+SHA1-Digest-Manifest: p8yn2l55jjFHQeqf0oicY3YKXKk=
+
+Name: res/drawable-mdpi-v4/vigour_abc_q_touch.png
+SHA1-Digest-Manifest: zoodXe0Xu7q47Q5vGU8B885Qb5g=
+
+Name: res/drawable-mdpi-v4/vigour_calendar_bg.png
+SHA1-Digest-Manifest: SN1nBJlYs8GS0YQnx4NslSdkeRY=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_holiday_wallpaper_environme
+ ntday.jpg
+SHA1-Digest-Manifest: +g+KQ9cI5BwPnYwpQtP/ca9mZP0=
+
+Name: res/drawable-ldrtl-sw360dp-hdpi-v13/vigour_btn_title_create_cent
+ er_multimedia_pressed_light.9.png
+SHA1-Digest-Manifest: rvMiQH+exuWENGbGrVPVP4MHpzo=
+
+Name: res/drawable/vigour_ic_btn_arrow_light.xml
+SHA1-Digest-Manifest: Xqg18ZsWsrqZvqhJRUwkWd67V5c=
+
+Name: res/drawable-mdpi-v4/vigour_abc_z_touch.png
+SHA1-Digest-Manifest: RnnGKcXw8n1ngpk1j7aNkVJbF04=
+
+Name: res/drawable-hdpi-v4/vigour_text_toolbar_left_normal_light.9.png
+SHA1-Digest-Manifest: gX6ka/c5t3pQP9/vpqdvsZUdfzo=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_seek_thumb_selected_light.p
+ ng
+SHA1-Digest-Manifest: uLOXVr47mVnEes4L3oRX2YBThO8=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_bool_btn_bg_press.png
+SHA1-Digest-Manifest: IJkbGV0tCtGLich0XNCRmhCu8yc=
+
+Name: res/drawable-hdpi-v4/vigour_markup_mid_left_disable.9.png
+SHA1-Digest-Manifest: pdRnX9AvO5cwIrZsQNk7WEZcNZI=
+
+Name: res/drawable-mdpi-v4/vigour_text_toolbar_position_arrow_above_li
+ ght.png
+SHA1-Digest-Manifest: x3L67bqBOr3DrbacMieUoHjGxsU=
+
+Name: res/drawable-mdpi-v4/vigour_stat_sys_srs_vip_plus.png
+SHA1-Digest-Manifest: fEeS8Gi3sIYPcWNAxz7CuzXKHHw=
+
+Name: res/drawable-hdpi-v4/vigour_dialog_button_left_round_pressed.9.p
+ ng
+SHA1-Digest-Manifest: eyTlaa0ZES/hKSrpItv5u3xa12I=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_10.png
+SHA1-Digest-Manifest: DV7nzofhE13Y9Wd9wxjnlFnit80=
+
+Name: res/layout/vigour_preference_divider.xml
+SHA1-Digest-Manifest: fd2HZILNeuCrH2vGEc88XYcFcd4=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_bool_btn_handleft_disabled_
+ light.png
+SHA1-Digest-Manifest: /o2ViXwhsJfOWZeJZesO4snv72Y=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_usb_debug_noti_stat_img.png
+SHA1-Digest-Manifest: WhguKuM/fZEDiPUIMWz4DkNEYbU=
+
+Name: res/color/vigour_title_btn_text_default_dark.xml
+SHA1-Digest-Manifest: JqWrK1ztH4PYZ9V6SFC8Z0gB/f8=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_new_center_person
+ al_disable_light.9.png
+SHA1-Digest-Manifest: s8eZvqVPWk103N4gzE94dPA4L6o=
+
+Name: res/drawable-hdpi-v4/vigour_stat_sys_tether_wifi_white_6.png
+SHA1-Digest-Manifest: nJWGO/Q7sCkAyLksNRSEredo0UM=
+
+Name: res/drawable/vigour_seek_thumb_dark.xml
+SHA1-Digest-Manifest: odPJQ2ZHq1fsvCsGzKfMlChq0zg=
+
+Name: res/drawable-mdpi-v4/vigour_abc_y_touch.png
+SHA1-Digest-Manifest: qcioz6dCXyE937OfDvBrZp2OLXE=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_right_center_
+ personal_pressed_light.9.png
+SHA1-Digest-Manifest: ZCqvgErDx/cInoxwH2cHbfZ+vMo=
+
+Name: res/anim/vigour_floating_btn_view_out.xml
+SHA1-Digest-Manifest: gkesF9IX+/WfcoWVwT5bNbXNX7M=
+
+Name: res/drawable/vigour_list_bg_dark.xml
+SHA1-Digest-Manifest: KwEnK8AcbRFIUvg6B+j2CHOzvMI=
+
+Name: res/layout/vigour_pink_lock.xml
+SHA1-Digest-Manifest: 4J4w8Er5OIO07/l8WZZyc6LpITU=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_33.png
+SHA1-Digest-Manifest: m6FI32kEu6gqZZblfy5D90R4Hrc=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_44.png
+SHA1-Digest-Manifest: uLpirU/ph5WC7NaFGYpp+Ns0W/E=
+
+Name: res/drawable-hdpi-v4/vigour_stat_sys_tether_wifi_color_5.png
+SHA1-Digest-Manifest: STKk5zl6CBydb5acC32K2hZJO3Y=
+
+Name: res/drawable-hdpi-v4/vigour_popup_inline_error_am_light.9.png
+SHA1-Digest-Manifest: GAYS2UWo5C2/YduvodX+4Lh8C/s=
+
+Name: res/drawable/vigour_btn_title_tab_right_light.xml
+SHA1-Digest-Manifest: +hWhFzHg6/AEth9+RFfNQGTa0AA=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_preference_bottom_bg_select
+ ed_light.9.png
+SHA1-Digest-Manifest: dz0ZcoHWbqoou5j6w3LyWuA6xPU=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_21.png
+SHA1-Digest-Manifest: 08kbE9hfKHaVtg02ECkyvKmLoNE=
+
+Name: res/drawable-hdpi-v4/vigour_dialog_black.9.png
+SHA1-Digest-Manifest: 6ULVbbJ8shthyf3zGgvg+5a2C0k=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_disable.9.png
+SHA1-Digest-Manifest: oabzcWBICdEAJ9+DDJcDqNEbD/o=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_25.png
+SHA1-Digest-Manifest: n+7Co78vRMsA+cax7KfII6+AQ4A=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_37.png
+SHA1-Digest-Manifest: g5IiwlimBvsafKMaqeFoVnCzoJM=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_tab_left_center_inte
+ rnet_pressed.9.png
+SHA1-Digest-Manifest: PTZ38gMawmK4lnjmeeOzfeoyNUo=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_04.png
+SHA1-Digest-Manifest: FbMWAFnK05QcdGvTQtvw42WVU1w=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_29.png
+SHA1-Digest-Manifest: 5/fWuVv2QX70kJIuzvxJ9+8Zf8Y=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_48.png
+SHA1-Digest-Manifest: 3oSw/RjfqVy82p1xeQJHj3JOmQQ=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_create_center_person
+ al_normal_light.9.png
+SHA1-Digest-Manifest: TiECk/NBhnYliWwyhyg1uV1J7M8=
+
+Name: res/drawable-hdpi-v4/vigour_bool_btn_hand_normal_light.png
+SHA1-Digest-Manifest: j8vSQLxexV/+2BLWZMApmhgpyaY=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_stat_sys_tether_wifi_color.
+ png
+SHA1-Digest-Manifest: pdF4Qeso1yPX0o/WZYRtEHRLdwc=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_right_center_
+ contact_normal.9.png
+SHA1-Digest-Manifest: BPdJoVuIj+6u/xMfb8wzmnqGHWA=
+
+Name: res/drawable-mdpi-v4/vigour_content_no_install.png
+SHA1-Digest-Manifest: onrdP7CiSPnv8W08E3Pk0ER20ro=
+
+Name: res/drawable-mdpi-v4/vigour_holiday_wallpaper_springfestival.jpg
+SHA1-Digest-Manifest: vYM7yEk/jkistwY5pN97ixPVAtc=
+
+Name: res/drawable-nodpi-v4/vigour_smart_wake_f1.png
+SHA1-Digest-Manifest: OnbIgLQosH7FwT6k0xOosA5+92E=
+
+Name: res/layout/vigour_sub_title_layout.xml
+SHA1-Digest-Manifest: uI9Mgdokh7l77LWiKLIfPKwRIrc=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_progress_bg.png
+SHA1-Digest-Manifest: B6n2HC2BA8JHbO70RGp8G/BQIXg=
+
+Name: res/drawable-ldrtl-sw360dp-hdpi-v13/vigour_btn_title_new_center_
+ contact_disable_light.9.png
+SHA1-Digest-Manifest: LWLwNVkvyoD/NDeTcaqtKjYzLT8=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_wifi_stat_notify_wifi_in_ra
+ nge_default.png
+SHA1-Digest-Manifest: FBNJwMWv7x0L249ZJzKe2NCPWso=
+
+Name: res/anim/vigour_floating_main_view_in.xml
+SHA1-Digest-Manifest: lvmsUj+oAku6RCm5016z3HonPzw=
+
+Name: res/drawable-hdpi-v4/vigour_grid_selector_background_pressed_lig
+ ht.9.png
+SHA1-Digest-Manifest: CcnPtENhtlfUYoW/1T5n5iO6TgM=
+
+Name: res/drawable-hdpi-v4/vigour_holiday_wallpaper_lichun.jpg
+SHA1-Digest-Manifest: Gkl5wDlJh7Avmpp6tUvcMWOc824=
+
+Name: res/drawable-mdpi-v4/vigour_ic_global_lock_power_reboot.png
+SHA1-Digest-Manifest: tcMWnkme6QgT/K4QVeAdEfvgj/A=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_popup_inline_error_above_am
+ _light.9.png
+SHA1-Digest-Manifest: zvl/wv74BXmgjS7AJu3vpcNih5I=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_left_center_personal_n
+ ormal_light.9.png
+SHA1-Digest-Manifest: 2sZCpLM4q/YUQkffnp6ZSs69oek=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_30.png
+SHA1-Digest-Manifest: +91+kqMHTa0XIQj/IffxfPFAiHA=
+
+Name: res/drawable/vigour_progress_dialog_bar.xml
+SHA1-Digest-Manifest: iaXTqmhEM52vWcIgj4OiUpl7hTw=
+
+Name: res/layout/vigour_anim_indicator.xml
+SHA1-Digest-Manifest: mN2j7fYpdBfpEwO36xRkufvsqlQ=
+
+Name: res/drawable-hdpi-v4/vigour_btn_dropdown_selected_light.9.png
+SHA1-Digest-Manifest: ORareVXmyypDAr4vqyFSYYWIYq0=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_preference_unround_bg_selec
+ ted_light.9.png
+SHA1-Digest-Manifest: 49HLLsPxKVWjcM0bDNNkvP7BffQ=
+
+Name: res/drawable/vigour_expander_group.xml
+SHA1-Digest-Manifest: 32/0vKG8teIZfDaWgQcWoGCbmD0=
+
+Name: res/drawable-hdpi-v4/vigour_btn_panel_dark.9.png
+SHA1-Digest-Manifest: Tij1f4a0zup3y1QhYFYPX8X5WOA=
+
+Name: res/drawable/vigour_progress_dark.xml
+SHA1-Digest-Manifest: dX6RxNOp8+k0hCICKsxS92Slzxk=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_back_center_conta
+ ct_disable_light.9.png
+SHA1-Digest-Manifest: Zx0zhcBYe/U627NXi5Ork1d50sU=
+
+Name: res/color/vigour_text_tertiary_dark.xml
+SHA1-Digest-Manifest: qY9t5ua1e7RCRstGhtU3sYx7/kY=
+
+Name: res/drawable-hdpi-v4/vigour_content_no_download.png
+SHA1-Digest-Manifest: IB/Hv0aK9D3H16gt5pqjNKUgJtY=
+
+Name: res/drawable-mdpi-v4/vigour_content_no_music.png
+SHA1-Digest-Manifest: /G1KYFWydhi8t/QK8133jYgN+io=
+
+Name: res/drawable/vigour_btn_title_create_center_internet_dark.xml
+SHA1-Digest-Manifest: fPNQbufTjFH0Q/Hl/H0+/Xw+LYE=
+
+Name: res/drawable-hdpi-v4/vigour_abc_thumb_bg_light.9.png
+SHA1-Digest-Manifest: WIcUWu7oAGmhvmpNmzjmIPtDAC0=
+
+Name: res/layout/vigour_resolver_grid.xml
+SHA1-Digest-Manifest: 3Wk7OgoBlF1WZ5wDgo/xEl9cPR4=
+
+Name: res/drawable-mdpi-v4/vigour_text_toolbar_left_pressed_light.9.pn
+ g
+SHA1-Digest-Manifest: vzxROoMfgADnYGxqce6BWElRhsY=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_tab_selected.9.png
+SHA1-Digest-Manifest: UP8wXfTwX5Y/fc1iAzto+RVXS/o=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_15.png
+SHA1-Digest-Manifest: PtEFCBbOYGTXBuNAnqL4P1LTDIg=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_create_center_per
+ sonal_pressed_light.9.png
+SHA1-Digest-Manifest: RK/km0Gdpo2tUpF5XJruK1UGWLk=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_list_search_bg_normal_light
+ .9.png
+SHA1-Digest-Manifest: ubRMOu81fwwF51KeP53GeVJxZk8=
+
+Name: res/raw/configpath.ini
+SHA1-Digest-Manifest: RtWBxhKam17fsUmv9YHw2k6lt3M=
+
+Name: res/raw-sw360dp-hdpi-v13/themes6
+SHA1-Digest-Manifest: 8Ha5yVm7E6a6p7etlqkx7jagFak=
+
+Name: res/anim/vigour_anim_smartmultiwindow_transition_mediummax.xml
+SHA1-Digest-Manifest: 0Eo/6RLXmWR72ZtGlj3Zyxhme2A=
+
+Name: res/drawable/vigour_preference_top_round_light.xml
+SHA1-Digest-Manifest: MGiMvZ+Wl98KOzXJK4qjZ9h5MJE=
+
+Name: res/drawable-mdpi-v4/vigour_abc_w.png
+SHA1-Digest-Manifest: aYQA8tllfcyOn9Za04wXUqKibxM=
+
+Name: res/drawable-hdpi-v4/vigour_stat_sys_tether_wifi_white_7.png
+SHA1-Digest-Manifest: dPECTlCE1nMHdl29rYebdc+J6PM=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_new_center_personal_presse
+ d_light.9.png
+SHA1-Digest-Manifest: W5t4GFRq9N8555O1hDyDtlncDCI=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_text_select_handle_middle_d
+ ark.png
+SHA1-Digest-Manifest: JY/MYFmtk3Vixpaqnl2ViK3UkYc=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_ic_notification_ime_default
+ .png
+SHA1-Digest-Manifest: VPBQNvWEq9tkxtLg1zdkoFdmjxw=
+
+Name: res/layout/vigour_progress_dialog.xml
+SHA1-Digest-Manifest: yCvNnIx1mfJhPgMrGDSUnYRqTyg=
+
+Name: res/drawable-ldrtl-sw360dp-hdpi-v13/vigour_btn_title_new_center_
+ personal_disable_light.9.png
+SHA1-Digest-Manifest: x1djyAPlvKvXo/CtZdg8LXbI5hw=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_dialog_list_content_bg.9.pn
+ g
+SHA1-Digest-Manifest: +wc+o+G7fmn4t3rTs8OVSeJlS9s=
+
+Name: res/drawable-hdpi-v4/vigour_preference_top_bg_selected_light.9.p
+ ng
+SHA1-Digest-Manifest: hHKVDvDICqMzRylO/bKF0mZREKI=
+
+Name: res/drawable-mdpi-v4/vigour_abc_s.png
+SHA1-Digest-Manifest: Pwz9zmxCUpIQ+RWfzAPN4V46fB8=
+
+Name: res/drawable-hdpi-v4/vigour_list_selector_bg_focused_light.9.png
+SHA1-Digest-Manifest: HejU7MN5AXNyOs7Fc02v+I6P038=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_23.png
+SHA1-Digest-Manifest: 6rbQZYX8Y+zFZvSKMk6j3etS5TA=
+
+Name: res/color/vigour_primary_text_bright_disable_only_light.xml
+SHA1-Digest-Manifest: kTEhmSEBVj1aAwOpvtiKPbinaZc=
+
+Name: res/drawable-mdpi-v4/vigour_activity_title_bar_bg_light.9.png
+SHA1-Digest-Manifest: nfoHX9tSJwiL7M9lMqH+3/PkNJA=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_contextmenu_more_expanded_n
+ ormal_light.png
+SHA1-Digest-Manifest: xI7gVl9KctCyOqi/9gG4+OBAz/Y=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_12.png
+SHA1-Digest-Manifest: mhTtxTkYW3nKlkD4y0k7XhJpof8=
+
+Name: res/drawable-mdpi-v4/vigour_web_text_select_handle_left.png
+SHA1-Digest-Manifest: 4Yxtt9dlQZi2cnGzJ3BX8HEU9IM=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_default_small_normal_li
+ ght.9.png
+SHA1-Digest-Manifest: /UoH61HBNjE7NlPG6hmjO0jdmAA=
+
+Name: res/anim/vivo_dock_top_exit.xml
+SHA1-Digest-Manifest: 1q1I37I/iWADLXJrV5aktIVBhYI=
+
+Name: res/drawable/vigour_list_bg_light.xml
+SHA1-Digest-Manifest: WlKlARMz7sT5+a13gaYHafDjSj0=
+
+Name: res/drawable-mdpi-v4/vigour_progress_horizontal_secondery_bg.png
+SHA1-Digest-Manifest: 7pQvIJm81s10jV4vCLyNW4NweAM=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_tab_left_center_inte
+ rnet_normal.9.png
+SHA1-Digest-Manifest: 3QxKJVqcV40QQsWoZ0/xkuUj0lg=
+
+Name: res/drawable/vigour_preference_unround_light.xml
+SHA1-Digest-Manifest: 24NqToPE++RA4IiO3XecEv0WFfA=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_left_center_multimedia
+ _pressed.9.png
+SHA1-Digest-Manifest: HiPPpczdMp6qqDrydkrg6z/GxM0=
+
+Name: res/drawable-mdpi-v4/vigour_preference_bottom_bg_light.9.png
+SHA1-Digest-Manifest: 7PuXu6+iFDd9gpvpWx7POtKAI3w=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_radio_on_disable_light.
+ png
+SHA1-Digest-Manifest: VCv9X1Wasx7XyIQNV/OvieaAvVQ=
+
+Name: res/drawable-hdpi-v4/vigour_window_bg_light.9.png
+SHA1-Digest-Manifest: JXjQf8SnWzQN8ki68/nHV/x6IPg=
+
+Name: res/drawable/vigour_btn_title_new_center_multimedia_dark.xml
+SHA1-Digest-Manifest: y1WlTbCqxVZfb/quXI7mRjmZ+0w=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_count_active.png
+SHA1-Digest-Manifest: 1EiCbnHk+doLU6WwRS/GBrSO7Ic=
+
+Name: res/drawable-nodpi-v4/vigour_smart_wake_reversal_o.png
+SHA1-Digest-Manifest: +aFcrj/qKJwXkEj6ZfbeX42vhcM=
+
+Name: res/drawable-hdpi-v4/vigour_ic_global_lock_airplane_mode_off.png
+SHA1-Digest-Manifest: HgxkvvAXDgpGvVDlYEy9oYbDsS0=
+
+Name: res/drawable/vigour_stat_notify_disk_full.xml
+SHA1-Digest-Manifest: 4dXRq+4SUTY0d7qRye3VWq6gQek=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_content_no_records.png
+SHA1-Digest-Manifest: BvcDcHjZWrI5/A7sMH+t37u4HMk=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_29.png
+SHA1-Digest-Manifest: xaINJ+FcpAwXYC6i3HwXOVrTqLg=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_corner_clone_theme_default.
+ png
+SHA1-Digest-Manifest: pfWXHpxJHBhhgXWlHYug+LFB3Do=
+
+Name: res/drawable-hdpi-v4/vigour_btn_default_small_pressed_light.9.pn
+ g
+SHA1-Digest-Manifest: KfsBh+03bJyMyjqi0MKVhL0CiZI=
+
+Name: res/anim/vigour_open_exit_interpolator.xml
+SHA1-Digest-Manifest: svNN/ZkcQhI3P0SEeM7/wfI9ww8=
+
+Name: res/drawable-hdpi-v4/vigour_list_drop_down_bg_light.9.png
+SHA1-Digest-Manifest: F1F0HIe+J9pHZqQ2CY8UG8Lsb78=
+
+Name: res/drawable-mdpi-v4/vigour_popup_dialog_top.9.png
+SHA1-Digest-Manifest: cax5HHllXYvoOB/BXC3SvKthQIo=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_mid_pressed_l
+ ight.9.png
+SHA1-Digest-Manifest: wpNfXqMR8WVfxj1R/o3IHfKFbYo=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_back_center_conta
+ ct_pressed_light.9.png
+SHA1-Digest-Manifest: sb98mxm4vj2Ij/Q4vvspUMfKszM=
+
+Name: res/drawable-hdpi-v4/vigour_text_select_handle_middle_dark.png
+SHA1-Digest-Manifest: g0BKgBamGkYYrWyU1eQ4Nm+BWXg=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_stat_sys_tether_wifi_white_
+ 4.png
+SHA1-Digest-Manifest: OEKup63xPgBRZjNT3dGGXaQvIkU=
+
+Name: res/drawable-hdpi-v4/vigour_ic_btn_arrow_pressed_light.png
+SHA1-Digest-Manifest: 5kK+vI1uCOwtIoury7Hp6imj1rg=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_stat_sys_tether_wifi_color_
+ 4.png
+SHA1-Digest-Manifest: Pjt8c9keyYAReCQP8rdL+tXRm9w=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_bool_btn_hand_disabled_ligh
+ t.png
+SHA1-Digest-Manifest: NPT5qy6g0PFVory8lCSceRrxInU=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_default_small_pressed_l
+ ight.9.png
+SHA1-Digest-Manifest: jR41tG6mXWOBPKfDcHQqHDd5BJk=
+
+Name: res/drawable-mdpi-v4/vigour_spinner_blue.png
+SHA1-Digest-Manifest: YPOMPqtJhmKXFZslvieTakihSOU=
+
+Name: res/drawable/vigour_preference_all_round_light.xml
+SHA1-Digest-Manifest: 1DdYA72SINqK8SWMBJLEM+TS39I=
+
+Name: res/drawable/vigour_stat_sys_tether_wifi_1.xml
+SHA1-Digest-Manifest: 6h0UTa6c9Rds+F513li8gsfDH9w=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_normal.9.png
+SHA1-Digest-Manifest: BgihmkHuuBWK1oksoKS/TCvumQw=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_bool_btn_handright_disabled
+ _light.png
+SHA1-Digest-Manifest: VLh7H6WXk1osl+75bkj+AnKMfow=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_right_normal_light.9.p
+ ng
+SHA1-Digest-Manifest: tEFYrBMKE7vtDsw+l7OPzGZfkZY=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_bool_btn_handleft_normal_li
+ ght.png
+SHA1-Digest-Manifest: TgBq84RSURFrkrMHm7XACHRoVvo=
+
+Name: res/drawable/vigour_btn_dropdown_light.xml
+SHA1-Digest-Manifest: x6Su58V2esmliMtNq4LDey+1BcQ=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_holiday_wallpaper_lanternfe
+ stival.jpg
+SHA1-Digest-Manifest: uKlQ5TK2XJCrTUIRhPAg5fScIpk=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_mid_center_in
+ ternet_normal.9.png
+SHA1-Digest-Manifest: IgNBxhJcsQvZ/94CN8gNuJA0AX4=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_mid_center_contact_nor
+ mal.9.png
+SHA1-Digest-Manifest: 3Yw00c4CzleRzNWSQWAZyxw164g=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_adb_noti_updater_color_01.p
+ ng
+SHA1-Digest-Manifest: L2TM9ijxWNzzsjXJelfabCy9bdw=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_tab_unselected.9.png
+SHA1-Digest-Manifest: FzI+KWer5p4YUWX+USpfm+rJ0AI=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_tab_right_center_con
+ tact_pressed.9.png
+SHA1-Digest-Manifest: /tdn6dsmcLWClSl+x45Nq3fsF0Y=
+
+Name: res/drawable-mdpi-v4/vigour_abc_v_touch.png
+SHA1-Digest-Manifest: xxVzy7HYo7zT1FlN3y0qzLPH988=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_web_text_select_handle_midd
+ le.png
+SHA1-Digest-Manifest: 8WqQmT/mbkvmRBKs7o7aUhvvU8M=
+
+Name: res/drawable-hdpi-v4/vigour_content_no_contacts.png
+SHA1-Digest-Manifest: z9etNkJLpltegTH4X4lljRKqb+M=
+
+Name: res/anim/vigour_close_enter_interpolator.xml
+SHA1-Digest-Manifest: CQYYZCMhRq7GpXwREuqpqxt2/hk=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_new_center_contact_d
+ isable_light.9.png
+SHA1-Digest-Manifest: XVhkgqnaqLZOtl5hL1MUu256QCk=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_textfield_disabled_light.9.
+ png
+SHA1-Digest-Manifest: VifSOPnbJbqiwGh4KQxyAygR/p8=
+
+Name: res/drawable-hdpi-v4/vigour_btn_default_pressed_light.9.png
+SHA1-Digest-Manifest: r4yYQ/WcqEiBuwwIinV8Nf1wHl4=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_07.png
+SHA1-Digest-Manifest: Hd/H7qQTspPdBydcjIfolkmlgw8=
+
+Name: res/drawable-hdpi-v4/vigour_markup_view_bg_light.9.png
+SHA1-Digest-Manifest: CvrvNDApGAoengGX3RICj4gKf3U=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_text_select_handle_left.9.p
+ ng
+SHA1-Digest-Manifest: jpc+r/6F0xsU7iDtewPMG9WQfpM=
+
+Name: res/drawable-hdpi-v4/vigour_stat_notify_disk_full_black.png
+SHA1-Digest-Manifest: Et5E/nmXXBeI8ZPCaG6qVtTG0PI=
+
+Name: res/drawable/vigour_text_toolbar_center_dark.xml
+SHA1-Digest-Manifest: N5fJnemcBvkr+2Ik5BZqRnBPjlo=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_holiday_wallpaper_thanksgiv
+ ingday.jpg
+SHA1-Digest-Manifest: 9FLs3WZe/LlA1plaR9Gyh9FZ4Eo=
+
+Name: res/drawable/vigour_ic_notification_ime.xml
+SHA1-Digest-Manifest: v+G4TWFs6dM4IaebH+gQDh1OkTQ=
+
+Name: res/drawable-mdpi-v4/vigour_indicator_count_normal.png
+SHA1-Digest-Manifest: m7RrDiyw90oM+vM6ABhRg2EWxqc=
+
+Name: res/drawable/vigour_stat_sys_tether_bluetooth.xml
+SHA1-Digest-Manifest: XyPIL6xdUknbafZs1jx/0WZYPFY=
+
+Name: res/color/vigour_preference_summary_text_color.xml
+SHA1-Digest-Manifest: byeza8OsYEPvUdHWkHuo4ZuDpDU=
+
+Name: res/drawable-mdpi-v4/vigour_popup_top_bright.9.png
+SHA1-Digest-Manifest: 6dmLZBW66cInDQ+WxQqCbQ78elQ=
+
+Name: res/drawable-mdpi-v4/vigour_dialog_black.9.png
+SHA1-Digest-Manifest: CikMnViKh3WR14aERbT7woDOMi0=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_45.png
+SHA1-Digest-Manifest: zhxFql8GQlxSubcIGB9ZFFuAdYU=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_create_center_mul
+ timedia_normal_light.9.png
+SHA1-Digest-Manifest: SQRuK9moyaAHiZ29NF9FNhQ7RG4=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_back_center_multimed
+ ia_pressed_light.9.png
+SHA1-Digest-Manifest: QsgvTso/IZs/b+4B12sXP7yQfy4=
+
+Name: res/layout/vigour_list_menu_layout.xml
+SHA1-Digest-Manifest: 6/JI6TrcnOIbNnR5nIJlIs3Kn+M=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_08.png
+SHA1-Digest-Manifest: 0yPDX78AB6bKv56Ix00ZMrYleVI=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_new_center_contact_pressed
+ _light.9.png
+SHA1-Digest-Manifest: 1mW394dzFUqn/pEPgX0c8/5+edU=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_dialog_button_left_round_norma
+ l.9.png
+SHA1-Digest-Manifest: ZcyrsAeJjjGNFk9IjPxouQz67oo=
+
+Name: res/drawable-hdpi-v4/vigour_date_pick_top.9.png
+SHA1-Digest-Manifest: S38qj9PK23rb1xzQMaxe6zg7GGo=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_ic_btn_arrow_normal_light.png
+SHA1-Digest-Manifest: A2YIu1V3/QbE/O4J8ba5BuN5O84=
+
+Name: res/drawable-ldrtl-sw360dp-hdpi-v13/vigour_btn_title_create_pres
+ sed_light.9.png
+SHA1-Digest-Manifest: 1hJfRAWrvvEun5m5xhQJN8+oO50=
+
+Name: res/layout/vigour_preference_widget_checkbox.xml
+SHA1-Digest-Manifest: X8te8gWD9rqQ7mBtsDoU9viqApc=
+
+Name: res/drawable-hdpi-v4/vigour_preference_bottom_bg_light.9.png
+SHA1-Digest-Manifest: 4KkbB7qglCWDfFdIriw/5TPeSr0=
+
+Name: res/drawable-hdpi-v4/vigour_launcher_indicator_dark_normal.png
+SHA1-Digest-Manifest: CQjLIX2TCzmtKzX9mYDbieOpqFY=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_new_center_contact_p
+ ressed_light.9.png
+SHA1-Digest-Manifest: 6Ts/Ilo+rNf7XK0aBCtKviVTs0Q=
+
+Name: res/drawable-hdpi-v4/vigour_ic_notification_ime_color.png
+SHA1-Digest-Manifest: t+5Xsv5RwS0x4FmKjcbvY7Lzq7w=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_create_pressed_light
+ .9.png
+SHA1-Digest-Manifest: 1O+3bCYyo/TA6Crigbn6ds5seQE=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_preference_top_bg_normal_li
+ ght.9.png
+SHA1-Digest-Manifest: umf/S1P3trUFxrX4vC4ZDuy0n44=
+
+Name: res/anim/vigour_editor_close_exit.xml
+SHA1-Digest-Manifest: VBNBmqcF5yEI8P7GUyABAmPrXtM=
+
+Name: res/color/vigour_title_btn_text_personal_light.xml
+SHA1-Digest-Manifest: +TzkQbavfP/e0jFGIiI541nyGfs=
+
+Name: res/layout/vigour_geli_date_picker.xml
+SHA1-Digest-Manifest: pYOqmUx0+8mJL4nleYZ1EyTyis8=
+
+Name: res/drawable-hdpi-v4/vigour_adb_noti_updater_white_01.png
+SHA1-Digest-Manifest: 6ot2t+6CZacCQNYJl0F1KpZmosA=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_27.png
+SHA1-Digest-Manifest: nA6Ii0itDHY7eBXQkd+nQTDxPI0=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_back_center_contact_presse
+ d_light.9.png
+SHA1-Digest-Manifest: WWJ9ZT34tcQ6dqhN5xt0scbA1Es=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_mid_pressed_light.9.pn
+ g
+SHA1-Digest-Manifest: 74xha6xGc1TKMaXjcZNQNeO7IHY=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_17.png
+SHA1-Digest-Manifest: ZTBwvK1DICU0tPVSvfc0s1WABOs=
+
+Name: res/drawable-mdpi-v4/vigour_abc_k.png
+SHA1-Digest-Manifest: 7YDDB0RJoD/HCPV3Mlk7h7VzaZY=
+
+Name: res/drawable-mdpi-v4/vigour_textfield_normal_light.9.png
+SHA1-Digest-Manifest: tHZLygYBOROlkB5oUcUuPoO7TOA=
+
+Name: res/drawable-hdpi-v4/vigour_list_menu_bg_pressd_light.9.png
+SHA1-Digest-Manifest: To423gQavJGwZSWKuCTi66HWCN4=
+
+Name: res/drawable-hdpi-v4/vigour_btn_default_normal_light.9.png
+SHA1-Digest-Manifest: 5GlOokKTe54i1CnwvAfd91WcQtI=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_34.png
+SHA1-Digest-Manifest: sdtgTfagCME/hZ4zlZb5h0jr5Xs=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_right_pressed_dark.9.p
+ ng
+SHA1-Digest-Manifest: OkC4tlyhd1ofe/OwV7K5wDWOgs8=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_dialog_close_pressed_li
+ ght.png
+SHA1-Digest-Manifest: qwCACDcMSavy2sNdG38CfGnTwOo=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_dropdown_disabled_focused_
+ light.9.png
+SHA1-Digest-Manifest: k8pZOeqc/Z/uf/MW/LWA/13thc0=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_stat_sys_tether_wifi_color_
+ 8.png
+SHA1-Digest-Manifest: Bq3qT8U62Anss50/umAppNcBE4g=
+
+Name: res/drawable-hdpi-v4/vigour_bool_btn_handright_disabled_light.pn
+ g
+SHA1-Digest-Manifest: egybieB/U5W3GOnKZBmVJxyqebA=
+
+Name: res/drawable/vigour_btn_title_back_center_internet_light.xml
+SHA1-Digest-Manifest: sez0ro1s0beYyZufuRW1T2H01sM=
+
+Name: res/drawable-hdpi-v4/vigour_list_menu_bg_pressd_dark.9.png
+SHA1-Digest-Manifest: imcTbel2e/BXy4W/Ujqeh8Oscug=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_10.png
+SHA1-Digest-Manifest: RHiSbt+tVYaRGAbUcKewnYempuc=
+
+Name: res/color/vigour_primary_text_toolbar.xml
+SHA1-Digest-Manifest: QH4j3ZkDXKp8dd/2Gbq1KVNp6Ug=
+
+Name: res/anim/vigour_open_enter_interpolator.xml
+SHA1-Digest-Manifest: eP3+Dq4VSQ4ozeWVm5Z+dvEf2aU=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_holiday_wallpaper_newyearda
+ y.jpg
+SHA1-Digest-Manifest: U8wYwjGyubbuopH3V3T4SCEjCHk=
+
+Name: res/drawable/vigour_preference_all_round_dark.xml
+SHA1-Digest-Manifest: nKlGddKHbg9zzhIHqaKL6TPobiU=
+
+Name: res/drawable-hdpi-v4/vigour_content_no_worldclock.png
+SHA1-Digest-Manifest: tVvoGcyXG7OD8RgbH3hKihBmuL4=
+
+Name: res/drawable-mdpi-v4/vigour_dialog_button_disable.9.png
+SHA1-Digest-Manifest: XetPZYHM+H3MTF6LhSMqFw85swY=
+
+Name: res/drawable-mdpi-v4/vigour_date_pick_top.9.png
+SHA1-Digest-Manifest: PhX9aNlXHC8gqtXpohYZdHW3jnw=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_left_normal_l
+ ight.9.png
+SHA1-Digest-Manifest: w27WtjbhTuRkXOuw+cmV8R5f+no=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_stat_sys_tether_wifi_color_
+ 5.png
+SHA1-Digest-Manifest: rYEokAc5ZI3WtaDG8dsOUus6kh0=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_33.png
+SHA1-Digest-Manifest: jOVVzbvhRBqR6jJyKroj6Zu5Vhk=
+
+Name: res/anim/vigour_anim_smartmultiwindow_transition_shortmax.xml
+SHA1-Digest-Manifest: mXs5rTb/d7sZj7v9PxN2WGsTzo4=
+
+Name: res/drawable-mdpi-v4/vigour_markup_view_bg_light.9.png
+SHA1-Digest-Manifest: pQJ1zuF0vgZjfJDEIawPyozv4Rg=
+
+Name: res/drawable-hdpi-v4/vigour_markup_mid_right_press.9.png
+SHA1-Digest-Manifest: d3hhs2XphYT7RCf3engVhHnXTBU=
+
+Name: res/anim/vigour_global_action_dialog_out.xml
+SHA1-Digest-Manifest: gyJFc/j3XL+1KQKB7wvww1Q5FdQ=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_21.png
+SHA1-Digest-Manifest: 80V39UA9K4GFMs4YK1Wjt7uBLec=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_stat_sys_tether_wifi_color_
+ 2.png
+SHA1-Digest-Manifest: tEf7dcgxLDDX6KiM6ysDMWVLe8Q=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_back_center_perso
+ nal_disable_light.9.png
+SHA1-Digest-Manifest: Ytxc6+N25mKu0V05zgDG3zNfaEM=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_31.png
+SHA1-Digest-Manifest: uDTcHD0PADZO3T24z4ySr/h8KcU=
+
+Name: res/drawable-hdpi-v4/vigour_content_no_video.png
+SHA1-Digest-Manifest: i9rLXjeq0iNA0r52fCXqgPz+4tw=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_preference_round_bg_selecte
+ d_light.9.png
+SHA1-Digest-Manifest: jEDy7Y1Y5/K9sDXKhVGYl3YuwXI=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_preference_bottom_bg_light.
+ 9.png
+SHA1-Digest-Manifest: LEq93qAAv3/GP2M26PlBhNuD6Rs=
+
+Name: res/color/vigour_text_color_secondary_inverse_light.xml
+SHA1-Digest-Manifest: 8DEtAT1Ag4e+XI/cKVIlI1F9/zU=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_back_center_multi
+ media_pressed_light.9.png
+SHA1-Digest-Manifest: KaH7QNoyC1ML3n0TrgS9OsG0jno=
+
+Name: res/drawable-mdpi-v4/vigour_abc_n_touch.png
+SHA1-Digest-Manifest: /laDiFiYjRgCsh/AZwUJVgTXY7c=
+
+Name: res/drawable-mdpi-v4/vigour_btn_dropdown_selected_light.9.png
+SHA1-Digest-Manifest: MxmSVnjmEY1358wGTHEesDcDq4c=
+
+Name: res/drawable-mdpi-v4/vigour_btn_title_disable.9.png
+SHA1-Digest-Manifest: ftV4VZAQWNLw+oMZmjLLRbd60Mg=
+
+Name: res/drawable-mdpi-v4/vigour_abc_z.png
+SHA1-Digest-Manifest: DqJ6xv9V54dw2mO0zCz7Ji0kjoU=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_mid_center_pe
+ rsonal_pressed.9.png
+SHA1-Digest-Manifest: 0kfN9NfWOzbNnYQIXMNZVbJ7uts=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_new_disable_cente
+ r_multimedia.9.png
+SHA1-Digest-Manifest: Z0n2ZDWTx2zolmIEJVI1yS+wZy4=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_stat_sys_tether_wifi_white_
+ 3.png
+SHA1-Digest-Manifest: PXHQxrAwWpJ1mz2RMVCfj34dX+w=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_02.png
+SHA1-Digest-Manifest: Q5ciNi2zePvivPG0OOo2XlRWvro=
+
+Name: res/drawable/vigour_btn_title_back_center_personal_dark.xml
+SHA1-Digest-Manifest: jOE0jzT9YJkCwp/GDs8MgTdx1bk=
+
+Name: res/drawable-hdpi-v4/vigour_holiday_wallpaper_environmentday.jpg
+SHA1-Digest-Manifest: jmnoTZR7nG7f0FElozcArc3gecs=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_text_toolbar_single_normal_
+ light.9.png
+SHA1-Digest-Manifest: 6pIxwaex8rCRoM5RapmYZabe+bI=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_text_toolbar_single_pressed
+ _light.9.png
+SHA1-Digest-Manifest: 8RhkleJ6U9Bxu0TsNvmaoTOqRW0=
+
+Name: res/drawable-ldrtl-sw360dp-hdpi-v13/vigour_btn_title_create_cent
+ er_personal_normal_light.9.png
+SHA1-Digest-Manifest: zZVGwi2wqaL58HGoyAItRH65rms=
+
+Name: res/drawable-hdpi-v4/vigour_text_select_handle_left.9.png
+SHA1-Digest-Manifest: N/G+yEne3+slZHivPT23ul3Gc6E=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_25.png
+SHA1-Digest-Manifest: U4FVFBzBRbL8LFQ8tvEqqvnUIPk=
+
+Name: res/drawable-mdpi-v4/vigour_content_no_messages.png
+SHA1-Digest-Manifest: h6Pq/+O1XoUTCPbzh7ed7B3qKpo=
+
+Name: res/layout/vigour_permission_hint_content.xml
+SHA1-Digest-Manifest: o5JgFMhfVTRE1+IWr6RNo38MNro=
+
+Name: res/drawable-mdpi-v4/vigour_abc_m_touch.png
+SHA1-Digest-Manifest: mA+xI0gmgiLnB1ucywfCVEK1/PI=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_new_center_person
+ al_pressed_light.9.png
+SHA1-Digest-Manifest: q51olB4hQSASh5wfAcqaKJAyXAY=
+
+Name: res/drawable-mdpi-v4/vigour_preference_top_bg_normal_light.9.png
+SHA1-Digest-Manifest: R2mFuIiEuso7jGi4xOTxQP5ZP7Y=
+
+Name: res/drawable-mdpi-v4/vigour_abc_g_touch.png
+SHA1-Digest-Manifest: AAUXUgCGN4O2vMIXw4/X6YhqacE=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_check_on_normal_light.p
+ ng
+SHA1-Digest-Manifest: lhO8XcNh972ld4iGIyA3Z74eyYk=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_back_normal_light.9.png
+SHA1-Digest-Manifest: JlhC5OivtrNtdf6njf5QS9QotFU=
+
+Name: res/drawable-mdpi-v4/vigour_markup_mid_right_disable.9.png
+SHA1-Digest-Manifest: wE70o5z9SoxsW2UiRJSCD/bDA4w=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_new_normal_light.
+ 9.png
+SHA1-Digest-Manifest: XYrLthe/qt5VGbx9e04ahZxwYbw=
+
+Name: res/drawable-mdpi-v4/vigour_abc_y.png
+SHA1-Digest-Manifest: QvM2ZyBcE+5j1kYmseSTeDpLmyM=
+
+Name: res/drawable-mdpi-v4/vigour_btn_dropdown_normal_light.9.png
+SHA1-Digest-Manifest: pL/yNlONmy9BDXKJs3th/z97rBY=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_right_pressed_light.9.
+ png
+SHA1-Digest-Manifest: XXvqV20kU2zo/OFu9sml7DKUwy8=
+
+Name: res/drawable-hdpi-v4/vigour_divider_horizontal_dark_bright.9.png
+SHA1-Digest-Manifest: 1ruqjTkoLucl2U9m4xyjNZTWazg=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_38.png
+SHA1-Digest-Manifest: FLhooViyCiVNA00axVoQ2qr90PQ=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_tab_right_center_mul
+ timedia_normal.9.png
+SHA1-Digest-Manifest: PwPgKlbobD0IVZD9g4fyZsMWsqY=
+
+Name: res/drawable-hdpi-v4/vigour_list_menu_bg_disabled_light.9.png
+SHA1-Digest-Manifest: +i9EPnyhQ0XneWfncKYcqWosmeU=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_07.png
+SHA1-Digest-Manifest: +7VEWcN7ZJaTVjKJA+ZSGRtSMXE=
+
+Name: res/layout/vigour_preference_summary_down.xml
+SHA1-Digest-Manifest: Bn7Enfwr/HRoBFkmI1+Z0DMfcvg=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_holiday_wallpaper_midautumn
+ festival.jpg
+SHA1-Digest-Manifest: 7QsM98RWheGZtbJcwrwKiUcx+Tc=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_icon_mask.png
+SHA1-Digest-Manifest: 2KzYKSE8uGtZLnG8NTv1SES5Occ=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_28.png
+SHA1-Digest-Manifest: yUSeNJLvrTjoRojCvs311anE9MM=
+
+Name: res/drawable-mdpi-v4/vigour_abc_v.png
+SHA1-Digest-Manifest: 8gH5g0NHapCHCqds58gfnE12JKQ=
+
+Name: res/color/vigour_contextmenu_item_text_light.xml
+SHA1-Digest-Manifest: 6CuzZ4/nBnn5NyieegIhQKYxoIk=
+
+Name: res/drawable/vigour_btn_title_new_center_internet_dark.xml
+SHA1-Digest-Manifest: /pcehiHFAeB06+GzfmP12gGjoyM=
+
+Name: res/drawable-hdpi-v4/vigour_ic_notification_ime_bright.png
+SHA1-Digest-Manifest: zueB2ilIUzcmFm0ZfvwMjH2tTfs=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_back_center_contact_
+ disable_light.9.png
+SHA1-Digest-Manifest: Kt5EIDt4dx50dC2K0V4YS98Wuvk=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_34.png
+SHA1-Digest-Manifest: qZhqhSNXWtXupvAhT4Ra3TGUJqI=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_new_normal_light.9.png
+SHA1-Digest-Manifest: wdfMbgrmUUU57G2RE3Yx3LTS5q0=
+
+Name: res/layout/vigour_select_dialog_singlechoice.xml
+SHA1-Digest-Manifest: 4sgHslwPa7TmzZuc9UBzfwwWeCI=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_32.png
+SHA1-Digest-Manifest: nrizVXbETDYcmfnfkJ7E23gFVO8=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_25.png
+SHA1-Digest-Manifest: K+YqcFpZ/UP4HKpwQoXMDP2Z3Lk=
+
+Name: res/drawable-hdpi-v4/vigour_ic_contact_picture_light.png
+SHA1-Digest-Manifest: s9V5ijarEvmzC+14k+3VhqyJyq4=
+
+Name: res/drawable-mdpi-v4/vigour_btn_default_pressed_light.9.png
+SHA1-Digest-Manifest: O1ceVLS7ICq4mmLDJPyn0SSrXIQ=
+
+Name: res/drawable-hdpi-v4/vigour_contextmenu_more_normal_light.png
+SHA1-Digest-Manifest: TuEAx2xjgFpeWu72y7+DcoJ4uzo=
+
+Name: res/drawable-ldrtl-sw360dp-hdpi-v13/vigour_btn_title_new_pressed
+ _light.9.png
+SHA1-Digest-Manifest: pOXhRmrLhHaVxeA6zdLu5sNI4RM=
+
+Name: res/layout/vigour_text_toolbar.xml
+SHA1-Digest-Manifest: fSyTIpgl2Vyfd7kjaG1XildWByo=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_23.png
+SHA1-Digest-Manifest: FhVC85JAo7pcdZSUjSEWFT5NHGg=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_ic_btn_arrow_pressed_light.png
+SHA1-Digest-Manifest: hoA1ItZqjUlUa5Ws8dqeg5+W29k=
+
+Name: res/drawable-mdpi-v4/vigour_content_no_recordings.png
+SHA1-Digest-Manifest: U6vQKK40nUdrQzk0AhXBP1c5EG8=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_tab_right_pressed_li
+ ght.9.png
+SHA1-Digest-Manifest: sq5bUD6qSw7YWLHAq5sIocIy/EI=
+
+Name: res/drawable-mdpi-v4/vigour_abc_d_touch.png
+SHA1-Digest-Manifest: OvcBr4tRXEFCxcqV+d3YY8+bu0Q=
+
+Name: res/drawable-hdpi-v4/vigour_preference_unround_bg_selected_light
+ .9.png
+SHA1-Digest-Manifest: vrLyFghGZVDoNDwgMHmQ2bqd29A=
+
+Name: res/drawable-mdpi-v4/vigour_holiday_wallpaper_chuxi.jpg
+SHA1-Digest-Manifest: hkyFgmVnQR5V17MyOahQl+mMl2M=
+
+Name: res/drawable-mdpi-v4/vigour_abc_e_touch.png
+SHA1-Digest-Manifest: TLGBKrxHufgEm4zawv01OdUqWis=
+
+Name: res/drawable-hdpi-v4/vigour_text_toolbar_right_normal_dark.9.png
+SHA1-Digest-Manifest: YXjeNt5E05le45IoM/JMwl7jRQI=
+
+Name: res/raw/numberdb
+SHA1-Digest-Manifest: 8RRDJiewtesUCwDb+V9grKVUVME=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_dialog_button_left_round_press
+ ed.9.png
+SHA1-Digest-Manifest: NCm2AsqbLaxTbb/aZUQ5T0BdxNs=
+
+Name: res/color/vigour_title_btn_text_contact_light.xml
+SHA1-Digest-Manifest: 6j5X5nhboHVHUH5Oi7uvuisKzXM=
+
+Name: res/drawable-mdpi-v4/vigour_indicator_count_active.png
+SHA1-Digest-Manifest: A0fYsbp6tLjspS62jUr39RajCNg=
+
+Name: res/drawable-mdpi-v4/vigour_abc_u_touch.png
+SHA1-Digest-Manifest: XFh74Uln6hmnovlnZdbLvNqfFoU=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_new_normal.png
+SHA1-Digest-Manifest: pLK7BDh4BJLNISlZ07NMQ79kmnc=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_40.png
+SHA1-Digest-Manifest: nMkywJ1nQ9QCkIdOOxulO/bHDW0=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_stat_sys_tether_wifi_white_
+ 6.png
+SHA1-Digest-Manifest: e6BSrqMLXOvC+w8kTT0GC0O8BuY=
+
+Name: res/drawable-hdpi-v4/vigour_general_background_transparency_bg_l
+ ight.9.png
+SHA1-Digest-Manifest: CisQnGC9aBHM99vg+JMxhn6bmdg=
+
+Name: res/drawable-hdpi-v4/vigour_expander_ic_minimized.9.png
+SHA1-Digest-Manifest: l7CrbeKsor6T+95FZMOwoL0x2Ws=
+
+Name: res/layout-zh-TW/vigour_time_picker.xml
+SHA1-Digest-Manifest: gNLzGsesnpjXNlwiGLf6C2aOZYw=
+
+Name: res/drawable-hdpi-v4/vigour_wifi_stat_notify_wifi_in_range_defau
+ lt.png
+SHA1-Digest-Manifest: JWZ2nHuhVJCwWMz9/u8ScmqJefU=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_03.png
+SHA1-Digest-Manifest: Oy4gRgq3NVsoJ2PGMXDsm/bDndI=
+
+Name: res/drawable-hdpi-v4/vigour_holiday_wallpaper_lanternfestival.jp
+ g
+SHA1-Digest-Manifest: BnGBjAv059L9hmjyIkXgzOg4OUQ=
+
+Name: res/drawable/vigour_btn_title_create_center_internet_light.xml
+SHA1-Digest-Manifest: qDt3VpifK11pGkvzYLCtR7DwCbE=
+
+Name: res/drawable/vigour_text_toolbar_single_light.xml
+SHA1-Digest-Manifest: 8rWCmvJYukHJFvBRt/vZ05xnXd0=
+
+Name: res/drawable-hdpi-v4/vigour_text_select_handle_middle.png
+SHA1-Digest-Manifest: rQ8Ni9A7rltcnnQoND1AMRQT5BA=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_09.png
+SHA1-Digest-Manifest: ego9B5MrHFAQcZx3Ph0CroCvpqo=
+
+Name: res/color/vigour_tabselector_text_color_normal_dark.xml
+SHA1-Digest-Manifest: YFmPAaDZIGfF9t1xQ/9Brcahrv4=
+
+Name: res/drawable/vigour_btn_title_back_center_contact_dark.xml
+SHA1-Digest-Manifest: ZXo5I1muJRon0pNBfTya1Dndwgs=
+
+Name: res/drawable-hdpi-v4/vigour_list_pressed_dark.9.png
+SHA1-Digest-Manifest: SlgtM6CvwujDizwjlpAblF5h1NU=
+
+Name: res/drawable-mdpi-v4/vigour_holiday_wallpaper_youthday.jpg
+SHA1-Digest-Manifest: DQyjqkqyf/vFsBuzGLAkLVArEts=
+
+Name: res/drawable-hdpi-v4/vigour_menu_highlight_top_selected.9.png
+SHA1-Digest-Manifest: L+VHWmCQqVhLsChpRXGRINcW1sQ=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_dialog_button_right_round_norm
+ al.9.png
+SHA1-Digest-Manifest: CImLMdDLyc6qBIUdkNjoNnNfG2Y=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_create_disable_li
+ ght.9.png
+SHA1-Digest-Manifest: vHpm5IfOx5J+GvVWCGLUrtyO4Pw=
+
+Name: res/drawable-hdpi-v4/vigour_btn_reboot_pressed.png
+SHA1-Digest-Manifest: ojOJmEOlpcgM5X75MMwtNtEoN8Q=
+
+Name: res/raw/controlpoint.ini
+SHA1-Digest-Manifest: P1tbTnukiOBHr2Ns/an+aWQLRck=
+
+Name: res/color/vigour_title_btn_text_contact_dark.xml
+SHA1-Digest-Manifest: ML2OGyWx6LAOPE49XpVWCGa1srw=
+
+Name: res/drawable-hdpi-v4/vigour_text_toolbar_center_normal_dark.9.pn
+ g
+SHA1-Digest-Manifest: xK02hofP2Z4BfULBFMelXIfTbKM=
+
+Name: res/interpolator/decelerate_quart.xml
+SHA1-Digest-Manifest: u0H82d6DIhoEn+qNUWAQCZEXWM8=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_43.png
+SHA1-Digest-Manifest: WbBkEyNCxO7gPxosHK/FfsjWgPI=
+
+Name: res/anim/vigour_floating_btn_view_in.xml
+SHA1-Digest-Manifest: nwIdN1h3k5eTqCn00kTaGrv17Jc=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_create_pressed_light.9.png
+SHA1-Digest-Manifest: ki2UuW2py9kLTnImOMl7mkbBL80=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_abc_thumb_bg_dark.9.png
+SHA1-Digest-Manifest: QEXEty1zOMn5qIbwLOzrWbqo0eo=
+
+Name: res/drawable/vigour_btn_title_new_center_personal_light.xml
+SHA1-Digest-Manifest: AZK2TSIYNrjQWRiPO07kthvJoxw=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_back_pressed_light.9
+ .png
+SHA1-Digest-Manifest: 7XR/awjP5g+xw6bkNjQelC2h0HE=
+
+Name: res/drawable-mdpi-v4/vigour_holiday_wallpaper_halloween.jpg
+SHA1-Digest-Manifest: DwETiPCpVeV3k40cQkFe+Q78qaA=
+
+Name: res/drawable-hdpi-v4/vigour_text_select_handle_right.9.png
+SHA1-Digest-Manifest: BocEOtdnguH1fowuwswBBQjX7HU=
+
+Name: res/drawable-hdpi-v4/vigour_list_selector_bg_longpress_light.9.p
+ ng
+SHA1-Digest-Manifest: QRU2W0SclS8sgzlkiWaxV7S5coI=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_tab_left_center_cont
+ act_pressed.9.png
+SHA1-Digest-Manifest: Jv8/Y+6Xz+JEsXGpcBbqaQ6G1Cs=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_content_no_messages.png
+SHA1-Digest-Manifest: hXS+ExmRu0MD56ZyAVL8XOdB9Xs=
+
+Name: res/drawable-hdpi-v4/vigour_btn_dialog_close_pressed_light.png
+SHA1-Digest-Manifest: 7bv2J1xlJ1km8yZPscRNocaHieI=
+
+Name: res/drawable-mdpi-v4/vigour_abc_thumb_popwin_bg_light.png
+SHA1-Digest-Manifest: 0kHB9rCNqESTm6+5tdanmDb0ZtY=
+
+Name: res/drawable-hdpi-v4/vigour_holiday_wallpaper_thanksgivingday.jp
+ g
+SHA1-Digest-Manifest: 9R28qjSA3oMp0vBpG7cPcZ1Igvk=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_mid_center_internet_pr
+ essed.9.png
+SHA1-Digest-Manifest: PzZSsDx3mS8KPQbijITYZbwZpaA=
+
+Name: res/anim/vigour_menu_window_exit_ex.xml
+SHA1-Digest-Manifest: rJRDolUw24WXZXToJ6g15+DKJKE=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_11.png
+SHA1-Digest-Manifest: t2uItevEy40Fy0pkjkOabBXxtNA=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_progress_dialog_bar_bg.9.pn
+ g
+SHA1-Digest-Manifest: 9/a8O7cROa++eGGDZWwNfKs3zDQ=
+
+Name: res/drawable-ldrtl-sw360dp-hdpi-v13/vigour_btn_title_new_normal_
+ light.9.png
+SHA1-Digest-Manifest: o/ZGCXCrruN4rPD0pcnrdRBZC38=
+
+Name: res/drawable-mdpi-v4/vigour_abc_thumb_bg_light.9.png
+SHA1-Digest-Manifest: Xqee/cLqM15e0qCUJ0oBa0LnD4o=
+
+Name: res/drawable-mdpi-v4/vigour_abc_j_touch.png
+SHA1-Digest-Manifest: MWRAHG+wgb72GPozdoy7mei/qU8=
+
+Name: res/drawable-mdpi-v4/vigour_dialog_list_content_bg.9.png
+SHA1-Digest-Manifest: z1D1NcxRHKx5BqW9Al2vK55d8zg=
+
+Name: res/drawable/vigour_btn_title_tab_right_center_multimedia.xml
+SHA1-Digest-Manifest: OVvpy403AEz88QPZdkRlfHkFx/Y=
+
+Name: res/drawable-hdpi-v4/vigour_stat_sys_tether_wifi_white_4.png
+SHA1-Digest-Manifest: pRf0B2lNT07rMJ57GBlC3Zk2f9I=
+
+Name: res/drawable-hdpi-v4/vigour_seek_thumb_pressed_light.png
+SHA1-Digest-Manifest: rpYnnnl+vqCZk5lbEuzkmw5coTs=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_35.png
+SHA1-Digest-Manifest: 6FclcyxhZ/p9dpfKq0UkOK07Q6c=
+
+Name: res/drawable/vigour_stat_sys_tether_wifi_4.xml
+SHA1-Digest-Manifest: IT2xif+MWiboTN5Ku5yXu921d4w=
+
+Name: res/drawable-hdpi-v4/vigour_btn_dropdown_normal_light.9.png
+SHA1-Digest-Manifest: H5A2SERFboGU7+dSy9PlxADtDks=
+
+Name: res/layout/vigour_date_picker.xml
+SHA1-Digest-Manifest: XsM72upzi4xspqLX7RJbv92oBMs=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_tab_left_center_pers
+ onal_pressed_light.9.png
+SHA1-Digest-Manifest: NGgCfblweMPhV0PM+imsc/8DLLo=
+
+Name: res/drawable-mdpi-v4/vigour_abc_c_touch.png
+SHA1-Digest-Manifest: ++hBiDjFaQEpqXx4ZL3TsUteM6w=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_tab_left_center_mult
+ imedia_pressed.9.png
+SHA1-Digest-Manifest: N+54iXsM0DJYTS8+GZDiXz/uIB0=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_holiday_wallpaper_youthday.
+ jpg
+SHA1-Digest-Manifest: zNLSlwXssxHFr1tBrDBvqW4/lpE=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_content_no_recordings.png
+SHA1-Digest-Manifest: pIg13aGOa2I1nx68qRLBR5wph+s=
+
+Name: res/drawable-hdpi-v4/vigour_corner_clone_theme_default.png
+SHA1-Digest-Manifest: cMSpccKsC4oRAPfptifpcxPrvZg=
+
+Name: res/drawable/vigour_btn_default_light.xml
+SHA1-Digest-Manifest: 7PH8b7UZWgLSqaJUL/4VzcJ1mRI=
+
+Name: res/drawable-mdpi-v4/vigour_text_toolbar_right_normal_light.9.pn
+ g
+SHA1-Digest-Manifest: S9OTcN3rW00GemCCKEfCtietaYU=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_15.png
+SHA1-Digest-Manifest: zb67oI+m9w8VIKc+nRD8gJTdn7E=
+
+Name: res/drawable-hdpi-v4/vigour_ic_global_lock_power_reboot.png
+SHA1-Digest-Manifest: uFzvABRNLd7+qu5qRscyWLEyIiA=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_text_select_handle_left_dar
+ k.9.png
+SHA1-Digest-Manifest: tHrbkkjwmhZ/gYqTgk/VQ/9jHa8=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_pressed.9.png
+SHA1-Digest-Manifest: HYOzG6YE4/1Ec1/PekvcIsG2caQ=
+
+Name: res/drawable-hdpi-v4/vigour_text_toolbar_left_normal_dark.9.png
+SHA1-Digest-Manifest: fmPtzg9rOin7j84XPJXkyL4eLSU=
+
+Name: res/layout/vigour_text_panel.xml
+SHA1-Digest-Manifest: aU3ozA4pOHtEZX2iTEXgLs4/89s=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_12.png
+SHA1-Digest-Manifest: Iz7A7w1CqToFZ5z2SxuFZVjmZ6Q=
+
+Name: res/drawable/vigour_tmbsel_bground.xml
+SHA1-Digest-Manifest: ofVcWNXO4Qu7/kbIfuUC9IkZ8yo=
+
+Name: res/drawable-hdpi-v4/vigour_popup_top_bright.9.png
+SHA1-Digest-Manifest: IN5idK/I8QkrQxG9nZ742m40zbI=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_bar_medium.9.png
+SHA1-Digest-Manifest: Mc6z+Luqc36N0KTH0dZpqSJSbzU=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_bool_btn_hand_normal_light.
+ png
+SHA1-Digest-Manifest: odw4WV7C+tr7VNA8wqRQhT0tawY=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_left_center_i
+ nternet_normal.9.png
+SHA1-Digest-Manifest: n1P5DlrmiM4FB1Z7uVULJoW7q/w=
+
+Name: res/drawable-mdpi-v4/vigour_seek_thumb_normal_light.png
+SHA1-Digest-Manifest: EzThj3c0C8KPJbk6d9jo0w9MXpU=
+
+Name: res/drawable-mdpi-v4/vigour_ic_global_lock_airplane_mode.png
+SHA1-Digest-Manifest: kK6GUZXoPDz9UiMKBRF4clVwCoQ=
+
+Name: res/layout/vigour_list_submenu_item_layout.xml
+SHA1-Digest-Manifest: BKrHca52qG4i+yBfZtmmRX1jhg0=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_59.png
+SHA1-Digest-Manifest: IU/wmTRLLfE7j6voheqJVs2NR4I=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_pressed.9.png
+SHA1-Digest-Manifest: 0wc3lnsQnR8jV6S4Aopy1Mp3Tlg=
+
+Name: res/drawable-mdpi-v4/vigour_btn_check_on_normal_light.png
+SHA1-Digest-Manifest: /UVolyMQFjl/KwUwHVzNqFzjteI=
+
+Name: res/anim/vigour_anim_smartmultiwindow_transition_midmax.xml
+SHA1-Digest-Manifest: DFyF2V5bDsll2pRlMMmfYEJjKD0=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_create_center_person
+ al_disable_light.9.png
+SHA1-Digest-Manifest: 2esiLnfJgyB3bgCArPtistcUnME=
+
+Name: res/drawable-mdpi-v4/vigour_abc_l.png
+SHA1-Digest-Manifest: 8iPQEYcR2BEaWXmgliY9NeEz7eU=
+
+Name: res/drawable/vigour_btn_title_back_center_multimedia_light.xml
+SHA1-Digest-Manifest: G1N1l3mK2Ff876StTwEYM2XX8xA=
+
+Name: res/drawable-mdpi-v4/vigour_scene_mainmenu_shortcut_item_bg.png
+SHA1-Digest-Manifest: lzS337YWLlQ7tS050WHptsmiqDI=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_stat_sys_tether_wifi_color_
+ 1.png
+SHA1-Digest-Manifest: v8iPdNcPQtr0BUrGH4vEaUy4ol8=
+
+Name: res/drawable-hdpi-v4/vigour_btn_radio_off_normal_light.png
+SHA1-Digest-Manifest: LJguuhY3LeTqUPdOolaqOEF8Q6g=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_tab_right_center_per
+ sonal_pressed_light.9.png
+SHA1-Digest-Manifest: sz9zTMjWOVrzt8ohdxWt7XVL8TY=
+
+Name: res/layout-zh-HK/vigour_usb_debug_notification_layout.xml
+SHA1-Digest-Manifest: 95GGirMbMhuZdmYq4PSIx+XsEZU=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_new_pressed_light.9.
+ png
+SHA1-Digest-Manifest: n1ZHEYOX4wT7M/fOa8T6l6fWGaA=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_calendar_bg.png
+SHA1-Digest-Manifest: gl+PHIJZLRMIvBVEXzkICG0EjA8=
+
+Name: res/drawable-hdpi-v4/vigour_btn_default_small_normal_light.9.png
+SHA1-Digest-Manifest: A0R0bXUL263V4sZSdxre0CycvoQ=
+
+Name: res/drawable/vigour_btn_title_tab_mid_center_personal.xml
+SHA1-Digest-Manifest: tF33ThKOcQhhBjSsaEYf19EmW6s=
+
+Name: res/drawable/vigour_btn_title_new_center_contact_light.xml
+SHA1-Digest-Manifest: lBAQ+ARsb3vaU5kOpFhwZYMWtc4=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_back_pressed_light.9.png
+SHA1-Digest-Manifest: 7pnoGmPddBXnBRARzbxaNzloZFU=
+
+Name: res/drawable-hdpi-v4/vigour_holiday_wallpaper_youthday.jpg
+SHA1-Digest-Manifest: Nvi06SACJ60p8XneGWE693W4+ZQ=
+
+Name: res/anim/vigour_move_button_interpolator.xml
+SHA1-Digest-Manifest: JAqZ6jVKOcEVFXwDjYZV48SdNKs=
+
+Name: res/drawable-hdpi-v4/vigour_stat_sys_tether_wifi_color_7.png
+SHA1-Digest-Manifest: j0sJSKYJZHvtv01j7VhSdGN3w+A=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_create_center_personal_pre
+ ssed_light.9.png
+SHA1-Digest-Manifest: KR9hX9jq7jVTk0788HO/xrX39gI=
+
+Name: res/drawable-nodpi-v4/vigour_smart_wake_e.png
+SHA1-Digest-Manifest: 7LElx5f1wTUGM3jlBXr8Uz+kPMg=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_40.png
+SHA1-Digest-Manifest: 63mhEKt/36P7dWJoHfmySqUW18s=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_23.png
+SHA1-Digest-Manifest: BDU8YooFluuOylSF8mcnKCUzh1Q=
+
+Name: res/drawable/vigour_stat_sys_tether_wifi_6.xml
+SHA1-Digest-Manifest: NGu1vYPLAvtjBpcC98myvs+NxnQ=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_corner_clone_theme_global.p
+ ng
+SHA1-Digest-Manifest: BR7BmFX8wcQdbTynNeahyqlC8AE=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_00.png
+SHA1-Digest-Manifest: tATVSVOggbDLZjgiX80TwM6cGPs=
+
+Name: res/drawable-mdpi-v4/vigour_ic_global_lock_silent_mode.png
+SHA1-Digest-Manifest: LrS7P+Y/39vXfRkQuwgj85fyUgs=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_33.png
+SHA1-Digest-Manifest: 4JoFBBMH0qCtVQXu//t+lJPl0kQ=
+
+Name: res/drawable-nodpi-v4/vigour_air_wake_s.png
+SHA1-Digest-Manifest: 8qciEwDtiVTu/D8Dyh0fKyEh33g=
+
+Name: res/drawable/vigour_list_selector_bg_bright.xml
+SHA1-Digest-Manifest: Ensho4oPmetT4Pn+skwG/rqjLj0=
+
+Name: res/color/vigour_title_btn_text_default_light.xml
+SHA1-Digest-Manifest: ijfXOaJVXCRBGFu1OhWIlvwIMk4=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_54.png
+SHA1-Digest-Manifest: GOJBK3BwV/IasAzzC9KFFfNaDco=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_new_pressed_light
+ .9.png
+SHA1-Digest-Manifest: 80ko8mXXccYrA410BH7g4+f18W8=
+
+Name: res/drawable-mdpi-v4/vigour_btn_radio_on_disable_light.png
+SHA1-Digest-Manifest: HEbFU6doIZ4uPExyl+4G2ItC9Lo=
+
+Name: res/layout/vigour_top_view.xml
+SHA1-Digest-Manifest: BeDqk0JsnWHE4mS9OCngx8JnSVY=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_right_center_contact_p
+ ressed.9.png
+SHA1-Digest-Manifest: noUB1ICyOBTt1ueOvXLT9/irAZE=
+
+Name: res/drawable-hdpi-v4/vigour_stat_sys_tether_wifi_white_8.png
+SHA1-Digest-Manifest: afm1e/UOzTOT0D8p3VVOFsLJIdQ=
+
+Name: res/drawable-hdpi-v4/vigour_popup_inline_error_above_am_light.9.
+ png
+SHA1-Digest-Manifest: DsjmndiQ2CCoNAUCuz4x5iq8qG8=
+
+Name: res/drawable-hdpi-v4/vigour_expander_ic_maximized.9.png
+SHA1-Digest-Manifest: p1x1qQxf+HPZ1+MgK8+Q/0uZLAw=
+
+Name: res/drawable/vigour_btn_title_tab_left_center_multimedia.xml
+SHA1-Digest-Manifest: VlyBiMJyll4aHg27efoux4FmJo4=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_02.png
+SHA1-Digest-Manifest: 4NfgIGXjGgmb/V94+mBGzkuBU/k=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_right_center_personal_
+ pressed_light.9.png
+SHA1-Digest-Manifest: pFx1ZcEL1eE5yg/amGqRLU7Zovo=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_50.png
+SHA1-Digest-Manifest: TI9o2Gdc9QQB95pcnDbw8r37b7Y=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_48.png
+SHA1-Digest-Manifest: j/GXcOFOf9yMn9ca7BQduqrll6g=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_33.png
+SHA1-Digest-Manifest: AiRbamyvnFwiUspw+iGG9bivWoo=
+
+Name: res/layout/vigour_adb_install_app_permission_item_money.xml
+SHA1-Digest-Manifest: 1ZrWZ4bUkKlmWGWhkf5BkK3Z79g=
+
+Name: res/drawable-hdpi-v4/vigour_stat_sys_tether_wifi_white_2.png
+SHA1-Digest-Manifest: 2p03j9Vf2FikZcOwcohRg8V9I94=
+
+Name: res/drawable-hdpi-v4/vigour_dialog_button_not_round_pressed.9.pn
+ g
+SHA1-Digest-Manifest: dZcHnfy2e3UXwNwCuKx9RkBZzLM=
+
+Name: res/anim/vigour_menu_window_exit.xml
+SHA1-Digest-Manifest: gBYD7jiGRbwpt40FrVZT5/3DQjo=
+
+Name: res/drawable/vigour_list_transition_bg_light.xml
+SHA1-Digest-Manifest: ZrxBewkAKOYMU8Hum2GALbdyUkM=
+
+Name: res/drawable-hdpi-v4/vigour_wifi_stat_notify_wifi_in_range_brigh
+ t.png
+SHA1-Digest-Manifest: USHumuHWw4aL4keD6r9Z1UdEawk=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_back_center_perso
+ nal_normal_light.9.png
+SHA1-Digest-Manifest: J8Wq9OzRkKNImY7y4Nc1+8O76RA=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_abc_thumb_search.png
+SHA1-Digest-Manifest: 6X8v0E2QtJ4BFFazZYPMZMALZs0=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_scene_noti_secure_white_02.
+ png
+SHA1-Digest-Manifest: vZOHlQK+sswfscj/SK36rmbrTrQ=
+
+Name: res/drawable-hdpi-v4/vigour_preference_unround_bg_light.9.png
+SHA1-Digest-Manifest: h4pisvpNOopAmEX4raQeFb1f9R0=
+
+Name: res/drawable-mdpi-v4/vigour_popup_dialog_bottom.9.png
+SHA1-Digest-Manifest: fkQ52QQKq8v6p93YZL3NgJ2uf+4=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_05.png
+SHA1-Digest-Manifest: uSh93OF/b5OyLI2v7DHs3wtlfxE=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_01.png
+SHA1-Digest-Manifest: 6dZo9ZJ7vZFK2f69MMKhRmaybGs=
+
+Name: res/drawable-hdpi-v4/vigour_bottom_bar_bg_light.9.png
+SHA1-Digest-Manifest: 7dJHSAa+kN3mIQ3X9rl+J1qXf4w=
+
+Name: res/drawable-mdpi-v4/vigour_text_toolbar_position_arrow_below_li
+ ght.png
+SHA1-Digest-Manifest: aFgsm3WddAlsbC3A3NZKbL911Pc=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_24.png
+SHA1-Digest-Manifest: h1P+hVmEA3fB0RDlM/vrrRd1j0w=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_holiday_wallpaper_valentine
+ day.jpg
+SHA1-Digest-Manifest: aC0Un9kORrQoMD/4rX4/rlS0Lms=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_22.png
+SHA1-Digest-Manifest: fCKDv8F754QYmZR68p5aMdj6LdI=
+
+Name: res/drawable-mdpi-v4/vigour_content_no_files.png
+SHA1-Digest-Manifest: QPIs6RT5lHzpTYwaKh314C1W0ig=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_38.png
+SHA1-Digest-Manifest: T2gZv7YfYaVtw0YpnQkj8/CfQN0=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_05.png
+SHA1-Digest-Manifest: oxqF4YSOIEPHQyGi/PzuEcQIrv8=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_57.png
+SHA1-Digest-Manifest: HqbSggN84E5csabTUmITAA/v0pE=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_01.png
+SHA1-Digest-Manifest: ukAp+JN3c+xXshsJD7Go0Htgy/w=
+
+Name: res/drawable-hdpi-v4/vigour_contextmenu_more_expanded_pressed_li
+ ght.png
+SHA1-Digest-Manifest: 5XQr7rB0tV5jM/BTObk6b2CiCpw=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_47.png
+SHA1-Digest-Manifest: z1sSgWBGSNQOGtRq3JpfIRm1Hfw=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_03.png
+SHA1-Digest-Manifest: zwuwqZskyYwkAUUafcF0Pou39Ac=
+
+Name: res/drawable/vigour_stat_sys_tether_wifi.xml
+SHA1-Digest-Manifest: lvdndUt94EIyEHrhhPq01Wu961o=
+
+Name: res/layout-zh-TW/vigour_usb_debug_notification_layout.xml
+SHA1-Digest-Manifest: RasISlIOGmZK7UW1S6JGRndqSC4=
+
+Name: res/drawable/vigour_btn_title_create_center_contact_dark.xml
+SHA1-Digest-Manifest: th77QbmYbj0SHptAV7MNONiqJmw=
+
+Name: res/layout/vigour_adb_install_dialog_layout.xml
+SHA1-Digest-Manifest: eh1+/hpM/PFuaM2dVPTwt26L8uk=
+
+Name: res/layout-zh-HK/vigour_time_picker.xml
+SHA1-Digest-Manifest: iIFZp4VEyM2rv8QY9gpBlNBtYIY=
+
+Name: res/drawable/vigour_btn_title_new_center_internet_light.xml
+SHA1-Digest-Manifest: AMtZGJYtYCO/xew1lxPtCyQiWHc=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_holiday_wallpaper_foolsday.
+ jpg
+SHA1-Digest-Manifest: MGaq3wYK7X2fvQxP78mnn3OtYhE=
+
+Name: res/layout/vigour_adb_install_app_perms_summary.xml
+SHA1-Digest-Manifest: V2QKjij/cNsCMbPBf5nG0sDedSk=
+
+Name: res/drawable-mdpi-v4/vigour_btn_title_tab_mid_normal_light.9.png
+SHA1-Digest-Manifest: UV5bYBs+xB6Vxo4cTBDajlrQ0SA=
+
+Name: res/drawable-mdpi-v4/vigour_abc_jing_touch.png
+SHA1-Digest-Manifest: nGgw9lyhw7CxrkLWQocaJmerxGI=
+
+Name: res/drawable-mdpi-v4/vigour_btn_title_new_pressed.png
+SHA1-Digest-Manifest: q+GD9Zisg2pHxP/2gW0rjQ6TZvg=
+
+Name: res/drawable-nodpi-v4/vigour_clone_flag.png
+SHA1-Digest-Manifest: 9NK70qvsz1haLW+++1g0bGK63ns=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_54.png
+SHA1-Digest-Manifest: m5BLds78+wVpNDx68YbphnkJrs8=
+
+Name: res/drawable/vigour_preference_bottom_round_dark.xml
+SHA1-Digest-Manifest: MN8EjCAyL6jr0xt3vzJbvtOW2l0=
+
+Name: res/raw/themes6
+SHA1-Digest-Manifest: qJh0iHP/4GhoyFT+5aLSpiyinzo=
+
+Name: res/drawable-mdpi-v4/vigour_preference_round_bg_selected_light.9
+ .png
+SHA1-Digest-Manifest: MrVNWehNvnhnPAXfz1iuewdMo8M=
+
+Name: res/drawable/vigour_btn_reboot.xml
+SHA1-Digest-Manifest: BGSgcyrrgH1SuJsHv93aowOIppU=
+
+Name: res/drawable/vigour_contextmenu_more_expanded_dark.xml
+SHA1-Digest-Manifest: uKMJyir66/O3K+AxTvk6hIituOY=
+
+Name: res/drawable-hdpi-v4/vigour_text_toolbar_single_normal_light.9.p
+ ng
+SHA1-Digest-Manifest: yK6lbKQkUmYBsJ1oid2kZ+bgv6M=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_11.png
+SHA1-Digest-Manifest: TErEo9oodn/58RkjLw3lZevUe8E=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_back_center_multimed
+ ia_disable_light.9.png
+SHA1-Digest-Manifest: WFGhbzxGoeefV1EVs8OTKeloof0=
+
+Name: res/drawable/vigour_popup_toolbar_right.xml
+SHA1-Digest-Manifest: mNeCOHxl3QwQPzdS51GNJUcnTF0=
+
+Name: res/color/vigour_menu_text_color.xml
+SHA1-Digest-Manifest: in/l/H/Cq6CerPjogAjjyb+MT5o=
+
+Name: res/drawable-mdpi-v4/vigour_holiday_wallpaper_valentineday.jpg
+SHA1-Digest-Manifest: sGKkwpIRKIs6dHOMQIu2rBCKonQ=
+
+Name: res/drawable-hdpi-v4/vigour_list_pressed_light.9.png
+SHA1-Digest-Manifest: h6AGo0pBy11pR6GkRrrm7YsmA6s=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_tab_right_center_int
+ ernet_pressed.9.png
+SHA1-Digest-Manifest: tfjBfK3pcDz46/sEt4xaQUdlsQw=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_20.png
+SHA1-Digest-Manifest: NyAklXTACp5NX7rVtnx0ET6GqK4=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_preference_top_bg_selected_
+ light.9.png
+SHA1-Digest-Manifest: u5L/+UjyPd/rM+6RiGzjeWAwdHY=
+
+Name: res/drawable-hdpi-v4/vigour_btn_dialog_close_normal_light.png
+SHA1-Digest-Manifest: TUpalBZNCSOXz5+Vtc6f5yJ7/ek=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_tab_left_center_internet_n
+ ormal.9.png
+SHA1-Digest-Manifest: Bb1fP6GZfT2UfJRgPFQ3BC3nNJA=
+
+Name: res/drawable-mdpi-v4/vigour_holiday_wallpaper_lichun.jpg
+SHA1-Digest-Manifest: zDMR6EgIi8HJKjOD113RccV9szQ=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_count_normal.png
+SHA1-Digest-Manifest: HFwbUqJkzKlH53kgl2iTj6N31Cs=
+
+Name: res/drawable-mdpi-v4/vigour_ic_global_lock_power_off.png
+SHA1-Digest-Manifest: 5pg75SO72sbffkbImKkIqOBk13s=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_create_center_person
+ al_pressed_light.9.png
+SHA1-Digest-Manifest: PdKO09q3DVDxSy4vKQyKUFhrkLQ=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_left_center_m
+ ultimedia_pressed.9.png
+SHA1-Digest-Manifest: 6SuGC/tHC1SD9KIxleUhtJ2ZGME=
+
+Name: res/drawable-mdpi-v4/vigour_abc_w_touch.png
+SHA1-Digest-Manifest: TUC4X4TdVlOIVnS/yr2A6lquoy8=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_markup_view_bg_light.9.png
+SHA1-Digest-Manifest: WF5GqzxuY3QULv7lggLFl4enSpE=
+
+Name: res/drawable/vigour_btn_title_tab_left_center_internet.xml
+SHA1-Digest-Manifest: dk78mJQb/klyMAJlI/9YB32zmIg=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_bool_btn_bg_off_light.png
+SHA1-Digest-Manifest: JaE/uIh2ssvOjcJf2EO8u1H+lsc=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_36.png
+SHA1-Digest-Manifest: BUDIoMDb1b699c9KF/guh0psJd4=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_59.png
+SHA1-Digest-Manifest: xb+X3/7p7yz3jiODYMoK2XaRsIw=
+
+Name: res/color/vigour_tabselector_text_color_normal_light.xml
+SHA1-Digest-Manifest: UcaGJaKXQqxL1sXRSFVtnRMYXCQ=
+
+Name: res/drawable-mdpi-v4/vigour_list_search_icon_light.png
+SHA1-Digest-Manifest: pfEPj2maznrZhY9mnxfl+89PoEU=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_new_disable_light.9.
+ png
+SHA1-Digest-Manifest: +z1h30luTiiYYYnz1I4bhMBT6oA=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_back_center_personal_disab
+ le_light.9.png
+SHA1-Digest-Manifest: X5BH2u3CjIwMcQ5DL5Pk9IMC0zU=
+
+Name: res/drawable-hdpi-v4/vigour_btn_radio_on_normal_light.png
+SHA1-Digest-Manifest: SwLPYby/7QhNOXQvIMQX/u84kn4=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_create_center_mul
+ timedia_disable_light.9.png
+SHA1-Digest-Manifest: XfAKgvr4cGFOm7Auckw4rDdMU5M=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_42.png
+SHA1-Digest-Manifest: GAgVNllV0oQQif13WOBDbK3l+Kw=
+
+Name: res/layout/vigour_preference_explain_category.xml
+SHA1-Digest-Manifest: xFb1GWm641L27zGoHbt3/VXHCks=
+
+Name: res/drawable-hdpi-v4/vigour_text_toolbar_left_pressed_dark.9.png
+SHA1-Digest-Manifest: 2z6B/1t+9k4i5zNr9XLadngV1ME=
+
+Name: res/drawable-mdpi-v4/vigour_text_toolbar_center_pressed_light.9.
+ png
+SHA1-Digest-Manifest: Syv0+UeVYMLfwIxnVlu93nZalMo=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_check_off_normal_light.
+ png
+SHA1-Digest-Manifest: QFJrXzMlf5jDbNLd247DjvAewwg=
+
+Name: res/drawable-hdpi-v4/vigour_resolver_icon_bg.png
+SHA1-Digest-Manifest: DDbtY/XWqnIQwtn8ZK5ebOylBac=
+
+Name: resources.arsc
+SHA1-Digest-Manifest: Wae+W62jU0wAf/ugPck3NvQOM7I=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_right_center_
+ internet_normal.9.png
+SHA1-Digest-Manifest: Qx/G9FDSPko1fkyxDXq38QUBRjc=
+
+Name: res/drawable-hdpi-v4/vigour_scene_folder_icon.png
+SHA1-Digest-Manifest: 7adYv4yPWNHtefWmngE0Ln2oQb0=
+
+Name: res/drawable-mdpi-v4/vigour_menu_highlight_top_pressed.9.png
+SHA1-Digest-Manifest: 27AcZXnhkWaKZolv7JBVAwSAsgk=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_tab_mid_center_co
+ ntact_pressed.9.png
+SHA1-Digest-Manifest: WimnXOY04JTK2bXrM4MdYWFMhn8=
+
+Name: res/drawable/vigour_btn_title_tab_left_center_personal_dark.xml
+SHA1-Digest-Manifest: KOu2TrA0iCbyli3GIyx2UjHumyg=
+
+Name: res/layout/vigour_select_dialog_multichoice.xml
+SHA1-Digest-Manifest: 6MnLJwrBKCGHdYEgSnF34wXYeZE=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_text_toolbar_position_arrow
+ _below_light.png
+SHA1-Digest-Manifest: K08DGA8+dth0RGu2DnKCsbuSs0k=
+
+Name: res/drawable-hdpi-v4/vigour_btn_usb_noti_left_btn_normal.9.png
+SHA1-Digest-Manifest: V0GtldF0SnCtfg7JOjapJkJ9YlQ=
+
+Name: res/drawable-hdpi-v4/vigour_dialog_full_dark.9.png
+SHA1-Digest-Manifest: ErpiqTRu1ikj48zEmYZ9zaGbzU4=
+
+Name: res/drawable-mdpi-v4/vigour_abc_i_touch.png
+SHA1-Digest-Manifest: t/zQjLboNjjtV+6CuzQJrK7srq8=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_24.png
+SHA1-Digest-Manifest: /+3UP386NqEN04F4jVUkcfdDBRo=
+
+Name: res/drawable-hdpi-v4/vigour_stat_sys_tether_wifi_white_5.png
+SHA1-Digest-Manifest: HKFij+y7mDTu5oQltzdYvMb5Olw=
+
+Name: res/drawable-hdpi-v4/vigour_noti_normal.png
+SHA1-Digest-Manifest: N0caAx+Cj7nxYeCTVntF+lzMNNg=
+
+Name: res/color/vigour_title_btn_text_multimedia_light.xml
+SHA1-Digest-Manifest: 0JrhYmaLpp8z92BoTA3rr8cmznI=
+
+Name: res/drawable-mdpi-v4/vigour_btn_default_small_pressed_light.9.pn
+ g
+SHA1-Digest-Manifest: BtT7nF5UvwEAQ1iWd9ZgoCgK/Bk=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_back_center_contact_
+ normal_light.9.png
+SHA1-Digest-Manifest: TndTcofsss3u4psJ7/4NNGfsHtI=
+
+Name: res/drawable-mdpi-v4/vigour_launcher_draglayer_bg.9.png
+SHA1-Digest-Manifest: FIeJp8CLYxty2rFTjXIbmY5Ffwc=
+
+Name: res/drawable-mdpi-v4/vigour_btn_title_tab_left_normal_light.9.pn
+ g
+SHA1-Digest-Manifest: ej8sLnn5jdZXbrNro4n2ThyRiVg=
+
+Name: res/drawable-mdpi-v4/vigour_btn_title_tab_mid_pressed_light.9.pn
+ g
+SHA1-Digest-Manifest: 31E9bStpQo7NibK1CDqvuKcolos=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_stat_sys_tether_wifi_white_
+ 7.png
+SHA1-Digest-Manifest: gTknXzaZVd0rwSM9cXPWL+qlAXc=
+
+Name: res/layout/vigour_adb_install_app_permission_item.xml
+SHA1-Digest-Manifest: AKZ6H1t1SbdTRjhvHId8d73x0/A=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_textfield_normal_light.9.pn
+ g
+SHA1-Digest-Manifest: 89z6lreUc/8N/ARBN2814WXCLao=
+
+Name: res/drawable-ldrtl-hdpi-v4/vigour_btn_title_create_center_contac
+ t_disable_light.9.png
+SHA1-Digest-Manifest: NyAyxSD88xJXYWt7HmwNkzq6HYs=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_create_disable_light.9.png
+SHA1-Digest-Manifest: dlht8QxqybdKlKffbf5JpdCPL9o=
+
+Name: res/drawable/vigour_btn_title_new_center_contact_dark.xml
+SHA1-Digest-Manifest: Qv238mw8v2P7V0ql+w1O+xKJ2yk=
+
+Name: res/drawable/vigour_dialog_close_btn_light.xml
+SHA1-Digest-Manifest: 3Nsl36Ngv8cEXjLAei0qeIoJePo=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_53.png
+SHA1-Digest-Manifest: wfJVA4Imjw+6WJBRXJPOJg793h0=
+
+Name: res/drawable-mdpi-v4/vigour_abc_d.png
+SHA1-Digest-Manifest: To2I9qn3bKIe59Fefbng00DwdSQ=
+
+Name: res/color/vigour_tabselector_text_color_contact.xml
+SHA1-Digest-Manifest: XJvj48IBJdSKzScI2HA+rU6HXqg=
+
+Name: res/drawable-hdpi-v4/vigour_super_power_save_exit.png
+SHA1-Digest-Manifest: tGv1lgMeaosUKaMhHdueCFZRmeo=
+
+Name: res/drawable-hdpi-v4/vigour_holiday_wallpaper_nationalday.jpg
+SHA1-Digest-Manifest: XYlI4u0PKmzbMneQsFFkyZdL3f4=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_back_center_conta
+ ct_normal_light.9.png
+SHA1-Digest-Manifest: vmxgPhjfqnxQkCXjkUkUVzwV9yY=
+
+Name: res/drawable-hdpi-v4/vigour_content_no_recordings.png
+SHA1-Digest-Manifest: N8QyaqCdA4cjBKS2xrQoQQLJwSY=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_35.png
+SHA1-Digest-Manifest: gZBP712y6nbBBBX52rQ30FmP6l0=
+
+Name: res/drawable-hdpi-v4/vigour_btn_title_create_center_multimedia_p
+ ressed_light.9.png
+SHA1-Digest-Manifest: pNKUEH84iP34AcnsOaIEFpaaASY=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_15.png
+SHA1-Digest-Manifest: lFg8Ga/VpMmNFuk5e12VJT9khDc=
+
+Name: res/drawable/vigour_text_toolbar_left_light.xml
+SHA1-Digest-Manifest: aTyd6zsEjvLvRPTPzdalqOeeNNA=
+
+Name: res/drawable/vigour_preference_top_round_dark.xml
+SHA1-Digest-Manifest: jQYhDIx43/yDh05imryvFeET3eQ=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_dialog_button_normal.9.png
+SHA1-Digest-Manifest: Uqf1nBXLN48UK/+j7maAHxGKE+M=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_stat_sys_tether_wifi_bright
+ .png
+SHA1-Digest-Manifest: /6je1saosY6m+L5XO8FrGw8vtOM=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_stat_sys_tether_wifi_white_
+ 5.png
+SHA1-Digest-Manifest: GVAw0ciSUpuxGgDINHVqilxdiCQ=
+
+Name: res/drawable-hdpi-v4/vigour_progress_horizontal_background_bg_li
+ ght.9.png
+SHA1-Digest-Manifest: w8qXkJqWuuTLBZuYDWKF1iMyHf4=
+
+Name: res/drawable-hdpi-v4/vigour_stat_notify_disk_full.png
+SHA1-Digest-Manifest: 66AeTH6/erBULumVWaLFRcQuj3w=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_new_disable_light
+ .9.png
+SHA1-Digest-Manifest: 1ZC1ORxksuV5Iv2ODXRZlE78KcI=
+
+Name: res/drawable-mdpi-v4/vigour_preference_unround_bg_selected_light
+ .9.png
+SHA1-Digest-Manifest: ciwgfSH+7WvPyRQflwHXgRNkpmo=
+
+Name: res/color/vigour_title_btn_text_personal_dark.xml
+SHA1-Digest-Manifest: rKygVm3UAx2N0vsoy2LjDwIExzo=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_ic_btn_arrow_pressed_light.
+ png
+SHA1-Digest-Manifest: VxsIyjjNiWQMVKA1QJhOujUHx6g=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_icon_cover.png
+SHA1-Digest-Manifest: DQnkwZjTj59uWw5WOjYGIcXf4v8=
+
+Name: res/drawable-hdpi-v4/vigour_dialog_button_left_round_disable.9.p
+ ng
+SHA1-Digest-Manifest: YBVSMhhZkBaYmrul2SSPEhOgeao=
+
+Name: res/drawable/vigour_btn_default_small_dark.xml
+SHA1-Digest-Manifest: D+q/RN+wuBkfjuxv41iZqVSfVhg=
+
+Name: res/drawable-hdpi-v4/vigour_text_toolbar_single_pressed_dark.9.p
+ ng
+SHA1-Digest-Manifest: VNO24tbaFb2bhWlxnAo/J42cMyY=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_text_toolbar_inputmethod.pn
+ g
+SHA1-Digest-Manifest: RYANndPyEtAv6f+OHRdFcJR4Zow=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_light_47.png
+SHA1-Digest-Manifest: HS3AN9uKRO5bbvC9SE6mroPzd+U=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_light_39.png
+SHA1-Digest-Manifest: T0qZT6zIYm25tL3teJktfgmijcE=
+
+Name: res/layout/vigour_icon_menu_item_layout.xml
+SHA1-Digest-Manifest: PlR0LlihTMGXX7ZP3iP0otuvJ/8=
+
+Name: res/drawable-hdpi-v4/vigour_indicator_anim_dark_58.png
+SHA1-Digest-Manifest: pGxsNBO3Det0A7d0n6cnYV913QE=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_abc_thumb_float_search.png
+SHA1-Digest-Manifest: IjYUSNmECE1Ioqw0tFImi4vC1rA=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_41.png
+SHA1-Digest-Manifest: ObYy9dj5SCQ4MNajn4G8QnIhoQI=
+
+Name: res/drawable/vigour_grid_selector_bg_dark.xml
+SHA1-Digest-Manifest: 4s4GpBx6JoABvlVVL5anEoDYsHc=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_new_disable.png
+SHA1-Digest-Manifest: jLghLLwEa/hzokqWpGzLYGhElPo=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_delete_pressed.png
+SHA1-Digest-Manifest: +6rumQKP6DYfUMjjbM8bOutAQoY=
+
+Name: res/drawable-mdpi-v4/vigour_text_toolbar_single_pressed_light.9.
+ png
+SHA1-Digest-Manifest: FBfEvqLq70csXmTSKtA8cDvzWXs=
+
+Name: res/drawable-sw360dp-hdpi-v13/vigour_btn_title_back_center_multi
+ media_disable_light.9.png
+SHA1-Digest-Manifest: YjQOZtUz8rsFWCymyIm1LMtAmQc=
+
+Name: res/drawable-hdpi-v4/vigour_progress_anim_dark_13.png
+SHA1-Digest-Manifest: 8KNlL13tZrQol7dwfu9/WChHFqU=
+
+Name: res/drawable/vigour_btn_title_tab_right_center_contact.xml
+SHA1-Digest-Manifest: IkHvdnkZnH3ppyoRqEq+mxR9gzU=
+

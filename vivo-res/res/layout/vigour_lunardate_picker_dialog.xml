@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.vivo.common.TabSelector android:layout_gravity="center_horizontal" android:id="@id/tab_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <RelativeLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/DatePickerLayout" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.vivo.common.widget.BBKVivoGeliDatePicker android:layout_gravity="center_horizontal" android:id="@id/bbkgelidatePicker" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:spinnersShown="true" android:calendarViewShown="false" />
+        <com.vivo.common.widget.BBKVivoLunarDatePicker android:layout_gravity="center_horizontal" android:id="@id/bbkdatePicker" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:spinnersShown="true" android:calendarViewShown="false" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/bottomContent" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lunar_months">
+        <item>正</item>
+        <item>মঙ্গল</item>
+        <item>বুধ</item>
+        <item>বৃহস্পতি</item>
+        <item>শুক্র</item>
+        <item>শনি</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>腊</item>
+    </string-array>
+    <string-array name="lunar_days_prefix">
+        <item>初</item>
+        <item>十</item>
+        <item>20</item>
+        <item>বুধ</item>
+    </string-array>
+    <string-array name="lunar_days_suffix">
+        <item>সোম</item>
+        <item>মঙ্গল</item>
+        <item>বুধ</item>
+        <item>বৃহস্পতি</item>
+        <item>শুক্র</item>
+        <item>শনি</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+    </string-array>
+    <string-array name="solar_term">
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+        <item>春分</item>
+        <item>কুইংমিং উতসব</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>小雪</item>
+        <item>大雪</item>
+        <item>冬至</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_jan">
+        <item>নববর্ষের দিন</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_feb">
+        <item>প্রেম দিবস</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_apr">
+        <item>愚人节</item>
+        <item>পৃথিবী দিবস</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_june">
+        <item>শিশু দিবস</item>
+        <item>বিশ্ব পরিষেব দিবস</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_oct">
+        <item>国庆节</item>
+        <item>হ্যালোউইন</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_dec">
+        <item>ক্রিসমাস ইভ</item>
+        <item>ক্রিসমাস</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday">
+        <item>নববর্ষের দিন</item>
+        <item>বিশ্ব জলাভূমি দিবস</item>
+        <item>প্রেম দিবস</item>
+        <item>জাতীয় কানের যত্ন দিবস</item>
+        <item>যুব স্বয়ংসেবক পরিষেবা দিবস</item>
+        <item>আন্তর্জাতিক নারী দিবস</item>
+        <item>নদী মা সুরক্ষা দিবস</item>
+        <item>চীনা আর্বর দিবস</item>
+        <item>শ্বেতাঙ্গ ভ্যালেন্টাইন্স, আন্তর্জাতিক পুলিশ দিবস</item>
+        <item>বিশ্ব গ্রাহক অধিকার দিবস</item>
+        <item>বিশ্ব বন দিবস, বিশ্ব ঘুম দিবস</item>
+        <item>বিশ্ব জল দিবস</item>
+        <item>বিশ্ব আবহাওয়া দিবস</item>
+        <item>বিশ্ব যক্ষা দিবস</item>
+        <item>愚人节</item>
+        <item>কুইংমিং উতসব</item>
+        <item>বিশ্ব স্বাস্থ্য দিবস</item>
+        <item>বিশ্ব আর্থ দিবস</item>
+        <item>বিশ্ব মেধা সম্পত্তি দিবস</item>
+        <item>আন্তর্জাতিক শ্রম দিবস</item>
+        <item>বিশ্ব হাঁপানি দিবস</item>
+        <item>চীনা যুব দিবস</item>
+        <item>বিশ্ব রেড ক্রস দিবস</item>
+        <item>আন্তর্জাতিক নার্স দিবস</item>
+        <item>আন্তর্জাতিক পরিবার দিবস</item>
+        <item>বিশ্ব টেলিযোগাযোগ দিবস</item>
+        <item>জাতীয় ছাত্র পুষ্টি দিবস</item>
+        <item>বিশ্ব দুধ দিবস</item>
+        <item>বিশ্ব তামাকমুক্ত দিবস</item>
+        <item>আন্তর্জাতিক শিশু দিবস</item>
+        <item>বিশ্ব পরিষেব দিবস</item>
+        <item>জাতীয় চোখের যত্ন দিবস</item>
+        <item>বিশ্ব মরুকরণ ও খরার বিরুদ্ধে লড়াই দিবস</item>
+        <item>আন্তর্জাতিক অলিম্পিক দিবস</item>
+        <item>জাতীয় ভূমি দিবস</item>
+        <item>আন্তর্জাতিক ড্রাগ অপব্যবহার বিরোধ দিবস</item>
+        <item>চীন কমিউনিস্ট পার্টির আন্তর্জাতিক স্থাপত্য দিবসের জন্মদিন</item>
+        <item>চীনা জনগণের জাপানের বিরুদ্ধে যুদ্ধ জয়ের দিবস</item>
+        <item>বিশ্ব জনসংখ্যা দিবস</item>
+        <item>চীনা পিপলস লিবারেশন আর্মি দিবস</item>
+        <item>আন্তর্জাতিক যুব দিবস</item>
+        <item>আন্তর্জাতিক সাক্ষরতা দিবস</item>
+        <item>চীনা শিক্ষক দিবস</item>
+        <item>চীনা মস্তিষ্ক স্বাস্থ্য দিবস, আন্তর্জাতিক ওজোন স্তর সংরক্ষণ দিবস</item>
+        <item>জাতীয় আপনার দাঁতকে ভালোবাসুন দিবস</item>
+        <item>বিশ্ব যুদ্ধ-বিরতি দিবস</item>
+        <item>বিশ্ব পর্যটন দিবস</item>
+        <item>PRC জাতীয় দিবস, আন্তর্জাতিক সঙ্গীত দিবস, আন্তর্জাতিক বয়স্ক ব্যক্তি দিবস</item>
+        <item>বিশ্ব প্রাণী দিবস</item>
+        <item>বিশ্ব শিক্ষক দিবস</item>
+        <item>জাতীয় উচ্চ রক্তচাপ দিবস</item>
+        <item>বিশ্ব পোস্ট দিবস</item>
+        <item>বিশ্ব মানসিক স্বাস্থ্য দিবস</item>
+        <item>বিশ্ব মান দিবস</item>
+        <item>আন্তর্জাতিক অন্ধ দিবস, বিশ্ব গ্রামীণ নারী দিবস</item>
+        <item>বিশ্ব খাদ্য দিবস</item>
+        <item>আন্তর্জাতিক দারিদ্র্য নির্মূল দিবস</item>
+        <item>জাতিসংঘ দিবস, বিশ্ব উন্নয়ন তথ্য দিবস</item>
+        <item>চীনা পুরুষদের স্বাস্থ্য দিবস</item>
+        <item>আন্তর্জাতিক জীব বৈচিত্র্য দিবস</item>
+        <item>হ্যালোউইন</item>
+        <item>চীনা সাংবাদিক দিবস</item>
+        <item>অগ্নি সচেতনতা দিবস</item>
+        <item>বিশ্ব ডায়াবেটিস দিবস</item>
+        <item>আন্তর্জাতিক কলেজ শিক্ষার্থী দিবস</item>
+        <item>আন্তর্জাতিক নারী নির্যাতন দূরীকরণ দিবস</item>
+        <item>বিশ্ব AIDS দিবস</item>
+        <item>আন্তর্জাতিক প্রতিবন্ধী দিবস</item>
+        <item>জাতীয় আইনগত প্রচার দিবস</item>
+        <item>বিশ্ব ফুটবল দিবস</item>
+        <item>ক্রিসমাস ইভ</item>
+        <item>ক্রিসমাস</item>
+        <item>আন্তর্জাতিক জীব বৈচিত্র্য দিবস</item>
+    </string-array>
+    <string-array name="complex_gregorian_holiday">
+        <item>বিশ্ব কুষ্ঠ দিবস</item>
+        <item>প্রাথমিক ও মাধ্যমিক বিদ্যালয়ের জন্য নিরাপত্তা শিক্ষা দিবস</item>
+        <item>ইস্টার</item>
+        <item>মাতৃ দিবস</item>
+        <item>জাতীয় প্রতিবন্ধী দিবস</item>
+        <item>পিতৃ দিবস</item>
+        <item>আন্তর্জাতিক শান্তি দিবস</item>
+        <item>জাতীয় নিরাপত্তা শিক্ষা দিবস</item>
+        <item>আন্তর্জাতিক বধির দিবস</item>
+        <item>বিশ্ব আবাসন দিবস</item>
+        <item>কানাডিয়ান থ্যাঙ্কসগিভিং ডে</item>
+        <item>আন্তর্জাতিক প্রাকৃতিক দুর্যোগ হ্রাসের দিবস</item>
+        <item>বিশ্ব দৃষ্টিশক্তি দিবস</item>
+        <item>US থ্যাঙ্কসগিভিং ডে</item>
+    </string-array>
+    <string-array name="year_name">
+        <item>〇</item>
+        <item>সোম</item>
+        <item>মঙ্গল</item>
+        <item>বুধ</item>
+        <item>বৃহস্পতি</item>
+        <item>শুক্র</item>
+        <item>শনি</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+    </string-array>
+    <string-array name="month_name">
+        <item>সোম</item>
+        <item>মঙ্গল</item>
+        <item>বুধ</item>
+        <item>বৃহস্পতি</item>
+        <item>শুক্র</item>
+        <item>শনি</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>" "</item>
+    </string-array>
+    <string-array name="Week_name">
+        <item>রবি</item>
+        <item>সোমবার</item>
+        <item>মঙ্গলবার</item>
+        <item>বুধবার</item>
+        <item>বৃহস্পতিবার</item>
+        <item>শুক্রবার</item>
+        <item>শনিবার</item>
+    </string-array>
+</resources>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lunar_months">
+        <item>正</item>
+        <item>T3</item>
+        <item>Thứ 4</item>
+        <item>Thứ 5</item>
+        <item>Thứ 6</item>
+        <item>Thứ 7</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>腊</item>
+    </string-array>
+    <string-array name="lunar_days_prefix">
+        <item>初</item>
+        <item>十</item>
+        <item>20</item>
+        <item>Thứ 4</item>
+    </string-array>
+    <string-array name="lunar_days_suffix">
+        <item>Thứ 2</item>
+        <item>T3</item>
+        <item>Thứ 4</item>
+        <item>Thứ 5</item>
+        <item>Thứ 6</item>
+        <item>Thứ 7</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+    </string-array>
+    <string-array name="solar_term">
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+        <item>春分</item>
+        <item>Lễ Thanh minh</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>小雪</item>
+        <item>大雪</item>
+        <item>冬至</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_jan">
+        <item>Ngày Đầu năm</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_feb">
+        <item>Ngày Tình nhân</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_apr">
+        <item>愚人节</item>
+        <item>Ngày Trái Đất</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_june">
+        <item>Ngày thiếu nhi</item>
+        <item>Ngày Môi trường Thế giới</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_oct">
+        <item>国庆节</item>
+        <item>Halloween</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_dec">
+        <item>Đêm Giáng Sinh</item>
+        <item>Giáng Sinh</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday">
+        <item>Ngày Đầu năm</item>
+        <item>Ngày đất ngập thế giới</item>
+        <item>Ngày Tình nhân</item>
+        <item>Ngày chăm sóc tai thế giới</item>
+        <item>Ngày thanh niên tình nguyện</item>
+        <item>Ngày phụ nữ quốc tế</item>
+        <item>Ngày bảo vệ sông cái</item>
+        <item>Ngày hội trồng cây Trung Quốc</item>
+        <item>Valentine trắng, Ngày cảnh sát quốc tế</item>
+        <item>Ngày quyền của người tiêu dùng quốc tế</item>
+        <item>Ngày quốc tế về rừng, Ngày quốc tế ngủ</item>
+        <item>Ngày quốc tế nước</item>
+        <item>Ngày khí tượng thế giới</item>
+        <item>Ngày bệnh lao thế giới</item>
+        <item>愚人节</item>
+        <item>Lễ Thanh minh</item>
+        <item>Ngày sức khỏe thế giới</item>
+        <item>Ngày quốc tế trái đất</item>
+        <item>Ngày sở hữu trí tuệ thế giới</item>
+        <item>Ngày công nhân quốc tế</item>
+        <item>Ngày hen suyễn thế giới</item>
+        <item>Ngày thanh niên Trung Quốc</item>
+        <item>Ngày chữ thập đỏ thế giới</item>
+        <item>Ngày quốc tế y tá</item>
+        <item>Ngày quốc tế gia đình</item>
+        <item>Ngày viễn thông thế giới</item>
+        <item>Ngày dinh dưỡng sinh viên quốc gia</item>
+        <item>Ngày thế giới sữa</item>
+        <item>Ngày không hút thuốc lá thế giới</item>
+        <item>Ngày trẻ em quốc tế</item>
+        <item>Ngày Môi trường Thế giới</item>
+        <item>Ngày chăm sóc mắt thế giới</item>
+        <item>Ngày thế giới chống lại sa mạc hóa và hạn hán</item>
+        <item>Ngày Olympic quốc tế</item>
+        <item>Ngày quốc gia về đất</item>
+        <item>Ngày quốc tế chống lạm dụng ma túy</item>
+        <item>Ngày ra đời đảng cộng sản Trung Quốc, Ngày nông nghiệp quốc tế</item>
+        <item>Ngày chiến thắng chiến tranh của nhân dân Trung Quốc</item>
+        <item>Ngày dân số thế giới</item>
+        <item>Ngày quân đội giải phóng của nhân dân Trung Quốc</item>
+        <item>Ngày thanh niên quốc tế</item>
+        <item>Ngày biết chữ quốc tế</item>
+        <item>Ngày nhà giáo Trung Quốc</item>
+        <item>Ngày sức khỏe bộ não Trung Quốc, Ngày quốc tế bảo toàn tầng ôzôn</item>
+        <item>Ngày yêu răng quốc gia</item>
+        <item>Ngày ngừng chiến thế giới</item>
+        <item>Ngày du lịch thế giới</item>
+        <item>Ngày quốc khánh cộng hòa nhân dân Trung hoa, Ngày âm nhạc thế giới, Ngày của người cao tuổi quốc tế</item>
+        <item>Ngày động vật thế giới</item>
+        <item>Ngày nhà giáo thế giới</item>
+        <item>Ngày cao huyết áp quốc gia</item>
+        <item>Ngày bưu chính thế giới</item>
+        <item>Ngày sức khỏe tâm thần thế giới</item>
+        <item>Ngày tiêu chuẩn thế giới</item>
+        <item>Ngày quốc tế người khiếm thị, Ngày phụ nữ nông thôn thế giới</item>
+        <item>Ngày thực phẩm thế giới</item>
+        <item>Ngày quốc tế xóa đói giảm nghèo</item>
+        <item>Ngày liên hợp quốc, Ngày thông tin phát triển thế giới</item>
+        <item>Ngày sức khỏe nam giới Trung Quốc</item>
+        <item>Ngày thế giới về đa dạng sinh học</item>
+        <item>Halloween</item>
+        <item>Ngày nhà báo Trung Quốc</item>
+        <item>Ngày nhận thức hỏa hoạn</item>
+        <item>Ngày tiểu đường thế giới</item>
+        <item>Ngày sinh viên đại học quốc tế</item>
+        <item>Ngày quốc tế xóa bỏ bảo lực đối với phụ nữ</item>
+        <item>Ngày AIDS thế giới</item>
+        <item>Ngày quốc tế người khuyết tật</item>
+        <item>Ngày công khai quy phạm pháp luật quốc gia</item>
+        <item>Ngày bóng đá thế giới</item>
+        <item>Đêm Giáng Sinh</item>
+        <item>Giáng Sinh</item>
+        <item>Ngày thế giới về đa dạng sinh học</item>
+    </string-array>
+    <string-array name="complex_gregorian_holiday">
+        <item>Ngày bệnh phong thế giới</item>
+        <item>Ngày giáo dục an toàn cho các trường tiểu học và trung học cơ sở</item>
+        <item>Lễ phục sinh</item>
+        <item>Ngày của mẹ</item>
+        <item>Ngày người khuyết tật quốc gia</item>
+        <item>Ngày của cha</item>
+        <item>Ngày hòa bình quốc tế</item>
+        <item>Ngày giáo dục quốc phòng quốc gia</item>
+        <item>Ngày người khiếm thính quốc tế</item>
+        <item>Ngày định cư thế giới</item>
+        <item>Ngày lễ tạ ơn của Canada</item>
+        <item>Ngày phòng chống thiên tai quốc tế</item>
+        <item>Ngày thị giác thế giới</item>
+        <item>Ngày lễ tạ ơn của Mỹ</item>
+    </string-array>
+    <string-array name="year_name">
+        <item>〇</item>
+        <item>Thứ 2</item>
+        <item>T3</item>
+        <item>Thứ 4</item>
+        <item>Thứ 5</item>
+        <item>Thứ 6</item>
+        <item>Thứ 7</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+    </string-array>
+    <string-array name="month_name">
+        <item>Thứ 2</item>
+        <item>T3</item>
+        <item>Thứ 4</item>
+        <item>Thứ 5</item>
+        <item>Thứ 6</item>
+        <item>Thứ 7</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>" "</item>
+    </string-array>
+    <string-array name="Week_name">
+        <item>Chủ nhật</item>
+        <item>Thứ Hai</item>
+        <item>Thứ Ba</item>
+        <item>Thứ Tư</item>
+        <item>Thứ Năm</item>
+        <item>Thứ Sáu</item>
+        <item>Thứ Bảy</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/parentPanel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/text_zone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/vivo_progress_full_window_text_margin_progressbar" android:layout_above="@id/progress" android:layout_marginStart="@dimen/vivo_progress_full_window_margin_left_or_white" android:layout_marginEnd="@dimen/vivo_progress_full_window_margin_left_or_white">
+        <TextView android:gravity="start" android:id="@id/text_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" style="?attr/textAppearanceBootDialog" />
+        <TextView android:gravity="end" android:id="@id/text_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" style="?attr/textAppearanceBootDialog" />
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="@dimen/vivo_progress_full_window_progressbar_hight" android:layout_marginBottom="@dimen/vivo_progress_full_window_progressbar_margin_bottom" android:max="1000" android:layout_weight="1.0" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/vivo_progress_full_window_margin_left_or_white" android:layout_marginEnd="@dimen/vivo_progress_full_window_margin_left_or_white" android:mirrorForRtl="true" style="?attr/bootProgressBarStyle" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/vigour_wifi_stat_notify_wifi_in_range_default" android:maxLevel="0" />
+    <item android:drawable="@drawable/vigour_wifi_stat_notify_wifi_in_range_color" android:maxLevel="1" />
+    <item android:drawable="@drawable/vigour_wifi_stat_notify_wifi_in_range_bright" android:maxLevel="2" />
+</level-list>

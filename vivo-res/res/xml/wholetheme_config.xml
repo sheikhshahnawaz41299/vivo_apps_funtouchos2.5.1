@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme>
+    <version>1</version>
+    <package name="com.vivo.upslide">com.android.systemui</package>
+    <package name="com.vivo.upslide2">com.android.systemui</package>
+    <images package="com.android.systemui">
+        <image name="new_img_name1">old_img_name1</image>
+        <image name="new_img_name2">old_img_name2</image>
+    </images>
+    <images package="com.bbk.theme">
+        <image name="new_img_name3">old_img_name3</image>
+        <image name="new_img_name4">old_img_name4</image>
+    </images>
+</theme>

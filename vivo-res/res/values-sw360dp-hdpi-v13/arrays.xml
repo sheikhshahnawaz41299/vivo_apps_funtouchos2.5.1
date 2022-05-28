@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="linearview_padding_start">
+        <item>78</item>
+        <item>52</item>
+        <item>26</item>
+        <item>22</item>
+    </integer-array>
+    <integer-array name="linearview_padding_end">
+        <item>78</item>
+        <item>52</item>
+        <item>26</item>
+        <item>22</item>
+    </integer-array>
+    <integer-array name="linearview_item_space">
+        <item>0</item>
+        <item>52</item>
+        <item>26</item>
+        <item>22</item>
+    </integer-array>
+</resources>

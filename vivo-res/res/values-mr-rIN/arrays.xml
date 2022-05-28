@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lunar_months">
+        <item>正</item>
+        <item>मंगळ</item>
+        <item>बुध</item>
+        <item>गुरु</item>
+        <item>शुक्र</item>
+        <item>शनि</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>腊</item>
+    </string-array>
+    <string-array name="lunar_days_prefix">
+        <item>初</item>
+        <item>十</item>
+        <item>20</item>
+        <item>बुध</item>
+    </string-array>
+    <string-array name="lunar_days_suffix">
+        <item>सोम</item>
+        <item>मंगळ</item>
+        <item>बुध</item>
+        <item>गुरु</item>
+        <item>शुक्र</item>
+        <item>शनि</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+    </string-array>
+    <string-array name="solar_term">
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+        <item>春分</item>
+        <item>किंगमिंग महोत्सव</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>小雪</item>
+        <item>大雪</item>
+        <item>冬至</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_jan">
+        <item>नववर्षाचा दिवस</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_feb">
+        <item>व्हॅलेंटाइन्स डे</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_apr">
+        <item>愚人节</item>
+        <item>वसुंधरा दिवस</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_june">
+        <item>बालकदिन</item>
+        <item>जागतिक पर्यावरण दिवस</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_oct">
+        <item>国庆节</item>
+        <item>हॅलोवीन</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_dec">
+        <item>नाताळची पूर्वसंध्या</item>
+        <item>नाताळ</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday">
+        <item>नववर्षाचा दिवस</item>
+        <item>जागतिक वेटलॅन्ड्स दिन</item>
+        <item>व्हॅलेंटाइन्स डे</item>
+        <item>राष्ट्रीय ईअर केअर दिन</item>
+        <item>युवा स्वयंसेवक सेवा दिवस</item>
+        <item>आंतरराष्ट्रीय महिला दिन</item>
+        <item>मदर रीव्हर प्रोटेक्शन दिन</item>
+        <item>चिनी अर्बॉर दिन</item>
+        <item>व्हाइट व्हॅलेंटाईन, आंतरराष्ट्रीय पोलीस दिवस</item>
+        <item>जागतिक ग्राहक हक्क दिन</item>
+        <item>जागतिक वनीकरण दिन, जागतिक झोप दिवस</item>
+        <item>जागतिक जल दिन</item>
+        <item>जागतिक हवामान दिन</item>
+        <item>जागतिक क्षयरोग दिन</item>
+        <item>愚人节</item>
+        <item>किंगमिंग महोत्सव</item>
+        <item>जागतिक आरोग्य दिन</item>
+        <item>जागतिक वसुंधरा दिवस</item>
+        <item>जागतिक बौद्धिक संपदा दिवस</item>
+        <item>आंतरराष्ट्रीय कामगार दिवस</item>
+        <item>जागतिक दमा दिवस</item>
+        <item>चीनी युवा दिन</item>
+        <item>जागतिक रेड क्रॉस दिन</item>
+        <item>आंतरराष्ट्रीय परिचारिका दिवस</item>
+        <item>आंतरराष्ट्रीय कुटुंब दिवस</item>
+        <item>जागतिक दूरसंचार दिन</item>
+        <item>राष्ट्रीय विद्यार्थी पोषक आहार दिवस</item>
+        <item>जागतिक दूध दिवस</item>
+        <item>जागतिक तंबाखू विरोधी दिवस</item>
+        <item>आंतरराष्ट्रीय बालदिन</item>
+        <item>जागतिक पर्यावरण दिवस</item>
+        <item>राष्ट्रीय आय केअर दिवस</item>
+        <item>वर्ल्ड डे टू कॉम्बॅट डेझर्टिफिकेशन अ‍ॅन्ड ड्रॉट</item>
+        <item>आंतरराष्ट्रीय ऑलिम्पिक दिन</item>
+        <item>राष्ट्रीय जमीन दिन</item>
+        <item>आंतरराष्ट्रीय अमली पदार्थ वापर विरोधी दिन</item>
+        <item>चीन कम्युनिस्ट पक्षाचा वाढदिवस, आंतरराष्ट्रीय आर्किटेक्चर दिवस</item>
+        <item>चायनीज पीपल्स अ‍ॅन्टी-जॅपनीज वॉर व्हिक्टरी डे</item>
+        <item>जागतिक लोकसंख्या दिन</item>
+        <item>चीनी पीपल्स लिबरेशन आर्मी दिवस</item>
+        <item>आंतरराष्ट्रीय युवा दिन</item>
+        <item>आंतरराष्ट्रीय साक्षरता दिन</item>
+        <item>चीनी शिक्षक दिवस</item>
+        <item>चायनीज ब्रेन हेल्थ डे, इंटरनॅशनल डे फॉर प्रीझर्वेशन ऑफ ओझोन लेयर</item>
+        <item>राष्ट्रीय आपल्या दातांची काळजी घेण्याचा दिवस</item>
+        <item>जागतिक युद्धबंदी दिवस</item>
+        <item>जागतिक पर्यटन दिन</item>
+        <item>PRC चा राष्ट्रीय दिन, आंतरराष्ट्रीय संगीत दिन, वृद्धांचा आंतरराष्ट्रीय दिन</item>
+        <item>जागतिक पशु दिवस</item>
+        <item>जागतिक शिक्षक दिन</item>
+        <item>राष्ट्रीय उच्च रक्तदाब दिवस</item>
+        <item>जागतिक पोस्ट दिवस</item>
+        <item>जागतिक मानसिक आरोग्य दिन</item>
+        <item>जागतिक मानके दिवस</item>
+        <item>अंध, जागतिक ग्रामीण महिला दिन आंतरराष्ट्रीय दिवस</item>
+        <item>जागतिक अन्न दिन</item>
+        <item>गरीबी निर्मूलन आंतरराष्ट्रीय दिवस</item>
+        <item>युनायटेड नेशन्स दिन, जागतिक विकास माहिती दिवस</item>
+        <item>चीनी पुरूषांचे आरोग्य दिन</item>
+        <item>जैविक विविधता आंतरराष्ट्रीय दिवस</item>
+        <item>हॅलोवीन</item>
+        <item>चीनी पत्रकार दिन</item>
+        <item>अग्निशमन जागृती दिन</item>
+        <item>जागतिक मधुमेह दिवस</item>
+        <item>आंतरराष्ट्रीय महाविद्यालयीन विद्यार्थी दिवस</item>
+        <item>महिला हिंसा निर्मूलन आंतरराष्ट्रीय दिवस</item>
+        <item>जागतिक AIDS दिन</item>
+        <item>अपंग व्यक्तींसाठी आंतरराष्ट्रीय दिवस</item>
+        <item>राष्ट्रीय कायदेशीर प्रसिद्धी दिवस</item>
+        <item>जागतिक फुटबॉल दिवस</item>
+        <item>नाताळची पूर्वसंध्या</item>
+        <item>नाताळ</item>
+        <item>जैविक विविधता आंतरराष्ट्रीय दिवस</item>
+    </string-array>
+    <string-array name="complex_gregorian_holiday">
+        <item>जागतिक कुष्ठरोग दिवस</item>
+        <item>प्राथमिक व माध्यमिक शाळांसाठी सुरक्षितता शिक्षण दिन</item>
+        <item>ईस्टर</item>
+        <item>मातृदिन</item>
+        <item>राष्ट्रीय अपंग दिन</item>
+        <item>पितृदिन</item>
+        <item>आंतरराष्ट्रीय शांती दिवस</item>
+        <item>राष्ट्रीय संरक्षण शिक्षण दिन</item>
+        <item>आंतरराष्ट्रीय बधिर दिन</item>
+        <item>जागतिक गृहनिर्माण दिवस</item>
+        <item>कॅनेडियन थँक्सगिव्हिंग डे</item>
+        <item>नैसर्गिक आपत्ती कपातीचा आंतरराष्ट्रीय दिवस</item>
+        <item>जागतिक दृष्टी दिन</item>
+        <item>अमेरिकन थँक्सगिव्हिंग डे</item>
+    </string-array>
+    <string-array name="year_name">
+        <item>〇</item>
+        <item>सोम</item>
+        <item>मंगळ</item>
+        <item>बुध</item>
+        <item>गुरु</item>
+        <item>शुक्र</item>
+        <item>शनि</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+    </string-array>
+    <string-array name="month_name">
+        <item>सोम</item>
+        <item>मंगळ</item>
+        <item>बुध</item>
+        <item>गुरु</item>
+        <item>शुक्र</item>
+        <item>शनि</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>" "</item>
+    </string-array>
+    <string-array name="Week_name">
+        <item>रविवार</item>
+        <item>सोमवार</item>
+        <item>मंगळवार</item>
+        <item>बुधवार</item>
+        <item>गुरूवार</item>
+        <item>शुक्रवार</item>
+        <item>शनिवार</item>
+    </string-array>
+</resources>

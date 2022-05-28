@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lunar_months">
+        <item>正</item>
+        <item>মঙল</item>
+        <item>বুধ</item>
+        <item>বৃহস্পতি</item>
+        <item>শুকুৰ</item>
+        <item>শনি</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>腊</item>
+    </string-array>
+    <string-array name="lunar_days_prefix">
+        <item>初</item>
+        <item>十</item>
+        <item>বিশ</item>
+        <item>বুধ</item>
+    </string-array>
+    <string-array name="lunar_days_suffix">
+        <item>সোমবাৰ</item>
+        <item>মঙল</item>
+        <item>বুধ</item>
+        <item>বৃহস্পতি</item>
+        <item>শুকুৰ</item>
+        <item>শনি</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+    </string-array>
+    <string-array name="solar_term">
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+        <item>春分</item>
+        <item>কুইঙ্গমিঙ্গ উত্সৱ</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>পাতলীয়া হিম</item>
+        <item>ডাঙৰ হিম</item>
+        <item>冬至</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_jan">
+        <item>নতুন বছৰৰ প্ৰথম দিন</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_feb">
+        <item>ভেলেণ্টাইন ডে</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_mar">
+        <item>মহিলা দিৱস</item>
+        <item>গছ ৰোৱা দিৱস</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_apr">
+        <item>এপ্ৰিল ফুল ডে</item>
+        <item>ধৰিত্ৰী দিৱস</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_may">
+        <item>আন্তঃৰাষ্ট্ৰীয় শ্ৰমিক দিৱস</item>
+        <item>青年节</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_june">
+        <item>শিশু দিৱস</item>
+        <item>বিশ্ব পৰিবেশ দিৱস</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_aug">
+        <item>সশস্ত্ৰ বাহিনী দিৱস</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_sept">
+        <item>শিক্ষক দিৱস</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_oct">
+        <item>ৰাষ্ট্ৰীয় দিৱস</item>
+        <item>"হেল'ৱেন"</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_dec">
+        <item>খ্ৰীষ্টমাছৰ পূৰ্ব সন্ধ্যা</item>
+        <item>বৰদিন</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday">
+        <item>নতুন বছৰৰ প্ৰথম দিন</item>
+        <item>বিশ্ব জলাভূমি দিৱস</item>
+        <item>ভেলেণ্টাইন ডে</item>
+        <item>ৰাষ্ট্ৰীয় শ্ৰৱণ শক্তিৰ যতন দিৱস</item>
+        <item>যুৱ স্বেচ্চাসেৱক সেৱা দিৱস</item>
+        <item>আন্তঃৰাষ্ট্ৰীয় মহিলা দিৱস</item>
+        <item>মাতৃ নদী সুৰক্ষা দিৱস</item>
+        <item>চাইনিজ বৃক্ষ দিৱস</item>
+        <item>হোৱাইট ভেলেণ্টাইন, আন্তঃৰাষ্ট্ৰীয় আৰক্ষী দিৱস</item>
+        <item>বিশ্ব গ্ৰাহক অধিকাৰ দিৱস</item>
+        <item>বিশ্ব বনানিকৰণ দিৱস, বিশ্ব শুপ্ত দিৱস</item>
+        <item>বিশ্ব জল দিৱস</item>
+        <item>বিশ্ব বতৰ সম্বন্ধীয় দিৱস</item>
+        <item>বিশ্ব যক্ষ্মা দিৱস</item>
+        <item>এপ্ৰিল ফুল ডে</item>
+        <item>Qingming Festival</item>
+        <item>বিশ্ব স্বাস্থ্য দিৱস</item>
+        <item>বিশ্ব ধৰণী দিৱস</item>
+        <item>বিশ্ব বৌদ্ধিক সম্পত্তি দিৱস</item>
+        <item>আন্তঃৰাষ্ট্ৰীয় শ্ৰমিক দিৱস</item>
+        <item>বিশ্ব হাপানি দিৱস</item>
+        <item>চাইনিজ যুৱ দিৱস</item>
+        <item>বিশ্ব ৰেড ক্ৰচ দিৱস</item>
+        <item>আন্তঃৰাষ্ট্ৰীয় পৰিসেৱিকা দিৱস</item>
+        <item>আন্তঃৰাষ্ট্ৰীয় পৰিয়াল দিৱস</item>
+        <item>বিশ্ব দূৰসংযোগ দিৱস</item>
+        <item>ৰাষ্ট্ৰীয় শিক্ষাৰ্থী পৰিপুষ্টি দিৱস</item>
+        <item>বিশ্ব দুগ্ধ দিৱস</item>
+        <item>"বিশ্ব ন' টবাকো দিৱস"</item>
+        <item>আন্তঃৰাষ্ট্ৰীয় শিশু দিৱস</item>
+        <item>World Environment Day</item>
+        <item>ৰাষ্ট্ৰীয় চকুৰ যতন দিৱস</item>
+        <item>মৰুভূমি আৰু খৰাংৰ পৰা মুক্তিৰ বিশ্ব দিৱস</item>
+        <item>আন্তঃৰাষ্ট্ৰীয় অলিম্পিক দিৱস</item>
+        <item>ৰাষ্ট্ৰীয় ভূমি দিৱস</item>
+        <item>ড্ৰাগ কেলেংকাৰিৰ বিৰুদ্ধে আন্তঃৰাষ্ট্ৰীয় দিৱস</item>
+        <item>Birthday of Communist Party of China, International Architecture Day</item>
+        <item>"Chinese People's War Victory Day"</item>
+        <item>বিশ্ব জনসংখ্যা দিৱস</item>
+        <item>"Day of Chinese People's Liberation Army"</item>
+        <item>আন্তঃৰাষ্ট্ৰীয় যুৱ দিৱস</item>
+        <item>আন্তঃৰাষ্ট্ৰীয় সাক্ষৰতা দিৱস</item>
+        <item>"Chinese Teacher's Day"</item>
+        <item>Chinese Brain Health Day, International Day for the Preservation of the Ozone Layer</item>
+        <item>ৰাষ্ট্ৰীয় দাঁতৰ যতনৰ দিৱস</item>
+        <item>বিশ্ব যুদ্ধবিৰতি দিৱস</item>
+        <item>বিশ্ব পৰ্যতন দিৱস</item>
+        <item>National Day of PRC, International Music Day, International Day of Older Persons</item>
+        <item>বিশ্ব জীৱ-জন্তু দিৱস</item>
+        <item>বিশ্ব শিক্ষক দিৱস</item>
+        <item>ৰাষ্ট্ৰীয় উচ্চৰক্তচাপ দিৱস</item>
+        <item>বিশ্ব পোষ্ট দিৱস</item>
+        <item>বিশ্ব মানসিক স্বাস্থ্য দিৱস</item>
+        <item>বিশ্ব মানদণ্ড দিৱস</item>
+        <item>আন্তঃৰাষ্ট্ৰীয় নেত্ৰহীনৰ দিৱস, বিশ্ব গ্ৰামীণ মহিলা দিৱস</item>
+        <item>বিশ্ব খাদ্য দিৱস</item>
+        <item>দৰিদ্ৰৰ শিক্ষাৰ কাৰণে আন্তঃৰাষ্ট্ৰীয় দিৱস</item>
+        <item>ৰাষ্ট্ৰসংঘ দিৱস, বিশ্ব উন্নয়ন তথ্য দিৱস</item>
+        <item>চাইনিজ পুৰুষৰ স্বাস্থ্য দিৱস</item>
+        <item>জীৱবিজ্ঞান সম্পৰ্কীয় বিবিধতাৰ কাৰণে আন্তঃৰাষ্ট্ৰীয় দিৱস</item>
+        <item>"হেল'ৱেন"</item>
+        <item>"Chinese Journalists' Day"</item>
+        <item>অগ্নি সচেতনতা দিৱস</item>
+        <item>বিশ্ব ডায়েবেটিচ দিৱস</item>
+        <item>আন্তঃৰাষ্ট্ৰীয় বিশ্ববিদ্যালয় শিক্ষাৰ্থী দিৱস</item>
+        <item>মহিলাৰ প্ৰতি হিংসা দূৰীকৰণৰ কাৰণে আন্তঃৰাষ্ট্ৰীয় দিৱস</item>
+        <item>বিশ্ব এইডচ্ দিৱস</item>
+        <item>বিকলাংগ ব্যক্তিৰ আন্তঃৰাষ্ট্ৰীয় দিৱস</item>
+        <item>ৰাষ্ট্ৰীয় আইনী প্ৰচাৰ দিৱস</item>
+        <item>বিশ্ব ফুটবল দিৱস</item>
+        <item>খ্ৰীষ্টমাছৰ পূৰ্ব সন্ধ্যা</item>
+        <item>বৰদিন</item>
+        <item>জীৱবিজ্ঞান সম্পৰ্কীয় বিবিধতাৰ কাৰণে আন্তঃৰাষ্ট্ৰীয় দিৱস</item>
+    </string-array>
+    <string-array name="complex_gregorian_holiday">
+        <item>"বিশ্ব লেপ্ৰ'চি ডে"</item>
+        <item>প্ৰাথমিক আৰু উচ্চতৰ বিদ্যালয়ৰ কাৰণে সুৰক্ষা শিক্ষা দিৱস</item>
+        <item>ইষ্টাৰ</item>
+        <item>মাতৃ দিৱস</item>
+        <item>ৰাষ্ট্ৰীয় বিকলাঙ্গতা দিৱস</item>
+        <item>পিতৃ দিৱস</item>
+        <item>আন্তঃৰাষ্ট্ৰীয় শান্তি দিৱস</item>
+        <item>ৰাষ্ট্ৰীয় প্ৰতিৰক্ষা শিক্ষা দিৱস</item>
+        <item>আন্তঃৰাষ্ট্ৰীয় বধিৰ দিৱস</item>
+        <item>বিশ্ব আবাস দিৱস</item>
+        <item>কেনেডিয়ান কৃতজ্ঞতা জ্ঞাপন দিৱস</item>
+        <item>আন্তঃৰাষ্ট্ৰীয় প্ৰাকৃতিক দুৰ্যোগ হ্ৰাসকৰণ দিৱস</item>
+        <item>বিশ্ব দৃষ্টি দিৱস</item>
+        <item>US কৃতজ্ঞতা জ্ঞাপন দিৱস</item>
+    </string-array>
+    <string-array name="lunar_holiday">
+        <item>বসন্ত উত্সৱ</item>
+        <item>元宵节</item>
+        <item>端午节</item>
+        <item>চীনা ভেলেণ্টাইন ডে</item>
+        <item>中秋节</item>
+        <item>重阳节</item>
+        <item>腊八节</item>
+    </string-array>
+    <string-array name="year_name">
+        <item>〇</item>
+        <item>সোমবাৰ</item>
+        <item>মঙল</item>
+        <item>বুধ</item>
+        <item>বৃহস্পতি</item>
+        <item>শুকুৰ</item>
+        <item>শনি</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+    </string-array>
+    <string-array name="month_name">
+        <item>সোমবাৰ</item>
+        <item>মঙল</item>
+        <item>বুধ</item>
+        <item>বৃহস্পতি</item>
+        <item>শুকুৰ</item>
+        <item>শনি</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>" "</item>
+    </string-array>
+    <string-array name="Week_name">
+        <item>দেওবাৰ</item>
+        <item>সোমবাৰ</item>
+        <item>মঙ্গলবাৰ</item>
+        <item>বুধবাৰ</item>
+        <item>বৃহস্পতিবাৰ</item>
+        <item>শুকুৰবাৰ</item>
+        <item>শনিবাৰ</item>
+    </string-array>
+</resources>

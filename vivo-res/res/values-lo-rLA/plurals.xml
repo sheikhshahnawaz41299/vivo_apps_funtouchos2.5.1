@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="vivo_hotspot_notification_dataUsage_plurals">
+        <item quantity="other">%1$s MB ຂອງຂໍ້ມູນໄດ້ຖືກແຊຣ໌ຜ່ານ Wi-Fi (ການເຊື່ອມຕໍ່ %2$d)</item>
+        <item quantity="one">%1$s MB ຂອງຂໍ້ມູນໄດ້ຖືກແຊຣ໌ຜ່ານ Wi-Fi (ການເຊື່ອມຕໍ່ %2$d)</item>
+    </plurals>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/parent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:vivo="http://schemas.android.com/apk/res/vivo">
+    <View android:background="?pickerBanner" android:layout_width="fill_parent" android:layout_height="@dimen/scroll_number_picker_scroll_item_height" android:layout_centerInParent="true" />
+    <com.vivo.common.widget.LunarScrollNumberPicker android:id="@id/bbk_year" android:layout_width="126.0dip" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_alignParentLeft="true" vivo:scrollItemSize="@dimen/lunar_date_picker_scroll_item_size" vivo:selectedItemSize="@dimen/lunar_date_picker_select_item_size" />
+    <com.vivo.common.widget.LunarScrollNumberPicker android:id="@id/bbk_month" android:layout_width="78.0dip" android:layout_height="wrap_content" android:layout_toRightOf="@id/bbk_year" vivo:scrollItemSize="@dimen/lunar_date_picker_scroll_item_size" vivo:selectedItemSize="@dimen/lunar_date_picker_select_item_size" />
+    <com.vivo.common.widget.LunarScrollNumberPicker android:id="@id/bbk_day" android:layout_width="78.0dip" android:layout_height="wrap_content" android:layout_marginRight="17.0dip" android:layout_alignParentRight="true" vivo:scrollItemSize="@dimen/lunar_date_picker_scroll_item_size" vivo:selectedItemSize="@dimen/lunar_date_picker_select_item_size" />
+</RelativeLayout>

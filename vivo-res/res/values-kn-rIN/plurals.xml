@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="vivo_hotspot_notification_dataUsage_plurals">
+        <item quantity="other">Wi-Fi (%2$d ಸಂಪರ್ಕ) ಮೂಲಕ %1$s MBರಷ್ಟು ಡೇಟಾ ಹಂಚಿಕೊಳ್ಳಲಾಗಿದೆ</item>
+        <item quantity="one">Wi-Fi (%2$d ಸಂಪರ್ಕ) ಮೂಲಕ %1$s MBರಷ್ಟು ಡೇಟಾ ಹಂಚಿಕೊಳ್ಳಲಾಗಿದೆ</item>
+    </plurals>
+</resources>

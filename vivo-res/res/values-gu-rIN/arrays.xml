@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lunar_months">
+        <item>正</item>
+        <item>મંગળ</item>
+        <item>બુધ</item>
+        <item>ગુરુ</item>
+        <item>શુક્ર</item>
+        <item>શનિ</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>腊</item>
+    </string-array>
+    <string-array name="lunar_days_prefix">
+        <item>初</item>
+        <item>十</item>
+        <item>20</item>
+        <item>બુધ</item>
+    </string-array>
+    <string-array name="lunar_days_suffix">
+        <item>સોમ</item>
+        <item>મંગળ</item>
+        <item>બુધ</item>
+        <item>ગુરુ</item>
+        <item>શુક્ર</item>
+        <item>શનિ</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+    </string-array>
+    <string-array name="solar_term">
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+        <item>春分</item>
+        <item>ક્વિંગમિંગ તહેવાર</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>小雪</item>
+        <item>大雪</item>
+        <item>冬至</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_jan">
+        <item>નવ વર્ષ દિવસ</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_feb">
+        <item>વેલેન્ટાઇન્સ ડે</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_apr">
+        <item>愚人节</item>
+        <item>પૃથ્વી દિવસ</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_june">
+        <item>બાળ દિન</item>
+        <item>વિશ્વ પર્યાવરણ દિવસ</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_oct">
+        <item>国庆节</item>
+        <item>હેલોવિન</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_dec">
+        <item>નાતાલની પૂર્વસંધ્યા</item>
+        <item>નાતાલ</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday">
+        <item>નવ વર્ષ દિવસ</item>
+        <item>વર્લ્ડ વેટલેન્ડઝ ડે</item>
+        <item>વેલેન્ટાઇન્સ ડે</item>
+        <item>નેશનલ ઇયરકેર ડે</item>
+        <item>યુવા સ્વયંસેવક સેવા દિવસ</item>
+        <item>આંતરરાષ્ટ્રીય મહિલા દિવસ</item>
+        <item>માતા નદી રક્ષણ દિવસ</item>
+        <item>ચીની આર્બોર ડે</item>
+        <item>વ્હાઇટ વેલેન્ટાઇન આંતરરાષ્ટ્રીય પોલીસ ડે</item>
+        <item>વર્લ્ડ કન્ઝ્યુમર રાઇટ્સ ડે</item>
+        <item>વર્લ્ડ ફોરેસ્ટ્રી ડે, વિશ્વ સ્લીપ ડે</item>
+        <item>વર્લ્ડ વોટર ડે</item>
+        <item>વિશ્વ હવામાન દિવસ</item>
+        <item>વિશ્વ ક્ષય દિવસ</item>
+        <item>愚人节</item>
+        <item>ક્વિંગમિંગ તહેવાર</item>
+        <item>વિશ્વ આરોગ્ય દિવસ</item>
+        <item>વર્લ્ડ પૃથ્વી દિવસ</item>
+        <item>વર્લ્ડ ઇન્ટલેક્ચ્યુઅલ પ્રોપર્ટી ડે</item>
+        <item>આંતરરાષ્ટ્રીય મજદૂર દિવસ</item>
+        <item>વર્લ્ડ અસ્થમા ડે</item>
+        <item>ચિની યુવા દિવસ</item>
+        <item>વર્લ્ડ રેડ ક્રોસ ડે</item>
+        <item>આંતરરાષ્ટ્રીય નર્સ દિવસ</item>
+        <item>પરિવારોનો આંતરરાષ્ટ્રીય દિવસ</item>
+        <item>વિશ્વ દૂરસંચાર દિવસ</item>
+        <item>રાષ્ટ્રીય વિદ્યાર્થી પોષણ દિવસ</item>
+        <item>વર્લ્ડ મિલ્ક ડે</item>
+        <item>વર્લ્ડ નો ટોબેકો ડે</item>
+        <item>આંતરરાષ્ટ્રીય બાળ દિવસ</item>
+        <item>વિશ્વ પર્યાવરણ દિવસ</item>
+        <item>નેશનલ આઈ કેર ડે</item>
+        <item>વિશ્વ રણીકરણ અને દુકાળ અટકાવો દિવસ</item>
+        <item>આંતરરાષ્ટ્રીય ઓલિમ્પિક દિવસ</item>
+        <item>રાષ્ટ્રીય જમીન સિવસ</item>
+        <item>ઇન્ટરનેશનલ ડે અગેઇન્સ્ટ ડ્રગ એબ્યૂઝ</item>
+        <item>ચીનની કોમ્યુનિસ્ટ પાર્ટીનો જન્મદિવસ, આંતરરાષ્ટ્રીય આર્કિટેક્ચર દિવસ</item>
+        <item>ચાઇનીઝ પીપલ્સ એન્ટિ-જાપાનીઝ વૉર વિક્ટરી</item>
+        <item>વર્લ્ડ પોપ્યુલેશન ડે</item>
+        <item>ચિની પીપલ્સ લિબરેશન આર્મી ડે</item>
+        <item>ઇન્ટરનેશનલ યુથ ડે</item>
+        <item>આંતરરાષ્ટ્રીય સાક્ષરતા દિવસ</item>
+        <item>ચિની શિક્ષક દિવસ</item>
+        <item>ચાઇનીઝ બ્રેન હેલ્થ ડે, આંતરરાષ્ટ્રીય ઓઝોન સ્તર સંરક્ષણ દિવસ</item>
+        <item>નેશનલ લવ યોર ટીથ ડે</item>
+        <item>વિશ્વ યુદ્ધવિરામ દિવસ</item>
+        <item>વિશ્વ પર્યટન દિવસ</item>
+        <item>PRC નો રાષ્ટ્રીય દિવસ, આંતરરાષ્ટ્રીય સંગીત દિવસ, વૃદ્ધ વ્યક્તિઓનો આંતરરાષ્ટ્રીય દિવસ</item>
+        <item>વર્લ્ડ એનિમલ ડે</item>
+        <item>વિશ્વ શિક્ષક દિવસ</item>
+        <item>નેશનલ હાઇપરટેન્શન ડે</item>
+        <item>વર્લ્ડ પોસ્ટ ડે</item>
+        <item>વર્લ્ડ મેન્ટલ હેલ્થ ડે</item>
+        <item>વર્લ્ડ સ્ટાન્ડર્ડ ડે</item>
+        <item>આંતરરાષ્ટ્રીય અંધ દિવસ, વિશ્વ ગ્રામીણ મહિલા દિવસ</item>
+        <item>વર્લ્ડ ફૂડ ડે</item>
+        <item>ગરીબી નિવારણ માટે આંતરરાષ્ટ્રીય દિવસ</item>
+        <item>યુનાઇટેડ નેશન્સ ડે, વિશ્વ બેન્ક માહિતી દિવસ</item>
+        <item>ચાઇનીઝ મેન્સ હેલ્થ ડે</item>
+        <item>જૈવિક વિવિધતા આંતરરાષ્ટ્રીય દિવસ</item>
+        <item>હેલોવિન</item>
+        <item>ચીની પત્રકારોનો દિવસ</item>
+        <item>અગ્નિ જાગૃતિ દિવસ</item>
+        <item>વિશ્વ ડાયાબિટીસ દિવસ</item>
+        <item>આંતરરાષ્ટ્રીય કોલેજ વિદ્યાર્થી દિવસ</item>
+        <item>મહિલાઓ સામે હિંસાની નાબૂદી માટે આંતરરાષ્ટ્રીય દિવસ</item>
+        <item>વિશ્વ AIDS દિવસ</item>
+        <item>અપંગ વ્યક્તિઓનો આંતરરાષ્ટ્રીય દિવસ</item>
+        <item>રાષ્ટ્રીય કાનૂની પ્રચાર દિવસ</item>
+        <item>વર્લ્ડ ફૂટબૉલ ડે</item>
+        <item>નાતાલની પૂર્વસંધ્યા</item>
+        <item>નાતાલ</item>
+        <item>જૈવિક વિવિધતા આંતરરાષ્ટ્રીય દિવસ</item>
+    </string-array>
+    <string-array name="complex_gregorian_holiday">
+        <item>વિશ્વ રકતપિત્ત દિવસ</item>
+        <item>પ્રાથમિક અને માધ્યમિક શાળાઓ માટે સલામતી શિક્ષણ દિવસ</item>
+        <item>ઇસ્ટર</item>
+        <item>માતૃ દિન</item>
+        <item>રાષ્ટ્રીય અપંગ દિવસ</item>
+        <item>પિતૃ દિન</item>
+        <item>આંતરરાષ્ટ્રીય શાંતિ દિવસ</item>
+        <item>રાષ્ટ્રીય રક્ષા શિક્ષણ દિવસ</item>
+        <item>આંતરરાષ્ટ્રીય બધિર દિવસ</item>
+        <item>વિશ્વ ગૃહ દિવસ</item>
+        <item>કેનેડિયન થેંક્સગિવીંગ ડે</item>
+        <item>આંતરરાષ્ટ્રીય પ્રાકૃતિક વિપત્તિ ઘટાડો દિવસ</item>
+        <item>વિશ્વ દૃષ્ટિ દિવસ</item>
+        <item>યુએસ થેંક્સગિવીંગ ડે</item>
+    </string-array>
+    <string-array name="year_name">
+        <item>〇</item>
+        <item>સોમ</item>
+        <item>મંગળ</item>
+        <item>બુધ</item>
+        <item>ગુરુ</item>
+        <item>શુક્ર</item>
+        <item>શનિ</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+    </string-array>
+    <string-array name="month_name">
+        <item>સોમ</item>
+        <item>મંગળ</item>
+        <item>બુધ</item>
+        <item>ગુરુ</item>
+        <item>શુક્ર</item>
+        <item>શનિ</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>" "</item>
+    </string-array>
+    <string-array name="Week_name">
+        <item>રવિવાર</item>
+        <item>સોમવાર</item>
+        <item>મંગળવાર</item>
+        <item>બુધવાર</item>
+        <item>ગુરુવાર</item>
+        <item>શુક્રવાર</item>
+        <item>શનિવાર</item>
+    </string-array>
+</resources>

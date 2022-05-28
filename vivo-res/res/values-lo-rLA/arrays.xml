@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lunar_months">
+        <item>正</item>
+        <item>ຄານ</item>
+        <item>ພຸດ</item>
+        <item>ພະຫັດ</item>
+        <item>ວັນສຸກ</item>
+        <item>​ເສົາ</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>腊</item>
+    </string-array>
+    <string-array name="lunar_days_prefix">
+        <item>初</item>
+        <item>十</item>
+        <item>ຊາວ</item>
+        <item>ພຸດ</item>
+    </string-array>
+    <string-array name="lunar_days_suffix">
+        <item>ຈັນ</item>
+        <item>ຄານ</item>
+        <item>ພຸດ</item>
+        <item>ພະຫັດ</item>
+        <item>ວັນສຸກ</item>
+        <item>​ເສົາ</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+    </string-array>
+    <string-array name="solar_term">
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+        <item>春分</item>
+        <item>ເທດສະການເຊັງເມັງ</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>ຫິມະເບົາ</item>
+        <item>ຫິມະຕົກໜັກ</item>
+        <item>冬至</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_jan">
+        <item>ວັນປີໃໝ່</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_feb">
+        <item>ວັນວາເລັນໄທນ໌</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_mar">
+        <item>ວັນແມ່ຍິງ</item>
+        <item>ວັນປູກຕົ້ນໄມ້</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_apr">
+        <item>ວັນຂີ້ຕວົະ</item>
+        <item>ວັນຄຸ້ມຄອງໂລກ</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_may">
+        <item>ວັນກຳມະກອນສາກົນ</item>
+        <item>青年节</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_june">
+        <item>ວັນເດັກນ້ອຍ</item>
+        <item>ວັນສິ່ງແວດລ້ອມໂລກ</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_aug">
+        <item>ວັນກອງທັບ</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_sept">
+        <item>ວັນຄູ</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_oct">
+        <item>ວັນຊາດ</item>
+        <item>ຮາໂລວີນ</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_dec">
+        <item>ເທດສະການຄຣິສມາດ</item>
+        <item>ຄຣິສມາດ</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday">
+        <item>ວັນປີໃໝ່</item>
+        <item>ວັນເວັດແລນໂລກ</item>
+        <item>ວັນວາເລັນໄທນ໌</item>
+        <item>ວັນການດູແລຫູແຫ່ງຊາດ</item>
+        <item>ວັນອາສາສະໝັກເຍົາວະຊົນໂລກ</item>
+        <item>ວັນແມ່ຍິງສາກົນ</item>
+        <item>ວັນປົກປ້ອງແມ່ນ້ຳ</item>
+        <item>ວັນຕົ້ນໄມ້ຂອງປະເທດຈີນ</item>
+        <item>ວັນວະເລັນທາຍສີຂາວ, ວັນຕຳຫຼວດສາກົນ</item>
+        <item>ວັນສິດທິມະນຸດໂລກ</item>
+        <item>ວັນປ່າໄມ້ໂລກ, ວັນການນອນໂລກ</item>
+        <item>ວັນນ້ຳໂລກ</item>
+        <item>ວັນອຸຕຸນິຍົມວິທະຍາໂລກ</item>
+        <item>ວັນວັນນະໂລກໂລກ</item>
+        <item>ວັນຂີ້ຕວົະ</item>
+        <item>Qingming Festival</item>
+        <item>ວັນອະນາໄມໂລກ</item>
+        <item>ວັນແຜ່ນດິນໂລກ</item>
+        <item>ວັນຊັບສິນທາງປັນຍາໂລກ</item>
+        <item>ວັນກຳມະກອນສາກົນ</item>
+        <item>ວັນພະຍາດຫືດໂລກ</item>
+        <item>ວັນເຍົາວະຊົນຂອງປະເທດຈີນ</item>
+        <item>ວັນກາແດງໂລກ</item>
+        <item>ວັນພະຍາບານສາກົນ</item>
+        <item>ວັນຄອບຄົວສາກົນ</item>
+        <item>ວັນໂທລະຄົມມະນາຄົມໂລກ</item>
+        <item>ວັນໂພຊະນາການນັກສຶກສາແຫ່ງຊາດ</item>
+        <item>ວັນດື່ມນົມໂລກ</item>
+        <item>ວັນງົດຢາສູບໂລກ</item>
+        <item>ວັນເດັກນ້ອຍສາກົນ</item>
+        <item>World Environment Day</item>
+        <item>ວັນດູແລຕາແຫ່ງຊາດ</item>
+        <item>ວັນຕໍ່ຕ້ານການເປັນທະເລຊາຍແລະຄວາມແຫ້ງແລ້ງໂລກ</item>
+        <item>ວັນກິລາໂອລິມປິກສາກົນ</item>
+        <item>ວັນທີ່ດິນແຫ່ງຊາດ</item>
+        <item>ວັນຕໍ່ຕ້ານຢາເສບຕິດສາກົນ</item>
+        <item>Birthday of Communist Party of China, International Architecture Day</item>
+        <item>"Chinese People's War Victory Day"</item>
+        <item>ວັນປະຊາກອນໂລກ</item>
+        <item>"Day of Chinese People's Liberation Army"</item>
+        <item>ວັນເຍົາວະຊົນສາກົນ</item>
+        <item>ວັນລົບລ້າງການກືກໜັງສືສາກົນ</item>
+        <item>"Chinese Teacher's Day"</item>
+        <item>Chinese Brain Health Day, International Day for the Preservation of the Ozone Layer</item>
+        <item>ວັນຮັກແຂ້ວແຫ່ງຊາດ</item>
+        <item>ວັນຢຸດຍິງໂລກ</item>
+        <item>ວັນທ່ອງທ່ຽວໂລກ</item>
+        <item>National Day of PRC, International Music Day, International Day of Older Persons</item>
+        <item>ວັນສັດໂລກ</item>
+        <item>ວັນຄູໂລກ</item>
+        <item>ວັນຄວາມດັນເລືອດສູງແຫ່ງຊາດ</item>
+        <item>ວັນໄປສະນີໂລກ</item>
+        <item>ວັນສຸຂະພາບຈິດໂລກ</item>
+        <item>ວັນມາດຕະຖານໂລກ</item>
+        <item>ວັນຄົນຕາບອດສາກົນ, ວັນແມ່ຍິງຊົນນະບົດໂລກ</item>
+        <item>ວັນອາຫານໂລກ</item>
+        <item>ວັນລົບລ້າງຄວາມທຸກຍາກສາກົນ</item>
+        <item>ວັນສະຫະປະຊາຊາດ, ວັນການພັດທະນາຂໍ້ມູນຂ່າວສານໂລກ</item>
+        <item>ວັນສຸຂະພາບຂອງຜູ້ຊາຍຊາວຈີນ</item>
+        <item>ວັນຊີວະນາໆພັນສາກົນ</item>
+        <item>ຮາໂລວີນ</item>
+        <item>"Chinese Journalists' Day"</item>
+        <item>ວັນປູກຈິດສຳນຶກກ່ຽວກັບອັກຄີໄຟ</item>
+        <item>ວັນເບົາຫວານໂລກ</item>
+        <item>ວັນນັກສຶກສາວິທະຍາໄລສາກົນ</item>
+        <item>ວັນລົບລ້າງການໃຊ້ຄວາມຮຸນແຮງຕໍ່ແມ່ຍິງສາກົນ</item>
+        <item>ວັນໂຣກເອດສໂລກ</item>
+        <item>ວັນຄົນພິການສາກົນ</item>
+        <item>ວັນເຜີຍແຜ່ກົດໝາຍແຫ່ງຊາດ</item>
+        <item>ວັນກິລາເຕະບານໂລກ</item>
+        <item>ເທດສະການຄຣິສມາດ</item>
+        <item>ຄຣິສມາດ</item>
+        <item>ວັນຊີວະນາໆພັນສາກົນ</item>
+    </string-array>
+    <string-array name="complex_gregorian_holiday">
+        <item>ວັນພະຍາດຂີ້ທູດໂລກ</item>
+        <item>ວັນການສຶກສາຄວາມປອດໄພສຳລັບໂຮງຮຽນປະຖົມແລະມັດທະຍົມ</item>
+        <item>ວັນອີສເຕີ</item>
+        <item>ວັນແມ່</item>
+        <item>ວັນຄົນພິການແຫ່ງຊາດ</item>
+        <item>ວັນພໍ່</item>
+        <item>ວັນສັນຕິພາບສາກົນ</item>
+        <item>ວັນການສຶກສາປ້ອງກັນປະເທດແຫ່ງຊາດ</item>
+        <item>ວັນຄົນຫູໜວກສາກົນ</item>
+        <item>ວັນບ່ອນຢູ່ອາໄສໂລກ</item>
+        <item>ວັນຂອບໃຈພະເຈົ້າຂອງຊາວແຄນນາດາ</item>
+        <item>ວັນຫຼຸດຜ່ອນໄພພິບັດທາງທຳມະຊາດສາກົນ</item>
+        <item>ວັນສາຍຕາໂລກ</item>
+        <item>ວັນຂອບໃຈພະເຈົ້າຂອງຊາວສະຫະລັດ</item>
+    </string-array>
+    <string-array name="lunar_holiday">
+        <item>ເທດສະການລະດູບານໃໝ່</item>
+        <item>元宵节</item>
+        <item>端午节</item>
+        <item>ວັນວາເລັນທາຍຂອງຈີນ</item>
+        <item>中秋节</item>
+        <item>重阳节</item>
+        <item>腊八节</item>
+    </string-array>
+    <string-array name="year_name">
+        <item>〇</item>
+        <item>ຈັນ</item>
+        <item>ຄານ</item>
+        <item>ພຸດ</item>
+        <item>ພະຫັດ</item>
+        <item>ວັນສຸກ</item>
+        <item>​ເສົາ</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+    </string-array>
+    <string-array name="month_name">
+        <item>ຈັນ</item>
+        <item>ຄານ</item>
+        <item>ພຸດ</item>
+        <item>ພະຫັດ</item>
+        <item>ວັນສຸກ</item>
+        <item>​ເສົາ</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>" "</item>
+    </string-array>
+    <string-array name="Week_name">
+        <item>ວັນອາທິດ</item>
+        <item>ວັນຈັນ</item>
+        <item>ວັນອັງຄານ</item>
+        <item>ວັນພຸດ</item>
+        <item>ວັນພະຫັດ</item>
+        <item>ວັນສຸກ</item>
+        <item>ວັນເສົາ</item>
+    </string-array>
+</resources>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lunar_months">
+        <item>正</item>
+        <item>ମଙ୍ଗଳ</item>
+        <item>ବୁଧ</item>
+        <item>ଗୁରୁ</item>
+        <item>ଶୁକ୍ର</item>
+        <item>ଶନି</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>腊</item>
+    </string-array>
+    <string-array name="lunar_days_prefix">
+        <item>初</item>
+        <item>十</item>
+        <item>କୋଡିଏ</item>
+        <item>ବୁଧ</item>
+    </string-array>
+    <string-array name="lunar_days_suffix">
+        <item>ସୋମ</item>
+        <item>ମଙ୍ଗଳ</item>
+        <item>ବୁଧ</item>
+        <item>ଗୁରୁ</item>
+        <item>ଶୁକ୍ର</item>
+        <item>ଶନି</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+    </string-array>
+    <string-array name="solar_term">
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+        <item>春分</item>
+        <item>କ୍ଵିଂମିଂ ଡେ</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>ହାଲୁକା ବରଫ</item>
+        <item>ଅଧିକ ବରଫ</item>
+        <item>冬至</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_jan">
+        <item>ନବବର୍ଷ ର ଦିନ</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_feb">
+        <item>ଭେଲେଣ୍ଟାଇନ୍ ଡେ</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_mar">
+        <item>ନାରୀ ଦିବସ</item>
+        <item>ବୃକ୍ଷ ରୋପଣ ଦିବସ</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_apr">
+        <item>ଏପ୍ରିଲ୍ ଫୁଲ୍ ଡେ</item>
+        <item>ଆର୍ଥ ଡେ</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_may">
+        <item>ଆନ୍ତର୍ଜାତୀୟ ଶ୍ରମିକ ଦିବସ</item>
+        <item>青年节</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_june">
+        <item>ଶିଶୁ ଦିବସ</item>
+        <item>ବିଶ୍ଵ ପରିବେଶ ଦିବସ </item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_aug">
+        <item>ସଶସ୍ତ୍ର ବାହିନୀ ଦିବସ</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_sept">
+        <item>ଗୁରୁ ଦିବସ</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_oct">
+        <item>ରାଷ୍ଟ୍ରୀୟ ଦିନ</item>
+        <item>ହାଲୋୱିନ</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_dec">
+        <item>ଖ୍ରୀଷ୍ଟମାସ ସନ୍ଧ୍ୟା</item>
+        <item>ଖ୍ରୀଷ୍ଟମାସ</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday">
+        <item>ନବବର୍ଷ ର ଦିନ</item>
+        <item>ବିଶ୍ୱ ୱେଟ୍‍ଲ୍ୟାଣ୍ଡ ଦିବସ</item>
+        <item>ଭେଲେଣ୍ଟାଇନ୍ ଡେ</item>
+        <item>ଜାତୀୟ କର୍ଣ୍ଣ ଯତ୍ନ ଦିବସ</item>
+        <item>ଯୁବ ସ୍ୱେଚ୍ଛାଗତ ସେବା ଦିବସ</item>
+        <item>ଆନ୍ତର୍ଜାତୀୟ ମହିଳା ଦିବସ</item>
+        <item>ମା ନଦୀ ସୁରକ୍ଷା ଦିବସ</item>
+        <item>ଚାଇନିଜ ଆର୍‍ବୋର ଦିବସ</item>
+        <item>ହ୍ୱାଇଟ ଭେଲେଣ୍ଟାଇନ, ଆନ୍ତର୍ଜାତୀୟ ପୋଲିସ ଦିବସ</item>
+        <item>ବିଶ୍ୱ ଉପଭୋକ୍ତା ଅଧିକାର ଦିବସ</item>
+        <item>ବିଶ୍ୱ ବନ ଦିବସ, ବିଶ୍ୱ ଶୟନ ଦିବସ</item>
+        <item>ବିଶ୍ୱ ଜଳ ଦିବସ</item>
+        <item>ବିଶ୍ୱ ମେଟେରୋଲୋଜିକାଲ ଦିବସ</item>
+        <item>ବିଶ୍ୱ କ୍ଷୟ ରୋଗ ଦିବସ</item>
+        <item>ଏପ୍ରିଲ୍ ଫୁଲ୍ ଡେ</item>
+        <item>Qingming Festival</item>
+        <item>ବିଶ୍ୱ ସ୍ୱାସ୍ଥ୍ୟ ଦିବସ</item>
+        <item>ବିଶ୍ୱ ପୃଥିବୀ ଦିବସ</item>
+        <item>ବିଶ୍ୱ ଇଣ୍ଟେଲ୍‍କେଚୁଆଲ ପ୍ରପର୍ଟି ଦିବସ</item>
+        <item>ଆନ୍ତର୍ଜାତୀୟ ଶ୍ରମିକ ଦିବସ</item>
+        <item>ବିଶ୍ୱ ଆସ୍ତମା ଦିବସ</item>
+        <item>ଚାଇନିଜ ଯୁବ ଦିବସ</item>
+        <item>ବିଶ୍ୱ ରେଡ୍‍ କ୍ରସ୍‍ ଦିବସ</item>
+        <item>ଆନ୍ତର୍ଜାତୀୟ ନର୍ସ ଦିବସ</item>
+        <item>ଆନ୍ତର୍ଜାତୀୟ ପରିବାର ଦିବସ</item>
+        <item>ବିଶ୍ୱ ଟେଲିକମ୍ୟୁନିକେସନ ଦିବସ</item>
+        <item>ଜାତ୍ରୀୟ ଛାତ୍ର ଛାତ୍ରୀ ପୋଷଣ ଦିବସ</item>
+        <item>ବିଶ୍ୱ ଦୁଗ୍ଧ ଦିବସ</item>
+        <item>ବିଶ୍ୱ ତମ୍ବାଖୁ ନିଷେଧ ଦିବସ</item>
+        <item>ଆନ୍ତର୍ଜାତୀୟ ଶିଶୁ ଦିବସ</item>
+        <item>World Environment Day</item>
+        <item>ଜାତୀୟ ଚକ୍ଷୁ ଯତ୍ନ ଦିବସ</item>
+        <item>ବିଶ୍ୱ ଶୁଖାଗ୍ରସ୍ତ ଏବଂ ମରୁଡି ପ୍ରତିକାର ଦିବସ</item>
+        <item>ଆନ୍ତର୍ଜାତୀୟ ଅଲମ୍ପିକ ଦିବସ</item>
+        <item>ଜାତୀୟ ଜମି ଦିବସ</item>
+        <item>ଆନ୍ତର୍ଜାତୀୟ ନିଶା ଅପବ୍ୟବହାର ପ୍ରତିକାର ଦିବସ</item>
+        <item>Birthday of Communist Party of China, International Architecture Day</item>
+        <item>"Chinese People's War Victory Day"</item>
+        <item>ବିଶ୍ୱ ଲୋକସଂଖ୍ୟା ଦିବସ</item>
+        <item>"Day of Chinese People's Liberation Army"</item>
+        <item>ଆନ୍ତର୍ଜାତୀୟ ଯୁବ ଦିବସ</item>
+        <item>ଆନ୍ତର୍ଜାତୀୟ ସାକ୍ଷରତା ଦିବସ</item>
+        <item>"Chinese Teacher's Day"</item>
+        <item>Chinese Brain Health Day, International Day for the Preservation of the Ozone Layer</item>
+        <item>ଜାତୀୟ ଲଭ ଟିଥ ଦିବସ</item>
+        <item>ବିଶ୍ୱ ସିସ୍‍ଫାୟାର ଦିବସ</item>
+        <item>ବିଶ୍ୱ ପର୍ଯ୍ୟଟନ ଦିବସ</item>
+        <item>National Day of PRC, International Music Day, International Day of Older Persons</item>
+        <item>ବିଶ୍ୱ ପଶୁ ଦିବସ</item>
+        <item>ବିଶ୍ୱ ଗୁରୁ ଦିବସ</item>
+        <item>ଜାତୀୟ ଅତିରିକ୍ତ ଚାପ ଦିବସ</item>
+        <item>ବିଶ୍ୱ ପୋଷ୍ଟ ଦିବସ</item>
+        <item>ବିଶ୍ୱ ମାନସିକ ସ୍ୱାସ୍ଥ୍ୟ ଦିବସ</item>
+        <item>ବିଶ୍ୱ ମାନାଙ୍କ ଦିବସ</item>
+        <item>ଆନ୍ତର୍ଜାତୀୟ ଚକ୍ଷୁହୀନ ଦିବସ, ବିଶ୍ୱ ଗ୍ରାମୀଣ ମହିଳା ଦିବସ</item>
+        <item>ବିଶ୍ୱ ଖାଦ୍ୟ ଦିବସ</item>
+        <item>ଆନ୍ତର୍ଜାତୀୟ ଗରିବୀ ଦୂରୀକରଣ ଦିବସ</item>
+        <item>ଯୁକ୍ତ ରାଜ୍ୟ ଦିବସ, ବିଶ୍ୱ ବିକାଶ ସୂଚନା ଦିବସ</item>
+        <item>ଚୀନ ପୁରୁଷଙ୍କ ସ୍ୱାସ୍ଥ୍ୟ ଦିବସ</item>
+        <item>ଆନ୍ତର୍ଜାତୀୟ ଜୈବ ବିବିଧତା ଦିବସ</item>
+        <item>ହାଲୋୱିନ</item>
+        <item>"Chinese Journalists' Day"</item>
+        <item>ଅଗ୍ନୀ ସଚେତନତା ଦିବସ</item>
+        <item>ବିଶ୍ୱ ମଧୁମେହ ଦିବସ</item>
+        <item>ଆନ୍ତର୍ଜାତୀୟ କଲେଜ ଛାତ୍ର ଦିବସ</item>
+        <item>ଆନ୍ତର୍ଜାତୀୟ ମହିଳାଙ୍କ ବିରୁଦ୍ଧରରେ ହିଂସା ନିବାରଣ ଦିବସ</item>
+        <item>ବିଶ୍ୱ ଏଡସ ଦିବସ</item>
+        <item>ଅକ୍ଷମ ବ୍ୟକ୍ତିଙ୍କ ଆନ୍ତର୍ଜାତୀୟ ଦିବସ</item>
+        <item>ଜାତୀୟ ଆଇନଗତ ପବ୍ଲିସିଟି ଦିବସ</item>
+        <item>ବିଶ୍ୱ ଫୁଟବଲ ଦିବସ</item>
+        <item>ଖ୍ରୀଷ୍ଟମାସ ସନ୍ଧ୍ୟା</item>
+        <item>ଖ୍ରୀଷ୍ଟମାସ</item>
+        <item>ଆନ୍ତର୍ଜାତୀୟ ଜୈବ ବିବିଧତା ଦିବସ</item>
+    </string-array>
+    <string-array name="complex_gregorian_holiday">
+        <item>ବିଶ୍ୱ କୁଷ୍ଠ ଦିବସ</item>
+        <item>ପ୍ରାଇମେରୀ ତଥା ସେକେଣ୍ଡେରୀ ସ୍କୁଲ ପାଇଁ ନିରାପଦ ଶିକ୍ଷା ଦିବସ</item>
+        <item>ଇଷ୍ଟର</item>
+        <item>ମାତୃ ଦିବସ</item>
+        <item>ଜାତୀୟ ଭିନ୍ନକ୍ଷମ ଦିବସ</item>
+        <item>ପିତୃ ଦିବସ</item>
+        <item>ଆନ୍ତର୍ଜାତୀୟ ଶାନ୍ତି ଦିବସ</item>
+        <item>ଜାତୀୟ ପ୍ରତିରକ୍ଷା ଶିକ୍ଷା ଦିବସ</item>
+        <item>ବଧୀରଙ୍କ ପାଇଁ ଆନ୍ତର୍ଜାତୀୟ ଦିବସ</item>
+        <item>ବିଶ୍ୱ ଆବାସ ଦିବସ</item>
+        <item>କାନାଡୀୟ ଧନ୍ୟବାଦ ଅର୍ପଣ ଦିବସ</item>
+        <item>ଆନ୍ତର୍ଜାତୀୟ ପ୍ରାକୃତିକ ବିପର୍ଯ୍ୟୟ ହ୍ରାସ ଦିବସ</item>
+        <item>ବିଶ୍ୱ ଦୃଷ୍ଟି ଦିବସ</item>
+        <item>US ଧନ୍ୟବାଦ ଅର୍ପଣ ଦିବସ</item>
+    </string-array>
+    <string-array name="lunar_holiday">
+        <item>ବସନ୍ତ ଉତ୍ସବ</item>
+        <item>元宵节</item>
+        <item>端午节</item>
+        <item>ଚାଇନିଜ୍ ଭେଲେଣ୍ଟାଇନ୍ ଡେ</item>
+        <item>中秋节</item>
+        <item>重阳节</item>
+        <item>腊八节</item>
+    </string-array>
+    <string-array name="year_name">
+        <item>〇</item>
+        <item>ସୋମ</item>
+        <item>ମଙ୍ଗଳ</item>
+        <item>ବୁଧ</item>
+        <item>ଗୁରୁ</item>
+        <item>ଶୁକ୍ର</item>
+        <item>ଶନି</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+    </string-array>
+    <string-array name="month_name">
+        <item>ସୋମ</item>
+        <item>ମଙ୍ଗଳ</item>
+        <item>ବୁଧ</item>
+        <item>ଗୁରୁ</item>
+        <item>ଶୁକ୍ର</item>
+        <item>ଶନି</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>" "</item>
+    </string-array>
+    <string-array name="Week_name">
+        <item>ରବିବାର</item>
+        <item>ସୋମବାର</item>
+        <item>ମଙ୍ଗଳବାର</item>
+        <item>ବୁଧବାର</item>
+        <item>ଗୁରୁବାର</item>
+        <item>ଶୁକ୍ରବାର</item>
+        <item>ଶନିବାର</item>
+    </string-array>
+</resources>

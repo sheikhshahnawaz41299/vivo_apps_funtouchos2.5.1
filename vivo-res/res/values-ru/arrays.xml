@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lunar_months">
+        <item>正</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>腊</item>
+    </string-array>
+    <string-array name="lunar_days_prefix">
+        <item>初</item>
+        <item>十</item>
+        <item>Двадцать</item>
+        <item>Ср</item>
+    </string-array>
+    <string-array name="lunar_days_suffix">
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+    </string-array>
+    <string-array name="solar_term">
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+        <item>春分</item>
+        <item>Фестиваль Цинмин</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>Легкий снегопад</item>
+        <item>Сильный снегопад</item>
+        <item>冬至</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_jan">
+        <item>Новый год</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_feb">
+        <item>День святого Валентина</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_mar">
+        <item>Женский день</item>
+        <item>День посадки деревьев</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_apr">
+        <item>День дурака</item>
+        <item>День Земли</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_may">
+        <item>День международной солидарности трудящихся</item>
+        <item>青年节</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_june">
+        <item>День защиты детей</item>
+        <item>Всемирный день охраны окружающей среды</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_aug">
+        <item>День вооруженных сил</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_sept">
+        <item>День учителя</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_oct">
+        <item>День основания государства</item>
+        <item>Хэллоуин</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_dec">
+        <item>Сочельник</item>
+        <item>Рождество</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday">
+        <item>Новый год</item>
+        <item>Всемирный день водно-болотных угодий</item>
+        <item>День святого Валентина</item>
+        <item>День охраны здоровья уха и слуха</item>
+        <item>День молодежного волонтерства</item>
+        <item>Международный женский день</item>
+        <item>День защиты реки Хуанхэ (Матери-реки)</item>
+        <item>День древонасаждения в Китае</item>
+        <item>Белый день, международный день полиции</item>
+        <item>Всемирный день защиты прав потребителей</item>
+        <item>Международный день леса, Всемирный день сна</item>
+        <item>Всемирный день воды</item>
+        <item>Всемирный метеорологический день</item>
+        <item>Всемирный день борьбы с туберкулезом</item>
+        <item>День дурака</item>
+        <item>Фестиваль Цинмин</item>
+        <item>Всемирный день здоровья</item>
+        <item>Всемирный день Земли</item>
+        <item>Международный день интеллектуальной собственности</item>
+        <item>День международной солидарности трудящихся</item>
+        <item>Всемирный день борьбы с бронхиальной астмой</item>
+        <item>Китайский День молодежи</item>
+        <item>Всемирный день Красного Креста</item>
+        <item>Международный день медицинской сестры</item>
+        <item>Международный день семей</item>
+        <item>Всемирный день электросвязи</item>
+        <item>День питания студентов</item>
+        <item>Всемирный день молока</item>
+        <item>Всемирный день без табака</item>
+        <item>Международный день защиты детей</item>
+        <item>Всемирный день охраны окружающей среды</item>
+        <item>День охраны здоровья глаз и зрения</item>
+        <item>Всемирный день борьбы с опустыниванием и засухой</item>
+        <item>Международный Олимпийский день</item>
+        <item>День Земли</item>
+        <item>Международный день борьбы с наркоманией</item>
+        <item>Birthday of Communist Party of China, International Architecture Day</item>
+        <item>"Chinese People's War Victory Day"</item>
+        <item>Всемирный день народонаселения</item>
+        <item>"Day of Chinese People's Liberation Army"</item>
+        <item>Международный день молодежи</item>
+        <item>Международный день грамотности</item>
+        <item>"Chinese Teacher's Day"</item>
+        <item>Chinese Brain Health Day, International Day for the Preservation of the Ozone Layer</item>
+        <item>День любви к своим зубам</item>
+        <item>Всемирный день прекращения огня</item>
+        <item>Всемирный день туризма</item>
+        <item>National Day of PRC, International Music Day, International Day of Older Persons</item>
+        <item>Всемирный день животных</item>
+        <item>Международный день учителя</item>
+        <item>День борьбы с гипертонией</item>
+        <item>Всемирный день почты</item>
+        <item>Всемирный день психического здоровья</item>
+        <item>Всемирный день стандартов</item>
+        <item>Международный день слепых, Всемирный день сельских женщин</item>
+        <item>Всемирный день продовольствия</item>
+        <item>Международный день борьбы за ликвидацию нищеты</item>
+        <item>День Организации Объединенных Наций, Всемирный день информации о развитии</item>
+        <item>День мужского здоровья в Китае</item>
+        <item>Международный день биологического разнообразия</item>
+        <item>Хэллоуин</item>
+        <item>"Chinese Journalists' Day"</item>
+        <item>День осведомленности о пожарах</item>
+        <item>Всемирный день борьбы с диабетом</item>
+        <item>Международный день студента</item>
+        <item>Международный день борьбы за ликвидацию насилия в отношении женщин</item>
+        <item>Всемирный день борьбы со СПИДом</item>
+        <item>Международный день инвалидов</item>
+        <item>День правовой грамотности</item>
+        <item>Всемирный день футбола</item>
+        <item>Сочельник</item>
+        <item>Рождество</item>
+        <item>Международный день биологического разнообразия</item>
+    </string-array>
+    <string-array name="complex_gregorian_holiday">
+        <item>Всемирный день помощи больным проказой</item>
+        <item>День обучения правилам безопасности в начальной и средней школе</item>
+        <item>Пасха</item>
+        <item>День матери</item>
+        <item>День инвалидов</item>
+        <item>День отца</item>
+        <item>Международный день мира</item>
+        <item>День национальной обороны</item>
+        <item>Международный день глухих</item>
+        <item>Всемирный день Хабитат</item>
+        <item>Канадский День благодарения</item>
+        <item>Международный день по уменьшению опасности бедствий</item>
+        <item>Всемирный день зрения</item>
+        <item>День благодарения в США</item>
+    </string-array>
+    <string-array name="lunar_holiday">
+        <item>Праздник весны</item>
+        <item>元宵节</item>
+        <item>端午节</item>
+        <item>Китайский День святого Валентина</item>
+        <item>中秋节</item>
+        <item>重阳节</item>
+        <item>腊八节</item>
+    </string-array>
+    <string-array name="year_name">
+        <item>〇</item>
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+    </string-array>
+    <string-array name="month_name">
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>" "</item>
+    </string-array>
+    <string-array name="Week_name">
+        <item>Воскресенье</item>
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+    </string-array>
+</resources>

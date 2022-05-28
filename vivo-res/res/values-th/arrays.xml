@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lunar_months">
+        <item>正</item>
+        <item>二</item>
+        <item>พ.</item>
+        <item>พฤ.</item>
+        <item>ศ.</item>
+        <item>ส.</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>腊</item>
+    </string-array>
+    <string-array name="lunar_days_prefix">
+        <item>初</item>
+        <item>十</item>
+        <item>20</item>
+        <item>พ.</item>
+    </string-array>
+    <string-array name="lunar_days_suffix">
+        <item>จ.</item>
+        <item>二</item>
+        <item>พ.</item>
+        <item>พฤ.</item>
+        <item>ศ.</item>
+        <item>ส.</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+    </string-array>
+    <string-array name="solar_term">
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+        <item>春分</item>
+        <item>เทศกาลเชงเม้ง</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>小雪</item>
+        <item>大雪</item>
+        <item>冬至</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_jan">
+        <item>วันขึ้นปีใหม่</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_feb">
+        <item>วันวาเลนไทน์</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_apr">
+        <item>愚人节</item>
+        <item>วันคุ้มครองโลก</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_june">
+        <item>วันเด็ก</item>
+        <item>วันสิ่งแวดล้อมโลก</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_oct">
+        <item>国庆节</item>
+        <item>ฮัลโลวีน</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_dec">
+        <item>คริสต์มาสอีฟ</item>
+        <item>คริสต์มาส</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday">
+        <item>วันขึ้นปีใหม่</item>
+        <item>วันพื้นที่ชุ่มน้ำโลก</item>
+        <item>วันวาเลนไทน์</item>
+        <item>วันดูแลหูแห่งชาติ</item>
+        <item>วันอาสาสมัครเยาวชน</item>
+        <item>วันสตรีสากล</item>
+        <item>วันคุ้มครองแม่น้ำ</item>
+        <item>วันปลูกต้นไม้</item>
+        <item>ไวท์เดย์, วันตำรวจสากล</item>
+        <item>วันคุ้มครองผู้บริโภคสากล</item>
+        <item>วันป่าไม้โลก, วันการนอนสากล</item>
+        <item>วันน้ำโลก</item>
+        <item>วันอุตุนิยมวิทยาสากล</item>
+        <item>วันวัณโรคโลก</item>
+        <item>愚人节</item>
+        <item>เทศกาลเชงเม้ง</item>
+        <item>วันอนามัยโลก</item>
+        <item>วันสิ่งแวดล้อมโลก</item>
+        <item>วันทรัพย์สินทางปัญญาโลก</item>
+        <item>วันแรงงานสากล</item>
+        <item>วันโลกหืดโลก</item>
+        <item>วันเยาวชน</item>
+        <item>วันกาชาดโลก</item>
+        <item>วันพยาบาลสากล</item>
+        <item>วันครอบครัวสากล</item>
+        <item>วันโทรคมนาคมและสังคมสารสนเทศโลก</item>
+        <item>วันโภชนาการนักเรียนแห่งชาติ</item>
+        <item>วันนมโลก</item>
+        <item>วันงดสูบบุหรี่โลก</item>
+        <item>วันเด็ก</item>
+        <item>วันสิ่งแวดล้อมโลก</item>
+        <item>วันดูแลตาแห่งชาติ</item>
+        <item>วันต่อต้านปัญหาภัยแล้งและฝนแล้งของโลก</item>
+        <item>วันโอลิมปิกสากล</item>
+        <item>วันผืนดินแห่งชาติ</item>
+        <item>วันต่อต้านยาเสพติดสากล</item>
+        <item>วันก่อตั้งพรรคคอมมิวนิสต์จีน, วันสถาปัตยกรรมโลก</item>
+        <item>วันรำลึกการต่อต้านสงครามญี่ปุ่นของชาวจีน</item>
+        <item>วันประชากรโลก</item>
+        <item>วันกองทัพปลดปล่อย</item>
+        <item>วันเยาวชนสากล</item>
+        <item>วันต่อต้านการไม่รู้หนังสือสากล</item>
+        <item>วันครู</item>
+        <item>"วันสุขภาพสมองจีน, วันพิทักษ์ชั้นโอโซนสากล "</item>
+        <item>วันดูแลฟันแห่งชาติ</item>
+        <item>วันหยุดยิงโลก</item>
+        <item>วันการท่องเที่ยวโลก</item>
+        <item>วันชาติจีน, วันดนตรีสากล, วันผู้สูงอายุสากล</item>
+        <item>วันสัตว์โลก</item>
+        <item>วันครูโลก</item>
+        <item>วันความดันโลหิตสูงแห่งชาติ</item>
+        <item>วันไปรษณีย์โลก</item>
+        <item>วันสุขภาพจิตโลก</item>
+        <item>วันมาตรฐานโลก</item>
+        <item>วันคนตาบอดโลก, วันสตรีชนบทโลก</item>
+        <item>วันอาหารโลก</item>
+        <item>วันขจัดความยากจนสากล</item>
+        <item>วันสหประชาชาติ, วันข้อมูลการพัฒนาโลก</item>
+        <item>วันสุขภาพบุรุษจีน</item>
+        <item>วันความหลากหลายทางชีวภาพสากล</item>
+        <item>ฮัลโลวีน</item>
+        <item>วันนักหนังสือพิมพ์จีน</item>
+        <item>วันการเผยแพร่การป้องกันไฟไหม้</item>
+        <item>วันโรคเบาหวานโลก</item>
+        <item>วันนักเรียนสากล</item>
+        <item>วันขจัดความรุนแรงต่อสตรีสากล</item>
+        <item>วันเอดส์โลก</item>
+        <item>วันผู้พิการสากล</item>
+        <item>วันการเผยแพร่กฎหมายแห่งชาติ</item>
+        <item>วันฟุตบอลโลก</item>
+        <item>คริสต์มาสอีฟ</item>
+        <item>คริสต์มาส</item>
+        <item>วันความหลากหลายทางชีวภาพสากล</item>
+    </string-array>
+    <string-array name="complex_gregorian_holiday">
+        <item>วันโรคเรื้อนโลก</item>
+        <item>วันแห่งการศึกษาด้านความปลอดภัยสำหรับโรงเรียนระดับมัธยมศึกษาตอนต้นและตอนปลาย</item>
+        <item>วันอีสเตอร์</item>
+        <item>วันแม่</item>
+        <item>วันผู้พิการแห่งชาติ</item>
+        <item>วันพ่อ</item>
+        <item>วันสันติภาพสากล</item>
+        <item>วันการศึกษาด้านการป้องกันประเทศ</item>
+        <item>วันคนหูหนวกสากล</item>
+        <item>วันที่อยู่อาศัยโลก</item>
+        <item>วันขอบคุณพระเจ้าของชาวแคนาดา</item>
+        <item>วันลดภัยพิบัติจากธรรมชาติสากล</item>
+        <item>วันสายตาโลก</item>
+        <item>วันขอบคุณพระเจ้าของชาวอเมริกัน</item>
+    </string-array>
+    <string-array name="year_name">
+        <item>〇</item>
+        <item>จ.</item>
+        <item>二</item>
+        <item>พ.</item>
+        <item>พฤ.</item>
+        <item>ศ.</item>
+        <item>ส.</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+    </string-array>
+    <string-array name="month_name">
+        <item>จ.</item>
+        <item>二</item>
+        <item>พ.</item>
+        <item>พฤ.</item>
+        <item>ศ.</item>
+        <item>ส.</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>" "</item>
+    </string-array>
+    <string-array name="Week_name">
+        <item>อาทิตย์</item>
+        <item>จันทร์</item>
+        <item>อังคาร</item>
+        <item>พุธ</item>
+        <item>พฤหัสบดี</item>
+        <item>ศุกร์</item>
+        <item>เสาร์</item>
+    </string-array>
+    <string-array name="problem_ask_lables">
+        <item>บิดาของคุณชื่ออะไร?</item>
+        <item>มารดาของคุณชื่ออะไร?</item>
+        <item>คู่สมรสของคุณชื่ออะไร?</item>
+    </string-array>
+</resources>

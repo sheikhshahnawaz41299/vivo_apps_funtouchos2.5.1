@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:gravity="center_vertical" android:id="@android:id/title" android:paddingLeft="@dimen/preference_left_margin" android:paddingTop="@dimen/bbkPreferenceCategoryTopMargin" android:paddingRight="@dimen/preference_right_margin" android:paddingBottom="@dimen/bbkPreferenceCategoryBottomMargin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_explain_category_minHeight" style="?attr/textAppearancePreferenceCategoryExplain"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

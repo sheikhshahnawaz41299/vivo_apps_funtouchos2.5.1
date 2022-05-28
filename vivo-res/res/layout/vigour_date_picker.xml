@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/parent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="?pickerBanner" android:layout_width="fill_parent" android:layout_height="@dimen/scroll_number_picker_scroll_item_height" android:layout_centerInParent="true" />
+    <com.vivo.common.widget.ScrollNumberPicker android:id="@id/bbk_year" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="100.0dip" android:layout_alignParentLeft="true" />
+    <com.vivo.common.widget.ScrollNumberPicker android:id="@id/bbk_month" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="100.0dip" android:layout_centerInParent="true" />
+    <com.vivo.common.widget.ScrollNumberPicker android:id="@id/bbk_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="100.0dip" android:layout_alignParentRight="true" android:layout_toEndOf="@id/bbk_month" />
+</RelativeLayout>

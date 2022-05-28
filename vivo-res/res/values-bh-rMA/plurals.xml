@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="vivo_hotspot_notification_dataUsage_plurals">
+        <item quantity="other">%1$s MB डाटा Wi-Fi (%2$d जोडक) माध्यमसँ साझी कयल गेल</item>
+        <item quantity="one">%1$s MB डाटा Wi-Fi (%2$d जोडक) माध्यमसँ साझी कयल गेल</item>
+    </plurals>
+</resources>

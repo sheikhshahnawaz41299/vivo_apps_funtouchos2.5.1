@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lunar_months">
+        <item>正</item>
+        <item>செவ்</item>
+        <item>புதன்</item>
+        <item>வியா</item>
+        <item>வெள்ளி</item>
+        <item>சனி</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>腊</item>
+    </string-array>
+    <string-array name="lunar_days_prefix">
+        <item>初</item>
+        <item>十</item>
+        <item>20</item>
+        <item>புதன்</item>
+    </string-array>
+    <string-array name="lunar_days_suffix">
+        <item>திங்</item>
+        <item>செவ்</item>
+        <item>புதன்</item>
+        <item>வியா</item>
+        <item>வெள்ளி</item>
+        <item>சனி</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+    </string-array>
+    <string-array name="solar_term">
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+        <item>春分</item>
+        <item>க்யிங்மிங் திருவிழா</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>小雪</item>
+        <item>大雪</item>
+        <item>冬至</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_jan">
+        <item>புத்தாண்டு தினம்</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_feb">
+        <item>காதலர் தினம்</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_apr">
+        <item>愚人节</item>
+        <item>பூமி தினம்</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_june">
+        <item>குழந்தைகள் தினம்</item>
+        <item>உலகச் சுற்றுச்சூழல் தினம்</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_oct">
+        <item>国庆节</item>
+        <item>ஹாலோவீன்</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_dec">
+        <item>கிறிஸ்துமஸூக்கு முந்தைய மாலை</item>
+        <item>கிறிஸ்துமஸ்</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday">
+        <item>புத்தாண்டு தினம்</item>
+        <item>உலக நன்செய்நில தினம்</item>
+        <item>காதலர் தினம்</item>
+        <item>தேசிய செவிப் பராமரிப்பு தினம்</item>
+        <item>இளைம் தன்னார்வலர் சேவை தினம்</item>
+        <item>சர்வதேச பெண்கள் தினம்</item>
+        <item>தாய் நதி பாதுகாப்பு தினம்</item>
+        <item>சீன ஆர்பர் தினம்</item>
+        <item>வெண் காதலர், சர்வதேச காவலர் தினம்</item>
+        <item>உலக நுகர்வோர் உரிமைகள் தினம்</item>
+        <item>உலக காட்டியல் தினம், உலக உறக்க தினம்</item>
+        <item>உலக நீர் நாள்</item>
+        <item>உலக காலநிலையியல் தினம்</item>
+        <item>உலக காசநோய் தினம்</item>
+        <item>愚人节</item>
+        <item>க்யிங்மிங் திருவிழா</item>
+        <item>உலக சுகாதார தினம்</item>
+        <item>உலக பூமி நாள்</item>
+        <item>உலக அறிவுசார் சொத்து தினம்</item>
+        <item>சர்வதேச உழைப்பாளர் தினம்</item>
+        <item>உலக ஆஸ்துமா தினம்</item>
+        <item>சீன இளைஞர் தினம்</item>
+        <item>உலக செஞ்சிலுவை தினம்</item>
+        <item>சர்வதேச செவிலியர் தினம்</item>
+        <item>சர்வதேச குடும்ப தினம்</item>
+        <item>உலக தொலைத்தொடர்பு தினம்</item>
+        <item>தேசிய மாணவர் ஊட்டச்சத்து தினம்</item>
+        <item>உலக பால் தினம்</item>
+        <item>உலக புகையிலையில்லா தினம்</item>
+        <item>சர்வதேச குழந்தைகள் தினம்</item>
+        <item>உலகச் சுற்றுச்சூழல் தினம்</item>
+        <item>தேசிய கண் பராமரிப்பு தினம்</item>
+        <item>உலக பாலைவனமாக்கல் மற்றும் வறட்சி தடுப்பு தினம்</item>
+        <item>சர்வதேச ஒலிம்பிக் தினம்</item>
+        <item>தேசிய நில தினம்</item>
+        <item>சர்வதேச போதை மருந்து உபயோக எதிர்ப்பு தினம்</item>
+        <item>சீன கம்யூனிஸ்ட் கட்சியின் பிறந்த தினம், சர்வதேச கட்டிடக்கலை தினம்</item>
+        <item>சீன மக்களின் ஜப்பானிய-எதிர்ப்பு போர் வெற்றி தினம்</item>
+        <item>உலக மக்கள்தொகை தினம்</item>
+        <item>சீன மக்களின் சுதந்திர இராணுவ தினம்</item>
+        <item>சர்வதேச இளைஞர் தினம்</item>
+        <item>சர்வதேச கல்வி தினம்</item>
+        <item>சீன ஆசிரியர் தினம்</item>
+        <item>சீன மூளை ஆரோக்கிய தினம், சர்வதேச ஓஸோன் மண்டல பாதுகாப்பு தினம்</item>
+        <item>தேசிய உங்கள் பற்களை நேசிப்பீர் தினம்</item>
+        <item>உலக தீயணைப்பு தினம்</item>
+        <item>உலக சுற்றுலா தினம்</item>
+        <item>தேசிய PRC தினம், சர்வதேச இசை தினம், சர்வதேச முதியோர் தினம்</item>
+        <item>உலக விலங்கு தினம்</item>
+        <item>உலக ஆசிரியர் தினம்</item>
+        <item>தேசிய உயர் இரத்த அழுத்த தினம்</item>
+        <item>உலக அஞ்சல் தினம்</item>
+        <item>உலக மனநல தினம்</item>
+        <item>உலக தரநிலைகள் தினம்</item>
+        <item>சர்வதேச பார்வையற்றோர் தினம், உலக கிராமப்புற பெண்கள் தினம்</item>
+        <item>உலக உணவு தினம்</item>
+        <item>சர்வதேச ஏழ்மை ஒழிப்பு தினம்</item>
+        <item>ஐக்கிய நாடுகள் தினம், உலக வளர்ச்சி தகவல் தினம்</item>
+        <item>சீன ஆண்கள் நல தினம்</item>
+        <item>சர்வதேச உயிரியல் வேறுபாடு தினம்</item>
+        <item>ஹாலோவீன்</item>
+        <item>சீன பத்திரிக்கையாளர்கள் தினம்</item>
+        <item>தீ விழிப்புணர்வு தினம்</item>
+        <item>உலக நீரிழிவு தினம்</item>
+        <item>சர்வதேச கல்லூரி மாணவர்கள் தினம்</item>
+        <item>சர்வதேச பெண்களுக்கு எதிரான வன்முறை ஒழிப்பு தினம்</item>
+        <item>உலக AIDS தினம்</item>
+        <item>சர்வதேச ஊனமுற்றோர் தினம்</item>
+        <item>தேசிய சட்ட விளம்பர தினம்</item>
+        <item>உலக கால்பந்து தினம்</item>
+        <item>கிறிஸ்துமஸூக்கு முந்தைய மாலை</item>
+        <item>கிறிஸ்துமஸ்</item>
+        <item>சர்வதேச உயிரியல் வேறுபாடு தினம்</item>
+    </string-array>
+    <string-array name="complex_gregorian_holiday">
+        <item>உலக தொழுநோய் தினம்</item>
+        <item>தொடக்க மற்றும் உயர்நிலைப் பள்ளிகளுக்கான பாதுகாப்புக் கல்வி தினம்</item>
+        <item>ஏசு உயிர்த்தெழு தினம்</item>
+        <item>அன்னையர் தினம்</item>
+        <item>தேசிய ஊனமுற்றோர் தினம்</item>
+        <item>தந்தையர் தினம்</item>
+        <item>சர்வதேச அமைதி தினம்</item>
+        <item>தேசிய தற்காப்புக் கல்வி தினம்</item>
+        <item>சர்வதேச காதுகேளாதோர் தினம்</item>
+        <item>உலக வீட்டுவசதி தினம்</item>
+        <item>கனடிய நன்றிதெரிவிப்பு தினம்</item>
+        <item>இயற்கைப் பேரிடர் குறைப்புக்கான சர்வதேச தினம்</item>
+        <item>உலகப் பார்வை தினம்</item>
+        <item>US நன்றிதெரிவிப்பு தினம்</item>
+    </string-array>
+    <string-array name="year_name">
+        <item>〇</item>
+        <item>திங்</item>
+        <item>செவ்</item>
+        <item>புதன்</item>
+        <item>வியா</item>
+        <item>வெள்ளி</item>
+        <item>சனி</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+    </string-array>
+    <string-array name="month_name">
+        <item>திங்</item>
+        <item>செவ்</item>
+        <item>புதன்</item>
+        <item>வியா</item>
+        <item>வெள்ளி</item>
+        <item>சனி</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>" "</item>
+    </string-array>
+    <string-array name="Week_name">
+        <item>ஞாயிறு</item>
+        <item>திங்கள்</item>
+        <item>செவ்வாய்</item>
+        <item>புதன் கிழமை</item>
+        <item>வியாழன்</item>
+        <item>வெள்ளிக்கிழமை</item>
+        <item>சனிக்கிழமை</item>
+    </string-array>
+</resources>

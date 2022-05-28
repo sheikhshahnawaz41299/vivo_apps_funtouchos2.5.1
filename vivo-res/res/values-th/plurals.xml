@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="vivo_hotspot_notification_dataUsage_plurals">
+        <item quantity="other">ข้อมูลโทรศัพท์มือถือ %1$s MB ได้ถูกแบ่งปันผ่าน Wi-Fi (%2$d การเชื่อมต่อ)</item>
+        <item quantity="one">ข้อมูลโทรศัพท์มือถือ %1$s MB ได้ถูกแบ่งปันผ่าน Wi-Fi (%2$d การเชื่อมต่อ)</item>
+    </plurals>
+</resources>

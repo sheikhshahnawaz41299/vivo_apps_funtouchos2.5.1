@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lunar_months">
+        <item>正</item>
+        <item>ಮಂಗಳ</item>
+        <item>ಬುಧ</item>
+        <item>ಗುರು</item>
+        <item>ಶುಕ್ರ</item>
+        <item>ಶನಿ</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>腊</item>
+    </string-array>
+    <string-array name="lunar_days_prefix">
+        <item>初</item>
+        <item>十</item>
+        <item>ಇಪ್ಪತ್ತು</item>
+        <item>ಬುಧ</item>
+    </string-array>
+    <string-array name="lunar_days_suffix">
+        <item>ಸೋಮ</item>
+        <item>ಮಂಗಳ</item>
+        <item>ಬುಧ</item>
+        <item>ಗುರು</item>
+        <item>ಶುಕ್ರ</item>
+        <item>ಶನಿ</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+    </string-array>
+    <string-array name="solar_term">
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+        <item>春分</item>
+        <item>ಕ್ವಿನ್ಮಿಂಗ್ ಹಬ್ಬ</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>ಹಗುರ ಹಿಮ</item>
+        <item>ಭಾರೀ ಹಿಮ</item>
+        <item>冬至</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_jan">
+        <item>ಹೊಸ ವರುಷದ ದಿನ</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_feb">
+        <item>ಪ್ರೇಮಿಗಳ ದಿನ</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_mar">
+        <item>ಮಹಿಳಾ ದಿನ</item>
+        <item>ಗಿಡ ನೆಡುವ ದಿನ</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_apr">
+        <item>ಮೂರ್ಖರ ದಿನ</item>
+        <item>ಭೂ ದಿನಾಚರಣೆ</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_may">
+        <item>"ಅಂತರರಾಷ್ಟ್ರೀಯ ಕಾರ್ಮಿಕರ' ದಿನ"</item>
+        <item>青年节</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_june">
+        <item>ಮಕ್ಕಳ ದಿನಾಚರಣೆ</item>
+        <item>ವಿಶ್ವ ಪರಿಸರ ದಿನ</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_aug">
+        <item>ಸಶಸ್ತ್ರ ಪಡೆಗಳ ದಿನ</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_sept">
+        <item>ಶಿಕ್ಷಕರ ದಿನ</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_oct">
+        <item>ರಾಷ್ಟ್ರೀಯ ದಿನ</item>
+        <item>ಹಾಲೊವಿನ್</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_dec">
+        <item>ಕ್ರಿಸ್ಮಸ್ ಮುನ್ನಾದಿನ</item>
+        <item>ಕ್ರಿಸ್ಮಸ್</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday">
+        <item>ಹೊಸ ವರುಷದ ದಿನ</item>
+        <item>ವಿಶ್ವ ಜೌಗು ಪ್ರದೇಶದ ದಿನ</item>
+        <item>ಪ್ರೇಮಿಗಳ ದಿನ</item>
+        <item>ರಾಷ್ಟ್ರೀಯ ಕಿವಿ ಸಂರಕ್ಷಣೆ ದಿನ</item>
+        <item>ಯುವ ಸ್ವಯಂಸೇವಕ ಸೇವೆಯ ದಿನ</item>
+        <item>ಅಂತರರಾಷ್ಟ್ರೀಯ ಮಹಿಳಾ ದಿನ</item>
+        <item>ನದಿ ಮೂಲ ಸಂರಕ್ಷಣೆ ದಿನ</item>
+        <item>ಚೀನಾ ಆರ್ಬರ್ ದಿನ</item>
+        <item>ವೈಟ್ ವ್ಯಾಲೆಂಟೈನ್, ಅಂತರರಾಷ್ಟ್ರೀಯ ಪೋಲೀಸ್ ದಿನಾಚರಣೆ</item>
+        <item>ವಿಶ್ವ ಗ್ರಾಹಕರ ಹಕ್ಕುಗಳ ದಿನಾಚರಣೆ</item>
+        <item>ವಿಶ್ವ ಅರಣ್ಯ ದಿನ, ವಿಶ್ವ ನಿದ್ರೆಯ ದಿನ</item>
+        <item>ವಿಶ್ವ ಜಲ ದಿನ</item>
+        <item>ವಿಶ್ವ ಪವನಶಾಸ್ತ್ರ ದಿನ</item>
+        <item>ವಿಶ್ವ ಕ್ಷಯ ದಿನಾಚರಣೆ</item>
+        <item>ಮೂರ್ಖರ ದಿನ</item>
+        <item>Qingming Festival</item>
+        <item>ವಿಶ್ವ ಆರೋಗ್ಯ ದಿನ</item>
+        <item>ವಿಶ್ವ ಭೂ ದಿನ</item>
+        <item>ವಿಶ್ವ ಬೌದ್ಧಿಕ ಆಸ್ತಿಯ ದಿನ</item>
+        <item>ಅಂತರರಾಷ್ಟ್ರೀಯ ಕಾರ್ಮಿಕರ ದಿನ</item>
+        <item>ವಿಶ್ವ ಅಸ್ತಮಾ ದಿನ</item>
+        <item>ಚೈನೀಸ್ ಯುವ ಜನಾಂಗದ ದಿನ</item>
+        <item>ವಿಶ್ವ ರೆಡ್ ಕ್ರಾಸ್ ದಿನ</item>
+        <item>ಅಂತರರಾಷ್ಟ್ರೀಯ ನರ್ಸ್‌ಗಳ ದಿನಾಚರಣೆ</item>
+        <item>ಅಂತರರಾಷ್ಟ್ರೀಯ ಕುಟುಂಬಗಳ ದಿನ</item>
+        <item>ವಿಶ್ವ ದೂರವಾಣಿ ಸಂವಹನದ ದಿನ</item>
+        <item>ರಾಷ್ಟ್ರೀಯ ವಿದ್ಯಾರ್ಥಿ ಫೋಷಣಶಾಸ್ತ್ರದ ದಿನ</item>
+        <item>ವಿಶ್ವ ಹಾಲು ದಿನ</item>
+        <item>ವಿಶ್ವ ತಂಬಾಕು ರಹಿತ ದಿನ</item>
+        <item>ಅಂತರರಾಷ್ಟ್ರೀಯ ಮಕ್ಕಳ ದಿನ</item>
+        <item>World Environment Day</item>
+        <item>ರಾಷ್ಟ್ರೀಯ ದೃಷ್ಟಿ ಹಾರೈಕೆ ದಿನ</item>
+        <item>ವಿಶ್ವ ಮರುಭೂಮೀಕರಣ ಮತ್ತು ಬರ ಎದುರಿಸುವ ದಿನ</item>
+        <item>ಅಂತರರಾಷ್ಟ್ರೀಯ ಒಲಿಂಪಿಕ್ ದಿನ</item>
+        <item>ರಾಷ್ಟ್ರೀಯ ಜಮೀನು ದಿನ</item>
+        <item>ವಿಶ್ವ ಮಾದಕವಸ್ತು ದುರುಪಯೋಗದ ವಿರುದ್ಧದ ದಿನ</item>
+        <item>Birthday of Communist Party of China, International Architecture Day</item>
+        <item>"Chinese People's War Victory Day"</item>
+        <item>ವಿಶ್ವ ಜನಸಂಖ್ಯೆ ದಿನ</item>
+        <item>"Day of Chinese People's Liberation Army"</item>
+        <item>ಅಂತರರಾಷ್ಟ್ರೀಯ ಯುವ ದಿನ</item>
+        <item>ಅಂತರರಾಷ್ಟ್ರೀಯ ಸಾಕ್ಷರತೆಯ ದಿನ</item>
+        <item>"Chinese Teacher's Day"</item>
+        <item>Chinese Brain Health Day, International Day for the Preservation of the Ozone Layer</item>
+        <item>ರಾಷ್ಟ್ರೀಯ ಹಲ್ಲಿನ ಪ್ರೇಮದ ದಿನ</item>
+        <item>ವಿಶ್ವ ಕದನ ವಿರಾಮದ ದಿನ</item>
+        <item>ವಿಶ್ವ ಪ್ರವಾಸೋದ್ಯಮದ ದಿನ</item>
+        <item>National Day of PRC, International Music Day, International Day of Older Persons</item>
+        <item>ವಿಶ್ವ ಪ್ರಾಣಿಗಳ ದಿನ</item>
+        <item>ವಿಶ್ವ ಶಿಕ್ಷಕರ ದಿನ</item>
+        <item>ರಾಷ್ಟ್ರೀಯ ಅಧಿಕರಕ್ತದೊತ್ತಡದ ದಿನ</item>
+        <item>ವಿಶ್ವ ಅಂಚೆ ದಿನ</item>
+        <item>ವಿಶ್ವ ಮಾನಸಿಕ ಆರೋಗ್ಯ ದಿನ</item>
+        <item>ವಿಶ್ವ ಪ್ರಮಾಣಿತ ಗುಣಮಟ್ಟಗಳ ದಿನ</item>
+        <item>ಅಂತರರಾಷ್ಟ್ರೀಯ ಕುರುಡರ ದಿನ, ವಿಶ್ವ ಗ್ರಾಮೀಣ ಮಹಿಳಾ ದಿನ</item>
+        <item>ವಿಶ್ವ ಆಹಾರ ದಿನ</item>
+        <item>ಅಂತರರಾಷ್ಟ್ರೀಯ ಬಡತನ ನಿವಾರಣೆಯ ದಿನ</item>
+        <item>ಒಕ್ಕೂಟ ರಾಷ್ಟ್ರಗಳ ದಿನ, ವಿಶ್ವ ಅಭಿವೃದ್ಧಿ ಮಾಹಿತಿಯ ದಿನ</item>
+        <item>ಚೀನೀ ಪುರುಷರ ಆರೋಗ್ಯ ದಿನ</item>
+        <item>ಅಂತರರಾಷ್ಟ್ರೀಯ ಜೈವಿಕ ವೈವಿಧ್ಯದ ದಿನ</item>
+        <item>ಹಾಲೊವಿನ್</item>
+        <item>"Chinese Journalists' Day"</item>
+        <item>ಅಗ್ನಿ ಜಾಗೃತಿ ದಿನ</item>
+        <item>ವಿಶ್ವ ಮಧುಮೇಹ ದಿನ</item>
+        <item>ಅಂತರರಾಷ್ಟ್ರೀಯ ಕಾಲೇಜು ವಿದ್ಯಾರ್ಥಿಗಳ ದಿನ</item>
+        <item>ವಿಶ್ವ ಮಹಿಳೆಯರ ವಿರುದ್ಧ ಹಿಂಸಾಚಾರವನ್ನು ತೊಡೆದುಹಾಕುವ ದಿನ</item>
+        <item>ವಿಶ್ವ ಏಡ್ಸ್ ದಿನ</item>
+        <item>ಅಂತರರಾಷ್ಟ್ರೀಯ ನಿಷ್ಕ್ರಿಯ ವ್ಯಕ್ತಿಗಳ ದಿನ</item>
+        <item>ರಾಷ್ಟ್ರೀಯ ಕಾನೂನು ಪ್ರಚಾರದ ದಿನ</item>
+        <item>ವಿಶ್ವ ಫುಟ್‌ಬಾಲ್ ದಿನ</item>
+        <item>ಕ್ರಿಸ್ಮಸ್ ಮುನ್ನಾದಿನ</item>
+        <item>ಕ್ರಿಸ್ಮಸ್</item>
+        <item>ಅಂತರರಾಷ್ಟ್ರೀಯ ಜೈವಿಕ ವೈವಿಧ್ಯದ ದಿನ</item>
+    </string-array>
+    <string-array name="complex_gregorian_holiday">
+        <item>ವಿಶ್ವ ಕುಷ್ಠರೋಗ ದಿನಾಚರಣೆ</item>
+        <item>ಪ್ರಾಥಮಿಕ ಮತ್ತು ಪ್ರೌಢಶಾಲೆಗಳ ಸುರಕ್ಷಿತ ಶೈಕ್ಷಣಿಕ ದಿನಾಚರಣೆ</item>
+        <item>ಈಸ್ಟರ್</item>
+        <item>ತಾಯಂದಿನ ದಿನ</item>
+        <item>ರಾಷ್ಟ್ರೀಯ ಅಂಗವಿಕಲತೆ ದಿನಾಚರಣೆ</item>
+        <item>ತಂದೆಯ ದಿನ</item>
+        <item>ವಿಶ್ವ ಶಾಂತಿ ದಿನ</item>
+        <item>ರಾಷ್ಟ್ರೀಯ ರಕ್ಷಣಾ ಶಿಕ್ಷಣ ದಿನ</item>
+        <item>ವಿಶ್ವ ಕಿವುಡರ ದಿನ</item>
+        <item>ವಿಶ್ವ ಆವಾಸಸ್ಥಾನ ದಿನಾಚರಣೆ</item>
+        <item>ಕೆನಡಾದ ಕೃತಜ್ಞತೆ ನಿವೇದನೆಯ ದಿನ</item>
+        <item>ಅಂತರರಾಷ್ಟ್ರೀಯ ನೈಸರ್ಗಿಕ ವಿಪತ್ತು ತಗ್ಗಿಸುವಿಕೆಯ ದಿನ</item>
+        <item>ವಿಶ್ವ ದೃಷ್ಟಿ ದಿನ</item>
+        <item>ಯುಎಸ್ ಕೃತಜ್ಞತೆ ನಿವೇದನೆಯ ದಿನ</item>
+    </string-array>
+    <string-array name="lunar_holiday">
+        <item>ವಸಂತಕಾಲ ಹಬ್ಬ</item>
+        <item>元宵节</item>
+        <item>端午节</item>
+        <item>ಚೀನೀ ಪ್ರೇಮಿಗಳ ದಿನ</item>
+        <item>中秋节</item>
+        <item>重阳节</item>
+        <item>腊八节</item>
+    </string-array>
+    <string-array name="year_name">
+        <item>〇</item>
+        <item>ಸೋಮ</item>
+        <item>ಮಂಗಳ</item>
+        <item>ಬುಧ</item>
+        <item>ಗುರು</item>
+        <item>ಶುಕ್ರ</item>
+        <item>ಶನಿ</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+    </string-array>
+    <string-array name="month_name">
+        <item>ಸೋಮ</item>
+        <item>ಮಂಗಳ</item>
+        <item>ಬುಧ</item>
+        <item>ಗುರು</item>
+        <item>ಶುಕ್ರ</item>
+        <item>ಶನಿ</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>" "</item>
+    </string-array>
+    <string-array name="Week_name">
+        <item>ಭಾನುವಾರ</item>
+        <item>ಸೋಮವಾರ</item>
+        <item>ಮಂಗಳವಾರ</item>
+        <item>ಬುಧವಾರ</item>
+        <item>ಗುರುವಾರ</item>
+        <item>ಶುಕ್ರವಾರ</item>
+        <item>ಶನಿವಾರ</item>
+    </string-array>
+</resources>

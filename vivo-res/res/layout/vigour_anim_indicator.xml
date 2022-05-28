@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vivo.common.indicator.VivoAnimIndicator android:layout_gravity="center" android:id="@id/slider_anim_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.vivo.common.indicator.VivoCountIndicator android:layout_gravity="center" android:orientation="horizontal" android:id="@id/slider_count_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/indicator_anim" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+</com.vivo.common.indicator.VivoAnimIndicator>

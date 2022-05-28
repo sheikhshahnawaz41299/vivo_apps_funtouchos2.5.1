@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lunar_months">
+        <item>正</item>
+        <item>二</item>
+        <item>Rab</item>
+        <item>Kha</item>
+        <item>Jum</item>
+        <item>Sab</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>腊</item>
+    </string-array>
+    <string-array name="lunar_days_prefix">
+        <item>初</item>
+        <item>十</item>
+        <item>20</item>
+        <item>Rab</item>
+    </string-array>
+    <string-array name="lunar_days_suffix">
+        <item>Isn</item>
+        <item>二</item>
+        <item>Rab</item>
+        <item>Kha</item>
+        <item>Jum</item>
+        <item>Sab</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+    </string-array>
+    <string-array name="solar_term">
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+        <item>春分</item>
+        <item>Pesta Qingming</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>小雪</item>
+        <item>大雪</item>
+        <item>冬至</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_jan">
+        <item>Hari Tahun Baru</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_feb">
+        <item>Hari Valentine</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_apr">
+        <item>愚人节</item>
+        <item>Hari Bumi</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_june">
+        <item>Hari Kanak-kanak</item>
+        <item>Hari Alam Sekitar Dunia</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_oct">
+        <item>国庆节</item>
+        <item>Halloween</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_dec">
+        <item>Malam Krismas</item>
+        <item>Krismas</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday">
+        <item>Hari Tahun Baru</item>
+        <item>Hari Tanah Basah Dunia</item>
+        <item>Hari Valentine</item>
+        <item>Hari Penjagaan Telinga Kebangsaan</item>
+        <item>Hari Khidmat Sukarela Belia</item>
+        <item>Hari Wanita Antarabangsa</item>
+        <item>Hari Perlindungan Sungai</item>
+        <item>Hari Menanam Pokok</item>
+        <item>Hari Putih, Hari Polis Antarabangsa</item>
+        <item>Hari Hak Pengguna Dunia</item>
+        <item>Hari Hutan Sedunia, Hari Tidur Sedunia</item>
+        <item>Hari Air Sedunia</item>
+        <item>Hari Meteorologi Sedunia</item>
+        <item>Hari Tuberkulosis Sedunia</item>
+        <item>愚人节</item>
+        <item>Pesta Qingming</item>
+        <item>Hari Kesihatan Sedunia</item>
+        <item>Hari Bumi Sedunia</item>
+        <item>Hari Harta Intelek Sedunia</item>
+        <item>Hari Pekerja Antarabangsa</item>
+        <item>Hari Asma Sedunia</item>
+        <item>Hari Belia</item>
+        <item>Hari Palang Merah Sedunia</item>
+        <item>Hari Jururawat Antarabangsa</item>
+        <item>Hari Keluarga Antarabangsa</item>
+        <item>Hari Masyarakat Telekomunikasi dan Maklumat Sedunia</item>
+        <item>Hari Zat Makanan Pelajar Kebangsaan</item>
+        <item>Hari Susu Sedunia</item>
+        <item>Hari Tiada Tembakau Sedunia</item>
+        <item>Hari Kanak-kanak</item>
+        <item>Hari Alam Sekitar Dunia</item>
+        <item>Hari Penjagaan Mata Kebangsaan</item>
+        <item>Hari Memerangi Penggurunaan dan Kemarau</item>
+        <item>Hari Olimpik Antarabangsa</item>
+        <item>Hari Darat Kebangsaan</item>
+        <item>Hari Menentang Penyalahgunaan dan Penyeludupan Dadah Antarabangsa</item>
+        <item>Hari Penubuhan Parti Komunis Cina, Hari Seni Bina Sedunia</item>
+        <item>Hari Peringatan Perang Antijepun Warga Cina</item>
+        <item>Hari Populasi Dunia</item>
+        <item>Hari Tentera Pembebasan Warga Cina</item>
+        <item>Hari Belia Antarabangsa</item>
+        <item>Hari Antibuta Huruf Antarabangsa</item>
+        <item>Hari Guru</item>
+        <item>Hari Kesihatan Otak China, Hari Pemeliharaan Lapisan Ozon Antarabangsa</item>
+        <item>Hari Penjagaan Gigi Kebangsaan</item>
+        <item>Hari Hentikan Pembakaran Sedunia</item>
+        <item>Hari Pelancongan Sedunia</item>
+        <item>Hari Kebangsaan Cina, Hari Muzik Antarabangsa, Hari Warga Tua Antarabangsa</item>
+        <item>Hari Haiwan Sedunia</item>
+        <item>Hari Guru Sedunia</item>
+        <item>Hari Hipertegangan Kebangsaan</item>
+        <item>Hari Pos Sedunia</item>
+        <item>Hari Kesihatan Mental Sedunia</item>
+        <item>Hari Standard Sedunia</item>
+        <item>Hari Orang Buta Antarabangsa, Hari Wanita Luar Bandar Sedunia</item>
+        <item>Hari Makanan Sedunia</item>
+        <item>Hari Pembasmian Kemiskinan Antarabangsa</item>
+        <item>Hari Bangsa-bangsa Bersatu, Hari Maklumat Pembangunan Sedunia</item>
+        <item>Hari Kesihatan Lelaki Cina</item>
+        <item>Hari Kepelbagaian Biologi Antarabangsa</item>
+        <item>Halloween</item>
+        <item>Hari Kewartawanan Cina</item>
+        <item>Hari Publisiti Perlindungan Kebakaran</item>
+        <item>Hari Diabetes Sedunia</item>
+        <item>Hari Pelajar Antarabangsa</item>
+        <item>Hari Pembasmian Keganasan terhadap Wanita Antarabangsa</item>
+        <item>Hari AIDS Sedunia</item>
+        <item>Hari Orang Kurang Upaya Antarabangsa</item>
+        <item>Hari Publisiti Perundangan Kebangsaan</item>
+        <item>Hari Bola Sepak Sedunia</item>
+        <item>Malam Krismas</item>
+        <item>Krismas</item>
+        <item>Hari Kepelbagaian Biologi Antarabangsa</item>
+    </string-array>
+    <string-array name="complex_gregorian_holiday">
+        <item>Hari Kusta Sedunia</item>
+        <item>Hari Pendidikan Keselamatan untuk Sekolah Rendah dan Menengah</item>
+        <item>Hari Easter</item>
+        <item>Hari Ibu</item>
+        <item>Hari OKU Nasional</item>
+        <item>Hari Bapa</item>
+        <item>Hari Keamanan Antarabangsa</item>
+        <item>Hari Pendidikan Pertahanan Nasional</item>
+        <item>"Hari Orang Pekak Antarabangsa "</item>
+        <item>Hari Perumahan Sedunia</item>
+        <item>Hari Kesyukuran Kanada</item>
+        <item>Hari Antarabangsa untuk Pengurangan Bencana Alam</item>
+        <item>Hari Penglihatan Sedunia</item>
+        <item>Hari Kesyukuran US</item>
+    </string-array>
+    <string-array name="year_name">
+        <item>〇</item>
+        <item>Isn</item>
+        <item>二</item>
+        <item>Rab</item>
+        <item>Kha</item>
+        <item>Jum</item>
+        <item>Sab</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+    </string-array>
+    <string-array name="month_name">
+        <item>Isn</item>
+        <item>二</item>
+        <item>Rab</item>
+        <item>Kha</item>
+        <item>Jum</item>
+        <item>Sab</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>" "</item>
+    </string-array>
+    <string-array name="Week_name">
+        <item>Ahad</item>
+        <item>Isnin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Khamis</item>
+        <item>Jumaat</item>
+        <item>Sabtu</item>
+    </string-array>
+    <string-array name="problem_ask_lables">
+        <item>Nama bapa anda?</item>
+        <item>Nama ibu anda?</item>
+        <item>Nama pasangan anda?</item>
+    </string-array>
+</resources>

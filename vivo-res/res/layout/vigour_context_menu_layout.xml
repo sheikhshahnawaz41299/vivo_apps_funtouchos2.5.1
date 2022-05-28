@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/contextmenu_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/contextmenu_content" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:orientation="vertical" android:id="@id/topPanel" android:background="?vivoContextMenuBg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/listItemHeightSmall">
+            <TextView android:textSize="@dimen/menu_title_text_size" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/menuTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" android:textDirection="anyRtl" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" style="?android:attr/textAppearanceMedium" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/iconPanel" android:background="?vivoBtnPanel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="center|top" android:orientation="horizontal" android:id="@id/iconMenus" android:paddingTop="@dimen/icon_panel_top_padding" android:paddingBottom="@dimen/icon_panel_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/vigour_context_menu_margin" android:layout_marginRight="@dimen/vigour_context_menu_margin" android:baselineAligned="false" android:minHeight="@dimen/icon_panel_height" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/listLayout" android:background="?vivoBtnPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?vivoDividerHorizontal" android:showDividers="beginning">
+            <ListView android:id="@id/listPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="?vivoListMenuItemBg" android:divider="?vivoDividerHorizontal" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

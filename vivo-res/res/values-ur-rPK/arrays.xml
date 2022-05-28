@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lunar_months">
+        <item>正</item>
+        <item>منگل</item>
+        <item>بدھ</item>
+        <item>جمعرات</item>
+        <item>جمعہ</item>
+        <item>سنیچر</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>腊</item>
+    </string-array>
+    <string-array name="lunar_days_prefix">
+        <item>初</item>
+        <item>十</item>
+        <item>20</item>
+        <item>بدھ</item>
+    </string-array>
+    <string-array name="lunar_days_suffix">
+        <item>پیر</item>
+        <item>منگل</item>
+        <item>بدھ</item>
+        <item>جمعرات</item>
+        <item>جمعہ</item>
+        <item>سنیچر</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+    </string-array>
+    <string-array name="solar_term">
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+        <item>春分</item>
+        <item>کنگ منگ فیسٹیول</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>小雪</item>
+        <item>大雪</item>
+        <item>冬至</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_jan">
+        <item>سال نو کا دن</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_feb">
+        <item>یوم عشاق</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_apr">
+        <item>愚人节</item>
+        <item>یوم ارض</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_june">
+        <item>یوم اطفال</item>
+        <item>عالمی یوم ماحولیات</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_oct">
+        <item>国庆节</item>
+        <item>ہالووین</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_dec">
+        <item>کرسمس کی شام</item>
+        <item>کرسمس</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday">
+        <item>سال نو کا دن</item>
+        <item>ورلڈ ویٹ لینڈز ڈے</item>
+        <item>یوم عشاق</item>
+        <item>نیشنل ایئر کیئر ڈے</item>
+        <item>یوتھ والنٹئیر سروس ڈے</item>
+        <item>انٹرنیشنل ویمنس ڈے</item>
+        <item>مدر ریور پروٹیکشن ڈے</item>
+        <item>چائنیز آربر ڈے</item>
+        <item>وہائٹ ویلنٹائن، بین الاقوامی پولس ڈے</item>
+        <item>ورلڈ کنزیومر رائٹس ڈے</item>
+        <item>ورلڈ فارسٹری ڈے، ورلڈ سلیپ ڈے</item>
+        <item>ورلڈ واٹر ڈے</item>
+        <item>ورلڈ میٹرولوجیکل ڈے</item>
+        <item>ورڈ ٹیوبرکلوسس ڈے</item>
+        <item>愚人节</item>
+        <item>کنگ منگ فیسٹیول</item>
+        <item>عالمی یوم صحت</item>
+        <item>عالمی یوم ارض</item>
+        <item>عالمی یوم املاک دانش</item>
+        <item>انٹرنیشنل لیبر ڈے</item>
+        <item>عالمی یوم دمہ</item>
+        <item>چائنیز یوتھ ڈے</item>
+        <item>عالمی ریڈ کراس ڈے</item>
+        <item>انٹرنیشنل نرسز ڈے</item>
+        <item>انٹرنیشنل ڈے آف فیملیز</item>
+        <item>ورلڈ ٹیلی کمیونیکیشن ڈے</item>
+        <item>نیشنل اسٹوڈنٹ نیوٹریشن ڈے</item>
+        <item>ورڈ ملک ڈے</item>
+        <item>ورلڈ نو ٹوبیکو ڈے</item>
+        <item>بین الاقوامی چلڈرنس ڈے</item>
+        <item>عالمی یوم ماحولیات</item>
+        <item>نیشنل آئی کیئر ڈے</item>
+        <item>صحرا بننے اور سوکھے کی روک تھام کا عالمی دن</item>
+        <item>بین الاقوامی اولمپک ڈے</item>
+        <item>قومی یوم ارض</item>
+        <item>منشیات کے بیجا استعمال کے خلاف قومی دن</item>
+        <item>کمیونسٹ پارٹی آف چائنا کی سالگرہ، بین الاقوامی یوم فن تعمیر</item>
+        <item>جاپان مخالف جنگ میں چینی عوام کی فتح کا دن</item>
+        <item>عالمی یوم آبادی</item>
+        <item>چین کی پیوپلز لبریشن آرمی کا دن</item>
+        <item>بین الاقوامی یوم جواناں</item>
+        <item>بین الاقوامی یوم خواندگی</item>
+        <item>چینی یوم اساتذہ</item>
+        <item>چینی دماغی صحت کا دن، اوزون کی پرت کے تحفط کا بین الاقوامی دن</item>
+        <item>اپنے دانتوں سے محبت کا قومی دن</item>
+        <item>جنگ بندی کا عالمی دن</item>
+        <item>عالمی یوم سیاحت</item>
+        <item>PRC کا قومی دن، بین الاقوامی یوم موسیقی، بزرگوں کا بین الاقوامی دن</item>
+        <item>عالمی یوم حیوانات</item>
+        <item>عالمی یوم اساتذء</item>
+        <item>قومی یوم بیش طنابی (نیشنل ہائپرٹینشن ڈے)</item>
+        <item>عالمی یوم ڈاک</item>
+        <item>عالمی یوم دماغی صحت</item>
+        <item>عالمی یوم معیارات</item>
+        <item>نابینا افراد کا بین الاقوامی دن، دیہی خواتین کا عالمی دن</item>
+        <item>عالمی یوم غذا</item>
+        <item>بین الاقوامی یوم انسداد افلاس</item>
+        <item>یوم اقوام متحدہ، ترقیاتی اطلاعات کا عالمی یوم</item>
+        <item>چینی مردوں کا یوم صحت</item>
+        <item>حیاتیاتی تنوع کا بین الاقوامی دن</item>
+        <item>ہالووین</item>
+        <item>چینی یوم صحافی</item>
+        <item>آتش زدگی سے واقفیت کا دن</item>
+        <item>عالمی یوم ذیابیطس</item>
+        <item>بین الاقوامی یوم طلبائے کالج</item>
+        <item>خواتین کے خلاف تشدد کے خاتمے کا بین الاقوامی دن</item>
+        <item>عالمی یوم AIDS</item>
+        <item>معذور افراد کا بین الاقومی دن</item>
+        <item>قانونی تشہیر کا قومی دن</item>
+        <item>عالمی یوم فٹبال</item>
+        <item>کرسمس کی شام</item>
+        <item>کرسمس</item>
+        <item>حیاتیاتی تنوع کا بین الاقوامی دن</item>
+    </string-array>
+    <string-array name="complex_gregorian_holiday">
+        <item>ورلڈ لپروزی ڈے</item>
+        <item>پرائمری اور سیکنڈری اسکولوں کیلئے حفاظتی تعلیم</item>
+        <item>ایسٹر</item>
+        <item>یومِ مادر</item>
+        <item>قومی یوم معذوراں</item>
+        <item>یوم پدر</item>
+        <item>بین الاقوامی یوم امن</item>
+        <item>قومی یوم دفاعی تعلیم</item>
+        <item>بین الاقوامی یوم پہرہ پن</item>
+        <item>عالمی یوم ہاؤسنگ</item>
+        <item>کینیڈین تھینکس گیونگ ڈے</item>
+        <item>بین الاقوامی دن برائے فطری آفات میں تخفیف</item>
+        <item>عالمی یوم بصارت</item>
+        <item>امریکی تھینکس گیونگ ڈے</item>
+    </string-array>
+    <string-array name="year_name">
+        <item>〇</item>
+        <item>پیر</item>
+        <item>منگل</item>
+        <item>بدھ</item>
+        <item>جمعرات</item>
+        <item>جمعہ</item>
+        <item>سنیچر</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+    </string-array>
+    <string-array name="month_name">
+        <item>پیر</item>
+        <item>منگل</item>
+        <item>بدھ</item>
+        <item>جمعرات</item>
+        <item>جمعہ</item>
+        <item>سنیچر</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>" "</item>
+    </string-array>
+    <string-array name="Week_name">
+        <item>اتوار</item>
+        <item>پیر</item>
+        <item>منگل</item>
+        <item>بدھ</item>
+        <item>جمعرات</item>
+        <item>جمعہ</item>
+        <item>سنیچر</item>
+    </string-array>
+</resources>

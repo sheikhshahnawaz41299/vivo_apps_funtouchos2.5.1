@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lunar_months">
+        <item>正</item>
+        <item>మంగళ</item>
+        <item>బుధ</item>
+        <item>గురు</item>
+        <item>శుక్ర</item>
+        <item>శని</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>腊</item>
+    </string-array>
+    <string-array name="lunar_days_prefix">
+        <item>初</item>
+        <item>十</item>
+        <item>20</item>
+        <item>బుధ</item>
+    </string-array>
+    <string-array name="lunar_days_suffix">
+        <item>సోమ</item>
+        <item>మంగళ</item>
+        <item>బుధ</item>
+        <item>గురు</item>
+        <item>శుక్ర</item>
+        <item>శని</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+    </string-array>
+    <string-array name="solar_term">
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+        <item>春分</item>
+        <item>క్వింగ్‌మింగ్ ఉత్సవం</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>小雪</item>
+        <item>大雪</item>
+        <item>冬至</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_jan">
+        <item>నూతన సంవత్సర దినోత్సవం</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_feb">
+        <item>ప్రేమికుల దినోత్సవం</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_apr">
+        <item>愚人节</item>
+        <item>భూమి దినోత్సవం</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_june">
+        <item>బాలల దినోత్సవం</item>
+        <item>ప్రపంచ పర్యావరణ దినోత్సవం</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_oct">
+        <item>国庆节</item>
+        <item>హాలోవీన్</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday_dec">
+        <item>క్రిస్మస్ ఈవ్</item>
+        <item>క్రిస్మస్</item>
+    </string-array>
+    <string-array name="simple_gregorian_holiday">
+        <item>నూతన సంవత్సర దినోత్సవం</item>
+        <item>ప్రపంచ తడి నేలల దినోత్సవం</item>
+        <item>ప్రేమికుల దినోత్సవం</item>
+        <item>జాతీయ చెవి సంరక్షణా దినోత్సవం</item>
+        <item>యువత స్వచ్ఛంద సేవా దినోత్సవం</item>
+        <item>జాతీయ స్త్రీల దినోత్సవం</item>
+        <item>నదుల సంరక్షణా దినోత్సవం</item>
+        <item>చైనీస్ ఆర్బోర్ దినోత్సవం</item>
+        <item>వైట్ వాలెంటైన్, అంతర్జాతీయ పోలీసుల దినోత్సవం</item>
+        <item>ప్రపంచ వినియోగదారుల హక్కుల దినోత్సవం</item>
+        <item>ప్రపంచ అరణ్య దినోత్సవం, ప్రపంచ నిద్ర దినోత్సవం</item>
+        <item>ప్రపంచ జల దినోత్సవం</item>
+        <item>ప్రపంచ అంతరిక్ష శాస్త్ర దినోత్సవం</item>
+        <item>ప్రపంచ క్షయ దినోత్సవం</item>
+        <item>愚人节</item>
+        <item>క్వింగ్‌మింగ్ ఉత్సవం</item>
+        <item>ప్రపంచ ఆరోగ్య దినోత్సవం</item>
+        <item>ప్రపంచ భూ పరిరక్షణ దినోత్సవం</item>
+        <item>ప్రపంచ మేధోపరమైన ఆస్థి దినోత్సవం</item>
+        <item>అంతర్జాతీయ కార్మిక దినోత్సవం</item>
+        <item>ప్రపంచ ఉబ్బసం దినోత్సవం</item>
+        <item>చైనీస్ యువత దినోత్సవం</item>
+        <item>ప్రపంచ రెడ్ క్రాస్ దినోత్సవం</item>
+        <item>అంతర్జాతీయ నర్సుల దినోత్సవం</item>
+        <item>అంతర్జాతీయ కుటుంబాల దినోత్సవం</item>
+        <item>ప్రపంచ టెలీ కమ్యూనికేషన్ దినోత్సవం</item>
+        <item>జాతీయ విద్యార్థుల పోషక దినోత్సవం</item>
+        <item>ప్రపంచ పాల దినోత్సవం</item>
+        <item>ప్రపంచ ధూమపాన వ్యతిరేక దినోత్సవం</item>
+        <item>అంతర్జాతీయ పిల్లల దినోత్సవం</item>
+        <item>ప్రపంచ పర్యావరణ దినోత్సవం</item>
+        <item>జాతీయ నేత్ర సంరక్షణ దినోత్సవం</item>
+        <item>ప్రపంచవ్యాప్తంగా మరుభూమీకరణము మరియు కరువుపై పోరాట దినోత్సవం</item>
+        <item>అంతర్జాతీయ ఒలింపిక్ దినోత్సవం</item>
+        <item>జాతీయ ప్రజా స్థలాల దినోత్సవం</item>
+        <item>అంతర్జాతీయంగా మత్తు పదార్థాల దుర్వినియోగ వ్యతిరేక దినోత్సవం</item>
+        <item>చైనా కమ్యూనిష్టు పార్టీ ఆవిర్భావ దినోత్సవం, అంతర్జాతీయ నిర్మాణ కళా దినోత్సవం</item>
+        <item>చైనా ప్రజలు జపనీస్-వ్యతిరేక యుద్ధం విజయం సాధించిన దినోత్సవం</item>
+        <item>ప్రపంచ జనాభా దినోత్సవం</item>
+        <item>చైనా ప్రజల సైన్య విమోచన దినోత్సవం</item>
+        <item>అంతర్జాతీయ యువత దినోత్సవం</item>
+        <item>అంతర్జాతీయ అక్షరాస్యతా దినోత్సవం</item>
+        <item>చైనీస్ ఉపాధ్యాయుల దినోత్సవం</item>
+        <item>చైనీస్ మెదడు ఆరోగ్య దినోత్సవం, అంతర్జాతీయం ఓజోన్ పొర సంరక్షణా దినోత్సవం</item>
+        <item>జాతీయ దంత సంరక్షణా దినోత్సవం</item>
+        <item>ప్రపంచ కాల్పుల విరమణ దినోత్సవం</item>
+        <item>ప్రపంచ పర్యాటక దినోత్సవం</item>
+        <item>జాతీయ PRC దినోత్సవం, అంతర్జాతీయ సంగీత దినోత్సవం, అంతర్జాతీయ వృద్ధుల దినోత్సవం</item>
+        <item>ప్రపంచ జంతు సంరక్షణ దినోత్సవం</item>
+        <item>ప్రపంచ ఉపాధ్యాయుల దినోత్సవం</item>
+        <item>జాతీయ రక్తపోటు దినోత్సవం</item>
+        <item>ప్రపంచ పోస్ట్ దినోత్సవం</item>
+        <item>ప్రపంచ మానసిక ఆరోగ్య దినోత్సవం</item>
+        <item>ప్రపంచ ప్రమాణాల దినోత్సవం</item>
+        <item>అంతర్జాతీయ అంధుల దినోత్సవం, ప్రపంచ గ్రామీణ మహిళల దినోత్సవం</item>
+        <item>ప్రపంచ ఆహార దినోత్సవం</item>
+        <item>ప్రపంచ పేదరిక నిర్మూలనా దినోత్సవం</item>
+        <item>యునైటెడ్ నేషన్స్ దినోత్సవం, ప్రపంచ అభివృద్ధి సమాచార దినోత్సవం</item>
+        <item>చైనీస్ పురుషుల ఆరోగ్య దినోత్సవం</item>
+        <item>ప్రపంచ జీవ వైవిధ్య దినోత్సవం</item>
+        <item>హాలోవీన్</item>
+        <item>చైనీస్ పాత్రికేయుల దినోత్సవం</item>
+        <item>అగ్ని మాపక దినోత్సవం</item>
+        <item>ప్రపంచ మధుమేహ దినోత్సవం</item>
+        <item>అంతర్జాతీయ కళాశాల విద్యార్థుల దినోత్సవం</item>
+        <item>అంతర్జాతీయంగా మహిళలపై దాడుల నిర్మూలనా దినోత్సవం</item>
+        <item>ప్రపంచ AIDS దినోత్సవం</item>
+        <item>ప్రపంచ వికలాంగుల దినోత్సవం</item>
+        <item>జాతీయ చట్టంపై అవగాహన దినోత్సవం</item>
+        <item>ప్రపంచ ఫుట్‌బాల్ దినోత్సవం</item>
+        <item>క్రిస్మస్ ఈవ్</item>
+        <item>క్రిస్మస్</item>
+        <item>ప్రపంచ జీవ వైవిధ్య దినోత్సవం</item>
+    </string-array>
+    <string-array name="complex_gregorian_holiday">
+        <item>ప్రపంచ కుష్టువ్యాధి దినోత్సవం</item>
+        <item>ప్రాథమిక మరియు ద్వితీయ పాఠశాలల కోసం సురిక్షత విద్యాభ్యాస దినోత్సవం</item>
+        <item>ఈస్టర్</item>
+        <item>మాతృ దినోత్సవం</item>
+        <item>జాతీయ వికలాంగుల దినోత్సవం</item>
+        <item>పితృ దినోత్సవం</item>
+        <item>అంతర్జాతీయ శాంతి దినోత్సవం</item>
+        <item>జాతీయ రక్షణ విద్యాభ్యాస దినోత్సవం</item>
+        <item>అంతర్జాతీయ బధిరుల దినోత్సవం</item>
+        <item>ప్రపంచ గృహనిర్మాణ దినోత్సవం</item>
+        <item>కెనడా ఉపకారస్తుతి దినోత్సవం</item>
+        <item>అంతర్జాతీయ ప్రకృతి వైపరీత్యాల తగ్గింపు దినోత్సవం</item>
+        <item>ప్రపంచ కంటి చూపు దినోత్సవం</item>
+        <item>US ఉపకారస్తుతి దినోత్సవం</item>
+    </string-array>
+    <string-array name="year_name">
+        <item>〇</item>
+        <item>సోమ</item>
+        <item>మంగళ</item>
+        <item>బుధ</item>
+        <item>గురు</item>
+        <item>శుక్ర</item>
+        <item>శని</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+    </string-array>
+    <string-array name="month_name">
+        <item>సోమ</item>
+        <item>మంగళ</item>
+        <item>బుధ</item>
+        <item>గురు</item>
+        <item>శుక్ర</item>
+        <item>శని</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>" "</item>
+    </string-array>
+    <string-array name="Week_name">
+        <item>వారం</item>
+        <item>సోమవారం</item>
+        <item>మంగళవారం</item>
+        <item>బుధవారం</item>
+        <item>గురువారం</item>
+        <item>శుక్రవారం</item>
+        <item>శనివారం</item>
+    </string-array>
+</resources>
