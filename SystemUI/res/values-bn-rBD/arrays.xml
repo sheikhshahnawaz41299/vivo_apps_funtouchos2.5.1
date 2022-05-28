@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item>Wi-Fi</item>
+        <item>স্ক্যান করা হচ্ছে...</item>
+        <item>সংযুক্ত হচ্ছে...</item>
+        <item>প্রমাণীকরণ করা হচ্ছে…</item>
+        <item>IP ঠিকানা পাওয়া হচ্ছে…</item>
+        <item>সংযুক্ত</item>
+        <item>বিরাম দেওয়া হয়েছে</item>
+        <item>সংযোগ বিচ্ছিন্ন হচ্ছে…</item>
+        <item>সংযোগ বিচ্ছিন্ন</item>
+        <item>ব্যর্থ হয়েছে</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Wi-Fi</item>
+        <item>স্ক্যান করা হচ্ছে...</item>
+        <item>সংযুক্ত হচ্ছে...</item>
+        <item>প্রমাণীকরণ করা হচ্ছে…</item>
+        <item>IP ঠিকানা পাওয়া হচ্ছে…</item>
+        <item>সংযুক্ত%1$s</item>
+        <item>বিরাম দেওয়া হয়েছে</item>
+        <item>সংযোগ বিচ্ছিন্ন হচ্ছে…</item>
+        <item>সংযোগ বিচ্ছিন্ন</item>
+        <item>ব্যর্থ হয়েছে</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>আপনার পিতার নাম কি?</item>
+        <item>আপনার মায়ের নাম কী?</item>
+        <item>আপনার স্বামী/স্ত্রীয়ের নাম কী?</item>
+        <item>আপনি কোন স্কুল থেকে প্রাথমিক শিক্ষা নিয়েছেন?</item>
+        <item>আপনার শিশু শিক্ষায়তনের শিক্ষকের নাম কী ছিল?</item>
+        <item>আপনার উচ্চ মাধ্যমিক স্কুলের শিক্ষকের নাম কী ছিল?</item>
+        <item>আপনার ছেলেবেলার সবথেকে কাছের বন্ধুটির নাম কী?</item>
+        <item>আপনার জন্মস্থান কোথায়?</item>
+        <item>আপনার ছাত্র (চাকরির) পরিচয়পত্রের সংখ্যা কত?</item>
+        <item>আপনার শনাক্তকরণের কার্ড নম্বরের শেষ 6টি সংখ্যা কী?</item>
+        <item>আপনার গাড়ির লাইসেন্স প্লেট নম্বর কী?</item>
+        <item>আপনি প্রথম কোন কোম্পানিতে কাজ করেছিলেন?</item>
+    </string-array>
+</resources>

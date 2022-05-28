@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/vivo_battery_charge_20_00_white" android:maxLevel="5" />
+    <item android:drawable="@drawable/vivo_battery_charge_20_01_white" android:maxLevel="10" />
+    <item android:drawable="@drawable/vivo_battery_charge_20_02_white" android:maxLevel="15" />
+    <item android:drawable="@drawable/vivo_battery_charge_20_03_white" android:maxLevel="20" />
+    <item android:drawable="@drawable/vivo_battery_charge_20_04_white" android:maxLevel="25" />
+    <item android:drawable="@drawable/vivo_battery_charge_20_05_white" android:maxLevel="30" />
+    <item android:drawable="@drawable/vivo_battery_charge_20_06_white" android:maxLevel="35" />
+    <item android:drawable="@drawable/vivo_battery_charge_20_07_white" android:maxLevel="40" />
+    <item android:drawable="@drawable/vivo_battery_charge_20_08_white" android:maxLevel="45" />
+    <item android:drawable="@drawable/vivo_battery_charge_20_09_white" android:maxLevel="50" />
+    <item android:drawable="@drawable/vivo_battery_charge_20_10_white" android:maxLevel="55" />
+    <item android:drawable="@drawable/vivo_battery_charge_20_11_white" android:maxLevel="60" />
+    <item android:drawable="@drawable/vivo_battery_charge_20_12_white" android:maxLevel="65" />
+    <item android:drawable="@drawable/vivo_battery_charge_20_13_white" android:maxLevel="70" />
+    <item android:drawable="@drawable/vivo_battery_charge_20_14_white" android:maxLevel="75" />
+    <item android:drawable="@drawable/vivo_battery_charge_20_15_white" android:maxLevel="80" />
+    <item android:drawable="@drawable/vivo_battery_charge_20_16_white" android:maxLevel="85" />
+    <item android:drawable="@drawable/vivo_battery_charge_20_17_white" android:maxLevel="90" />
+    <item android:drawable="@drawable/vivo_battery_charge_20_18_white" android:maxLevel="95" />
+    <item android:drawable="@drawable/vivo_battery_charge_20_19_white" android:maxLevel="100" />
+</level-list>

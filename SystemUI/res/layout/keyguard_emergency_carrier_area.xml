@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.EmergencyCarrierArea android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/res-auto">
+    <com.android.keyguard.CarrierText android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/kg_status_line_font_size" android:textColor="?android:textColorSecondary" android:ellipsize="marquee" android:id="@id/carrier_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" androidprv:allCaps="@bool/kg_use_all_caps" />
+    <com.android.keyguard.EmergencyButton android:textColor="#ffffffff" android:id="@id/emergency_call_button" android:background="@drawable/vivo_mix_char" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/vivo_emergency" android:layout_weight="1.0" style="@style/Widget.Button.VivoMixKey" />
+</com.android.keyguard.EmergencyCarrierArea>

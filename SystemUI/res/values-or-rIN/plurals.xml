@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d ସ୍କ୍ରିନ୍ ସମୀକ୍ଷାରେ ଅଛି</item>
+        <item quantity="one">1 ସ୍କ୍ରିନ୍ ସମୀକ୍ଷାରେ ଅଛି</item>
+    </plurals>
+    <plurals name="missed_call">
+        <item quantity="other">%d ମିସଡ୍ କଲ୍(ଗୁଡିକ)</item>
+        <item quantity="one">1 ହରାଇଥିବା କଲ୍</item>
+    </plurals>
+    <plurals name="unread_msg">
+        <item quantity="other">%d ଅପଠିତ ମେସେଜ୍‌(ଗୁଡିକ)</item>
+        <item quantity="one">1 ଅପଠିତ ସନ୍ଦେଶ</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">ଭୁଲ୍ SIM PIN କୋଡ୍, ଆପଣଙ୍କର %d ଉଦ୍ୟମ ବାକି ରହିଛି।</item>
+        <item quantity="one">ଭୁଲ୍ SIM PIN କୋଡ୍, ଆପଣଙ୍କ ଡିଭାଇସ୍ ଅଣଲକ୍ କରିବାକୁ ଆପଣଙ୍କ କ୍ୟାରିଅର୍‌କୁ ଆପଣ ସମ୍ପର୍କ କରିବା ପୂର୍ବରୁ ଆପଣଙ୍କର %d ଉଦ୍ୟମ ବାକି ରହିଛି।</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">ଭୁଲ୍ SIM PUK କୋଡ୍, SIM ସାର୍ବକାଳୀନ ପାଇଁ ଅଣବ୍ୟବହାରଯୋଗ୍ୟ ହେବା ପୂର୍ବରୁ ଆପଣଙ୍କର %d ଉଦ୍ୟମ ବାକି ରହିଛି।</item>
+        <item quantity="one">ଭୁଲ୍ SIM PUK କୋଡ୍, SIM ସାର୍ବକାଳୀନ ପାଇଁ ଅଣବ୍ୟବହାରଯୋଗ୍ୟ ହେବା ପୂର୍ବରୁ ଆପଣଙ୍କର %d ଉଦ୍ୟମ ବାକି ରହିଛି।</item>
+    </plurals>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set>
+        <objectAnimator android:interpolator="@interpolator/ic_hotspot_enable_mask_pathdata_interpolator_1" android:duration="233" />
+        <objectAnimator android:interpolator="@interpolator/ic_hotspot_enable_mask_pathdata_interpolator_2" android:duration="117" />
+    </set>
+</set>

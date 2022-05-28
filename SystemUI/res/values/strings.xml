@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_statusBarComponent">com.android.systemui.statusbar.phone.PhoneStatusBar</string>
+    <string name="quick_settings_tiles_default">wifi,bt,inversion,cell,airplane,rotation,flashlight,location,cast,hotspot</string>
+    <string name="quick_settings_tiles">default</string>
+    <string name="velocity_tracker_impl">platform</string>
+    <string name="doze_pulse_schedule">1s,10s,30s,60s</string>
+    <string name="system_ui_date_pattern">@android:string/system_ui_date_pattern</string>
+    <string name="vivo_status_bar_date_formatter_cn">%1$s %2$s</string>
+    <string name="vivo_status_bar_date_formatter_us">"%1$s
+%2$s"</string>
+    <string name="lland">L Land</string>
+    <string name="vivo_keyguard_full_wday_month_no_year">d MMM</string>
+    <string name="vivo_keyguard_full_wday_no_year">E</string>
+    <string name="vivo_keyguard_full_wday_month_week_no_year">MMM d E</string>
+    <string name="vivo_keyguard_nature_wday_month_week_no_year">E d MMM</string>
+    <string name="app_label">System UI</string>
+    <string name="status_bar_clear_all_button">Clear</string>
+    <string name="status_bar_recent_remove_item_title">Remove from list</string>
+    <string name="status_bar_recent_inspect_item_title">App info</string>
+    <string name="status_bar_no_recent_apps">Your recent screens appear here</string>
+    <string name="status_bar_accessibility_dismiss_recents">Dismiss recent apps</string>
+    <string name="status_bar_no_notifications_title">No notifications</string>
+    <string name="status_bar_ongoing_events_title">Ongoing</string>
+    <string name="status_bar_latest_events_title">Notifications</string>
+    <string name="battery_low_title">Battery is low</string>
+    <string name="battery_low_percent_format">Remaining: %s</string>
+    <string name="battery_low_percent_format_saver_started">Remaining: %s. Power saving assistant has been turned on.</string>
+    <string name="invalid_charger">"USB charging not supported.
+Use only the supplied charger."</string>
+    <string name="invalid_charger_title">USB charging not supported.</string>
+    <string name="invalid_charger_text">Use only the supplied charger.</string>
+    <string name="battery_low_why">Settings</string>
+    <string name="battery_saver_confirmation_title">Turn on battery saver?</string>
+    <string name="battery_saver_confirmation_ok">Turn on</string>
+    <string name="battery_saver_start_action">Turn on battery saver</string>
+    <string name="status_bar_settings_settings_button">Settings</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="status_bar_settings_airplane">Airplane mode</string>
+    <string name="status_bar_settings_auto_rotation">Auto-rotate screen</string>
+    <string name="status_bar_settings_mute_label">Mute</string>
+    <string name="status_bar_settings_auto_brightness_label">AUTO</string>
+    <string name="status_bar_settings_notifications">Notifications</string>
+    <string name="status_bar_settings_battery_meter_format">%d%%</string>
+    <string name="status_bar_network_name_separator">|</string>
+    <string name="bluetooth_tethered">Bluetooth tethered</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Set up input methods</string>
+    <string name="status_bar_use_physical_keyboard">Physical keyboard</string>
+    <string name="usb_device_permission_prompt">Allow the app %1$s to access the USB device?</string>
+    <string name="usb_accessory_permission_prompt">Allow the app %1$s to access the USB accessory?</string>
+    <string name="usb_device_confirm_prompt">Open %1$s when this USB device is connected?</string>
+    <string name="usb_accessory_confirm_prompt">Open %1$s when this USB accessory is connected?</string>
+    <string name="usb_accessory_uri_prompt">No installed apps work with this USB accessory. Learn more about this accessory at %1$s</string>
+    <string name="title_usb_accessory">USB accessory</string>
+    <string name="label_view">View</string>
+    <string name="always_use_device">Use by default for this USB device</string>
+    <string name="always_use_accessory">Use by default for this USB accessory</string>
+    <string name="usb_debugging_title">Allow USB debugging?</string>
+    <string name="usb_debugging_message">"The computer's RSA key fingerprint is:
+%1$s"</string>
+    <string name="usb_debugging_always">Always allow from this computer</string>
+    <string name="compat_mode_on">Zoom to fill screen</string>
+    <string name="compat_mode_off">Stretch to fill screen</string>
+    <string name="screenshot_saving_ticker">Saving screenshot…</string>
+    <string name="screenshot_saving_title">Saving screenshot…</string>
+    <string name="screenshot_saving_text">Screenshot is being saved.</string>
+    <string name="screenshot_saved_title">Screenshot captured.</string>
+    <string name="screenshot_saved_text">Touch to view your screenshot.</string>
+    <string name="screenshot_failed_title">"Couldn't capture screenshot."</string>
+    <string name="screenshot_failed_text">"Can't take screenshot due to limited storage space, or it isn't allowed by the app or your organization."</string>
+    <string name="usb_preference_title">USB file transfer options</string>
+    <string name="use_mtp_button_title">Mount as a media player (MTP)</string>
+    <string name="use_ptp_button_title">Mount as a camera (PTP)</string>
+    <string name="installer_cd_button_title">Install Android File Transfer app for Mac</string>
+    <string name="accessibility_back">Back</string>
+    <string name="accessibility_home">Home</string>
+    <string name="accessibility_menu">Menu</string>
+    <string name="accessibility_recent">Overview</string>
+    <string name="accessibility_search_light">Search</string>
+    <string name="accessibility_camera_button">Camera</string>
+    <string name="accessibility_phone_button">Phone</string>
+    <string name="accessibility_unlock_button">Unlock</string>
+    <string name="unlock_label">Unlock</string>
+    <string name="phone_label">open phone</string>
+    <string name="camera_label">open camera</string>
+    <string name="accessibility_ime_switch_button">Switch input method button.</string>
+    <string name="accessibility_compatibility_zoom_button">Compatibility zoom button.</string>
+    <string name="accessibility_compatibility_zoom_example">Zoom smaller to larger screen.</string>
+    <string name="accessibility_bluetooth_connected">Bluetooth connected.</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth disconnected.</string>
+    <string name="accessibility_no_battery">No battery.</string>
+    <string name="accessibility_battery_one_bar">Battery one bar.</string>
+    <string name="accessibility_battery_two_bars">Battery two bars.</string>
+    <string name="accessibility_battery_three_bars">Battery three bars.</string>
+    <string name="accessibility_battery_full">Battery full.</string>
+    <string name="accessibility_no_phone">No phone.</string>
+    <string name="accessibility_phone_one_bar">Phone one bar.</string>
+    <string name="accessibility_phone_two_bars">Phone two bars.</string>
+    <string name="accessibility_phone_three_bars">Phone three bars.</string>
+    <string name="accessibility_phone_signal_full">Phone signal full.</string>
+    <string name="accessibility_no_data">No data.</string>
+    <string name="accessibility_data_one_bar">Data one bar.</string>
+    <string name="accessibility_data_two_bars">Data two bars.</string>
+    <string name="accessibility_data_three_bars">Data three bars.</string>
+    <string name="accessibility_data_signal_full">Data signal full.</string>
+    <string name="accessibility_wifi_off">Wi-Fi off.</string>
+    <string name="accessibility_no_wifi">Wi-Fi disconnected.</string>
+    <string name="accessibility_wifi_one_bar">Wi-Fi one bar.</string>
+    <string name="accessibility_wifi_two_bars">Wi-Fi two bars.</string>
+    <string name="accessibility_wifi_three_bars">Wi-Fi three bars.</string>
+    <string name="accessibility_wifi_signal_full">Wi-Fi signal full.</string>
+    <string name="accessibility_wifi_name">Connected to %s.</string>
+    <string name="accessibility_bluetooth_name">Connected to %s.</string>
+    <string name="accessibility_no_wimax">No WiMAX.</string>
+    <string name="accessibility_wimax_one_bar">WiMAX one bar.</string>
+    <string name="accessibility_wimax_two_bars">WiMAX two bars.</string>
+    <string name="accessibility_wimax_three_bars">WiMAX three bars.</string>
+    <string name="accessibility_wimax_signal_full">WiMAX signal full.</string>
+    <string name="accessibility_no_signal">No signal.</string>
+    <string name="accessibility_not_connected">Not connected.</string>
+    <string name="accessibility_zero_bars">Zero bars.</string>
+    <string name="accessibility_one_bar">One bar.</string>
+    <string name="accessibility_two_bars">Two bars.</string>
+    <string name="accessibility_three_bars">Three bars.</string>
+    <string name="accessibility_signal_full">Signal full.</string>
+    <string name="accessibility_desc_on">On.</string>
+    <string name="accessibility_desc_off">Off.</string>
+    <string name="accessibility_desc_connected">Connected.</string>
+    <string name="accessibility_desc_connecting">Connecting.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1 X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_lte">LTE</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">Roaming</string>
+    <string name="accessibility_data_connection_edge">Edge</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_no_sim">No SIM.</string>
+    <string name="accessibility_bluetooth_tether">Bluetooth tethering.</string>
+    <string name="accessibility_airplane_mode">Airplane mode.</string>
+    <string name="accessibility_battery_level">Battery %d percent.</string>
+    <string name="accessibility_settings_button">System settings.</string>
+    <string name="accessibility_notifications_button">Notifications.</string>
+    <string name="accessibility_remove_notification">Clear notification.</string>
+    <string name="accessibility_gps_enabled">GPS enabled.</string>
+    <string name="accessibility_gps_acquiring">GPS acquiring.</string>
+    <string name="accessibility_tty_enabled">Teletypewriter enabled.</string>
+    <string name="accessibility_ringer_vibrate">Ringer vibrate.</string>
+    <string name="accessibility_ringer_silent">Ringer silent.</string>
+    <string name="accessibility_casting">@string/quick_settings_casting</string>
+    <string name="accessibility_recents_item_will_be_dismissed">Dismiss %s.</string>
+    <string name="accessibility_recents_item_dismissed">%s dismissed.</string>
+    <string name="accessibility_recents_item_launched">Starting %s.</string>
+    <string name="accessibility_notification_dismissed">Notification dismissed.</string>
+    <string name="accessibility_desc_notification_shade">Notification shade.</string>
+    <string name="accessibility_desc_quick_settings">Quick settings.</string>
+    <string name="accessibility_desc_lock_screen">Lock screen.</string>
+    <string name="accessibility_desc_settings">Settings</string>
+    <string name="accessibility_desc_recent_apps">Overview.</string>
+    <string name="accessibility_quick_settings_user">User %s.</string>
+    <string name="accessibility_quick_settings_wifi">%1$s.</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">Wi-Fi turned off.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">Wi-Fi turned on.</string>
+    <string name="accessibility_quick_settings_mobile">Mobile %1$s. %2$s. %3$s.</string>
+    <string name="accessibility_quick_settings_battery">Battery %s.</string>
+    <string name="accessibility_quick_settings_airplane_off">Airplane mode off.</string>
+    <string name="accessibility_quick_settings_airplane_on">Airplane mode on.</string>
+    <string name="accessibility_quick_settings_airplane_changed_off">Airplane mode turned off.</string>
+    <string name="accessibility_quick_settings_airplane_changed_on">Airplane mode turned on.</string>
+    <string name="accessibility_quick_settings_bluetooth_off">Bluetooth off.</string>
+    <string name="accessibility_quick_settings_bluetooth_on">Bluetooth on.</string>
+    <string name="accessibility_quick_settings_bluetooth_connecting">Bluetooth connecting.</string>
+    <string name="accessibility_quick_settings_bluetooth_connected">Bluetooth connected.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_off">Bluetooth turned off.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_on">Bluetooth turned on.</string>
+    <string name="accessibility_quick_settings_location_off">Location reporting off.</string>
+    <string name="accessibility_quick_settings_location_on">Location reporting on.</string>
+    <string name="accessibility_quick_settings_location_changed_off">Location reporting turned off.</string>
+    <string name="accessibility_quick_settings_location_changed_on">Location reporting turned on.</string>
+    <string name="accessibility_quick_settings_alarm">Alarm set for %s.</string>
+    <string name="accessibility_quick_settings_close">Close panel.</string>
+    <string name="accessibility_quick_settings_more_time">More time.</string>
+    <string name="accessibility_quick_settings_less_time">Less time.</string>
+    <string name="accessibility_quick_settings_flashlight_off">Flashlight off.</string>
+    <string name="accessibility_quick_settings_flashlight_on">Flashlight on.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_off">Flashlight turned off.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_on">Flashlight turned on.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_off">Color inversion turned off.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_on">Color inversion turned on.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_off">Mobile hotspot turned off.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_on">Mobile hotspot turned on.</string>
+    <string name="accessibility_casting_turned_off">Screen casting stopped.</string>
+    <string name="accessibility_brightness">Brightness</string>
+    <string name="data_usage_disabled_dialog_3g_title">2G-3G data is off</string>
+    <string name="data_usage_disabled_dialog_4g_title">4G data is off</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Cellular data is off</string>
+    <string name="data_usage_disabled_dialog_title">Data is off</string>
+    <string name="data_usage_disabled_dialog">"Your device turned off data because it reached the limit you set.
+
+Turning it back on may lead to charges from your carrier."</string>
+    <string name="data_usage_disabled_dialog_enable">Turn on data</string>
+    <string name="status_bar_settings_signal_meter_disconnected">No Internet connection</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi connected</string>
+    <string name="gps_notification_searching_text">Searching for GPS</string>
+    <string name="gps_notification_found_text">Location set by GPS</string>
+    <string name="accessibility_location_active">The app requests valid location information</string>
+    <string name="accessibility_clear_all">Clear all notifications.</string>
+    <string name="status_bar_notification_inspect_item_title">Notification settings</string>
+    <string name="status_bar_notification_app_settings_title">%s settings</string>
+    <string name="accessibility_rotation_lock_off">Screen will rotate automatically.</string>
+    <string name="accessibility_rotation_lock_on_landscape">Screen is locked in landscape orientation.</string>
+    <string name="accessibility_rotation_lock_on_portrait">Screen is locked in portrait orientation.</string>
+    <string name="accessibility_rotation_lock_off_changed">Screen will now rotate automatically.</string>
+    <string name="accessibility_rotation_lock_on_landscape_changed">Screen is now locked in landscape orientation.</string>
+    <string name="accessibility_rotation_lock_on_portrait_changed">Screen is now locked in portrait orientation.</string>
+    <string name="dessert_case">Sweets box</string>
+    <string name="start_dreams">Daydream</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="quick_settings_airplane_mode_label">Airplane mode</string>
+    <string name="quick_settings_battery_charging_label">Charging, %d%%</string>
+    <string name="quick_settings_battery_charged_label">Charged</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d Devices)</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth Off</string>
+    <string name="quick_settings_bluetooth_detail_empty_text">No paired devices available</string>
+    <string name="quick_settings_brightness_label">Brightness</string>
+    <string name="quick_settings_rotation_unlocked_label">Auto Rotate</string>
+    <string name="quick_settings_rotation_locked_label">Rotation Locked</string>
+    <string name="quick_settings_rotation_locked_portrait_label">Portrait</string>
+    <string name="quick_settings_rotation_locked_landscape_label">Landscape</string>
+    <string name="quick_settings_ime_label">Input Method</string>
+    <string name="quick_settings_location_label">Location in use</string>
+    <string name="quick_settings_location_off_label">Location off</string>
+    <string name="quick_settings_media_device_label">Media device</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">Emergency Calls Only</string>
+    <string name="quick_settings_settings_label">Settings</string>
+    <string name="quick_settings_time_label">Time</string>
+    <string name="quick_settings_user_label">Me</string>
+    <string name="quick_settings_user_title">User</string>
+    <string name="quick_settings_user_new_user">New user</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_not_connected">Not connected</string>
+    <string name="quick_settings_wifi_no_network">No Network</string>
+    <string name="quick_settings_wifi_off_label">Wi-Fi Off</string>
+    <string name="quick_settings_wifi_detail_empty_text">No saved networks available</string>
+    <string name="quick_settings_cast_title">Cast Screen</string>
+    <string name="quick_settings_casting">Casting</string>
+    <string name="quick_settings_cast_device_default_name">Unnamed device</string>
+    <string name="quick_settings_cast_device_default_description">Ready to cast</string>
+    <string name="quick_settings_cast_detail_empty_text">No devices available</string>
+    <string name="quick_settings_brightness_dialog_title">Brightness</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">AUTO</string>
+    <string name="quick_settings_inversion_label">Negative</string>
+    <string name="quick_settings_color_space_label">Color correction mode</string>
+    <string name="quick_settings_more_settings">More settings</string>
+    <string name="quick_settings_done">Done</string>
+    <string name="quick_settings_connected">Connected</string>
+    <string name="quick_settings_connected_via_wfa">Connected (via WLAN assistant)</string>
+    <string name="quick_settings_connecting">Connecting...</string>
+    <string name="quick_settings_tethering_label">Tethering</string>
+    <string name="quick_settings_hotspot_label">Hotspot</string>
+    <string name="quick_settings_notifications_label">Notifications</string>
+    <string name="quick_settings_flashlight_label">Flashlight</string>
+    <string name="quick_settings_cellular_detail_title">Cellular data</string>
+    <string name="quick_settings_cellular_detail_data_usage">Data usage</string>
+    <string name="quick_settings_cellular_detail_remaining_data">Remaining data</string>
+    <string name="quick_settings_cellular_detail_over_limit">Upper limit exceeded</string>
+    <string name="quick_settings_cellular_detail_data_used">%s used</string>
+    <string name="quick_settings_cellular_detail_data_limit">%s limit</string>
+    <string name="quick_settings_cellular_detail_data_warning">%s warning</string>
+    <string name="recents_empty_message">Your recent screens appear here</string>
+    <string name="recents_app_info_button_label">App info</string>
+    <string name="recents_lock_to_app_button_label">lock to app</string>
+    <string name="recents_search_bar_label">Search</string>
+    <string name="recents_launch_error_message">Could not start %s.</string>
+    <string name="expanded_header_battery_charged">Charging complete</string>
+    <string name="expanded_header_battery_charging">Charging</string>
+    <string name="expanded_header_battery_charging_with_time">%s until full</string>
+    <string name="expanded_header_battery_not_charging">Not charging</string>
+    <string name="battery_meter_very_low_overlay_symbol">!</string>
+    <string name="ssl_ca_cert_warning">"The network may be 
+monitored"</string>
+    <string name="description_target_search">Search</string>
+    <string name="description_direction_up">Slide up for %s.</string>
+    <string name="description_direction_left">Slide left for %s.</string>
+    <string name="zen_no_interruptions_with_warning">No interruptions. Not even alarms.</string>
+    <string name="zen_no_interruptions">No interruptions</string>
+    <string name="zen_important_interruptions">Priority interruptions only</string>
+    <string name="zen_alarm_information_time">Your next alarm is at %s</string>
+    <string name="zen_alarm_information_day_time">Your next alarm is %s</string>
+    <string name="zen_alarm_warning">"You won't hear your alarm at %s"</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
+    <string name="speed_bump_explanation">Less urgent notifications below</string>
+    <string name="notification_tap_again">Touch again to open</string>
+    <string name="keyguard_unlock">Swipe up to unlock</string>
+    <string name="phone_hint">Swipe right for phone</string>
+    <string name="camera_hint">Swipe left for camera</string>
+    <string name="interruption_level_none">None</string>
+    <string name="interruption_level_priority">Priority</string>
+    <string name="interruption_level_all">All</string>
+    <string name="keyguard_indication_charging_time">Charging (%s until full)</string>
+    <string name="accessibility_multi_user_switch_switcher">Switch user</string>
+    <string name="accessibility_multi_user_switch_switcher_with_current">Switch user, current user %s</string>
+    <string name="accessibility_multi_user_switch_quick_contact">Show profile</string>
+    <string name="user_add_user">Add user</string>
+    <string name="user_new_user_name">New user</string>
+    <string name="guest_nickname">Guest</string>
+    <string name="guest_new_guest">Add guest</string>
+    <string name="guest_exit_guest">Remove guest</string>
+    <string name="guest_exit_guest_dialog_title">Remove guest?</string>
+    <string name="guest_exit_guest_dialog_message">All apps and data in this session will be deleted.</string>
+    <string name="guest_exit_guest_dialog_remove">Remove</string>
+    <string name="guest_wipe_session_title">Welcome back, guest!</string>
+    <string name="guest_wipe_session_message">Do you want to continue your session?</string>
+    <string name="guest_wipe_session_wipe">Restart</string>
+    <string name="guest_wipe_session_dontwipe">Yes, continue</string>
+    <string name="user_add_user_title">Add new user?</string>
+    <string name="user_add_user_message_short">"When you add a new user, that person needs to set up their space.
+
+Any user can update apps for all other users."</string>
+    <string name="battery_saver_notification_title">Battery saver is on</string>
+    <string name="battery_saver_notification_text">Reduces performance and background data</string>
+    <string name="battery_saver_notification_action_text">Turn off battery saver</string>
+    <string name="battery_level_template">%d%%</string>
+    <string name="notification_hidden_text">Contents hidden</string>
+    <string name="media_projection_dialog_text">"%s will start capturing everything that's displayed on your screen."</string>
+    <string name="media_projection_remember_text">"Don't show again"</string>
+    <string name="clear_all_notifications_text">Clear all</string>
+    <string name="media_projection_action_text">Start now</string>
+    <string name="empty_shade_text">No notifications</string>
+    <string name="device_owned_footer">Device may be monitored</string>
+    <string name="profile_owned_footer">Profile may be monitored</string>
+    <string name="vpn_footer">Network may be monitored</string>
+    <string name="monitoring_title_device_owned">Device monitoring</string>
+    <string name="monitoring_title_profile_owned">Profile monitoring</string>
+    <string name="monitoring_title">Network monitoring</string>
+    <string name="disable_vpn">Disable VPN</string>
+    <string name="disconnect_vpn">Disconnect VPN</string>
+    <string name="monitoring_description_device_owned">"This device is managed by:
+%1$s
+
+Your administrator can monitor your device and network activity, including emails, apps and secure websites.
+
+For more information, contact your administrator."</string>
+    <string name="monitoring_description_vpn">"You gave \"%1$s\" permission to set up a VPN connection.
+
+This app can monitor your device and network activity, including emails, apps and secure websites."</string>
+    <string name="monitoring_description_legacy_vpn">"You're connected to a VPN (\"%1$s\").
+
+Your VPN service provider can monitor your device and network activity including emails, apps, and secure websites."</string>
+    <string name="monitoring_description_vpn_device_owned">"This device is managed by:
+%1$s
+
+Your administrator is capable of monitoring your network activity including emails, apps, and secure websites. For more information, contact your administrator.
+
+Also, you gave \"%2$s\" permission to set up a VPN connection. This app can monitor network activity too."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"This device is managed by:
+%1$s
+
+Your administrator is capable of monitoring your network activity including emails, apps, and secure websites. For more information, contact your administrator.
+
+Also, you're connected to a VPN (\"%2$s\"). Your VPN service provider can monitor network activity too."</string>
+    <string name="monitoring_description_profile_owned">"This profile is managed by:
+%1$s
+
+Your administrator can monitor your device and network activity, including emails, apps and secure websites.
+
+For more information, contact your administrator."</string>
+    <string name="monitoring_description_device_and_profile_owned">"This device is managed by:
+%1$s
+Your profile is managed by:
+%2$s
+
+Your administrator can monitor your device and network activity, including emails, apps and secure websites.
+
+For more information, contact your administrator."</string>
+    <string name="monitoring_description_vpn_profile_owned">"This profile is managed by:
+%1$s
+
+Your administrator is capable of monitoring your network activity including emails, apps, and secure websites. For more information, contact your administrator.
+
+Also, you gave \"%2$s\" permission to set up a VPN connection. This app can monitor network activity too."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"This profile is managed by:
+%1$s
+
+Your administrator is capable of monitoring your network activity including emails, apps, and secure websites. For more information, contact your administrator.
+
+Also, you're connected to a VPN (\"%2$s\"). Your VPN service provider can monitor network activity too."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"This device is managed by:
+%1$s
+Your profile is managed by:
+%2$s
+
+Your administrator is capable of monitoring your network activity including emails, apps, and secure websites. For more information, contact your administrator.
+
+Also, you gave \"%3$s\" permission to set up a VPN connection. This app can monitor network activity too."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"This device is managed by:
+%1$s
+Your profile is managed by:
+%2$s
+
+Your administrator is capable of monitoring your network activity including emails, apps, and secure websites. For more information, contact your administrator.
+
+Also, you're connected to a VPN (\"%3$s\"). Your VPN service provider can monitor network activity too."</string>
+    <string name="keyguard_indication_trust_disabled">Device will stay locked until you manually unlock</string>
+    <string name="hidden_notifications_title">Get notifications faster</string>
+    <string name="hidden_notifications_text">See them before you unlock</string>
+    <string name="hidden_notifications_cancel">No thanks</string>
+    <string name="hidden_notifications_setup">Settings</string>
+    <string name="muted_by">Muted by %1$s</string>
+    <string name="zen_mode_and_condition">%1$s. %2$s</string>
+    <string name="screen_pinning_title">Screen pinned</string>
+    <string name="screen_pinning_description">It will regularly show this screen until you cancel it. Touch and tap Return and Overview to cancel.</string>
+    <string name="screen_pinning_description_accessible">It will regularly show this screen until you cancel it. Touch and tap Overview to cancel.</string>
+    <string name="screen_pinning_positive">OK</string>
+    <string name="screen_pinning_negative">No thanks</string>
+    <string name="quick_settings_reset_confirmation_title">Hide \"%1$s\"?</string>
+    <string name="quick_settings_reset_confirmation_message">This quick setting entry will reappear the next time you enable it in settings.</string>
+    <string name="quick_settings_reset_confirmation_button">Hide</string>
+    <string name="clearDefaultHintMsg">Clear default in System settings > Apps > Downloaded.</string>
+    <string name="vivo_statusbar_type">Status Bar</string>
+    <string name="vivo_keyguard_no_sim">No SIM</string>
+    <string name="vivo_keyguard_charging">%d%% Charged</string>
+    <string name="vivo_keyguard_charging_complete">Charging complete</string>
+    <string name="vivo_keyguard_holster_unlock_text">Slide in this scope to unlock</string>
+    <string name="vivo_keyguard_holster_unlock_text_r">Slide right in this scope to unlock</string>
+    <string name="vivo_keyguard_ripple_unlock_text">Slide to unlock</string>
+    <string name="default_head_portrait_name">Nickname</string>
+    <string name="default_signature" />
+    <string name="click_tip">Slide down to customize</string>
+    <string name="lockscreen_icon_set">Edit</string>
+    <string name="back">Cancel</string>
+    <string name="save">Save</string>
+    <string name="name">Nickname</string>
+    <string name="name_hint">Nickname</string>
+    <string name="head_icon">Avatar</string>
+    <string name="edit_icon_title">Edit avatar</string>
+    <string name="choose_from_photo_album">Choose photo</string>
+    <string name="choose_from_take_photo">Photo</string>
+    <string name="saving">Saving…</string>
+    <string name="text_signature">Signature</string>
+    <string name="text_signature_hint">Mood</string>
+    <string name="font_name">Font</string>
+    <string name="color_name">Color</string>
+    <string name="font_default">Default</string>
+    <string name="font_classic">Classic</string>
+    <string name="font_fzm">Fang Zheng Miao Wu Font</string>
+    <string name="font_fzltblack">Lan Ting Kan Hei</string>
+    <string name="font_hwbold">HUA WEN HEI TI</string>
+    <string name="reach_length_limit">A maximum of 2 lines can be displayed. The input limit has been reached</string>
+    <string name="reach_length_limit_cant_save">Personal signature has exceeded the 2 line display limit. Please modify</string>
+    <string name="name_input_limitation_info">Supported input types only include letters, numbers, and Chinese characters. Please input again!</string>
+    <string name="vivo_keyguard_nature2_guide">Swipe down to switch</string>
+    <string name="song_name">Song name</string>
+    <string name="unknown_artist_name">Unknown artist</string>
+    <string name="unknown_album_name">Unknown album</string>
+    <string name="artist_name">Artist name</string>
+    <string name="album">Album name</string>
+    <string name="sdcard_busy_title">Not available in mass storage mode</string>
+    <string name="widget_artist">Artist:</string>
+    <string name="widget_album">Album:</string>
+    <string name="no_lyric_textview">No lyric</string>
+    <string name="albumsongseparator">,</string>
+    <string name="signature_font">Signature font</string>
+    <string name="shortcut">Quick-launch applications</string>
+    <string name="shortcut_left">Left quick-launch app</string>
+    <string name="shortcut_right">Right quick-launch app</string>
+    <string name="shortcut_none">None</string>
+    <string name="shortcut_wait_load">Loading...</string>
+    <string name="slide_to_start">Slide up to start</string>
+    <string name="vivo_keyguard_quick_charging">Dual-engine quick charge %d%%</string>
+    <string name="vivo_keyguard_radio_fav_toast_text">"It can't be stored until you log in"</string>
+    <string name="vivo_keyguard_iconset_gif_too_large">Picture too large</string>
+    <string name="vivo_keyguard_iconset_gif_type_error">Picture corrupted</string>
+    <string name="font_hwfine">Classic fonts</string>
+    <string name="vivo_notification_tap_again">Double click to open</string>
+    <string name="vivo_calendar_title_has">Recent events</string>
+    <string name="vivo_calendar_title_has_not">No recent events</string>
+    <string name="vivo_notification_title_has">Notifications</string>
+    <string name="vivo_notification_title_has_not">No notifications</string>
+    <string name="vivo_ongoing_title_has">Ongoing</string>
+    <string name="vivo_block_cancel">Unblock</string>
+    <string name="vivo_block">Block</string>
+    <string name="vivo_clear">Clear</string>
+    <string name="vivo_manage">Administrative</string>
+    <string name="vivo_block_app_tip">Blocked notification %s</string>
+    <string name="vivo_notification_block_activity_title">Present notifications</string>
+    <string name="vivo_manage_notification">Manage notification</string>
+    <string name="vivo_hood_phone_jump">Tap to return to the call interface</string>
+    <string name="vivo_hood_recorder_jump">Tap to return to the recording interface</string>
+    <string name="vivo_hood_phone_hold">Holding</string>
+    <string name="vivo_hood_phone_dialing">Dialing</string>
+    <string name="vivo_hood_phone_alerting">Ringing</string>
+    <string name="vivo_status_bar_setting_title">Status bar and notification</string>
+    <string name="vivo_sheid_manager_activity_loading">Loading...</string>
+    <string name="vivo_notification_type">Notifications</string>
+    <string name="vivo_network_speed_switch">Display network speed</string>
+    <string name="vivo_power_percent_switch">Battery percentage</string>
+    <string name="vivo_schedule_switch">Display events</string>
+    <string name="vivo_netweork_flow_switch">Display data usage</string>
+    <string name="vivo_top_notification_type">Top preview style</string>
+    <string name="vivo_notification_manage_entry">Manage notification</string>
+    <string name="vivo_notification_screen_on">Light screen on notifications</string>
+    <string name="vivo_label_notification_on">Notification bar</string>
+    <string name="vivo_label_keygard_notification_on">Screen lock</string>
+    <string name="vivo_label_desktop_notification_on">Mark</string>
+    <string name="vivo_notification_screen_on_tip">Control whether the locked screen will be lit when notifications arrive (except for those from some in-built and third-party apps)</string>
+    <string name="vivo_status_bar_no_notification_shield_tip">No notifications can be blocked now.</string>
+    <string name="vivo_notification_to_show_item">Apps that allow notification</string>
+    <string name="vivo_notification_not_to_show_item">Apps that do not allow notification</string>
+    <string name="vivo_show_notification">Allow notification</string>
+    <string name="vivo_notification_disable">Disallow notification</string>
+    <string name="vivo_show_notification_illustration">Notifications will appear on notification bar when this switch opened</string>
+    <string name="vivo_show_keyguard_notification">Show on lock screen</string>
+    <string name="vivo_show_keyguard_notification_details">Show notification content on lock screen</string>
+    <string name="vivo_show_desktop_app_icon_badge">Badge desktop app icon</string>
+    <string name="vivo_show_notification_top_preview">Top preview</string>
+    <string name="vivo_notification_tip_style_headsup">Heads-up</string>
+    <string name="vivo_notification_tip_style_ticker">Scrolling</string>
+    <string name="vivo_notification_tip_style_illustration">Floating previews display on the top of the screen for 5 seconds, and they can be collapsed by sliding upward or deleted by sliding horizontally. Scroll previews display in the Status Bar line by line.</string>
+    <string name="vivo_show_priority_notification">Priority</string>
+    <string name="vivo_show_priority_notification_illustration">Show in the front of the notification list</string>
+    <string name="vivo_no_uim">No UIM</string>
+    <string name="vivo_no_sim">No SIM</string>
+    <string name="vivo_close">Turned off</string>
+    <string name="vivo_sim_close">SIM card is disabled</string>
+    <string name="vivo_no_service">No service</string>
+    <string name="vivo_offline_mode">Offline mode</string>
+    <string name="vivo_new_notification_hidden">A new message arrived</string>
+    <string name="vivo_screenshot_failed_text_no_memory">Unable to save screenshot. There may not be enough space in the storage device.</string>
+    <string name="vivo_done">Done</string>
+    <string name="vivo_cancel">Cancel</string>
+    <string name="vivo_ok">OK</string>
+    <string name="vivo_battery_full_ticker">Charging complete</string>
+    <string name="vivo_battery_full_title">Charging complete</string>
+    <string name="vivo_battery_full_msg">Charge completed. Please remove the power supply.</string>
+    <string name="vivo_low_battery_dialog_title">Tips</string>
+    <string name="vivo_low_battery_sps_tip">Battery too low. Please charge your battery or switch into super power saving mode to extend phone operation time.</string>
+    <string name="vivo_low_battery_hifi_tip">Battery too low. Hi-Fi Mode automatically turned off. Please charge your battery or switch into super power saving mode to extend phone operation time.</string>
+    <string name="vivo_low_battery_hifi_tip_cmcc">Battery is low. Hi-Fi is automatically turned off. Please plug in your phone.</string>
+    <string name="vivo_sps">Super saver</string>
+    <string name="vivo_low_battery_tip">Battery is too low. Please connect to the charger</string>
+    <string name="vivo_wfd_noti_title">Wi-Fi Display</string>
+    <string name="vivo_wfd_noti_text">Display is connected</string>
+    <string name="vivo_guts_tips">Notification sent</string>
+    <string name="vivo_network_speed_msg">Network speed details</string>
+    <string name="usb_device_unconnected_suddenly">OTG disconnected unexpectedly</string>
+    <string name="usb_device_unconnected_suddenly_message">Unmount OTG before removing to avoid data loss.</string>
+    <string name="usb_device_connected">OTG has connected</string>
+    <string name="usb_device_connected_message">Tap to view</string>
+    <string name="usb_device_disconnected">OTG has removed securely</string>
+    <string name="usb_device">OTG</string>
+    <string name="sd_badremoval_notification_message">Before removing the SD card, unmount it in \"Settings> More settings> Storage\".</string>
+    <string name="uninstall_otg">Unmount</string>
+    <string name="vivo_notification_icon_redraw_switch">Icon beautification</string>
+    <string name="global_action_super_power_save_tip_locking">Need to unlock first to work</string>
+    <string name="volume_fm">FM volume</string>
+    <string name="show_imanager_lock_tip">If you enable the app lock in i Manager, the detailed lock screen notifications will no longer be available.</string>
+    <string name="show_imanager_locked_tip">The detailed lock screen notifications are not available, for you have enabled the lock on the app in i Manager.</string>
+    <string name="sd_badremoval_notification_message_4g">Please uninstall the SD card in \"Settings > RAM and Storage Space\" before removing it so as to avoid loss of data.</string>
+    <string name="vivo_notification_tip_none">No previews</string>
+    <string name="vivo_develop_mode_tip">Development mode</string>
+    <string name="vivo_up_slide_no_recent_apps">No recent apps</string>
+    <string name="vivo_up_slide_check_out">Check</string>
+    <string name="vivo_up_slide_statusbar_guide_tip">"Swipe from the bottom to
+go to the control center"</string>
+    <string name="vivo_up_slide_tip_swipe">Swipe up to delete</string>
+    <string name="vivo_up_slide_tip_white_list">Long press to add to \"One-tap Acceleration\" whitelist</string>
+    <string name="vivo_up_slide_add_white_list_item">Add to white list</string>
+    <string name="vivo_up_slide_remove_white_list_item">Remove from white list</string>
+    <string name="vivo_switcher_order_title">Custom</string>
+    <string name="vivo_switcher_order_show">Display switch</string>
+    <string name="vivo_switcher_order_hide">Do not display switch</string>
+    <string name="vivo_switcher_order_hide_tip">"Hide: Drag the switch to \"Do not display switch\" area 
+Sort: Drag the switch to the place as you wish in \"Display switch\" area"</string>
+    <string name="vivo_switcher_order_at_least">Keep at least 4 items</string>
+    <string name="vivo_switcher_cu">Speed up</string>
+    <string name="vivo_switcher_wifi">Wi-Fi</string>
+    <string name="vivo_switcher_apn">Data</string>
+    <string name="vivo_switcher_fl">Flashlight</string>
+    <string name="vivo_switcher_wechat_scan">Scan</string>
+    <string name="vivo_switcher_smartshot">S-capture</string>
+    <string name="vivo_switcher_vibrate">Vibration</string>
+    <string name="vivo_switcher_portrait">Rotation lock</string>
+    <string name="vivo_switcher_bright">Brightness</string>
+    <string name="vivo_switcher_sps">Super saver</string>
+    <string name="vivo_switcher_offline">Offline mode</string>
+    <string name="vivo_switcher_sim_selection">Select card data</string>
+    <string name="vivo_switcher_apn_telecom">APN</string>
+    <string name="vivo_switcher_bluetooth">Bluetooth</string>
+    <string name="vivo_switcher_gps">GPS</string>
+    <string name="vivo_switcher_nfc">NFC</string>
+    <string name="vivo_switcher_reboot">Reboot</string>
+    <string name="vivo_switcher_poweroff">Power off</string>
+    <string name="vivo_switcher_zen_mode">Do not disturb</string>
+    <string name="vivo_switcher_order" />
+    <string name="vivo_switcher_dialog_wechat_scan_message">"To launch WeChat's \"Scan QR Code\", you need to install WeChat. Install now?"</string>
+    <string name="vivo_switcher_wechat_scan_available_toast">WeChat \"Scan QR Code\" available</string>
+    <string name="vivo_switcher_clear_up_tip_both" formatted="false">Closed %d background apps, released %dMB of memory</string>
+    <string name="vivo_switcher_clear_up_tip_deamon">Closed %d background apps</string>
+    <string name="vivo_switcher_clear_up_tip_none">Already in optimal status</string>
+    <string name="vivo_switcher_wifi_open_tips_while_tethered">Turning on Wi-Fi will disable portable Wi-Fi hotspot, continue?</string>
+    <string name="vivo_switcher_wifi_open_tips_sure">OK</string>
+    <string name="vivo_switcher_wifi_open_tips_cancel">Cancel</string>
+    <string name="vivo_switcher_wifi_close_while_wfd_opened_title">Wi-Fi Display</string>
+    <string name="vivo_switcher_wifi_close_while_wfd_opened_context">Wi-Fi Display will be automatically disabled when Wi-Fi is turned off</string>
+    <string name="vivo_switcher_during_phone_forbidden">Not available during a call</string>
+    <string name="vivo_switcher_offline_forbidden">Not available in offline mode</string>
+    <string name="vivo_switcher_need_sim">Operation requires SIM card</string>
+    <string name="vivo_switcher_apn_dialog_title">Data</string>
+    <string name="vivo_switcher_apn_security_dialog_title">Tips</string>
+    <string name="vivo_switcher_apn_security_dialog_msg">Once enabled, auto time adjustment, auto check for updates, positioning, vivo services and standby home screen will consume a small amount of data. Do you want to continue?</string>
+    <string name="vivo_switcher_apn_security_dialog_tip">If you choose to continue, you will not be reminded next time you use this app.</string>
+    <string name="vivo_switcher_apn_security_dialog_button_continue">Continue</string>
+    <string name="vivo_switcher_apn_dialog_set_default_tip">Set as the default card for Internet. No more prompt of card selection</string>
+    <string name="vivo_switcher_apn_dialog_set_default_tip2">You can go to \"Settings > Mobile networks > Default card\" to modify the setting</string>
+    <string name="vivo_switcher_dialog_title_tips">Tips</string>
+    <string name="vivo_switcher_dialog_sps_tip">Only the Phone, Messaging and Alarm functions are activated in the super power saving mode. The cell phone will automatically exit the mode after being fully charged.</string>
+    <string name="vivo_switcher_dialog_sps_never_remide">Do not remind me again</string>
+    <string name="vivo_switcher_flashlight_low_battery_tip">"Low battery, can't use this feature temporarily"</string>
+    <string name="vivo_switcher_speedup_dialog_whitelist_title">i manager reminds you</string>
+    <string name="vivo_switcher_speedup_dialog_whitelist_message">Apps that will not be ended by one-touch speedup. You can add apps to the whitelist.</string>
+    <string name="vivo_switcher_speedup_dialog_whitelist_ok">Set whitelist</string>
+    <string name="vivo_upslide_hifi_no_headphone">Cannot turn on Hi-Fi. No headphone inserted</string>
+    <string name="vivo_upslide_hifi_low_battery">Cannot turn on Hi-Fi. Battery low</string>
+    <string name="vivo_upslide_hifi_opened">Hi-Fi on</string>
+    <string name="vivo_upslide_hifi_closed">Hi-Fi off</string>
+    <string name="vivo_upslide_hifi_headset_tip">Hi-Fi only works in earphone mode</string>
+    <string name="vivo_upslide_artist_name">Artist name</string>
+    <string name="vivo_upslide_music_name">Song name</string>
+    <string name="vivo_upslide_network_mode_any">Any</string>
+    <string name="vivo_upslide_network_mode_only_2g">Only 2G</string>
+    <string name="vivo_upslide_network_mode_register_choice">"Only 2G network supported, Ooredoo can be used properly. If you choose other network, Ooredoo can't be used."</string>
+    <string name="vivo_upslide_network_mode_tip">Please select</string>
+    <string name="vivo_switcher_apn_dialog_close_apn_tip">Off</string>
+    <string name="vivo_switcher_sps_dialog_ok">OK</string>
+    <string name="vivo_upslide_hide_navigaton_bar_tip">Swipe down to hide</string>
+    <string name="vivo_upslide_lock_task_dialog_msg">Once the screen is pinned, the device will stay in one screen. To unpin, tap and hold \"Back\" and \"Menu\".</string>
+    <string name="vivo_upslide_lock_task_dialog_negative">No thanks</string>
+    <string name="vivo_upslide_lock_task_dialog_positive">Start</string>
+    <string name="vivo_upslide_lock_task_dialog_title">Use screen pinning?</string>
+    <string name="vivo_upslide_show_navigaton_bar_tip">Swipe up to show</string>
+    <string name="vivo_upslide_volume_tip">Media</string>
+    <string name="vivo_switcher_data_network_not_available">Mobile network is not available</string>
+    <string name="vivo_switcher_wifi_ap">Wi-Fi Hotspot</string>
+    <string name="vivo_switcher_eye_protection">Global eye protection</string>
+    <string name="vivo_switcher_eye_protection_tip">Full Screen Eye Protection enabled. Please adjust the screen color to relieve visual fatigue.</string>
+    <string name="vivo_switcher_eye_protection_tip_ok">OK</string>
+    <string name="vivo_upslide_operation_tips">Bring up the \"Control Center\" by sliding upward from the bottom edge of the screen.</string>
+    <string name="vivo_upslide_setting_title">Control Center</string>
+    <string name="vivo_upslide_switch_tips">Allow to bring up the \"Control Center\" on an app interface. After the switch is turned off, you can still bring up the \"Control Center\" on the desktop.</string>
+    <string name="vivo_upslide_switch_title">Bring it up on an app interface</string>
+    <string name="wifi_opened">On</string>
+    <string name="wifi_starting">Turning on</string>
+    <string name="wifi_stopping">Turning off</string>
+    <string name="wifi_prepare_connect">Prepare connect</string>
+    <string name="ok">@android:string/ok</string>
+    <string name="widget_default_package_name" />
+    <string name="widget_default_class_name" />
+    <string name="abbrev_wday_month_day_no_year">EEEEMMMMd</string>
+    <string name="abbrev_wday_month_day_no_year_alarm">EEEMMMd</string>
+    <string name="clock_12hr_format">hm</string>
+    <string name="clock_24hr_format">Hm</string>
+    <string name="app_name">Keyguard</string>
+    <string name="keyguard_password_enter_pin_code">Type PIN</string>
+    <string name="keyguard_password_enter_puk_code">Type SIM PUK and new PIN code</string>
+    <string name="keyguard_password_enter_puk_prompt">SIM PUK code</string>
+    <string name="keyguard_password_enter_pin_prompt">New SIM PIN code</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">Touch to type password</font></string>
+    <string name="keyguard_password_enter_password_code">Type password to unlock</string>
+    <string name="keyguard_password_enter_pin_password_code">Type PIN to unlock</string>
+    <string name="keyguard_password_wrong_pin_code">Incorrect PIN code.</string>
+    <string name="keyguard_label_text">To unlock, press Menu then 0.</string>
+    <string name="faceunlock_multiple_failures">Maximum Face Unlock attempts exceeded</string>
+    <string name="keyguard_charged">Charging complete</string>
+    <string name="keyguard_plugged_in">Charging</string>
+    <string name="keyguard_low_battery">Connect charger.</string>
+    <string name="keyguard_instructions_when_pattern_disabled">Tap Menu to unlock.</string>
+    <string name="keyguard_network_locked_message">Network locked</string>
+    <string name="keyguard_missing_sim_message_short">No SIM</string>
+    <string name="keyguard_missing_sim_message">No SIM card in phone.</string>
+    <string name="keyguard_missing_sim_instructions">Insert a SIM card.</string>
+    <string name="keyguard_missing_sim_instructions_long">The SIM card is missing or not readable. Insert a SIM card.</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">Unusable SIM card.</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"Your SIM card has been permanently disabled.
+ Contact your wireless service provider for another SIM card."</string>
+    <string name="keyguard_sim_locked_message">SIM card is locked.</string>
+    <string name="keyguard_sim_puk_locked_message">SIM card is PUK-locked.</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">Unlocking SIM card…</string>
+    <string name="keyguard_widget_12_hours_format">hmm</string>
+    <string name="keyguard_widget_24_hours_format">kkmm</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s. Widget %2$d of %3$d.</string>
+    <string name="keyguard_accessibility_add_widget">Add widget.</string>
+    <string name="keyguard_accessibility_widget_empty_slot">Empty</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">Unlock area expanded.</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">Unlock area collapsed.</string>
+    <string name="keyguard_accessibility_widget">%1$s widget.</string>
+    <string name="keyguard_accessibility_user_selector">User selector</string>
+    <string name="keyguard_accessibility_camera">Camera</string>
+    <string name="keygaurd_accessibility_media_controls">Media controls</string>
+    <string name="keyguard_accessibility_widget_reorder_start">Widget reordering started.</string>
+    <string name="keyguard_accessibility_widget_reorder_end">Widget reordering ended.</string>
+    <string name="keyguard_accessibility_widget_deleted">Widget %1$s deleted.</string>
+    <string name="keyguard_accessibility_expand_lock_area">Expand unlock area.</string>
+    <string name="keyguard_accessibility_slide_unlock">Slide unlock.</string>
+    <string name="keyguard_accessibility_pattern_unlock">Pattern unlock.</string>
+    <string name="keyguard_accessibility_face_unlock">Face unlock.</string>
+    <string name="keyguard_accessibility_pin_unlock">Pin unlock.</string>
+    <string name="keyguard_accessibility_password_unlock">Password unlock.</string>
+    <string name="keyguard_accessibility_pattern_area">Pattern area.</string>
+    <string name="keyguard_accessibility_slide_area">Slide area.</string>
+    <string name="keyguard_accessibility_pin_area">PIN area</string>
+    <string name="keyguard_accessibility_sim_pin_area">SIM PIN area</string>
+    <string name="keyguard_accessibility_sim_puk_area">SIM PUK area</string>
+    <string name="keyguard_accessibility_transport_prev_description">Previous track button</string>
+    <string name="keyguard_accessibility_transport_next_description">Next track button</string>
+    <string name="keyguard_accessibility_transport_pause_description">Pause button</string>
+    <string name="keyguard_accessibility_transport_play_description">Play button</string>
+    <string name="keyguard_accessibility_transport_stop_description">Stop button</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">Thumbs up</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">Thumbs down</string>
+    <string name="keyguard_accessibility_transport_heart_description">Hearts</string>
+    <string name="keyguard_accessibility_show_bouncer">Unlock to continue</string>
+    <string name="keyguard_accessibility_hide_bouncer">The launch has been canceled</string>
+    <string name="keyguard_accessibility_delete_widget_start">Release %1$s to delete.</string>
+    <string name="keyguard_accessibility_delete_widget_end">%1$s will not be deleted.</string>
+    <string name="keyguard_accessibility_next_alarm">Next alarm set for %1$s</string>
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    <string name="password_keyboard_label_alt_key">ALT</string>
+    <string name="keyboardview_keycode_alt">Alt</string>
+    <string name="keyboardview_keycode_cancel">Cancel</string>
+    <string name="keyboardview_keycode_delete">Delete</string>
+    <string name="keyboardview_keycode_done">Done</string>
+    <string name="keyboardview_keycode_mode_change">Mode change</string>
+    <string name="keyboardview_keycode_shift">Shift</string>
+    <string name="keyboardview_keycode_enter">Enter</string>
+    <string name="description_target_unlock">Unlock</string>
+    <string name="description_target_camera">Camera</string>
+    <string name="description_target_silent">Silent</string>
+    <string name="description_target_soundon">Sound on</string>
+    <string name="description_direction_down">Slide down for %s.</string>
+    <string name="description_direction_right">Slide right for %s.</string>
+    <string name="user_switched">Current user %1$s.</string>
+    <string name="kg_emergency_call_label">Emergency call</string>
+    <string name="kg_forgot_pattern_button_text">Forgot Pattern</string>
+    <string name="kg_wrong_pattern">Wrong Pattern</string>
+    <string name="kg_wrong_password">Wrong Password</string>
+    <string name="kg_wrong_pin">Wrong PIN</string>
+    <string name="kg_too_many_failed_attempts_countdown">Try again in %d seconds</string>
+    <string name="kg_pattern_instructions">Draw your pattern</string>
+    <string name="kg_sim_pin_instructions">Enter SIM PIN</string>
+    <string name="kg_sim_pin_instructions_multi">Enter PUK for SIM card “%1$s”</string>
+    <string name="kg_pin_instructions">Type PIN</string>
+    <string name="kg_password_instructions">Enter Password</string>
+    <string name="kg_puk_enter_puk_hint">SIM is now disabled. Enter PUK code to continue. Contact carrier for details.</string>
+    <string name="kg_puk_enter_puk_hint_multi">SIM card “%1$s” has been disabled. You need to enter PUK to continue using it. For details, please contact your carrier.</string>
+    <string name="kg_puk_enter_pin_hint">Enter desired PIN code</string>
+    <string name="kg_enter_confirm_pin_hint">Confirm desired PIN code</string>
+    <string name="kg_sim_unlock_progress_dialog_message">Unlocking SIM card…</string>
+    <string name="kg_invalid_sim_pin_hint">Type a PIN that is 4 to 8 numbers.</string>
+    <string name="kg_invalid_sim_puk_hint">PUK code should be 8 numbers or more.</string>
+    <string name="kg_invalid_puk">Re-enter the correct PUK code. Repeated attempts will permanently disable the SIM.</string>
+    <string name="kg_invalid_confirm_pin_hint">PIN codes does not match</string>
+    <string name="kg_login_too_many_attempts">Too many pattern attempts</string>
+    <string name="kg_login_instructions">To unlock, sign in with your Google account.</string>
+    <string name="kg_login_username_hint">Username (email)</string>
+    <string name="kg_login_password_hint">Password</string>
+    <string name="kg_login_submit_button">Sign in</string>
+    <string name="kg_login_invalid_input">Invalid username or password.</string>
+    <string name="kg_login_account_recovery_hint">"Forgot your username or password?
+Visit "<b>google.com/accounts/recovery</b>.</string>
+    <string name="kg_login_checking_password">Checking account…</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"You have incorrectly typed your PIN %d times. 
+
+Try again in %d seconds."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"You have incorrectly typed your password %d times. 
+
+Try again in %d seconds."</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"You have incorrectly drawn your unlock pattern %d times. 
+
+Try again in %d seconds."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">You have wrongly attempted to unlock the phone for %d time(s). After %d more failed attempt(s), the phone will be reset, and all data on it will be deleted.</string>
+    <string name="kg_failed_attempts_now_wiping">You have wrongly attempted to unlock the phone for %d time(s). The phone will be reset, and all data on it will be deleted.</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" formatted="false">You have wrongly attempted to unlock the phone for %d time(s). After %d more failed attempt(s), the system will remove this user including all its data.</string>
+    <string name="kg_failed_attempts_now_erasing_user">You have wrongly attempted to unlock the phone for %d time(s). The system will remove this user including all its data.</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" formatted="false">You have wrongly attempted to unlock the phone for %d time(s). After %d more failed attempt(s), the system will remove this work profile including all its data.</string>
+    <string name="kg_failed_attempts_now_erasing_profile">You have wrongly attempted to unlock the phone for %d time(s). The system will remove this work profile including all its data.</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"You have incorrectly drawn your unlock pattern %d times. After %d more unsuccessful attempts, you will be asked to unlock your phone using an email account.
+
+ Try again in %d seconds."</string>
+    <string name="kg_reordering_delete_drop_target_text">Remove</string>
+    <string name="kg_password_wrong_pin_code_pukked">Incorrect SIM PIN code you must now contact your carrier to unlock your device.</string>
+    <string name="kg_password_wrong_puk_code_dead">SIM is unusable. Contact your carrier.</string>
+    <string name="kg_password_pin_failed">SIM PIN operation failed!</string>
+    <string name="kg_password_puk_failed">SIM PUK operation failed!</string>
+    <string name="kg_pin_accepted">Code Accepted!</string>
+    <string name="keyguard_transport_prev_description">Previous track button</string>
+    <string name="keyguard_transport_next_description">Next track button</string>
+    <string name="keyguard_transport_pause_description">Pause button</string>
+    <string name="keyguard_transport_play_description">Play button</string>
+    <string name="keyguard_transport_stop_description">Stop button</string>
+    <string name="keyguard_carrier_default">No service.</string>
+    <string name="keyguard_pin_description_key1">One</string>
+    <string name="keyguard_pin_description_key2">Two</string>
+    <string name="keyguard_pin_description_key3">Three</string>
+    <string name="keyguard_pin_description_key4">Four</string>
+    <string name="keyguard_pin_description_key5">Five</string>
+    <string name="keyguard_pin_description_key6">Six</string>
+    <string name="keyguard_pin_description_key7">Seven</string>
+    <string name="keyguard_pin_description_key8">Eight</string>
+    <string name="keyguard_pin_description_key9">Nine</string>
+    <string name="keyguard_pin_description_key0">Zero</string>
+    <string name="try_again">Try again</string>
+    <string name="vivo_forgot_pattern">Forgot</string>
+    <string name="vivo_forgot_password">Forgot</string>
+    <string name="vivo_kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"You have drawn wrong unlocking pattern %d times. 
+Please try again after %d seconds!"</string>
+    <string name="vivo_kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"You have entered wrong unlocking passwords %d times. 
+Please try again after %d seconds!"</string>
+    <string name="vivo_login_problem">To unlock, input the answer</string>
+    <string name="vivo_login_answer_hint">Click to enter answer</string>
+    <string name="vivo_login_title">Unlock</string>
+    <string name="vivo_login_problem_invalid_input">Answer incorrect</string>
+    <string name="father_name">"Your father's name?"</string>
+    <string name="mother_name">"Your mother's name?"</string>
+    <string name="spouse_name">"Your spouse's name?"</string>
+    <string name="clean_visit_mode">You have exited the visitor mode and the visitor password has expired.</string>
+    <string name="vivo_emergency">Emergency</string>
+    <string name="vivo_return_to_call">Return to call</string>
+    <string name="vivo_password_wrong_pin_code">Incorrect PIN code.</string>
+    <string name="vivo_password_enter_pin_code">Please enter PIN</string>
+    <string name="vivo_password_enter_puk_code">Enter the PUK code</string>
+    <string name="vivo_mismatchPin">PINs do not match. Please enter again</string>
+    <string name="vivo_password_enter_new_pin_code">Enter new PIN</string>
+    <string name="vivo_password_Confirm_pin_code">Confirm new PIN</string>
+    <string name="findphone_ok">OK</string>
+    <string name="kg_password_findphone_tip">Please enter your vivo account password</string>
+    <string name="vivo_pinpuk_attempts">%d times left</string>
+    <string name="problem_label">Q:</string>
+    <string name="vivo_onehand_msg">When you slide from the right (or left) edge of the screen, it can switch to one-handed mode.</string>
+    <string name="vivo_password_wrong">Wrong password</string>
+    <string name="vivo_pattern_wrong">Wrong pattern</string>
+    <string name="pinpuk_attempts">Attempts Remaining :</string>
+    <string name="finger_need_password_msg">Your password is required in order to enable fingerprint recognition</string>
+    <string name="finger_need_pattern_msg">Your pattern is required in order to enable fingerprint recognition</string>
+    <string name="finger_password_title">Enter Password</string>
+    <string name="finger_pattern_title">Draw pattern</string>
+    <string name="findphone_unable_network">Cannot connect to the network</string>
+    <string name="findphone_verifying_password">Verifying password....</string>
+    <string name="pin_reboot_finger">You need to enter the password to enable fingerprint after rebooting</string>
+    <string name="pattern_reboot_finger">You need to draw the pattern to enable fingerprint after rebooting</string>
+    <string name="confirm_max_lenth">Max character limit reached</string>
+    <string name="use_fingerprint_or_password">Use fingerprint or enter password</string>
+    <string name="use_fingerprint_or_pattern">Use fingerprint or draw pattern</string>
+    <string name="use_fingerprint_or_pin">Use fingerprint or enter password</string>
+    <string name="APKTOOL_DUMMY_16a" />
+    <string name="APKTOOL_DUMMY_16b" />
+    <string name="APKTOOL_DUMMY_16c" />
+    <string name="APKTOOL_DUMMY_16d" />
+    <string name="APKTOOL_DUMMY_16e" />
+    <string name="APKTOOL_DUMMY_16f" />
+    <string name="APKTOOL_DUMMY_170" />
+    <string name="APKTOOL_DUMMY_171" />
+    <string name="APKTOOL_DUMMY_172" />
+    <string name="APKTOOL_DUMMY_173" />
+    <string name="APKTOOL_DUMMY_174" />
+    <string name="APKTOOL_DUMMY_175" />
+    <string name="APKTOOL_DUMMY_176" />
+    <string name="APKTOOL_DUMMY_2f3" />
+    <string name="APKTOOL_DUMMY_2f4" />
+    <string name="APKTOOL_DUMMY_2f5" />
+</resources>

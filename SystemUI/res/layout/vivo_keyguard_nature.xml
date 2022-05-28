@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.vivo.common.keyguard.nature.KeyguardNature android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/bg_shadow" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/security_bg" android:background="#ff888888" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/bg" android:background="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:id="@id/blur_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.android.systemui.vivo.common.keyguard.widget.ChargeView android:id="@id/natureChargeView" android:layout_width="fill_parent" android:layout_height="51.329987dip" android:layout_alignParentTop="true" />
+        <TextView android:id="@id/panel_bg" android:background="@drawable/vivo_keyguard_nature_drag_bg" android:layout_width="fill_parent" android:layout_height="@dimen/nature_panel_height" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="17.0dip" android:gravity="bottom|center|right" android:id="@id/custom_signature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_above="@id/panel_bg" android:layout_alignParentRight="true" style="@style/vivo_keyguard_text" />
+        <ViewFlipper android:id="@id/flipper_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="@dimen/nature_icon_name_width" android:layout_height="wrap_content">
+                    <TextView android:textSize="15.0dip" android:gravity="center" android:id="@id/custom_name" android:paddingBottom="@dimen/nature_name_margin_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/default_head_portrait_name" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/vivo_keyguard_text" />
+                    <FrameLayout android:layout_width="@dimen/main_icon_width" android:layout_height="@dimen/main_icon_width" android:layout_above="@id/custom_name" android:layout_centerHorizontal="true">
+                        <com.android.systemui.vivo.common.keyguard.nature.widget.GifView android:id="@id/custom_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="12.0dip" />
+                        <TextView android:id="@id/custom_icon_cover" android:background="@drawable/vivo_keyguard_nature_stroke_circle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="11.0dip" />
+                    </FrameLayout>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="16.0dip" android:id="@id/date" android:paddingBottom="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/vivo_keyguard_text" />
+                    <com.android.systemui.vivo.common.keyguard.widget.ImageDigitalClock android:gravity="center" android:id="@id/clock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/date" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/selector_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                <com.android.systemui.vivo.common.keyguard.widget.MultiScreenView android:id="@id/custom_icons_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/selector_indicator" />
+            </RelativeLayout>
+        </ViewFlipper>
+    </RelativeLayout>
+</com.android.systemui.vivo.common.keyguard.nature.KeyguardNature>

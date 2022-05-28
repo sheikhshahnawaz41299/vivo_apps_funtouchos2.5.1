@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">概覽中有 %d 個螢幕</item>
+        <item quantity="one">概覽中有 1 個螢幕</item>
+    </plurals>
+    <plurals name="missed_call">
+        <item quantity="other">%d 個未接來電</item>
+        <item quantity="one">1 個未接來電</item>
+    </plurals>
+    <plurals name="unread_msg">
+        <item quantity="other">%d 條未讀訊息</item>
+        <item quantity="one">1 條未讀訊息</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM卡PIN碼不正確，您還有%d次嘗試機會。</item>
+        <item quantity="one">SIM卡PIN碼不正確，您還有%d次嘗試機會。如果仍然失敗，則必須聯絡服務供應商幫您解鎖裝置。</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM卡PUK碼不正確，您還有%d次嘗試機會。如果仍然失敗，SIM卡將永遠無法使用。</item>
+        <item quantity="one">SIM卡PUK碼不正確，您還有%d次嘗試機會。如果仍然失敗，SIM卡將永遠無法使用。</item>
+    </plurals>
+</resources>

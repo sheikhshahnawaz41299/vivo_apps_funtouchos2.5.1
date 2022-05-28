@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item>Wi-Fi</item>
+        <item>Đang quét mạng…</item>
+        <item>Đang kết nối...</item>
+        <item>Đang xác thực...</item>
+        <item>Đang nhận IP...</item>
+        <item>Đã kết nối</item>
+        <item>Đã tạm dừng</item>
+        <item>Đang ngắt kết nối...</item>
+        <item>Đã ngắt kết nối</item>
+        <item>Không thành công</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Wi-Fi</item>
+        <item>Đang quét mạng…</item>
+        <item>Đang kết nối...</item>
+        <item>Đang xác thực...</item>
+        <item>Đang nhận IP...</item>
+        <item>Đã kết nối %1$s</item>
+        <item>Đã tạm dừng</item>
+        <item>Đang ngắt kết nối...</item>
+        <item>Đã ngắt kết nối</item>
+        <item>Không thành công</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>Cha bạn tên là gì?</item>
+        <item>Mẹ bạn tên là gì?</item>
+        <item>Vợ/chồng bạn tên là gì?</item>
+        <item>Bạn học trường tiểu học nào?</item>
+        <item>Cô giáo của bạn ở trường mẫu giáo tên là gì?</item>
+        <item>Cô giáo của bạn ở trường trung học tên là gì?</item>
+        <item>Người bạn thân nhất của bạn hồi nhỏ tên là gì?</item>
+        <item>Bạn sinh ra ở đâu?</item>
+        <item>Số thẻ học sinh (nhân viên) của bạn là số mấy?</item>
+        <item>6 số cuối cùng trong số chứng minh thư của bạn là gì?</item>
+        <item>Biển số xe ô tô của bạn là gì?</item>
+        <item>Tên công ty đầu tiên bạn làm việc là gì?</item>
+    </string-array>
+</resources>

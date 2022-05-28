@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/vivo_upslide_guide_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vivo_upslide_guide_arrow" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/guide_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vivo_upslide_guide_arrow" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="18.0dip" android:textColor="@color/vivo_upslide_guide_tip_text_color" android:gravity="center" android:id="@id/checkout" android:background="@drawable/vivo_upslide_checkout_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="11.0dip" android:text="@string/vivo_up_slide_check_out" android:layout_above="@id/guide_arrow" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="18.0dip" android:textColor="@color/vivo_upslide_guide_tip_text_color" android:gravity="center" android:id="@id/guide_tip" android:background="@drawable/vivo_upslide_guide_tip_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="9.0dip" android:text="@string/vivo_up_slide_statusbar_guide_tip" android:layout_above="@id/checkout" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item>Wi-Fi</item>
+        <item>Mengimbas...</item>
+        <item>Menyambung..</item>
+        <item>Menentusahkan akaun…</item>
+        <item>Mendapatkan IP...</item>
+        <item>Bersambung</item>
+        <item>Digantung</item>
+        <item>Memutuskan sambungan...</item>
+        <item>Sambungan terputus</item>
+        <item>Tidak berjaya</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Wi-Fi</item>
+        <item>Mengimbas...</item>
+        <item>Connecting%1$s…</item>
+        <item>Authenticating%1$s…</item>
+        <item>Mendapatkan IP...</item>
+        <item>Connected%1$s</item>
+        <item>Digantung</item>
+        <item>Disconnecting from %1$s…</item>
+        <item>Sambungan terputus</item>
+        <item>Tidak berjaya</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>Nama bapa anda?</item>
+        <item>Nama ibu anda?</item>
+        <item>Nama pasangan anda?</item>
+        <item>Apakah nama sekolah rendah yang anda hadiri?</item>
+        <item>Siapakah nama guru tadika anda?</item>
+        <item>Siapakah nama guru sekolah menengah anda?</item>
+        <item>Siapakah nama rakan baik anda?</item>
+        <item>Di manakah anda dilahirkan?</item>
+        <item>Apakah nombor pengenalan (pendaftaran) pelajar anda?</item>
+        <item>Apakah 6 digit terakhir nombor kad pengenalan anda?</item>
+        <item>Apakah nombor plat kereta anda?</item>
+        <item>Apakah nama syarikat pertama anda pernah bekerja?</item>
+    </string-array>
+</resources>

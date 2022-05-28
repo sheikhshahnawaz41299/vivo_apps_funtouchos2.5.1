@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="vivo_upslide_tip_arrow_length">39</integer>
+    <integer name="vivo_minification">89</integer>
+    <integer name="vivo_password_minification">85</integer>
+    <integer name="vivo_simpinpuk_scaled_size">16</integer>
+</resources>

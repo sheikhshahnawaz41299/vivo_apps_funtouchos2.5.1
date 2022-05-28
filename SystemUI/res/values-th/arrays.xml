@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item>Wi-Fi</item>
+        <item>กำลังสแกน...</item>
+        <item>กำลังเชื่อมต่อ...</item>
+        <item>กำลังตรวจสอบบัญชี...</item>
+        <item>กำลังรับ IP...</item>
+        <item>เชื่อมต่อแล้ว</item>
+        <item>ระงับไว้</item>
+        <item>กำลังยกเลิกการเชื่อมต่อ...</item>
+        <item>ยกเลิกการเชื่อมต่อแล้ว</item>
+        <item>ไม่สำเร็จ</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Wi-Fi</item>
+        <item>กำลังสแกน...</item>
+        <item>Connecting%1$s…</item>
+        <item>Authenticating%1$s…</item>
+        <item>กำลังรับ IP...</item>
+        <item>Connected%1$s</item>
+        <item>ระงับไว้</item>
+        <item>Disconnecting from %1$s…</item>
+        <item>ยกเลิกการเชื่อมต่อแล้ว</item>
+        <item>ไม่สำเร็จ</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>บิดาของคุณชื่ออะไร?</item>
+        <item>มารดาของคุณชื่ออะไร?</item>
+        <item>คู่สมรสของคุณชื่ออะไร?</item>
+        <item>คุณเรียนที่โรงเรียนประถมศึกษาอะไร</item>
+        <item>ครูโรงเรียนอนุบาลของคุณชื่ออะไร</item>
+        <item>ครูโรงเรียนมัธยมศึกษาของคุณชื่ออะไร</item>
+        <item>เพื่อนในวัยเด็กที่สนิทที่สุดของคุณชื่ออะไร</item>
+        <item>คุณเกิดที่ไหน</item>
+        <item>รหัสประจำตัวนักศึกษา (การจ้างงาน) ของคุณหมายเลขอะไร</item>
+        <item>ตัวเลข 6 หลักสุดท้ายของบัตรประจำตัวประชาชนของคุณคือหมายเลขอะไร</item>
+        <item>ป้ายทะเบียนรถยนต์ของคุณหมายเลขอะไร</item>
+        <item>บริษัทแรกที่คุณทำงานชื่ออะไร</item>
+    </string-array>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">மேலோட்டப் பார்வையில் %d திரைகள்</item>
+        <item quantity="one">மேலோட்டப் பார்வையில் 1 திரை</item>
+    </plurals>
+    <plurals name="missed_call">
+        <item quantity="other">%d தவறிய அழைப்பு(கள்)</item>
+        <item quantity="one">1 தவறிய அழைப்பு</item>
+    </plurals>
+    <plurals name="unread_msg">
+        <item quantity="other">%d படிக்கப்படாத செய்தி(கள்)</item>
+        <item quantity="one">1 படிக்காத செய்தி</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">தவறான சிம் கார்டு PIN. உங்களிடம் %d முயற்சி(கள்) மீதமுள்ளன.</item>
+        <item quantity="one">தவறான சிம் கார்டு PIN. உங்கள் சாதனத்தைப் பூட்டுநீக்கம் செய்வதற்காக உங்கள் கேரியரைத் தொடர்புகொள்வதற்கு முன்பு உங்களிடம் %d முயற்சி(கள்) மீதமுள்ளன.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">தவறான சிம் கார்டு PUK. நீங்கள் இன்னும் %d முறை முயற்சிக்கலாம். அப்போதும் தோல்வியடைந்தால், சிம் கார்டு நிரந்தரமாக முடக்கப்படும்.</item>
+        <item quantity="one">தவறான சிம் கார்டு PUK. நீங்கள் இன்னும் %d முறை முயற்சிக்கலாம். அப்போதும் தோல்வியடைந்தால், சிம் கார்டு நிரந்தரமாக முடக்கப்படும்.</item>
+    </plurals>
+</resources>

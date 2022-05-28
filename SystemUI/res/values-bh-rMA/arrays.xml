@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item>Wi-Fi</item>
+        <item>स्कैन करैत...</item>
+        <item>जोडैत…</item>
+        <item>प्रमाणित करैत…</item>
+        <item>IP प्राप्त करैत…</item>
+        <item>जोडल</item>
+        <item>रोकल गेल</item>
+        <item>अलग करैत…</item>
+        <item>अलग कायल गेल</item>
+        <item>असफल</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Wi-Fi</item>
+        <item>स्कैन करैत...</item>
+        <item>जोडैत…</item>
+        <item>प्रमाणित करैत…</item>
+        <item>IP प्राप्त करैत…</item>
+        <item>जोडल%1$s</item>
+        <item>रोकल गेल</item>
+        <item>अलग करैत…</item>
+        <item>अलग कायल गेल</item>
+        <item>असफल</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>अहाँक पिताक नाम की थिक ?</item>
+        <item>अहाँक माताक नाम की थिक?</item>
+        <item>अहाँक पति/ पत्नीक नाम की थिक ?</item>
+        <item>अहां कोन प्राथमिक विद्यालयमे गेल छी?</item>
+        <item>अहांक बचपनक शिक्षकक नाम की छल?</item>
+        <item>अहांक उच्च विद्यालयक शिक्षकक नाम की छल?</item>
+        <item>अहांक बचपनक सबसँ प्रिय मित्रक नाम की छल?</item>
+        <item>अहांक जन्म स्थान?</item>
+        <item>अहाँक छात्रक ( रोजगार) पहिचान संख्या की अछि?</item>
+        <item>अहांक परिचय पत्रक अंतिम 6 अंक की सब अछि?</item>
+        <item>अहाँक मोटरक लाइसेंस पट्टिका संख्या?</item>
+        <item>अहाँ पहिल कम्पनीमे जे काज केलौ तकर नाम की छल?</item>
+    </string-array>
+</resources>

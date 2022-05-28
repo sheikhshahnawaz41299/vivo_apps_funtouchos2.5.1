@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vivo_keyguard_full_wday_month_no_year">d MMM</string>
+    <string name="vivo_keyguard_full_wday_no_year">E</string>
+    <string name="vivo_keyguard_full_wday_month_week_no_year">MMM d E</string>
+    <string name="app_label">UI ng System</string>
+    <string name="status_bar_clear_all_button">I-clear</string>
+    <string name="status_bar_recent_remove_item_title">Alisin sa listahan</string>
+    <string name="status_bar_recent_inspect_item_title">Impormasyon ng app</string>
+    <string name="status_bar_no_recent_apps">Ipapakita rito ang iyong mga kamakailang na-browse na screen</string>
+    <string name="status_bar_accessibility_dismiss_recents">I-dismiss ang mga kamakailang app</string>
+    <string name="status_bar_no_notifications_title">Walang mga notification</string>
+    <string name="status_bar_ongoing_events_title">Patuloy</string>
+    <string name="status_bar_latest_events_title">Abiso</string>
+    <string name="battery_low_title">Mababang antas ng baterya</string>
+    <string name="battery_low_percent_format">Natitira: %s</string>
+    <string name="battery_low_percent_format_saver_started">Natitira: %s. Na-on na ang power saving assistant.</string>
+    <string name="invalid_charger">"Hindi sinusuportahan ang pag-charge ng USB.
+Gamitin lang ang ibinigay na charger."</string>
+    <string name="invalid_charger_title">Hindi sinusuportahan ang pagcha-charge gamit ang USB.</string>
+    <string name="invalid_charger_text">Macha-charge lang gamit ang naka-attach na charge sa device.</string>
+    <string name="battery_low_why">I-set</string>
+    <string name="battery_saver_confirmation_title">I-on ang power saving assistant?</string>
+    <string name="battery_saver_confirmation_ok">I-on</string>
+    <string name="battery_saver_start_action">I-on ang power saving assistant</string>
+    <string name="status_bar_settings_settings_button">I-set</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Airplane mode</string>
+    <string name="status_bar_settings_auto_rotation">Screen ng awtomatikong pag-ikot</string>
+    <string name="status_bar_settings_mute_label">I-mute</string>
+    <string name="status_bar_settings_auto_brightness_label">Auto</string>
+    <string name="status_bar_settings_notifications">Abiso</string>
+    <string name="bluetooth_tethered">Naka-tether sa pamamagitan ng Bluetooth</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Mag-set up ng mga paraan ng pag-input</string>
+    <string name="status_bar_use_physical_keyboard">Pisikal na keyboard</string>
+    <string name="usb_device_permission_prompt">Payagan ang app %1$s na i-access ang USB device?</string>
+    <string name="usb_accessory_permission_prompt">Payagan ang app %1$s na i-access ang USB accessory?</string>
+    <string name="usb_device_confirm_prompt">Paganahin kapag kumokonekta sa USB device na ito %1$s?</string>
+    <string name="usb_accessory_confirm_prompt">Paganahin kapag kumokonekta sa USB accessory na ito %1$s?</string>
+    <string name="usb_accessory_uri_prompt">Wala sa mga naka-install na app ang gumagana sa USB accessory na ito. Matuto nang higit pa tungkol sa accessory na ito sa %1$s</string>
+    <string name="title_usb_accessory">USB accessory</string>
+    <string name="label_view">Tingnan</string>
+    <string name="always_use_device">Ginagamit para sa USB device bilang default</string>
+    <string name="always_use_accessory">Ginagamit para sa USB accessory bilang default</string>
+    <string name="usb_debugging_title">Payagan ang pag-debug ng USB?</string>
+    <string name="usb_debugging_message">"Ang RSA key fingerprint ng computer ay:
+%1$s"</string>
+    <string name="usb_debugging_always">Laging payagan ang computer na ito na magsagawa ng pagde-debug</string>
+    <string name="compat_mode_on">I-zoom upang mapuno ang screen</string>
+    <string name="compat_mode_off">I-stretch upang mapuno ang screen</string>
+    <string name="screenshot_saving_ticker">Sine-save ang screenshot...</string>
+    <string name="screenshot_saving_title">Sine-save ang screenshot...</string>
+    <string name="screenshot_saving_text">Sine-save ang screenshot.</string>
+    <string name="screenshot_saved_title">Nakunan ang screenshot.</string>
+    <string name="screenshot_saved_text">Pindutin upang tingnan ang iyong screenshot.</string>
+    <string name="screenshot_failed_title">Hindi makuha ang screenshot.</string>
+    <string name="screenshot_failed_text">Hindi nagtagumpay ang pag-screenshot, maaaring hindi sapat ang espasyo sa storage, o hindi pinapayagan ng app na ito o ng iyong unit.</string>
+    <string name="usb_preference_title">Mga opsyon sa paglilipat ng file sa USB</string>
+    <string name="use_mtp_button_title">I-load bilang isang media player (MTP)</string>
+    <string name="use_ptp_button_title">I-load bilang isang camera (PTP)</string>
+    <string name="installer_cd_button_title">I-install ang app para sa paglilipat ng Android file para sa Mac</string>
+    <string name="accessibility_back">Bumalik</string>
+    <string name="accessibility_home">Home screen</string>
+    <string name="accessibility_menu">Menu</string>
+    <string name="accessibility_recent">Pangkalahatang-ideya</string>
+    <string name="accessibility_search_light">Hanap</string>
+    <string name="accessibility_camera_button">Camera</string>
+    <string name="accessibility_phone_button">Telepono</string>
+    <string name="accessibility_unlock_button">I-unlock</string>
+    <string name="unlock_label">I-unlock</string>
+    <string name="phone_label">Buksan ang telepono</string>
+    <string name="camera_label">Buksan ang camera</string>
+    <string name="accessibility_ime_switch_button">Palitan ang button ng input method.</string>
+    <string name="accessibility_compatibility_zoom_button">Button ng compatibility zoom.</string>
+    <string name="accessibility_compatibility_zoom_example">Mag-zoom nang mas maliit sa mas malaking screen.</string>
+    <string name="accessibility_bluetooth_connected">Nakakonekta ang Bluetooth.</string>
+    <string name="accessibility_bluetooth_disconnected">Nadiskonekta ang Bluetooth.</string>
+    <string name="accessibility_no_battery">Walang baterya.</string>
+    <string name="accessibility_battery_one_bar">Baterya na isang bar.</string>
+    <string name="accessibility_battery_two_bars">Baterya na dalawang bar.</string>
+    <string name="accessibility_battery_three_bars">Baterya na tatlong bar.</string>
+    <string name="accessibility_battery_full">Puno na ang baterya.</string>
+    <string name="accessibility_no_phone">Walang signal ng telepono.</string>
+    <string name="accessibility_phone_one_bar">Nasa isang bar ang signal ng telepono.</string>
+    <string name="accessibility_phone_two_bars">Nasa dalawang bar ang signal ng telepono.</string>
+    <string name="accessibility_phone_three_bars">Nasa tatlong bar ang signal ng telepono.</string>
+    <string name="accessibility_phone_signal_full">Puno ang signal ng telepono.</string>
+    <string name="accessibility_no_data">Walang signal ng data network.</string>
+    <string name="accessibility_data_one_bar">Nasa isang bar ang signal ng data.</string>
+    <string name="accessibility_data_two_bars">Nasa dalawang bar ang signal ng data.</string>
+    <string name="accessibility_data_three_bars">Nasa tatlong bar ang signal ng data.</string>
+    <string name="accessibility_data_signal_full">Puno ang signal ng data.</string>
+    <string name="accessibility_wifi_off">Naka-off ang Wi-Fi</string>
+    <string name="accessibility_no_wifi">Nadiskonekta ang Wi-Fi.</string>
+    <string name="accessibility_wifi_one_bar">Isang bar lang ang Wi-Fi.</string>
+    <string name="accessibility_wifi_two_bars">Dalawang bar lang ang Wi-Fi.</string>
+    <string name="accessibility_wifi_three_bars">Tatlong bar lang ang Wi-Fi.</string>
+    <string name="accessibility_wifi_signal_full">Buo ang signal ng Wi-Fi.</string>
+    <string name="accessibility_wifi_name">Nakakonekta sa %s.</string>
+    <string name="accessibility_bluetooth_name">Nakakonekta sa %s.</string>
+    <string name="accessibility_no_wimax">Walang signal ng WiMAX.</string>
+    <string name="accessibility_wimax_one_bar">Nasa isang bar ang WiMAX.</string>
+    <string name="accessibility_wimax_two_bars">Nasa dalawang bar ang WiMAX.</string>
+    <string name="accessibility_wimax_three_bars">Nasa tatlong bar ang WiMAX.</string>
+    <string name="accessibility_wimax_signal_full">Puno ang signal ng WiMAX.</string>
+    <string name="accessibility_no_signal">Walang signal.</string>
+    <string name="accessibility_not_connected">Hindi nakakonekta.</string>
+    <string name="accessibility_zero_bars">Walang mga bar.</string>
+    <string name="accessibility_one_bar">Isang bar.</string>
+    <string name="accessibility_two_bars">Dalawang bar.</string>
+    <string name="accessibility_three_bars">Tatlong bar.</string>
+    <string name="accessibility_signal_full">Malakas ang signal.</string>
+    <string name="accessibility_desc_on">Naka-on.</string>
+    <string name="accessibility_desc_off">Naka-off.</string>
+    <string name="accessibility_desc_connected">Nakakonekta.</string>
+    <string name="accessibility_desc_connecting">Kumokonekta.</string>
+    <string name="accessibility_data_connection_roaming">Roaming</string>
+    <string name="accessibility_data_connection_edge">Edge</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">Walang SIM.</string>
+    <string name="accessibility_bluetooth_tether">Bluetooth tethering.</string>
+    <string name="accessibility_airplane_mode">Airplane mode.</string>
+    <string name="accessibility_settings_button">Mga setting ng system.</string>
+    <string name="accessibility_notifications_button">Mga abiso.</string>
+    <string name="accessibility_remove_notification">I-clear ang notification.</string>
+    <string name="accessibility_gps_enabled">Na-on na ang GPS</string>
+    <string name="accessibility_gps_acquiring">Kumukuha ng GPS signal.</string>
+    <string name="accessibility_tty_enabled">Naka-enable ang teletypewriter.</string>
+    <string name="accessibility_ringer_vibrate">Pag-vibrate ng ringer.</string>
+    <string name="accessibility_ringer_silent">I-mute ang taga-ring.</string>
+    <string name="accessibility_recents_item_will_be_dismissed">Tanggalin ang %s.</string>
+    <string name="accessibility_recents_item_dismissed">Na-delete ang %s.</string>
+    <string name="accessibility_recents_item_launched">Sinisimulan ang %s.</string>
+    <string name="accessibility_notification_dismissed">Na-disable ang mga notification.</string>
+    <string name="accessibility_desc_notification_shade">Notification bar.</string>
+    <string name="accessibility_desc_quick_settings">Mga mabilisang setting.</string>
+    <string name="accessibility_desc_lock_screen">Lock screen.</string>
+    <string name="accessibility_desc_settings">I-set</string>
+    <string name="accessibility_desc_recent_apps">Pangkalahatang-ideya.</string>
+    <string name="accessibility_quick_settings_user">User: %s.</string>
+    <string name="accessibility_quick_settings_wifi">%1$s.</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">Naka-off ang Wi-Fi.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">Naka-on ang Wi-Fi.</string>
+    <string name="accessibility_quick_settings_mobile">Koneksyon ng mobile data: %1$s. %2$s. %3$s.</string>
+    <string name="accessibility_quick_settings_battery">Lebel ng baterya: %s.</string>
+    <string name="accessibility_quick_settings_airplane_off">Naka-off ang airplane mode.</string>
+    <string name="accessibility_quick_settings_airplane_on">Naka-on ang airplane mode.</string>
+    <string name="accessibility_quick_settings_airplane_changed_off">Na-off na ang airplane mode.</string>
+    <string name="accessibility_quick_settings_airplane_changed_on">Na-on na ang airplane mode.</string>
+    <string name="accessibility_quick_settings_bluetooth_off">Naka-off ang Bluetooth.</string>
+    <string name="accessibility_quick_settings_bluetooth_on">Naka-on ang Bluetooth.</string>
+    <string name="accessibility_quick_settings_bluetooth_connecting">Kumokonekta ang Bluetooth.</string>
+    <string name="accessibility_quick_settings_bluetooth_connected">Nakakonekta ang Bluetooth.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_off">Naka-off ang Bluetooth.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_on">Naka-on ang Bluetooth.</string>
+    <string name="accessibility_quick_settings_location_off">Naka-off ang function na pag-ulat sa lokasyon.</string>
+    <string name="accessibility_quick_settings_location_on">Naka-on ang function na pag-ulat sa lokasyon.</string>
+    <string name="accessibility_quick_settings_location_changed_off">Na-off ang function na pag-ulat sa lokasyon.</string>
+    <string name="accessibility_quick_settings_location_changed_on">Na-on ang function na pag-ulat sa lokasyon.</string>
+    <string name="accessibility_quick_settings_alarm">Nakatakda ang alarma sa %s.</string>
+    <string name="accessibility_quick_settings_close">I-off ang panel.</string>
+    <string name="accessibility_quick_settings_more_time">Pahabain ang oras.</string>
+    <string name="accessibility_quick_settings_less_time">Paiksiin ang oras.</string>
+    <string name="accessibility_quick_settings_flashlight_off">Naka-off ang flash light.</string>
+    <string name="accessibility_quick_settings_flashlight_on">Naka-on ang flash light.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_off">Na-off na ang flash light.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_on">Naka-on ang flash light.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_off">Na-off na ang function na color reverse.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_on">Na-on na ang function na color reverse.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_off">Na-off na ang mobile hotspot.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_on">Na-on na ang mobile hotspot.</string>
+    <string name="accessibility_casting_turned_off">Itinigil ang pag-project sa screen.</string>
+    <string name="accessibility_brightness">Liwanag ng screen</string>
+    <string name="data_usage_disabled_dialog_3g_title">Na-off na ang 2G-3G data network</string>
+    <string name="data_usage_disabled_dialog_4g_title">Na-off na ang 4G data network</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Na-off na ang mobile data network</string>
+    <string name="data_usage_disabled_dialog_title">Na-off na ang data network</string>
+    <string name="data_usage_disabled_dialog">"Naabot na ng trapiko ng data ang mas mataas na limitasyon, na-off na ang data network sa iyong device.
+
+Kapag i-on muli ang data work, maaari kang singilin ng iyong carrier."</string>
+    <string name="data_usage_disabled_dialog_enable">I-on ang data network</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Walang koneksyon sa Internet</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Nakakonekta sa Wi-Fi</string>
+    <string name="gps_notification_searching_text">Hinahanap sa GPS</string>
+    <string name="gps_notification_found_text">Nahanap gamit ang GPS</string>
+    <string name="accessibility_location_active">Humiling ang app ng tumpak na impormasyon ng lokasyon</string>
+    <string name="accessibility_clear_all">I-clear ang lahat ng notification.</string>
+    <string name="status_bar_notification_inspect_item_title">Mga setting ng notification</string>
+    <string name="status_bar_notification_app_settings_title">Mga setting ng %s</string>
+    <string name="accessibility_rotation_lock_off">Awtomatikong iikot ang screen.</string>
+    <string name="accessibility_rotation_lock_on_landscape">Naka-lock ang screen sa pahigang oryentasyon.</string>
+    <string name="accessibility_rotation_lock_on_portrait">Naka-lock ang screen sa patayong oryentasyon.</string>
+    <string name="accessibility_rotation_lock_off_changed">Awtomatikong iikot ang screen.</string>
+    <string name="accessibility_rotation_lock_on_landscape_changed">Naka-lock ang screen sa landscape mode.</string>
+    <string name="accessibility_rotation_lock_on_portrait_changed">Naka-lock ang screen sa portrait mode.</string>
+    <string name="dessert_case">Kahon ng dessert</string>
+    <string name="start_dreams">Daydream</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="quick_settings_airplane_mode_label">Airplane mode</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d (na) device)</string>
+    <string name="quick_settings_bluetooth_off_label">I-off ang Bluetooth</string>
+    <string name="quick_settings_bluetooth_detail_empty_text">Walang available na ipapares na device</string>
+    <string name="quick_settings_brightness_label">Liwanag</string>
+    <string name="quick_settings_rotation_unlocked_label">Awtomatikong pag-ikot</string>
+    <string name="quick_settings_rotation_locked_label">Na-lock ang pag-rotate</string>
+    <string name="quick_settings_rotation_locked_portrait_label">Larawan</string>
+    <string name="quick_settings_rotation_locked_landscape_label">Landscape</string>
+    <string name="quick_settings_ime_label">Paraan ng pagpasok</string>
+    <string name="quick_settings_location_label">Impormasyon ng lokasyon</string>
+    <string name="quick_settings_location_off_label">Impormasyon ng lokasyon: naka-off</string>
+    <string name="quick_settings_media_device_label">Mga device na pang-media</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">Mga pang-emergency na tawag lang</string>
+    <string name="quick_settings_settings_label">I-set</string>
+    <string name="quick_settings_time_label">Oras</string>
+    <string name="quick_settings_user_label">Ako</string>
+    <string name="quick_settings_user_title">User</string>
+    <string name="quick_settings_user_new_user">Bagong user</string>
+    <string name="quick_settings_wifi_label">Wi-Fi</string>
+    <string name="quick_settings_wifi_not_connected">Hindi nakakonekta</string>
+    <string name="quick_settings_wifi_no_network">Walang Network</string>
+    <string name="quick_settings_wifi_off_label">Naka-off ang Wi-Fi</string>
+    <string name="quick_settings_wifi_detail_empty_text">Walang available na naka-save na network</string>
+    <string name="quick_settings_cast_title">I-cast ang Screen</string>
+    <string name="quick_settings_casting">Ipino-project</string>
+    <string name="quick_settings_cast_device_default_name">Walang pangalang device</string>
+    <string name="quick_settings_cast_device_default_description">Handa nang i-project</string>
+    <string name="quick_settings_cast_detail_empty_text">Walang available na device</string>
+    <string name="quick_settings_brightness_dialog_title">Liwanag</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">Auto</string>
+    <string name="quick_settings_inversion_label">Negatibo</string>
+    <string name="quick_settings_color_space_label">Device sa pag-calibrate ng kulay</string>
+    <string name="quick_settings_more_settings">Higit pang mga setting</string>
+    <string name="quick_settings_done">Tapos na</string>
+    <string name="quick_settings_connected">Nakakonekta</string>
+    <string name="quick_settings_connected_via_wfa">Nakakonekta (sa pamamagitan ng Wi-Fi assistant)</string>
+    <string name="quick_settings_connecting">Kumokonekta...</string>
+    <string name="quick_settings_tethering_label">Pagte-tether</string>
+    <string name="quick_settings_hotspot_label">Hotspot</string>
+    <string name="quick_settings_notifications_label">Abiso</string>
+    <string name="quick_settings_flashlight_label">Flashlight</string>
+    <string name="quick_settings_cellular_detail_title">Hindi pinapagana ang mobile data network</string>
+    <string name="quick_settings_cellular_detail_data_usage">Paggamit ng data</string>
+    <string name="quick_settings_cellular_detail_remaining_data">Natitirang data</string>
+    <string name="quick_settings_cellular_detail_over_limit">Nalampasan na ang pinakamataas na limitasyon</string>
+    <string name="quick_settings_cellular_detail_data_used">Ginagamit %s</string>
+    <string name="quick_settings_cellular_detail_data_limit">Mas mataas na limitasyon %s</string>
+    <string name="quick_settings_cellular_detail_data_warning">%s Babala</string>
+    <string name="recents_empty_message">Ipapakita rito ang iyong mga kamakailang na-browse na screen</string>
+    <string name="recents_app_info_button_label">Impormasyon ng app</string>
+    <string name="recents_lock_to_app_button_label">Nakapirming screen</string>
+    <string name="recents_search_bar_label">Hanap</string>
+    <string name="recents_launch_error_message">Hindi masimulan ang%s.</string>
+    <string name="expanded_header_battery_charged">Ganap na na-charge</string>
+    <string name="expanded_header_battery_charging">Naka-charge</string>
+    <string name="expanded_header_battery_charging_with_time">Kinakailangan ng %s upang ganap na ma-charge</string>
+    <string name="expanded_header_battery_not_charging">Hindi nagcha-charge</string>
+    <string name="ssl_ca_cert_warning">Maaaring sinusubaybayan ang network</string>
+    <string name="description_target_search">Hanap</string>
+    <string name="description_direction_up">Mag-slide pataas para sa %s.</string>
+    <string name="description_direction_left">Mag-slide pakaliwa para sa %s.</string>
+    <string name="zen_no_interruptions_with_warning">Walang pagkakaantala (kahit na walang alarm).</string>
+    <string name="zen_no_interruptions">Ipagbawal ang pag-istorbo</string>
+    <string name="zen_important_interruptions">Limitado lang sa mga may priyoridad na kaguluhan</string>
+    <string name="zen_alarm_information_time">Magri-ring ang susunod na alarma sa: %s</string>
+    <string name="zen_alarm_information_day_time">Magri-ring ang susunod na alarma sa: %s</string>
+    <string name="zen_alarm_warning">Hindi mo maririnig mag-ring ang alarm sa %s</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
+    <string name="speed_bump_explanation">Ipapakita sa ibaba ang mga hindi mahalagang notification</string>
+    <string name="notification_tap_again">Pinduting muli upang buksan</string>
+    <string name="keyguard_unlock">Mag-swipe pataas upang i-unlock</string>
+    <string name="phone_hint">Mag-swipe pakanan upang buksan ang interface ng dial</string>
+    <string name="camera_hint">Mag-swipe pakaliwa upang buksan ang camera</string>
+    <string name="interruption_level_none">Wala</string>
+    <string name="interruption_level_priority">Priyoridad</string>
+    <string name="interruption_level_all">Lahat</string>
+    <string name="keyguard_indication_charging_time">Nagcha-charge (kailangan ng%s upang ganap na ma-charge)</string>
+    <string name="accessibility_multi_user_switch_switcher">Magpalit ng user</string>
+    <string name="accessibility_multi_user_switch_switcher_with_current">Magpalit ng user, ang kasalukuyang user ay si%s</string>
+    <string name="accessibility_multi_user_switch_quick_contact">Ipakita ng personal na impormasyon</string>
+    <string name="user_add_user">Magdagdag ng user</string>
+    <string name="user_new_user_name">Bagong user</string>
+    <string name="guest_nickname">Bisita</string>
+    <string name="guest_new_guest">Magdagdag ng bisita</string>
+    <string name="guest_exit_guest">Tanggalin ang (mga) bisita</string>
+    <string name="guest_exit_guest_dialog_title">Tanggalin ang (mga) bisita?</string>
+    <string name="guest_exit_guest_dialog_message">Tatanggalin ang lahat ng app at data sa session na ito.</string>
+    <string name="guest_exit_guest_dialog_remove">Alisin</string>
+    <string name="guest_wipe_session_title">Bisita, maligayang pagbabalik!</string>
+    <string name="guest_wipe_session_message">Ipagpatuloy ang iyong session?</string>
+    <string name="guest_wipe_session_wipe">I-restart</string>
+    <string name="guest_wipe_session_dontwipe">Oo, ipagpatuloy.</string>
+    <string name="user_add_user_title">Magdagdag ng bagong user?</string>
+    <string name="user_add_user_message_short">"Kapag nagdagdag ka ng bagong user, dapat i-set up ng user ang kanyang sariling espasyo.
+
+Maaaring i-update ng bawat user ang mga app para sa lahat ng ibang user."</string>
+    <string name="battery_saver_notification_title">Na-on na ang power saving assistant.</string>
+    <string name="battery_saver_notification_text">Pababain ang pagganap at paghigpitan ang trapiko ng data sa background</string>
+    <string name="battery_saver_notification_action_text">I-off ang power saving assistant</string>
+    <string name="notification_hidden_text">Nakatago ang mga nilalaman</string>
+    <string name="media_projection_dialog_text">Sisimulang kunin ng %s ang lahat ng nilalaman na ipinapakita sa iyong screen.</string>
+    <string name="media_projection_remember_text">Huwag ipakita ulit</string>
+    <string name="clear_all_notifications_text">Wala</string>
+    <string name="media_projection_action_text">Simulan kaagad</string>
+    <string name="empty_shade_text">Walang mga notification</string>
+    <string name="device_owned_footer">Maaaring sinusubaybayan ang device</string>
+    <string name="profile_owned_footer">Maaaring sinusubaybayan ang data</string>
+    <string name="vpn_footer">Maaaring sinusubaybayan ang network</string>
+    <string name="monitoring_title_device_owned">Pagsubaybay sa device</string>
+    <string name="monitoring_title_profile_owned">Pagsubaybay sa data</string>
+    <string name="monitoring_title">Pagsubaybay sa network</string>
+    <string name="disable_vpn">I-off ang VPN</string>
+    <string name="disconnect_vpn">Idiskonekta ang VPN na koneksyon</string>
+    <string name="monitoring_description_device_owned">"Ang device na ito ay pinamamahalaan ng mga sumusunod na unit:
+%1$s
+
+Maaaring subaybayan ng iyong administrator ang lahat ng iyong device at online na aktibidad, kasama na ang pagtanggap at pagpapadala ng mga email, paggamit sa mga app at pagba-browse sa mga ligtas na website.
+
+Para sa mga detalye, mangyaring makipag-ugnayan sa iyong administrator."</string>
+    <string name="monitoring_description_vpn">"Pinahintulutan mo ang \"%1$s\" na i-configure ang VPN na koneksyon.
+
+Maaaring subaybayan ng app na ito ang iyong mga device at online na aktibidad, kasama na ang pagpapadala at pagtanggap ng mga email, paggamit ng mga app at pagba-browse ng mga ligtas na website."</string>
+    <string name="monitoring_description_legacy_vpn">"Nakakonekta ka sa VPN (\"%1$s\").
+
+Maaaring subaybayan ng iyong tagabigay ng VPN ang iyong mga device at online na aktibidad, kasama na ang pagpapadala at pagtanggap ng mga email, paggamit ng mga app at pagba-browse ng mga ligtas na website."</string>
+    <string name="monitoring_description_vpn_device_owned">"Ang device na ito ay pinamamahalaan ng mga sumusunod na unit:
+%1$s
+
+Maaaring subaybayan ng iyong administrator ang lahat ng iyong online na aktibidad, kasama na ang pagtanggap at pagpapadala ng mga email, paggamit sa mga app at pagba-browse sa mga ligtas na website. Para sa mga detalye, mangyaring makipag-ugnayan sa iyong administrator.
+
+Bukod pa rito, pinahintulutan mo ang \"%2$s\" na i-configure ang VPN na koneksyon. Maaari ring subaybayan ng app na ito ang mga aktibidad sa network."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"Ang device na ito ay pinamamahalaan ng mga sumusunod na unit:
+%1$s
+
+Maaaring subaybayan ng iyong administrator ang lahat ng iyong online na aktibidad, kasama na ang pagtanggap at pagpapadala ng mga email, paggamit sa mga app at pagba-browse sa mga ligtas na website. Para sa mga detalye, mangyaring makipag-ugnayan sa iyong administrator
+
+Bukod pa rito, nakakonekta ka sa VPN (\"%2$s\"). Maaari ring subaybayan ng iyong tagabigay ng VPN ang mga aktibidad sa network."</string>
+    <string name="monitoring_description_profile_owned">"Ang data na ito ay pinamamahalaan ng mga sumusunod na unit:
+%1$s
+
+Maaaring subaybayan ng iyong administrator ang lahat ng iyong device at online na aktibidad, kasama na ang pagtanggap at pagpapadala ng mga email, paggamit sa mga app at pagba-browse sa mga ligtas na website.
+
+Para sa mga detalye, mangyaring makipag-ugnayan sa iyong administrator."</string>
+    <string name="monitoring_description_device_and_profile_owned">"Ang device na ito ay pinamamahalaan ng sumusunod na unit:
+%1$s
+ Ang iyong data ay pinamamahalaan ng sumusunod na unit:
+%2$s
+
+Maaaring subaybayan ng iyong administrator ang lahat ng iyong device at online na aktibidad, kasama na ang pagtanggap at pagpapadala ng mga email, paggamit sa mga app at pagba-browse sa mga ligtas na website.
+
+Para sa mga detalye, mangyaring makipag-ugnayan sa iyong administrator."</string>
+    <string name="monitoring_description_vpn_profile_owned">"Ang data na ito ay pinamamahalaan ng mga sumusunod na unit:
+%1$s
+
+Maaaring subaybayan ng iyong administrator ang lahat ng iyong online na aktibidad, kasama na ang pagtanggap at pagpapadala ng mga email, paggamit sa mga app at pagba-browse sa mga ligtas na website. Para sa mga detalye, mangyaring makipag-ugnayan sa iyong administrator.
+
+Bukod pa rito, pinahintulutan mo ang \"%2$s\" na i-configure ang VPN na koneksyon. Maaari ring subaybayan ng app na ito ang mga aktibidad sa network."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"Ang data na ito ay pinamamahalaan ng mga sumusunod na unit:
+%1$s
+
+Maaaring subaybayan ng iyong administrator ang lahat ng iyong online na aktibidad, kasama na ang pagtanggap at pagpapadala ng mga email, paggamit sa mga app at pagba-browse sa mga ligtas na website. Para sa mga detalye, mangyaring makipag-ugnayan sa iyong administrator
+
+Bukod pa rito, nakakonekta ka sa VPN (\"%2$s\"). Maaari ring subaybayan ng iyong tagabigay ng VPN ang mga aktibidad sa network."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"Ang device na ito ay pinamamahalaan ng sumusunod na unit:
+%1$s
+ Ang iyong data ay pinamamahalaan ng sumusunod na unit:
+%2$s
+
+Maaaring subaybayan ng iyong administrator ang lahat ng iyong online na aktibidad, kasama na ang pagtanggap at pagpapadala ng mga email, paggamit sa mga app at pagba-browse sa mga ligtas na website. Para sa mga detalye, mangyaring makipag-ugnayan sa iyong administrator.
+
+Bukod pa rito, pinahintulutan mo ang \"%3$s\" na i-configure ang VPN na koneksyon. Maaari ring subaybayan ng app na ito ang mga aktibidad sa network."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"Ang device na ito ay pinamamahalaan ng sumusunod na unit:
+%1$s
+ Ang iyong data ay pinamamahalaan ng sumusunod na unit:
+%2$s
+
+Maaaring subaybayan ng iyong administrator ang lahat ng iyong online na aktibidad, kasama na ang pagtanggap at pagpapadala ng mga email, paggamit sa mga app at pagba-browse sa mga ligtas na website. Para sa mga detalye, mangyaring makipag-ugnayan sa iyong administrator
+
+Bukod pa rito, nakakonekta ka sa VPN (\"%3$s\"). Maaari ring subaybayan ng iyong tagabigay ng VPN ang mga aktibidad sa network."</string>
+    <string name="keyguard_indication_trust_disabled">Ila-lock ang device bago mo ito manu-manong i-unlock</string>
+    <string name="hidden_notifications_title">Tingnan ang mga notification nang mas madali</string>
+    <string name="hidden_notifications_text">Tingnan ang mga notification nang hindi nag-a-unlock</string>
+    <string name="hidden_notifications_cancel">Hindi salamat</string>
+    <string name="hidden_notifications_setup">I-set</string>
+    <string name="zen_mode_and_condition">%1$s(%2$s)</string>
+    <string name="screen_pinning_title">Naka-pin ang screen</string>
+    <string name="screen_pinning_description">Regular na maipapakita nito ang screen na ito hanggang sa kanselahin mo ito. Pindutin at tapikin ang \"Bumalik\" at \"Pangkalahatang-ideya\" upang magkansela.</string>
+    <string name="screen_pinning_description_accessible">Regular na maipapakita nito ang screen na ito hanggang sa kanselahin mo ito. Pindutin at tapikin ang \"Pangkalahatang-ideya\" upang magkansela.</string>
+    <string name="screen_pinning_positive">OK</string>
+    <string name="screen_pinning_negative">Hindi salamat</string>
+    <string name="quick_settings_reset_confirmation_title">Itago ba ang \"%1$s\"?</string>
+    <string name="quick_settings_reset_confirmation_message">Muling lalabas ang entry ng quick setting na ito sa susunod na ie-enable mo ito sa mga setting.</string>
+    <string name="quick_settings_reset_confirmation_button">Itago</string>
+    <string name="clearDefaultHintMsg">I-clear ang mga default na setting sa \"Mga Setting ng System\" > \"Mga App\" > \"Na-download\".</string>
+    <string name="vivo_statusbar_type">Status bar</string>
+    <string name="vivo_keyguard_no_sim">Walang SIM</string>
+    <string name="vivo_keyguard_charging">"Kasalukuyang antas 
+ ng baterya %d%%"</string>
+    <string name="vivo_keyguard_charging_complete">Ganap na na-charge</string>
+    <string name="vivo_keyguard_holster_unlock_text">I-slide para i-unlock</string>
+    <string name="vivo_keyguard_holster_unlock_text_r">Mag-slide pakanan sa bahagi ng pattern para mag-unlock</string>
+    <string name="vivo_keyguard_ripple_unlock_text">I-slide kahit saan para i-unlock</string>
+    <string name="default_head_portrait_name">Palayaw</string>
+    <string name="click_tip">Maaaring i-customize ang pag-swipe pababa</string>
+    <string name="lockscreen_icon_set">I-edit</string>
+    <string name="back">Kanselahin</string>
+    <string name="save">I-save</string>
+    <string name="name">Palayaw</string>
+    <string name="name_hint">Palayaw</string>
+    <string name="head_icon">Avatar</string>
+    <string name="edit_icon_title">I-edit ang larawan</string>
+    <string name="choose_from_photo_album">Pumili ng larawan sa album</string>
+    <string name="choose_from_take_photo">Litrato</string>
+    <string name="saving">Sine-save...</string>
+    <string name="text_signature">Personal na signature</string>
+    <string name="text_signature_hint">Mood</string>
+    <string name="font_name">Font</string>
+    <string name="color_name">Kulay</string>
+    <string name="font_default">Default</string>
+    <string name="font_classic">Klasiko</string>
+    <string name="font_fzm">Fang Zheng Miao Wu Font</string>
+    <string name="font_fzltblack">Lan Ting Kan Hei</string>
+    <string name="font_hwbold">STHeiti</string>
+    <string name="reach_length_limit">Maaaring magpakita ng hanggang 2 linya. Naabot na ang limitasyon ng input.</string>
+    <string name="reach_length_limit_cant_save">Lumampas ang personal na signature sa 2 linyang limitasyon ng display ng linya. Pakibago.</string>
+    <string name="name_input_limitation_info">Ang kasama lang sa mga sinusuportahang uri ng input ay mga titik, numero, at Chinese character lang. Paki-input muli!</string>
+    <string name="vivo_keyguard_nature2_guide">I-swipe pababa upang lumipat</string>
+    <string name="song_name">Pangalan ng kanta</string>
+    <string name="unknown_artist_name">Hindi kilalang artist</string>
+    <string name="unknown_album_name">Hindi kilalang album</string>
+    <string name="artist_name">Pangalan ng artist</string>
+    <string name="album">Pangalan ng album</string>
+    <string name="sdcard_busy_title">Hindi available sa storage mode</string>
+    <string name="widget_artist">Artist:</string>
+    <string name="widget_album">Album:</string>
+    <string name="no_lyric_textview">Walang mga lyric</string>
+    <string name="signature_font">Font ng signature</string>
+    <string name="shortcut">Mga application sa quick-launch</string>
+    <string name="shortcut_left">Kaliwang app sa quick-launch</string>
+    <string name="shortcut_right">Kanang app sa quick-launch</string>
+    <string name="shortcut_none">Wala</string>
+    <string name="shortcut_wait_load">Nilo-load...</string>
+    <string name="slide_to_start">Mag-swipe pataas upang simulan ang program</string>
+    <string name="vivo_keyguard_quick_charging">Mabilis na pagcha-charge gamit ang mga dual charging circuit %d%%</string>
+    <string name="vivo_keyguard_radio_fav_toast_text">"Hindi ito maaaring iimbak hangga't hindi ka nagla-login"</string>
+    <string name="vivo_keyguard_iconset_gif_too_large">Masyadong malaki ang larawan</string>
+    <string name="vivo_keyguard_iconset_gif_type_error">Sira ang larawan</string>
+    <string name="font_hwfine">Mga classic na font</string>
+    <string name="vivo_notification_tap_again">I-double click para buksan</string>
+    <string name="vivo_calendar_title_has">Mga kamakailang kaganapan</string>
+    <string name="vivo_calendar_title_has_not">Walang mga kamakailang kaganapan</string>
+    <string name="vivo_notification_title_has">Abiso</string>
+    <string name="vivo_notification_title_has_not">Walang mga notification</string>
+    <string name="vivo_ongoing_title_has">Patuloy</string>
+    <string name="vivo_block_cancel">I-unblock</string>
+    <string name="vivo_block">I-block</string>
+    <string name="vivo_clear">I-clear</string>
+    <string name="vivo_manage">Pangasiwaan</string>
+    <string name="vivo_block_app_tip">Na-block ang %s (na) notification</string>
+    <string name="vivo_notification_block_activity_title">Kasalukuyang notification</string>
+    <string name="vivo_manage_notification">Pamahalaan ang mga notification</string>
+    <string name="vivo_hood_phone_jump">I-tap upang bumalik sa interface ng tawag</string>
+    <string name="vivo_hood_recorder_jump">I-tap upang bumalik sa interface ng pag-record</string>
+    <string name="vivo_hood_phone_hold">Naka-hold</string>
+    <string name="vivo_hood_phone_dialing">Dina-dial</string>
+    <string name="vivo_hood_phone_alerting">Nagri-ring</string>
+    <string name="vivo_status_bar_setting_title">Status bar at notification</string>
+    <string name="vivo_sheid_manager_activity_loading">Nilo-load...</string>
+    <string name="vivo_notification_type">Abiso</string>
+    <string name="vivo_network_speed_switch">Ipakita ang bilis ng network</string>
+    <string name="vivo_power_percent_switch">Ipakita ang porsyento ng baterya</string>
+    <string name="vivo_schedule_switch">Ipakita ang mga kaganapan</string>
+    <string name="vivo_netweork_flow_switch">Ipakita ang paggamit ng data</string>
+    <string name="vivo_top_notification_type">Estilo ng nangungunang preview</string>
+    <string name="vivo_notification_manage_entry">Pamahalaan ang mga notification</string>
+    <string name="vivo_notification_screen_on">Pailawin ang screen kapag nakakatanggap ng notification</string>
+    <string name="vivo_label_notification_on">Notification bar</string>
+    <string name="vivo_label_keygard_notification_on">Lock screen</string>
+    <string name="vivo_label_desktop_notification_on">Marka</string>
+    <string name="vivo_notification_screen_on_tip">Kontrolin kung iilaw ba ang naka-lock na screen kapag dumadating ang mga notification (maliban na lang sa mga galing sa ilang mga in-built at third-party na app)</string>
+    <string name="vivo_status_bar_no_notification_shield_tip">Kasalukuyan, walang notification na iba-block</string>
+    <string name="vivo_notification_to_show_item">Mga app na nagbibigay-daan sa notification</string>
+    <string name="vivo_notification_not_to_show_item">Mga app na hindi nagbibigay-daan sa notification</string>
+    <string name="vivo_show_notification">Payagan ang notification</string>
+    <string name="vivo_notification_disable">Huwag payagan ang notification</string>
+    <string name="vivo_show_notification_illustration">Pagkatapos i-on, magkakaroon ng notification sa pull-down na bar ng notification</string>
+    <string name="vivo_show_keyguard_notification">Ipakita sa lock screen</string>
+    <string name="vivo_show_keyguard_notification_details">Ipakita ang mga detalye sa lock screen</string>
+    <string name="vivo_show_desktop_app_icon_badge">Marka ng icon ng desktop app</string>
+    <string name="vivo_show_notification_top_preview">Nangungunang preview</string>
+    <string name="vivo_notification_tip_style_headsup">Float</string>
+    <string name="vivo_notification_tip_style_ticker">Scroll</string>
+    <string name="vivo_notification_tip_style_illustration">Ipinapakita ang mga nagfo-float na preview sa ibabaw ng screen nang 5 segundo, at matitiklop ang mga iyon sa pamamagitan ng pagsa-slide pataas o made-delete sa pamamagitan ng pagsasa-slide nang pahiga. Ipinapakita sa hiwa-hiwalay na linya ang mga preview ng pagso-scroll sa Status Bar.</string>
+    <string name="vivo_show_priority_notification">Priyoridad</string>
+    <string name="vivo_show_priority_notification_illustration">Ipakita sa harap ng listahan ng notification</string>
+    <string name="vivo_no_uim">Walang UIM</string>
+    <string name="vivo_no_sim">Walang SIM</string>
+    <string name="vivo_close">I-off</string>
+    <string name="vivo_sim_close">Hindi pinagana ang SIM card.</string>
+    <string name="vivo_no_service">Walang serbisyo</string>
+    <string name="vivo_offline_mode">Offline na mode</string>
+    <string name="vivo_new_notification_hidden">Mga bagong mensahe</string>
+    <string name="vivo_screenshot_failed_text_no_memory">Hindi ma-save ang screenshot. Maaaring wala nang sapat na espasyo sa storage ng device.</string>
+    <string name="vivo_done">Tapos na</string>
+    <string name="vivo_cancel">Kanselahin</string>
+    <string name="vivo_ok">OK</string>
+    <string name="vivo_battery_full_ticker">Ganap na na-charge</string>
+    <string name="vivo_battery_full_title">Ganap na na-charge</string>
+    <string name="vivo_battery_full_msg">Nakumpleto ang pag-charge. Pakitanggal ang power supply.</string>
+    <string name="vivo_low_battery_dialog_title">Tip</string>
+    <string name="vivo_low_battery_sps_tip">Paubos na ang baterya. Paki-charge ang iyong baterya o lumipat sa mode ng lubos na pagtitipid ng baterya upang mapatagal pa ang oras ng operasyon ng telepono.</string>
+    <string name="vivo_low_battery_hifi_tip">Paubos na ang baterya. Awtomatikong na-off ang Hi-Fi mode. Paki-charge ang iyong baterya o lumipat sa mode ng lubos na pagtitipid ng baterya upang mapatagal pa ang oras ng operasyon ng telepono.</string>
+    <string name="vivo_low_battery_hifi_tip_cmcc">Paubos na ang baterya. Awtomatikong na-off ang Hi-Fi mode. Pakikonekta ang iyong charger.</string>
+    <string name="vivo_sps">Super power na saving mode</string>
+    <string name="vivo_low_battery_tip">Paubos na ang baterya. Pakikonekta ang charger.</string>
+    <string name="vivo_wfd_noti_title">Wi-Fi Display</string>
+    <string name="vivo_wfd_noti_text">Nakakonekta ang device na naka-display</string>
+    <string name="vivo_guts_tips">Naipadala ang notification</string>
+    <string name="vivo_network_speed_msg">Mga detalye ng bilis ng network</string>
+    <string name="usb_device_unconnected_suddenly">Hindi inaasahang nadiskonekta ang OTG</string>
+    <string name="usb_device_unconnected_suddenly_message">I-unmount ang OTG bago ito alisin para maiwasang mawalan ng data.</string>
+    <string name="usb_device_connected">Nakakonekta ang OTG</string>
+    <string name="usb_device_connected_message">I-tap para makita</string>
+    <string name="usb_device_disconnected">Ligtas na naalis ang OTG</string>
+    <string name="sd_badremoval_notification_message">Bago alisin sa SD card, i-unmount ito sa \"Mga Setting > Higit Pang Mga Setting > Storage\".</string>
+    <string name="uninstall_otg">I-uninstall</string>
+    <string name="vivo_notification_icon_redraw_switch">Pagpapaganda ng icon</string>
+    <string name="global_action_super_power_save_tip_locking">Kailangan munang i-unlock para gumana</string>
+    <string name="volume_fm">Volume ng FM</string>
+    <string name="show_imanager_lock_tip">Kung naka-enable ang lock ng software para sa application na ito sa i Manager, hindi magiging available ang mga detalye ng notification sa lockscreen.</string>
+    <string name="show_imanager_locked_tip">In-enable mo ang lock ng software para sa application na ito sa i Manager, at hindi magiging available ang mga detalye ng notification sa lockscreen.</string>
+    <string name="sd_badremoval_notification_message_4g">Para maiwasan ang pagkawala ng data, mangyaring pumunta sa \"Mga Setting>RAM at Storage\" at i-unmount ang iyong SD card bago mo ito alisin.</string>
+    <string name="vivo_notification_tip_none">Walang preview</string>
+    <string name="vivo_develop_mode_tip">mode ng pag-develop</string>
+    <string name="vivo_up_slide_no_recent_apps">Walang mga kamakailang app</string>
+    <string name="vivo_up_slide_check_out">Tingnan</string>
+    <string name="vivo_up_slide_statusbar_guide_tip">"Mag-swipe mula sa ibaba upang 
+pumunta sa control center"</string>
+    <string name="vivo_up_slide_tip_swipe">Mag-swipe upang tanggalin</string>
+    <string name="vivo_up_slide_tip_white_list">Pumindot nang matagal upang dumagdag sa whitelist na \"Isahang tap na Pagpapabilis\"</string>
+    <string name="vivo_up_slide_add_white_list_item">Magdagdag upang i-whitelist</string>
+    <string name="vivo_up_slide_remove_white_list_item">Alisin mula sa whitelist</string>
+    <string name="vivo_switcher_order_title">I-customize</string>
+    <string name="vivo_switcher_order_show">Ipakita ang switch</string>
+    <string name="vivo_switcher_order_hide">Huwag ipakita ang switch</string>
+    <string name="vivo_switcher_order_hide_tip">"Itago: I-drag ang switch papunta sa bahagi ng \"Huwag ipakita ang switch\" 
+I-sort: I-drag ang switch papunta sa kung saang bahagi ng \"Ipakita ang switchmo ito gusto\""</string>
+    <string name="vivo_switcher_order_at_least">Panatilihin ang hindi bababa sa 4 na item</string>
+    <string name="vivo_switcher_cu">Pabilisin</string>
+    <string name="vivo_switcher_wifi">Wi-Fi</string>
+    <string name="vivo_switcher_apn">Netwrok ng data</string>
+    <string name="vivo_switcher_fl">Flashlight</string>
+    <string name="vivo_switcher_wechat_scan">I-scan</string>
+    <string name="vivo_switcher_smartshot">Super screenshot</string>
+    <string name="vivo_switcher_vibrate">Vibrate mode</string>
+    <string name="vivo_switcher_portrait">Lock ng portrait na screen</string>
+    <string name="vivo_switcher_bright">Liwanag</string>
+    <string name="vivo_switcher_sps">Super power na saving mode</string>
+    <string name="vivo_switcher_offline">Offline na mode</string>
+    <string name="vivo_switcher_sim_selection">Pumili ng data ng card</string>
+    <string name="vivo_switcher_bluetooth">Bluetooth</string>
+    <string name="vivo_switcher_reboot">I-reboot</string>
+    <string name="vivo_switcher_poweroff">I-off</string>
+    <string name="vivo_switcher_zen_mode">Huwag abalahin</string>
+    <string name="vivo_switcher_dialog_wechat_scan_message">Para i-launch ang \"Mag-scan ng QR Code\" sa WeChat, kailangan mong i-install ang WeChat. I-install ngayon?</string>
+    <string name="vivo_switcher_wechat_scan_available_toast">Available ang \"Mag-scan ng QR Code\" sa WeChat</string>
+    <string name="vivo_switcher_clear_up_tip_both" formatted="false">Isinara ang %d (na) app sa background at binakante ang %d (na) MB ng memory.</string>
+    <string name="vivo_switcher_clear_up_tip_deamon">Isinara ang %d (na) app sa background</string>
+    <string name="vivo_switcher_clear_up_tip_none">Nasa optimal na status na</string>
+    <string name="vivo_switcher_wifi_open_tips_while_tethered">Pag-on sa Wi-Fi ay hindi papaganahin ang portable hotspot ng Wi-Fi. Magpatuloy?</string>
+    <string name="vivo_switcher_wifi_open_tips_sure">OK</string>
+    <string name="vivo_switcher_wifi_open_tips_cancel">Kanselahin</string>
+    <string name="vivo_switcher_wifi_close_while_wfd_opened_title">Wi-Fi Display</string>
+    <string name="vivo_switcher_wifi_close_while_wfd_opened_context">Awtomatikong isasara ang Wi-Fi Display dahil nakasara ang Wi-Fi</string>
+    <string name="vivo_switcher_during_phone_forbidden">Hindi available habang may mga tawag</string>
+    <string name="vivo_switcher_offline_forbidden">Hindi available sa offlinemode</string>
+    <string name="vivo_switcher_need_sim">Nangangailangan ng SIM card ang operasyon</string>
+    <string name="vivo_switcher_apn_dialog_title">Netwrok ng data</string>
+    <string name="vivo_switcher_apn_security_dialog_title">Tip</string>
+    <string name="vivo_switcher_apn_security_dialog_msg">Kapag pinagana, ang mga serbisyo sa pag-aayos ng awtomatikong oras, awtomatikng pag-check sa update, pagpoposisyon, vivo, at standby screen ay gagamitin ang kaunting data. Gusto mo bang magpatuloy?</string>
+    <string name="vivo_switcher_apn_security_dialog_tip">Kung piliin mo na magpatuloy, hindi ka papaalalahan sa susunod na gamitin mo ang app na ito.</string>
+    <string name="vivo_switcher_apn_security_dialog_button_continue">Tumuloy</string>
+    <string name="vivo_switcher_apn_dialog_set_default_tip">Itakda bilang default na card para sa Internet at huwag nang mag-prompt na piliin ang card</string>
+    <string name="vivo_switcher_apn_dialog_set_default_tip2">Maaari kang pumunta sa \"Mga Setting > Mga mobile network > Default card\" para baguhin ang setting</string>
+    <string name="vivo_switcher_dialog_title_tips">Tip</string>
+    <string name="vivo_switcher_dialog_sps_tip">Ang mga function na Telepono, Pagmemensahe at Alarma lang ang naka-activate sa super power saving mode. Awtomatikong lalabas ang cell phone sa mode pagkatapos na lubusang mai-charge.</string>
+    <string name="vivo_switcher_dialog_sps_never_remide">Huwag na akong paalalahanan muli</string>
+    <string name="vivo_switcher_flashlight_low_battery_tip">Mahina ang baterya. Ang tampok na ito ay pansamantalang hindi available.</string>
+    <string name="vivo_switcher_speedup_dialog_whitelist_title">Ipinapaalala sa iyo ng i Manager</string>
+    <string name="vivo_switcher_speedup_dialog_whitelist_message">Ang mga app ay hindi tatapusin ng isang pindot na speedup. Maaari kang magdagdag ng mga app sa whitelist.</string>
+    <string name="vivo_switcher_speedup_dialog_whitelist_ok">Itakda ang whitelist</string>
+    <string name="vivo_upslide_hifi_no_headphone">HIndi ma-on ang Hi-Fi. Walang ipinasok na mga earphone.</string>
+    <string name="vivo_upslide_hifi_low_battery">HIndi ma-on ang Hi-Fi. Mahina ang baterya.</string>
+    <string name="vivo_upslide_hifi_opened">Naka-on ang Hi-Fi</string>
+    <string name="vivo_upslide_hifi_closed">Naka-off ang Hi-Fi</string>
+    <string name="vivo_upslide_hifi_headset_tip">Gumagana lamang ang Hi-Fi sa earphone mode</string>
+    <string name="vivo_upslide_artist_name">Pangalan ng artist</string>
+    <string name="vivo_upslide_music_name">Pangalan ng kanta</string>
+    <string name="vivo_upslide_network_mode_any">Anuman</string>
+    <string name="vivo_upslide_network_mode_only_2g">2G lamang</string>
+    <string name="vivo_upslide_network_mode_register_choice">Piliin lang ang 2G network, at maaaring ipagpatuloy ng Ooredoo ang karaniwan nitong paggamit; pumili ng anumang network, at hindi magagamit ang Ooredoo.</string>
+    <string name="vivo_upslide_network_mode_tip">Mangyaring piliin</string>
+    <string name="vivo_switcher_apn_dialog_close_apn_tip">I-off</string>
+    <string name="vivo_switcher_sps_dialog_ok">OK</string>
+    <string name="vivo_upslide_hide_navigaton_bar_tip">Mag-swipe pababa upang itago</string>
+    <string name="vivo_upslide_lock_task_dialog_msg">Kapag nai-pin na ang screen, mananatili ang device sa isang screen. Upang i-unpin, i-tap at i-hold ang \"Bumalik\" at \"Menu\".</string>
+    <string name="vivo_upslide_lock_task_dialog_negative">Hindi salamat</string>
+    <string name="vivo_upslide_lock_task_dialog_positive">Nakapirmi</string>
+    <string name="vivo_upslide_lock_task_dialog_title">Gamitin ang pagpi-pin ng screen?</string>
+    <string name="vivo_upslide_show_navigaton_bar_tip">Mag-swipe pataas upang ipakita</string>
+    <string name="vivo_upslide_volume_tip">Media</string>
+    <string name="vivo_switcher_data_network_not_available">Hindi availabela ng network ng cellphone</string>
+    <string name="vivo_switcher_wifi_ap">Wi-Fi hotspot</string>
+    <string name="vivo_switcher_eye_protection">Proteksyon sa mata</string>
+    <string name="vivo_switcher_eye_protection_tip">Na-enable ang eye protection mode. Ayusin ang kulay ng screen upang mabawasan ang pagkapagod ng mata.</string>
+    <string name="vivo_switcher_eye_protection_tip_ok">OK</string>
+    <string name="vivo_upslide_operation_tips">Palabasin ang \"Control Center\" sa pamamagitan ng pag-slide pataas mula sa ibabang dulo ng screen.</string>
+    <string name="vivo_upslide_setting_title">Control Center</string>
+    <string name="vivo_upslide_switch_tips">Payagang palabasin ang \"Control Center\" sa interface ng isang app. Pagkatapos na ma-off ang switch, maaari mo pa ring palabasin ang \"Control Center\" sa desktop.</string>
+    <string name="vivo_upslide_switch_title">Ilabas ito sa isang interface ng app</string>
+    <string name="wifi_opened">I-on</string>
+    <string name="wifi_starting">Ini-on</string>
+    <string name="wifi_stopping">Ini-off</string>
+    <string name="wifi_prepare_connect">Ihanda ang pagkonekta</string>
+    <string name="keyguard_password_enter_pin_code">Ilagay ang PIN</string>
+    <string name="keyguard_password_enter_puk_code">Pakipasok ang PUK ng SIM card at bagong PIN</string>
+    <string name="keyguard_password_enter_puk_prompt">SIM card PUK</string>
+    <string name="keyguard_password_enter_pin_prompt">PIN ng bagong SIM card</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">Pindutin para ilagay ang password</font></string>
+    <string name="keyguard_password_enter_password_code">Ilagay ang password para mag-unlock</string>
+    <string name="keyguard_password_enter_pin_password_code">Ilagay ang PIN para mag-unlock</string>
+    <string name="keyguard_password_wrong_pin_code">Maling PIN.</string>
+    <string name="keyguard_label_text">Para mag-unlock, pindutin ang Menu pagkatapos ay 0.</string>
+    <string name="faceunlock_multiple_failures">Lumampas sa maximum na pagsubok sa Pag-unlock Gamit ang Mukha</string>
+    <string name="keyguard_charged">Ganap na na-charge</string>
+    <string name="keyguard_plugged_in">Naka-charge</string>
+    <string name="keyguard_low_battery">Pakikonekta ang charger.</string>
+    <string name="keyguard_instructions_when_pattern_disabled">I-tap ang \"Menu\" para mag-unlock.</string>
+    <string name="keyguard_network_locked_message">Naka-lock ang network</string>
+    <string name="keyguard_missing_sim_message_short">Walang SIM card</string>
+    <string name="keyguard_missing_sim_message">Walang SIM card sa telepono.</string>
+    <string name="keyguard_missing_sim_instructions">Mangyaring ipasok ang SIM card.</string>
+    <string name="keyguard_missing_sim_instructions_long">Nawawala o hindi mabasa ang SIM card. Maglagay ng wastong SIM card.</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">Hindi magagamit ang SIM card.</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"Permanenteng hindi pinagana ang iyong SIM card.
+Makipag-ugnayan sa iyong provider ng wireless na serbisyo upang kumuha ng panibagong SIM card."</string>
+    <string name="keyguard_sim_locked_message">Naka-lock ang SIM card.</string>
+    <string name="keyguard_sim_puk_locked_message">Naka-lock ang SIM card gamit ang PUK.</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">Ina-unlock ang SIM card...</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s. Widget %2$d ng %3$d.</string>
+    <string name="keyguard_accessibility_add_widget">Magdagdag ng widget.</string>
+    <string name="keyguard_accessibility_widget_empty_slot">Walang laman</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">Pinalawak ang bahagi para sa pag-unlock.</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">Naka-collapse ang bahagi para sa pag-unlock.</string>
+    <string name="keyguard_accessibility_widget">Widget ng %1$s.</string>
+    <string name="keyguard_accessibility_user_selector">Tagapili ng user</string>
+    <string name="keyguard_accessibility_camera">Camera</string>
+    <string name="keygaurd_accessibility_media_controls">Mga kontrol na pang-media</string>
+    <string name="keyguard_accessibility_widget_reorder_start">Sinimulan ang muling pagsasaayos ng widget.</string>
+    <string name="keyguard_accessibility_widget_reorder_end">Tapos na ang muling pagsasaayos ng widget.</string>
+    <string name="keyguard_accessibility_widget_deleted">Tinanggal ang widget %1$s.</string>
+    <string name="keyguard_accessibility_expand_lock_area">Palawakin ang bahagi para sa pag-unlock.</string>
+    <string name="keyguard_accessibility_slide_unlock">I-slide para i-unlock.</string>
+    <string name="keyguard_accessibility_pattern_unlock">Pag-unlock gamit ang pattern.</string>
+    <string name="keyguard_accessibility_face_unlock">Pag-unlock gamit ang mukha.</string>
+    <string name="keyguard_accessibility_pin_unlock">Pag-unlock gamit ang PIN.</string>
+    <string name="keyguard_accessibility_password_unlock">Pag-unlock gamit ang password.</string>
+    <string name="keyguard_accessibility_pattern_area">Bahagi para sa pattern.</string>
+    <string name="keyguard_accessibility_slide_area">Bahagi para sa pag-slide.</string>
+    <string name="keyguard_accessibility_pin_area">Area ng PIN</string>
+    <string name="keyguard_accessibility_sim_pin_area">Area ng PIN ng SIM card.</string>
+    <string name="keyguard_accessibility_sim_puk_area">Area ng PUK ng SIM card.</string>
+    <string name="keyguard_accessibility_transport_prev_description">Button na \"Nakaraang track\"</string>
+    <string name="keyguard_accessibility_transport_next_description">Button na \"Susunod na track\"</string>
+    <string name="keyguard_accessibility_transport_pause_description">Button na I-pause</string>
+    <string name="keyguard_accessibility_transport_play_description">Button na \"I-play\"</string>
+    <string name="keyguard_accessibility_transport_stop_description">Button na Ihinto</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">Gusto ko</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">Hindi gusto</string>
+    <string name="keyguard_accessibility_transport_heart_description">Mga Puso</string>
+    <string name="keyguard_accessibility_show_bouncer">I-unlock upang magpatuloy</string>
+    <string name="keyguard_accessibility_hide_bouncer">Nakansela ang paglunsad</string>
+    <string name="keyguard_accessibility_delete_widget_start">Bitawan ang %1$s upang matanggal.</string>
+    <string name="keyguard_accessibility_delete_widget_end">Tatanggalin ang %1$s.</string>
+    <string name="keyguard_accessibility_next_alarm">Nakatakda ang susunod na alarma sa %1$s</string>
+    <string name="keyboardview_keycode_cancel">Kanselahin</string>
+    <string name="keyboardview_keycode_delete">Tanggalin</string>
+    <string name="keyboardview_keycode_done">Tapos na</string>
+    <string name="keyboardview_keycode_mode_change">Magpalit ng mode</string>
+    <string name="keyboardview_keycode_shift">Shift</string>
+    <string name="keyboardview_keycode_enter">Enter</string>
+    <string name="description_target_unlock">I-unlock</string>
+    <string name="description_target_camera">Camera</string>
+    <string name="description_target_silent">I-mute</string>
+    <string name="description_target_soundon">Naka-on ang tunog</string>
+    <string name="description_direction_down">Mag-slide pababa para sa %s.</string>
+    <string name="description_direction_right">Mag-slide pakanan para sa %s.</string>
+    <string name="user_switched">Ang kasalukuyang user ay si %1$s.</string>
+    <string name="kg_emergency_call_label">Emergency</string>
+    <string name="kg_forgot_pattern_button_text">Nakalimutan</string>
+    <string name="kg_wrong_pattern">Maling pattern</string>
+    <string name="kg_wrong_password">hindi tamang password</string>
+    <string name="kg_wrong_pin">Maling PIN</string>
+    <string name="kg_too_many_failed_attempts_countdown">Subukan muli sa %d segundo</string>
+    <string name="kg_pattern_instructions">I-draw ang pattern mo</string>
+    <string name="kg_sim_pin_instructions">Ilagay ang PIN ng SIM</string>
+    <string name="kg_sim_pin_instructions_multi">Ilagay ang PUK para sa SIM card na \"%1$s\"</string>
+    <string name="kg_pin_instructions">Ilagay ang PIN</string>
+    <string name="kg_password_instructions">Ilagay ang password</string>
+    <string name="kg_puk_enter_puk_hint">Hindi pinagana ang SIM card. Ilagay ang PUK code para magpatuloy. Mangyaring makipag-ugnayan sa iyong carrier para sa mga detalye.</string>
+    <string name="kg_puk_enter_puk_hint_multi">Na-disable ang SIM card na \"%1$s\". Kailangan mong ipasok ang PUK upang patuloy itong gamitin. Para sa mga detalye, mangyaring makipag-ugnayan sa iyong carrier.</string>
+    <string name="kg_puk_enter_pin_hint">Pakilagay ang kinakailangang PIN</string>
+    <string name="kg_enter_confirm_pin_hint">Paki-verify ang kinakailangang PIN</string>
+    <string name="kg_sim_unlock_progress_dialog_message">Ina-unlock ang SIM card...</string>
+    <string name="kg_invalid_sim_pin_hint">Mangyaring maglagay ng PIN na 4-8 digit</string>
+    <string name="kg_invalid_sim_puk_hint">Hindi dapat iikli sa 8 digit ang PUK code.</string>
+    <string name="kg_invalid_puk">Pakipasok muli ang tamang PUK. Permanenteng hindi papaganahin ang SIM kapag masyadong maraming maling pagsubok.</string>
+    <string name="kg_invalid_confirm_pin_hint">Hindi tugma ang mga PIN</string>
+    <string name="kg_login_too_many_attempts">Masyadong maraming pagsubok sa pattern</string>
+    <string name="kg_login_instructions">Mangyaring mag-log on sa iyong Google account upang i-unlock.</string>
+    <string name="kg_login_username_hint">Username (email address)</string>
+    <string name="kg_login_password_hint">Password</string>
+    <string name="kg_login_submit_button">Mag-sign in</string>
+    <string name="kg_login_invalid_input">Maling username o password.</string>
+    <string name="kg_login_account_recovery_hint">"Nakalimutan mo ang iyong username o password? 
+Mangyaring pumunta sa "<b>\"google.com/accounts/recovery\"</b>.</string>
+    <string name="kg_login_checking_password">Sinusuri ang account...</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"Ipinasok mo ang maling PIN nang %d (na) beses.
+
+Pakisubukang muli sa loon ng %d (na) segundo."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"%d (na) beses kang naglagay ng maling password. 
+
+Pakisubukang muli pagkalipas ng %d (na) segundo."</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"Iginuhit mo nang mali ang iyong unlock pattern nang %d (na) beses. 
+
+Subukang muli pagkalipas ng %d (na) segundo."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">%d (na) beses kang nagkamali sa pagsubok na i-unlock ang telepono. Pagkatapos ng %d pang hindi matagumpay na (mga) pagsubok, mare-reset ang telepono, at matatanggal ang lahat ng data rito.</string>
+    <string name="kg_failed_attempts_now_wiping">%d (na) beses kang nagkamali sa pagsubok na i-unlock ang telepono. Ire-reset ang telepono, at mabubura ang lahat ng data na narito.</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" formatted="false">%d (na) beses kang nagkamali sa pagsubok na i-unlock ang telepono. Pagkatapos ng %d pang hindi matagumpay na (mga) pagsubok, aalisin ng system ang user na ito kasama ang lahat ng data nito.</string>
+    <string name="kg_failed_attempts_now_erasing_user">%d (na) beses kang nagkamali sa pagsubok na i-unlock ang telepono. Aalisin ng system ang user na ito kasama ang lahat ng data nito.</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" formatted="false">%d (na) beses kang nagkamali sa pagsubok na i-unlock ang telepono. Pagkatapos ng %d pang hindi matagumpay na (mga) pagsubok, aalisin ng system ang work profile na ito kasama ang lahat ng data nito.</string>
+    <string name="kg_failed_attempts_now_erasing_profile">%d (na) beses kang nagkamali sa pagsubok na i-unlock ang telepono. Aalisin ng system ang work profile na ito kasama ang lahat ng data nito.</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"%d (na) beses kang gumuhit ng maling pattern sa pag-unlock. Pagkatapos ng %d pang hindi matagumpay na pagsubok, hihilinging i-unlock mo ang iyong telepono gamit ang iyong email account. 
+
+Pakisubukang muli pagkalipas ng %d (na) segundo."</string>
+    <string name="kg_reordering_delete_drop_target_text">Tanggalin</string>
+    <string name="kg_password_wrong_pin_code_pukked">Mali ang PIN ng SIM card, dapat kang makipag-ugnayan ngayon sa carrier upang ma-unlock ang device.</string>
+    <string name="kg_password_wrong_puk_code_dead">Hindi magagamit ang SIM card. Mangyaring makipag-ugnayan sa iyong carrier.</string>
+    <string name="kg_password_pin_failed">Hindi naisagawa ang operasyon ng PIN ng SIM card!</string>
+    <string name="kg_password_puk_failed">Hindi na-unlock ang SIM card gamit ang PUK.</string>
+    <string name="kg_pin_accepted">Tamang code!</string>
+    <string name="keyguard_transport_prev_description">Button na Nakaraang track</string>
+    <string name="keyguard_transport_next_description">Button na Susunod na track</string>
+    <string name="keyguard_transport_pause_description">Button na \"I-pause\"</string>
+    <string name="keyguard_transport_play_description">Button na \"I-play\"</string>
+    <string name="keyguard_transport_stop_description">Button na \"Itigil\"</string>
+    <string name="keyguard_carrier_default">Walang serbisyo.</string>
+    <string name="try_again">Subukang muli</string>
+    <string name="vivo_forgot_pattern">Nakalimutan</string>
+    <string name="vivo_forgot_password">Nakalimutan ang passw...</string>
+    <string name="vivo_kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"%d (na) beses kang gumuhit ng maling pattern sa pag-unlock.
+Pakisubukang muli pagkalipas ng %d (na) segundo!"</string>
+    <string name="vivo_kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"%d (na) beses kang naglagay ng maling password sa pag-unlock. 
+Pakisubukang muli pagkalipas ng %d (na) segundo!"</string>
+    <string name="vivo_login_problem">Para mag-unlock, pakilagay ang sagot</string>
+    <string name="vivo_login_answer_hint">I-tap para ilagay ang sagot</string>
+    <string name="vivo_login_title">I-unlock</string>
+    <string name="vivo_login_problem_invalid_input">Mali ang sagot</string>
+    <string name="father_name">Ano ang pangalan ng iyong ama?</string>
+    <string name="mother_name">Ano ang pangalan ng iyong ina?</string>
+    <string name="spouse_name">Ano ang pangalan ng iyong asawa?</string>
+    <string name="clean_visit_mode">Umalis ka sa mode ng bisita at nag-expire na ang password ng bisita.</string>
+    <string name="vivo_emergency">Emergency</string>
+    <string name="vivo_return_to_call">Tumawag pabalik</string>
+    <string name="vivo_password_wrong_pin_code">Mali ang PIN.</string>
+    <string name="vivo_password_enter_pin_code">Pakilagay ang PIN</string>
+    <string name="vivo_password_enter_puk_code">Ilagay ang PUK code</string>
+    <string name="vivo_mismatchPin">Hindi tugma ang mga PIN. Pakilagay muli.</string>
+    <string name="vivo_password_enter_new_pin_code">Ilagay ang bagong PIN</string>
+    <string name="vivo_password_Confirm_pin_code">Kumpirmahin ang bagong PIN</string>
+    <string name="findphone_ok">OK</string>
+    <string name="kg_password_findphone_tip">Mangyaring ilagay ang password ng vivo account mo</string>
+    <string name="vivo_pinpuk_attempts">%d</string>
+    <string name="problem_label">Q:</string>
+    <string name="vivo_onehand_msg">Ang pag-swipe ng isang distansya mula sa kanang (kaliwa) dulo gn screen papunta sa gitna ay maglilipat sa single hand mode.</string>
+    <string name="vivo_password_wrong">Maling password</string>
+    <string name="vivo_pattern_wrong">Maling pattern</string>
+    <string name="pinpuk_attempts">Mga natitirang pagsubok:</string>
+    <string name="finger_need_password_msg">Kailangan ang iyong password upang i-enable ang pagbasa sa fingerprint</string>
+    <string name="finger_need_pattern_msg">Kailangan ang iyong pattern upang i-enable ang pagbasa sa fingerprint</string>
+    <string name="finger_password_title">Ilagay ang password</string>
+    <string name="finger_pattern_title">Gumuhit ng pattern</string>
+    <string name="findphone_unable_network">HIndi makakonekta sa network</string>
+    <string name="findphone_verifying_password">Bine-verify ang password....</string>
+    <string name="pin_reboot_finger">Kailangan mong ilagay ang password upang i-enable ang fingerprint pagkatapos ng pagre-reboot</string>
+    <string name="pattern_reboot_finger">Kailangan mong iguhit ang pattern upang i-enable ang fingerprint pagkatapos ng pagre-reboot</string>
+    <string name="confirm_max_lenth">Naabot na ang max na limitasyon sa character</string>
+    <string name="use_fingerprint_or_password">Gamitin ang fingerprint o ilagay ang password</string>
+    <string name="use_fingerprint_or_pattern">Gamitin ang fingerprint o gumuhit ng pattern</string>
+    <string name="use_fingerprint_or_pin">Gamitin ang fingerprint o ilagay ang password</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">စခရင္ %d ခုအေပၚယံၾကည့္႐ႈမႈ</item>
+        <item quantity="one">စခရင္ 1 ခုအေပၚယံၾကည့္႐ႈမႈ</item>
+    </plurals>
+    <plurals name="missed_call">
+        <item quantity="other">လြတ္သြားသည့္ ေခၚဆုိမႈမ်ား %d</item>
+        <item quantity="one">လြဲေခ်ာ္သည့္ ေခၚဆိုမႈ 1 ခု</item>
+    </plurals>
+    <plurals name="unread_msg">
+        <item quantity="other">မဖတ္ရေသးေသာ မက္ေဆ့ခ္်မ်ား %d</item>
+        <item quantity="one">မဖတ္ရေသးသည့္ မက္ေဆ့ခ်္ 1 ေစာင္</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">မမွန္ကန္သည့္ SIM ကဒ္ PIN၊ သင့္တြင္ႀကိဳးစားရန္ %d ႀကိမ္ က်န္ေသးသည္။</item>
+        <item quantity="one">မမွန္ကန္သည့္ SIM ကဒ္ PIN၊ သင့္တြင္ႀကိဳးစားရန္ %d ႀကိမ္ က်န္ေသးသည္။ အကယ္၍ သင္ဆက္တုိက္ မေအာင္ျမင္ပါက စက္ပစၥည္းကို ေသာ့ဖြင့္ရန္ ကယ္ရီယာသို႕ ဆက္သြယ္ပါ။</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">မွားယြင္းေသာ SIM ကဒ္ PUK။ သင္သည္ေနာက္ထပ္ %d ႀကိမ္ႀကိဳးစားႏုိင္သည္။ အကယ္၍ သင္ဆက္တုိက္ မေအာင္ျမင္ပါက SIM ကဒ္ကို အၿပီးအပိုင္ ပိတ္လုိက္မည္။</item>
+        <item quantity="one">မွားယြင္းေသာ SIM ကဒ္ PUK။ သင္သည္ေနာက္ထပ္ %d ႀကိမ္ႀကိဳးစားႏုိင္သည္။ အကယ္၍ သင္ဆက္တုိက္ မေအာင္ျမင္ပါက SIM ကဒ္ကို အၿပီးအပိုင္ ပိတ္လုိက္မည္။</item>
+    </plurals>
+</resources>

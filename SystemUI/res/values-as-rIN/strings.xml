@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">ছিষ্টেম UI</string>
+    <string name="status_bar_clear_all_button">পৰিষ্কাৰ কৰক</string>
+    <string name="status_bar_recent_remove_item_title">সূচীৰ পৰা আঁতৰাওক</string>
+    <string name="status_bar_recent_inspect_item_title">এপ্প্‌ তথ্য</string>
+    <string name="status_bar_no_recent_apps">আপোনাৰ শেহতীয়া স্ক্ৰীণ ইয়াত দৃশ্যমান হয়</string>
+    <string name="status_bar_accessibility_dismiss_recents">শেহতীয়া এপ্প্‌সমূহ বৰ্খাস্ত কৰক</string>
+    <string name="status_bar_no_notifications_title">কোনো জাননী নাই</string>
+    <string name="status_bar_ongoing_events_title">চলি থকা</string>
+    <string name="status_bar_latest_events_title">জাননী</string>
+    <string name="battery_low_title">বেটাৰী কম হৈছে</string>
+    <string name="battery_low_percent_format">বাকী আছে: %s</string>
+    <string name="battery_low_percent_format_saver_started">বাকী আছে: %s. পাৱাৰ ছেভিং সহায়ক অন কৰা হৈছে৷</string>
+    <string name="invalid_charger">"USB চাৰ্জিং সমঋথিত নহয়।
+কেৱল উপলদ্ধ চাৰ্জাৰ ব্যৱহাৰ কৰক।"</string>
+    <string name="invalid_charger_title">USB চাৰ্জিং সমঋথিত নহয়।</string>
+    <string name="invalid_charger_text">কেৱল উপলদ্ধ চাৰ্জাৰ ব্যৱহাৰ কৰক।</string>
+    <string name="battery_low_why">ছেটিংছ</string>
+    <string name="battery_saver_confirmation_title">বেটাৰী সংৰক্ষণ অন কৰিবনে?</string>
+    <string name="battery_saver_confirmation_ok">অন</string>
+    <string name="battery_saver_start_action">বেটাৰী সংৰক্ষণ অন কৰক</string>
+    <string name="status_bar_settings_settings_button">ছেটিংছ</string>
+    <string name="status_bar_settings_airplane">এয়াৰপ্লেন মোড</string>
+    <string name="status_bar_settings_auto_rotation">স্বয়ং-ঘূৰ্ণন স্ক্ৰীণ</string>
+    <string name="status_bar_settings_mute_label">মিউট</string>
+    <string name="status_bar_settings_auto_brightness_label">অটো</string>
+    <string name="status_bar_settings_notifications">জাননী</string>
+    <string name="bluetooth_tethered">Bluetooth-ৰ মাধ্যমেৰে টেথাৰ কৰক</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">ইনপুট পদ্ধতি ছেট আপ কৰক</string>
+    <string name="status_bar_use_physical_keyboard">ফিজিকেল কীব’ৰ্ড</string>
+    <string name="usb_device_permission_prompt">USB ডিভাইচৰ প্ৰৱেশাধিকাৰ %1$s লাভ কৰিবলৈ এই এপ্পটোক অনুমতি দিব নেকি?</string>
+    <string name="usb_accessory_permission_prompt">USB একচেছ’ৰিৰ প্ৰৱেশাধিকাৰ %1$s লাভ কৰিবলৈ এপ্পটোক অনুমতি দিব নেকি?</string>
+    <string name="usb_device_confirm_prompt">যেতিয়া এই USB ডিভাইচ সংযুক্ত হৈ থাকিব %1$s তেতিয়া খুলিব বিচাৰিব নেকি?</string>
+    <string name="usb_accessory_confirm_prompt">যেতিয়া এই USB একচেছ’ৰি সংযুক্ত হৈ থাকিব %1$s তেতিয়া খুলিব বিচাৰিব নেকি?</string>
+    <string name="usb_accessory_uri_prompt">এই USB একচেছ’ৰিৰ সৈতে ইনষ্টল হৈ থকা কোনো এপ্পে কাম কৰিব নোৱাৰে৷ %1$s এই একচেছ’ৰিৰ বিষয়ে অধিক জানক</string>
+    <string name="title_usb_accessory">USB একচেছ’ৰি</string>
+    <string name="label_view">দৰ্শন কৰক</string>
+    <string name="always_use_device">এই USB ডিভাইচৰ কাৰণে ডিফল্ট ৰূপে ব্যৱহাৰ কৰক</string>
+    <string name="always_use_accessory">এই USB একচেছৰীৰ কাৰণে ডিফল্ট ৰূপে ব্যৱহাৰ কৰক</string>
+    <string name="usb_debugging_title">USB ডিবাগিঙৰ বাবে অুমতি দিব নেকি?</string>
+    <string name="usb_debugging_message">"কম্পিউটাৰটোৰ RSA কী ফিংগাৰপ্ৰিণ্ট হ’ল:
+%1$s"</string>
+    <string name="usb_debugging_always">এই কম্পিউটাৰটোক সদায় ডিবাগিং সম্পন্ন কৰিবলৈ অনুমতি দিয়ক</string>
+    <string name="compat_mode_on">পূৰ্ণ স্ক্ৰীণলৈ ঝুম কৰক</string>
+    <string name="compat_mode_off">পূৰ্ণ স্ক্ৰীণলৈ বিস্তাৰ কৰক</string>
+    <string name="screenshot_saving_ticker">স্ক্ৰীনশ্বট সংৰক্ষণ কৰি আছে...</string>
+    <string name="screenshot_saving_title">স্ক্ৰীনশ্বট সংৰক্ষণ কৰি আছে...</string>
+    <string name="screenshot_saving_text">স্ক্ৰীনশ্বট সংৰক্ষণ কৰি আছে।</string>
+    <string name="screenshot_saved_title">স্ক্ৰীণশ্বট কেপচাৰ কৰা হৈছে।</string>
+    <string name="screenshot_saved_text">আপোনাৰ স্ক্ৰীণশ্বট দৰ্শন কৰিবলৈ স্পৰ্শ কৰক।</string>
+    <string name="screenshot_failed_title">"স্ক্ৰীণশ্বট কেপচাৰ কৰিব পৰা নগ'ল।"</string>
+    <string name="screenshot_failed_text">"সীমিত ষ্ট'ৰেজ স্থানৰ কাৰণে স্ক্ৰীণশ্বট ল'ব নোৱাৰি, বা এপ্প্‌ বা আপোনাৰ সংগঠনৰ দ্বাৰা এইটো অনুমতিপ্ৰাপ্ত নহয়।"</string>
+    <string name="usb_preference_title">USB ফাইল স্থানান্তৰৰ বিকল্পবোৰ</string>
+    <string name="use_mtp_button_title">মিডিয়া প্লেয়াৰ (MTP) হিচাপে মাউণ্ট কৰক</string>
+    <string name="use_ptp_button_title">কেমেৰা হিচাপে (PTP) মাউণ্ট কৰক</string>
+    <string name="installer_cd_button_title">Mac-ৰ কাৰণে Android ফাইল স্থানান্তৰণ এপ্প্‌ ইনষ্টল কৰক</string>
+    <string name="accessibility_back">পাছলৈ</string>
+    <string name="accessibility_home">হোম স্ক্ৰীণ</string>
+    <string name="accessibility_menu">মেনু</string>
+    <string name="accessibility_recent">অৱলোকন</string>
+    <string name="accessibility_search_light">অনুসন্ধান কৰক</string>
+    <string name="accessibility_camera_button">কেমেৰা</string>
+    <string name="accessibility_phone_button">ফোন</string>
+    <string name="accessibility_unlock_button">আনলক কৰক</string>
+    <string name="unlock_label">আনলক কৰক</string>
+    <string name="phone_label">ফোন খোলক</string>
+    <string name="camera_label">কেমেৰা খোলক</string>
+    <string name="accessibility_ime_switch_button">ইনপুট পদ্ধতি বুটাম চুইচ কৰক।</string>
+    <string name="accessibility_compatibility_zoom_button">সংগত ঝুম বুটাম।</string>
+    <string name="accessibility_compatibility_zoom_example">সৰুৰ পৰা ডাঙৰ স্ক্ৰীণলৈ ঝুম কৰক।</string>
+    <string name="accessibility_bluetooth_connected">Bluetooth সংযোজিত হৈছে।</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth সংযোগহীন হৈছে।</string>
+    <string name="accessibility_no_battery">কোনো বেটাৰী নাই।</string>
+    <string name="accessibility_battery_one_bar">বেটাৰী এটা বাৰ।</string>
+    <string name="accessibility_battery_two_bars">বেটাৰী দুটা বাৰ।</string>
+    <string name="accessibility_battery_three_bars">বেটাৰী তিনিটা বাৰ।</string>
+    <string name="accessibility_battery_full">বেটাৰী পূৰ্ণ।</string>
+    <string name="accessibility_no_phone">কোনো ফোন চিগনেল নাই।</string>
+    <string name="accessibility_phone_one_bar">ফোন চিগনেল এটা বাৰত আছে।</string>
+    <string name="accessibility_phone_two_bars">ফোন চিগনেল দুটা বাৰত আছে।</string>
+    <string name="accessibility_phone_three_bars">ফোন চিগনেল তিনিটা বাৰত আছে।</string>
+    <string name="accessibility_phone_signal_full">ফোন চিগনেল পূৰ্ণ।</string>
+    <string name="accessibility_no_data">কোনো ডাটা নেটৱৰ্কৰ চিগনেল নাই।</string>
+    <string name="accessibility_data_one_bar">ডাটা চিগনেল এটা বাৰত আছে।</string>
+    <string name="accessibility_data_two_bars">ডাটা চিগনেল দুটা বাৰত আছে।</string>
+    <string name="accessibility_data_three_bars">ডাটা চিগনেল তিনিটা বাৰত আছে।</string>
+    <string name="accessibility_data_signal_full">ডাটা চিগনেল পূৰ্ণ।</string>
+    <string name="accessibility_wifi_off">Wi-Fi অফ৷</string>
+    <string name="accessibility_no_wifi">Wi-Fi সংযোগহীন হৈছ৷</string>
+    <string name="accessibility_wifi_one_bar">Wi-Fi এডাল দণ্ডিকা৷</string>
+    <string name="accessibility_wifi_two_bars">Wi-Fi দুডাল দণ্ডিকা৷</string>
+    <string name="accessibility_wifi_three_bars">Wifi তিনিডাল দণ্ডিকা৷</string>
+    <string name="accessibility_wifi_signal_full">Wi-Fi চিগনেল পূৰ্ণ৷</string>
+    <string name="accessibility_wifi_name">%s সংযোগ স্থাপন হৈছে৷</string>
+    <string name="accessibility_bluetooth_name">%s সংযোগ স্থাপন হৈছে৷</string>
+    <string name="accessibility_no_wimax">কোনো WiMAX চিগনেল নাই।</string>
+    <string name="accessibility_wimax_one_bar">WiMAX এটা বাৰত আছে।</string>
+    <string name="accessibility_wimax_two_bars">WiMAX চিগনেল দুটা বাৰত আছে।</string>
+    <string name="accessibility_wimax_three_bars">WiMAX তিনিটা বাৰত আছে।</string>
+    <string name="accessibility_wimax_signal_full">WiMAX চিগনেল পূৰ্ণ।</string>
+    <string name="accessibility_no_signal">সংকেত নাই।</string>
+    <string name="accessibility_not_connected">সংযোজিত নহয়।</string>
+    <string name="accessibility_zero_bars">শূণ্য বাৰ।</string>
+    <string name="accessibility_one_bar">এটা বাৰ।</string>
+    <string name="accessibility_two_bars">দুটা বাৰ।</string>
+    <string name="accessibility_three_bars">তিনিটা বাৰ।</string>
+    <string name="accessibility_signal_full">চিগনেল পূৰ্ণ।</string>
+    <string name="accessibility_desc_on">অন কৰক।</string>
+    <string name="accessibility_desc_off">অফ কৰক।</string>
+    <string name="accessibility_desc_connected">সংযোগ হৈ গ’ল।</string>
+    <string name="accessibility_desc_connecting">সংযোগ কৰি আছে।</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_roaming">ৰোমিং</string>
+    <string name="accessibility_data_connection_edge">প্ৰান্ত</string>
+    <string name="accessibility_no_sim">কোনো SIM নাই।</string>
+    <string name="accessibility_bluetooth_tether">Bluetooth টেথাৰিং।</string>
+    <string name="accessibility_airplane_mode">এয়াৰপ্লেন মোড।</string>
+    <string name="accessibility_settings_button">ছিষ্টেম ছেটিংছ।</string>
+    <string name="accessibility_notifications_button">জাননী।</string>
+    <string name="accessibility_remove_notification">জাননী পৰিষ্কাৰ কৰক।</string>
+    <string name="accessibility_gps_enabled">GPS সক্ষমিত।</string>
+    <string name="accessibility_gps_acquiring">GPS প্ৰাপ্ত কৰি আছে।</string>
+    <string name="accessibility_tty_enabled">Teletypewriter সক্ষম কৰা হৈছে৷</string>
+    <string name="accessibility_ringer_vibrate">ৰিঙ্গাৰ ভাইব্ৰেচন।</string>
+    <string name="accessibility_ringer_silent">ৰিঙ্গাৰ নিমাত কৰক।</string>
+    <string name="accessibility_recents_item_will_be_dismissed">%s বৰ্খাস্ত কৰি আছে।</string>
+    <string name="accessibility_recents_item_dismissed">"%s বিলোপ কৰা হ'ল।"</string>
+    <string name="accessibility_recents_item_launched">%s আৰম্ভ কৰি আছে।</string>
+    <string name="accessibility_notification_dismissed">জাননী অক্ষম হৈছে।</string>
+    <string name="accessibility_desc_notification_shade">জাননী দণ্ডিকা।</string>
+    <string name="accessibility_desc_quick_settings">ক্ষিপ্ৰ ছেটিংছ।</string>
+    <string name="accessibility_desc_lock_screen">লক স্ক্ৰীণ।</string>
+    <string name="accessibility_desc_settings">ছেটিংছ</string>
+    <string name="accessibility_desc_recent_apps">অৱলোকন।</string>
+    <string name="accessibility_quick_settings_user">ব্যৱহাৰকাৰী: %s.</string>
+    <string name="accessibility_quick_settings_wifi">%1$s.</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">Wi-Fi অফ হৈছে৷</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">Wi-Fi অন হৈছে৷</string>
+    <string name="accessibility_quick_settings_mobile">মোবাইল ডাটা সংযোগ: %1$s. %2$s. %3$s.</string>
+    <string name="accessibility_quick_settings_battery">বেটাৰীৰ স্তৰ: %s.</string>
+    <string name="accessibility_quick_settings_airplane_off">এয়াৰপ্লেন মোড অফ।</string>
+    <string name="accessibility_quick_settings_airplane_on">এয়াৰপ্লেন মোড অন।</string>
+    <string name="accessibility_quick_settings_airplane_changed_off">এয়াৰপ্লেন মোড অফ হৈছে।</string>
+    <string name="accessibility_quick_settings_airplane_changed_on">এয়াৰপ্লেন মোড অন হৈছে।</string>
+    <string name="accessibility_quick_settings_bluetooth_off">Bluetooth অফ।</string>
+    <string name="accessibility_quick_settings_bluetooth_on">Bluetooth অন।</string>
+    <string name="accessibility_quick_settings_bluetooth_connecting">Bluetooth সংযোগ কৰিছে।</string>
+    <string name="accessibility_quick_settings_bluetooth_connected">Bluetooth সংযোজিত হৈছে।</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_off">Bluetooth অফ হৈছে।</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_on">Bluetooth অন হৈছে।</string>
+    <string name="accessibility_quick_settings_location_off">অৱস্থান প্ৰতিবেদন অফ।</string>
+    <string name="accessibility_quick_settings_location_on">অৱস্থান প্ৰতিবেদন অন।</string>
+    <string name="accessibility_quick_settings_location_changed_off">অৱস্থান প্ৰতিবেদন অফ হৈছে।</string>
+    <string name="accessibility_quick_settings_location_changed_on">অৱস্থান প্ৰতিবেদন অন হৈছে।</string>
+    <string name="accessibility_quick_settings_alarm">%s-ৰ কাৰণে এলাৰ্ম ছেট কৰিছে।</string>
+    <string name="accessibility_quick_settings_close">পেনেল বন্ধ কৰক।</string>
+    <string name="accessibility_quick_settings_more_time">অধিক সময়।</string>
+    <string name="accessibility_quick_settings_less_time">কম সময়।</string>
+    <string name="accessibility_quick_settings_flashlight_off">ফ্লেচলাইট অফ।</string>
+    <string name="accessibility_quick_settings_flashlight_on">ফ্লেচলাইট অন।</string>
+    <string name="accessibility_quick_settings_flashlight_changed_off">ফ্লেচলাইট অফ হৈছে।</string>
+    <string name="accessibility_quick_settings_flashlight_changed_on">ফ্লেচলাইট অন হৈছে।</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_off">ৰং ওলোটা কৰা অফ হৈছে।</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_on">ৰং ওলোটা কৰা অন হৈছে।</string>
+    <string name="accessibility_quick_settings_hotspot_changed_off">মোবাইল হটস্পট অফ হৈছে।</string>
+    <string name="accessibility_quick_settings_hotspot_changed_on">মোবাইল হটস্পট অন হৈছে।</string>
+    <string name="accessibility_casting_turned_off">স্ক্ৰীণ কাষ্টিং বন্ধ হৈছে।</string>
+    <string name="accessibility_brightness">স্ক্ৰীণৰ উজ্জ্বলতা</string>
+    <string name="data_usage_disabled_dialog_3g_title">"2G-3G ডাটা অফ হ'ল"</string>
+    <string name="data_usage_disabled_dialog_4g_title">"4G ডাটা অফ হ'ল"</string>
+    <string name="data_usage_disabled_dialog_mobile_title">"চেলুলাৰ ডাটা অফ হ'ল"</string>
+    <string name="data_usage_disabled_dialog_title">ডাটা অফ হৈছে</string>
+    <string name="data_usage_disabled_dialog">"আপুনি ছেট কৰা সীমাৰ উপনীত হোৱাৰ কাৰণে আপোনাৰ ডিভাইচৰ ডাটা অফ হৈছে।
+
+এইটো পুনৰ অন কৰিলে আপোনাৰ কেৰিয়াৰৰ পৰা মাছুল প্ৰযোজ্য হ'ব পাৰে।"</string>
+    <string name="data_usage_disabled_dialog_enable">ডাটা অন কৰক</string>
+    <string name="status_bar_settings_signal_meter_disconnected">কোনো ইণ্টাৰনেট সংযোগ নাই</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi-লৈ সংযোজিত</string>
+    <string name="gps_notification_searching_text">GPS-ৰ কাৰণে অনুসন্ধান কৰি আছে</string>
+    <string name="gps_notification_found_text">GPS-ৰ দ্বাৰা অৱস্থান ছেট কৰিছে</string>
+    <string name="accessibility_location_active">এপ্প্‌টোৱে বৈধ অৱস্থান তথ্য অনুৰোধ কৰিছে</string>
+    <string name="accessibility_clear_all">সকলো জাননী পৰিষ্কাৰ কৰক।</string>
+    <string name="status_bar_notification_inspect_item_title">জাননী ছেটিংছ</string>
+    <string name="status_bar_notification_app_settings_title">%s ছেটিংছ</string>
+    <string name="accessibility_rotation_lock_off">স্ক্ৰীণ স্বয়ংক্ৰিয়ভাৱে ঘূৰাব।</string>
+    <string name="accessibility_rotation_lock_on_landscape">লেণ্ডস্কেপ অৰিয়েণ্টেচনত স্ক্ৰীণ লক কৰা হৈছে।</string>
+    <string name="accessibility_rotation_lock_on_portrait">"প'ৰ্ট্ৰেইট অৰিয়েণ্টেচনত স্ক্ৰীণ লক কৰা হৈছে।"</string>
+    <string name="accessibility_rotation_lock_off_changed">স্ক্ৰীণ এতিয়া স্বয়ংক্ৰিয়ভাৱে ঘূৰিব।</string>
+    <string name="accessibility_rotation_lock_on_landscape_changed">লেণ্ডস্কেপ অৰিয়েণ্টেচনত এতিয়া স্ক্ৰীণ লক কৰা হৈছে।</string>
+    <string name="accessibility_rotation_lock_on_portrait_changed">"প'ৰ্ট্ৰেইট অৰিয়েণ্টেচনত এতিয়া স্ক্ৰীণ লক কৰা হৈছে।"</string>
+    <string name="dessert_case">মিঠাইৰ বাকচ</string>
+    <string name="start_dreams">দিবাস্বপ্ন</string>
+    <string name="ethernet_label">ইথাৰনেট</string>
+    <string name="quick_settings_airplane_mode_label">এয়াৰপ্লেন মোড</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d ডিভাইচসমূহ)</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth অফ</string>
+    <string name="quick_settings_bluetooth_detail_empty_text">কোনো সংযুক্ত ডিভাইচ উপলভ্য নহয়</string>
+    <string name="quick_settings_brightness_label">উজ্জ্বলতা</string>
+    <string name="quick_settings_rotation_unlocked_label">স্বয়ং ঘূৰ্ণন</string>
+    <string name="quick_settings_rotation_locked_label">ঘূৰ্ণন লক হৈ আছে</string>
+    <string name="quick_settings_rotation_locked_portrait_label">প’ৰ্ট্ৰেইট</string>
+    <string name="quick_settings_rotation_locked_landscape_label">লেণ্ডস্কেপ</string>
+    <string name="quick_settings_ime_label">ইনপুট পদ্ধতি</string>
+    <string name="quick_settings_location_label">অৱস্থান তথ্য</string>
+    <string name="quick_settings_location_off_label">অৱস্থান তথ্য: অফ</string>
+    <string name="quick_settings_media_device_label">মিডিয়া ডিভাইচসমূহ</string>
+    <string name="quick_settings_rssi_emergency_only">কেৱল জৰুৰীকালীন কলসমূহ</string>
+    <string name="quick_settings_settings_label">ছেটিংছ</string>
+    <string name="quick_settings_time_label">সময়</string>
+    <string name="quick_settings_user_label">মোক</string>
+    <string name="quick_settings_user_title">ব্যৱহাৰকাৰী</string>
+    <string name="quick_settings_user_new_user">নতুন ব্যৱহাৰকাৰী</string>
+    <string name="quick_settings_wifi_not_connected">সংযোজিত নহয়</string>
+    <string name="quick_settings_wifi_no_network">কোনো নেটৱৰ্ক নাই</string>
+    <string name="quick_settings_wifi_off_label">Wi-Fi অফ</string>
+    <string name="quick_settings_wifi_detail_empty_text">কোনো সংৰক্ষণ হৈ থকা নেটৱৰ্ক উপলভ্য নহয়</string>
+    <string name="quick_settings_cast_title">কাষ্ট স্ক্ৰীণ</string>
+    <string name="quick_settings_casting">কাষ্টিং</string>
+    <string name="quick_settings_cast_device_default_name">নামহীন ডিভাইচ</string>
+    <string name="quick_settings_cast_device_default_description">কাষ্ট কৰিবলৈ সাজু</string>
+    <string name="quick_settings_cast_detail_empty_text">কোনো ডিভাইচ উপলভ্য নহয়</string>
+    <string name="quick_settings_brightness_dialog_title">উজ্জ্বলতা</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">অটো</string>
+    <string name="quick_settings_inversion_label">নেতিবাচক</string>
+    <string name="quick_settings_color_space_label">ৰং সংশোধন মোড</string>
+    <string name="quick_settings_more_settings">অধিক ছেটিংছ</string>
+    <string name="quick_settings_done">সম্পন্ন হ’ল</string>
+    <string name="quick_settings_connected">সংযোগ হৈ গ’ল</string>
+    <string name="quick_settings_connected_via_wfa">সংযোগ হ’ল (Wi-Fi সহায়কৰ মাধ্যমেৰে)</string>
+    <string name="quick_settings_connecting">সংযোগ কৰি আছে...</string>
+    <string name="quick_settings_tethering_label">টিথাৰিং</string>
+    <string name="quick_settings_hotspot_label">হটস্পট</string>
+    <string name="quick_settings_notifications_label">জাননী</string>
+    <string name="quick_settings_flashlight_label">ফ্লেচলাইট</string>
+    <string name="quick_settings_cellular_detail_title">চেলুলাৰ ডাটা</string>
+    <string name="quick_settings_cellular_detail_data_usage">ডাটাৰ ব্যৱহাৰ</string>
+    <string name="quick_settings_cellular_detail_remaining_data">বাকী থকা ডাটা</string>
+    <string name="quick_settings_cellular_detail_over_limit">"ওপৰৰ সীমা পাৰ কৰিছে "</string>
+    <string name="quick_settings_cellular_detail_data_used">%s ব্যবহৃত</string>
+    <string name="quick_settings_cellular_detail_data_limit">%s সীমা</string>
+    <string name="quick_settings_cellular_detail_data_warning">%s সকীয়ণি</string>
+    <string name="recents_empty_message">আপোনাৰ শেহতীয়া স্ক্ৰীণ ইয়াত দৃশ্যমান হয়</string>
+    <string name="recents_app_info_button_label">এপ্প্‌ তথ্য</string>
+    <string name="recents_lock_to_app_button_label">এপ্প্-লৈ লক কৰক</string>
+    <string name="recents_search_bar_label">অনুসন্ধান কৰক</string>
+    <string name="recents_launch_error_message">"%s আৰম্ভ কৰিব পৰা নগ'ল।"</string>
+    <string name="expanded_header_battery_charged">সম্পূৰ্ণৰূপে চাৰ্জ হ’ল</string>
+    <string name="expanded_header_battery_charging">চাৰ্জ হৈ আছে</string>
+    <string name="expanded_header_battery_charging_with_time">পূৰ্ণ নোহোৱালৈকে %s</string>
+    <string name="expanded_header_battery_not_charging">চাৰ্জ কৰি থকা নাই</string>
+    <string name="ssl_ca_cert_warning">"এই নেটৱৰ্কটো 
+নিৰীক্ষণ কৰিব পাৰে"</string>
+    <string name="description_target_search">অনুসন্ধান কৰক</string>
+    <string name="description_direction_up">%s-ৰ কাৰণে ওপৰলৈ শ্লাইড কৰক।</string>
+    <string name="description_direction_left">%s-ৰ কাৰণে বাওঁফাললৈ শ্লাইড কৰক।</string>
+    <string name="zen_no_interruptions_with_warning">কোনো বাধা নাই৷ সঠিক এলাৰ্ম নাই৷</string>
+    <string name="zen_no_interruptions">বাধা নিদিব</string>
+    <string name="zen_important_interruptions">কেবল অগ্ৰাধিকাৰভিত্তিক বাধাহে</string>
+    <string name="zen_alarm_information_time">%sআপোনাৰ পৰৱৰ্তী এলাৰ্ম আছে</string>
+    <string name="zen_alarm_information_day_time">%s আপোনাৰ পৰৱৰ্তী এলাৰ্ম</string>
+    <string name="zen_alarm_warning">%s আপুনি এলাৰ্ম নুশুনিব</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
+    <string name="speed_bump_explanation">তলত কল জৰুৰী জাননীসমূহ আছে</string>
+    <string name="notification_tap_again">খুলিবলৈ পুনৰ স্পৰ্শ কৰক</string>
+    <string name="keyguard_unlock">আনলক কৰিবলৈ ওপৰলৈ ছোৱাইপ কৰক</string>
+    <string name="phone_hint">ফোনৰ কাৰণে সোঁফালে ছোৱাইপ কৰক</string>
+    <string name="camera_hint">কেমেৰাৰ কাৰণে বাওঁফালে ছোৱাইপ কৰক</string>
+    <string name="interruption_level_none">একো নাই</string>
+    <string name="interruption_level_priority">অগ্ৰাধিকাৰ</string>
+    <string name="interruption_level_all">সকলো</string>
+    <string name="keyguard_indication_charging_time">চাৰ্জ হৈ আছে (পূৰ্ণ নোহোৱালৈকে %s)</string>
+    <string name="accessibility_multi_user_switch_switcher">ব্যৱহাৰকাৰী চুইচ কৰক</string>
+    <string name="accessibility_multi_user_switch_switcher_with_current">ব্যৱহাৰকাৰী চুইচ কৰক, %s ব্যৱহাৰকাৰী</string>
+    <string name="accessibility_multi_user_switch_quick_contact">"প্ৰ'ফাইল দেখুৱাওক"</string>
+    <string name="user_add_user">ব্যৱহাৰকাৰী যোগ দিয়ক</string>
+    <string name="user_new_user_name">নতুন ব্যৱহাৰকাৰী</string>
+    <string name="guest_nickname">অতিথি</string>
+    <string name="guest_new_guest">অতিথি যোগ কৰক</string>
+    <string name="guest_exit_guest">অতিথি আঁতৰাওক</string>
+    <string name="guest_exit_guest_dialog_title">অতিথি আঁতৰাবনে?</string>
+    <string name="guest_exit_guest_dialog_message">"এই চেচনত থকা সকলো এপ্প্‌ আৰু ডাটা বিলোপ কৰা হ'ব।"</string>
+    <string name="guest_exit_guest_dialog_remove">আঁতৰাওক</string>
+    <string name="guest_wipe_session_title">পুনৰ স্বাগতম, অতিথি!</string>
+    <string name="guest_wipe_session_message">আপুনি চেচন অব্যাহত ৰাখিবলৈ বিচাৰেনে?</string>
+    <string name="guest_wipe_session_wipe">পুনৰাৰম্ভ কৰক</string>
+    <string name="guest_wipe_session_dontwipe">হয়, অব্যাহত ৰাখক</string>
+    <string name="user_add_user_title">নতুন ব্যৱহাৰকাৰী যোগ দিব নেকি?</string>
+    <string name="user_add_user_message_short">"যেতিয়া আপুনি নতুন এজন ব্যৱহাৰকাৰী যোগ দিব, সেই ব্যক্তিজনে তেওঁলোকৰ স্থান ছেট আপ কৰি ল’ব লাগিব৷
+
+সকলো ব্যৱহাৰকাৰীৰ হৈ যিকোনো ব্যৱহাৰকাৰীয়ে এপ্পবোৰ আপডেট কৰিব পাৰিব৷"</string>
+    <string name="battery_saver_notification_title">বেটাৰী সংৰক্ষণ অন হৈছে</string>
+    <string name="battery_saver_notification_text">কাৰ্যক্ষমতা আৰু পৃষ্ঠভূমিৰ ডাটা হ্ৰাস কৰে</string>
+    <string name="battery_saver_notification_action_text">বেটাৰী সংৰক্ষণ অফ হৈছে</string>
+    <string name="notification_hidden_text">সামগ্ৰী লুকাই আছে</string>
+    <string name="media_projection_dialog_text">%s আপোনাৰ স্ক্ৰীণত প্ৰদৰ্শিত হোৱা সকলোখিনি কেপচাৰ আৰম্ভ কৰিব।</string>
+    <string name="media_projection_remember_text">পুনৰাই নেদুখুৱাব</string>
+    <string name="clear_all_notifications_text">সকলো মুক্ত কৰক</string>
+    <string name="media_projection_action_text">তাৎক্ষণিকভাৱে আৰম্ভ কৰক</string>
+    <string name="empty_shade_text">কোনো জাননী নাই</string>
+    <string name="device_owned_footer">ডিভাইচ নিৰীক্ষণ কৰিব পাৰে</string>
+    <string name="profile_owned_footer">"প্ৰ'ফাইল নিৰীক্ষণ কৰিব পাৰে"</string>
+    <string name="vpn_footer">নেটৱৰ্কে নিৰীক্ষণ কৰিব পাৰে</string>
+    <string name="monitoring_title_device_owned">ডিভাইচ নিৰীক্ষণ কৰি আছে</string>
+    <string name="monitoring_title_profile_owned">"প্ৰ'ফাইল নিৰীক্ষণ কৰি আছে"</string>
+    <string name="monitoring_title">নেটৱৰ্ক নিৰীক্ষণ</string>
+    <string name="disable_vpn">VPN অক্ষম কৰক</string>
+    <string name="disconnect_vpn">VPN সংযোগহীন কৰক</string>
+    <string name="monitoring_description_device_owned">"ইয়াৰ দ্বাৰা এই ডিভাইচ প্ৰৱন্ধিত হয়:
+%1$s
+
+ইমেইল, এপ্প্‌সমূহ, আৰু নিৰাপদ ৱেবছাইট অন্তৰ্ভুক্ত কৰি আপোনাৰ ব্যৱস্থাপকে আপোনাৰ ডিভাইচ আৰু নেটৱৰ্ক ক্ৰিয়া-কলাপ নিৰীক্ষণ কৰিব পাৰিব।
+
+অধিক তথ্যৰ বাবে, আপোনাৰ ব্যৱস্থাপকৰ সৈতে যোগাযোগ কৰক।"</string>
+    <string name="monitoring_description_vpn">"আপুনি VPN সংযোগ ছেট আপ কৰিবলৈ \"%1$s\" অনুমতি দিছে।
+
+ইমেইল, এপ্প্‌সমূহ, আৰু নিৰাপদ ৱেবছাইট অন্তৰ্ভুক্ত কৰি এই এপ্প্‌টোৱে আপোনাৰ ডিভাইচ আৰু নেটৱৰ্ক ক্ৰিয়া-কলাপ নিৰীক্ষণ কৰিব পাৰিব।"</string>
+    <string name="monitoring_description_legacy_vpn">"আপুনি এটা VPN (\"%1$s\")-লৈ সংযোজিত হৈছে।
+
+ইমেইল, এপ্প্‌সমূহ, আৰু নিৰাপদ ৱেবছাইট অন্তৰ্ভুক্ত কৰি আপোনাৰ VPN সেৱা প্ৰদানকাৰীয়ে আপোনাৰ ডিভাইচ আৰু নেটৱৰ্ক ক্ৰিয়া-কলাপ নিৰীক্ষণ কৰিব পাৰিব।"</string>
+    <string name="monitoring_description_vpn_device_owned">"ইয়াৰ দ্বাৰা এই ডিভাইচ প্ৰৱন্ধিত হয়:
+%1$s
+
+ইমেইল, এপ্প্‌সমূহ, আৰু নিৰাপদ ৱেবছাইট অন্তৰ্ভুক্ত কৰি আপোনাৰ ব্যৱস্থাপকে নেটৱৰ্ক ক্ৰিয়া-কলাপ নিৰীক্ষণ কৰিবলৈ সক্ষম। অধিক তথ্যৰ বাবে, আপোনাৰ ব্যৱস্থাপকৰ সৈতে যোগাযোগ কৰক।
+
+ইয়াৰোপৰি, আপুনি VPN সংযোগ ছেট আপ কৰিবলৈ \"%2$s\" অনুমতি দিছে। এই এপ্পে নেটৱৰ্কৰ ক্ৰিয়াকলাপো নিৰীক্ষণ কৰিব পাৰে।"</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"ইয়াৰ দ্বাৰা এই ডিভাইচ প্ৰৱন্ধিত হয়:
+%1$s
+
+ইমেইল, এপ্প্‌সমূহ, আৰু নিৰাপদ ৱেবছাইট অন্তৰ্ভুক্ত কৰি, আপোনাৰ ব্যৱস্থাপকে নেটৱৰ্ক ক্ৰিয়া-কলাপ নিৰীক্ষণ কৰিবলৈ সক্ষম। অধিক তথ্যৰ বাবে, আপোনাৰ ব্যৱস্থাপকৰ সৈতে যোগাযোগ কৰক।
+
+ইয়াৰোপৰি, আপুনি এটা VPN (\"%2$s\")-লৈ সংযোজিত হৈছে। আপোনাৰ VPN প্ৰদানকাৰীয়ে নেটৱৰ্ক ক্ৰিয়া-কলাপো নিৰীক্ষণ কৰিব পাৰিব।"</string>
+    <string name="monitoring_description_profile_owned">"ইয়াৰ দ্বাৰা এই প্ৰ'ফাইল প্ৰৱন্ধিত হয়:
+%1$s
+
+ইমেইল, এপ্প্‌সমূহ, আৰু নিৰাপদ ৱেবছাইট অন্তৰ্ভুক্ত কৰি আপোনাৰ ব্যৱস্থাপকে আপোনাৰ ডিভাইচ আৰু নেটৱৰ্ক ক্ৰিয়া-কলাপ নিৰীক্ষণ কৰিব পাৰিব।
+
+অধিক তথ্যৰ বাবে, আপোনাৰ ব্যৱস্থাপকৰ সৈতে যোগাযোগ কৰক।"</string>
+    <string name="monitoring_description_device_and_profile_owned">"ইয়াৰ দ্বাৰা এই ডিভাইচ প্ৰৱন্ধিত হয়:
+%1$s
+ইয়াৰ দ্বাৰা আপোনাৰ প্ৰ'ফাইল প্ৰৱন্ধিত হয়:
+%2$s
+
+ইমেইল, এপ্প্‌সমূহ, আৰু নিৰাপদ ৱেবছাইট অন্তৰ্ভুক্ত কৰি আপোনাৰ ব্যৱস্থাপকে আপোনাৰ ডিভাইচ আৰু নেটৱৰ্ক ক্ৰিয়া-কলাপ নিৰীক্ষণ কৰিব পাৰিব।
+
+অধিক তথ্যৰ বাবে, আপোনাৰ ব্যৱস্থাপকৰ সৈতে যোগাযোগ কৰক।"</string>
+    <string name="monitoring_description_vpn_profile_owned">"ইয়াৰ দ্বাৰা এই প্ৰ'ফাইল প্ৰৱন্ধিত হয়:
+%1$s
+
+ইমেইল, এপ্প্‌সমূহ, আৰু নিৰাপদ ৱেবছাইট অন্তৰ্ভুক্ত কৰি, আপোনাৰ ব্যৱস্থাপকে নেটৱৰ্ক ক্ৰিয়া-কলাপ নিৰীক্ষণ কৰিবলৈ সক্ষম। অধিক তথ্যৰ বাবে, আপোনাৰ ব্যৱস্থাপকৰ সৈতে যোগাযোগ কৰক।
+
+ইয়াৰোপৰি, আপুনি VPN সংযোগ ছেট আপ কৰিবলৈ \"%2$s\" অনুমতি দিছে। এই এপ্পে নেটৱৰ্কৰ ক্ৰিয়াকলাপো নিৰীক্ষণ কৰিব পাৰে।"</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"ইয়াৰ দ্বাৰা এই প্ৰ'ফাইল প্ৰৱন্ধিত হয়:
+%1$s
+
+ইমেইল, এপ্প্‌সমূহ, আৰু নিৰাপদ ৱেবছাইট অন্তৰ্ভুক্ত কৰি, আপোনাৰ ব্যৱস্থাপকে নেটৱৰ্ক ক্ৰিয়া-কলাপ নিৰীক্ষণ কৰিবলৈ সক্ষম। অধিক তথ্যৰ বাবে, আপোনাৰ ব্যৱস্থাপকৰ সৈতে যোগাযোগ কৰক।
+
+ইয়াৰোপৰি, আপুনি এটা VPN (\"%2$s\")-লৈ সংযোজিত হৈছে। আপোনাৰ VPN প্ৰদানকাৰীয়ে নেটৱৰ্ক ক্ৰিয়া-কলাপো নিৰীক্ষণ কৰিব পাৰিব।"</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"ইয়াৰ দ্বাৰা এই ডিভাইচ প্ৰৱন্ধিত হয়:
+%1$s
+ইয়াৰ দ্বাৰা আপোনাৰ প্ৰ'ফাইল প্ৰৱন্ধিত হয়:
+%2$s
+
+ইমেইল, এপ্প্‌সমূহ, আৰু নিৰাপদ ৱেবছাইট অন্তৰ্ভুক্ত কৰি, আপোনাৰ ব্যৱস্থাপকে নেটৱৰ্ক ক্ৰিয়া-কলাপ নিৰীক্ষণ কৰিবলৈ সক্ষম। অধিক তথ্যৰ বাবে, আপোনাৰ ব্যৱস্থাপকৰ সৈতে যোগাযোগ কৰক।
+
+ইয়াৰোপৰি, আপুনি VPN সংযোগ ছেট আপ কৰিবলৈ \"%3$s\" অনুমতি দিছে। এই এপ্পে নেটৱৰ্কৰ ক্ৰিয়াকলাপো নিৰীক্ষণ কৰিব পাৰে।"</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"ইয়াৰ দ্বাৰা এই ডিভাইচ প্ৰৱন্ধিত হয়:
+%1$s
+ইয়াৰ দ্বাৰা আপোনাৰ প্ৰ'ফাইল প্ৰৱন্ধিত হয়:
+%2$s
+
+ইমেইল, এপ্প্‌সমূহ, আৰু নিৰাপদ ৱেবছাইট অন্তৰ্ভুক্ত কৰি, আপোনাৰ ব্যৱস্থাপকে নেটৱৰ্ক ক্ৰিয়া-কলাপ নিৰীক্ষণ কৰিবলৈ সক্ষম। অধিক তথ্যৰ বাবে, আপোনাৰ ব্যৱস্থাপকৰ সৈতে যোগাযোগ কৰক।
+
+ইয়াৰোপৰি, আপুনি এটা VPN (\"%3$s\")-লৈ সংযোজিত হৈছে। আপোনাৰ VPN প্ৰদানকাৰীয়ে নেটৱৰ্ক ক্ৰিয়া-কলাপো নিৰীক্ষণ কৰিব পাৰিব।"</string>
+    <string name="keyguard_indication_trust_disabled">আপুনি মেনুৱেলী আনলক নকৰালৈকে ডিভাইচ লক হৈয়ে থাকিব</string>
+    <string name="hidden_notifications_title">দ্ৰুতভাৱে জাননী লাভ কৰক</string>
+    <string name="hidden_notifications_text">আনলক কৰাৰ পূৰ্বে তেওঁলোকক চাওক</string>
+    <string name="hidden_notifications_cancel">নালাগে, ধন্যবাদ</string>
+    <string name="hidden_notifications_setup">ছেটিংছ</string>
+    <string name="zen_mode_and_condition">%1$s. %2$s</string>
+    <string name="screen_pinning_title">স্ক্ৰীণ পিনড</string>
+    <string name="screen_pinning_description">আপুনি এইটো বাতিল নকৰালৈকে নিয়মিতভাৱে এইটো দেখুৱাব। বাতিল কৰিবলৈ ঘূৰক আৰু অৱলোকন স্পৰ্শ কৰক আৰু টেপ কৰক।</string>
+    <string name="screen_pinning_description_accessible">আপুনি এইটো বাতিল নকৰালৈকে নিয়মিতভাৱে এইটো দেখুৱাব। বাতিল কৰিবলৈ অৱলোকন স্পৰ্শ কৰক আৰু টেপ কৰক।</string>
+    <string name="screen_pinning_positive">অ’কে</string>
+    <string name="screen_pinning_negative">নালাগে, ধন্যবাদ</string>
+    <string name="quick_settings_reset_confirmation_title">\"%1$s\" লুকুৱাবনে?</string>
+    <string name="quick_settings_reset_confirmation_message">এই দ্ৰুত ছেটিং প্ৰবিষ্টি আপুনি ইয়াক পৰৱৰ্তী সময়ত ছেটিংছত সক্ষম কৰোতে পুনৰ প্ৰকট হ’ব৷</string>
+    <string name="quick_settings_reset_confirmation_button">লুকুৱাওক</string>
+    <string name="clearDefaultHintMsg">\"ছিষ্টেম ছেটিংছ\" > \"এপ্পসমূহ\" > \"ডাউনলোড\"ত ডিফল্ট ছেটিংছ নাইকিয়া কৰক৷</string>
+    <string name="vivo_statusbar_type">ষ্টেটাছ বাৰ</string>
+    <string name="vivo_keyguard_no_sim">কোনো SIM নাই</string>
+    <string name="vivo_keyguard_charging">%d%% চাৰ্জ হ’ল</string>
+    <string name="vivo_keyguard_charging_complete">সম্পূৰ্ণৰূপে চাৰ্জ হ’ল</string>
+    <string name="vivo_keyguard_holster_unlock_text">আনলক কৰিবৰ বাবে পিচলাওক</string>
+    <string name="vivo_keyguard_holster_unlock_text_r">আনলক কৰিবলৈ পেটাৰ্ন অঞ্চলত সোঁফালে পিচলাওক</string>
+    <string name="vivo_keyguard_ripple_unlock_text">আনলক কৰিবৰ বাবে যিকোনো ফালে পিচলাওক</string>
+    <string name="default_head_portrait_name">উপনাম</string>
+    <string name="click_tip">তললৈ ছোৱাইপ কৰিলে কাষ্টমাইজ কৰিব পাৰিব</string>
+    <string name="lockscreen_icon_set">সম্পাদনা কৰক</string>
+    <string name="back">বাতিল</string>
+    <string name="save">সংৰক্ষণ</string>
+    <string name="name">উপনাম</string>
+    <string name="name_hint">উপনাম</string>
+    <string name="head_icon">অৱতাৰ</string>
+    <string name="edit_icon_title">ফটো সম্পাদনা কৰক</string>
+    <string name="choose_from_photo_album">এলবামৰ পৰা ফটো পচন্দ কৰক</string>
+    <string name="choose_from_take_photo">ফটো তোলক</string>
+    <string name="saving">সংৰক্ষণ হৈ আছে...</string>
+    <string name="text_signature">ব্যক্তিগত স্বাক্ষৰ</string>
+    <string name="text_signature_hint">মুড</string>
+    <string name="font_name">ফ’ণ্ট</string>
+    <string name="color_name">ৰং</string>
+    <string name="font_default">ছিষ্টেম ডিফল্ট</string>
+    <string name="font_classic">"ক্লাছিক ফ'ন্ট"</string>
+    <string name="font_fzm">"ফেং ঝেং মিয়াও উ ফ'ণ্ট"</string>
+    <string name="font_fzltblack">লেন টিং কান হেই</string>
+    <string name="font_hwbold">STHeiti</string>
+    <string name="reach_length_limit">সৰ্বাধিক 2-টা শাৰী প্ৰদৰ্শন কৰিব পাৰিব। ইনপুট সীমাত উপনীত হৈছে।</string>
+    <string name="reach_length_limit_cant_save">ব্যক্তিগত স্বাক্ষৰৰ 2-টা লাইন প্ৰদৰ্শন সীমা অতিক্ৰম কৰিছে। অনুগ্ৰহ কৰি সংশোধন কৰক।</string>
+    <string name="name_input_limitation_info">সমৰ্থিত ইনপুট প্ৰকাৰৰ কেৱল আখৰ, নম্বৰ, আৰু চাইনিজ বৰ্ণ অন্তৰ্ভুক্ত। অনুগ্ৰহ কৰি পুনৰ ইনপুট কৰক!</string>
+    <string name="vivo_keyguard_nature2_guide">পৰিৱৰ্তনৰ বাবে তললৈ ছোৱাইপ কৰক</string>
+    <string name="song_name">গানৰ নাম</string>
+    <string name="unknown_artist_name">অজ্ঞাত শিল্পী</string>
+    <string name="unknown_album_name">অজ্ঞাত এলবাম</string>
+    <string name="artist_name">শিল্পীৰ নাম</string>
+    <string name="album">এলবামৰ নাম</string>
+    <string name="sdcard_busy_title">ষ্ট’ৰেজ মোডত উপলব্ধ নহয়</string>
+    <string name="widget_artist">শিল্পী:</string>
+    <string name="widget_album">এলবাম:</string>
+    <string name="no_lyric_textview">কোনো গীতৰ কথা নাই</string>
+    <string name="signature_font">"স্বাক্ষৰ ফ'ণ্ট"</string>
+    <string name="shortcut">ক্ষিপ্ৰ-লন্চ্চ এপ্লিকেশ্বনসমূহ</string>
+    <string name="shortcut_left">বাওঁ ক্ষিপ্ৰ-লন্চ্চ এপ্প্‌</string>
+    <string name="shortcut_right">সোঁ ক্ষিপ্ৰ-লন্চ্চ এপ্প্‌</string>
+    <string name="shortcut_none">একো নাই</string>
+    <string name="shortcut_wait_load">লোডিং...</string>
+    <string name="slide_to_start">আৰম্ভ কৰিবলৈ ওপৰলৈ শ্লাইড কৰক</string>
+    <string name="vivo_keyguard_quick_charging">ডুৱেল-ইঞ্জিন কুইক চাৰ্জ %d%%</string>
+    <string name="vivo_keyguard_radio_fav_toast_text">আপুনি লগ ইন নকৰালৈকে এইটো সংগ্ৰহ কৰিব নোৱাৰে</string>
+    <string name="vivo_keyguard_iconset_gif_too_large">চিত্ৰখন যথেষ্ট ডাঙৰ</string>
+    <string name="vivo_keyguard_iconset_gif_type_error">চিত্ৰখন দূষিত হৈছে</string>
+    <string name="font_hwfine">"ক্লাছিক ফ'ণ্টসমূহ"</string>
+    <string name="vivo_notification_tap_again">খুলিবলৈ দুবাৰ ক্লিক কৰক</string>
+    <string name="vivo_calendar_title_has">শেহতীয়া কাৰ্যবোৰ</string>
+    <string name="vivo_calendar_title_has_not">কোনো শেহতীয়া কাৰ্য নাই</string>
+    <string name="vivo_notification_title_has">জাননী</string>
+    <string name="vivo_notification_title_has_not">কোনো জাননী নাই</string>
+    <string name="vivo_ongoing_title_has">চলি থকা</string>
+    <string name="vivo_block_cancel">আনব্লক</string>
+    <string name="vivo_block">ব্লক</string>
+    <string name="vivo_clear">পৰিষ্কাৰ কৰক</string>
+    <string name="vivo_manage">প্ৰৱন্ধন কৰক</string>
+    <string name="vivo_block_app_tip">জাননী ব্লক %s কৰা হ’ল</string>
+    <string name="vivo_notification_block_activity_title">বিদ্যমান জাননীবোৰ</string>
+    <string name="vivo_manage_notification">জাননীবোৰ মেনেজ কৰক</string>
+    <string name="vivo_hood_phone_jump">কল ইণ্টাৰফেচলৈ ঘূৰি আহিবৰ বাবে টোকৰ মাৰক</string>
+    <string name="vivo_hood_recorder_jump">ৰেকৰ্ডিং ইণ্টাৰফেচলৈ ঘূৰি আহিবৰ বাবে টোকৰ মাৰক</string>
+    <string name="vivo_hood_phone_hold">হোল্ডিং</string>
+    <string name="vivo_hood_phone_dialing">ডায়েল কৰি আছে</string>
+    <string name="vivo_hood_phone_alerting">ৰিং হৈ আছে</string>
+    <string name="vivo_status_bar_setting_title">ষ্টেটাছ বাৰ আৰু জাননী</string>
+    <string name="vivo_sheid_manager_activity_loading">লোডিং...</string>
+    <string name="vivo_notification_type">জাননী</string>
+    <string name="vivo_network_speed_switch">নেটৱৰ্ক গতি প্ৰদৰ্শন কৰক</string>
+    <string name="vivo_power_percent_switch">বেটাৰীৰ শতকৰা হাৰ প্ৰদৰ্শন কৰক</string>
+    <string name="vivo_schedule_switch">ইভেণ্টসমূহ প্ৰদৰ্শন কৰক</string>
+    <string name="vivo_netweork_flow_switch">ডাটা ব্যৱহাৰ প্ৰদৰ্শন কৰক</string>
+    <string name="vivo_top_notification_type">টপ প্ৰিভিউ শৈলী</string>
+    <string name="vivo_notification_manage_entry">জাননীবোৰ মেনেজ কৰক</string>
+    <string name="vivo_notification_screen_on">জাননী লাভৰ লগে লগে স্ক্ৰীণখন পোহৰাই পেলাওক</string>
+    <string name="vivo_label_notification_on">জাননী দণ্ডিকা</string>
+    <string name="vivo_label_keygard_notification_on">লক স্কীণ</string>
+    <string name="vivo_label_desktop_notification_on">চিহ্নিত কৰক</string>
+    <string name="vivo_notification_screen_on_tip">জাননী লাভৰ লগে লগে স্ক্ৰীণখন পোহৰাই তুলিব লাগে নে নাই সেয়া নিয়ন্ত্ৰণ কৰক (কিছুমান ইনবিল্ট আৰু তৃতীয় পক্ষৰ এপ্পৰ বাহিৰে)</string>
+    <string name="vivo_status_bar_no_notification_shield_tip">এই মুহূৰ্তত কোনো জাননী বাধা দিব নোৱাৰি</string>
+    <string name="vivo_notification_to_show_item">জাননীৰ অনুমতি দিয়া এপ্পবোৰ</string>
+    <string name="vivo_notification_not_to_show_item">জাননীৰ অনুমতি নিদিয়া এপ্পবোৰ</string>
+    <string name="vivo_show_notification">জাননী অনুমতি দিয়ক</string>
+    <string name="vivo_notification_disable">জাননীক অনুমতি নিদিব</string>
+    <string name="vivo_show_notification_illustration">চুইছটো খুলিলে জাননী বাৰত জাননীসমূহ দেখিবলৈ পোৱা যাব</string>
+    <string name="vivo_show_keyguard_notification">লক স্ক্ৰীণত দেখুৱাওক</string>
+    <string name="vivo_show_keyguard_notification_details">লক স্ক্ৰীণত জাননী সমল প্ৰদৰ্শন কৰক</string>
+    <string name="vivo_show_desktop_app_icon_badge">ডেস্কটপ এপ্প আইকন চিহ্নিত কৰক</string>
+    <string name="vivo_show_notification_top_preview">টপ প্ৰিভিউ</string>
+    <string name="vivo_notification_tip_style_headsup">হেডছ্-আপ</string>
+    <string name="vivo_notification_tip_style_ticker">স্ক্ৰলিং</string>
+    <string name="vivo_notification_tip_style_illustration">ফ্লোটিং প্ৰিভিউ 5 মিনিটৰ বাবে স্ক্ৰীণৰ শীৰ্ষত প্ৰদৰ্শন হয়, আৰু সেইবোৰক ওপৰলৈ পিচলাই ধ্বংস কৰিব বা অনুভূমিকভাৱে পিচলাই বিলোপ কৰিব পৰা যাব৷ ষ্টেটাচ বাৰত লাইন বাই লাইন প্ৰিভিউবোৰৰ প্ৰদৰ্শন স্ক্ৰ’ল কৰক৷</string>
+    <string name="vivo_show_priority_notification">অগ্ৰাধিকাৰ</string>
+    <string name="vivo_show_priority_notification_illustration">জাননী তালিকাৰ সন্মুখত প্ৰদৰ্শন কৰক</string>
+    <string name="vivo_no_uim">UIM নাই</string>
+    <string name="vivo_no_sim">কোনো SIM নাই</string>
+    <string name="vivo_close">অফ কৰক</string>
+    <string name="vivo_sim_close">SIM কাৰ্ড অক্ষম কৰিছে</string>
+    <string name="vivo_no_service">কোনো সেৱা নাই</string>
+    <string name="vivo_offline_mode">অফলাইন মোড</string>
+    <string name="vivo_new_notification_hidden">এটা নতুন বাৰ্তা আহিছে</string>
+    <string name="vivo_screenshot_failed_text_no_memory">স্ক্ৰীণশ্বট সংৰক্ষণ কৰিবলৈ অক্ষম ষ্ট’ৰেজ ডিভাইচত পৰ্যাপ্ত পৰিমাণে মুক্ত স্থান নাথাকিব পাৰে৷</string>
+    <string name="vivo_done">সম্পন্ন হ’ল</string>
+    <string name="vivo_cancel">বাতিল</string>
+    <string name="vivo_ok">ঠিক আছে</string>
+    <string name="vivo_battery_full_ticker">সম্পূৰ্ণৰূপে চাৰ্জ হ’ল</string>
+    <string name="vivo_battery_full_title">সম্পূৰ্ণৰূপে চাৰ্জ হ’ল</string>
+    <string name="vivo_battery_full_msg">অনুসন্ধান সম্পূৰ্ণ হ’ল৷ অনুগ্ৰহ কৰি শক্তিৰ যোগান বিচ্ছিন্ন কৰক৷</string>
+    <string name="vivo_low_battery_dialog_title">আভাস</string>
+    <string name="vivo_low_battery_sps_tip">বেটাৰী বৰ কম আছে৷ অনুগ্ৰহ কৰি বেটাৰীত চাৰ্জ কৰক বা ফোনটো অধিক সময় কাৰ্যক্ষম কৰি ৰাখিবলৈ ছুপাৰ পাৱাৰ সংৰক্ষণিং মোডলৈ পৰিৱৰ্তন কৰক৷</string>
+    <string name="vivo_low_battery_hifi_tip">বেটাৰী বৰ কম আছে৷ Hi-Fi মোড স্বয়ংক্ৰিয়ভাৱে অফ কৰা হৈছে৷ অনুগ্ৰহ কৰি বেটাৰীত চাৰ্জ কৰক বা ফোনটো অধিক সময় কাৰ্যক্ষম কৰি ৰাখিবলৈ ছুপাৰ পাৱাৰ সংৰক্ষণিং মোডলৈ পৰিৱৰ্তন কৰক৷</string>
+    <string name="vivo_low_battery_hifi_tip_cmcc">বেটাৰী বৰ কম আছে৷ Hi-Fi মোড স্বয়ংক্ৰিয়ভাৱে অফ কৰা হৈছে৷ অনুগ্ৰহ কৰি আপোনাৰ চাৰ্জাৰ সংযোগ কৰক৷</string>
+    <string name="vivo_sps">চুপাৰ ছেভাৰ</string>
+    <string name="vivo_low_battery_tip">বেটাৰী বৰ কমিছে৷ অনুগ্ৰহ কৰি চাৰ্জাৰ সংযোগ কৰক৷</string>
+    <string name="vivo_wfd_noti_title">অকাধিক স্ক্ৰীণ ইণ্টাৰেকচন</string>
+    <string name="vivo_wfd_noti_text">সংযোগ হৈ থকা ডিভাইচবোৰ প্ৰদৰ্শন কৰক</string>
+    <string name="vivo_guts_tips">জাননী প্ৰেৰণ কৰা হ’ল</string>
+    <string name="vivo_network_speed_msg">নেটৱৰ্কৰ গতিৰ বিশদ বিৱৰণ</string>
+    <string name="usb_device_unconnected_suddenly">অপ্ৰত্যাশিতভাৱে OTG সংযোগ বিচ্ছিন্ন হৈছে</string>
+    <string name="usb_device_unconnected_suddenly_message">ডাটাৰ লোকচান এৰাই চলিবলৈ আঁতৰোৱাৰ পূৰ্বে OTG আনমাউণ্ট কৰক৷</string>
+    <string name="usb_device_connected">OTG সংযোগ কৰা হৈছে</string>
+    <string name="usb_device_connected_message">দৰ্শন কৰিবলৈ টেপ কৰক</string>
+    <string name="usb_device_disconnected">OTG সুৰক্ষিতভাৱে আঁতৰা দিয়া হৈছে</string>
+    <string name="sd_badremoval_notification_message">"SD কাৰ্ড আঁতৰোৱাৰ পূৰ্বে, \"ছেটিংছ > অধিক ছেটিংছ > ষ্ট'ৰেজ\"-ত এইটো আনমাউণ্ট কৰক।"</string>
+    <string name="uninstall_otg">সুৰক্ষিত আনইনষ্টল</string>
+    <string name="vivo_notification_icon_redraw_switch">আইকনৰ সৌন্দৰ্যবৰ্দ্ধন</string>
+    <string name="global_action_super_power_save_tip_locking">কাম কৰিবলৈ প্ৰথমতে আনলক কৰাৰ প্ৰয়োজন</string>
+    <string name="volume_fm">FM ভলিউম</string>
+    <string name="show_imanager_lock_tip">আপুনি যদি i Manager-ত এপ্প্ লক সক্ষম কৰে, তেন্তে লক স্ক্ৰীণৰ সবিশেষ জাননী আগলৈ উপলব্ধ নহ’ব৷</string>
+    <string name="show_imanager_locked_tip">আপুনি i Manager-ত থকা এপ্প্‌টোৰ লক সক্ষম কৰাৰ বাবে, লক স্ক্ৰীণৰ সবিশেষ জাননী উপলব্ধ হোৱা নাই৷</string>
+    <string name="sd_badremoval_notification_message_4g">অনুগ্ৰহ কৰি ডাটা ক্ষতি পৰিহাৰ কৰিবলৈ SD কাৰ্ড আঁতৰোৱাৰ আগতে \"ছেটিংছ > RAM আৰু সংগ্ৰহণ স্থানত\" ইয়াক স্থাপনহীন কৰক।</string>
+    <string name="vivo_notification_tip_none">কোনো পূৰ্বলোকন নাই</string>
+    <string name="vivo_develop_mode_tip">"উন্নয়ন ম'ড"</string>
+    <string name="vivo_up_slide_no_recent_apps">শেহতীয়া কোনো এপ্প নাই</string>
+    <string name="vivo_up_slide_check_out">অনুসন্ধান</string>
+    <string name="vivo_up_slide_statusbar_guide_tip">"নিয়ন্ত্ৰণ কেন্দ্ৰলৈ যাবলৈ তলৰ 
+পৰা ছোৱাইপ কৰক"</string>
+    <string name="vivo_up_slide_tip_swipe">বিলোপ কৰিবলৈ ওপৰলৈ ছোৱাইপ কৰক</string>
+    <string name="vivo_up_slide_tip_white_list">\"এটা-টেপ একচেলাৰেশ্বন\" হোৱাইট লিষ্টত যোগ দিবলৈ দীঘলীয়াকৈ টিপক</string>
+    <string name="vivo_up_slide_add_white_list_item">হোৱাইট লিষ্টত যোগ দিয়ক</string>
+    <string name="vivo_up_slide_remove_white_list_item">হোৱাইট লিষ্টৰ পৰা আঁতৰ কৰক</string>
+    <string name="vivo_switcher_order_title">অনুকূলন</string>
+    <string name="vivo_switcher_order_show">চুইছ প্ৰদৰ্শন কৰক</string>
+    <string name="vivo_switcher_order_hide">চুইছ প্ৰদৰ্শন নকৰিব</string>
+    <string name="vivo_switcher_order_hide_tip">"লুকুৱাওক: চুইছটো \"চুইছ প্ৰদৰ্শন নকৰিব\"লৈ টানি আনক 
+চৰ্ট কৰক: \"চুইছ প্ৰদৰ্শন কৰক\" অঞ্চলৰ য’ত ইয়াক থকাটো আপুনি বিচাৰে তালৈ চুইছটো টানি আনক"</string>
+    <string name="vivo_switcher_order_at_least">অতি কমেও 4 বাৰ চলাই ৰাখক</string>
+    <string name="vivo_switcher_cu">গতি বৃদ্ধি</string>
+    <string name="vivo_switcher_wifi">Wi-Fi</string>
+    <string name="vivo_switcher_apn">ডাটা নেটৱৰ্ক</string>
+    <string name="vivo_switcher_fl">ফ্লেচলাইট</string>
+    <string name="vivo_switcher_wechat_scan">স্কেন</string>
+    <string name="vivo_switcher_smartshot">চুপাৰ স্ক্ৰীণশ্বট</string>
+    <string name="vivo_switcher_vibrate">ভাইব্ৰেট মোড</string>
+    <string name="vivo_switcher_portrait">প’ট্ৰেইট</string>
+    <string name="vivo_switcher_bright">উজ্জ্বলতা</string>
+    <string name="vivo_switcher_sps">চুপাৰ ছেভাৰ</string>
+    <string name="vivo_switcher_offline">অফলাইন মোড</string>
+    <string name="vivo_switcher_sim_selection">কাৰ্ড ডাটা বাছনি কৰক</string>
+    <string name="vivo_switcher_bluetooth">Bluetooth</string>
+    <string name="vivo_switcher_reboot">ৰিবুট</string>
+    <string name="vivo_switcher_poweroff">পাৱাৰ অফ</string>
+    <string name="vivo_switcher_zen_mode">আমনি নিদিব</string>
+    <string name="vivo_switcher_dialog_wechat_scan_message">WeChat \"Scan QR Code\" আৰম্ভ কৰিবলৈ আপুনি WeChat ইনষ্টল কৰি ল’ব লাগিব৷ এতিয়া ইনষ্টল কৰিব নেকি?</string>
+    <string name="vivo_switcher_wechat_scan_available_toast">WeChat \"স্কেন QR কোড\" উপলব্ধ</string>
+    <string name="vivo_switcher_clear_up_tip_both" formatted="false">পৃষ্ঠভাগৰ %d এপ্পবোৰ বন্ধ হ’ল আৰু %d MB মেম’ৰি মুক্ত হ’ল৷</string>
+    <string name="vivo_switcher_clear_up_tip_deamon">পৃষ্ঠভাগৰ %d এপ্পবোৰ বন্ধ কৰক</string>
+    <string name="vivo_switcher_clear_up_tip_none">ইতিমধ্যে সৰ্বোচ্চ কাৰ্যকৰী অৱস্থাত আছে</string>
+    <string name="vivo_switcher_wifi_open_tips_while_tethered">Wi-Fi অন কৰাৰ ফলত প’ৰ্টেবল Wi-Fi হটস্পট নিষ্ক্ৰিয় হৈ যাব, চলাই ৰাখিব?</string>
+    <string name="vivo_switcher_wifi_open_tips_sure">ঠিক আছে</string>
+    <string name="vivo_switcher_wifi_open_tips_cancel">বাতিল</string>
+    <string name="vivo_switcher_wifi_close_while_wfd_opened_title">অকাধিক স্ক্ৰীণ ইণ্টাৰেকচন</string>
+    <string name="vivo_switcher_wifi_close_while_wfd_opened_context">Wi-Fi অফ কৰি দিয়াৰ লগে লগে বহু স্ক্ৰীণৰ বিনিময় নিজে নিজে নিষ্ক্ৰিয় হৈ পৰিব</string>
+    <string name="vivo_switcher_during_phone_forbidden">কল চলি থকাৰ সময়ত উপলব্ধ নহয়</string>
+    <string name="vivo_switcher_offline_forbidden">অফলাইন মোডত উপলব্ধ নহয়</string>
+    <string name="vivo_switcher_need_sim">এই প্ৰক্ৰিয়াটোৰ বাবে SIM কাৰ্ড প্ৰয়োজন</string>
+    <string name="vivo_switcher_apn_dialog_title">ডাটা নেটৱৰ্ক</string>
+    <string name="vivo_switcher_apn_security_dialog_title">আভাস</string>
+    <string name="vivo_switcher_apn_security_dialog_msg">সক্ৰিয় কৰাৰ লগে লগে স্বয়ংক্ৰিয়ভাৱে সময় মিলাবলৈ, আপডেট আছে নেকি নিজে নিজে চাবলৈ, vivo সেৱাবোৰৰ অৱস্থান নিৰ্ণয় আৰু হোম স্ক্ৰীণ ষ্টেণ্ডবাই হোৱাৰ ফলত কম মাত্ৰাত ডাটা ব্যয় হ’ব৷ আপুনি চলাই থাকিব বিচাৰে নেকি?</string>
+    <string name="vivo_switcher_apn_security_dialog_tip">আপুনি অব্যাহত ৰাখিবলৈ পচন্দ কৰিলে, আপুনি পৰৱৰ্তী সময়ত এই এপ্প্‌টো ব্যৱহাৰ কৰোতে কোনো স্মাৰক নেদেখুৱাব৷</string>
+    <string name="vivo_switcher_apn_security_dialog_button_continue">অব্যাহত ৰাখক</string>
+    <string name="vivo_switcher_apn_dialog_set_default_tip">ইণ্টাৰনেটৰ বাবে ডিফল্ট কাৰ্ড হিচাপে ছেট কৰক আৰু আগলৈ কাৰ্ড বাছনি কৰিব নালাগে</string>
+    <string name="vivo_switcher_apn_dialog_set_default_tip2">ছেটিঙৰ সংশোধন কৰিবলৈ আপুনি \"ছেটিংছ > মোবাইল নেটৱৰ্ক > ডিফল্ট কাৰ্ড\"লৈ যাব পাৰে</string>
+    <string name="vivo_switcher_dialog_title_tips">আভাস</string>
+    <string name="vivo_switcher_dialog_sps_tip">চুপাৰ পাৱাৰ চেভিং মোডত কেৱল ফোন, বাৰ্তা প্ৰেৰণ আৰু এলাৰ্ম ফাংছনহে সক্ৰিয় কৰা হৈছে৷ সম্পূৰ্ণ চাৰ্জ হোৱাৰ পিছত চেল ফোনটো স্বয়ংক্ৰিয়ভাৱে মোডৰ পৰা প্ৰস্থান কৰিব৷</string>
+    <string name="vivo_switcher_dialog_sps_never_remide">মোক পুনৰ মনত পেলাই দিব নালাগে</string>
+    <string name="vivo_switcher_flashlight_low_battery_tip">বেটাৰী কম আছে৷ এই সুবিধা সাময়িকভাৱে উপলব্ধ নহয়৷</string>
+    <string name="vivo_switcher_speedup_dialog_whitelist_title">I Manager-এ মনত পেলাই দিয়ে</string>
+    <string name="vivo_switcher_speedup_dialog_whitelist_message">ওৱান-টাচ্চ স্পীডআপত শেষ কৰিব নোৱাৰা এপ্প্‌সমূহ৷ আপুনি হোৱাইটলিষ্টলৈ এপ্প্‌সমূহ যোগ কৰিব পাৰিব৷</string>
+    <string name="vivo_switcher_speedup_dialog_whitelist_ok">হোৱাইটলিষ্ট ছেট কৰক</string>
+    <string name="vivo_upslide_hifi_no_headphone">Hi-Fi অন কৰিব নোৱাৰি৷ কোনো ঈয়াৰফোন আন্তঃসংযোগ কৰা নাই৷</string>
+    <string name="vivo_upslide_hifi_low_battery">Hi-Fi অন কৰিব নোৱাৰি৷ বেটাৰী কম আছে৷</string>
+    <string name="vivo_upslide_hifi_opened">Hi-Fi অন</string>
+    <string name="vivo_upslide_hifi_closed">Hi-Fi অফ</string>
+    <string name="vivo_upslide_hifi_headset_tip">Hi-Fi-এ কেৱল মাত্ৰ ঈয়াৰফোন মোডতহে কাম কৰে</string>
+    <string name="vivo_upslide_artist_name">শিল্পীৰ নাম</string>
+    <string name="vivo_upslide_music_name">গানৰ নাম</string>
+    <string name="vivo_upslide_network_mode_any">যিকোনো</string>
+    <string name="vivo_upslide_network_mode_only_2g">2G কেৱল</string>
+    <string name="vivo_upslide_network_mode_register_choice">2G কেৱল নেটৱৰ্কহে সমৰ্থন কৰে, Ooredoo ব্যৱহাৰ কৰিব পাৰি৷ যদি আপুনি অন্য নেটৱৰ্ক বাছনি কৰে, Ooredoo ব্যৱহাৰ কৰিব নোৱাৰি৷</string>
+    <string name="vivo_upslide_network_mode_tip">অনুগ্ৰহ কৰি বাছনি কৰক</string>
+    <string name="vivo_switcher_apn_dialog_close_apn_tip">বন্ধ কৰক</string>
+    <string name="vivo_switcher_sps_dialog_ok">ঠিক আছে</string>
+    <string name="vivo_upslide_hide_navigaton_bar_tip">লুকুৱাবলৈ তললৈ ছোৱাইপ কৰক</string>
+    <string name="vivo_upslide_lock_task_dialog_msg">এবাৰ স্ক্ৰীণখন পিন হ’লে, ডিভাইচটো এখন স্ক্ৰীণতে থাকিব৷ আনপিন কৰিবলৈ, \"বেক\" আৰু \"মেনু\" বুটাম টেপ কৰক আৰু ধৰি ৰাখক৷.</string>
+    <string name="vivo_upslide_lock_task_dialog_negative">নালাগে, ধন্যবাদ</string>
+    <string name="vivo_upslide_lock_task_dialog_positive">আৰম্ভ</string>
+    <string name="vivo_upslide_lock_task_dialog_title">স্ক্ৰীণ পিনিং ব্যৱহাৰ কৰিব?</string>
+    <string name="vivo_upslide_show_navigaton_bar_tip">প্ৰদৰ্শন কৰিবলৈ ওপৰলৈ ছোৱাইপ কৰক</string>
+    <string name="vivo_upslide_volume_tip">মিডিয়া</string>
+    <string name="vivo_switcher_data_network_not_available">মোবাইল নেটৱৰ্ক অনুপলব্ধ</string>
+    <string name="vivo_switcher_wifi_ap">Wi-Fi হটস্পট</string>
+    <string name="vivo_switcher_eye_protection">চকুৰ সুৰক্ষা</string>
+    <string name="vivo_switcher_eye_protection_tip">চকুৰ সুৰক্ষা মোডক সক্ষম কৰা হৈছে৷ অনুগ্ৰহ কৰি চাক্ষুষ ক্লান্তিৰ পৰা মুক্তি পাবলৈ স্ক্ৰীণৰ ৰং মিলাওক৷</string>
+    <string name="vivo_switcher_eye_protection_tip_ok">অ’কে</string>
+    <string name="vivo_upslide_operation_tips">স্ক্ৰীণৰ তলৰ কাষৰ পৰা ওপৰলৈ শ্লাইড কৰি \"নিয়ন্ত্ৰণ কেন্দ্ৰ\"ক ওপৰলৈ আনক।</string>
+    <string name="vivo_upslide_setting_title">নিয়ন্ত্ৰণ কেন্দ্ৰ</string>
+    <string name="vivo_upslide_switch_tips">এটা এপ্প্ ইণ্টাৰফেচত \"নিয়ন্ত্ৰণ কেন্দ্ৰ\"ক ওপৰলৈ আনিবলৈ অনুমতি দিয়ক। চুইচ অফ কৰাৰ পিছত, আপুনি এতিয়াও ডেস্কটপত \"নিয়ন্ত্ৰণ কেন্দ্ৰ\"ক ওপৰলৈ আনিব পাৰে।</string>
+    <string name="vivo_upslide_switch_title">এটা এপ্প্ ইণ্টাৰফেচত ইয়াক ওপৰলৈ আনক</string>
+    <string name="wifi_opened">অন</string>
+    <string name="wifi_starting">অন কৰি আছে</string>
+    <string name="wifi_stopping">অফ কৰি আছে</string>
+    <string name="wifi_prepare_connect">সংযোগৰ বাবে সাজু কৰক</string>
+    <string name="keyguard_password_enter_pin_code">PIN প্ৰৱেশ কৰাওক</string>
+    <string name="keyguard_password_enter_puk_code">SIM PUK আৰু নতুন PIN কোড টাইপ কৰক</string>
+    <string name="keyguard_password_enter_puk_prompt">SIM PUK কোড</string>
+    <string name="keyguard_password_enter_pin_prompt">নতুন SIM PIN কোড</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">পাছৱৰ্ড প্ৰৱেশ কৰাবলৈ স্পৰ্শ কৰক</font></string>
+    <string name="keyguard_password_enter_password_code">আনলক কৰিবলৈ পাছৱৰ্ড প্ৰৱেশ কৰাওক</string>
+    <string name="keyguard_password_enter_pin_password_code">আনলক কৰিবলৈ PIN টাইপ কৰক</string>
+    <string name="keyguard_password_wrong_pin_code">অশুদ্ধ PIN কোড।</string>
+    <string name="keyguard_label_text">আনলক কৰিবলৈ, মেনু হেঁচি তাৰপিছত 0 হেঁচক।</string>
+    <string name="faceunlock_multiple_failures">সৰ্বাধিক ফেচ আনলক কৰাৰ প্ৰয়াস অতিক্ৰম কৰিছে</string>
+    <string name="keyguard_charged">সম্পূৰ্ণৰূপে চাৰ্জ হ’ল</string>
+    <string name="keyguard_plugged_in">চাৰ্জ হৈ আছে</string>
+    <string name="keyguard_low_battery">অনুগ্ৰহ কৰি চাৰ্জাৰ সংযোগ কৰক৷</string>
+    <string name="keyguard_instructions_when_pattern_disabled">আনলক কৰিবলৈ \"মেনু\" টেপ কৰক।</string>
+    <string name="keyguard_network_locked_message">নেটৱৰ্ক লক কৰা হৈছে</string>
+    <string name="keyguard_missing_sim_message_short">কোনো SIM কাৰ্ড নাই</string>
+    <string name="keyguard_missing_sim_message">ফোনটোত কোনো SIM কাৰ্ড নাই।</string>
+    <string name="keyguard_missing_sim_instructions">এখন SIM কাৰ্ড ইনচাৰ্ট কৰক।</string>
+    <string name="keyguard_missing_sim_instructions_long">SIM কাৰ্ডখন নাই বা ৰিড কৰিব পৰা হৈ থকা নাই। এখন SIM কাৰ্ড ইনচাৰ্ট কৰক।</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">অব্যৱহৃত SIM কাৰ্ড।</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"আপোনাৰ SIM কাৰ্ড স্থায়ীভাৱে অক্ষম কৰা হৈছে।
+ অন্য এখন SIM কাৰ্ডৰ কাৰণে আপোনাৰ ৱায়াৰলেচ সেৱা প্ৰদানকাৰীক যোগাযোগ কৰক।"</string>
+    <string name="keyguard_sim_locked_message">SIM কাৰ্ড লক কৰা হৈছে।</string>
+    <string name="keyguard_sim_puk_locked_message">SIM কাৰ্ডখন PUK লক হৈ পৰিল।</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">SIM কাৰ্ড আনলক কৰি আছে...</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s। ৱিজেট %3$d-ৰ %2$d।</string>
+    <string name="keyguard_accessibility_add_widget">ৱিজেট যোগ কৰক।</string>
+    <string name="keyguard_accessibility_widget_empty_slot">শূণ্য</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">আনলক ক্ষেত্ৰ বিস্তৃত হৈছে।</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">আনলক ক্ষেত্ৰ ধ্বংস হৈছে।</string>
+    <string name="keyguard_accessibility_widget">%1$s ৱিজেট।</string>
+    <string name="keyguard_accessibility_user_selector">ব্যৱহাৰকৰ্তা বাছনিকাৰী</string>
+    <string name="keyguard_accessibility_camera">কেমেৰা</string>
+    <string name="keygaurd_accessibility_media_controls">মিডিয়া নিয়ন্ত্ৰণ</string>
+    <string name="keyguard_accessibility_widget_reorder_start">ৱিজেট পুনঃক্ৰমাংকন আৰম্ভ হৈছে।</string>
+    <string name="keyguard_accessibility_widget_reorder_end">ৱিজেট পুনঃক্ৰমাংকন সম্পূৰ্ণ হৈছে।</string>
+    <string name="keyguard_accessibility_widget_deleted">ৱিজেট %1$s বিলোপ কৰা হৈছে।</string>
+    <string name="keyguard_accessibility_expand_lock_area">আনলক ক্ষেত্ৰ বিস্তাৰ কৰক।</string>
+    <string name="keyguard_accessibility_slide_unlock">আনলক কৰিবৰ বাবে পিচলাওক।</string>
+    <string name="keyguard_accessibility_pattern_unlock">পেটাৰ্ণ আনলক কৰক।</string>
+    <string name="keyguard_accessibility_face_unlock">ফেচ আনলক৷</string>
+    <string name="keyguard_accessibility_pin_unlock">পিন আনলক।</string>
+    <string name="keyguard_accessibility_password_unlock">পাছৱৰ্ড আনলক কৰক।</string>
+    <string name="keyguard_accessibility_pattern_area">পেটাৰ্ণ ক্ষেত্ৰ।</string>
+    <string name="keyguard_accessibility_slide_area">ক্ষেত্ৰ পিচলাওক।</string>
+    <string name="keyguard_accessibility_pin_area">PIN ক্ষেত্ৰ</string>
+    <string name="keyguard_accessibility_sim_pin_area">SIM কাৰ্ড PIN ক্ষেত্ৰ</string>
+    <string name="keyguard_accessibility_sim_puk_area">SIM কাৰ্ড PUK ক্ষেত্ৰ</string>
+    <string name="keyguard_accessibility_transport_prev_description">\"পূৰ্বৱৰ্তী ট্ৰেক\" বুটাম</string>
+    <string name="keyguard_accessibility_transport_next_description">\"পৰৱৰ্তী ট্ৰেক\" বুটাম</string>
+    <string name="keyguard_accessibility_transport_pause_description">বিৰাম বুটাম</string>
+    <string name="keyguard_accessibility_transport_play_description">\"প্লে\" বুটাম</string>
+    <string name="keyguard_accessibility_transport_stop_description">বন্ধ কৰক বুটাম</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">থাম্ব ওপৰলৈ</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">থাম্ব তললৈ</string>
+    <string name="keyguard_accessibility_transport_heart_description">হাৰ্ট</string>
+    <string name="keyguard_accessibility_show_bouncer">অব্যাহত ৰাখিবলৈ আনলক কৰক</string>
+    <string name="keyguard_accessibility_hide_bouncer">লন্চ্চ বাতিল হৈছে</string>
+    <string name="keyguard_accessibility_delete_widget_start">"মুক্ত %1$s বিলোপ কৰা হ'ব।"</string>
+    <string name="keyguard_accessibility_delete_widget_end">%1$s এইটো বিলোপ কৰিব নোৱাৰিব।</string>
+    <string name="keyguard_accessibility_next_alarm">%1$s ইয়াৰ কাৰণে পৰৱৰ্তী এলাৰ্ম ছেট কৰক</string>
+    <string name="keyboardview_keycode_cancel">বাতিল</string>
+    <string name="keyboardview_keycode_delete">বিলোপ কৰক</string>
+    <string name="keyboardview_keycode_done">সম্পন্ন হ’ল</string>
+    <string name="keyboardview_keycode_mode_change">মোড পৰিৱৰ্তন কৰক</string>
+    <string name="keyboardview_keycode_shift">চিফ্ট</string>
+    <string name="keyboardview_keycode_enter">এণ্টাৰ</string>
+    <string name="description_target_unlock">আনলক কৰক</string>
+    <string name="description_target_camera">কেমেৰা</string>
+    <string name="description_target_silent">মিউট</string>
+    <string name="description_target_soundon">চাউণ্ড অন কৰক</string>
+    <string name="description_direction_down">%s-ৰ কাৰণে তললৈ শ্লাইড কৰক।</string>
+    <string name="description_direction_right">%s-ৰ কাৰণে সোঁফাললৈ শ্লাইড কৰক।</string>
+    <string name="user_switched">সাম্প্ৰতিক ব্যৱহাৰকৰ্তা হৈছে %1$s।</string>
+    <string name="kg_emergency_call_label">জৰুৰীকালীন কল</string>
+    <string name="kg_forgot_pattern_button_text">পেটাৰ্ণ পাহৰিলে</string>
+    <string name="kg_wrong_pattern">অশুদ্ধ পেটাৰ্ণ</string>
+    <string name="kg_wrong_password">অশুদ্ধ পাছৱৰ্ড</string>
+    <string name="kg_wrong_pin">ভুল PIN</string>
+    <string name="kg_too_many_failed_attempts_countdown">%d ছেকেণ্ডত পুনৰ চেষ্টা কৰক</string>
+    <string name="kg_pattern_instructions">আপোনাৰ পেটাৰ্ণ অংকন কৰক</string>
+    <string name="kg_sim_pin_instructions">SIM PIN প্ৰৱেশ কৰাওক</string>
+    <string name="kg_sim_pin_instructions_multi">SIM কাৰ্ড \"%1$s\"-ৰ বাবে PUK প্ৰৱেশ কৰাওক</string>
+    <string name="kg_pin_instructions">PIN প্ৰৱেশ কৰাওক</string>
+    <string name="kg_password_instructions">পাছৱৰ্ড প্ৰবিষ্ট কৰক</string>
+    <string name="kg_puk_enter_puk_hint">SIM এতিয়া অক্ষম হৈছে। অব্যাহত ৰাখিবলৈ PUK প্ৰৱেশ কৰাওক। বিশদ বিৱৰণৰ কাৰণে কেৰিয়াৰক যোগাযোগ কৰক।</string>
+    <string name="kg_puk_enter_puk_hint_multi">SIM কাৰ্ড \"%1$s\" অক্ষম কৰা হৈছে।. আপুনি এইটো ব্যৱহাৰ অব্যাহত কৰি থাকিবলৈ PUK প্ৰৱেশ কৰিব লাগিব। বিশদ বিৱৰণৰ বাবে, অনুগ্ৰহ কৰি আপোনাৰ কেৰিয়াৰৰ সৈতে যোগাযোগ কৰক।“</string>
+    <string name="kg_puk_enter_pin_hint">নিৰ্দ্দিষ্ট PIN কোড প্ৰৱেশ কৰাওক</string>
+    <string name="kg_enter_confirm_pin_hint">নিৰ্দ্দিষ্ট PIN কোড নিশ্চিত কৰক</string>
+    <string name="kg_sim_unlock_progress_dialog_message">SIM কাৰ্ড আনলক কৰি আছে...</string>
+    <string name="kg_invalid_sim_pin_hint">4-ৰ পৰা 8-টা অংকৰ এটা PIN টাইপ কৰক৷</string>
+    <string name="kg_invalid_sim_puk_hint">PUK কোড 8-টা সংখ্যা বা অধিক হোৱা উচিত।</string>
+    <string name="kg_invalid_puk">"শুদ্ধ PUK কোড পুনৰ প্ৰৱেশ কৰাওক। পুনৰ প্ৰয়াস কৰিলে SIM স্থায়ীভাৱে অক্ষম হ'ব।"</string>
+    <string name="kg_invalid_confirm_pin_hint">PIN কোডবোৰ মিলা নাই</string>
+    <string name="kg_login_too_many_attempts">অত্যধিক পেটাৰ্ণৰ প্ৰয়াস</string>
+    <string name="kg_login_instructions">আনলক কৰিবলৈ আপোনাৰ Google একাউণ্টৰ সৈতে ছাইন ইন কৰক।</string>
+    <string name="kg_login_username_hint">ব্যৱহাৰকৰ্তাৰ নাম (ইমেইল ঠিকনা)</string>
+    <string name="kg_login_password_hint">পাছৱৰ্ড</string>
+    <string name="kg_login_submit_button">ছাইন ইন</string>
+    <string name="kg_login_invalid_input">অবৈধ ব্যৱহাৰকৰ্তাৰ নাম বা পাছৱৰ্ড।</string>
+    <string name="kg_login_account_recovery_hint">"আপোনাৰ ব্যৱহাৰকৰ্তাৰ নাম বা পাছৱৰ্ড পাহৰিলে নেকি? 
+অনুগ্ৰহ কৰি "<b>google.com/accounts/recovery</b> দৰ্শন কৰক।</string>
+    <string name="kg_login_checking_password">একাউণ্ট পৰীক্ষা কৰি আছে...</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"আপুনি আপোনাৰ PIN %d বাৰ অশুদ্ধকৈ প্ৰৱেশ কৰাইছে। 
+
+%d ছেকেণ্ডৰ পিছত পুনৰ চেষ্টা কৰক।"</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"আপুনি আপোনাৰ পাছৱৰ্ড %d বাৰ অশুদ্ধকৈ প্ৰৱেশ কৰাইছে। 
+
+অনুগ্ৰহ কৰি কেইছেকেণ্ডমানৰ %d ভিতৰত পুনৰ চেষ্টা কৰক।"</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"আপুনি আপোনাৰ আনলক পেটাৰ্ণ ভুলকৈ অংকন %d কৰিছে। 
+
+%d ছেকেণ্ডৰ পিছত পুনৰ চেষ্টা কৰক।"</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">“আপুনি %d বাৰৰ বাবে ফোন আনলক কৰিবলৈ অশুদ্ধকৈ প্ৰয়াস কৰিছে। %d ৰ অধিক বিফল প্ৰয়াসৰ পিছত, ফোনটো ৰিছেট কৰা হ’ব, আৰু ইয়াত থকা সকলো ডাটা বিলোপ কৰা হ’ব।“</string>
+    <string name="kg_failed_attempts_now_wiping">“আপুনি %d বাৰৰ বাবে ফোন আনলক কৰিবলৈ অশুদ্ধকৈ প্ৰয়াস কৰিছে। ফোনটো ৰিছেট কৰা হ’ব, আৰু ইয়াত থকা সকলো ডাটা বিলোপ কৰা হ’ব।“</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" formatted="false">“আপুনি %d বাৰৰ বাবে ফোন আনলক কৰিবলৈ অশুদ্ধকৈ প্ৰয়াস কৰিছে। %d ৰ অধিক বিফল প্ৰয়াসৰ পিছত, ছিষ্টেমে ইয়াৰ সকলো ডাটা অন্তৰ্ভুক্ত কৰি এই ব্যৱহাৰকৰ্তাক আঁতৰাব।“</string>
+    <string name="kg_failed_attempts_now_erasing_user">“আপুনি %d বাৰৰ বাবে ফোন আনলক কৰিবলৈ অশুদ্ধকৈ প্ৰয়াস কৰিছে। ছিষ্টেমে ইয়াৰ সকলো ডাটা অন্তৰ্ভুক্ত কৰি এই ব্যৱহাৰকৰ্তাক আঁতৰাব।“</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" formatted="false">“আপুনি %d বাৰৰ বাবে ফোন আনলক কৰিবলৈ অশুদ্ধকৈ প্ৰয়াস কৰিছে। %d ৰ অধিক বিফল প্ৰয়াসৰ পিছত, ছিষ্টেমে ইয়াৰ সকলো ডাটা অন্তৰ্ভুক্ত কৰি এই কাৰ্য্য প্ৰ’ফাইল আঁতৰাব।“</string>
+    <string name="kg_failed_attempts_now_erasing_profile">“আপুনি %d বাৰৰ বাবে ফোন আনলক কৰিবলৈ অশুদ্ধকৈ প্ৰয়াস কৰিছে। ছিষ্টেমে ইয়াৰ সকলো ডাটা অন্তৰ্ভুক্ত কৰি এই কাৰ্য্য প্ৰ’ফাইল আঁতৰাব।“</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"আপুনি বাৰে বাৰে এটা ত্ৰুটি %d আনলক শৈলী অংকন কৰিছে৷ %d বাৰ অসফল প্ৰযাসৰ পিছত, আপোনাক আপোনাৰ ইমেইল একাউণ্ট ব্যৱহাৰ কৰি আপোনাৰ ফোন আনলক কৰিবলৈ সুধিব। 
+
+অনুগ্ৰহ কৰি কেইছেকেণ্ডমানৰ %d ভিতৰত পুনৰ চেষ্টা কৰক।"</string>
+    <string name="kg_reordering_delete_drop_target_text">বিলোপ কৰক</string>
+    <string name="kg_password_wrong_pin_code_pukked">অশুদ্ধ SIM PIN, আপুনি এতিয়া আপোনাৰ ডিভাইচ আনলক কৰিবলৈ আপোনাৰ কেৰিয়াৰক যোগাযোগ কৰিব লাগিব।</string>
+    <string name="kg_password_wrong_puk_code_dead">SIM ব্যৱহাৰযোগ্য নহয়। আপোনাৰ কেৰিয়াৰক যোগাযোগ কৰক।</string>
+    <string name="kg_password_pin_failed">SIM PIN অপাৰেচন বিফল হৈছে\u0085!</string>
+    <string name="kg_password_puk_failed">SIM PUK অপাৰেচন বিফল হৈছে\u0085!</string>
+    <string name="kg_pin_accepted">কোড স্বীকাৰ কৰিছে!</string>
+    <string name="keyguard_transport_prev_description">পূৰ্বৱৰ্তী ট্ৰেক বুটাম</string>
+    <string name="keyguard_transport_next_description">পৰৱৰ্তী ট্ৰেক বুটাম</string>
+    <string name="keyguard_transport_pause_description">\"বিৰাম\" বুটাম</string>
+    <string name="keyguard_transport_play_description">\"প্লে\" বুটাম</string>
+    <string name="keyguard_transport_stop_description">\"বন্ধ কৰক\" বুটাম</string>
+    <string name="keyguard_carrier_default">কোনো সেৱা নাই।</string>
+    <string name="try_again">পুনৰ চেষ্টা কৰক</string>
+    <string name="vivo_forgot_pattern">পেটাৰ্ণ পাহৰিলে</string>
+    <string name="vivo_forgot_password">পাছৱৰ্ড পাহৰিলে</string>
+    <string name="vivo_kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"আপুনি বহুবাৰ ত্ৰুটি আনলক পেটাৰ্ণ %d অংকন কৰিছে৷ 
+অনুগ্ৰহ কৰি কেইছেকেণ্ডমানৰ %d ভিতৰত পুনৰ চেষ্টা কৰক!"</string>
+    <string name="vivo_kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"আপুনি এটা ভুল আনলক পেটাৰ্ণ %d বাৰ প্ৰৱেশ কৰাইছে। 
+অনুগ্ৰহ কৰি কেইছেকেণ্ডমানৰ %d ভিতৰত পুনৰ চেষ্টা কৰক!"</string>
+    <string name="vivo_login_problem">আনলক কৰিবলৈ, অনুগ্ৰহ কৰি উত্তৰ ইনপুট কৰক</string>
+    <string name="vivo_login_answer_hint">উত্তৰ প্ৰৱেশ কৰাবলৈ টেপ কৰক</string>
+    <string name="vivo_login_title">আনলক কৰক</string>
+    <string name="vivo_login_problem_invalid_input">উত্তৰ অশুদ্ধ</string>
+    <string name="father_name">আপোনাৰ পিতৃৰ নাম কি?</string>
+    <string name="spouse_name">আপোনাৰ পত্নীৰ নাম কি?</string>
+    <string name="clean_visit_mode">আপুনি দৰ্শনকাৰী মোড প্ৰস্থান কৰিছে আৰু দৰ্শনকাৰী পাছৱৰ্ডটোৰ ম্যাদ উকলি গৈছে।</string>
+    <string name="vivo_emergency">জৰুৰীকালীন কল</string>
+    <string name="vivo_return_to_call">কললৈ ঘূৰি আহক</string>
+    <string name="vivo_password_wrong_pin_code">ত্ৰুটি PIN।</string>
+    <string name="vivo_password_enter_pin_code">অনুগ্ৰহ কৰি PIN প্ৰৱেশ কৰাওক</string>
+    <string name="vivo_password_enter_puk_code">PUK কোড প্ৰৱেশ কৰাওক</string>
+    <string name="vivo_mismatchPin">PIN-বিলাক মিলা নাই৷ অনুগ্ৰহ কৰি পুনৰ প্ৰবিষ্ট কৰক৷</string>
+    <string name="vivo_password_enter_new_pin_code">নতুন PIN প্ৰৱেশ কৰাওক</string>
+    <string name="vivo_password_Confirm_pin_code">নতুন PIN নিশ্চিত কৰক</string>
+    <string name="findphone_ok">ঠিক আছে</string>
+    <string name="kg_password_findphone_tip">অনুগ্ৰহ কৰি আপোনাৰ vivo একাউণ্টৰ পাছৱৰ্ড প্ৰৱেশ কৰাওক</string>
+    <string name="vivo_pinpuk_attempts">%d</string>
+    <string name="problem_label">Q:</string>
+    <string name="vivo_onehand_msg">আপুনি স্ক্ৰীণৰ সোঁ (বা বাওঁ) কাষৰ পৰা শ্লাইড কৰাৰ সময়ত, এইটো ওৱান হেণ্ডেড মোডলৈ চুইচ কৰিব পাৰে।</string>
+    <string name="vivo_password_wrong">অশুদ্ধ পাছৱৰ্ড</string>
+    <string name="vivo_pattern_wrong">ভুল পেটাৰ্ণ</string>
+    <string name="pinpuk_attempts">বাকী থকা প্ৰয়াসসমূহ:</string>
+    <string name="finger_need_password_msg">আঙুলিৰ চিহ্ন চিনাক্তকৰণ সক্ষম কৰিবলৈ আপোনাৰ পাছৱৰ্ডৰ আৱশ্যক</string>
+    <string name="finger_need_pattern_msg">আঙুলিৰ চিহ্ন চিনাক্তকৰণ সক্ষম কৰিবলৈ আপোনাৰ পেটাৰ্ণৰ আৱশ্যক</string>
+    <string name="finger_password_title">পাছৱৰ্ড প্ৰবিষ্ট কৰক</string>
+    <string name="finger_pattern_title">পেটাৰ্ণ অংকন কৰক</string>
+    <string name="findphone_unable_network">নেটৱৰ্কলৈ সংযোগ কৰাত বিফল</string>
+    <string name="findphone_verifying_password">পাছৱৰ্ড প্ৰমাণিত কৰি আছে…</string>
+    <string name="pin_reboot_finger">ৰিবুট কৰাৰ পিছত আঙুলিৰ চিহ্ন সক্ষম কৰিবলৈ আপুনি পাছৱৰ্ড অংকন কৰিব লাগিব</string>
+    <string name="pattern_reboot_finger">ৰিবুট কৰাৰ পিছত আঙুলিৰ চিহ্ন সক্ষম কৰিবলৈ আপুনি পেটাৰ্ণ অংকন কৰিব লাগিব</string>
+    <string name="confirm_max_lenth">সৰ্বাধিক বৰ্ণৰ সীমাৰ উপনীত হৈছে</string>
+    <string name="use_fingerprint_or_password">আঙুলিৰ চাপ ব্যৱহাৰ কৰক বা পাছৱৰ্ড প্ৰবিষ্ট কৰক</string>
+    <string name="use_fingerprint_or_pattern">আঙুলিৰ চাপ ব্যৱহাৰ কৰক বা পেটাৰ্ণ আঁকক</string>
+    <string name="use_fingerprint_or_pin">আঙুলিৰ চাপ ব্যৱহাৰ কৰক বা পাছৱৰ্ড প্ৰবিষ্ট কৰক</string>
+</resources>

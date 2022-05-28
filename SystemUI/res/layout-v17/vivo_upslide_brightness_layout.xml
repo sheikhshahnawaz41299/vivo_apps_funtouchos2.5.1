@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/brightness_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/settings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vivo_upslide_settings_icon" android:layout_marginStart="@dimen/vivo_upslide_common_space" />
+    <SeekBar android:id="@id/seekbar" android:layout_width="0.0dip" android:layout_height="wrap_content" android:progressDrawable="@drawable/vivo_upslide_seekbar_progress" android:layout_weight="1.0" android:paddingStart="@dimen/vivo_upslide_seek_bar_padding" android:paddingEnd="@dimen/vivo_upslide_seek_bar_padding" />
+    <ImageView android:id="@id/brightness_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vivo_upslide_brightness_auto_on" android:layout_marginEnd="@dimen/vivo_upslide_common_space" />
+</LinearLayout>

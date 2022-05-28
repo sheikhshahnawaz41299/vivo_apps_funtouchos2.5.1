@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.ExpandableNotificationRow android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.systemui.statusbar.NotificationBackgroundView android:id="@id/backgroundNormal" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.systemui.statusbar.NotificationBackgroundView android:id="@id/backgroundDimmed" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.systemui.statusbar.NotificationContentView android:id="@id/expanded" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.android.systemui.statusbar.NotificationContentView android:id="@id/expandedPublic" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Button android:gravity="end" android:id="@id/veto" android:background="@null" android:layout_width="48.0dip" android:layout_height="0.0dip" />
+    <ViewStub android:id="@id/notification_guts_stub" android:layout="@layout/notification_guts" android:inflatedId="@id/notification_guts" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:layout_gravity="bottom|center" android:id="@id/notification_item_divider" android:background="@drawable/vivo_notification_item_divider" android:visibility="visible" android:layout_width="@dimen/vivo_notification_divider_width" android:layout_height="@dimen/vivo_notification_divider_height" />
+</com.android.systemui.statusbar.ExpandableNotificationRow>

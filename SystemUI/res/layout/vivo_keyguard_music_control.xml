@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="96.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="18.0dip" android:textColor="@color/vivo_keyguard_multiscreen_shortcut_textcolor" android:ellipsize="end" android:gravity="center" android:id="@id/bbk_screen_top_layout_music_name_common" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:singleLine="true" android:layout_centerHorizontal="true" />
+    <include android:id="@id/music_btn_panel" layout="@layout/vivo_keyguard_music_btn_panel" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/popup_arrow_90" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vivo_popup_arrow_below_h_90" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/popup_arrow_270" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vivo_popup_arrow_below_h_270" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/popup_content" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/popup_arrow_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vivo_popup_arrow_below_v_0" android:layout_below="@id/popup_content" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/vivo_upslide_dialog_content_text_size" android:textColor="@color/vivo_upslide_dialog_content_text_color" android:gravity="center" android:id="@id/tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/vivo_switcher_dialog_sps_tip" />
+    <CheckBox android:textSize="@dimen/vivo_upslide_dialog_content_text_size" android:textColor="@color/vivo_upslide_dialog_content_text_color" android:id="@id/sps_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vivo_switcher_dialog_sps_never_remide" android:layout_below="@id/tv" />
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item>Wi-Fi</item>
+        <item>Поиск...</item>
+        <item>Подключение...</item>
+        <item>Проверка подлинности...</item>
+        <item>Получение IP-адреса...</item>
+        <item>Подключено</item>
+        <item>Приостановлено</item>
+        <item>Отключение...</item>
+        <item>Отключено</item>
+        <item>Сбой</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Wi-Fi</item>
+        <item>Поиск...</item>
+        <item>Подключение...</item>
+        <item>Проверка подлинности...</item>
+        <item>Получение IP-адреса...</item>
+        <item>Подключена сеть %1$s</item>
+        <item>Приостановлено</item>
+        <item>Отключение...</item>
+        <item>Отключено</item>
+        <item>Сбой</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>Имя вашего отца</item>
+        <item>Имя вашей матери</item>
+        <item>Имя вашего супруга/вашей супруги</item>
+        <item>Начальная школа, которую вы посещали</item>
+        <item>Имя вашей воспитательницы в детском саду</item>
+        <item>Имя вашего школьного учителя</item>
+        <item>Имя вашего лучшего друга/подруги детства</item>
+        <item>Место вашего рождения</item>
+        <item>Номер вашего студенческого (рабочего) удостоверения</item>
+        <item>Последние 6 цифр номера вашего удостоверения личности</item>
+        <item>Номер вашей машины</item>
+        <item>Ваше первое место работы</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="@interpolator/ic_signal_location_enable_cross_1_pathdata_interpolator" android:duration="350" />
+    <set>
+        <objectAnimator android:interpolator="@android:interpolator/linear" android:duration="333" />
+        <objectAnimator android:interpolator="@android:interpolator/linear" android:duration="17" />
+    </set>
+</set>

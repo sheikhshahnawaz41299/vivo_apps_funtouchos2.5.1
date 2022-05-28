@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:background="@color/vivo_upslide_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.systemui.vivo.common.ui.DragAnimationView android:id="@id/vivo_upslide_drag_view_0" android:layout_width="fill_parent" android:layout_height="@dimen/vivo_upslide_fixed_drag_height_v" android:scaleType="centerInside" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <com.android.systemui.vivo.common.ui.DragAnimationView android:id="@id/vivo_upslide_drag_view_90" android:visibility="gone" android:layout_width="@dimen/vivo_upslide_fixed_drag_height_h" android:layout_height="fill_parent" android:scaleType="centerInside" android:layout_centerVertical="true" />
+    <com.android.systemui.vivo.common.ui.DragAnimationView android:id="@id/vivo_upslide_drag_view_270" android:visibility="gone" android:layout_width="@dimen/vivo_upslide_fixed_drag_height_h" android:layout_height="fill_parent" android:scaleType="centerInside" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/vivo_upslide_drag_view_0">
+        <FrameLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/recent_layout" android:layout_width="fill_parent" android:layout_height="@dimen/vivo_upslide_fixed_recents_height_v" android:layout_weight="1.0">
+            <com.android.systemui.vivo.common.upslide.recent.RecentScrollView android:id="@id/recent_parent" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/recent_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </com.android.systemui.vivo.common.upslide.recent.RecentScrollView>
+            <TextView android:textSize="15.0dip" android:textColor="@color/vivo_upslide_no_recent_apps_text_color" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/recent_none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vivo_up_slide_no_recent_apps" />
+        </FrameLayout>
+        <View android:id="@id/divider1" android:background="@color/vivo_upslide_divider_background" android:layout_width="fill_parent" android:layout_height="@dimen/vivo_upslide_divider_height" />
+        <View android:id="@id/divider2" android:background="@color/vivo_upslide_divider_background" android:layout_width="fill_parent" android:layout_height="@dimen/vivo_upslide_divider_height" />
+        <View android:id="@id/divider4" android:background="@color/vivo_upslide_divider_background" android:layout_width="fill_parent" android:layout_height="@dimen/vivo_upslide_divider_height" />
+        <FrameLayout android:id="@id/switchers_layout" android:layout_width="fill_parent" android:layout_height="@dimen/vivo_upslide_fixed_switcher_height_v">
+            <com.android.systemui.vivo.common.upslide.switcher.SwitcherScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/switcher_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </com.android.systemui.vivo.common.upslide.switcher.SwitcherScrollView>
+            <com.android.systemui.statusbar.AnimatedImageView android:layout_gravity="end|center" android:id="@id/scroll_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vivo_upslide_switchers_guide" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

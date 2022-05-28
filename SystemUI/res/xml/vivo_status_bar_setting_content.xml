@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="status_bar_setting" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/vivo_statusbar_type" android:key="vivo_statusbar_type" />
+    <VivoCheckBoxPreference android:title="@string/vivo_network_speed_switch" android:key="network_speed" android:defaultValue="false" />
+    <VivoCheckBoxPreference android:title="@string/vivo_power_percent_switch" android:key="battery_percentage" android:defaultValue="false" />
+    <VivoCheckBoxPreference android:title="@string/vivo_schedule_switch" android:key="schedule" android:defaultValue="false" />
+    <VivoCheckBoxPreference android:title="@string/vivo_netweork_flow_switch" android:key="network_flow" android:defaultValue="false" />
+    <VivoCheckBoxPreference android:title="@string/vivo_notification_icon_redraw_switch" android:key="icon_redraw" android:defaultValue="false" />
+    <PreferenceCategory style="?vivo:attr/dividerPreferenceStyle" />
+    <PreferenceCategory android:title="@string/vivo_notification_type" android:key="notification_type" />
+    <PreferenceCategory android:key="notification_ops_show_divider" style="?vivo:attr/dividerPreferenceStyle" />
+    <PreferenceCategory android:title="@string/vivo_notification_to_show_item" android:key="notification_ops_show" />
+    <PreferenceCategory android:key="notification_ops_not_show_divider" style="?vivo:attr/dividerPreferenceStyle" />
+    <PreferenceCategory android:title="@string/vivo_notification_not_to_show_item" android:key="notification_ops_not_show" />
+</PreferenceScreen>

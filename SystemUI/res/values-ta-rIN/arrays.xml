@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item>Wi-Fi</item>
+        <item>ஸ்கேன் செய்கிறது...</item>
+        <item>இணைக்கிறது...</item>
+        <item>அங்கீகரிக்கிறது…</item>
+        <item>IP-ஐப் பெறுகிறது…</item>
+        <item>இணைக்கப்பட்டது</item>
+        <item>இடைநிறுத்தப்பட்டது</item>
+        <item>துண்டிக்கிறது…</item>
+        <item>துண்டிக்கப்பட்டது</item>
+        <item>தோல்வியடைந்தது</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Wi-Fi</item>
+        <item>ஸ்கேன் செய்கிறது...</item>
+        <item>இணைக்கிறது...</item>
+        <item>அங்கீகரிக்கிறது…</item>
+        <item>IP-ஐப் பெறுகிறது…</item>
+        <item>இணைக்கப்பட்டது%1$s</item>
+        <item>இடைநிறுத்தப்பட்டது</item>
+        <item>துண்டிக்கிறது…</item>
+        <item>துண்டிக்கப்பட்டது</item>
+        <item>தோல்வியடைந்தது</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>உங்கள் தந்தையின் பெயர் என்ன?</item>
+        <item>உங்கள் தாயின் பெயர் என்ன?</item>
+        <item>உங்கள் மனைவியின் பெயர் என்ன?</item>
+        <item>நீங்கள் எந்த தொடக்கப் பள்ளிக்கு சென்றீர்கள்?</item>
+        <item>உங்கள் துவக்க பள்ளி ஆசிரியரின் பெயர் என்ன?</item>
+        <item>உங்கள் உயர் பள்ளி ஆசிரியர் பெயர் என்ன?</item>
+        <item>உங்கள் குழந்தைப்பருவ நண்பரின் பெயர் என்ன?</item>
+        <item>நீங்கள் பிறந்த இடம்?</item>
+        <item>உங்கள் மாணவர் (வேலை) அடையாள எண் என்ன?</item>
+        <item>உங்கள் அடையாள அட்டை எண்ணின் கடைசி 6 இலக்கங்கள் என்ன?</item>
+        <item>உங்கள் காரின் உரிமத் தகட்டு எண் என்ன?</item>
+        <item>நீங்கள் வேலை செய்த முதல் நிறுவனத்தின் பெயர் என்ன?</item>
+    </string-array>
+</resources>

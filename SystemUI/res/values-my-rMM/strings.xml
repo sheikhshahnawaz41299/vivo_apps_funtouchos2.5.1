@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vivo_keyguard_full_wday_month_no_year">d MMM</string>
+    <string name="vivo_keyguard_full_wday_no_year">E</string>
+    <string name="app_label">စနစ်ပိုင်း UI</string>
+    <string name="status_bar_clear_all_button">ရှင်းပစ်ပါ</string>
+    <string name="status_bar_recent_remove_item_title">စာရင်းမှ ဖယ်ထုတ်ပါ</string>
+    <string name="status_bar_recent_inspect_item_title">App အချက်အလက်</string>
+    <string name="status_bar_no_recent_apps">သင့်လတ်တလော ကြည့်ရှုထားသည့် စခရင်များကို ဤနေရာတွင် ပြသမည်</string>
+    <string name="status_bar_accessibility_dismiss_recents">လက်တလော အက်ပ်များကို ဖယ်ပစ်ပါ</string>
+    <string name="status_bar_no_notifications_title">အသိပေးချက်များ မရှိပါ</string>
+    <string name="status_bar_ongoing_events_title">ဆက်ဖြစ်နေသည်</string>
+    <string name="status_bar_latest_events_title">အသိပေးချက်များ</string>
+    <string name="battery_low_title">နိမ့်နေသည့် ဘတ်ထရီအဆင့်</string>
+    <string name="battery_low_percent_format">ကျန်ရှိနေသေးသည် : %s</string>
+    <string name="battery_low_percent_format_saver_started">ကျန်ရှိနေသေးသည် : %s ။ ပါဝါ ချွေတာရေး အထောက်အကူကို ဖွင့်ထားပြီးပါပြီ။</string>
+    <string name="invalid_charger">"USB အားသွင်းစက်ကို မပံ့ပိုးပါ။
+ကျေးဇူးပြု၍ ပံ့ပိုးပေးထားသော အားသွင်းစက်ကိုသာ သုံးပါ။"</string>
+    <string name="invalid_charger_title">USB အားသွင်းမှုကို မပံ့ပိုးထားပါ။</string>
+    <string name="invalid_charger_text">အားသွင်းကြိုးဖြင့် တွဲချိတ်ထားသည့် စက်ပစ္စည်းကိုသာ အားသွင်းနိုင်သည်။</string>
+    <string name="battery_low_why">အပြင်အဆင်များ</string>
+    <string name="battery_saver_confirmation_title">ပါဝါသက်သာစေသည့် လက်ထောက်ကို ဖွင့်မည်လား?</string>
+    <string name="battery_saver_confirmation_ok">ဖွင့်</string>
+    <string name="battery_saver_start_action">ပါဝါသက်သာစေသည့် လက်ထောက်ကို ဖွင့်ပါ</string>
+    <string name="status_bar_settings_settings_button">အပြင်အဆင်များ</string>
+    <string name="status_bar_settings_airplane">လေယာဉ်မုဒ်</string>
+    <string name="status_bar_settings_auto_rotation">စခရင်ကို အလိုအလျောက် လှည့်</string>
+    <string name="status_bar_settings_mute_label">အသံတိတ်</string>
+    <string name="status_bar_settings_auto_brightness_label">အလိုအလျောက်</string>
+    <string name="status_bar_settings_notifications">အသိပေးချက်များ</string>
+    <string name="bluetooth_tethered">ဘလူးတုသ်ချိတ်ဆက်ထားသည်</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">ထည့်သွင်းနည်းလမ်းများကို သတ်မှတ်ပါ</string>
+    <string name="status_bar_use_physical_keyboard">ကီးဘုတ်သွင်ပြင်</string>
+    <string name="usb_device_permission_prompt">%1$s app ကို USB စက်သို့ ချိတ်ဆက်ရန် ခွင့်ပြုမလား။</string>
+    <string name="usb_accessory_permission_prompt">%1$s app ကို USB ပစ္စည်းသို့ ချိတ်ဆက်ရန် ခွင့်ပြုမလား။</string>
+    <string name="usb_device_confirm_prompt">USB စက်နှင့်ချိတ်ဆက်ထားသောအခါ %1$s ကို ဖွင့်မလား။</string>
+    <string name="usb_accessory_confirm_prompt">USB ဆက်စပ်ပစ္စည်းနှင့်ချိတ်ဆက်ထားသောအခါ %1$s ကို ဖွင့်မလား။</string>
+    <string name="usb_accessory_uri_prompt">ဤ USB ဆက်စပ်ပစ္စည်းဖြင့် ထည့်ထားသော ဘယ် app မှ အလုပ်မလုပ်ပါ။ ဤ ဆက်စပ်ပစ္စည်းအကြောင်းကို %1$s တွင်ပိုမိုလေ့လာပါ</string>
+    <string name="title_usb_accessory">USB ဆက်စပ်ပစ္စည်း</string>
+    <string name="label_view">ကြည့်</string>
+    <string name="always_use_device">ဤ USB စက်အတွက် ပုံသေသတ်မှတ်ချက်အတိုင်းသုံးပါ</string>
+    <string name="always_use_accessory">ဤ USB ဆက်စပ်ပစ္စည်းအတွက် ပုံသေသတ်မှတ်ချက်အတိုင်းသုံးပါ</string>
+    <string name="usb_debugging_title">USB ဒေတာကူးယူထည့်သွင်းခြင်း ခွင့်ပြု</string>
+    <string name="usb_debugging_message">"ကွန်ပြူတာ၏ RSA ခလုတ် လက်ဗွေရာသည် - 
+%1$s"</string>
+    <string name="usb_debugging_always">ဤကွန်ပြူတာမှ အမြဲခွင့်ပြုပါ</string>
+    <string name="compat_mode_on">စခရင်အပြည် အကျယ်ချဲ့ပါ</string>
+    <string name="compat_mode_off">စခရင်အပြည့် ဆွဲဆန့်သည်</string>
+    <string name="screenshot_saving_ticker">မျက်နှာပြင်ရိုက်ချက်ကို သိမ်းနေပါသည်…</string>
+    <string name="screenshot_saving_title">မျက်နှာပြင်ရိုက်ချက်ကို သိမ်းနေပါသည်…</string>
+    <string name="screenshot_saving_text">မျက်နှာပြင်ရိုက်ချက်ကို သိမ်းထားပါသည်။</string>
+    <string name="screenshot_saved_title">မျက်နှာပြင်ရိုက်ချက် ဖမ်းပြီးပြီ</string>
+    <string name="screenshot_saved_text">သင့်မျက်နှာပြင်ရိုက်ချက်ကို ကြည့်ရန် ထိလိုက်ပါ။</string>
+    <string name="screenshot_failed_title">မျက်နှာပြင်ရိုက်ချက်ကို ဖမ်းမရခဲ့ပါ။</string>
+    <string name="screenshot_failed_text">စခရင်ရိုက်ချက် ရယူခြင်း မအောင်မြင်ခဲ့ပါ၊ ဖြစ်နိုင်သည်က လုံလောက်သည့် သိုလှောင်နေရာမရှိပါ၊ သို့မဟုတ် ဤအက်ပ်၊ သို့မဟုတ် သင့်အစိတ်အပိုင်းက ၄င်းကို ခွင့်မပြုပါ။</string>
+    <string name="usb_preference_title">USB ဖိုင်ထုတ်လွှင့်မှု ရွေးချယ်စရာများ</string>
+    <string name="use_mtp_button_title">မီဒီယာ ဖွင့်ကြည့်မှု (MTP) အဖြစ် ဆွဲတင်လိုက်သည်</string>
+    <string name="use_ptp_button_title">ကင်မရာ (PTP) အဖြစ် ဆွဲတင်လိုက်သည်</string>
+    <string name="installer_cd_button_title">Mac အတွက် Android ဖိုင်ထုတ်လွှင့်မှုအက်ပ်ကို ထည့်သွင်းပါ</string>
+    <string name="accessibility_back">နောက်သို့</string>
+    <string name="accessibility_home">ပင်မစခရင်</string>
+    <string name="accessibility_menu">အညွှန်း</string>
+    <string name="accessibility_recent">အပေါ်မှကြည့်ပါ</string>
+    <string name="accessibility_search_light">ရှာဖွေပါ</string>
+    <string name="accessibility_camera_button">ကင်မရာ</string>
+    <string name="accessibility_phone_button">ဖုန်း</string>
+    <string name="accessibility_unlock_button">သော့ဖွင့်ပါ</string>
+    <string name="unlock_label">သော့ဖွင့်ပါ</string>
+    <string name="phone_label">ဖုန်းကိုဖွင့်ပါ</string>
+    <string name="camera_label">ကင်မရာကိုဖွင့်ပါ</string>
+    <string name="accessibility_ime_switch_button">ရိုက်သွင်းနည်းလမ်းခလုတ် ပြောင်းပါ။</string>
+    <string name="accessibility_compatibility_zoom_button">လိုက်ဖက်သော မှန်ဘီးလူး ခလုတ်။</string>
+    <string name="accessibility_compatibility_zoom_example">သေးငယ်သောမှ ကြီးသော ဖန်သားပြင် မှန်ဘီလူး။</string>
+    <string name="accessibility_bluetooth_connected">ဘလူးတုသ် ချိတ်ဆက်ထားပါသည်။</string>
+    <string name="accessibility_bluetooth_disconnected">ဘလူးတုသ် ချိတ်ဆက်မှုမရှိပါ။</string>
+    <string name="accessibility_no_battery">ဘတ်ထရီမရှိ။</string>
+    <string name="accessibility_battery_one_bar">ဘက်ထရီ တစ်ဘား ရှိသည်။</string>
+    <string name="accessibility_battery_two_bars">ဘက်ထရီ နှစ်ဘား ရှိသည်။</string>
+    <string name="accessibility_battery_three_bars">ဘက်ထရီ သုံးဘား ရှိသည်။</string>
+    <string name="accessibility_battery_full">ဘက်ထရီ အားပြည့်နေသည်။</string>
+    <string name="accessibility_no_phone">ဖုန်းမရှိပါ။</string>
+    <string name="accessibility_phone_one_bar">ဖုန်း ဘားတစ်ခု။</string>
+    <string name="accessibility_phone_two_bars">ဖုန်း ဘား နှစ်ခု။</string>
+    <string name="accessibility_phone_three_bars">ဖုန်း ဘားသုံးခု။</string>
+    <string name="accessibility_phone_signal_full">ဖုန်း အချက်ပြမှု အပြည့်။</string>
+    <string name="accessibility_no_data">ဒေတာ မရှိပါ။</string>
+    <string name="accessibility_data_one_bar">ဒေတာ ဘားတစ်ခု။</string>
+    <string name="accessibility_data_two_bars">ဒေတာဘား နှစ်ခု။</string>
+    <string name="accessibility_data_three_bars">ဒေတာဘား သုံးခု။</string>
+    <string name="accessibility_data_signal_full">ဒေတာအချက်ပြမှု အပြည့်။</string>
+    <string name="accessibility_wifi_off">Wi-Fi ကိုပိတ်ထားပြီးဖြစ်သည်။</string>
+    <string name="accessibility_no_wifi">Wi-Fi ချိတ်ဆက်မှုဖြတ်လိုက်သည်။</string>
+    <string name="accessibility_wifi_one_bar">Wi-Fi အချက်ပြမှုအား တစ်ဆင့်သာရှိသည်။</string>
+    <string name="accessibility_wifi_two_bars">Wi-Fi အချက်ပြမှုအား နှစ်ဆင့်ရှိသည်။</string>
+    <string name="accessibility_wifi_three_bars">Wi-Fi အချက်ပြမှုအား သုံးဆင့်ရှိသည်။</string>
+    <string name="accessibility_wifi_signal_full">Wi-Fi အချက်ပြမှုအား အပြည့်ရှိသည်။</string>
+    <string name="accessibility_wifi_name">%sသို့ချိတ်ဆက်ခဲ့သည်။</string>
+    <string name="accessibility_bluetooth_name">%sသို့ချိတ်ဆက်ခဲ့သည်။</string>
+    <string name="accessibility_no_wimax">WiMAX မရှိပါ။</string>
+    <string name="accessibility_wimax_one_bar">WiMAX ဘားတစ်ခု။</string>
+    <string name="accessibility_wimax_two_bars">WiMAX ဘား နှစ်ခု။</string>
+    <string name="accessibility_wimax_three_bars">WiMAX ဘားသုံးခု။</string>
+    <string name="accessibility_wimax_signal_full">WiMAX အချက်ပြမှု အပြည့်။</string>
+    <string name="accessibility_no_signal">အချက်ပြမှု မရှိပါ။</string>
+    <string name="accessibility_not_connected">မချိတ်ဆက်ထားပါ။</string>
+    <string name="accessibility_zero_bars">အချက်ပြမှု မရှိ။</string>
+    <string name="accessibility_one_bar">တစ်ဘား။</string>
+    <string name="accessibility_two_bars">နှစ်ဘား။</string>
+    <string name="accessibility_three_bars">သုံးဘား။</string>
+    <string name="accessibility_signal_full">အချက်ပြမှု အပြည့်။</string>
+    <string name="accessibility_desc_on">ဖွင့်ပါ။</string>
+    <string name="accessibility_desc_off">ပိတ်.</string>
+    <string name="accessibility_desc_connected">ချိတ်ဆက်လျက်ရှိသည်။</string>
+    <string name="accessibility_desc_connecting">ချိတ်ဆက်နေသည်။</string>
+    <string name="accessibility_data_connection_roaming">ရွမ်းမင်း</string>
+    <string name="accessibility_data_connection_edge">အစွန်း</string>
+    <string name="accessibility_no_sim">SIM မရှိပါ။</string>
+    <string name="accessibility_bluetooth_tether">ဘလူးတုသ် ချိတ်ဆက်ခြင်း။</string>
+    <string name="accessibility_airplane_mode">လေယာဉ်မုဒ်။</string>
+    <string name="accessibility_settings_button">စနစ်ဆက်တင်များ</string>
+    <string name="accessibility_notifications_button">အသိပေးချက်များ။</string>
+    <string name="accessibility_remove_notification">အသိပေးချက် ရှင်းပစ်ပါ။</string>
+    <string name="accessibility_gps_enabled">GPS ကိုဖွင့်ထားပြီးဖြစ်သည်</string>
+    <string name="accessibility_gps_acquiring">GPS အချက်ပြမှုအား ရယူနေသည်။</string>
+    <string name="accessibility_tty_enabled">တယ်လီစာရိုက်စက် ဖွင့်ထားသည်။</string>
+    <string name="accessibility_ringer_vibrate">အသံမြည်သည့်အရာ တုန်ခါပါ။</string>
+    <string name="accessibility_ringer_silent">ဖုန်းမြည်သံ အသံတိတ်ထားသည်</string>
+    <string name="accessibility_recents_item_will_be_dismissed">%sကိုဖယ်ရှားပါ။</string>
+    <string name="accessibility_recents_item_dismissed">%s ဖြုတ်ပစ်ထားသည်။</string>
+    <string name="accessibility_recents_item_launched">%sကိုစတင်နေသည်။</string>
+    <string name="accessibility_notification_dismissed">အသိပေးချက်ကို ဖြုတ်ထားသည်။</string>
+    <string name="accessibility_desc_notification_shade">အသိပေးချက် အရိပ်။</string>
+    <string name="accessibility_desc_quick_settings">အမြန် ဆက်တင်များ။</string>
+    <string name="accessibility_desc_lock_screen">သော့ခတ်စခရင်။</string>
+    <string name="accessibility_desc_settings">အပြင်အဆင်များ</string>
+    <string name="accessibility_desc_recent_apps">အပေါ်ယံကြည့်ရှုခြင်း။</string>
+    <string name="accessibility_quick_settings_user">အသုံးပြုသူ %s။</string>
+    <string name="accessibility_quick_settings_wifi">%1$s.</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">Wi-Fi ကိုပိတ်ထားပြီးဖြစ်သည်။</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">Wi-Fi ကိုဖွင့်ထားသည်။</string>
+    <string name="accessibility_quick_settings_mobile">မိုဘိုင်း %1$s,. %2$s,. %3$s။</string>
+    <string name="accessibility_quick_settings_battery">ဘက်ထရီ %s။</string>
+    <string name="accessibility_quick_settings_airplane_off">လေယာဉ်ပျံမုဒ်ပိတ်ထားသည်။</string>
+    <string name="accessibility_quick_settings_airplane_on">လေယာဉ်ပျံမုဒ်ဖွင့်ထားသည်။</string>
+    <string name="accessibility_quick_settings_airplane_changed_off">လေယာဉ်ပျံမုဒ်ကို ပိတ်ထားပြီးဖြစ်သည်။</string>
+    <string name="accessibility_quick_settings_airplane_changed_on">လေယာဉ်ပျံမုဒ်ကို ဖွင့်ထားပြီးဖြစ်သည်။</string>
+    <string name="accessibility_quick_settings_bluetooth_off">ဘလူးတုသ် ပိတ်ထားသည်။</string>
+    <string name="accessibility_quick_settings_bluetooth_on">ဘလူးတုသ် ဖွင့်ထားသည်။</string>
+    <string name="accessibility_quick_settings_bluetooth_connecting">ဘလူးတုသ် ချိတ်ဆက်နေသည်။</string>
+    <string name="accessibility_quick_settings_bluetooth_connected">ဘလူးတုသ် ချိတ်ဆက်ထားပါသည်။</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_off">ဘလူးတုသ် ပိတ်ထားသည်။</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_on">ဘလူးတုသ် ဖွင့်ထားသည်။</string>
+    <string name="accessibility_quick_settings_location_off">တည်နေရာ အစီရင်ခံမှု လုပ်ဆောင်ချက် ပိတ်ပါ။</string>
+    <string name="accessibility_quick_settings_location_on">တည်နေရာ အစီရင်ခံမှု လုပ်ဆောင်ချက် ဖွင့်ပါ။</string>
+    <string name="accessibility_quick_settings_location_changed_off">တည်နေရာ အစီရင်ခံမှု လုပ်ဆောင်ချက်ကို ပိတ်ထားပြီးဖြစ်သည်။</string>
+    <string name="accessibility_quick_settings_location_changed_on">တည်နေရာ အစီရင်ခံမှု လုပ်ဆောင်ချက်ကို ဖွင့်ထားပြီးဖြစ်သည်။</string>
+    <string name="accessibility_quick_settings_alarm">%s အတွက် နှိုးစက် သတ်မှတ်ပါ။</string>
+    <string name="accessibility_quick_settings_close">ဘားတန်းကို ပိတ်ပါ။</string>
+    <string name="accessibility_quick_settings_more_time">ထပ်ဆောင်းလိုက်သည့် အချိန်။</string>
+    <string name="accessibility_quick_settings_less_time">တိုတောင်းလိုက်သည့် အချိန်။</string>
+    <string name="accessibility_quick_settings_flashlight_off">ဖလက်ရှ်မီး ပိတ်ထားသည်။</string>
+    <string name="accessibility_quick_settings_flashlight_on">ဖလက်ရှ်မီး ဖွင့်ထားသည်။</string>
+    <string name="accessibility_quick_settings_flashlight_changed_off">ဖလက်ရှ်မီးကို ပိတ်ထားပြီးဖြစ်သည်။</string>
+    <string name="accessibility_quick_settings_flashlight_changed_on">ဖလက်ရှ်မီး ပွင့်နေသည်။</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_off">အရောင်ပြောင်းပြန်ပြုလုပ်သည့် လုပ်ဆောင်ချက်ကို ပိတ်ထားသည်။</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_on">အရောင်ပြောင်းပြန်ပြုလုပ်သည့် လုပ်ဆောင်ချက်ကို ဖွင့်ထားသည်။</string>
+    <string name="accessibility_quick_settings_hotspot_changed_off">မိုဘိုင်းဟော့စပေါ့ကို ပိတ်ထားပြီးဖြစ်သည်။</string>
+    <string name="accessibility_quick_settings_hotspot_changed_on">မိုဘိုင်းဟော့စပေါ့ကို ဖွင့်ထားပြီးဖြစ်သည်။</string>
+    <string name="accessibility_casting_turned_off">စခရင်ပြသမှု ရပ်တန့်သွားသည်။</string>
+    <string name="accessibility_brightness">တောက်ပမှု</string>
+    <string name="data_usage_disabled_dialog_3g_title">2G-3G ဒေတာကွန်ရက်ကို ပိတ်ပြီးဖြစ်ပါသည်</string>
+    <string name="data_usage_disabled_dialog_4g_title">4G ဒေတာကွန်ရက်ကို ပိတ်ပြီးဖြစ်ပါသည်</string>
+    <string name="data_usage_disabled_dialog_mobile_title">မိုဘိုင်းဒေတာကွန်ရက်ကို ပိတ်ပြီးဖြစ်ပါသည်</string>
+    <string name="data_usage_disabled_dialog_title">ဒေတာကွန်ရက်ကို ပိတ်ပြီးဖြစ်ပါသည်</string>
+    <string name="data_usage_disabled_dialog">"ဒေတာသွားလာမှုက ထိပ်ပိုင်းကန့်သတ်မှုသို့ ရောက်ရှိသွားပါပြီ၊ သင့်စက်ပစ္စည်းအပေါ်မှ ဒေတာကွန်ရက်ကို ပိတ်ပြီးဖြစ်ပါသည်။
+
+ဒေတာကွန်ရက်ကို ဖွင့်ပါ၊ သင့်ကယ်ရီယာက သင့်ကိုငွေကောက်ခံမည်။"</string>
+    <string name="data_usage_disabled_dialog_enable">ဒေတာကွန်ရက်ကို ဖွင့်ပါ</string>
+    <string name="status_bar_settings_signal_meter_disconnected">အင်တာနက်ချိတ်ဆက်မှု မရှိပါ</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi ချိတ်ဆက်နေသည်</string>
+    <string name="gps_notification_searching_text">GPS ရှာဖွေနေသည်</string>
+    <string name="gps_notification_found_text">GPS ဖြင့်တည်နေရာ သတ်မှတ်ပါ</string>
+    <string name="accessibility_location_active">appက မှန်သည့် တည်နေရာ အချက်အလက်များကို တောင်းနေ</string>
+    <string name="accessibility_clear_all">အသိပေးချက်အားလုံးကို ရှင်းပစ်ပါ။</string>
+    <string name="status_bar_notification_inspect_item_title">အသိပေးချက် ဆက်တင်များ</string>
+    <string name="status_bar_notification_app_settings_title">%s ဆက်တင်များ</string>
+    <string name="accessibility_rotation_lock_off">စခရင်အလိုအလျောက် လှည့်မည်။</string>
+    <string name="accessibility_rotation_lock_on_landscape">စခရင်ကို မြေပြင်ရှုခင်းမုဒ်တွင် သော့ခတ်ထားသည်။</string>
+    <string name="accessibility_rotation_lock_on_portrait">စခရင်ကို ထောင်လိုက်မုဒ်တွင် သော့ခတ်ထားသည်။</string>
+    <string name="accessibility_rotation_lock_off_changed">စခရင်က ယခုအလိုအလျောက် လှည့်မည်။</string>
+    <string name="accessibility_rotation_lock_on_landscape_changed">စခရင်ကို မြေပြင်ရှုခင်းမုဒ်တွင် ယခုသော့ခတ်ထားသည်။</string>
+    <string name="accessibility_rotation_lock_on_portrait_changed">စခရင်ကို ထောင်လိုက်မုဒ်တွင် ယခုသော့ခတ်ထားသည်။</string>
+    <string name="dessert_case">သကြားလုံးဘူး</string>
+    <string name="start_dreams">အတွေးတွင်နစ်မျောမှု</string>
+    <string name="ethernet_label">အီသာနက်</string>
+    <string name="quick_settings_airplane_mode_label">လေယာဉ်မုဒ်</string>
+    <string name="quick_settings_bluetooth_label">ဘလူးတုသ်</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">ဘလူးတုသ် (%d စက်များ)</string>
+    <string name="quick_settings_bluetooth_off_label">ဘလူးတုသ် ပိတ်ပါ</string>
+    <string name="quick_settings_bluetooth_detail_empty_text">ရရှိနိုင်သည့် ယှဉ်တွဲစက်ပစ္စည်းများ မရှိပါ</string>
+    <string name="quick_settings_brightness_label">တောက်ပမှု</string>
+    <string name="quick_settings_rotation_unlocked_label">အလိုအလျောက် လှည့်</string>
+    <string name="quick_settings_rotation_locked_label">လှည့်ခြင်းကို သော့ခတ်ထားသည်</string>
+    <string name="quick_settings_rotation_locked_portrait_label">ဒေါင်လိုက်</string>
+    <string name="quick_settings_rotation_locked_landscape_label">အလျားလိုက်</string>
+    <string name="quick_settings_ime_label">စာရိုက်ထည့်ခြင်း နည်းလမ်း</string>
+    <string name="quick_settings_location_label">တည်နေရာကို သုံးနေပါသည်</string>
+    <string name="quick_settings_location_off_label">တည်နေရာ ပိတ်ထားသည်</string>
+    <string name="quick_settings_media_device_label">မီဒီယာစက်</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">အရေးပေါ် ခေါ်ဆိုမှုများသာ</string>
+    <string name="quick_settings_settings_label">အပြင်အဆင်များ</string>
+    <string name="quick_settings_time_label">အချိန်တိုင်းကိရိယာ</string>
+    <string name="quick_settings_user_label">ကျွန်ုပ်</string>
+    <string name="quick_settings_user_title">အသုံးပြုသူ</string>
+    <string name="quick_settings_user_new_user">သုံးစွဲသူ အသစ်</string>
+    <string name="quick_settings_wifi_not_connected">မချိတ်ဆက်ထားပါ</string>
+    <string name="quick_settings_wifi_no_network">ကွန်ရက်မရှိ</string>
+    <string name="quick_settings_wifi_off_label">Wi-Fi ပိတ်</string>
+    <string name="quick_settings_wifi_detail_empty_text">သိမ်းဆည်းထားသည့် ကွန်ရက်မရှိပါ</string>
+    <string name="quick_settings_cast_title">Cast Screen</string>
+    <string name="quick_settings_casting">ထိုးပြနေသည်</string>
+    <string name="quick_settings_cast_device_default_name">အမည်မပေးထားသည့် စက်ပစ္စည်း</string>
+    <string name="quick_settings_cast_device_default_description">ထိုးပြမှုအတွက် အသင့်ဖြစ်သည်</string>
+    <string name="quick_settings_cast_detail_empty_text">ရရှိနိုင်သည့် စက်ပစ္စည်းများ မရှိပါ</string>
+    <string name="quick_settings_brightness_dialog_title">တောက်ပမှု</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">အလိုအလျောက်</string>
+    <string name="quick_settings_inversion_label">ဆန့်ကျင်ဘက်</string>
+    <string name="quick_settings_color_space_label">အရောင်ချိန်ညှိမှု စက်ပစ္စည်း</string>
+    <string name="quick_settings_more_settings">နောက်ထပ် ဆက်တင်များ</string>
+    <string name="quick_settings_done">လုပ်ပြီးပြီ</string>
+    <string name="quick_settings_connected">ချိတ်ဆက်လျက်ရှိသည်</string>
+    <string name="quick_settings_connected_via_wfa">ချိတ်ဆက်ထားသည် (Wi-Fi ထောက်ကူ မှတဆင့်)</string>
+    <string name="quick_settings_connecting">ဖိတ်ခေါ်ထားသည်</string>
+    <string name="quick_settings_tethering_label">ကွန်ယက် ဝေမျှခြင်း</string>
+    <string name="quick_settings_hotspot_label">ဟော့စပေါ့</string>
+    <string name="quick_settings_notifications_label">အသိပေးချက်များ</string>
+    <string name="quick_settings_flashlight_label">ဖလက်ရှ်မီး</string>
+    <string name="quick_settings_cellular_detail_title">မိုဘိုင်းဒေတာကွန်ရက်</string>
+    <string name="quick_settings_cellular_detail_data_usage">ဒေတာသုံးစွဲမှု</string>
+    <string name="quick_settings_cellular_detail_remaining_data">ကျန်ရှိနေသည့်ဒေတာ</string>
+    <string name="quick_settings_cellular_detail_over_limit">အများဆုံး အကန့်အသတ်သို့ ကျော်လွန်ထားသည်</string>
+    <string name="quick_settings_cellular_detail_data_used">%s ကိုအသုံးပြုထားသည်</string>
+    <string name="quick_settings_cellular_detail_data_limit">ထိပ်ပိုင်းကန့်သတ်မှု %s</string>
+    <string name="quick_settings_cellular_detail_data_warning">%s သတိပေးချက်</string>
+    <string name="recents_empty_message">သင့်လတ်တလော ကြည့်ရှုထားသည့် စခရင်များကို ဤနေရာတွင် ပြသမည်</string>
+    <string name="recents_app_info_button_label">App အချက်အလက်</string>
+    <string name="recents_lock_to_app_button_label">ပုံသေပြုလုပ်ထားသည့် စခရင်</string>
+    <string name="recents_search_bar_label">ရှာဖွေပါ</string>
+    <string name="recents_launch_error_message">%sကိုမစတင်နိုင်ပါ။</string>
+    <string name="expanded_header_battery_charged">အားသွင်းပါ</string>
+    <string name="expanded_header_battery_charging">အားသွင်းနေသည်</string>
+    <string name="expanded_header_battery_charging_with_time">အပြည့်အ၀ အားသွင်းရန် %s လိုအပ်သည်</string>
+    <string name="expanded_header_battery_not_charging">အားသွင်းမနေပါ</string>
+    <string name="ssl_ca_cert_warning">"ကွန်ယက်မှာ 
+စောင့်ကြပ်ခံရနိုင်သည်"</string>
+    <string name="description_target_search">ရှာဖွေပါ</string>
+    <string name="description_direction_up">%s အတွက် အပေါ်ကို ပွတ်ဆွဲပါ။</string>
+    <string name="description_direction_left">%s အတွက် ဘယ်ကို ပွတ်ဆွဲပါ။</string>
+    <string name="zen_no_interruptions_with_warning">သုည ကြား၀င်မှု (နှိုးစက်များပင် မပါ၀င်)။</string>
+    <string name="zen_no_interruptions">တားမြစ်ထားသည့် အနှောင့်အယှက်</string>
+    <string name="zen_important_interruptions">ဦးစားပေး ကြား၀င်မှုမာျးကိုသာ ကန့်သတ်ပါ</string>
+    <string name="zen_alarm_information_time">နောက်နှိုးစက်မြည်မည့်အချိန် %s</string>
+    <string name="zen_alarm_information_day_time">နောက်နှိုးစက်မြည်မည့်အချိန် %s</string>
+    <string name="zen_alarm_warning">%s တွင်မြည်မည့် နှိုးစက်သံကို သင်ကြားရမည်မဟုတ်ပါ</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
+    <string name="speed_bump_explanation">အရေးကြီး သတိပေးအချက်ပြမှုများကို အောက်တွင် ပြသမည်</string>
+    <string name="notification_tap_again">ဖွင့်ရန် နောက်တစ်ကြိမ်ထိပါ</string>
+    <string name="keyguard_unlock">သော့ဖွင့်ရန် အပေါ်သို့ ပွတ်ဆွဲပါ</string>
+    <string name="phone_hint">ဖုန်းခေါ်ဆိုသည့် အင်တာဖေ့စ်ကို ဖွင့်ရန် ညာဘက်သို့ ပွတ်ဆွဲပါ</string>
+    <string name="camera_hint">ကင်မရာကို ဖွင်ရန် ဘယ်ဘက်သို့ ပွတ်ဆွဲပါ</string>
+    <string name="interruption_level_none">ဘာမှမဟုတ်</string>
+    <string name="interruption_level_priority">ဦးစားပေး အဆင့်</string>
+    <string name="interruption_level_all">အားလုံး</string>
+    <string name="keyguard_indication_charging_time">အားသွင်းနေသည် (အားအပြည့်ဖြစ်ရန် %s လိုအပ်သည်)</string>
+    <string name="accessibility_multi_user_switch_switcher">သုံးစွဲသူပြောင်းပါ</string>
+    <string name="accessibility_multi_user_switch_switcher_with_current">သုံးစွဲသူ ပြောင်းလဲပါ၊ လက်ရှိသုံးစွဲသူက %s ဖြစ်သည်</string>
+    <string name="accessibility_multi_user_switch_quick_contact">ပုဂ္ဂိုလ်ရေး အချက်အလက်ကို ပြပါ</string>
+    <string name="user_add_user">သုံးစွဲသူ ပေါင်းထည့်ပါ</string>
+    <string name="user_new_user_name">သုံးစွဲသူ အသစ်</string>
+    <string name="guest_nickname">ဧည့်သည်</string>
+    <string name="guest_new_guest">ဧည့်သည်ကို ပေါင်းထည့်ပါ</string>
+    <string name="guest_exit_guest">ဧည့်သည်(များ)ကို ဖယ်ရှားပါ</string>
+    <string name="guest_exit_guest_dialog_title">ဧည့်သည်(များ)ကို ဖယ်ရှားမည်လား?</string>
+    <string name="guest_exit_guest_dialog_message">ဤအချိန်ပိုင်းအတွင်းမှ အက်ပ်များနှင့် ဒေတာများ အားလုံးကို ဖျက်ပစ်မည်။</string>
+    <string name="guest_exit_guest_dialog_remove">ဖယ်ရှားပစ်ပါ</string>
+    <string name="guest_wipe_session_title">ဧည့်သည်၊ ကြိုဆိုပါသည်!</string>
+    <string name="guest_wipe_session_message">သင့်အချိန်ပိုင်းကို ဆက်လက်အသုံးပြုမည်လား?</string>
+    <string name="guest_wipe_session_wipe">ပြန်လည်စတင်မည်</string>
+    <string name="guest_wipe_session_dontwipe">ဟုတ်ကဲ့၊ ဆက်လုပ်ပါ။</string>
+    <string name="user_add_user_title">သုံးစွဲသူအသစ် ပေါင်းထည့်မည်လား?</string>
+    <string name="user_add_user_message_short">"သုံးစွဲသူအသစ်ကို သင်ပေါင်းထည့်စဉ် သုံးစွဲသူက သူ/သူမ၏ ကိုယ်ပိုင်နေရာကို သတ်မှတ်ရမည်။
+
+သုံးစွဲသူတိုင်းက အခြားသုံးစွဲသူများအားလုံးအတွက် အက်ပ်များကို အသစ်မွမ်းမံနိုင်သည်။"</string>
+    <string name="battery_saver_notification_title">ပါဝါသက်သာစေသည့် လက်ထောက်ကို ဖွင့်ထားပြီးဖြစ်သည်။</string>
+    <string name="battery_saver_notification_text">နိမ့်သော စွမ်းဆောင်ရည်နှင့် ကန့်သတ်ထားသည့် နောက်ကွယ် ဒေတာသွားလာမှု</string>
+    <string name="battery_saver_notification_action_text">ပါဝါသက်သာစေသည့် လက်ထောက်ကို ပိတ်ပါ</string>
+    <string name="notification_hidden_text">ပါ၀င်အကြောင်းအရာကို ဝှက်ထားသည်</string>
+    <string name="media_projection_dialog_text">သင့်စခရင်အပေါ်တွင် ပြသလိုက်သည့် ပါ၀င်အကြောင်းအရာများအားလုံးကို %s ကစတင်ရိုက်ကူးနေသည်။</string>
+    <string name="media_projection_remember_text">ထပ်မပြပါနှင့်</string>
+    <string name="clear_all_notifications_text">အားလုံးရှင်းပစ်ပါ</string>
+    <string name="media_projection_action_text">ယခု စတင်ပါ</string>
+    <string name="empty_shade_text">အသိပေးချက်များ မရှိပါ</string>
+    <string name="device_owned_footer">စက်ပစ္စည်းကို စောင့်ကြည့်နေနိုင်သည်</string>
+    <string name="profile_owned_footer">ဒေတာကို စောင့်ကြည့်နေနိုင်သည်</string>
+    <string name="vpn_footer">ကွန်ယက်မှာ စောင့်ကြပ်ခံရနိုင်သည်</string>
+    <string name="monitoring_title_device_owned">စက်ပစ္စည်း စောင့်ကြည့်နေသည်</string>
+    <string name="monitoring_title_profile_owned">ဒေတာ စောင့်ကြည့်နေသည်</string>
+    <string name="monitoring_title">ကွန်ယက် ထောက်လှန်း</string>
+    <string name="disable_vpn">VPN ကိုပိတ်ပါ</string>
+    <string name="disconnect_vpn">VPN ချိတ်ဆက်မှုမှ ဖြတ်တောက်ပါ</string>
+    <string name="monitoring_description_device_owned">"ဤစက်ပစ္စည်းကို ဖော်ပြပါအဖွဲ့က စီမံကွပ်ကဲနေသည်-
+%1$s
+
+သင့်စီမံခန့်ခွဲသူက အီးမေးလ်များ လက်ခံခြင်းနှင့် ပေးပို့ခြင်း၊ အက်ပ်များ အသုံးပြုခြင်းနှင့် စိတ်ချရသည့် ၀က်ဘ်ဆိုက်များသို့ ကြည့်ရှုခြင်းများ အစရှိသည့် သင့်စက်ပစ္စည်းများနှင့် အွန်လိုင်း လှုပ်ရှားမှုများကို စောင့်ကြည့်နေနိုင်သည်။
+
+အသေးစိတ်အတွက် ကျေးဇူးပြု၍ သင့်စီမံအုပ်ချုပ်သူကို ဆက်သွယ်ပါ။"</string>
+    <string name="monitoring_description_vpn">"သင်သည်VPN ချိတ်ဆက်မှုကို ပုံဖော်ရန် \"%1$s\" ကိုခွင့်ပြုပေးခဲ့သည်။
+
+ဤအက်ပ်က အီးမေးလ်များ လက်ခံခြင်းနှင့် ပေးပို့ခြင်း၊ အက်ပ်များ အသုံးပြုခြင်းနှင့် စိတ်ချရသည့် ၀က်ဘ်ဆိုက်များသို့ ကြည့်ရှုခြင်းများ အစရှိသည့် သင့်စက်ပစ္စည်းများနှင့် အွန်လိုင်း လှုပ်ရှားမှုများကို စောင့်ကြည့်နေနိုင်သည်။"</string>
+    <string name="monitoring_description_legacy_vpn">"သင်သည် (\"%1$s\") VPN သို့ချိတ်ဆက်လိုက်သည်။
+
+သင့် VPN ထောက်ပံ့ပေးသူက အီးမေးလ်များ လက်ခံခြင်းနှင့် ပေးပို့ခြင်း၊ အက်ပ်များ အသုံးပြုခြင်းနှင့် စိတ်ချရသည့် ၀က်ဘ်ဆိုက်များသို့ ကြည့်ရှုခြင်းများ အစရှိသည့် သင့်စက်ပစ္စည်းများနှင့် အွန်လိုင်း လှုပ်ရှားမှုများကို စောင့်ကြည့်နေနိုင်သည်။"</string>
+    <string name="monitoring_description_vpn_device_owned">"ဤစက်ပစ္စည်းကို ဖော်ပြပါအဖွဲ့က စီမံကွပ်ကဲနေသည်-
+%1$s
+
+သင့်စီမံခန့်ခွဲသူက အီးမေးလ်များ လက်ခံခြင်းနှင့် ပေးပို့ခြင်း၊ အက်ပ်များ အသုံးပြုခြင်းနှင့် စိတ်ချရသည့် ၀က်ဘ်ဆိုက်များသို့ ကြည့်ရှုခြင်းများ အစရှိသည့် သင့်အွန်လိုင်း လှုပ်ရှားမှုများကို စောင့်ကြည့်နေနိုင်သည်။ အသေးစိတ်အတွက် ကျေးဇူးပြု၍ သင့်စီမံအုပ်ချုပ်သူကို ဆက်သွယ်ပါ။
+
+ထို့အပြင်၊ သင်သည်VPN ချိတ်ဆက်မှုကို ပုံဖော်ရန် \"%2$s\" ကိုခွင့်ပြုပေးခဲ့သည်။ ဤအက်ပ်က ကွန်ရက်လှုပ်ရှားမှုများကို စောင့်ကြည့်နေနိုင်သည်။"</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"ဤစက်ပစ္စည်းကို ဖော်ပြပါအဖွဲ့က စီမံကွပ်ကဲနေသည်-
+%1$s
+
+သင့်စီမံခန့်ခွဲသူက အီးမေးလ်များ လက်ခံခြင်းနှင့် ပေးပို့ခြင်း၊ အက်ပ်များ အသုံးပြုခြင်းနှင့် စိတ်ချရသည့် ၀က်ဘ်ဆိုက်များသို့ ကြည့်ရှုခြင်းများ အစရှိသည့် သင့်အွန်လိုင်း လှုပ်ရှားမှုများကို စောင့်ကြည့်နေနိုင်သည်။ အသေးစိတ်အတွက် ကျေးဇူးပြု၍ သင့်စီမံအုပ်ချုပ်သူကို ဆက်သွယ်ပါ။
+
+ထို့အပြင်၊ သင်က (\"%2$s\") VPN သို့ချိတ်ဆက်ခဲ့သည်။ သင့် VPN ထောက်ပံ့သူက ကွန်ရက်လှုပ်ရှားမှုများကို စောင့်ကြည့်နိုင်သည်။"</string>
+    <string name="monitoring_description_profile_owned">"ဤဒေတာကို ဖော်ပြပါအဖွဲ့က စီမံကွပ်ကဲနေသည်-
+%1$s
+
+သင့်စီမံခန့်ခွဲသူက အီးမေးလ်များ လက်ခံခြင်းနှင့် ပေးပို့ခြင်း၊ အက်ပ်များ အသုံးပြုခြင်းနှင့် စိတ်ချရသည့် ၀က်ဘ်ဆိုက်များသို့ ကြည့်ရှုခြင်းများ အစရှိသည့် သင့်စက်ပစ္စည်းများနှင့် အွန်လိုင်း လှုပ်ရှားမှုများကို စောင့်ကြည့်နေနိုင်သည်။
+
+အသေးစိတ်အတွက် ကျေးဇူးပြု၍ သင့်စီမံအုပ်ချုပ်သူကို ဆက်သွယ်ပါ။"</string>
+    <string name="monitoring_description_device_and_profile_owned">"ဤစက်ပစ္စည်းကို ဖော်ပြပါအဖွဲ့က စီမံကွပ်ကဲနေသည်-
+%1$s
+ သင့်ဒေတာကို ဖော်ပြပါအဖွဲ့က စီမံကွပ်ကဲနေသည်-
+%2$s
+
+သင့်စီမံခန့်ခွဲသူက အီးမေးလ်များ လက်ခံခြင်းနှင့် ပေးပို့ခြင်း၊ အက်ပ်များ အသုံးပြုခြင်းနှင့် စိတ်ချရသည့် ၀က်ဘ်ဆိုက်များသို့ ကြည့်ရှုခြင်းများ အစရှိသည့် သင့်စက်ပစ္စည်းများနှင့် အွန်လိုင်း လှုပ်ရှားမှုများကို စောင့်ကြည့်နေနိုင်သည်။
+
+အသေးစိတ်အတွက် ကျေးဇူးပြု၍ သင့်စီမံအုပ်ချုပ်သူကို ဆက်သွယ်ပါ။"</string>
+    <string name="monitoring_description_vpn_profile_owned">"ဤဒေတာကို ဖော်ပြပါအဖွဲ့က စီမံကွပ်ကဲနေသည်-
+%1$s
+
+သင့်စီမံခန့်ခွဲသူက အီးမေးလ်များ လက်ခံခြင်းနှင့် ပေးပို့ခြင်း၊ အက်ပ်များ အသုံးပြုခြင်းနှင့် စိတ်ချရသည့် ၀က်ဘ်ဆိုက်များသို့ ကြည့်ရှုခြင်းများ အစရှိသည့် သင့်အွန်လိုင်း လှုပ်ရှားမှုများကို စောင့်ကြည့်နေနိုင်သည်။ အသေးစိတ်အတွက် ကျေးဇူးပြု၍ သင့်စီမံအုပ်ချုပ်သူကို ဆက်သွယ်ပါ။
+
+ထို့အပြင်၊ သင်သည်VPN ချိတ်ဆက်မှုကို ပုံဖော်ရန် \"%2$s\" ကိုခွင့်ပြုပေးခဲ့သည်။ ဤအက်ပ်က ကွန်ရက်လှုပ်ရှားမှုများကို စောင့်ကြည့်နေနိုင်သည်။"</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"ဤဒေတာကို ဖော်ပြပါအဖွဲ့က စီမံကွပ်ကဲနေသည်-
+%1$s
+
+သင့်စီမံခန့်ခွဲသူက အီးမေးလ်များ လက်ခံခြင်းနှင့် ပေးပို့ခြင်း၊ အက်ပ်များ အသုံးပြုခြင်းနှင့် စိတ်ချရသည့် ၀က်ဘ်ဆိုက်များသို့ ကြည့်ရှုခြင်းများ အစရှိသည့် သင့်အွန်လိုင်း လှုပ်ရှားမှုများကို စောင့်ကြည့်နေနိုင်သည်။ အသေးစိတ်အတွက် ကျေးဇူးပြု၍ သင့်စီမံအုပ်ချုပ်သူကို ဆက်သွယ်ပါ။
+
+ထို့အပြင်၊ သင်က (\"%2$s\") VPN သို့ချိတ်ဆက်ခဲ့သည်။ သင့် VPN ထောက်ပံ့သူက ကွန်ရက်လှုပ်ရှားမှုများကို စောင့်ကြည့်နိုင်သည်။"</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"ဤစက်ပစ္စည်းကို ဖော်ပြပါအဖွဲ့က စီမံကွပ်ကဲနေသည်-
+%1$s
+ သင့်ဒေတာကို ဖော်ပြပါအဖွဲ့က စီမံကွပ်ကဲနေသည်-
+%2$s
+
+သင့်စီမံခန့်ခွဲသူက အီးမေးလ်များ လက်ခံခြင်းနှင့် ပေးပို့ခြင်း၊ အက်ပ်များ အသုံးပြုခြင်းနှင့် စိတ်ချရသည့် ၀က်ဘ်ဆိုက်များသို့ ကြည့်ရှုခြင်းများ အစရှိသည့် သင့်အွန်လိုင်း လှုပ်ရှားမှုများကို စောင့်ကြည့်နေနိုင်သည်။ အသေးစိတ်အတွက် ကျေးဇူးပြု၍ သင့်စီမံအုပ်ချုပ်သူကို ဆက်သွယ်ပါ။
+
+ထို့အပြင်၊ သင်သည်VPN ချိတ်ဆက်မှုကို ပုံဖော်ရန် \"%3$s\" ကိုခွင့်ပြုပေးခဲ့သည်။ ဤအက်ပ်က ကွန်ရက်လှုပ်ရှားမှုများကို စောင့်ကြည့်နေနိုင်သည်။"</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"ဤစက်ပစ္စည်းကို ဖော်ပြပါအဖွဲ့က စီမံကွပ်ကဲနေသည်-
+%1$s
+ သင့်ဒေတာကို ဖော်ပြပါအဖွဲ့က စီမံကွပ်ကဲနေသည်-
+%2$s
+
+သင့်စီမံခန့်ခွဲသူက အီးမေးလ်များ လက်ခံခြင်းနှင့် ပေးပို့ခြင်း၊ အက်ပ်များ အသုံးပြုခြင်းနှင့် စိတ်ချရသည့် ၀က်ဘ်ဆိုက်များသို့ ကြည့်ရှုခြင်းများ အစရှိသည့် သင့်အွန်လိုင်း လှုပ်ရှားမှုများကို စောင့်ကြည့်နေနိုင်သည်။ အသေးစိတ်အတွက် ကျေးဇူးပြု၍ သင့်စီမံအုပ်ချုပ်သူကို ဆက်သွယ်ပါ။
+
+ထို့အပြင်၊ သင်က (\"%3$s\") VPN သို့ချိတ်ဆက်ခဲ့သည်။ သင့် VPN ထောက်ပံ့သူက ကွန်ရက်လှုပ်ရှားမှုများကို စောင့်ကြည့်နိုင်သည်။"</string>
+    <string name="keyguard_indication_trust_disabled">စက်ပစ္စည်းကို သင်ကိုယ်တိုင်သော့မဖွင့်မီ ၄င်းကိုသော့ခတ်ထားမည်</string>
+    <string name="hidden_notifications_title">သတိပေးအချက်ပြမှုများကို ပိုမိုသက်သာစွာ ကြည့်ပါ</string>
+    <string name="hidden_notifications_text">သော့မဖွင့်ဘဲ သတိပေးအချက်ပြမှုများကို ကြည့်ပါ</string>
+    <string name="hidden_notifications_cancel">ဟင့်အင်း၊ ကျေးဇူးပါပဲ</string>
+    <string name="hidden_notifications_setup">အပြင်အဆင်များ</string>
+    <string name="zen_mode_and_condition">%1$s(%2$s)</string>
+    <string name="screen_pinning_title">စခရင်ကို ပင်တွဲထားသည်</string>
+    <string name="screen_pinning_description">ပုံသေပြသမှုအား ပယ်ဖျက်သည့်တိုင် ဤဖန်သားပြင်ကို ပုံသေပြသသွားမည်။ ပယ်ဖျက်ရန် နောက်သို့ နှင့် ခြုံငုံကြည့်ရှုမှု ကိုဆက်နှိပ်ထားပါ။</string>
+    <string name="screen_pinning_description_accessible">ပုံသေပြသမှုအား ပယ်ဖျက်သည့်တိုင် ဤဖန်သားပြင်ကို ပုံသေပြသသွားမည်။ ပယ်ဖျက်ရန် ခြုံငုံကြည့်ရှုမှု ကိုဆက်နှိပ်ထားပါ။</string>
+    <string name="screen_pinning_positive">အိုကေ</string>
+    <string name="screen_pinning_negative">ဟင့်အင်း၊ ကျေးဇူးပါပဲ</string>
+    <string name="quick_settings_reset_confirmation_title">\"%1$s\" ကို ဝှက်မလား?</string>
+    <string name="quick_settings_reset_confirmation_message">ဤအပြန် သတ်မှတ်ချက် ထည့်သွင်းမှုသည် နောက်တစ်ကြိမ် သတ်မှတ်ချက်များအတွင်း ၎င်းကို ဖွင့်သည့်အခါ ပြန်လည်ပေါ်ပေါက်လာမည်ဖြစ်သည်။</string>
+    <string name="quick_settings_reset_confirmation_button">ဖွက်ပါ</string>
+    <string name="clearDefaultHintMsg">စနစ်ပိုင်းဆက်တင်ထဲတွင် ရှင်းပစ်ပါ > Apps > ဒေါင်းလုပ်ယူထားသည်များ။</string>
+    <string name="vivo_statusbar_type">အခြေအနေပြဘား</string>
+    <string name="vivo_keyguard_no_sim">SIM မရှိပါ</string>
+    <string name="vivo_keyguard_charging">လက်ရှိဘတ်ထရီအဆင့် %d%%</string>
+    <string name="vivo_keyguard_charging_complete">အားသွင်းပါ</string>
+    <string name="vivo_keyguard_holster_unlock_text">ဤသော့ဖွင့်နေရာတွင် ပွတ်ဆွဲလိုက်ပါ</string>
+    <string name="vivo_keyguard_holster_unlock_text_r">ဤသော့ဖွင့်နေရာတွင် ညာဘက်သို့ ပွတ်ဆွဲလိုက်ပါ</string>
+    <string name="vivo_keyguard_ripple_unlock_text">ပွတ်ဆွဲ၍ သော့ဖွင့်ပါ</string>
+    <string name="default_head_portrait_name">"အမည် - "</string>
+    <string name="click_tip">အောက်ဘက်မှ ဆလိုက်ကို စိတ်ကြိုက်လုပ်နိုင်ပါသည်</string>
+    <string name="lockscreen_icon_set">တည်းဖြတ်ပါ</string>
+    <string name="back">ပယ်ဖျက်ပါ</string>
+    <string name="save">သိမ်းထားပါ</string>
+    <string name="name">"အမည် - "</string>
+    <string name="name_hint">"အမည် - "</string>
+    <string name="head_icon">ကိုယ်စားပြုပုံ</string>
+    <string name="edit_icon_title">ဓာတ်ပုံကို တည်းဖြတ်ပါ</string>
+    <string name="choose_from_photo_album">ဓာတ်ပုံ ရွေးချယ်ပါ</string>
+    <string name="choose_from_take_photo">ဓာတ်ပုံ</string>
+    <string name="saving">သိမ်းနေပါသည်</string>
+    <string name="text_signature">ထိုးမြဲလက်မှတ်</string>
+    <string name="text_signature_hint">ခံစားချက်</string>
+    <string name="font_name">စာလုံးဒီဇိုင်း</string>
+    <string name="color_name">အရောင်</string>
+    <string name="font_default">ပုံသေ</string>
+    <string name="font_classic">ဂန္တ၀င်</string>
+    <string name="font_fzm">Fang Zheng Miao Wu ဖောင့်</string>
+    <string name="font_fzltblack">Lan Ting Kan Hei</string>
+    <string name="font_hwbold">HUA WEN HEI TI</string>
+    <string name="reach_length_limit">အများဆုံး 2 လိုင်းကို ပြပေးနိုင်သည်။ ထည့်သွင်းမှု ကန့်သတ်ချက် ပြည့်မီသွားပြီ</string>
+    <string name="reach_length_limit_cant_save">ကိုယ်ပိုင် လက်မှတ်မှာ ပြသမှု 2 လိုင်း ကန့်သတ်ချက်ထက် ကျော်လွန်နေသည်။ ကျေးဇူးပြုပြီး မွမ်းမံပါ</string>
+    <string name="name_input_limitation_info">စာသားများ၊ နံပါတ်များနှင့် တရုတ်စာသားများကဲ့သို့သော ရိုက်ထည့်မှုများကိုသာ အသုံးပြုနိုင်ပါသည်။ ကျေးဇူးပြု၍ နောက်တစ်ကြိမ် ထည့်သွင်းပါ!</string>
+    <string name="vivo_keyguard_nature2_guide">ဖွင့်ရန် အောက်သို့ ပွတ်ဆွဲပါ</string>
+    <string name="song_name">သီချင်းအမည်</string>
+    <string name="unknown_artist_name">အမည်မသိ</string>
+    <string name="unknown_album_name">မသိ အယ်လ်ဘမ်</string>
+    <string name="artist_name">အနုပညာရှင် အမည်</string>
+    <string name="album">အယ်လ်ဘမ်အမည်</string>
+    <string name="sdcard_busy_title">များစွာသော သိုလှောင်စရာမုဒ်ထဲတွင် မရနိုင်ပါ။</string>
+    <string name="widget_artist">အနုပညာရှင်-</string>
+    <string name="widget_album">အယ်လ်ဘမ်-</string>
+    <string name="no_lyric_textview">သီချင်းစာသား မရှိ</string>
+    <string name="signature_font">လက်မှတ် စာသားပုံစံ</string>
+    <string name="shortcut">အမြန်-စတင်မှု အပလီကေးရှင်းများ</string>
+    <string name="shortcut_left">ဘယ်ဘက် အမြန်-စတင်မှု အက်ပ်</string>
+    <string name="shortcut_right">ညာဘက် အမြန်-စတင်မှု အက်ပ်</string>
+    <string name="shortcut_none">ဘာမှမဟုတ်</string>
+    <string name="shortcut_wait_load">တင်နေသည်...</string>
+    <string name="slide_to_start">အပေါ်သို့ပွတ်ဆွဲလိုက်ပါကပရိုဂရမ်စတင်ပါမည်</string>
+    <string name="vivo_keyguard_quick_charging">အင်ဂျင်-နှစ်ခုဖြင့် အမြန်အားသွင်းမှု %d%%</string>
+    <string name="vivo_keyguard_radio_fav_toast_text">သင် ဝင်ရောက်မှုအပြုမချင်း ၎င်းကို သိုလှောင်ထား၍မရနိုင်ပါ</string>
+    <string name="vivo_keyguard_iconset_gif_too_large">ရုပ်ပုံ လွန်စွာကြီးလွန်းသည်</string>
+    <string name="vivo_keyguard_iconset_gif_type_error">ရုပ်ပုံ ပျက်စီးနေသည်</string>
+    <string name="font_hwfine">ဂန္တ၀င် ဖောင့်စာလုံးများ</string>
+    <string name="vivo_notification_tap_again">ပြီးတော့ ဖွင့်ပါ ကို နှိပ်ပါ။</string>
+    <string name="vivo_calendar_title_has">မကြာမီက ဖြစ်ရပ်များ</string>
+    <string name="vivo_calendar_title_has_not">မကြာမီက ဖြစ်ရပ်များ မရှိ</string>
+    <string name="vivo_notification_title_has">အသိပေးချက်များ</string>
+    <string name="vivo_notification_title_has_not">အသိပေးချက်များ မရှိပါ</string>
+    <string name="vivo_ongoing_title_has">ဆက်ဖြစ်နေသည်</string>
+    <string name="vivo_block_cancel">ပိတ်ဆီးမှုဖြုတ်ပါ</string>
+    <string name="vivo_block">ပိတ်ဆို့ပါ</string>
+    <string name="vivo_clear">ရှင်းပစ်ပါ</string>
+    <string name="vivo_manage">စီမံခန့်ခွဲရေး</string>
+    <string name="vivo_block_app_tip">%s အသိပေးချက်ကို ပိတ်ဆို့ထားသည်</string>
+    <string name="vivo_notification_block_activity_title">လက်ရှိ သတိပေးအချက်ပြမှု</string>
+    <string name="vivo_manage_notification">အသိပေးချက်များကို စီမံပါ</string>
+    <string name="vivo_hood_phone_jump">ဖုန်းခေါ်သည့်နေရာကို ပြန်သွားရန် တို့လိုက်ပါ</string>
+    <string name="vivo_hood_recorder_jump">အသံဖမ်းသည့်နေရာကို ပြန်သွားရန် တို့လိုက်ပါ</string>
+    <string name="vivo_hood_phone_hold">ကိုင်ထားဆဲ</string>
+    <string name="vivo_hood_phone_dialing">ဖုန်းခေါ်နေပါသည်</string>
+    <string name="vivo_hood_phone_alerting">တုန်ခါခြင်း</string>
+    <string name="vivo_status_bar_setting_title">status bar နှင့်သတိပေးချက်များ</string>
+    <string name="vivo_sheid_manager_activity_loading">တင်နေသည်...</string>
+    <string name="vivo_notification_type">အသိပေးချက်များ</string>
+    <string name="vivo_network_speed_switch">ကွန်ယက် နှုန်း ပြရန်</string>
+    <string name="vivo_power_percent_switch">ဘက်ထရီ ရာခိုင်နှုန်း</string>
+    <string name="vivo_schedule_switch">ဖြစ်ရပ်များ ပြရန်</string>
+    <string name="vivo_netweork_flow_switch">ဒေတာ သုံးစွဲမှုကို ပြရန်</string>
+    <string name="vivo_top_notification_type">ထိပ်ပိုင်းကြိုတင်ကြည့်ရှုမှုစတိုင်</string>
+    <string name="vivo_notification_manage_entry">အသိပေးချက်များကို စီမံပါ</string>
+    <string name="vivo_notification_screen_on">သတိပေးအချက်ပြမှုများအတွက် မျက်နှာပြင် အလင်းပြမှု</string>
+    <string name="vivo_label_notification_on">အကြောင်းကြားချက် ဘား</string>
+    <string name="vivo_label_keygard_notification_on">စခရင် သော့အိမ်</string>
+    <string name="vivo_label_desktop_notification_on">အမှတ်အသား</string>
+    <string name="vivo_notification_screen_on_tip">သတိပေးအချက်ပြမှုများ ၀င်ရောက်လာသည့်အခါ သော့ခတ်မျက်နှာပြင်ကို မြှင့်တင်လိုက်ခြင်းကို ထိန်းချုပ်မည် (အချို့သော ကြိုတင်ထည့်နှင့် တတိယပါတီ အက်ပလီကေးရှင်းများမှအပ)</string>
+    <string name="vivo_status_bar_no_notification_shield_tip">လက်ရှိတွင် ပိတ်ဆို့ရန် သတိပေးအချက်ပြမှုမရှိပါ</string>
+    <string name="vivo_notification_to_show_item">သတိပေးအချက်ပြမှုခွင့်ပြုသည့် အက်ပ်များ</string>
+    <string name="vivo_notification_not_to_show_item">သတိပေးအချက်ပြမှုခွင့်မပြုသည့် အက်ပ်များ</string>
+    <string name="vivo_show_notification">သတိပေးအချက်ပြမှု ခွင့်ပြုပါ</string>
+    <string name="vivo_notification_disable">အသိပေးချက် ခွင့်မပြုပါ</string>
+    <string name="vivo_show_notification_illustration">ဖွင့်ထားစဉ် ဆွဲချသည့် သတိပေးအချက်ပြမှုဘားအတွင်းတွင် သတိပေးအချက်ပြမှုများရှိလိမ့်မည်</string>
+    <string name="vivo_show_keyguard_notification">သော့ခတ်စခရင်တွင် ပြသပါ</string>
+    <string name="vivo_show_keyguard_notification_details">သော့ခတ်စခရင်တွင် အသေးစိတ်များကို ပြပါ</string>
+    <string name="vivo_show_desktop_app_icon_badge">ကွန်ပျူတာ အက်ပ်အိုင်ကွန် အမှတ်အသား</string>
+    <string name="vivo_show_notification_top_preview">ထိပ်ပိုင်းကြိုတင်ကြည့်ရှုမှု</string>
+    <string name="vivo_notification_tip_style_headsup">မျောနေသည်</string>
+    <string name="vivo_notification_tip_style_ticker">လှိမ့်ပါ</string>
+    <string name="vivo_notification_tip_style_illustration">ပေါလောပေါ်နေတဲ့ ကြိုကြည့်မြင်ကွင်းများကို ဖန်သားပြင်ထိပ်၌ ၅ စက္ကန့်ခန့် ပြသမည်။ ပြီးလျှင် ၎င်းတို့ကို အပေါ်ဘက်ပွတ်တင်၍ ခေါက်သိမ်းနိုင်သည် (သို့) ရေပြင်ညီပွတ်ဆွဲ၍ ဖျက်ပစ်နိုင်သည်။ ကြိုကြည့်မြင်ကွင်းများ၏ ပြကွက်ကို အခြေအနေပြဘားထဲမှာ လိုင်းတစ်ခုပြီးတစ်ခု အထက်အောက်ရွေ့ကြည့်ပါ။</string>
+    <string name="vivo_show_priority_notification">ဦးစားပေး အဆင့်</string>
+    <string name="vivo_show_priority_notification_illustration">သတိပေးအချက်ပြမှုစာရင်း၏ အရှေ့တွင်ပြပါ</string>
+    <string name="vivo_no_uim">UIM မရှိ</string>
+    <string name="vivo_no_sim">SIM မရှိပါ</string>
+    <string name="vivo_close">ပိတ်</string>
+    <string name="vivo_sim_close">SIM ကဒ်ကို ပိတ်ထားသည်</string>
+    <string name="vivo_no_service">၀န်ဆောင်မှု မရှိပါ</string>
+    <string name="vivo_offline_mode">အော့ဖ်လိုင်းမုဒ်</string>
+    <string name="vivo_new_notification_hidden">မက်ဆေ့ချ်အသစ်များ</string>
+    <string name="vivo_screenshot_failed_text_no_memory">မျက်နှာပြင်ရိုက်ချက်ကိုသိမ်းရန် မတတ်နိုင်ပါ သိုလှောင်စရာစက်ထဲတွင် သိုလှောင်စရာနေရာ အလုံအလောက် မရှိနိုင်ပါ။</string>
+    <string name="vivo_done">လုပ်ပြီးပြီ</string>
+    <string name="vivo_cancel">ပယ်ဖျက်ပါ</string>
+    <string name="vivo_ok">အိုကေ</string>
+    <string name="vivo_battery_full_ticker">အားသွင်းပါ</string>
+    <string name="vivo_battery_full_title">အားသွင်းပါ</string>
+    <string name="vivo_battery_full_msg">အားသွင်းခြင်း ပြီးပါပြီ။ ကျေးဇူးပြု၍ ပါဝါပေးနေမှုမှ ဖယ်ရှားပါ။</string>
+    <string name="vivo_low_battery_dialog_title">အကြံပြုချက်များ</string>
+    <string name="vivo_low_battery_sps_tip">ဘက်ထရီ နိမ့်လွန်းသည်။ ဖုန်းလုပ်ဆောင်ခြင်းအချိန်ကို ချဲ့ထွင်ရန် ကျေးဇူးပြု၍ သင့်ဘက်ထရီကိုအားသွင်းပါ သို့မဟုတ် စူပါပါဝါချွေတာခြင်းစနစ်သို့ ပြောင်းပါ။</string>
+    <string name="vivo_low_battery_hifi_tip">ဘက်ထရီ အားနည်းလွန်းသည်။ Hi-Fi မုဒ် အလိုအလျောက် ပိတ်။ ဖုန်းလုပ်ဆောင်ခြင်းအချိန်ကို ချဲ့ထွင်ရန် ကျေးဇူးပြု၍ သင့်ဘက်ထရီကိုအားသွင်းပါ သို့မဟုတ် သို့မဟုတ် စူပါပါဝါချွေတာခြင်းစနစ်သို့ ပြောင်းပါ။</string>
+    <string name="vivo_low_battery_hifi_tip_cmcc">ဘတ်ထရီ နည်းနေသည်။ Hi-Fi သည်အလိုလျောက် ပိတ်သွားမည်ဖြစ်သည်။ ကျေးဇူးပြု၍ သင့်ဖုန်းကို ပလပ်ထိုးပါ။</string>
+    <string name="vivo_sps">စူပါချွေတာ</string>
+    <string name="vivo_low_battery_tip">ဘက်ထရီ အားနည်းလွန်းသည်။ ကျေးဇူးပြု၍ အားသွင်းစက်ကို ချိတ်ဆက်ပါ</string>
+    <string name="vivo_wfd_noti_title">Wi-Fi Display</string>
+    <string name="vivo_wfd_noti_text">ပြသမှုကို ချိတ်ဆက်ထားသည်</string>
+    <string name="vivo_guts_tips">သတိပေးအချက်ပြမှု ပေးပို့လိုက်သည်</string>
+    <string name="vivo_network_speed_msg">ကွန်ရက်အမြန်နှုန်းအသေးစိတ်</string>
+    <string name="usb_device_unconnected_suddenly">OTG ချိတ်ဆက်မှု မထင်မှတ်ဘဲ ချိတ်ဆငက်မှု ပြတ်တောက်သွားသည်</string>
+    <string name="usb_device_unconnected_suddenly_message">အချက်အလက်မပျောက်ဆုံးရန် OTG အားအရင်ဖျက်တောက်ပြီးမှဖယ်ထုတ်ပါ။</string>
+    <string name="usb_device_connected">OTG ချိတ်ဆက်နေသည်</string>
+    <string name="usb_device_connected_message">ကြည့်ရန် တို့လိုက်ပါ</string>
+    <string name="usb_device_disconnected">OTG စက်ပစ္စည်းကို လုံခြုံစွာ ဖယ်ရှားလိုက်ပါပြီ</string>
+    <string name="sd_badremoval_notification_message">SD ကဒ်ကို ထုတ်မယူမီ၊ ၎င်းကို \"ဆက်တင်များ> နောက်ထပ် ဆက်တင်များ> သိုလှောင်ခန်းStorage ထဲမှာ ဖြုတ်လိုက်ပါ\"။</string>
+    <string name="uninstall_otg">ပရိုဂရမ်မှ ဖြုတ်ပါ</string>
+    <string name="vivo_notification_icon_redraw_switch">အိုင်ကွန်အလှဆင်ခြင်း</string>
+    <string name="global_action_super_power_save_tip_locking">လုပ်ဆောင်ရန် ဦးစွာ သော့ဖွင့်ရန် လိုသည်</string>
+    <string name="volume_fm">FM အသံပမာဏ</string>
+    <string name="show_imanager_lock_tip">i Manager ထဲတွင် အက်ပ် သော့ချမှုကို ဖွင့်ထားလျှင် အသေးစိတ် သော့ဖန်သားပြင် အသိပေးချက်များ ရရှိနိုင်တော့မည်မဟုတ်ပါ။</string>
+    <string name="show_imanager_locked_tip">i Manager ထဲတွင် အက်ပ် သော့ချမှုကို ဖွင့်ထားသည့်အတွက် အသေးစိတ် သော့ဖန်သားပြင် အသိပေးချက်များ မရရှိနိုင်ပါ။</string>
+    <string name="sd_badremoval_notification_message_4g">ဒေတာဆုံးရှုံးမှုမရှိစေရန် SD ကဒ် မဖြုတ်မီ \"သတ်မှတ်ချက်များ > RAM နှင့် သိုလှောင်ခန်းနေရာ\" တွင် ၎င်းကို ထည့်သွင်းမှုဖြုတ်ပါ။</string>
+    <string name="vivo_notification_tip_none">ကြိုတင်ကြည့်ရှုမှုများ မရှိပါ</string>
+    <string name="vivo_develop_mode_tip">ဖွံ့ဖြိုးတိုးတက်မှုအနေအထား</string>
+    <string name="vivo_up_slide_no_recent_apps">မကြာသေးမီက app များ မရှိပါ။</string>
+    <string name="vivo_up_slide_check_out">စစ်ကြည့်</string>
+    <string name="vivo_up_slide_statusbar_guide_tip">"အောက်ခြေမှ ပွတ်ဆွဲလိုက်ခြင်းဖြင့် 
+ထိန်းချုပ်ရေး ဌာနသို့ သွားပါ"</string>
+    <string name="vivo_up_slide_tip_swipe">ဖျက်ရန် အပေါ်သို့ ပွတ်ဆွဲယူပါ</string>
+    <string name="vivo_up_slide_tip_white_list">ကြာရှည်ဖိနှိပ်ထားခြင်းဖြင့် \"တစ်ချက်နှိပ် အရှိန်ယူခြင်း\" အဖြူရောင်စာရင်းသို့ ပေါင်းထည့်နိုင်သည်</string>
+    <string name="vivo_up_slide_add_white_list_item">လက်ခံစာရင်းသို့ ထည့်ပါ</string>
+    <string name="vivo_up_slide_remove_white_list_item">လက်ခံစာရင်းမှ ဖယ်ထုတ်ပါ</string>
+    <string name="vivo_switcher_order_title">စိတ်ကြိုက်</string>
+    <string name="vivo_switcher_order_show">ပြရန် ခလုတ်</string>
+    <string name="vivo_switcher_order_hide">ခလုတ်ကို မပြပါနှင့်</string>
+    <string name="vivo_switcher_order_hide_tip">"ဝှက်ရန် - ခလုတ်ကို \"ခလုတ်ကို မပြပါနှင့်\" နေရာသို့ ဆွဲယူလာပါ 
+ခွဲပါ - \"ခလုတ် ပြရန်\" နေရာထဲက ခလုတ်ကို သင် ထားလိုသည့်သို့ ဆွဲချပေးပါ"</string>
+    <string name="vivo_switcher_order_at_least">အနည်းဆုံး 4 ခု ထားပါ</string>
+    <string name="vivo_switcher_cu">နှုန်းကို မြှင့်ပါ</string>
+    <string name="vivo_switcher_wifi">Wi-Fi</string>
+    <string name="vivo_switcher_apn">ဒေတာ</string>
+    <string name="vivo_switcher_fl">ဖလက်ရှ်မီး</string>
+    <string name="vivo_switcher_wechat_scan">ရှာဖွေဖတ်ပါ</string>
+    <string name="vivo_switcher_smartshot">စူပါစခရင်ရိုက်ချက်</string>
+    <string name="vivo_switcher_vibrate">တုန်ခါခြင်း</string>
+    <string name="vivo_switcher_portrait">ဒေါင်လိုက်</string>
+    <string name="vivo_switcher_bright">တောက်ပမှု</string>
+    <string name="vivo_switcher_sps">စူပါချွေတာ</string>
+    <string name="vivo_switcher_offline">အော့ဖ်လိုင်းမုဒ်</string>
+    <string name="vivo_switcher_sim_selection">ကဒ် ဒေတာကို ရွေးရန်</string>
+    <string name="vivo_switcher_bluetooth">ဘလူးတုသ်</string>
+    <string name="vivo_switcher_reboot">ပြန်စတင်ပါ</string>
+    <string name="vivo_switcher_poweroff">ပါဝါ ပိတ်</string>
+    <string name="vivo_switcher_zen_mode">မနှောင့်ယှက်ရ</string>
+    <string name="vivo_switcher_dialog_wechat_scan_message">WeChat ၏ \"QR ကုဒ် စကန်ဖတ်ပါ\" ကိုဖွင့်ရန် WeChat ကိုထည့်သွင်းထားရန်လိုအပ်သည်။ ယခု ထည့်သွင်းမည်လား?</string>
+    <string name="vivo_switcher_wechat_scan_available_toast">Wechat \"QR ကုဒ် စကန်ဖတ်ပါ\" အားရရှိနိုင်သည်</string>
+    <string name="vivo_switcher_clear_up_tip_both" formatted="false">%d နောက်ခံ app များကိုပိတ်ပါ၊ မက္ကမိုရီ %dMB ရှင်းပစ်လိုက်ပါ</string>
+    <string name="vivo_switcher_clear_up_tip_deamon">%d နောက်ခံ app များကိုပိတ်ပါ</string>
+    <string name="vivo_switcher_clear_up_tip_none">အကောင်းဆုံးအခြေအနေတွင်ရှိနေပြီးဖြစ်သည်</string>
+    <string name="vivo_switcher_wifi_open_tips_while_tethered">Wi-Fi ကို ဖွင့်လိုက်ခြင်းသည် ပေါ်တေဘယ် Wi-Fi ဟော့စပေါ့ကို ပိတ်သွားပါလိမ့်မည်၊ ဆက်လုပ်ဆောင်ပါမည်လား။</string>
+    <string name="vivo_switcher_wifi_open_tips_sure">အိုကေ</string>
+    <string name="vivo_switcher_wifi_open_tips_cancel">ပယ်ဖျက်ပါ</string>
+    <string name="vivo_switcher_wifi_close_while_wfd_opened_title">Wi-Fi Display</string>
+    <string name="vivo_switcher_wifi_close_while_wfd_opened_context">Wi-Fi ကို ပိတ်လိုက်သောအခါ Wi-Fi ပြသချက်သည် အလိုအလျောက်ပိတ်သွားပါမည်</string>
+    <string name="vivo_switcher_during_phone_forbidden">ဖုန်းခေါ်နေစဉ်အတွင်း မရပါ</string>
+    <string name="vivo_switcher_offline_forbidden">လိုင်းပြင်ပ မုဒ်တွင် မရနိုင်ပါ</string>
+    <string name="vivo_switcher_need_sim">လုပ်ဆောင်မှုတွင် SIM ကဒ် လိုအပ်ပါသည်</string>
+    <string name="vivo_switcher_apn_dialog_title">ဒေတာ</string>
+    <string name="vivo_switcher_apn_security_dialog_title">အကြံပြုချက်များ</string>
+    <string name="vivo_switcher_apn_security_dialog_msg">ဖွင့်လိုက်သည်နှင့် အလိုအလျောက် အချိန် ချိန်ညှိမှုများ၊ အသစ်မွမ်းမံမှုများကို အလိုလျောက် စစ်ဆေးခြင်း၊ တည်နေရာပြခြင်းများ၊ vivo ၀န်ဆောင်မှုများနှင့် အသင့်စောင့် အိမ်မျက်နှာပြင်သည် သေးငယ်သော ဒေတာပမာဏကို အသုံးပြုမည်ဖြစ်သည်။ သင်သည် ဆက်လက် လုပ်ကိုင်လိုပါသလား?</string>
+    <string name="vivo_switcher_apn_security_dialog_tip">ဆက်လုပ်ကိုင်ရန် သင်ရွေးခဲ့လျှင်၊ နောက်တစ်ခါ သင်က ဒီအက်ပ်ကို သုံးသည့်အခါ သင့်ကို သတိပေးတော့မည် မဟုတ်ပါ။</string>
+    <string name="vivo_switcher_apn_security_dialog_button_continue">ဆက်လုပ်</string>
+    <string name="vivo_switcher_apn_dialog_set_default_tip">အင်တာနက်အတွက် ပုံဒေကဒ်အဖြစ် သတ်မှတ်ပါ ကဒ်ရွေးချယ်မှုလှုံ့ဆော်ချက် မရှိတော့ပါ</string>
+    <string name="vivo_switcher_apn_dialog_set_default_tip2">ဆက်တင်ကိုပြင်ဆင်ရန် \"ဆက်တင်များ > မိုဘိုင်းကွန်ရက်များ > ပုံသေကဒ်\" သို့သွားနိုင်သည်</string>
+    <string name="vivo_switcher_dialog_title_tips">အကြံပြုချက်များ</string>
+    <string name="vivo_switcher_dialog_sps_tip">အထူးပါဝါချွေတာရေး အနေအထားတွင် ဖုန်း၊ မက်ဆေ့ချ်ပေးပို့ခြင်းနှင့် အသိပေးမှုလုပ်ဆောင်ချက်များကိုသာလျှင် သက်ဝင်မှုပြုလုပ်ထားသည်။ ဆဲလ်ဖုန်းသည့် အားအပြည့်သွင်းထားပြီးနောက် ယင်းအနေအထားမှ အလိုအလျောက်ထွက်သွားမည်။</string>
+    <string name="vivo_switcher_dialog_sps_never_remide">ထပ်ပြီး မညွှန်းပါနှင့်</string>
+    <string name="vivo_switcher_flashlight_low_battery_tip">ဘက်ထရီအားနည်းနေပါသည်၊ ဤအင်္ဂါရပ်ကို ယာယီအားဖြင့် သုံးမရနိုင်ပါ။</string>
+    <string name="vivo_switcher_speedup_dialog_whitelist_title">i Manager က သင့်ကို သတိပေးပါသည်</string>
+    <string name="vivo_switcher_speedup_dialog_whitelist_message">တစ်ချက်နှိပ်ပြီး မြန်နှုန်းမြှင့်တင်မှုဖြင့် အဆုံးသတ်မည်မဟုတ်သည့် အက်ပ်များကို ခွင့်ပြုစာရင်းတွင် ထည့်နိုင်သည်။</string>
+    <string name="vivo_switcher_speedup_dialog_whitelist_ok">ခွင့်ပြုစာရင်း သတ်မှတ်ရန်</string>
+    <string name="vivo_upslide_hifi_no_headphone">Hi-Fi ကိုဖွင့်မရပါ။ နားကြပ် မတပ်ထားပါ</string>
+    <string name="vivo_upslide_hifi_low_battery">Hi-Fi ကိုဖွင့်မရပါ။ ဘက်ထရီ အားနည်းနေသည်</string>
+    <string name="vivo_upslide_hifi_opened">Hi-Fi မုဒ် ဖွင့်ရန်</string>
+    <string name="vivo_upslide_hifi_closed">Hi-Fi မုဒ် ပိတ်ရန်</string>
+    <string name="vivo_upslide_hifi_headset_tip">နားကြပ်မုဒ်တွင် Hi-Fi သာ အလုပ်လုပ်ပါသည်။</string>
+    <string name="vivo_upslide_artist_name">အနုပညာရှင် အမည်</string>
+    <string name="vivo_upslide_music_name">သီချင်းအမည်</string>
+    <string name="vivo_upslide_network_mode_any">ကြိုက်နှစ်သက်ရာ</string>
+    <string name="vivo_upslide_network_mode_only_2g">2G သာ</string>
+    <string name="vivo_upslide_network_mode_register_choice">အင်တာနက်ကွန်ယက် 2G ကိုသာ ရွေးချယ်ပါက Ooredoo ဖုန်းကဒ်ကိုဆက်လက်အသုံးပြုနိုင်ပါမည်။ ကြိုက်နှစ်သက်ရာအင်တာနက်ကွန်ယက်အား ရွေးချယ်ပါက Ooredoo ဖုန်းကဒ်အားအသုံးမပြုနိုင်ပါ။</string>
+    <string name="vivo_upslide_network_mode_tip">ကျေးဇူးပြု၍ ရွေးချယ်ပါ</string>
+    <string name="vivo_switcher_apn_dialog_close_apn_tip">ပိတ်</string>
+    <string name="vivo_switcher_sps_dialog_ok">အိုကေ</string>
+    <string name="vivo_upslide_hide_navigaton_bar_tip">ဝှက်ထားရန် အောက်သို့ ပွတ်ဆွဲပါ</string>
+    <string name="vivo_upslide_lock_task_dialog_msg">ဖန်သားပြင် ပင်ထိုးပြီးသည့်အခါ၊ ကိရိယာသည် ဖန်သားပြင်တစ်ခုတည်းတွင် ရှိသွားမည်။ ပင်ထိုးမှုဖြုတ်ရန်၊ \"နောက်သို့\" နှင့် \"မီနူး\" ကို ဆက်နှိပ်ထားပါ။</string>
+    <string name="vivo_upslide_lock_task_dialog_negative">ဟင့်အင်း၊ ကျေးဇူးပါပဲ</string>
+    <string name="vivo_upslide_lock_task_dialog_positive">စတင်ပါ</string>
+    <string name="vivo_upslide_lock_task_dialog_title">စခရင် ပင်တွဲခြင်းကို အသုံးပြုမည်လား?</string>
+    <string name="vivo_upslide_show_navigaton_bar_tip">ပြသရန် အပေါ်သို့ ပွတ်ဆွဲပါ</string>
+    <string name="vivo_upslide_volume_tip">မီဒီယာ</string>
+    <string name="vivo_switcher_data_network_not_available">မိုဘိုင်းကွန်ယက် မရရှိနိုင်ပါ</string>
+    <string name="vivo_switcher_wifi_ap">Wi-Fi ဟော့စပေါ့</string>
+    <string name="vivo_switcher_eye_protection">မျက်လုံးအကာအကွယ်</string>
+    <string name="vivo_switcher_eye_protection_tip">မ်က္လံုး ကာကြယ္ေရး အေနအထားကို ဖြင့္ၿပီးပါၿပီ။ စကၡဳအာ႐ံု ႏြမ္းနယ္မႈ ေလ်ာ့ပါးေစရန္ ဖန္သားျပင္အေရာင္ကို ခ်ိန္ညႇိပါ။</string>
+    <string name="vivo_switcher_eye_protection_tip_ok">အိုကေ</string>
+    <string name="vivo_upslide_operation_tips">ဖန်သားပြင်၏ အောက်အနားစွန်းမှ အပေါ်သို့ ဆွဲခြင်းဖြင့် \"ထိန်းချုပ်ရေးစင်တာ\" ကို ယူလာပြီး ဖွင့်ပါ။</string>
+    <string name="vivo_upslide_setting_title">ထိန်းချုပ်ရေးစင်တာ</string>
+    <string name="vivo_upslide_switch_tips">အက်ပ်ကြားခံစနစ်ပေါ်တွင် \"ထိန်းချုပ်ရေးစင်တာ\" ကို ယူလာပြီး ဖွင့်ခွင့်ပြုပါ။ ခလုတ်ကို ပိတ်ထားပြီးနောက် \"ထိန်းချုပ်ရေးစင်တာ\" ကို ဒက်စ်တော့ပ်ပေါ်တွင် ယူလာပြီး ဖွင့်နိုင်သေးသည်။</string>
+    <string name="vivo_upslide_switch_title">အက်ပ် ကြားခံစနစ်ပေါ်တွင် ၎င်းကို ယူလာပြီး ဖွင့်ပါ</string>
+    <string name="wifi_opened">ဖွင့်</string>
+    <string name="wifi_starting">ဖွင့်နေသည်</string>
+    <string name="wifi_stopping">ပိတ်နေသည်</string>
+    <string name="wifi_prepare_connect">ပြင်ဆင်နေသည်</string>
+    <string name="keyguard_password_enter_pin_code">PIN ကိုရိုက်ပါ</string>
+    <string name="keyguard_password_enter_puk_code">ကျေးဇူးပြု၍ SIM ကဒ်၏ PUK နှင့် PIN အသစ်ကို ရိုက်ထည့်ပါ</string>
+    <string name="keyguard_password_enter_puk_prompt">SIM ကဒ် PUK</string>
+    <string name="keyguard_password_enter_pin_prompt">SIM ကဒ် PIN အသစ်</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">လျှို့ဝှက်စကားလုံးရိုက်ရန် ထိလိုက်ပါ</font></string>
+    <string name="keyguard_password_enter_password_code">သော့ဖွင့်ရန် လျှို့ဝှက်စကားလုံး ရိုက်ပါ</string>
+    <string name="keyguard_password_enter_pin_password_code">သော့ဖွင့်ရန် PIN ရိုက်ပါ</string>
+    <string name="keyguard_password_wrong_pin_code">မှားသော PUK ။</string>
+    <string name="keyguard_label_text">သော့ဖွင့်ရန် အညွှန်း ကို နှိပ်ပါ ယင်းနောက် 0 ကို နှိပ်ပါ။</string>
+    <string name="faceunlock_multiple_failures">အများဆုံး မျက်နှာသော့ဖွင့်ကြိုးပမ်းနိုင်မှု ကိုကျော်လွန်သွားပါပြီ</string>
+    <string name="keyguard_charged">အားသွင်းပါ</string>
+    <string name="keyguard_plugged_in">အားသွင်းနေသည်</string>
+    <string name="keyguard_low_battery">အားသွင်းကြိုးကို ချိတ်ဆက်ပါ။</string>
+    <string name="keyguard_instructions_when_pattern_disabled">သော့ဖွင့်ရန် မီနျူး ကို တို့ပါ။</string>
+    <string name="keyguard_network_locked_message">ကွန်ယက် သော့ပိတ်ထားသည်</string>
+    <string name="keyguard_missing_sim_message_short">SIM မရှိပါ</string>
+    <string name="keyguard_missing_sim_message">ဖုန်းထဲတွင် SIM ကဒ် မရှိပါ။</string>
+    <string name="keyguard_missing_sim_instructions">SIM ကဒ်ကို ထည့်ပါ။</string>
+    <string name="keyguard_missing_sim_instructions_long">SIM ကဒ် ပျောက်နေပါသည် သို့မဟုတ် ဖတ်မရပါ။ SIM ကဒ် တစ်ကဒ် ထည့်ပါ။</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">SIM ကဒ်ကို အသုံးမပြုနိုင်ပါ။</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"သင့် SIM ကဒ်ကို အပြီးအပိုင် ပိတ်လိုက်သည်။
+ကျေးဇူးပြု၍ သင့်ကြိုးမဲ့ ၀န်ဆောင်မှု ထောက်ပံ့ပေးသူသို့ နောက် SIM ကဒ်တစ်ခုရယူရန် ဆက်သွယ်ပါ။"</string>
+    <string name="keyguard_sim_locked_message">SIM/RUIM ကဒ် သော့ခတ်ထားသည်။</string>
+    <string name="keyguard_sim_puk_locked_message">SIM ကဒ်ကို PUK သော့ခတ်ထားသည်။</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">SIM ကဒ်ကို သော့ဖွင့်နေသည်…</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s။ ၀စ်ဂျက် %3$d ခုအနက်မှ %2$d ခု။</string>
+    <string name="keyguard_accessibility_add_widget">အလှဆင်ဆော့ဖ်ဝဲ ပေါင်းထည့်ပါ။</string>
+    <string name="keyguard_accessibility_widget_empty_slot">ဗလာ</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">သော့ဖွင့်ဧရိယာ ချဲ့လိုက်ပြီးပါပြီ။</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">သော့ဖွင့်ဧရိယာ ဖျက်လိုက်ပါပြီ။</string>
+    <string name="keyguard_accessibility_widget">%1$s အလှဆင်ဆော့ဖ်ဝဲ။</string>
+    <string name="keyguard_accessibility_user_selector">အသုံးပြုသူ ရွေးချယ်သည့်အရာ</string>
+    <string name="keyguard_accessibility_camera">ကင်မရာ</string>
+    <string name="keygaurd_accessibility_media_controls">မီဒီယာ ထိန်းချုပ်မှုများ</string>
+    <string name="keyguard_accessibility_widget_reorder_start">အလှဆင်ဆော့ဖ်ဝဲ ပြန်စီခြင်း စတင်ပါပြီ။</string>
+    <string name="keyguard_accessibility_widget_reorder_end">အလှဆင်ဆော့ဖ်ဝဲ ပြန်စီခြင်း ပြီးဆုံးပါပြီ။</string>
+    <string name="keyguard_accessibility_widget_deleted">အလှဆင်ဆော့ဖ်0ဲ %1$s ဖျက်လိုက်ပါပြီ။</string>
+    <string name="keyguard_accessibility_expand_lock_area">သော့ဖွင့်ဧရိယာ ချဲ့ပါ။</string>
+    <string name="keyguard_accessibility_slide_unlock">ပွတ်ဆွဲ၍ သော့ဖွင့်ပါ</string>
+    <string name="keyguard_accessibility_pattern_unlock">ပုံစံ သော့ဖွင့်။</string>
+    <string name="keyguard_accessibility_face_unlock">မျက်နှာဖြင့်သော့ဖွင့်ပါ။</string>
+    <string name="keyguard_accessibility_pin_unlock">ပင် ဖြင့် သော့ဖွင့်ပါ။</string>
+    <string name="keyguard_accessibility_password_unlock">လျှို့ဝှက်စကားလုံး သော့ဖွင့်သည်။</string>
+    <string name="keyguard_accessibility_pattern_area">ပုံစံရေးဆွဲရန် နေရာ။</string>
+    <string name="keyguard_accessibility_slide_area">ပွတ်ဆွဲရန်နေရာ။</string>
+    <string name="keyguard_accessibility_pin_area">PIN ဧရိယာ</string>
+    <string name="keyguard_accessibility_sim_pin_area">SIM ကဒ် PIN ဧရိယာ</string>
+    <string name="keyguard_accessibility_sim_puk_area">SIM ကဒ် PUK ဧရိယာ</string>
+    <string name="keyguard_accessibility_transport_prev_description">ယခင် အပုဒ် ခလုတ်</string>
+    <string name="keyguard_accessibility_transport_next_description">နောက် တစ်ပုဒ် ခလုတ်</string>
+    <string name="keyguard_accessibility_transport_pause_description">ခဏရပ် ခလုတ်</string>
+    <string name="keyguard_accessibility_transport_play_description">ဖွင့်ပါ ခလုတ်</string>
+    <string name="keyguard_accessibility_transport_stop_description">ရပ်သော ခလုတ်</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">ကျွန်ုပ် ကြိုက်သည်</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">မကြိုက်ပါ</string>
+    <string name="keyguard_accessibility_transport_heart_description">နှလုံးများ</string>
+    <string name="keyguard_accessibility_show_bouncer">ဆက်လုပ်ကိုင်ရန် သော့ဖွင့်ပါ</string>
+    <string name="keyguard_accessibility_hide_bouncer">ဖွင့်တင်မှု ပယ်ဖျက်ခံခဲ့ရ</string>
+    <string name="keyguard_accessibility_delete_widget_start">ဖျက်ရန် %1$s ကို လွှတ်ပေးပါ။</string>
+    <string name="keyguard_accessibility_delete_widget_end">%1$s ကို ဖျက်ပစ်မည်မဟုတ်ပါ။</string>
+    <string name="keyguard_accessibility_next_alarm">နောက်နှိုးစက်ကို %1$s တွင်သတ်မှတ်ထားသည်</string>
+    <string name="keyboardview_keycode_cancel">ပယ်ဖျက်ပါ</string>
+    <string name="keyboardview_keycode_delete">Delete</string>
+    <string name="keyboardview_keycode_done">လုပ်ပြီးပြီ</string>
+    <string name="keyboardview_keycode_mode_change">မုဒ် ပြောင်းပါ</string>
+    <string name="keyboardview_keycode_shift">Shift</string>
+    <string name="keyboardview_keycode_enter">Enter</string>
+    <string name="description_target_unlock">သော့ဖွင့်ပါ</string>
+    <string name="description_target_camera">ကင်မရာ</string>
+    <string name="description_target_silent">အသံတိတ်</string>
+    <string name="description_target_soundon">အသံဖွင့်ထားသည်</string>
+    <string name="description_direction_down">%s အတွက် အောက်ကို ပွတ်ဆွဲပါ။</string>
+    <string name="description_direction_right">%s အတွက် ညာကို ပွတ်ဆွဲပါ။</string>
+    <string name="user_switched">လက်ရှိ အသုံးပြုသူ %1$s။</string>
+    <string name="kg_emergency_call_label">အရေးပေါ် ဖုန်းခေါ်ဆိုမှု</string>
+    <string name="kg_forgot_pattern_button_text">ပုံစံ မေ့သွားပါသလား</string>
+    <string name="kg_wrong_pattern">ပုံစံ မှားနေပါသည်</string>
+    <string name="kg_wrong_password">မှားသော လျှို့ဝှက်စကားလုံး</string>
+    <string name="kg_wrong_pin">မှားသော PIN</string>
+    <string name="kg_too_many_failed_attempts_countdown">%d စက္ကန့်အတွင်း နောက်တစ်ခါ ထပ်ကြိုးစားပါ</string>
+    <string name="kg_pattern_instructions">သင်၏ ပုံစံဖော် သော့ဖွင့်ခြင်းကို ရေးဆွဲပါ</string>
+    <string name="kg_sim_pin_instructions">SIM PIN ရိုက်ထည့်ပါ</string>
+    <string name="kg_sim_pin_instructions_multi">SIM ကဒ် \"%1$s\" အတွက် PUK ထည့်သွင်းပါ</string>
+    <string name="kg_pin_instructions">PIN ကိုရိုက်ပါ</string>
+    <string name="kg_password_instructions">လျှို့ဝှက်စကားလုံး ရိုက်ပါ</string>
+    <string name="kg_puk_enter_puk_hint">SIM သည် ယခုအခါ ပိတ်ထားပါသည်။ ဆက်လက်လုပ်ဆောင်ရန် PUK ကုဒ်ကို ရိုက်ထည့်ပါ။ အသေးစိတ်အတွက် မိုဘိုင်းအော်ပရေတာထံ ဆက်သွယ်ပါ။</string>
+    <string name="kg_puk_enter_puk_hint_multi">SIM ကဒ် \"%1$s\" ကို ပိတ်ထားသည်။ ၄င်းကို ဆက်လက်အသုံးပြုရန်အတွက် PUK ထည့်သွင်းရန် လိုအပ်သည်။ အသေးစိတ် အချက်အလက်များအတွက် သင်၏ ဝန်ဆောင်မှုပေးသူကို ဆက်သွယ်ပါ။</string>
+    <string name="kg_puk_enter_pin_hint">ဆန္ဒရှိသော PIN ကုဒ် ရိုက်ပါ</string>
+    <string name="kg_enter_confirm_pin_hint">ဆန္ဒရှိသော PIN ကုဒ်ကို အတည်ပြုပါ</string>
+    <string name="kg_sim_unlock_progress_dialog_message">SIM ကဒ်ကို သော့ဖွင့်နေသည်…</string>
+    <string name="kg_invalid_sim_pin_hint">ကျေးဇူးပြု၍ ကိန်း 4 - 8 လုံးရှိ PIN တစ်ခု ရိုက်ထည့်ပါ</string>
+    <string name="kg_invalid_sim_puk_hint">PUK ကုဒ်သည် ဂဏန်း 8 လုံးရှိသင့်သည်။</string>
+    <string name="kg_invalid_puk">မှန်ကန်သော PUK ကုဒ် ကို ပြန်ရိုက်ပါ။ ထပ်မံကြိုးပမ်းမှုများသည် SIM ကို မြဲမြံစွာပိတ်ပစ်လိုက်ပါလိမ့်မည်။</string>
+    <string name="kg_invalid_confirm_pin_hint">PIN ကုဒ်များ မကိုက်ညီပါ</string>
+    <string name="kg_login_too_many_attempts">ပုံစံဖော် ကြိုးပမ်းချက် အလွန်များသွားပါပြီ</string>
+    <string name="kg_login_instructions">သော့ဖွင့်ရန်၊ သင့် Google အကောင့်ကို ဝင်ပါ။</string>
+    <string name="kg_login_username_hint">အသုံးပြုသူအမည် (အီးမေးလ်)</string>
+    <string name="kg_login_password_hint">စကားဝှက်</string>
+    <string name="kg_login_submit_button">ဝင်မည်</string>
+    <string name="kg_login_invalid_input">အသုံးပြုသူအမည် သို့မဟုတ် လျှို့ဝှက်စကားလုံး မမှန်ကန်ပါ</string>
+    <string name="kg_login_account_recovery_hint">"သင်၏ အသုံးပြုသူအမည် သို့မဟုတ် လျှို့ဝှက်စကားလုံးမေ့သွားပါလား။
+"<b>google.com/accounts/recovery</b> ကို ဝင်လည်ပါ။</string>
+    <string name="kg_login_checking_password">အကောင့်ကို စစ်ဆေးနေပါသည်…</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"သင်သည် မှားယွင်းသော PIN ကို %d ကြိမ်ရိုက်ထည့်လိုက်သည်။
+
+ကျေးဇူးပြု၍ %d စက္ကန့်အကြာတွင် ထပ်ကြိုးစားပါ။"</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"သင်သည် မှားနေသည့် စကားဝှက်ကို %d ကြိမ် မှားရိုက်ထည့်ခဲ့သည်။ 
+
+ကျေးဇူးပြုပြီး %d စက္ကန့်အကြာမှာ ထပ်စမ်းပါ။"</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"သင်သည် သော့ဖွင့်ပုံစံကို %d ကြိမ် မှားယွင်းရေးဆွဲပါသည်။ 
+
+%d စက္ကန့်တွင် ထပ်ကြိုးစားပါ။"</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">ဖုန်းကို သော့ဖွင့်ရန် %d ကြိမ် မှားယွင်းစွာ ကြိုးပမ်းထားသည်။ နောက်ထပ် %d ကြိမ် ကြိုးပမ်းမှု မှားယွင်းခဲ့လျှင် ဖုန်းကို ပြန်လည်သတ်မှတ်ပြီး ၎င်းမှ ဒေတာအားလုံးကို ဖျက်ပစ်မည်ဖြစ်သည်။</string>
+    <string name="kg_failed_attempts_now_wiping">ဖုန်းကို သော့ဖွင့်ရန် %d ကြိမ် မှားယွင်းစွာ ကြိုးပမ်းထားသည်။ ဖုန်းကို ပြန်လည်သတ်မှတ်ပြီး ၎င်းမှ ဒေတာအားလုံးကို ဖျက်ပစ်မည်ဖြစ်သည်။</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" formatted="false">ဖုန်းကို သော့ဖွင့်ရန် %d ကြိမ် မှားယွင်းစွာ ကြိုးပမ်းထားသည်။ နောက်ထပ် %d ကြိမ် ကြိုးပမ်းမှု မှားယွင်းခဲ့လျှင် စနစ်သည် ဤအသုံးပြုသူ၏ ဒေတာအားလုံးအပါအဝင် ၎င်းကို ဖယ်ရှားသွားမည်ဖြစ်သည်။</string>
+    <string name="kg_failed_attempts_now_erasing_user">ဖုန်းကို သော့ဖွင့်ရန် %d ကြိမ် မှားယွင်းစွာ ကြိုးပမ်းထားသည်။ စနစ်သည် ဤအသုံးပြုသူ၏ ဒေတာအားလုံးအပါအဝင် ၎င်းကို ဖယ်ရှားသွားမည်ဖြစ်သည်။</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" formatted="false">ဖုန်းကို သော့ဖွင့်ရန် %d ကြိမ် မှားယွင်းစွာ ကြိုးပမ်းထားသည်။ နောက်ထပ် %d ကြိမ် ကြိုးပမ်းမှု မှားယွင်းခဲ့လျှင် စနစ်သည် ဤအလုပ် ပရိုဖိုင်၏ ဒေတာအားလုံးအပါအဝင် ၎င်းကို ဖယ်ရှားသွားမည်ဖြစ်သည်။</string>
+    <string name="kg_failed_attempts_now_erasing_profile">ဖုန်းကို သော့ဖွင့်ရန် %d ကြိမ် မှားယွင်းစွာ ကြိုးပမ်းထားသည်။ စနစ်သည် ဤအလုပ် ပရိုဖိုင်၏ ဒေတာအားလုံးအပါအဝင် ၎င်းကို ဖယ်ရှားသွားမည်ဖြစ်သည်။</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"သင်သည် သောဖွင့် ဇယားပုံကို %d ကြိမ် မှားပြီး ရေးဆွဲခဲ့သည်။ နောက်ထပ် %d ကြိမ် ကြိုးပမ်းမှု(များ) မအောင်မြင်လျှင်၊ သင်၏ ဖုန်းကို သော့ဖွင့်ရန် သင့်အား သင်၏ အီးမေးလ် အကောင့်ကို အသုံးပြုဖို့ တောင်းဆိုမည်။ 
+
+ကျေးဇူးပြုပြီး %d စက္ကန့် အကြာမှာ ထပ်စမ်းပါ။"</string>
+    <string name="kg_reordering_delete_drop_target_text">ဖျက်ပါ</string>
+    <string name="kg_password_wrong_pin_code_pukked">မှားယွင်းသော SIM PIN ကုဒ်၊ သင့်စက်ပစ္စည်းကို သော့ဖြည်ရန်အတွက် သင့်ဖုန်း၀န်ဆောင်မှုပေးသူထံသို့ ယခုဆက်သွယ်ပါ။</string>
+    <string name="kg_password_wrong_puk_code_dead">SIM ကဒ်ကို အသုံးမပြုနိုင်ပါ။ ကျေးဇူးပြု၍ သင့်ကယ်ရီယာသို့ ဆက်သွယ်ပါ။</string>
+    <string name="kg_password_pin_failed">SIM PIN လုပ်ဆောင်ချက် မအောင်မြင်ပါ!</string>
+    <string name="kg_password_puk_failed">SIM ကဒ်ကို PUK အသုံးပြု၍ သော့ဖွင့်ခြင်း မအောင်မြင်ခဲ့ပါ။</string>
+    <string name="kg_pin_accepted">မှန်ကန်သည့်ကုဒ်!</string>
+    <string name="keyguard_transport_prev_description">ယခင် တစ်ပုဒ် ခလုတ်</string>
+    <string name="keyguard_transport_next_description">နောက်တစ်ပုဒ် ခလုတ်</string>
+    <string name="keyguard_transport_pause_description">ခဏရပ် ခလုတ်</string>
+    <string name="keyguard_transport_play_description">ဖွင့်သော ခလုတ်</string>
+    <string name="keyguard_transport_stop_description">ရပ်သော ခလုတ်</string>
+    <string name="keyguard_carrier_default">၀န်ဆောင်မှု မရှိပါ.</string>
+    <string name="try_again">ထပ်မံကြိုးစားပါ။</string>
+    <string name="vivo_forgot_pattern">မေ့သွားလား။</string>
+    <string name="vivo_forgot_password">မေ့သွားလား။</string>
+    <string name="vivo_kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"သင်သည် ပုံစံ %d ကြိမ် မှားယွင်းရေးဆွဲကာ သော့ဖွင့်ပါသည်။ 
+ကျေးဇူးပြု၍ %d စက္ကန့်ကြာပြီးနောက် ထပ်ကြိုးစားပါ။"</string>
+    <string name="vivo_kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"သင်သည် လျှို့ဝှက်စကားလုံးများ %d ကြိမ် မှားယွင်းရိုက်၍ သော့ဖွင့်ပါသည်။ 
+ကျေးဇူးပြု၍ %d စက္ကန့်ကြာပြီးနောက် ထပ်ကြိုးစားပါ။"</string>
+    <string name="vivo_login_problem">သော့ဖွင့်ရန် ၊ အဖြေထည့်ပါ</string>
+    <string name="vivo_login_answer_hint">အဖြေရိုက်ထည့်ရန် နှိပ်ပါ</string>
+    <string name="vivo_login_title">သော့ဖွင့်ပါ</string>
+    <string name="vivo_login_problem_invalid_input">အဖြေ မှားပါသည်</string>
+    <string name="father_name">သင့် ဖခင်အမည်ဘာလဲ။</string>
+    <string name="mother_name">သင့် မိခင် အမည်ဘာလဲ။</string>
+    <string name="spouse_name">သင့် အိမ်ထောင်ဘက် အမည်ဘာလဲ။</string>
+    <string name="clean_visit_mode">ဧည့်သည်မုဒ်မှ သင်ထွက်လိုက်ပြီး ဧည့်သည် လျှို့ဝှက်စကားလုံးမှာ ကန့်သတ်ချိန်ကုန်သွားပါပြီ။</string>
+    <string name="vivo_emergency">အရေးပေါ်</string>
+    <string name="vivo_return_to_call">ဖုန်းခေါ်ခြင်းကို ပြန်သွားမည်</string>
+    <string name="vivo_password_wrong_pin_code">PIN ကုဒ် မှားနေသည်။</string>
+    <string name="vivo_password_enter_pin_code">ကျေးဇူးပြု၍ PIN ရိုက်ထည့်ပါ</string>
+    <string name="vivo_password_enter_puk_code">PUK ကုဒ်ကို ရိုက်ထည့်ပါ</string>
+    <string name="vivo_mismatchPin">PIN များ မတိုက်ဆိုင်ပါ။ကျေးဇူးပြုပြီး ထပ်ပြီး ရိုက်ထည့်ပါ</string>
+    <string name="vivo_password_enter_new_pin_code">PIN အသစ်တစ်ခု ရိုက်ပါ</string>
+    <string name="vivo_password_Confirm_pin_code">PIN အသစ်ကို အတည်ပြုပါ</string>
+    <string name="findphone_ok">အိုကေ</string>
+    <string name="kg_password_findphone_tip">ကျေးဇူးပြု၍ သင့် vivo အကောင့် လျှို့ဝှက်စကားလုံးကို ရိုက်ပါ</string>
+    <string name="vivo_pinpuk_attempts">%d ကြိမ် ကျန်နေသည်</string>
+    <string name="problem_label">Q:</string>
+    <string name="vivo_onehand_msg">စခရင်၏ အလယ်မှ ညာ (ဘယ်) သို့ အကွာအဝေးတစ်ခု ပွတ်ဆွဲခြင်းက လက်တစ်ဘယ်တည်းအသုံးပြုသည့်မုဒ်သို့ ပြောင်းလဲပေးမည်။</string>
+    <string name="vivo_password_wrong">မှားယွင်းသော လျှို့ဝှက်စကားလုံး</string>
+    <string name="vivo_pattern_wrong">မှားယွင်းသော လက်ကွက်ပုံစံ</string>
+    <string name="pinpuk_attempts">"ကျန်သေးသော ကြိုးပမ်းမှုများ- "</string>
+    <string name="finger_need_password_msg">လက်ဗွေရာ မှတ်သားမှုဖွင့်ရန်အတွက် သင်၏ စကားဝှက်လိုအပ်သည်</string>
+    <string name="finger_need_pattern_msg">လက်ဗွေရာ မှတ်သားမှုဖွင့်ရန်အတွက် သင်၏ ပုံစံ လိုအပ်သည်</string>
+    <string name="finger_password_title">လျှို့ဝှက်စကားလုံး ရိုက်ပါ</string>
+    <string name="finger_pattern_title">ပုံစံ ရေးဆွဲပါ</string>
+    <string name="findphone_unable_network">ကွန်ယက်ကို ချိတ်ဆက်မရပါ</string>
+    <string name="findphone_verifying_password">လျှို့ဝှက်စကားလုံး မှန်ကန်ကြောင်းစစ်ဆေးနေသည်....</string>
+    <string name="pin_reboot_finger">reboot ပြုလုပ်ပြီးနောက် လက်ဗွေရာဖွင့်ရန်အတွက် စကားဝှက် ထည့်သွင်းရန် လိုအပ်သည်</string>
+    <string name="pattern_reboot_finger">reboot ပြုလုပ်ပြီးနောက် လက်ဗွေရာဖွင့်ရန်အတွက် ပုံစံ ရေးဆွဲရန် လိုအပ်သည်</string>
+    <string name="confirm_max_lenth">အက္ခရာ အများဆုံး အကန့်အသတ်သို့ ရောက်ရှိထားသည်</string>
+    <string name="use_fingerprint_or_password">လက်ဗွေရာကို အသုံးပြုပါ (သို့) စကားဝှက် ထည့်သွင်းပါ</string>
+    <string name="use_fingerprint_or_pattern">လက်ဗွေရာကို အသုံးပြုပါ (သို့) ပုံစံ ရေးဆွဲပါ</string>
+    <string name="use_fingerprint_or_pin">လက်ဗွေရာကို အသုံးပြုပါ (သို့) စကားဝှက် ထည့်သွင်းပါ</string>
+</resources>

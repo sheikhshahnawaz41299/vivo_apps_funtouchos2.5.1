@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/recent_item_container" android:layout_width="@dimen/vivo_upslide_recent_thumbnail_width_v" android:layout_height="@dimen/vivo_upslide_recent_thumbnail_height_v">
+        <ImageView android:layout_gravity="center" android:id="@id/recent_item_thumbnail" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="end" android:id="@id/recent_item_lock" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:src="@drawable/vivo_upslide_white_list_lock" android:layout_marginEnd="10.0dip" />
+        <ImageView android:layout_gravity="end|bottom|center" android:id="@id/recent_task_lock" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:src="@drawable/vivo_upslide_task_lock" android:layout_marginEnd="5.0dip" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/vivo_upslide_recent_text_size" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/recent_item_label" android:layout_width="68.0dip" android:layout_height="wrap_content" android:singleLine="true" />
+</LinearLayout>

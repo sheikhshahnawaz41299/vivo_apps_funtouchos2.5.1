@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/vivo_battery_20_00_color" android:maxLevel="5" />
+    <item android:drawable="@drawable/vivo_battery_20_01_color" android:maxLevel="10" />
+    <item android:drawable="@drawable/vivo_battery_20_02_color" android:maxLevel="15" />
+    <item android:drawable="@drawable/vivo_battery_20_03_color" android:maxLevel="20" />
+    <item android:drawable="@drawable/vivo_battery_20_04_color" android:maxLevel="25" />
+    <item android:drawable="@drawable/vivo_battery_20_05_color" android:maxLevel="30" />
+    <item android:drawable="@drawable/vivo_battery_20_06_color" android:maxLevel="35" />
+    <item android:drawable="@drawable/vivo_battery_20_07_color" android:maxLevel="40" />
+    <item android:drawable="@drawable/vivo_battery_20_08_color" android:maxLevel="45" />
+    <item android:drawable="@drawable/vivo_battery_20_09_color" android:maxLevel="50" />
+    <item android:drawable="@drawable/vivo_battery_20_10_color" android:maxLevel="55" />
+    <item android:drawable="@drawable/vivo_battery_20_11_color" android:maxLevel="60" />
+    <item android:drawable="@drawable/vivo_battery_20_12_color" android:maxLevel="65" />
+    <item android:drawable="@drawable/vivo_battery_20_13_color" android:maxLevel="70" />
+    <item android:drawable="@drawable/vivo_battery_20_14_color" android:maxLevel="75" />
+    <item android:drawable="@drawable/vivo_battery_20_15_color" android:maxLevel="80" />
+    <item android:drawable="@drawable/vivo_battery_20_16_color" android:maxLevel="85" />
+    <item android:drawable="@drawable/vivo_battery_20_17_color" android:maxLevel="90" />
+    <item android:drawable="@drawable/vivo_battery_20_18_color" android:maxLevel="95" />
+    <item android:drawable="@drawable/vivo_battery_20_19_color" android:maxLevel="100" />
+</level-list>

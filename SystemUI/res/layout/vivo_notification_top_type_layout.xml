@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="24.0dip" android:text="@null" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="?vivo:generalBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/ic_headup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/vivo_notification_tip_style_headsup_normal" android:scaleType="fitCenter" android:layout_weight="1.0" />
+            <ImageView android:id="@id/ic_ticker" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/vivo_notification_tip_style_ticker_normal" android:scaleType="fitCenter" android:layout_weight="1.0" />
+            <ImageView android:id="@id/ic_silent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/vivo_notification_tip_style_none_normal" android:scaleType="fitCenter" android:layout_weight="1.0" />
+        </LinearLayout>
+        <RadioGroup android:orientation="horizontal" android:id="@id/group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioButton android:textSize="@dimen/vivo_notification_tip_style_text_size" android:textColor="@drawable/vivo_notification_tip_style_text_color" android:layout_gravity="center_vertical" android:id="@id/headsup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/vivo_notification_tip_style_headsup" android:layout_weight="1.0" />
+            <RadioButton android:textSize="@dimen/vivo_notification_tip_style_text_size" android:textColor="@drawable/vivo_notification_tip_style_text_color" android:layout_gravity="center_vertical" android:id="@id/ticker" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/vivo_notification_tip_style_ticker" android:layout_weight="1.0" />
+            <RadioButton android:textSize="@dimen/vivo_notification_tip_style_text_size" android:textColor="@drawable/vivo_notification_tip_style_text_color" android:layout_gravity="center_vertical" android:id="@id/silent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/interruption_level_none" android:layout_weight="1.0" />
+        </RadioGroup>
+    </LinearLayout>
+    <TextView android:id="@id/illustration" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/vivo_notification_tip_style_illustration" />
+</LinearLayout>

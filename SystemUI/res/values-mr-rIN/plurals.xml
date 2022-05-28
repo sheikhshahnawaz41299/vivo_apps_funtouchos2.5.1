@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">विहंगावलोकनात %d स्क्रीन्स</item>
+        <item quantity="one">विहंगावलोकनात 1 स्क्रीन</item>
+    </plurals>
+    <plurals name="missed_call">
+        <item quantity="other">%d हुकलेले कॉल(ल्स)</item>
+        <item quantity="one">1 सुटलेला कॉल</item>
+    </plurals>
+    <plurals name="unread_msg">
+        <item quantity="other">%d न वाचलेले संदेश</item>
+        <item quantity="one">1 न वाचलेला संदेश</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">चुकीचा सिम कार्ड पिन, आपल्याकडे अजूनही %d प्रयत्न आहेत.</item>
+        <item quantity="one">चुकीचा सिम कार्ड पिन. आपले डिव्हाइस अनलॉक करण्यासाठी आपल्या वाहकाशी संपर्क करण्यापूर्वी आपल्याकडे %d उर्वरित प्रयत्न आहेत.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">चूकीचा सिम कार्ड PUK. आपण %d अधिक वेळा प्रयत्न करू शकता. आपण तरीही अपयशी झालात तर सिम कार्ड कायमचे अक्षम केले जाईल.</item>
+        <item quantity="one">चूकीचा सिम कार्ड PUK. आपण %d अधिक वेळा प्रयत्न करू शकता. आपण तरीही अपयशी झालात तर सिम कार्ड कायमचे अक्षम केले जाईल.</item>
+    </plurals>
+</resources>

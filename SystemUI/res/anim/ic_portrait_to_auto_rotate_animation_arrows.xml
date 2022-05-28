@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set>
+        <objectAnimator android:interpolator="@android:interpolator/linear" android:duration="133" />
+        <objectAnimator android:interpolator="@android:interpolator/linear" android:duration="333" />
+    </set>
+    <set>
+        <objectAnimator android:interpolator="@android:interpolator/linear" android:duration="133" />
+        <objectAnimator android:interpolator="@android:interpolator/linear" android:duration="333" />
+    </set>
+    <objectAnimator android:interpolator="@android:interpolator/fast_out_slow_in" android:duration="617" />
+</set>

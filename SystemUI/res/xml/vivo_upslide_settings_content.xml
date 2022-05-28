@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/vivo_upslide_operation_tips" android:key="upper_comment" />
+    <PreferenceCategory android:key="divider" style="?vivo:attr/dividerPreferenceStyle" />
+    <VivoCheckBoxPreference android:title="@string/vivo_upslide_switch_title" android:key="enable_in_app" android:defaultValue="true" />
+    <PreferenceCategory android:title="@string/vivo_upslide_switch_tips" android:key="under_comment" />
+</PreferenceScreen>

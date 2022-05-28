@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item>Wi-Fi</item>
+        <item>ກຳລັງສະແກນ...</item>
+        <item>ກຳລັງເຊື່ອມຕໍ່...</item>
+        <item>ກຳລັງຮັບຮອງ...</item>
+        <item>ກຳລັງຮັບເອົາ IP...</item>
+        <item>ເຊື່ອມຕໍ່ແລ້ວ</item>
+        <item>ຢຸດຊົ່ວຄາວແລ້ວ</item>
+        <item>ກຳລັງຕັດການເຊື່ອມຕໍ່...</item>
+        <item>ຕັດການເຊື່ອມຕໍໍ່ແລ້ວ...</item>
+        <item>ບໍ່ສຳເລັດ</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Wi-Fi</item>
+        <item>ກຳລັງສະແກນ...</item>
+        <item>ກຳລັງເຊື່ອມຕໍ່...</item>
+        <item>ກຳລັງຮັບຮອງ...</item>
+        <item>ກຳລັງຮັບເອົາ IP...</item>
+        <item>ເຊື່ອມຕໍ່ແລ້ວ%1$s</item>
+        <item>ຢຸດຊົ່ວຄາວແລ້ວ</item>
+        <item>ກຳລັງຕັດການເຊື່ອມຕໍ່...</item>
+        <item>ຕັດການເຊື່ອມຕໍໍ່ແລ້ວ...</item>
+        <item>ບໍ່ສຳເລັດ</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>ຊື່ພໍ່ຂອງທ່ານແມ່ນຫຍັງ?</item>
+        <item>ຊື່ຂອງແມ່ທ່ານແມ່ນຫຍັງ?</item>
+        <item>ຊື່ຄູ່ສົມລັດຂອງທ່ານແມ່ນຫຍັງ?</item>
+        <item>ໂຮງຮຽນປະຖົມທີ່ທ່ານໄດ້ຮຽນນັ້ນຊື່ຫຍັງ?</item>
+        <item>ຊື່ຄູອະນຸບານຂອງທ່ານແມ່ນຫຍັງ?</item>
+        <item>ຄູສອນໃນມັດທະຍົມຕອນປາຍຂອງທ່ານມີຊື່ວ່າແນວໃດ?</item>
+        <item>ເພື່ອນໃນໄວເດັກທີ່ດີທີ່ສຸດຂອງທ່ານມີຊື່ວ່າແນວໃດ?</item>
+        <item>ສະຖານທີ່ເກີດຂອງທ່ານຢູ່ໃສ?</item>
+        <item>ເລກປະຈໍາຕົວນັກຮຽນ (ເຮັດວຽກ)ຂອງທ່ານແມ່ນ​ຫຍັງ​?</item>
+        <item>6 ຕົວເລກສຸດທ້າຍຂອງເລກທີບັດປະຈຳຕົວຂອງທ່ານແມ່ນຫຍັງ?</item>
+        <item>ປ້າຍລົດຂອງທ່ານແມ່ນເລກຫຍັງ?</item>
+        <item>ບໍລິສັດທຳອິດທີ່ທ່ານໄດ້ເຮັດວຽກນຳມີຊື່ແນວໃດ?</item>
+    </string-array>
+</resources>

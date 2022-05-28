@@ -1,0 +1,29 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: SystemUI.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- png
+- ogg
+- res/raw/unlock_jingdian.itz
+- res/raw/unlock_qingjianyue.itz
+- res/raw/unlock_qingyang.itz
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '10'
+  targetSdkVersion: '22'
+sharedLibrary: false
+sparseResources: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  - 3
+  tag: null
+version: 2.5.0
+versionInfo:
+  versionCode: '1'
+  versionName: '3.0'

@@ -1,0 +1,1079 @@
+<?xml version="2.0" encoding="UTF-8"?>
+<notificationInfos>
+
+    <notificationInfo
+        app_pkg="com.wuba"
+        icon_color="vivo_noti_3p_58_color"
+        icon_white="vivo_noti_3p_58_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.qihoo360.mobilesafe"
+        icon_color="vivo_noti_3p_360mobilesafe_color"
+        icon_white="vivo_noti_3p_360mobilesafe_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.eg.android.AlipayGphone"
+        icon_color="vivo_noti_3p_alipay_wallet_color"
+        icon_white="vivo_noti_3p_alipay_wallet_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.baidu.BaiduMap"
+        icon_color="vivo_noti_3p_baidu_map_color"
+        icon_white="vivo_noti_3p_baidu_map_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.ting.mp3.oemc.android"
+        icon_color="vivo_noti_3p_baidu_music_color"
+        icon_white="vivo_noti_3p_baidu_music_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.baidu.netdisk"
+        icon_color="vivo_noti_3p_baidu_netdisk_color"
+        icon_white="vivo_noti_3p_baidu_netdisk_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.baidu.searchbox"
+        icon_color="vivo_noti_3p_baidu_searchbox_color"
+        icon_white="vivo_noti_3p_baidu_searchbox_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.baidu.tieba"
+        icon_color="vivo_noti_3p_baidu_tieba_color"
+        icon_white="vivo_noti_3p_baidu_tieba_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.baidu.video"
+        icon_color="vivo_noti_3p_baidu_video_color"
+        icon_white="vivo_noti_3p_baidu_video_white"
+        />
+
+    <notificationInfo
+        app_pkg="cn.opda.a.phonoalbumshoushou"
+        icon_color="vivo_noti_3p_baidusafe_color"
+        icon_white="vivo_noti_3p_baidusafe_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.bankcomm"
+        icon_color="vivo_noti_3p_bankcomm_color"
+        icon_white="vivo_noti_3p_bankcomm_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.chinamworld.bocmbci"
+        icon_color="vivo_noti_3p_boc_color"
+        icon_white="vivo_noti_3p_boc_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.chinamworld.main"
+        icon_color="vivo_noti_3p_ccb_color"
+        icon_white="vivo_noti_3p_ccb_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.changba"
+        icon_color="vivo_noti_3p_changba_color"
+        icon_white="vivo_noti_3p_changba_white"
+        />
+
+    <notificationInfo
+        app_pkg="cmb.pb"
+        icon_color="vivo_noti_3p_cmb_color"
+        icon_white="vivo_noti_3p_cmb_white"
+        />
+
+    <notificationInfo
+        app_pkg="ctrip.android.view"
+        icon_color="vivo_noti_3p_ctrip_color"
+        icon_white="vivo_noti_3p_ctrip_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.dangdang.buy2"
+        icon_color="vivo_noti_3p_dangdang_color"
+        icon_white="vivo_noti_3p_dangdang_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.android.dazhihui"
+        icon_color="vivo_noti_3p_dazhihui_color"
+        icon_white="vivo_noti_3p_dazhihui_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.dianping.t"
+        icon_color="vivo_noti_3p_dianping_color"
+        icon_white="vivo_noti_3p_dianping_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.sdu.didi.psnger"
+        icon_color="vivo_noti_3p_didi_color"
+        icon_white="vivo_noti_3p_didi_white"
+        />
+
+    <notificationInfo
+        app_pkg="cn.com.fetion"
+        icon_color="vivo_noti_3p_fetion_color"
+        icon_white="vivo_noti_3p_fetion_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.autonavi.minimap"
+        icon_color="vivo_noti_3p_gaode_map_color"
+        icon_white="vivo_noti_3p_gaode_map_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.autonavi.xmgd.navigator.tob"
+        icon_color="vivo_noti_3p_gaode_navigator_color"
+        icon_white="vivo_noti_3p_gaode_navigator_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.icbc"
+        icon_color="vivo_noti_3p_icbc_color"
+        icon_white="vivo_noti_3p_icbc_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.icson"
+        icon_color="vivo_noti_3p_icson_color"
+        icon_white="vivo_noti_3p_icson_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.jiepang.android"
+        icon_color="vivo_noti_3p_jiepang_color"
+        icon_white="vivo_noti_3p_jiepang_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.jingdong.app.mall"
+        icon_color="vivo_noti_3p_jingdong_color"
+        icon_white="vivo_noti_3p_jingdong_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.taobao.ju.android"
+        icon_color="vivo_noti_3p_juhuasuan_color"
+        icon_white="vivo_noti_3p_juhuasuan_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.jm.android.jumei"
+        icon_color="vivo_noti_3p_jumei_color"
+        icon_white="vivo_noti_3p_jumei_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.kugou.android"
+        icon_color="vivo_noti_3p_kugou_color"
+        icon_white="vivo_noti_3p_kugou_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.alibaba.android.babylon"
+        icon_color="vivo_noti_3p_laiwang_color"
+        icon_white="vivo_noti_3p_laiwang_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.lbe.security"
+        icon_color="vivo_noti_3p_lbesecurity_color"
+        icon_white="vivo_noti_3p_lbesecurity_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.mapbar.android.mapbarmap"
+        icon_color="vivo_noti_3p_mapbarmap_color"
+        icon_white="vivo_noti_3p_mapbarmap_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.greenpoint.android.mc10086.activity"
+        icon_color="vivo_noti_3p_mc10086_color"
+        icon_white="vivo_noti_3p_mc10086_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.meilishuo"
+        icon_color="vivo_noti_3p_meilishuo_color"
+        icon_white="vivo_noti_3p_meilishuo_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.sankuai.meituan"
+        icon_color="vivo_noti_3p_meituan_color"
+        icon_white="vivo_noti_3p_meituan_white"
+        />
+
+
+    <notificationInfo
+        app_pkg="com.moji.mjweather"
+        icon_color="vivo_noti_3p_mjweather_color"
+        icon_white="vivo_noti_3p_mjweather_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.tencent.mobileqq"
+        icon_color="vivo_noti_3p_mobileqq_color"
+        icon_white="vivo_noti_3p_mobileqq_white"
+        />
+	
+    <notificationInfo
+        app_pkg="com.tencent.qqlite"
+        icon_color="vivo_noti_3p_mobileqq_color"
+        icon_white="vivo_noti_3p_mobileqq_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.mogujie"
+        icon_color="vivo_noti_3p_mogujie_color"
+        icon_white="vivo_noti_3p_mogujie_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.immomo.momo"
+        icon_color="vivo_noti_3p_momo_color"
+        icon_white="vivo_noti_3p_momo_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.microsoft.msn.tmx"
+        icon_color="vivo_noti_3p_msn_color"
+        icon_white="vivo_noti_3p_msn_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.mt.mtxx.mtxx"
+        icon_color="vivo_noti_3p_mtxx_color"
+        icon_white="vivo_noti_3p_mtxx_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.netease.mobimail"
+        icon_color="vivo_noti_3p_netease_mail_color"
+        icon_white="vivo_noti_3p_netease_mail_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.netease.newsreader.activity"
+        icon_color="vivo_noti_3p_netease_news_color"
+        icon_white="vivo_noti_3p_netease_news_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.path"
+        icon_color="vivo_noti_3p_path_color"
+        icon_white="vivo_noti_3p_path_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.qiyi.video"
+        icon_color="vivo_noti_3p_qiyi_color"
+        icon_white="vivo_noti_3p_qiyi_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.tencent.mtt"
+        icon_color="vivo_noti_3p_qq_browser_color"
+        icon_white="vivo_noti_3p_qq_browser_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.tencent.androidqqmail"
+        icon_color="vivo_noti_3p_qq_mail_color"
+        icon_white="vivo_noti_3p_qq_mail_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.tencent.qqmusic"
+        icon_color="vivo_noti_3p_qq_music_color"
+        icon_white="vivo_noti_3p_qq_music_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.tencent.qqpimsecure"
+        icon_color="vivo_noti_3p_qqpimsecure_color"
+        icon_white="vivo_noti_3p_qqpimsecure_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.Qunar"
+        icon_color="vivo_noti_3p_qunar_color"
+        icon_white="vivo_noti_3p_qunar_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.qzone"
+        icon_color="vivo_noti_3p_qzone_color"
+        icon_white="vivo_noti_3p_qzone_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.renren.mobile.android"
+        icon_color="vivo_noti_3p_renren_color"
+        icon_white="vivo_noti_3p_renren_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.sina.mail"
+        icon_color="vivo_noti_3p_sina_mail_color"
+        icon_white="vivo_noti_3p_sina_mail_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.sina.news"
+        icon_color="vivo_noti_3p_sina_news_color"
+        icon_white="vivo_noti_3p_sina_news_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.sina.weibo"
+        icon_color="vivo_noti_3p_sina_weibo_color"
+        icon_white="vivo_noti_3p_sina_weibo_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.sohu.sohuvideo"
+        icon_color="vivo_noti_3p_sohu_video_color"
+        icon_white="vivo_noti_3p_sohu_video_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.sohu.inputmethod.sogou"
+        icon_color="vivo_noti_3p_sougou_input_color"
+        icon_white="vivo_noti_3p_sougou_input_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.storm.smart"
+        icon_color="vivo_noti_3p_storm_color"
+        icon_white="vivo_noti_3p_storm_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.suning.mobile.ebuy"
+        icon_color="vivo_noti_3p_suning_ebuy_color"
+        icon_white="vivo_noti_3p_suning_ebuy_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.taobao.taobao"
+        icon_color="vivo_noti_3p_taobao_color"
+        icon_white="vivo_noti_3p_taobao_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.tencent.mm"
+        icon_color="vivo_noti_3p_tencent_mm_color"
+        icon_white="vivo_noti_3p_tencent_mm_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.tencent.news"
+        icon_color="vivo_noti_3p_tencent_news_color"
+        icon_white="vivo_noti_3p_tencent_news_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.tencent.Wblog"
+        icon_color="vivo_noti_3p_tencent_wblog_color"
+        icon_white="vivo_noti_3p_tencent_wblog_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.tenpay.android"
+        icon_color="vivo_noti_3p_tenpay_color"
+        icon_white="vivo_noti_3p_tenpay_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.tigerknows"
+        icon_color="vivo_noti_3p_tigerknows_color"
+        icon_white="vivo_noti_3p_tigerknows_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.tmall.wireless"
+        icon_color="vivo_noti_3p_tmall_color"
+        icon_white="vivo_noti_3p_tmall_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.tudou.android"
+        icon_color="vivo_noti_3p_tudou_video_color"
+        icon_white="vivo_noti_3p_tudou_video_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.UCMobile"
+        icon_color="vivo_noti_3p_uc_browser_color"
+        icon_white="vivo_noti_3p_uc_browser_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.sinovatech.unicom.ui"
+        icon_color="vivo_noti_3p_unicom_color"
+        icon_white="vivo_noti_3p_unicom_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.achievo.vipshop"
+        icon_color="vivo_noti_3p_vipshop_color"
+        icon_white="vivo_noti_3p_vipshop_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.wacai365"
+        icon_color="vivo_noti_3p_wacai_color"
+        icon_white="vivo_noti_3p_wacai_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.alibaba.mobileim"
+        icon_color="vivo_noti_3p_wangxin_color"
+        icon_white="vivo_noti_3p_wangxin_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.weico"
+        icon_color="vivo_noti_3p_weico_color"
+        icon_white="vivo_noti_3p_weico_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.wumii.android.mimi"
+        icon_color="vivo_noti_3p_wumi_color"
+        icon_white="vivo_noti_3p_wumi_white"
+        />
+
+    <notificationInfo
+        app_pkg="fm.xiami.main"
+        icon_color="vivo_noti_3p_xiami_color"
+        icon_white="vivo_noti_3p_xiami_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.xunlei.downloadprovider"
+        icon_color="vivo_noti_3p_xunlei_download_color"
+        icon_white="vivo_noti_3p_xunlei_download_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.thestore.main"
+        icon_color="vivo_noti_3p_yihaodian_color"
+        icon_white="vivo_noti_3p_yihaodian_white"
+        />
+
+    <notificationInfo
+        app_pkg="im.yixin"
+        icon_color="vivo_noti_3p_yixin_color"
+        icon_white="vivo_noti_3p_yixin_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.youku.phone"
+        icon_color="vivo_noti_3p_youku_color"
+        icon_white="vivo_noti_3p_youku_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.duowan.mobile"
+        icon_color="vivo_noti_3p_yy_yuyin_color"
+        icon_white="vivo_noti_3p_yy_yuyin_white"
+        />
+
+    <notificationInfo
+        app_pkg="cn.andouya"
+        icon_color="vivo_noti_xender_color"
+        icon_white="vivo_noti_xender_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.facebook.katana"
+        icon_color="vivo_noti_3p_facebook_color"
+        icon_white="vivo_noti_3p_facebook_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.android.chrome"
+        icon_color="vivo_noti_3p_chrome_color"
+        icon_white="vivo_noti_3p_chrome_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.google.android.gm"
+        icon_color="vivo_noti_3p_gmail_color"
+        icon_white="vivo_noti_3p_gmail_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.google.android.apps.plus"
+        icon_color="vivo_noti_3p_google_plus_color"
+        icon_white="vivo_noti_3p_google_plus_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.google.android.apps.maps"
+        icon_color="vivo_noti_3p_maps_color"
+        icon_white="vivo_noti_3p_maps_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.quickoffice.android"
+        icon_color="vivo_noti_3p_quick_offices_color"
+        icon_white="vivo_noti_3p_quick_offices_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.google.android.youtube"
+        icon_color="vivo_noti_3p_youtube_color"
+        icon_white="vivo_noti_3p_youtube_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.android.vending"
+        icon_color="vivo_noti_3p_play_store_color"
+        icon_white="vivo_noti_3p_play_store_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.google.android.talk"
+        icon_color="vivo_noti_3p_hangouts_color"
+        icon_white="vivo_noti_3p_hangouts_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.google.android.play.games"
+        icon_color="vivo_noti_3p_play_game_color"
+        icon_white="vivo_noti_3p_play_game_white"
+        />
+
+    <notificationInfo
+        app_pkg="jp.naver.line.android"
+        icon_color="vivo_noti_3p_line_color"
+        icon_white="vivo_noti_3p_line_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.twitter.android"
+        icon_color="vivo_noti_3p_twitter_color"
+        icon_white="vivo_noti_3p_twitter_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.google.android.apps.genie.geniewidget"
+        icon_color="vivo_noti_3p_news_weather_color"
+        icon_white="vivo_noti_3p_news_weather_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.whatsapp"
+        icon_color="vivo_noti_3p_whats_app_color"
+        icon_white="vivo_noti_3p_whats_app_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.waze"
+        icon_color="vivo_noti_3p_waze_color"
+        icon_white="vivo_noti_3p_waze_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.mediatek.mtklogger"
+        icon_color="vivo_noti_mtklogger_color_01"
+        icon_white="vivo_noti_mtklogger_white_01"
+        />
+
+    <notificationInfo
+        app_pkg="com.chaozh.iReader"
+        icon_color="vivo_noti_iReader_color"
+        icon_white="vivo_noti_iReader_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.dragon.android.pandaspace"
+        icon_color="vivo_noti_3p_91_color"
+        icon_white="vivo_noti_3p_91_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.netease.mobimail"
+        icon_color="vivo_noti_3p_163_mailbox_color"
+        icon_white="vivo_noti_3p_163_mailbox_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.netease.cloudmusic"
+        icon_color="vivo_noti_3p_163_music_color"
+        icon_white="vivo_noti_3p_163_music_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.netease.pris"
+        icon_color="vivo_noti_3p_163_reading_color"
+        icon_white="vivo_noti_3p_163_reading_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.corp21cn.mail189"
+        icon_color="vivo_noti_3p_189_color"
+        icon_white="vivo_noti_3p_189_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.qihoo.appstore"
+        icon_color="vivo_noti_3p_360_color"
+        icon_white="vivo_noti_3p_360_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.MobileTicket"
+        icon_color="vivo_noti_3p_12306_color"
+        icon_white="vivo_noti_3p_12306_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.chinamobile.contacts.im"
+        icon_color="vivo_noti_3p_and_color"
+        icon_white="vivo_noti_3p_and_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.welove520.welove"
+        icon_color="vivo_noti_3p_apploving_color"
+        icon_white="vivo_noti_3p_apploving_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.baidu.browser.apps_sj"
+        icon_color="vivo_noti_3p_baidu_browser_color"
+        icon_white="vivo_noti_3p_baidu_browser_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.baidu.input"
+        icon_color="vivo_noti_3p_baidu_input_color"
+        icon_white="vivo_noti_3p_baidu_input_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.baidu.lbs.waimai"
+        icon_color="vivo_noti_3p_baidu_takeout_color"
+        icon_white="vivo_noti_3p_baidu_takeout_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.meitu.meiyancamera"
+        icon_color="vivo_noti_3p_beaty_camera_color"
+        icon_white="vivo_noti_3p_beaty_camera_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.bilin.huijiao.activity"
+        icon_color="vivo_noti_3p_bilin_color"
+        icon_white="vivo_noti_3p_bilin_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.tencent.ttpic"
+        icon_color="vivo_noti_3p_daily_p_color"
+        icon_white="vivo_noti_3p_daily_p_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.yoloho.dayima"
+        icon_color="vivo_noti_3p_dayima_color"
+        icon_white="vivo_noti_3p_dayima_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.xtuone.android.syllabus"
+        icon_color="vivo_noti_3p_friday_color"
+        icon_white="vivo_noti_3p_friday_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.iflytek.inputmethod"
+        icon_color="vivo_noti_3p_ifly_input_color"
+        icon_white="vivo_noti_3p_ifly_input_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.tencent.lightalk"
+        icon_color="vivo_noti_3p_incall_color"
+        icon_white="vivo_noti_3p_incall_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.ijinshan.duba"
+        icon_color="vivo_noti_3p_kingsoft_antivirus _color"
+        icon_white="vivo_noti_3p_kingsoft_antivirus _white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.taobao.mobile.dipei"
+        icon_color="vivo_noti_3p_koubei_color"
+        icon_white="vivo_noti_3p_koubei_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.funcity.taxi.passenger"
+        icon_color="vivo_noti_3p_kuai_che_color"
+        icon_white="vivo_noti_3p_kuai_che_white"
+        />
+    
+    <notificationInfo
+        app_pkg="cn.kuwo.player"
+        icon_color="vivo_noti_3p_kuwo_color"
+        icon_white="vivo_noti_3p_kuwo_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.letv.android.client.bbk"
+        icon_color="vivo_noti_3p_letv_color"
+        icon_white="vivo_noti_3p_letv_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.lingan.seeyou"
+        icon_color="vivo_noti_3p_meet_you_color"
+        icon_white="vivo_noti_3p_meet_you_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.meitu.meipaimv"
+        icon_color="vivo_noti_3p_meipai_color"
+        icon_white="vivo_noti_3p_meipai_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.sankuai.meituan.takeoutnew"
+        icon_color="vivo_noti_3p_meituan_takeout_color"
+        icon_white="vivo_noti_3p_meituan_takeout_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.hunantv.imgo.activity"
+        icon_color="vivo_noti_3p_mgtv_color"
+        icon_white="vivo_noti_3p_mgtv_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.le123.ysdq"
+        icon_color="vivo_noti_3p_movies_color"
+        icon_white="vivo_noti_3p_movies_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.wandoujia.phoenix2"
+        icon_color="vivo_noti_3p_pea_pods_color"
+        icon_white="vivo_noti_3p_pea_pods_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.ifeng.news2"
+        icon_color="vivo_noti_3p_phoenix_news_color"
+        icon_white="vivo_noti_3p_phoenix_news_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.funshion.video.mobile"
+        icon_color="vivo_noti_3p_popular_video_color"
+        icon_white="vivo_noti_3p_popular_video_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.mpptv"
+        icon_color="vivo_noti_3p_pptv_color"
+        icon_white="vivo_noti_3p_pptv_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.taobao.qianniu"
+        icon_color="vivo_noti_3p_qianniu_color"
+        icon_white="vivo_noti_3p_qianniu_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.tencent.qqphonebook"
+        icon_color="vivo_noti_3p_qq_contacts_color"
+        icon_white="vivo_noti_3p_qq_contacts_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.tencent.token"
+        icon_color="vivo_noti_3p_qq_sec_center_color"
+        icon_white="vivo_noti_3p_qq_sec_center_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.tencent.android.qqdownloader"
+        icon_color="vivo_noti_3p_qq_treasure_color"
+        icon_white="vivo_noti_3p_qq_treasure_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.tencent.qqpim"
+        icon_color="vivo_noti_3p_qq_updater_color"
+        icon_white="vivo_noti_3p_qq_updater_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.shuqi.com.controller"
+        icon_color="vivo_noti_3p_shuqi_color"
+        icon_white="vivo_noti_3p_shuqi_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.suning.mobile.ebuy"
+        icon_color="vivo_noti_3p_suning_color"
+        icon_white="vivo_noti_3p_suning_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.ct.client"
+        icon_color="vivo_noti_3p_telecom_color"
+        icon_white="vivo_noti_3p_telecom_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.tencent.qqlive"
+        icon_color="vivo_noti_3p_tencent_video_color"
+        icon_white="vivo_noti_3p_tencent_video_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.ss.android.article.news"
+        icon_color="vivo_noti_3p_today_headline_color"
+        icon_white="vivo_noti_3p_today_headline_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.cootek.smartdialer"
+        icon_color="vivo_noti_3p_touchpal_color"
+        icon_white="vivo_noti_3p_touchpal_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.sds.android.ttpod"
+        icon_color="vivo_noti_3p_ttpod_color"
+        icon_white="vivo_noti_3p_ttpod_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.ubercab"
+        icon_color="vivo_noti_3p_uber_color"
+        icon_white="vivo_noti_3p_uber_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.unionpay.uppay"
+        icon_color="vivo_noti_3p_unionpay_color"
+        icon_white="vivo_noti_3p_unionpay_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.alibaba.mobileim"
+        icon_color="vivo_noti_3p_wang_letter_color"
+        icon_white="vivo_noti_3p_wang_letter_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.yy.yymeet"
+        icon_color="vivo_noti_3p_weihui_color"
+        icon_white="vivo_noti_3p_weihui_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.tencent.pb"
+        icon_color="vivo_noti_3p_weixin_contacts_color"
+        icon_white="vivo_noti_3p_weixin_contacts_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.xiaoenai.app"
+        icon_color="vivo_noti_3p_welove_color"
+        icon_white="vivo_noti_3p_welove_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.qihoo.wifi"
+        icon_color="vivo_noti_3p_wifi_key_color"
+        icon_white="vivo_noti_3p_wifi_key_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.asiainfo.android"
+        icon_color="vivo_noti_3p_wo_mailbox_color"
+        icon_white="vivo_noti_3p_wo_mailbox_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.yixia.xiaokaxiu"
+        icon_color="vivo_noti_3p_xiaokaxiu_color"
+        icon_white="vivo_noti_3p_xiaokaxiu_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.xunlei.kankan"
+        icon_color="vivo_noti_3p_xunlei_kankan_color"
+        icon_white="vivo_noti_3p_xunlei_kankan_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.snda.youni"
+        icon_color="vivo_noti_3p_youni_color"
+        icon_white="vivo_noti_3p_youni_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.yx"
+        icon_color="vivo_noti_3p_youxin_call_color"
+        icon_white="vivo_noti_3p_youxin_call_white"
+        />
+    
+    <notificationInfo
+        app_pkg="com.yipiao"
+        icon_color="vivo_noti_3p_zhixing_color"
+        icon_white="vivo_noti_3p_zhixing_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.google.android.apps.magazines"
+        icon_color="vivo_noti_3p_google_magazines_color"
+        icon_white="vivo_noti_3p_google_magazines_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.google.android.apps.docs"
+        icon_color="vivo_noti_3p_google_docs_color"
+        icon_white="vivo_noti_3p_google_docs_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.google.android.videos"
+        icon_color="vivo_noti_3p_google_video_color"
+        icon_white="vivo_noti_3p_google_video_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.google.android.music"
+        icon_color="vivo_noti_3p_google_music_color"
+        icon_white="vivo_noti_3p_google_music_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.google.android.apps.books"
+        icon_color="vivo_noti_3p_google_books_color"
+        icon_white="vivo_noti_3p_google_books_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.bbm"
+        icon_color="vivo_noti_3p_bbm_color"
+        icon_white="vivo_noti_3p_bbm_white"
+         />
+
+    <notificationInfo
+        app_pkg="com.facebook.orca"
+        icon_color="vivo_noti_3p_facebook_orca_color"
+        icon_white="vivo_noti_3p_facebook_orca_white"
+        />
+
+    <notificationInfo
+        app_pkg="android"
+        icon_color="vivo_noti_systemui_color_02"
+        icon_white="vivo_noti_systemui_white_02"
+        />
+
+   <notificationInfo
+        app_pkg="com.skype.raider"
+        icon_color="vivo_noti_3p_skypev_color"
+        icon_white="vivo_noti_3p_skypev_white"
+         />
+
+    <notificationInfo
+        app_pkg="com.instagram.android"
+        icon_color="vivo_noti_3p_instagram_color"
+        icon_white="vivo_noti_3p_instagram_white"
+        />
+
+   <notificationInfo
+        app_pkg="com.sgiggle.production"
+        icon_color="vivo_noti_3p_tango_color"
+        icon_white="vivo_noti_3p_tango_white"
+         />
+
+    <notificationInfo
+        app_pkg="com.viber.voip"
+        icon_color="vivo_noti_3p_viber_color"
+        icon_white="vivo_noti_3p_viber_white"
+        />
+
+   <notificationInfo
+        app_pkg="com.beetalk"
+        icon_color="vivo_noti_3p_beetalk_color"
+        icon_white="vivo_noti_3p_beetalk_white"
+         />
+
+    <notificationInfo
+        app_pkg="org.telegram.messenger"
+        icon_color="vivo_noti_3p_telegram_color"
+        icon_white="vivo_noti_3p_telegram_white"
+        />
+
+   <notificationInfo
+        app_pkg="com.bsb.hike"
+        icon_color="vivo_noti_3p_hike_color"
+        icon_white="vivo_noti_3p_hike_white"
+         />
+
+    <notificationInfo
+        app_pkg="com.nimbuzz"
+        icon_color="vivo_noti_3p_nimbuzz_color"
+        icon_white="vivo_noti_3p_nimbuzz_white"
+        />
+
+   <notificationInfo
+        app_pkg="com.linkedin.android"
+        icon_color="vivo_noti_3p_linkedin_color"
+        icon_white="vivo_noti_3p_linkedin_white"
+         />
+
+    <notificationInfo
+        app_pkg="com.socialcam.android"
+        icon_color="vivo_noti_3p_socialcam_color"
+        icon_white="vivo_noti_3p_socialcam_white"
+        />
+
+   <notificationInfo
+        app_pkg="com.kakao.talk"
+        icon_color="vivo_noti_3p_kakao_talk_color"
+        icon_white="vivo_noti_3p_kakao_talk_white"
+         />
+
+    <notificationInfo
+        app_pkg="com.yahoo.mobile.client.android.im"
+        icon_color="vivo_noti_3p_yahoo_color"
+        icon_white="vivo_noti_3p_yahoo_white"
+        />
+
+    <notificationInfo
+        app_pkg="com.google.android.apps.messaging"
+        icon_color="vivo_noti_3p_gtalk_color"
+        icon_white="vivo_noti_3p_gtalk_white"
+        />
+
+</notificationInfos>

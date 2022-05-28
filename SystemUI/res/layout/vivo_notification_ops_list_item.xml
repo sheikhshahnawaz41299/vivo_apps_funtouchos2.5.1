@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/vivo_status_bar_preference_height" android:layout_centerVertical="true">
+        <FrameLayout android:id="@id/icon_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <ImageView android:id="@id/icon" android:layout_width="@dimen/vivo_app_icon_size" android:layout_height="@dimen/vivo_app_icon_size" android:scaleType="fitCenter" />
+            <ImageView android:id="@id/offical_icon" android:visibility="gone" android:layout_width="@dimen/vivo_app_icon_size" android:layout_height="@dimen/vivo_app_icon_size" android:src="@drawable/vivo_offical" android:scaleType="fitCenter" />
+            <ImageView android:id="@id/offical_icon_en" android:visibility="gone" android:layout_width="@dimen/vivo_app_icon_size" android:layout_height="@dimen/vivo_app_icon_size" android:src="@drawable/vivo_offical_en" android:scaleType="fitCenter" />
+        </FrameLayout>
+        <ImageView android:id="@id/notification_switch_entry" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?vivo:btnArrow" android:scaleType="fitCenter" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true">
+            <TextView android:textAppearance="?vivo:textAppearancePreferenceTitle" android:textSize="@dimen/vivo_listview_first_text_size" android:ellipsize="end" android:id="@id/item_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textAppearance="?vivo:textAppearancePreferenceTitle" android:textSize="@dimen/vivo_listview_second_text_size" android:gravity="start" android:id="@id/notificaiton_type_showing" android:paddingBottom="1.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:background="?android:dividerHorizontal" android:layout_width="fill_parent" android:layout_height="@vivo:dimen/divider_height" />
+</LinearLayout>

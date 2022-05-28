@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">مجموعی جائزہ میں %d اسکرین</item>
+        <item quantity="one">مجموعی جائزہ میں 1 اسکرین</item>
+    </plurals>
+    <plurals name="missed_call">
+        <item quantity="other">‎%d چھوٹی ہوئی کال (کالیں)</item>
+        <item quantity="one">1 چھوٹی ہوئی کال</item>
+    </plurals>
+    <plurals name="unread_msg">
+        <item quantity="other">%d بغیر پڑھے ہوئے پیغام (پیغامات)</item>
+        <item quantity="one">1 بغیر پڑھا ہوا پیغام</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">غلط SIM کارڈ PIN، آپ کے پاس اب بھی %d کوششیں باقی ہیں.</item>
+        <item quantity="one">غلط SIM کارڈ PIN۔ آپ کے پاس %d کوشش (کوششیں) باقی ہیں اس کے بعد ہی آپ اپنا ڈیوائس انلاک کرنے کے لئے اپنے کیریئر سے رابطہ کر سکیں گے۔</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">غلط SIM کارڈ PUK۔ آپ %d مرتبہ مزید کوشش کر سکتے ہیں۔ اگر آپ اب بھی ناکام ہو جاتے ہیں، تو SIM کارڈ مستقل طور پر غیر فعال ہوجائے گا۔</item>
+        <item quantity="one">غلط SIM کارڈ PUK۔ آپ %d مرتبہ مزید کوشش کر سکتے ہیں۔ اگر آپ اب بھی ناکام ہو جاتے ہیں، تو SIM کارڈ مستقل طور پر غیر فعال ہوجائے گا۔</item>
+    </plurals>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/root" android:background="@color/vivo_upslide_switcher_order_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.systemui.vivo.compatible.widget.StatusBarTitleView android:id="@id/swap_title" android:layout_width="fill_parent" android:layout_height="@dimen/vivo_title_bar_height" />
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/vivo_upslide_switcher_title_margin_top">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vivo_upslide_switcher_order_show" />
+            <TextView android:textSize="13.0dip" android:textColor="?android:textColorTertiary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/vivo_switcher_order_show" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/vivo_upslide_switcher_order_area_height">
+            <GridLayout android:id="@id/shown_area" android:layout_width="wrap_content" android:layout_height="fill_parent" android:columnCount="5" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/vivo_upslide_switcher_title_margin_top">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vivo_upslide_switcher_order_hide" />
+            <TextView android:textSize="13.0dip" android:textColor="?android:textColorTertiary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/vivo_switcher_order_hide" />
+        </LinearLayout>
+        <FrameLayout android:background="@color/vivo_upslide_switcher_order_area_background" android:layout_width="fill_parent" android:layout_height="@dimen/vivo_upslide_switcher_order_area_height">
+            <GridLayout android:id="@id/hidden_area" android:layout_width="wrap_content" android:layout_height="fill_parent" android:columnCount="5" />
+        </FrameLayout>
+        <TextView android:textSize="@dimen/vivo_upslide_switcher_hint_text_size" android:textColor="?android:textColorTertiary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/vivo_switcher_order_hide_tip" />
+    </LinearLayout>
+    <TextView android:id="@id/virtual" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

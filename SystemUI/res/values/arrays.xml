@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="batterymeter_color_levels">
+        <item>15</item>
+        <item>100</item>
+    </integer-array>
+    <array name="batterymeter_color_values">
+        <item>@android:color/battery_saver_mode_color</item>
+        <item>#ffffffff</item>
+    </array>
+    <integer-array name="batterymeter_bolt_points">
+        <item>73</item>
+        <item>0</item>
+        <item>392</item>
+        <item>0</item>
+        <item>201</item>
+        <item>259</item>
+        <item>442</item>
+        <item>259</item>
+        <item>4</item>
+        <item>703</item>
+        <item>157</item>
+        <item>334</item>
+        <item>0</item>
+        <item>334</item>
+    </integer-array>
+    <string-array name="DEFAULT">
+        <item>unlock_qingyang</item>
+        <item>unlock_qingjianyue</item>
+        <item>unlock_jingdian</item>
+    </string-array>
+    <string-array name="CMCC">
+        <item>unlock_jingdian</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item>Wi-Fi</item>
+        <item>Scanning…</item>
+        <item>Connecting…</item>
+        <item>Authenticating…</item>
+        <item>Obtaining IP…</item>
+        <item>Connected</item>
+        <item>Suspended</item>
+        <item>Disconnecting…</item>
+        <item>Disconnected</item>
+        <item>Unsuccessful</item>
+    </string-array>
+    <string-array name="wifi_security_only_wapi_cert_entries">
+        <item>WAPI CERT</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Wi-Fi</item>
+        <item>Scanning…</item>
+        <item>Connecting%1$s…</item>
+        <item>Authenticating%1$s…</item>
+        <item>Obtaining IP%1$s…</item>
+        <item>Connected%1$s</item>
+        <item>Suspended</item>
+        <item>Disconnecting from %1$s…</item>
+        <item>Disconnected</item>
+        <item>Unsuccessful</item>
+    </string-array>
+    <string-array name="lockscreen_num_pad_klondike">
+        <item>+</item>
+        <item></item>
+        <item>ABC</item>
+        <item>DEF</item>
+        <item>GHI</item>
+        <item>JKL</item>
+        <item>MNO</item>
+        <item>PQRS</item>
+        <item>TUV</item>
+        <item>WXYZ</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>Who is your father？</item>
+        <item>Who is your mother？</item>
+        <item>Who is your spouse？</item>
+        <item>What primary school did you attend?</item>
+        <item>"What is your kindergarten teacher's name?"</item>
+        <item>"What is your high school teacher's name?"</item>
+        <item>What is your best childhood friend’s name?</item>
+        <item>Where were you born?</item>
+        <item>What is your student (employment) identification number?</item>
+        <item>What are the last 6 digits of your identification card number?</item>
+        <item>"What's the license plate number of your car?"</item>
+        <item>What was the name of the first company you worked for?</item>
+    </string-array>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d ໜ້າ​ຈໍ​ຢູ່​ໃນ​ພາບ​ລວມ</item>
+        <item quantity="one">1 ​ໜ້າ​ຈໍ​ຢູ່​ໃນ​ພາບ​ລວມ</item>
+    </plurals>
+    <plurals name="missed_call">
+        <item quantity="other">%d ສາຍທີ່ບໍ່ໄດ້ຮັບ</item>
+        <item quantity="one">1 ສາຍບໍ່ໄດ້ຮັບ</item>
+    </plurals>
+    <plurals name="unread_msg">
+        <item quantity="other">%d ຂໍ້ຄວາມທີ່ບໍ່ໄດ້ອ່ານ</item>
+        <item quantity="one">1 ຂໍ້ຄວາມບໍ່ໄດ້ອ່ານ</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">ລະຫັດ PIN SIM ບໍ່ຖືກຕ້ອງ, ທ່ານເຫຼືອຄວາມພະຍາຍາມອີກ %d ຄັ້ງ.</item>
+        <item quantity="one">ລະຫັດ PIN SIM ບໍ່ຖືກຕ້ອງ, ທ່ານເຫຼືອຄວາມພະຍາຍາມອີກ %d ຄັ້ງ ກ່ອນທີ່ທ່ານຈະຕ້ອງໄດ້ຕິດຕໍ່ຜູ້ໃຫ້ບໍລິການຂອງທ່ານທີ່ຈະ ປົດລັອກ ອຸປະກອນຂອງທ່ານ.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">ລະຫັດ PIN SIM ບໍ່ຖືກຕ້ອງ, ທ່ານເຫຼືອຄວາມພະຍາຍາມອີກ %d ຄັ້ງ ກ່ອນທີ່ SIM ຈະໃຊ້ບໍ່ໄດ້ຢ່າງຖາວອນ.</item>
+        <item quantity="one">ລະຫັດ PIN SIM ບໍ່ຖືກຕ້ອງ, ທ່ານເຫຼືອຄວາມພະຍາຍາມອີກ %d ຄັ້ງ ກ່ອນທີ່ SIM ຈະໃຊ້ບໍ່ໄດ້ຢ່າງຖາວອນ.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d หน้าจอในภาพรวม</item>
+        <item quantity="one">1 หน้าจอในภาพรวม</item>
+    </plurals>
+    <plurals name="missed_call">
+        <item quantity="other">สายที่ไม่ได้รับ %d สาย</item>
+        <item quantity="one">1 สายที่ไม่ได้รับ</item>
+    </plurals>
+    <plurals name="unread_msg">
+        <item quantity="other">อีเมลที่ยังไม่ได้อ่าน %d ฉบับ</item>
+        <item quantity="one">1 ข้อความที่ยังไม่อ่าน</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">รหัส PIN ของซิมการ์ดไม่ถูกต้อง, คุณยังเหลือความพยายาม %d ครั้ง</item>
+        <item quantity="one">รหัส PIN ของซิมการ์ดไม่ถูกต้อง, คุณยังเหลือความพยายาม %d ครั้ง หากคุณยังคงล้มเหลว คุณต้องติดต่อผู้ให้บริการของคุณเพื่อปลดล็อคอุปกรณ์</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">รหัส PUK ของซิมการ์ดไม่ถูกต้อง คุณสามารถลอง %d ได้มากขึ้น หากคุณยังคงล้มเหลว ซิมการ์ดจะถูกปิดใช้งานอย่างถาวร</item>
+        <item quantity="one">รหัส PUK ของซิมการ์ดไม่ถูกต้อง คุณสามารถลอง %d ได้มากขึ้น หากคุณยังคงล้มเหลว ซิมการ์ดจะถูกปิดใช้งานอย่างถาวร</item>
+    </plurals>
+</resources>

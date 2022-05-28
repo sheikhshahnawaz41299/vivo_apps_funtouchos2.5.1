@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item>Wi-Fi</item>
+        <item>Sina-scan ang mga network…</item>
+        <item>Kumokonekta...</item>
+        <item>Pinapatunayan...</item>
+        <item>Kinukuha ang IP...</item>
+        <item>Nakakonekta</item>
+        <item>Naka-pause</item>
+        <item>Dinidiskonekta…</item>
+        <item>Natanggal sa pagkakonekta</item>
+        <item>Nabigo</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Wi-Fi</item>
+        <item>Sina-scan ang mga network…</item>
+        <item>Kumokonekta...</item>
+        <item>Pinapatunayan...</item>
+        <item>Kinukuha ang IP...</item>
+        <item>Nakakonekta%1$s</item>
+        <item>Naka-pause</item>
+        <item>Dinidiskonekta…</item>
+        <item>Natanggal sa pagkakonekta</item>
+        <item>Nabigo</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>Ano ang pangalan ng iyong ama?</item>
+        <item>Ano ang pangalan ng iyong ina?</item>
+        <item>Ano ang pangalan ng iyong asawa?</item>
+        <item>Saang paaralang elementarya ka nag-aral?</item>
+        <item>Ano ang pangalan ng guro mo noong kindergarten?</item>
+        <item>Ano ang pangalan ng guro mo noong high school?</item>
+        <item>Ano ang pangalan ng pinakamatalik mong kaibigan noong bata ka?</item>
+        <item>Saan ka ipinanganak?</item>
+        <item>Ano ang iyong numero ng pagkakakilanlan sa paaralan (trabaho)?</item>
+        <item>Ano ang huling 6 na digit ng numero ng iyong identification card?</item>
+        <item>Ano ang plate number ng lisensya ng iyong sasakyan?</item>
+        <item>Ano ang pangalan ng kumpanya kung saan ka unang nagtrabaho?</item>
+    </string-array>
+</resources>

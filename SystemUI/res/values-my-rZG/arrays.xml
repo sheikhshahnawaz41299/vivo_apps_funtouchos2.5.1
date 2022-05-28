@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item>Wi-Fi</item>
+        <item>ရွာေဖြဖတ္ေနသည္…</item>
+        <item>ခ်ိတ္ဆက္ေနသည္…</item>
+        <item>သံုးခြင့္ရသူျဖစ္ေၾကာင္းအတည္ျပဳျခင္း…</item>
+        <item>IP ကိုရယူေနသည္...</item>
+        <item>ခ်ိတ္ဆက္လ်က္ရွိသည္</item>
+        <item>ဆိုင္းငံ့ထားသည္</item>
+        <item>ခ်ိတ္ဆက္မႈျပတ္ေနသည္…</item>
+        <item>ခ်ိတ္ဆက္မႈမရွိပါ</item>
+        <item>မေအာင္ျမင္ပါ</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Wi-Fi</item>
+        <item>ရွာေဖြဖတ္ေနသည္…</item>
+        <item>Connecting%1$s…</item>
+        <item>Authenticating%1$s…</item>
+        <item>IP ကိုရယူေနသည္...</item>
+        <item>Connected%1$s</item>
+        <item>ဆိုင္းငံ့ထားသည္</item>
+        <item>Disconnecting from %1$s…</item>
+        <item>ခ်ိတ္ဆက္မႈမရွိပါ</item>
+        <item>မေအာင္ျမင္ပါ</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>သင့္ ဖခင္ ဘယ္သူပါလဲ။</item>
+        <item>သင့္ မိခင္ ဘယ္သူပါလဲ။</item>
+        <item>သင့္ အိမ္ေထာင္ဘက္ ဘယ္သူပါလဲ။</item>
+        <item>သင္တက္ခဲ့သည့္ မူလတန္းေက်ာင္းကို ေျပာပါ။</item>
+        <item>သင့္မူလတန္းဆရာ၊မ အမည္ကိုေျပာပါ။</item>
+        <item>သင့္အထက္တန္းဆရာ၊မ အမည္ကိုေျပာပါ။</item>
+        <item>သင့္ကေလးဘ၀ အခ်စ္ဆံုးသူငယ္ခ်င္းအမည္ကို ေျပာပါ။</item>
+        <item>သင့္ကိုဘယ္မွာေမြးခဲ့သလဲ?</item>
+        <item>သင့္ေက်ာင္းသား (၀န္ထမ္း) မွတ္ပံုတင္နံပါတ္ကိုေျပာပါ။</item>
+        <item>သင့္မွတ္ပံုတင္မွ ေနာက္ဆံုးဂဏန္း 6 လံုးကိုေျပာပါ။</item>
+        <item>သင့္ကား၏ လိုင္စင္ကဒ္ နံပါတ္က ဘာလဲ?</item>
+        <item>သင္အလုပ္စတင္လုပ္ကိုင္ခဲ့သည့္ ကုမၸဏီအမည္ကို ေျပာပါ။</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/vivo_carrier_label" android:background="@drawable/vivo_statusbar_title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.systemui.vivo.common.network.VivoCarrierLabel android:textAppearance="@style/TextAppearance.StatusBar.Clock" android:textSize="@dimen/vivo_status_bar_carrier_expanded_size" android:textColor="@color/vivo_statusbar_expended_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/vivo_carrier1" android:layout_width="fill_parent" android:layout_height="30.0dip" android:singleLine="true" android:textDirection="locale" android:paddingStart="@dimen/vivo_expand_panel_padding" />
+    <com.android.systemui.vivo.common.network.VivoCarrierLabel android:textAppearance="@style/TextAppearance.StatusBar.Clock" android:textSize="@dimen/vivo_status_bar_carrier_expanded_size" android:textColor="@color/vivo_statusbar_expended_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/vivo_carrier2" android:layout_width="fill_parent" android:layout_height="30.0dip" android:singleLine="true" android:textDirection="locale" android:paddingStart="@dimen/vivo_expand_panel_padding" />
+</LinearLayout>

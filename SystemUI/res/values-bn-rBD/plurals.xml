@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">সংক্ষিপ্তসার-এ %d স্ক্রীন</item>
+        <item quantity="one">ওভারভিউ-এ 1টি স্ক্রীন</item>
+    </plurals>
+    <plurals name="missed_call">
+        <item quantity="other">%dটি মিস কল</item>
+        <item quantity="one">1টি মিসড কল</item>
+    </plurals>
+    <plurals name="unread_msg">
+        <item quantity="other">%dটি অপঠিত বার্তা</item>
+        <item quantity="one">1টি অপঠিত বার্তা</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">ভুল SIM কার্ড PIN, এখনও আপনার %d টি প্রচেষ্টা বাকী আছে।</item>
+        <item quantity="one">ভুল সিম কার্ড PIN। আপনার ডিভাইস আনলক করতে আপনার ক্যারিয়ারের সাথে যোগাযোগ করতে হওয়ার আগে আপনার আর %dটি প্রয়াস অবশিষ্ট রয়েছে।</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">ভুল SIM কার্ড PUK। আপনি আরো %d বার চেষ্টা করতে পারেন। আপনি যদি এখনও ব্যর্থ হন, SIM কার্ডটি স্থায়ীভাবে অক্ষম হয়ে যাবে।</item>
+        <item quantity="one">ভুল SIM কার্ড PUK। আপনি আরো %d বার চেষ্টা করতে পারেন। আপনি যদি এখনও ব্যর্থ হন, SIM কার্ডটি স্থায়ীভাবে অক্ষম হয়ে যাবে।</item>
+    </plurals>
+</resources>

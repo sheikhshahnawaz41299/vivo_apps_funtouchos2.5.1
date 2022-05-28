@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d màn hình trong tổng quan</item>
+        <item quantity="one">1 màn hình trong tổng quan</item>
+    </plurals>
+    <plurals name="missed_call">
+        <item quantity="other">%d cuộc gọi nhỡ</item>
+        <item quantity="one">1 cuộc gọi nhỡ</item>
+    </plurals>
+    <plurals name="unread_msg">
+        <item quantity="other">%d tin nhắn chưa đọc</item>
+        <item quantity="one">1 tin nhắn chưa đọc</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">PIN thẻ SIM không đúng. Bạn còn %d lần thử.</item>
+        <item quantity="one">PIN thẻ SIM không đúng. Bạn còn %d lần thử trước khi phải liên hệ với nhà cung cấp dịch vụ để mở khóa thiết bị.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Số PUK thẻ SIM không đúng. Bạn có thể thử thêm %d lần nữa. Nếu vẫn bị lỗi, thẻ SIM sẽ bị vô hiệu hóa vĩnh viễn.</item>
+        <item quantity="one">Số PUK thẻ SIM không đúng. Bạn có thể thử thêm %d lần nữa. Nếu vẫn bị lỗi, thẻ SIM sẽ bị vô hiệu hóa vĩnh viễn.</item>
+    </plurals>
+</resources>

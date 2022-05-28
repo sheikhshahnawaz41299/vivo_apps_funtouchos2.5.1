@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ffcfcfcf" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.systemui.vivo.compatible.widget.StatusBarTitleView android:id="@id/swap_title" android:layout_width="fill_parent" android:layout_height="@dimen/vivo_title_bar_height" android:layout_alignParentTop="true" />
+    <com.android.systemui.vivo.compatible.widget.StatusBarMarkupView android:layout_gravity="bottom" android:id="@id/jump_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_weight="1.0" android:layout_above="@id/jump_button" android:layout_below="@id/swap_title">
+        <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </FrameLayout>
+</RelativeLayout>

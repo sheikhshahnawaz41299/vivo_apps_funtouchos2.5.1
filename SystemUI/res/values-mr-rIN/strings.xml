@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vivo_keyguard_full_wday_month_no_year">d MMM</string>
+    <string name="vivo_keyguard_full_wday_no_year">E</string>
+    <string name="vivo_keyguard_full_wday_month_week_no_year">MMM d E</string>
+    <string name="app_label">सिस्टीम UI</string>
+    <string name="status_bar_clear_all_button">साफ करा</string>
+    <string name="status_bar_recent_remove_item_title">यादीमधून काढा</string>
+    <string name="status_bar_recent_inspect_item_title">अ‍ॅप माहिती</string>
+    <string name="status_bar_no_recent_apps">आपण अलीकडे ब्राऊझकेलेली स्क्रीन येथे दर्शविली जाईल</string>
+    <string name="status_bar_accessibility_dismiss_recents">अलीकडील ॲप्स डिसमिस करा</string>
+    <string name="status_bar_no_notifications_title">सूचना नाहीत</string>
+    <string name="status_bar_ongoing_events_title">जारी</string>
+    <string name="status_bar_latest_events_title">सूचना</string>
+    <string name="battery_low_title">निम्न बॅटरी स्तर</string>
+    <string name="battery_low_percent_format">उर्वरित: %s</string>
+    <string name="battery_low_percent_format_saver_started">उर्वरित: %s. ऊर्जा बचत सहाय्यक चालू करण्यात आले आहे.</string>
+    <string name="invalid_charger">"USB चार्जिंग समर्थित नाही. 
+केवळ दिलेला चार्जर वापरा."</string>
+    <string name="invalid_charger_title">USB चार्जिंग समर्थित नाही.  </string>
+    <string name="invalid_charger_text">डिव्हाइसशी संलग्न चार्जरसह चार्जिंग केले जाऊ शकते.</string>
+    <string name="battery_low_why">सेटिंग्ज</string>
+    <string name="battery_saver_confirmation_title">ऊर्जा बचत सहाय्यक चालू करायचे?</string>
+    <string name="battery_saver_confirmation_ok">चालू</string>
+    <string name="battery_saver_start_action">ऊर्जा बचत सहाय्यक चालू करा</string>
+    <string name="status_bar_settings_settings_button">सेटिंग्ज</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">विमान मोड</string>
+    <string name="status_bar_settings_auto_rotation">स्क्रीन स्वयं-फिरवा</string>
+    <string name="status_bar_settings_mute_label">मूक</string>
+    <string name="status_bar_settings_auto_brightness_label">स्वयं</string>
+    <string name="status_bar_settings_notifications">सूचना</string>
+    <string name="bluetooth_tethered">ब्ल्युटूथ द्वारे टेदर केले</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">इनपुट पध्दती सेट करा</string>
+    <string name="status_bar_use_physical_keyboard">भौतिक कीबोर्ड</string>
+    <string name="usb_device_permission_prompt">%1$s अ‍ॅपला USB डिव्हाइस अ‍ॅक्सेस करण्याची परवानगी द्यायची?</string>
+    <string name="usb_accessory_permission_prompt">%1$s अ‍ॅपला USB अ‍ॅसेसरी वापरण्याची अनुमती द्यायची?</string>
+    <string name="usb_device_confirm_prompt">या USB डिव्हाइसला %1$s कनेक्ट करत असताना सक्षम करायचे?</string>
+    <string name="usb_accessory_confirm_prompt">ही USB अ‍ॅसेसरी कनेक्टेड असताना %1$s उघडायचे?</string>
+    <string name="usb_accessory_uri_prompt">या USB अॅक्सेसरीसाठी अॅप स्थापित केलेला नाही. या अॅक्सेसरीबद्द्ल अधिक जाणून घ्या, कृपया यास भेट द्या: %1$s</string>
+    <string name="title_usb_accessory">USB अॅक्सेसरी</string>
+    <string name="label_view">पहा</string>
+    <string name="always_use_device">  या USB डिव्हाइससाठी डीफॉल्ट वापरा</string>
+    <string name="always_use_accessory">या USB असेसरीसाठी डीफॉल्ट वापरा</string>
+    <string name="usb_debugging_title">USB डीबगिंगला परवानगी द्यायची?</string>
+    <string name="usb_debugging_message">"संगणकाचा RSA की बोटाचा ठसा आहे:
+%1$s"</string>
+    <string name="usb_debugging_always">या कॉम्प्यूटरला नेहमी डिबगींग करण्याची परवानगी द्या</string>
+    <string name="compat_mode_on">स्क्रीन भरण्यासाठी झूम करा</string>
+    <string name="compat_mode_off">स्क्रीन भरण्यासाठी ताणा</string>
+    <string name="screenshot_saving_ticker">स्क्रीनशॉट जतन करीत आहे...</string>
+    <string name="screenshot_saving_title">स्क्रीनशॉट जतन करीत आहे...</string>
+    <string name="screenshot_saving_text">स्क्रीनशॉट जतन करीत आहे.</string>
+    <string name="screenshot_saved_title">स्क्रीनशॉट कॅप्चर केला.</string>
+    <string name="screenshot_saved_text">आपला स्क्रीनशॉट पाहाण्यासाठी स्पर्श करा.</string>
+    <string name="screenshot_failed_title">स्क्रीनशॉट कॅप्चर करू शकलो नाही.</string>
+    <string name="screenshot_failed_text">स्क्रीनशॉट अयशस्वी झाला, कदाचित संचयनास पुरेशी जागा नाही किंवा हा अॅप किंवा आपले युनिट अनुमती देत नाही.</string>
+    <string name="usb_preference_title">या USB फाइल ट्रान्समिशन पर्याय</string>
+    <string name="use_mtp_button_title">मिडीया प्लेअर म्हणून लोड करा (MTP)</string>
+    <string name="use_ptp_button_title">कॅमेरा म्हणून लोड करा (PTP)</string>
+    <string name="installer_cd_button_title">मॅकसाठी Android फाइल ट्रान्समिशन स्थ‍ापित करा</string>
+    <string name="accessibility_back">परत</string>
+    <string name="accessibility_home">मुख्यपृष्ठ स्क्रीन</string>
+    <string name="accessibility_menu">मेनू</string>
+    <string name="accessibility_recent">आढावा</string>
+    <string name="accessibility_search_light">शोधा</string>
+    <string name="accessibility_camera_button">कॅमेरा</string>
+    <string name="accessibility_phone_button">फोन</string>
+    <string name="accessibility_unlock_button">अनलॉक करा</string>
+    <string name="unlock_label">अनलॉक करा</string>
+    <string name="phone_label">फोन उघडा</string>
+    <string name="camera_label">कॅमेरा उघडा</string>
+    <string name="accessibility_ime_switch_button">इनपुट पद्धत बटन स्विच करा.</string>
+    <string name="accessibility_compatibility_zoom_button">सुसंगतता झूम बटण.</string>
+    <string name="accessibility_compatibility_zoom_example">लहान स्क्रीनवरुन मोठ्याला झूम करा</string>
+    <string name="accessibility_bluetooth_connected">ब्ल्युटूथ कनेक्ट केलेला.</string>
+    <string name="accessibility_bluetooth_disconnected">ब्ल्युटूथ डिस्कनेक्ट केलेला.</string>
+    <string name="accessibility_no_battery">बॅटरी नाही.</string>
+    <string name="accessibility_battery_one_bar">बॅटरी एक बार.</string>
+    <string name="accessibility_battery_two_bars">बॅटरी दोन बार.</string>
+    <string name="accessibility_battery_three_bars">बॅटरी तीन बार.</string>
+    <string name="accessibility_battery_full">बॅटरी पूर्ण.</string>
+    <string name="accessibility_no_phone">फोन सिग्नल नाही.</string>
+    <string name="accessibility_phone_one_bar">फोन सिग्नल एका बार वर.</string>
+    <string name="accessibility_phone_two_bars">फोन सिग्नल दोन बार्स वर.</string>
+    <string name="accessibility_phone_three_bars">फोन सिग्नल तीन बार्स वर.</string>
+    <string name="accessibility_phone_signal_full">फोन सिग्नल पूर्ण.</string>
+    <string name="accessibility_no_data">डेटा नेटवर्क सिग्नल नाही.</string>
+    <string name="accessibility_data_one_bar">  डेटा सिग्नल एकाच बार वर आहे.</string>
+    <string name="accessibility_data_two_bars">डेटा सिग्नल दोन बार्स वर आहे.</string>
+    <string name="accessibility_data_three_bars">  डेटा सिग्नल तीन बार्स वर आहे.</string>
+    <string name="accessibility_data_signal_full">  डेटा सिग्नल पूर्ण आहे.</string>
+    <string name="accessibility_wifi_off">Wi-Fi बंद.</string>
+    <string name="accessibility_no_wifi">Wi-Fi बंद आहे.</string>
+    <string name="accessibility_wifi_one_bar">Wi-Fi एका बार वर आहे.</string>
+    <string name="accessibility_wifi_two_bars">Wi-Fi दोन बार वर आहे.</string>
+    <string name="accessibility_wifi_three_bars">Wi-Fi तीन बार वर आहे.</string>
+    <string name="accessibility_wifi_signal_full">Wi-Fi सिग्नल पूर्ण.</string>
+    <string name="accessibility_wifi_name">%s याच्याशी कनेक्ट झाले.</string>
+    <string name="accessibility_bluetooth_name">%s याच्याशी कनेक्ट झाले.</string>
+    <string name="accessibility_no_wimax">वायमॅक्स सिग्नल नाही.</string>
+    <string name="accessibility_wimax_one_bar">वायमॅक्स एका बार वर आहे.</string>
+    <string name="accessibility_wimax_two_bars">वायमॅक्स सिग्नल दोन बार वर आहे.</string>
+    <string name="accessibility_wimax_three_bars">वायमॅक्स तीन बार वर आहे.</string>
+    <string name="accessibility_wimax_signal_full">वायमॅक्स सिग्नल पूर्ण आहे.</string>
+    <string name="accessibility_no_signal">सिग्नल नाही.</string>
+    <string name="accessibility_not_connected">जोडलेले नाही.</string>
+    <string name="accessibility_zero_bars">शून्य बार.</string>
+    <string name="accessibility_one_bar">एक बार.</string>
+    <string name="accessibility_two_bars">दोन बार.</string>
+    <string name="accessibility_three_bars">तीन बार.</string>
+    <string name="accessibility_signal_full">सिग्नल पूर्ण.</string>
+    <string name="accessibility_desc_on">चालू.</string>
+    <string name="accessibility_desc_off">बंद.</string>
+    <string name="accessibility_desc_connected">कनेक्ट केलेले.</string>
+    <string name="accessibility_desc_connecting">जोडत आहे.</string>
+    <string name="accessibility_data_connection_roaming">रोमिंग</string>
+    <string name="accessibility_data_connection_edge">कडा</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">एकही SIM नाही.</string>
+    <string name="accessibility_bluetooth_tether">ब्ल्युटूथ टेदरिंग.</string>
+    <string name="accessibility_airplane_mode">विमान मोड</string>
+    <string name="accessibility_settings_button">सिस्टीम सेटिंग्ज.</string>
+    <string name="accessibility_notifications_button">सूचना.</string>
+    <string name="accessibility_remove_notification">  सूचना साफ करा.</string>
+    <string name="accessibility_gps_enabled">GPS चालू केले आहे</string>
+    <string name="accessibility_gps_acquiring">GPS सिग्नल प्राप्त करत आहे.</string>
+    <string name="accessibility_tty_enabled"> टेलीटाइप सक्षम केला.</string>
+    <string name="accessibility_ringer_vibrate">  रिंगर कंपन.</string>
+    <string name="accessibility_ringer_silent">  रिंगर नि: शब्द करा</string>
+    <string name="accessibility_recents_item_will_be_dismissed">%s काढा.</string>
+    <string name="accessibility_recents_item_dismissed">%s हटवले.</string>
+    <string name="accessibility_recents_item_launched">%s प्रारंभ करत आहे.</string>
+    <string name="accessibility_notification_dismissed">सूचना अक्षम केलेल्या.</string>
+    <string name="accessibility_desc_notification_shade">सूचना बार.</string>
+    <string name="accessibility_desc_quick_settings">द्रुत सेटिंग्ज</string>
+    <string name="accessibility_desc_lock_screen">स्क्रीन लॉक करा.</string>
+    <string name="accessibility_desc_settings">सेटिंग्ज</string>
+    <string name="accessibility_desc_recent_apps">आढावा.</string>
+    <string name="accessibility_quick_settings_user">वापरकर्ता: %s.</string>
+    <string name="accessibility_quick_settings_wifi">%1$s.</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">Wi-Fi बंद केले आहे.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">Wi-Fi चालू केले आहे.</string>
+    <string name="accessibility_quick_settings_mobile">  मोबाइल डेटा कनेक्शन: %1$s. %2$s. %3$s.</string>
+    <string name="accessibility_quick_settings_battery">बॅटरी स्तर: %s.</string>
+    <string name="accessibility_quick_settings_airplane_off">विमान मोड  बंद.</string>
+    <string name="accessibility_quick_settings_airplane_on">विमान मोड चालू.</string>
+    <string name="accessibility_quick_settings_airplane_changed_off">विमान मोड बंद केला गेला आहे.</string>
+    <string name="accessibility_quick_settings_airplane_changed_on">विमान मोड चालू केला गेला आहे.</string>
+    <string name="accessibility_quick_settings_bluetooth_off">ब्ल्युटुथ बंद.</string>
+    <string name="accessibility_quick_settings_bluetooth_on">ब्ल्युटुथ चालू.</string>
+    <string name="accessibility_quick_settings_bluetooth_connecting">ब्ल्युटूथ कनेक्ट करत आहे.</string>
+    <string name="accessibility_quick_settings_bluetooth_connected">ब्ल्युटूथ कनेक्ट केलेला.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_off">ब्ल्युटुथ बंद केले.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_on">ब्ल्युटुथ चालू.</string>
+    <string name="accessibility_quick_settings_location_off">स्थान अहवाल कार्य बंद.</string>
+    <string name="accessibility_quick_settings_location_on">स्थान अहवाल कार्य चालू.</string>
+    <string name="accessibility_quick_settings_location_changed_off">स्थान अहवाल कार्य बंद करण्‍यात आले आहे.</string>
+    <string name="accessibility_quick_settings_location_changed_on">स्थान अहवाल कार्य चालू करण्‍यात आले आहे.</string>
+    <string name="accessibility_quick_settings_alarm">  %s साठी अलार्म सेट केला.</string>
+    <string name="accessibility_quick_settings_close">पॅनेल बंद करा.</string>
+    <string name="accessibility_quick_settings_more_time">वाढवलेली वेळ.</string>
+    <string name="accessibility_quick_settings_less_time">कमी केलेली वेळ.</string>
+    <string name="accessibility_quick_settings_flashlight_off">फ्लॅश लाइट बंद.</string>
+    <string name="accessibility_quick_settings_flashlight_on">फ्लॅश लाइट चालू.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_off">फ्लॅश लाइट बंद करण्‍यात आला आहे.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_on">फ्लॅश लाइट चालू आहे.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_off">रंग परतावा कार्य बंद करण्यात आले आहे.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_on">रंग परतावा कार्य चालू करण्यात आले आहे.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_off">मोबाईल हॉटस्पॉट बंद करण्यात आला आहे.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_on">मोबाईल हॉटस्पॉट चालू करण्यात आला आहे.</string>
+    <string name="accessibility_casting_turned_off">स्क्रीन प्रोजेक्शन बंद करण्यात आले आहे.</string>
+    <string name="accessibility_brightness">स्क्रीन चमक</string>
+    <string name="data_usage_disabled_dialog_3g_title">2G-3G डेटा नेटवर्क बंद करण्यात आले आहे</string>
+    <string name="data_usage_disabled_dialog_4g_title">4G डेटा नेटवर्क बंद करण्यात आले आहे</string>
+    <string name="data_usage_disabled_dialog_mobile_title">मोबाईल डेटा नेटवर्क बंद करण्यात आले आहे</string>
+    <string name="data_usage_disabled_dialog_title">डेटा नेटवर्क बंद करण्यात आले आहे</string>
+    <string name="data_usage_disabled_dialog">"डेटा रहदारीने उच्च मर्यादा गाठली आहे, आपल्या डिव्हाइसवरील डेटा नेटवर्क बंद झाले आहे.
+
+डेटा नेटवर्क पुन्हा चालू करा, आपला वाहक आपणास शूल्क आकारू शकतो."</string>
+    <string name="data_usage_disabled_dialog_enable">डेटा नेटवर्क चालू करा</string>
+    <string name="status_bar_settings_signal_meter_disconnected">इंटरनेट कनेक्शन नाही</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">वाय-फाय शी कनेक्ट केलेले</string>
+    <string name="gps_notification_searching_text">GPS शोधत आहे</string>
+    <string name="gps_notification_found_text">GPS सह स्थानबद्ध</string>
+    <string name="accessibility_location_active">अ‍ॅप ने मान्य स्थान माहितीची विनंती केली</string>
+    <string name="accessibility_clear_all">  सर्व सूचना साफ करा.</string>
+    <string name="status_bar_notification_inspect_item_title">सूचना सेटिंग्ज</string>
+    <string name="status_bar_notification_app_settings_title">%s सेटिंग्ज</string>
+    <string name="accessibility_rotation_lock_off">स्क्रीन स्वयंचलितपणे फिरेल.</string>
+    <string name="accessibility_rotation_lock_on_landscape">लॅण्डस्केप दिशेमध्ये स्क्रीन लॉक आहे.</string>
+    <string name="accessibility_rotation_lock_on_portrait">पोर्टेट दिशेमध्ये स्क्रीन लॉक आहे.</string>
+    <string name="accessibility_rotation_lock_off_changed">स्क्रीन स्वयंचलितपणे फिरेल.</string>
+    <string name="accessibility_rotation_lock_on_landscape_changed">लॅण्डस्केप मोडमध्ये स्क्रीन लॉक आहे.</string>
+    <string name="accessibility_rotation_lock_on_portrait_changed">पोर्ट्रेट मोडमध्ये स्क्रीन लॉक आहे.</string>
+    <string name="dessert_case">डेझर्ट बॉक्स</string>
+    <string name="start_dreams">डेड्रीम</string>
+    <string name="ethernet_label">इथरनेट</string>
+    <string name="quick_settings_airplane_mode_label">विमान मोड</string>
+    <string name="quick_settings_bluetooth_label">ब्ल्युटूथ</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">ब्ल्युटूथ (%d डिव्हाइसेस)</string>
+    <string name="quick_settings_bluetooth_off_label">ब्ल्युटूथ बंद</string>
+    <string name="quick_settings_bluetooth_detail_empty_text">कोणतेही पेअरींग डिव्हाइस उपलब्ध नाही</string>
+    <string name="quick_settings_brightness_label">चमक</string>
+    <string name="quick_settings_rotation_unlocked_label">स्वयं रोटेट</string>
+    <string name="quick_settings_rotation_locked_label">फिरवणे लॉक केले</string>
+    <string name="quick_settings_rotation_locked_portrait_label">पोर्ट्रेट</string>
+    <string name="quick_settings_rotation_locked_landscape_label">लँडस्केप</string>
+    <string name="quick_settings_ime_label">इनपुट पद्धत</string>
+    <string name="quick_settings_location_label">स्थान माहिती</string>
+    <string name="quick_settings_location_off_label">स्थान माहिती: बंद</string>
+    <string name="quick_settings_media_device_label">मीडिया डिव्‍हाइसेस</string>
+    <string name="quick_settings_rssi_label">  RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">केवळ आणीबाणी कॉल्स</string>
+    <string name="quick_settings_settings_label">सेटिंग्ज</string>
+    <string name="quick_settings_time_label">वेळ</string>
+    <string name="quick_settings_user_label">मी</string>
+    <string name="quick_settings_user_title">वापरकर्ता</string>
+    <string name="quick_settings_user_new_user">नवीन वापरकर्ता</string>
+    <string name="quick_settings_wifi_label">Wi-Fi</string>
+    <string name="quick_settings_wifi_not_connected">कनेक्ट केलेले नाही</string>
+    <string name="quick_settings_wifi_no_network">नेटवर्क नाही</string>
+    <string name="quick_settings_wifi_off_label">वाय-फाय बंद</string>
+    <string name="quick_settings_wifi_detail_empty_text">कोणतेही जतन केलेले नेटवर्क नाही</string>
+    <string name="quick_settings_cast_title">कास्ट स्क्रीन</string>
+    <string name="quick_settings_casting">प्रोजेक्टींग</string>
+    <string name="quick_settings_cast_device_default_name">अनामित डिव्हाइस</string>
+    <string name="quick_settings_cast_device_default_description">प्रोजेक्‍शनसाठी तयार</string>
+    <string name="quick_settings_cast_detail_empty_text">कोणताही उपलब्ध डिव्हाइस नाही</string>
+    <string name="quick_settings_brightness_dialog_title">चमक</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">स्वयं</string>
+    <string name="quick_settings_inversion_label">ऋण</string>
+    <string name="quick_settings_color_space_label">रंग कॅलिब्रेशन डिव्हाइस</string>
+    <string name="quick_settings_more_settings">अधिक सेटिंग्ज</string>
+    <string name="quick_settings_done">झाले</string>
+    <string name="quick_settings_connected">कनेक्ट केलेले</string>
+    <string name="quick_settings_connected_via_wfa">कनेक्ट केले (वाय-फाय सहाय्यकाद्वारे)</string>
+    <string name="quick_settings_connecting">कनेक्ट करीत आहे...</string>
+    <string name="quick_settings_tethering_label">टेदरिंग</string>
+    <string name="quick_settings_hotspot_label">हॉटस्पॉट</string>
+    <string name="quick_settings_notifications_label">सूचना</string>
+    <string name="quick_settings_flashlight_label">फ्लॅशलाइट</string>
+    <string name="quick_settings_cellular_detail_title">सेल्युलर डेटा</string>
+    <string name="quick_settings_cellular_detail_data_usage">डेटा वापर</string>
+    <string name="quick_settings_cellular_detail_remaining_data">उर्वरित डेटा</string>
+    <string name="quick_settings_cellular_detail_over_limit">वरील मर्यादा ओलांडली</string>
+    <string name="quick_settings_cellular_detail_data_used">%s वापरले</string>
+    <string name="quick_settings_cellular_detail_data_limit">उच्च मर्यादा %s</string>
+    <string name="quick_settings_cellular_detail_data_warning">%s चेतावणी</string>
+    <string name="recents_empty_message">आपण अलीकडे ब्राऊझकेलेली स्क्रीन येथे दर्शविली जाईल</string>
+    <string name="recents_app_info_button_label">अ‍ॅप माहिती</string>
+    <string name="recents_lock_to_app_button_label">निर्धारीत स्क्रीन</string>
+    <string name="recents_search_bar_label">शोधा</string>
+    <string name="recents_launch_error_message">प्रारंभ करण्‍यास अक्षम%s.</string>
+    <string name="expanded_header_battery_charged">पूर्ण प्रभारीत झाली</string>
+    <string name="expanded_header_battery_charging">प्रभारीत होत आहे</string>
+    <string name="expanded_header_battery_charging_with_time">यशस्विरित्या चार्ज करण्यास %s आवश्यक</string>
+    <string name="expanded_header_battery_not_charging">प्रभारीत होत नाही आहे</string>
+    <string name="ssl_ca_cert_warning">कदाचित नेटवर्क परीक्षण झाले</string>
+    <string name="description_target_search">शोधा</string>
+    <string name="description_direction_up">%s साठी वर स्लाइड करा.</string>
+    <string name="description_direction_left">%s साठी डावीकडे स्लाइड करा.</string>
+    <string name="zen_no_interruptions_with_warning">शून्य व्यत्यय (अगदी अलार्मशिवाय).</string>
+    <string name="zen_no_interruptions">व्यत्ययास मना करा</string>
+    <string name="zen_important_interruptions">व्यत्यय प्राधान्यिकृत करण्यापर्यंत मर्यादित</string>
+    <string name="zen_alarm_information_time">पुढील वाजणारे रिंगीग यात: %s</string>
+    <string name="zen_alarm_information_day_time">पुढील वाजणारे रिंगीग यात: %s</string>
+    <string name="zen_alarm_warning">आपण %s वर वाजणारे स्मरणपत्र रिंगींग ऐकणार नाहीत</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
+    <string name="speed_bump_explanation">खाली तात्काळ कोणत्याही सूचना दर्शविल्या जाणार नाहीत</string>
+    <string name="notification_tap_again">उघडण्यासाठी पुन्हा स्पर्श करा</string>
+    <string name="keyguard_unlock">अनलॉक करण्‍यास स्वाइप करा</string>
+    <string name="phone_hint">डायल इंटरफेेस उघडण्यासाठी उजवीकडे स्वाइप करा</string>
+    <string name="camera_hint">कॅमेरा उघडण्यासाठी डावीकडे स्वाइप करा</string>
+    <string name="interruption_level_none">सर्व साफ करा</string>
+    <string name="interruption_level_priority">प्राधान्य</string>
+    <string name="interruption_level_all">सर्व</string>
+    <string name="keyguard_indication_charging_time">चार्जिंग (पूर्ण चार्ज करण्‍यास %s आवश्यक)</string>
+    <string name="accessibility_multi_user_switch_switcher">वापरकर्ता स्विच करा</string>
+    <string name="accessibility_multi_user_switch_switcher_with_current">वापरकर्ता स्विच करा, विद्यमान वापरकर्ता %s आहे</string>
+    <string name="accessibility_multi_user_switch_quick_contact">वैयक्तिक माहिती दर्शवा</string>
+    <string name="user_add_user">वापरकर्ता जोडा</string>
+    <string name="user_new_user_name">नवीन वापरकर्ता</string>
+    <string name="guest_nickname">अभ्यागत</string>
+    <string name="guest_new_guest">भेटदाता जोडा</string>
+    <string name="guest_exit_guest">अभ्यागत काढा</string>
+    <string name="guest_exit_guest_dialog_title">अभ्यागत काढायचा(चे)?</string>
+    <string name="guest_exit_guest_dialog_message">या सत्रातील सर्व अ‍ॅप्स आणि डेटा हटवला जाईल.</string>
+    <string name="guest_exit_guest_dialog_remove">काढा</string>
+    <string name="guest_wipe_session_title">भेटदाता, आपले स्वागत आहे!</string>
+    <string name="guest_wipe_session_message">आपले सत्र सुरू ठेवायचे?</string>
+    <string name="guest_wipe_session_wipe">पुन्हा प्रारंभ करा</string>
+    <string name="guest_wipe_session_dontwipe">होय, सुरू ठेवा.</string>
+    <string name="user_add_user_title">नवीन वापरकर्ता जोडायचा?</string>
+    <string name="user_add_user_message_short">"आपण नवीन वापरकर्ता जोडता तेव्हा, वापरकर्त्याने त्याची/तिची स्वत:ची जागा सेट करणे आवश्यक आहे.
+
+वापरकर्ता इतर सर्व वापरकर्त्यांसाठी अॅप्स अपडेट करू शकतो."</string>
+    <string name="battery_saver_notification_title">ऊर्जा बचत सहाय्यक चालू करण्यात आले आहे.</string>
+    <string name="battery_saver_notification_text">कमकुवत कार्यप्रदर्शन आणि पार्श्वभूमी डेटा रहदारी प्रतिबंधित करा</string>
+    <string name="battery_saver_notification_action_text">ऊर्जा बचत सहाय्य बंद करा</string>
+    <string name="notification_hidden_text">सामग्री लपविलेली आहे</string>
+    <string name="media_projection_dialog_text">%s आपल्या स्क्रीनवर प्रदर्शित केलेली सर्व सामग्री कॅप्चर करण्यास प्रारंभ करेल.</string>
+    <string name="media_projection_remember_text">पुन्हा दाखवू नका</string>
+    <string name="clear_all_notifications_text">सर्व साफ करा</string>
+    <string name="media_projection_action_text">ताबडतोब प्रारंभ करा</string>
+    <string name="empty_shade_text">सूचना नाहीत</string>
+    <string name="device_owned_footer">डिव्हाइस नियंत्रित केला जाईल</string>
+    <string name="profile_owned_footer">डेटा नियंत्रित केला जाईल</string>
+    <string name="vpn_footer">नेटवर्कचे परीक्षण केले जाऊ शकते</string>
+    <string name="monitoring_title_device_owned">डिव्हाइस नियंत्रित करणे</string>
+    <string name="monitoring_title_profile_owned">डेटा नियंत्रण करणे</string>
+    <string name="monitoring_title">नेटवर्क परीक्षण</string>
+    <string name="disable_vpn">VPN बंद करा</string>
+    <string name="disconnect_vpn">VPN केनेक्शन डिस्कनेक्ट करा</string>
+    <string name="monitoring_description_device_owned">"हे डिव्हाइस खालील एककांद्वारे प्रशासित केले जात आहे:
+%1$s
+
+आपले प्रशासक अॅप्स आणि सुरक्षित वेबसाइट ब्राऊझ करून आपले ईमेल प्राप्त करणे आणि पाठविणे यासह आपले डिव्हाइसेस आणि ऑनलाइन गतिविधी नियंत्रित करू शकतात.
+
+तपशीलांसाठी, आपल्या पशासकाशी संपर्क साधा."</string>
+    <string name="monitoring_description_vpn">"आपण VPN कनेक्शन कॉन्फिगर करण्‍यासाठी \"%1$s\" अधिकृत केले आहे.
+
+हा अॅप अॅप्स आणि सुरक्षित वेबसाइट ब्राऊझ करून आपले ईमेल प्राप्त करणे आणि पाठविणे यासह आपले डिव्हाइसेस आणि ऑनलाइन गतिविधी नियंत्रित करू शकतात."</string>
+    <string name="monitoring_description_legacy_vpn">"आपण VPN (\"%1$s\") शी कनेक्‍ट केले आहे.
+
+आपले VPN प्रदाता अॅप्स आणि सुरक्षित वेबसाइट ब्राऊझ करून आपल्या ईमेल प्राप्त करणे आणि पाठविणे यासह ऑनलाइन गतिविधी नियंत्रित करू शकतात."</string>
+    <string name="monitoring_description_vpn_device_owned">"हे डिव्हाइस खालील एककांद्वारे प्रशासित केले जात आहे:
+%1$s
+
+आपले प्रशासक अॅप्स आणि सुरक्षित वेबसाइट ब्राऊझ करून आपल्या ईमेल प्राप्त करणे आणि पाठविणे यासह ऑनलाइन गतिविधी नियंत्रित करू शकतात. तपशीलांसाठी, आपल्या पशासकाशी संपर्क साधा.
+
+त्याबाजुला, VPN कनेक्शन कॉ‍न्फिगर करण्‍यास आपण \"%2$s\" आहात. हा अॅप देखील नेटवर्क गतिविधी ‍देखील नियंत्रित करू शकेल."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"हे डिव्हाइस खालील एककांद्वारे प्रशासित केले जात आहे:
+%1$s
+
+आपले प्रशासक अॅप्स आणि सुरक्षित वेबसाइट ब्राऊझ करून आपल्या ईमेल प्राप्त करणे आणि पाठविणे यासह ऑनलाइन गतिविधी नियंत्रित करू शकतात. तपशीलांसाठी, आपल्या पशासकाशी संपर्क साधा.
+
+त्यापलीकडे, आपण VPN (\"%2$s\") शी कनेक्ट केलेले आहे. आपला VPN प्रदाता देखील नेटवर्क गतिविधी नियंत्रित करू शकतो."</string>
+    <string name="monitoring_description_profile_owned">"हा डेटा खालील एककांद्वारे प्रशासित केला जात आहे:
+%1$s
+
+आपले प्रशासक अॅप्स आणि सुरक्षित वेबसाइट ब्राऊझ करून आपले ईमेल प्राप्त करणे आणि पाठविणे यासह आपले डिव्हाइसेस आणि ऑनलाइन गतिविधी नियंत्रित करू शकतात.
+
+तपशीलांसाठी, आपल्या पशासकाशी संपर्क साधा."</string>
+    <string name="monitoring_description_device_and_profile_owned">"हे डिव्हाइस खालील एककांद्वारे प्रशासित केले जात आहे:
+%1$s
+ आपला डेटा खालील एककांद्वारे प्रशासित केला जात आहे:
+%2$s
+
+आपले प्रशासक अॅप्स आणि सुरक्षित वेबसाइट ब्राऊझ करून आपले ईमेल प्राप्त करणे आणि पाठविणे यासह आपले डिव्हाइसेस आणि ऑनलाइन गतिविधी नियंत्रित करू शकतात.
+
+तपशीलांसाठी, आपल्या पशासकाशी संपर्क साधा."</string>
+    <string name="monitoring_description_vpn_profile_owned">"हा डेटा खालील एककांद्वारे प्रशासित केला जात आहे:
+%1$s
+
+आपले प्रशासक अॅप्स आणि सुरक्षित वेबसाइट ब्राऊझ करून आपल्या ईमेल प्राप्त करणे आणि पाठविणे यासह ऑनलाइन गतिविधी नियंत्रित करू शकतात. तपशीलांसाठी, आपल्या पशासकाशी संपर्क साधा.
+
+त्याबाजुला, VPN कनेक्शन कॉ‍न्फिगर करण्‍यास आपण \"%2$s\" आहात. हा अॅप देखील नेटवर्क गतिविधी ‍देखील नियंत्रित करू शकेल."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"हा डेटा खालील एककांद्वारे प्रशासित केला जात आहे:
+%1$s
+
+आपले प्रशासक अॅप्स आणि सुरक्षित वेबसाइट ब्राऊझ करून आपल्या ईमेल प्राप्त करणे आणि पाठविणे यासह ऑनलाइन गतिविधी नियंत्रित करू शकतात. तपशीलांसाठी, आपल्या पशासकाशी संपर्क साधा.
+
+त्यापलीकडे, आपण VPN (\"%2$s\") शी कनेक्ट केलेले आहे. आपला VPN प्रदाता देखील नेटवर्क गतिविधी नियंत्रित करू शकतो."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"हे डिव्हाइस खालील एककांद्वारे प्रशासित केले जात आहे:
+%1$s
+ आपला डेटा खालील एककांद्वारे प्रशासित केला जात आहे:
+%2$s
+
+आपले प्रशासक अॅप्स आणि सुरक्षित वेबसाइट ब्राऊझ करून आपल्या ईमेल प्राप्त करणे आणि पाठविणे यासह ऑनलाइन गतिविधी नियंत्रित करू शकतात. तपशीलांसाठी, आपल्या पशासकाशी संपर्क साधा.
+
+त्याबाजुला, VPN कनेक्शन कॉ‍न्फिगर करण्‍यास आपणास \"%3$s\" अधिकृत केले आहे. हा अॅप देखील नेटवर्क गतिविधी ‍देखील नियंत्रित करू शकेल."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"हे डिव्हाइस खालील एककांद्वारे प्रशासित केले जात आहे:
+%1$s
+ आपला डेटा खालील एककांद्वारे प्रशासित केला जात आहे:
+%2$s
+
+आपले प्रशासक अॅप्स आणि सुरक्षित वेबसाइट ब्राऊझ करून आपल्या ईमेल प्राप्त करणे आणि पाठविणे यासह ऑनलाइन गतिविधी नियंत्रित करू शकतात. तपशीलांसाठी, आपल्या पशासकाशी संपर्क साधा.
+
+त्याचसोबत, आपण VPN (\"%3$s\") शी कनेक्ट केलेले आहे. आपला VPN प्रदाता देखील नेटवर्क गतिविधी नियंत्रित करू शकतो."</string>
+    <string name="keyguard_indication_trust_disabled">आपण त्यास व्यक्तिचलितपणे अनलॉक करण्‍यापूर्वी डिव्हाइस लॉक केले जाईल</string>
+    <string name="hidden_notifications_title">अधिक सोयीस्करपणे सूचना पहा</string>
+    <string name="hidden_notifications_text">अनलॉक न करता सूचना पहा</string>
+    <string name="hidden_notifications_cancel">  नाही धन्यवाद</string>
+    <string name="hidden_notifications_setup">सेटिंग्ज</string>
+    <string name="zen_mode_and_condition">%1$s(%2$s)</string>
+    <string name="screen_pinning_title">स्क्रीन पिन केली</string>
+    <string name="screen_pinning_description">आपण अनपिन करेपर्यंत ही स्क्रीन नेहमी प्रदर्शित केली जाईल. स्क्रीन अनपिन करण्‍यासाठी त्याचवेळी “परत” आणि “सारांश” ला स्पर्श करा आणि दाबा.</string>
+    <string name="screen_pinning_description_accessible">आपण अनपिन करेपर्यंत ही स्क्रीन नेहमी प्रदर्शित केली जाईल. स्क्रीन अनपिन करण्‍यासाठी “सारांश” वेळ ला स्पर्श करा आणि दाबा.</string>
+    <string name="screen_pinning_positive">ठीक आहे</string>
+    <string name="screen_pinning_negative">  नाही धन्यवाद</string>
+    <string name="quick_settings_reset_confirmation_title">\"%1$s\"लपवायचे?</string>
+    <string name="quick_settings_reset_confirmation_message">ही त्वरित सेटिंग प्रविष्टी आपण पुढच्या वेळी सेटिंग्जमध्ये सक्षम केल्यावर पुन्हा दिसेल.</string>
+    <string name="quick_settings_reset_confirmation_button">लपवा</string>
+    <string name="clearDefaultHintMsg">डाउनलोड केलेल्या सिस्टीम सेटिंग्ज > Apps > मधील डीफॉल्ट साफ करा.</string>
+    <string name="vivo_statusbar_type">स्टेटस बार</string>
+    <string name="vivo_keyguard_no_sim">एकही SIM नाही</string>
+    <string name="vivo_keyguard_charging">वर्तमान बँटरी स्तर %d%%</string>
+    <string name="vivo_keyguard_charging_complete">पूर्ण प्रभारीत झाली</string>
+    <string name="vivo_keyguard_holster_unlock_text">अनलॉक करण्यासाठी स्लाइड करा</string>
+    <string name="vivo_keyguard_holster_unlock_text_r">अनलॉक करण्यासाठी नमुना क्षेत्रात उजवीकडे स्लाइड करा</string>
+    <string name="vivo_keyguard_ripple_unlock_text">अनलॉक करण्यासाठी कोठेही स्लाइड करा</string>
+    <string name="default_head_portrait_name">टोपणनाव</string>
+    <string name="click_tip">खाली स्वाइप करणे सानुकूल करता येईल</string>
+    <string name="lockscreen_icon_set">संपादन</string>
+    <string name="back">रद्द करा</string>
+    <string name="save">जतन करा</string>
+    <string name="name">टोपणनाव</string>
+    <string name="name_hint">टोपणनाव</string>
+    <string name="head_icon">अवतार</string>
+    <string name="edit_icon_title">फोटो संपादित करा</string>
+    <string name="choose_from_photo_album">अल्बममधून फोटो निवडा</string>
+    <string name="choose_from_take_photo">फोटो घ्या</string>
+    <string name="saving">जतन करीत आहे...</string>
+    <string name="text_signature">वैयक्तिक स्वाक्षरी</string>
+    <string name="text_signature_hint">मूड</string>
+    <string name="font_name">फॉन्ट</string>
+    <string name="color_name">रंग</string>
+    <string name="font_default">डीफॉल्ट</string>
+    <string name="font_classic">क्लासिक</string>
+    <string name="font_fzm">फॅंग़ झेंग मिआओ वू फॉंट</string>
+    <string name="font_fzltblack">लँटिंग ब्लॅक</string>
+    <string name="font_hwbold">STHeiti</string>
+    <string name="reach_length_limit">जास्तीत जास्त 2 ओळी प्रदर्शित केल्या जाऊ शकतात. इनपुट सीमा गाठली.</string>
+    <string name="reach_length_limit_cant_save">वैयक्तिक स्वाक्षरीने 2 ओळींची प्रदर्शन सीमा ओलांडली. कृपया सुधारित करा.</string>
+    <string name="name_input_limitation_info">समर्थित इनपुट प्रकारात केवळ अक्षरे,अंक आणि चीनी वर्णाक्षरे समाविष्ट होतात. कृपया पुन्हा इनपुट करा!</string>
+    <string name="vivo_keyguard_nature2_guide">स्विच करण्यासाठी खाली स्वाइप करा</string>
+    <string name="song_name">गाण्याचे नाव</string>
+    <string name="unknown_artist_name">अज्ञात कलाकार</string>
+    <string name="unknown_album_name">अज्ञात अल्बम</string>
+    <string name="artist_name">कलाकाराचे नाव</string>
+    <string name="album">अल्बम नाव</string>
+    <string name="sdcard_busy_title">संचयन मोडमध्ये उपलब्ध नाही</string>
+    <string name="widget_artist">कलाकार:</string>
+    <string name="widget_album">अल्बम:</string>
+    <string name="no_lyric_textview">एकही गीत नाही</string>
+    <string name="signature_font">स्वाक्षरी फॉन्ट</string>
+    <string name="shortcut">द्रुत-लाँच अनुप्रयोग</string>
+    <string name="shortcut_left">डावे द्रुत-लाँच ऍप</string>
+    <string name="shortcut_right">उजवे द्रुत-लाँच ऍप</string>
+    <string name="shortcut_none">काही नाही</string>
+    <string name="shortcut_wait_load">लोड होतेय</string>
+    <string name="slide_to_start">प्रोग्राम सुरू करण्यासाठी वर स्वाइप करा</string>
+    <string name="vivo_keyguard_quick_charging">ड्यूओ-इंजिनसह जलद चार्जिंग %d%%</string>
+    <string name="vivo_keyguard_radio_fav_toast_text">आपण लॉगिन करेपर्यंत ते संचयित केले जाऊ शकत नाही</string>
+    <string name="vivo_keyguard_iconset_gif_too_large">चित्र खुपच मोठे आहे</string>
+    <string name="vivo_keyguard_iconset_gif_type_error">चित्र भ्रष्ट झाले</string>
+    <string name="font_hwfine">क्लासिक</string>
+    <string name="vivo_notification_tap_again">उघडण्‍यासाठी दोनदा क्लिक करा</string>
+    <string name="vivo_calendar_title_has"> अलीकडील इव्‍हेंट</string>
+    <string name="vivo_calendar_title_has_not">अलीकडील इव्‍हेंट नाहीत</string>
+    <string name="vivo_notification_title_has">सूचना</string>
+    <string name="vivo_notification_title_has_not">सूचना नाहीत</string>
+    <string name="vivo_ongoing_title_has">जारी</string>
+    <string name="vivo_block_cancel">अनावरोधित करा</string>
+    <string name="vivo_block">अवरोधन</string>
+    <string name="vivo_clear">साफ करा</string>
+    <string name="vivo_manage">व्यवस्थापित करा</string>
+    <string name="vivo_block_app_tip">%s सूचना अवरोधित</string>
+    <string name="vivo_notification_block_activity_title">वर्तमान सूचना</string>
+    <string name="vivo_manage_notification">सूचना व्यवस्थापित करा</string>
+    <string name="vivo_hood_phone_jump">कॉल इंटरफेस वर परत येण्यासाठी टॅप करा</string>
+    <string name="vivo_hood_recorder_jump">रेकॉर्डिंग इंटरफेस वर परत येण्यासाठी टॅप करा</string>
+    <string name="vivo_hood_phone_hold">होल्ड करीत आहे</string>
+    <string name="vivo_hood_phone_dialing">डायल करत आहे</string>
+    <string name="vivo_hood_phone_alerting">रिंग होत आहे</string>
+    <string name="vivo_status_bar_setting_title">स्थिती बार आणि सूचना</string>
+    <string name="vivo_sheid_manager_activity_loading">लोड होतेय</string>
+    <string name="vivo_notification_type">सूचना</string>
+    <string name="vivo_network_speed_switch">नेटवर्क वेग दर्शवा</string>
+    <string name="vivo_power_percent_switch">बॅटरी टक्केवारी दर्शवा</string>
+    <string name="vivo_schedule_switch">इव्हेंट दर्शवा</string>
+    <string name="vivo_netweork_flow_switch">डेटा वापर दर्शवा</string>
+    <string name="vivo_top_notification_type">शीर्ष प्रीव्यू स्टाइल</string>
+    <string name="vivo_notification_manage_entry">सूचना व्यवस्थापित करा</string>
+    <string name="vivo_notification_screen_on">सूचना प्राप्त झाल्यावर स्क्रीन लाइट अप करा</string>
+    <string name="vivo_label_notification_on">सूचना बार</string>
+    <string name="vivo_label_keygard_notification_on">लॉक स्क्रीन</string>
+    <string name="vivo_label_desktop_notification_on">चिन्हांकित करा</string>
+    <string name="vivo_notification_screen_on_tip">सूचना आल्यानंतर लॉक केलेली स्क्रीन लाइट अप व्हावी काय हे नियंत्रित करा ( काही इन-बिल्ट आणि तृतीय पक्ष अ‍ॅप्स वगळल्यास)</string>
+    <string name="vivo_status_bar_no_notification_shield_tip">सध्या अवरोधित करण्यास कोणतीही सूचना नाही</string>
+    <string name="vivo_notification_to_show_item">अॅप्स जे सूचनांना परवानगी देते</string>
+    <string name="vivo_notification_not_to_show_item">अॅप्स जे सूचनांना परवानगी देत नाहीत</string>
+    <string name="vivo_show_notification">सूचनांची परवानगी द्या</string>
+    <string name="vivo_notification_disable">सूचनेची अनुमती रद्द करा</string>
+    <string name="vivo_show_notification_illustration">चालू केल्यानंतर, खाली ओढा सूचना बारवर सूचना असेल</string>
+    <string name="vivo_show_keyguard_notification">लॉक स्क्रीनवर दर्शवा</string>
+    <string name="vivo_show_keyguard_notification_details">लॉक स्क्रीनवर तपशील दर्शवा</string>
+    <string name="vivo_show_desktop_app_icon_badge">डेस्कटॉप अॅप आयकॉन चिन्ह</string>
+    <string name="vivo_show_notification_top_preview">शीर्ष प्रीव्यू</string>
+    <string name="vivo_notification_tip_style_headsup">फ्लोअट</string>
+    <string name="vivo_notification_tip_style_ticker">स्क्रोल</string>
+    <string name="vivo_notification_tip_style_illustration">स्क्रीनच्या शीर्षावर पूर्वावलोकने प्रदर्शन 5 सेकंद तरंगत आहे आणि ते वर स्लाइड करून संक्षिप्त केले जाऊ शकते किंवा आडवे स्लाइड करून हटविले जाऊ शकते. पूर्वावलोकने प्रदर्शन स्थिती बारमध्ये ओळीने स्क्रोल करा.</string>
+    <string name="vivo_show_priority_notification">प्राधान्य</string>
+    <string name="vivo_show_priority_notification_illustration">सूचनांच्या सूचीपुढे दाखवा</string>
+    <string name="vivo_no_uim">यूआयएम नाही</string>
+    <string name="vivo_no_sim">एकही SIM नाही</string>
+    <string name="vivo_close">बंद</string>
+    <string name="vivo_sim_close">सिम कार्ड अक्षम केले</string>
+    <string name="vivo_no_service">सेवा नाही</string>
+    <string name="vivo_offline_mode">ऑफलाइन मोड</string>
+    <string name="vivo_new_notification_hidden">नवीन संदेश</string>
+    <string name="vivo_screenshot_failed_text_no_memory">स्क्रीनशॉट जतन करण्यात अक्षम. संचयन डिव्हाइस मध्ये पुरेशी जागा नसावी.</string>
+    <string name="vivo_done">झाले</string>
+    <string name="vivo_cancel">रद्द करा</string>
+    <string name="vivo_ok">ठीक आहे</string>
+    <string name="vivo_battery_full_ticker">पूर्ण प्रभारीत झाली</string>
+    <string name="vivo_battery_full_title">पूर्ण प्रभारीत झाली</string>
+    <string name="vivo_battery_full_msg">चार्ज पूर्ण झाले. कृपया वीज पुरवठा काढून टाका.</string>
+    <string name="vivo_low_battery_dialog_title">टीप</string>
+    <string name="vivo_low_battery_sps_tip">बॅटरी फार कमी. फोन परिचालन कालावधी वाढण्यासाठी कृपया बॅटरी चार्ज किंवा सुपर पॉवर बचत मोड वर स्वीच करा</string>
+    <string name="vivo_low_battery_hifi_tip">बॅटरी फार कमी. हाय-फाय मोड स्वयंचलितपणे बंद झाला. फोन परिचालन कालावधी वाढण्यासाठी कृपया बॅटरी चार्ज किंवा सुपर पॉवर बचत मोड वर स्वीच करा</string>
+    <string name="vivo_low_battery_hifi_tip_cmcc">बॅटरी फार कमी. हाय-फाय मोड स्वयंचलितपणे बंद झाला. कृपया आपले चार्जर कनेक्ट करा.</string>
+    <string name="vivo_sps">उविब.मो</string>
+    <string name="vivo_low_battery_tip">बॅटरी फार कमी. कृपया चार्जर कनेक्ट करा.</string>
+    <string name="vivo_wfd_noti_title">एकाधिक स्क्रीन परस्परसंवाद</string>
+    <string name="vivo_wfd_noti_text">प्रदर्शन डिव्हाइस कनेक्ट केलेला</string>
+    <string name="vivo_guts_tips">सूचना पाठविली</string>
+    <string name="vivo_network_speed_msg">नेटवर्क वेग तपशील</string>
+    <string name="usb_device_unconnected_suddenly"> OTG अचानक डिस्कनेक्ट झाले</string>
+    <string name="usb_device_unconnected_suddenly_message">डेटा नुकसान टाळण्यासाठी काढण्यापूर्वी OTG अनमाउंट करा</string>
+    <string name="usb_device_connected">OTG कनेक्टेड</string>
+    <string name="usb_device_connected_message">पाहण्यासाठी टॅप करा</string>
+    <string name="usb_device_disconnected">OTG सुरक्षितपणे काढले</string>
+    <string name="sd_badremoval_notification_message">SD कार्ड काढण्यापूर्वी, \"सेटिंग्ज > अधिक सेटिंग्ज > संचयन \" येथे जाऊन अनमाउंट करा</string>
+    <string name="uninstall_otg">विस्थापित करा</string>
+    <string name="vivo_notification_icon_redraw_switch">प्रतिक सुशोभीकरण</string>
+    <string name="global_action_super_power_save_tip_locking">काम करण्यासाठी प्रथम अनलॉक करावे लागेल</string>
+    <string name="volume_fm">FM व्हॉल्यूम</string>
+    <string name="show_imanager_lock_tip">आपण i Manager मध्ये अनुप्रयोग लॉक सक्षम केल्यास, तपशीलवार लॉक स्क्रीन अधिसूचना यापुढे उपलब्ध नसतील.</string>
+    <string name="show_imanager_locked_tip">आपण i Manager मध्ये अनुप्रयोगावर सक्षम केलेल्या लॉकसाठी तपशीलवार लॉक स्क्रीन अधिसूचना उपलब्ध नाहीत.</string>
+    <string name="sd_badremoval_notification_message_4g">डेटा गमावणे टाळण्यासाठी तो काढण्यापूर्वी \"सेटिंग्ज > RAM आणि संग्रह जागा\" मध्ये कृपया SD कार्ड विस्थापित करा.</string>
+    <string name="vivo_notification_tip_none">पूर्वावलोकने नाहीत</string>
+    <string name="vivo_develop_mode_tip">विकास मोड</string>
+    <string name="vivo_up_slide_no_recent_apps">अलीकडील अॅप्स नाहीत</string>
+    <string name="vivo_up_slide_check_out">चेक करा</string>
+    <string name="vivo_up_slide_statusbar_guide_tip">"तळापासून 
+ स्वाइप करण्यासाठी नियंत्रण केंद्राकडे जा"</string>
+    <string name="vivo_up_slide_tip_swipe">हटवा वर स्वाइप करा</string>
+    <string name="vivo_up_slide_tip_white_list"> \"एक-टॅप अ‍ॅक्सलरेशन\" व्हाइटलिस्ट मध्ये जोडण्यासाठी दाबून ठेवा</string>
+    <string name="vivo_up_slide_add_white_list_item">व्हाइटलिस्टमध्ये जोडा</string>
+    <string name="vivo_up_slide_remove_white_list_item">व्हाइटलिस्ट मधून काढा</string>
+    <string name="vivo_switcher_order_title">सानुकूल</string>
+    <string name="vivo_switcher_order_show">स्विच प्रदर्शित करा</string>
+    <string name="vivo_switcher_order_hide">स्विच प्रदर्शित करू नका</string>
+    <string name="vivo_switcher_order_hide_tip">"लपवा: स्विच \" स्विच प्रदर्शित करा\" क्षेत्रात खेचा 
+सॉर्ट करा: आपल्याला जेथे स्वीच पाहिजे आहे तेथे \" स्विच प्रदर्शित करा\" क्षेत्रात खेचा"</string>
+    <string name="vivo_switcher_order_at_least">किमान 4 आयटम्स ठेवा</string>
+    <string name="vivo_switcher_cu">एक टॅप अ‍ॅक्स</string>
+    <string name="vivo_switcher_wifi">Wi-Fi</string>
+    <string name="vivo_switcher_apn">डेटा नेटवर्क</string>
+    <string name="vivo_switcher_fl">फ्लॅशलाइट</string>
+    <string name="vivo_switcher_wechat_scan">स्कॅन</string>
+    <string name="vivo_switcher_smartshot">सुपर स्क्रीनशॉट </string>
+    <string name="vivo_switcher_vibrate">कंपन मोड</string>
+    <string name="vivo_switcher_portrait">चि. स्क्रिलॉ</string>
+    <string name="vivo_switcher_bright">चमक</string>
+    <string name="vivo_switcher_sps">उविब.मो</string>
+    <string name="vivo_switcher_offline">ऑफलाइन मोड</string>
+    <string name="vivo_switcher_sim_selection">कार्ड डेटा निवडा</string>
+    <string name="vivo_switcher_bluetooth">ब्ल्युटूथ</string>
+    <string name="vivo_switcher_reboot">रीबूट करा</string>
+    <string name="vivo_switcher_poweroff">बंद करा</string>
+    <string name="vivo_switcher_zen_mode">व्यत्यय आणू नका</string>
+    <string name="vivo_switcher_dialog_wechat_scan_message">WeChat सुरू करण्यासाठी QR कोड स्कॅन करा, तुम्हाला WeChat स्थापित करणे गरजेचे आहे. आता स्थापित करायचे?</string>
+    <string name="vivo_switcher_wechat_scan_available_toast">Wechat \"QR कोड स्कॅन\" उपलब्ध आहे</string>
+    <string name="vivo_switcher_clear_up_tip_both" formatted="false">%dपाश्वभूमी अनुप्रयोग अ‍ॅप्स बं‍द केले आणि %dMB मेमरी मोकळी केली</string>
+    <string name="vivo_switcher_clear_up_tip_deamon">%d पार्श्वभूमी अ‍ॅप्स बंद केली </string>
+    <string name="vivo_switcher_clear_up_tip_none">आधीच इष्टतम स्थितीत आहेत</string>
+    <string name="vivo_switcher_wifi_open_tips_while_tethered">वाय-फाय सुरू करणे पोर्टेबल वाय-फाय हॉटस्पॉट अक्षम करेल सुरु ठेवायचे?</string>
+    <string name="vivo_switcher_wifi_open_tips_sure">ठीक आहे</string>
+    <string name="vivo_switcher_wifi_open_tips_cancel">रद्द करा</string>
+    <string name="vivo_switcher_wifi_close_while_wfd_opened_title">एकाधिक स्क्रीन परस्परसंवाद</string>
+    <string name="vivo_switcher_wifi_close_while_wfd_opened_context">Wi-Fi बंद झाले की Wi-Fi प्रदर्शन स्वयंचलितपणे बंद होईल</string>
+    <string name="vivo_switcher_during_phone_forbidden">कॉल्स दरम्यान उपलब्ध नाही</string>
+    <string name="vivo_switcher_offline_forbidden">ऑफलाइन मोडमध्ये उपलब्ध नाही</string>
+    <string name="vivo_switcher_need_sim">परीचालनासाठी सिम कार्ड आवश्यक</string>
+    <string name="vivo_switcher_apn_dialog_title">डेटा नेटवर्क</string>
+    <string name="vivo_switcher_apn_security_dialog_title">टीप</string>
+    <string name="vivo_switcher_apn_security_dialog_msg">एकदा सक्षम केले की, स्वयं वेळ समायोजन, स्वयं अद्यतन चेक, स्थिती निर्धारण, vivo सेवा, आणि स्टँडबाय स्क्रीन कमी प्रमाणात डेटा खर्च करतील. आपल्याला पुढे सुरु ठेवायचे आहे का?</string>
+    <string name="vivo_switcher_apn_security_dialog_tip">आपण सुरु ठेवा निवडल्यास, आपण पुढील वेळी हा अॅप वापराल तेव्हा आपल्याला स्मरण करून दिले जाणार नाही.</string>
+    <string name="vivo_switcher_apn_security_dialog_button_continue">सुरु ठेवा</string>
+    <string name="vivo_switcher_apn_dialog_set_default_tip">  इंटरनेटसाठी हे कार्ड डीफॉल्ट रूपात सेट करा आणि पुन्हा कार्ड निवडण्यासाठी विचारू नका</string>
+    <string name="vivo_switcher_apn_dialog_set_default_tip2">सेटिंग्ज बदलण्यासाठी तुम्ही \"सेटिंग्ज > मोबाइल नेटवर्क्स > डिफॉल्ट कार्ड\" येथे जाऊ शकता</string>
+    <string name="vivo_switcher_dialog_title_tips">टीप</string>
+    <string name="vivo_switcher_dialog_sps_tip">सुपर पॉवर जतन मोडमध्ये केवळ फोन, संदेशन आणि अलार्म कार्ये सक्रीय केली जातात. सेल फोन पूर्णपणे चार्ज झाला की मोडमधून स्वयंचलितपणे बाहेर पडेल.</string>
+    <string name="vivo_switcher_dialog_sps_never_remide">मला पुन्हा स्मरण देऊ नका</string>
+    <string name="vivo_switcher_flashlight_low_battery_tip">कमी बॅटरी हे वैशिष्ट्य तात्पुरते अनुपलब्ध आहे.</string>
+    <string name="vivo_switcher_speedup_dialog_whitelist_title">i Manager आपणांस स्मरण देत आहे</string>
+    <string name="vivo_switcher_speedup_dialog_whitelist_message">एक-स्पर्श स्पीडअपने समाप्त होणारे अ‍ॅप्स व्हाइटलिस्टवर जोडणे शक्य नाही.</string>
+    <string name="vivo_switcher_speedup_dialog_whitelist_ok">व्हाइटलिस्ट सेट करा</string>
+    <string name="vivo_upslide_hifi_no_headphone">हाय-फाय चालू करू शकत नाही. कोणतेही इअरफोन घातलेले नाहीत.</string>
+    <string name="vivo_upslide_hifi_low_battery">हाय-फाय चालू करू शकत नाही. बॅटरी कमी.</string>
+    <string name="vivo_upslide_hifi_opened">हाय-फाय चालू</string>
+    <string name="vivo_upslide_hifi_closed">हाय-फाय बंद</string>
+    <string name="vivo_upslide_hifi_headset_tip">हाय-फाय केवळ इअरफोन मोडमध्ये कार्य करते</string>
+    <string name="vivo_upslide_artist_name">कलाकाराचे नाव</string>
+    <string name="vivo_upslide_music_name">गाण्याचे नाव</string>
+    <string name="vivo_upslide_network_mode_any">कोणतेही</string>
+    <string name="vivo_upslide_network_mode_only_2g">केवळ 2G</string>
+    <string name="vivo_upslide_network_mode_register_choice">केवळ 2G नेटवर्क वापरा, Ooredoo आपला सामान्य वापर चालू ठेवू शकते; कोणतेही नेटवर्क निवडा, Ooredoo वापरता येत नाही.</string>
+    <string name="vivo_upslide_network_mode_tip">कृपया निवडा</string>
+    <string name="vivo_switcher_apn_dialog_close_apn_tip">बंद</string>
+    <string name="vivo_switcher_sps_dialog_ok">ठीक आहे</string>
+    <string name="vivo_upslide_hide_navigaton_bar_tip">लपविण्यासाठी खाली स्वाईप करा</string>
+    <string name="vivo_upslide_lock_task_dialog_msg">स्क्रीन पिन केल्यानंतर, डिव्हाइस एका स्क्रीनमध्ये राहील. अनपिन करण्यासाठी, \"मागे\" आणि \"मेनू\" टॅप आणि होल्ड करा.</string>
+    <string name="vivo_upslide_lock_task_dialog_negative">  नाही धन्यवाद</string>
+    <string name="vivo_upslide_lock_task_dialog_positive">प्रारंभ</string>
+    <string name="vivo_upslide_lock_task_dialog_title">स्क्रीन पिन करणे वापरायचे?</string>
+    <string name="vivo_upslide_show_navigaton_bar_tip">दाखविण्यासाठी वर स्वाईप करा</string>
+    <string name="vivo_upslide_volume_tip">मीडिया</string>
+    <string name="vivo_switcher_data_network_not_available">मोबाईल नेटवर्क अनुपलब्ध नाही</string>
+    <string name="vivo_switcher_wifi_ap">वाय-फाय हॉटस्पॉट</string>
+    <string name="vivo_switcher_eye_protection">नेत्र सुरक्षा</string>
+    <string name="vivo_switcher_eye_protection_tip">नेत्र सुरक्षा मोड सक्षम केला आहे. कृपया व्हिज्युअल फटिग काढण्यासाठी स्क्रीन रंग समायोजित करा.</string>
+    <string name="vivo_switcher_eye_protection_tip_ok">ठीक आहे</string>
+    <string name="vivo_upslide_operation_tips">स्क्रीनच्या तळाच्या कडेवरून वरच्या दिशेने स्लाइड करून \"नियंत्रण केंद्र\" वर आणा.</string>
+    <string name="vivo_upslide_setting_title">नियंत्रण केंद्र</string>
+    <string name="vivo_upslide_switch_tips">\"नियंत्रण केंद्र\" अ‍ॅप इंटरेफेसवर आणण्याची अनुमती द्या. स्विच बंद केल्यानंतर, आपण तरीही \"नियंत्रण केंद्र\" डेस्कटॉपवर आणू शकता.</string>
+    <string name="vivo_upslide_switch_title">अ‍ॅप इंटरेफेसवर आणा</string>
+    <string name="wifi_opened">चालू</string>
+    <string name="wifi_starting">चालू करत आहे</string>
+    <string name="wifi_stopping">बंद करत आहे</string>
+    <string name="wifi_prepare_connect">कनेक्ट तयार करा</string>
+    <string name="keyguard_password_enter_pin_code">पिन प्रविष्ट करा</string>
+    <string name="keyguard_password_enter_puk_code">कृपया SIM कार्डाचा PUK आणि नवीन पिन प्रविष्ट करा</string>
+    <string name="keyguard_password_enter_puk_prompt">सिम कार्ड PUK</string>
+    <string name="keyguard_password_enter_pin_prompt">नवीन सिम कार्ड पिन</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">संकेतशब्द प्रविष्ट करण्यासाठी स्पर्श करा</font></string>
+    <string name="keyguard_password_enter_password_code">अनलॉक करण्यासाठी संकेतशब्द प्रविष्ट करा</string>
+    <string name="keyguard_password_enter_pin_password_code">अनलॉक करण्यासाठी पिन प्रविष्ट करा</string>
+    <string name="keyguard_password_wrong_pin_code">चुकीचा पिन.</string>
+    <string name="keyguard_label_text">अनलॉक करण्यासाठी, मेनू दाबा नंतर 0.</string>
+    <string name="faceunlock_multiple_failures">जास्तीत जास्त चेहरा अनलॉक प्रयत्न झाले</string>
+    <string name="keyguard_charged">पूर्ण प्रभारीत झाली</string>
+    <string name="keyguard_plugged_in">प्रभारीत होत आहे</string>
+    <string name="keyguard_low_battery">कृपया चार्जर कनेक्ट करा.</string>
+    <string name="keyguard_instructions_when_pattern_disabled">अनलॉक करण्यासाठी \"मेनू\" वर टॅप करा.</string>
+    <string name="keyguard_network_locked_message">नेटवर्क लॉक झाले</string>
+    <string name="keyguard_missing_sim_message_short">सिम कार्ड नाही</string>
+    <string name="keyguard_missing_sim_message">फोनमध्ये कोणतेही सिमकार्ड नाही.</string>
+    <string name="keyguard_missing_sim_instructions">कृपया सिम कार्ड आत घाला.</string>
+    <string name="keyguard_missing_sim_instructions_long">सिम कार्ड गहाळ आहे किंवा वाचनीय नाही. कृपया एक सिम कार्ड आत घाला.</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">सिम कार्ड वापरले जाऊ शकत नाही.</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"आपले सिम कार्ड कायमस्वरूपी अक्षम केले आहे.
+दुसरे सिम कार्ड मिळवण्यासाठी कृपया आपल्या वायरलेस सेवा प्रदात्याशी संपर्क साधा."</string>
+    <string name="keyguard_sim_locked_message">सिम कार्ड लॉक केले.</string>
+    <string name="keyguard_sim_puk_locked_message">PUK सह सिम कार्ड लॉक केले.</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">सिम कार्ड अनलॉक करीत आहे...</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s. %3$d चे %2$d विजेट.</string>
+    <string name="keyguard_accessibility_add_widget">विजेट जोडा.</string>
+    <string name="keyguard_accessibility_widget_empty_slot">रिक्त</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">अनलॉक क्षेत्र विस्तारले.</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">अनलॉक क्षेत्र कोसळले.</string>
+    <string name="keyguard_accessibility_widget">%1$s विजेट.</string>
+    <string name="keyguard_accessibility_user_selector">वापरकर्ता निवडक</string>
+    <string name="keyguard_accessibility_camera">कॅमेरा</string>
+    <string name="keygaurd_accessibility_media_controls">मीडिया नियंत्रणे</string>
+    <string name="keyguard_accessibility_widget_reorder_start">विजेट पुन्हा ऑर्डर करणे सुरू झाले.</string>
+    <string name="keyguard_accessibility_widget_reorder_end">विजेट पुन्हा ऑर्डर करणे पूर्ण झाले.</string>
+    <string name="keyguard_accessibility_widget_deleted">%1$s विजेट हटवले.</string>
+    <string name="keyguard_accessibility_expand_lock_area">अनलॉक क्षेत्र विस्तारा.</string>
+    <string name="keyguard_accessibility_slide_unlock">अनलॉक करण्यासाठी स्लाइड करा.</string>
+    <string name="keyguard_accessibility_pattern_unlock">नमुना अनलॉक.</string>
+    <string name="keyguard_accessibility_face_unlock">चेहरा अनलॉक.</string>
+    <string name="keyguard_accessibility_pin_unlock">पिन अनलॉक.</string>
+    <string name="keyguard_accessibility_password_unlock">संकेतशब्द अनलॉक.</string>
+    <string name="keyguard_accessibility_pattern_area">नमुना क्षेत्र.</string>
+    <string name="keyguard_accessibility_slide_area">स्लाईड क्षेत्र.</string>
+    <string name="keyguard_accessibility_pin_area">PIN क्षेत्र</string>
+    <string name="keyguard_accessibility_sim_pin_area">SIM कार्ड PIN क्षेत्र</string>
+    <string name="keyguard_accessibility_sim_puk_area">SIM कार्ड PUK क्षेत्र</string>
+    <string name="keyguard_accessibility_transport_prev_description">\"मागील ट्रॅक\" बटण</string>
+    <string name="keyguard_accessibility_transport_next_description">\"पुढील ट्रॅक\" बटण</string>
+    <string name="keyguard_accessibility_transport_pause_description">विराम बटण</string>
+    <string name="keyguard_accessibility_transport_play_description">\"प्ले\" बटण</string>
+    <string name="keyguard_accessibility_transport_stop_description">थांबा बटण</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">मला आवडले</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">नावड</string>
+    <string name="keyguard_accessibility_transport_heart_description">ह्रदये</string>
+    <string name="keyguard_accessibility_show_bouncer">सुरु ठेवण्यासाठी अनलॉक करा</string>
+    <string name="keyguard_accessibility_hide_bouncer">लाँच रद्द केला</string>
+    <string name="keyguard_accessibility_delete_widget_start">हटवायचा %1$s रीलिझ करा.</string>
+    <string name="keyguard_accessibility_delete_widget_end">%1$s हटवले जाणार नाही.</string>
+    <string name="keyguard_accessibility_next_alarm">%1$sवर पुढचा अलार्म सेट कला</string>
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    <string name="password_keyboard_label_alt_key">ALT</string>
+    <string name="keyboardview_keycode_cancel">रद्द करा</string>
+    <string name="keyboardview_keycode_delete">हटवा</string>
+    <string name="keyboardview_keycode_done">झाले</string>
+    <string name="keyboardview_keycode_mode_change">मोड बदल</string>
+    <string name="keyboardview_keycode_shift">शिफ्ट करा</string>
+    <string name="keyboardview_keycode_enter">प्रवेशकरा</string>
+    <string name="description_target_unlock">अनलॉक करा</string>
+    <string name="description_target_camera">कॅमेरा</string>
+    <string name="description_target_silent">मूक</string>
+    <string name="description_target_soundon">आवाज चालू</string>
+    <string name="description_direction_down">%s साठी खाली स्लाइड करा.</string>
+    <string name="description_direction_right">%s साठी उजवीकडे स्लाइड करा.</string>
+    <string name="user_switched">वर्तमान वापरकर्ता %1$sआहे.</string>
+    <string name="kg_emergency_call_label">आणीबाणी कॉल</string>
+    <string name="kg_forgot_pattern_button_text">नमुना विसरला</string>
+    <string name="kg_wrong_pattern">चुकीचा नमुना</string>
+    <string name="kg_wrong_password">अयोग्य संकेतशब्द</string>
+    <string name="kg_wrong_pin">चुकीचा पिन</string>
+    <string name="kg_too_many_failed_attempts_countdown">%d सेकंदांमध्ये पुन्हा प्रयत्न करा</string>
+    <string name="kg_pattern_instructions">आपला नमुना रेखाटा</string>
+    <string name="kg_sim_pin_instructions">सिम पिन प्रविष्ट करा</string>
+    <string name="kg_sim_pin_instructions_multi">SIM कार्डसाठी PUK प्रविष्ट करा\"%1$s\"</string>
+    <string name="kg_pin_instructions">पिन प्रविष्ट करा</string>
+    <string name="kg_password_instructions">संकेतशब्द प्रविष्ट करा</string>
+    <string name="kg_puk_enter_puk_hint">सिम कार्ड अक्षम केले. चालू ठेवण्यासाठी PUK कोड प्रविष्ट करा. तपशीलांसाठी कृपया आपल्या वाहकाशी संपर्क करा.</string>
+    <string name="kg_puk_enter_puk_hint_multi">SIM कार्ड \"%1$s\" अक्षम करण्यात आला आहे. ते वापरणे सुरू ठेवण्यासाठी आपण PUK प्रविष्ट करणे आवश्यक आहे. तपशीलांसाठी, आपल्या कॅरीअरशी संपर्क साधा.</string>
+    <string name="kg_puk_enter_pin_hint">कृपया आवश्यक पिन प्रविष्ट करा</string>
+    <string name="kg_enter_confirm_pin_hint">कृपया आवश्यक पिन सत्यापित करा</string>
+    <string name="kg_sim_unlock_progress_dialog_message">सिम कार्ड अनलॉक करीत आहे...</string>
+    <string name="kg_invalid_sim_pin_hint">कृपया 4-8 अंकी पिन प्रविष्ट करा.</string>
+    <string name="kg_invalid_sim_puk_hint">PUK कोडमध्ये निदान 8 अंक असायला हवे.</string>
+    <string name="kg_invalid_puk">कृपया योग्य ‍पिन पुन्हा प्रविष्ट करा अनेक चुकीचे प्रयत्न सिम कायमचे अक्षम करेल.</string>
+    <string name="kg_invalid_confirm_pin_hint">पिन कोड जुळत नाहीत</string>
+    <string name="kg_login_too_many_attempts">खूप जास्त नमुना प्रयत्न</string>
+    <string name="kg_login_instructions">अनलॉक करण्यासाठी,कृपया आपले Google खाते साईन इन करा.</string>
+    <string name="kg_login_username_hint">वापरकर्तानाव (ईमेल पत्ता)</string>
+    <string name="kg_login_password_hint">संकेतशब्द</string>
+    <string name="kg_login_submit_button">साइन इन करा</string>
+    <string name="kg_login_invalid_input">अवैध वापरकर्तानाव किंवा संकेतशब्द.</string>
+    <string name="kg_login_account_recovery_hint">"आपले वापरकर्तानाव किंवा संकेतशब्द विसरला? 
+कृपया भेट द्या "<b>\"google.com/accounts/recovery\"</b>.</string>
+    <string name="kg_login_checking_password">खाते चेक करीत आहे...</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"आपण %d वेळा चुकीचा पिन टाकला आहे.
+
+कृपया %d सेकंदा्ंत पुन्हा प्रयत्न करा."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"आपण आपला संकेतशब्द %d वेळा अयोग्यरित्या प्रविष्ट केला आहे. 
+
+कृपया %d सेकंदांमध्ये पुन्हा प्रयत्न करा."</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"आपण आपला अनलॉक नमुना %d वेळा चुकीचा रेखाटला आहे. 
+
+%d सेकंदांमध्ये पुन्हा प्रयत्न करा."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">आपण %d वेळा फोन अनलॉक करण्याचा चुकीचा प्रयत्न केला आहे. %d अधिक अयशस्वी प्रयत्ना(त्नां) नंतर फोन रीसेट केला जाईल आणि त्यावरील डेटा हटविला जाईल.</string>
+    <string name="kg_failed_attempts_now_wiping">आपण %d वेळा फोन अनलॉक करण्याचा चुकीचा प्रयत्न केला आहे. फोन रीसेट केला जाईल आणि त्यावरील सर्व डेटा हटविला जाईल.</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" formatted="false">आपण %d वेळा फोन अनलॉक करण्याचा चुकीचा प्रयत्न केला आहे. %d अधिक अयशस्वी प्रयत्ना(त्नां) नंतर, सिस्टीम त्याच्या सर्व डेटासह हा वापरकर्ता काढून टाकेल.</string>
+    <string name="kg_failed_attempts_now_erasing_user">आपण %d वेळा फोन अनलॉक करण्याचा चुकीचा प्रयत्न केला आहे. सिस्टीम हा वापरकर्ता त्याच्या सर्व डेटासह काढून टाकेल.</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" formatted="false">आपण %d वेळा फोन अनलॉक करण्याचा चुकीचा प्रयत्न केला आहे. %d अधिक अयशस्वी प्रयत्ना(त्नां) नंतर, सिस्टीम त्याच्या सर्व डेटासह ही कार्य प्रोफाइल काढून टाकेल.</string>
+    <string name="kg_failed_attempts_now_erasing_profile">आपण %d वेळा फोन अनलॉक करण्याचा चुकीचा प्रयत्न केला आहे. सिस्टीम ही कार्य प्रोफाइल त्याच्या सर्व डेटासह काढून टाकेल.</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"आपण अयोग्य अनलॉक नमुना %d वेळा रेखाटला आहे. आणखी %dअयशस्वी प्रयत्न(त्नां) नंतर, आपल्याला आपला फोन आपले ईमेल खाते वापरून अनलॉक करायला सांगीतले जाईल. 
+
+कृपया %d सेकंदांमध्ये पुन्हा प्रयत्न करा."</string>
+    <string name="kg_reordering_delete_drop_target_text">हटवा</string>
+    <string name="kg_password_wrong_pin_code_pukked">चुकीचा सिम कार्ड पिन, आता डिव्हाइस अनलॉक करण्यासाठी आपण वाहकाशी संपर्क करायला हवा.</string>
+    <string name="kg_password_wrong_puk_code_dead">सिम कार्ड वापरले जाऊ शकत नाही. कृपया आपल्या वाहकाशी संपर्क साधा.</string>
+    <string name="kg_password_pin_failed">सिम कार्ड पिन ऑपरेशन अयशस्वी!</string>
+    <string name="kg_password_puk_failed">PUK वापरून सिम कार्ड अनलॉक करणे अयशस्वी झाले.</string>
+    <string name="kg_pin_accepted">बरोबर कोड!</string>
+    <string name="keyguard_transport_prev_description">मागील ट्रॅक बटण</string>
+    <string name="keyguard_transport_next_description">पुढचे ट्रॅक बटण</string>
+    <string name="keyguard_transport_pause_description">\"विराम\" बटण</string>
+    <string name="keyguard_transport_play_description">\"प्ले\" बटण</string>
+    <string name="keyguard_transport_stop_description">\"थांबा\" बटण</string>
+    <string name="keyguard_carrier_default">सेवा नाही.</string>
+    <string name="try_again">पुन्हा प्रयत्न करा</string>
+    <string name="vivo_forgot_pattern">नमुना विसरला</string>
+    <string name="vivo_forgot_password">संकेतशब्द विसरलो</string>
+    <string name="vivo_kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"आपण %d वेळा चुकीचा अनलॉक नमुना रेखाटला. 
+कृपया %d सेकंदांमध्ये पुन्हा प्रयत्न करा!"</string>
+    <string name="vivo_kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"आपण %d वेळा चुकीचा अनलॉक संकेतशब्द प्रविष्ट केला आहे. 
+कृपया %d सेकंदांमध्ये पुन्हा प्रयत्न करा!"</string>
+    <string name="vivo_login_problem">अनलॉक करण्यासाठी, कृपया उत्तर इनपुट करा</string>
+    <string name="vivo_login_answer_hint">उत्तर प्रविष्ट करण्यासाठी टॅप करा</string>
+    <string name="vivo_login_title">अनलॉक करा</string>
+    <string name="vivo_login_problem_invalid_input">उत्तर चुकीचे आहे</string>
+    <string name="father_name">आपल्या वडिलांचे नाव काय?</string>
+    <string name="mother_name">आपल्या आईचे नाव काय आहे?</string>
+    <string name="spouse_name">आपल्या जोडीदाराचे नाव काय?</string>
+    <string name="clean_visit_mode">आपण अभ्यागत मोड मधून बाहेर पडलात आणि अभ्यागत संकेतशब्द कालबाह्य झाला.</string>
+    <string name="vivo_emergency">आणीबाणी कॉल</string>
+    <string name="vivo_return_to_call">कॉल रिटर्न करा</string>
+    <string name="vivo_password_wrong_pin_code">अयोग्य पिन</string>
+    <string name="vivo_password_enter_pin_code">कृपया पिन प्रविष्ट करा</string>
+    <string name="vivo_password_enter_puk_code">PUK कोड प्रविष्ट करा</string>
+    <string name="vivo_mismatchPin">पिन जुळत नाही आहेत. कृपया पुन्हा प्रविष्ट करा.</string>
+    <string name="vivo_password_enter_new_pin_code">नवीन पिन प्रविष्ट करा</string>
+    <string name="vivo_password_Confirm_pin_code">नवीन पिनची पुष्टी करा</string>
+    <string name="findphone_ok">ठीक आहे</string>
+    <string name="kg_password_findphone_tip">कृपया आपला vivo खाते संकेतशब्द प्रविष्ट करा</string>
+    <string name="vivo_pinpuk_attempts">%d</string>
+    <string name="problem_label">Q:</string>
+    <string name="vivo_onehand_msg">केंद्रापासून एकल हात मोडवर स्क्रीनच्या उजवीकडून अंतर स्वाइप करणे एकल हात मोडवर स्विच करेल.</string>
+    <string name="vivo_password_wrong">चुकीचा संकेतशब्द</string>
+    <string name="vivo_pattern_wrong">चुकीचा नमुना</string>
+    <string name="pinpuk_attempts">उर्वरित प्रयत्न:</string>
+    <string name="finger_need_password_msg">बोटाचा ठसा ओळख सक्षम करण्यासाठी आपला संकेतशब्द आवश्यक आहे</string>
+    <string name="finger_need_pattern_msg">बोटाचा ठसा ओळख सक्षम करण्यासाठी आपला पॅटर्न आवश्यक आहे</string>
+    <string name="finger_password_title">संकेतशब्द प्रविष्ट करा</string>
+    <string name="finger_pattern_title">पॅटर्न ड्रॉ करा</string>
+    <string name="findphone_unable_network">नेटवर्कशी कनेक्ट करण्यात अक्षम</string>
+    <string name="findphone_verifying_password">संकेतशब्द पडताळत आहे....</string>
+    <string name="pin_reboot_finger">रीबूटींगनंतर बोटाचा ठसा सक्षम करण्यासाठी संकेतशब्द ड्रॉ करणे आवश्यक आहे</string>
+    <string name="pattern_reboot_finger">रीबूटींगनंतर बोटाचा ठसा सक्षम करण्यासाठी पॅटर्न ड्रॉ करणे आवश्यक आहे</string>
+    <string name="confirm_max_lenth">कमाल वर्ण मर्यादा गाठली</string>
+    <string name="use_fingerprint_or_password">आँगुरक निशानक उपयोग करू वा कूट शब्द प्रविष्ट करू</string>
+    <string name="use_fingerprint_or_pattern">आँगुरक निशानक उपयोग करू वा खाँचा बनाऊ</string>
+    <string name="use_fingerprint_or_pin">आँगुरक निशानक उपयोग करू वा कूट शब्द प्रविष्ट करू</string>
+</resources>

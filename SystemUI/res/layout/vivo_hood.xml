@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/vivo_hood" android:visibility="gone" android:animationCache="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dip" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/vivo_hood_jump_tip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="@dimen/vivo_hood_tip_max_width" android:singleLine="true" />
+    <TextView android:textSize="14.0dip" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/vivo_hood_state_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+    <Chronometer android:textSize="14.0dip" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/vivo_hood_time" android:paddingBottom="1.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@android:style/TextAppearance.StatusBar.EventContent.Title" />
+</LinearLayout>

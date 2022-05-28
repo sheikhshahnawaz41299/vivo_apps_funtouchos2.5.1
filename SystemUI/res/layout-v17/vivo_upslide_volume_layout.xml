@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/volume_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/vivo_upslide_volume_tip_text_size" android:textColor="@color/vivo_upslide_volume_tip_text_color" android:layout_gravity="center_horizontal" android:id="@id/volume_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vivo_upslide_volume_tip" android:alpha="0.0" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/media_volume_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vivo_upslide_media_volume" android:layout_marginStart="@dimen/vivo_upslide_common_space" />
+        <SeekBar android:id="@id/music_volume_seekbar" android:layout_width="0.0dip" android:layout_height="wrap_content" android:progressDrawable="@drawable/vivo_upslide_seekbar_progress" android:layout_weight="1.0" android:paddingStart="@dimen/vivo_upslide_seek_bar_padding" android:paddingEnd="@dimen/vivo_upslide_seek_bar_padding" />
+        <ImageView android:id="@id/volume_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vivo_upslide_media_volume_horn" android:layout_marginEnd="@dimen/vivo_upslide_common_space" />
+    </LinearLayout>
+</FrameLayout>

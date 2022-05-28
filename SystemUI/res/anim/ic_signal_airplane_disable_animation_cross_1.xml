@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="@interpolator/ic_signal_airplane_disable_cross_1_pathdata_interpolator" android:duration="350" />
+    <objectAnimator android:interpolator="@android:interpolator/linear" android:duration="17" />
+</set>

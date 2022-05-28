@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">অৱলোকনত %d-খন স্ক্ৰীণ</item>
+        <item quantity="one">অৱলোকনত 1-খন স্ক্ৰীণ</item>
+    </plurals>
+    <plurals name="missed_call">
+        <item quantity="other">%d মিচড কল(সমূহ)</item>
+        <item quantity="one">1 টা মিচ কল</item>
+    </plurals>
+    <plurals name="unread_msg">
+        <item quantity="other">%d নপঢ়া বাৰ্তা(বোৰ)</item>
+        <item quantity="one">1 টা নপঢ়া মেচেজ</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">অশুদ্ধ SIM PIN, আপোনাৰ %d প্ৰয়াস বাকী আছে।</item>
+        <item quantity="one">অশুদ্ধ SIM PIN, আপুনি আপোনাৰ ডিভাইচ আনলক কৰিবলৈ আপোনাৰ কেৰিয়াৰক যোগাযোগ কৰাৰ পূৰ্বে আপোনাৰ %d প্ৰয়াস বাকী আছে।</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">অশুদ্ধ SIM PUK কোড, SIM স্থায়ীভাৱে ব্যৱহাৰযোগ্য নোহোৱাৰ পূৰ্বে আপোনাৰ %d প্ৰয়াস বাকী আছে।</item>
+        <item quantity="one">অশুদ্ধ SIM PUK কোড, SIM স্থায়ীভাৱে ব্যৱহাৰযোগ্য নোহোৱাৰ পূৰ্বে আপোনাৰ %d প্ৰয়াস বাকী আছে।</item>
+    </plurals>
+</resources>

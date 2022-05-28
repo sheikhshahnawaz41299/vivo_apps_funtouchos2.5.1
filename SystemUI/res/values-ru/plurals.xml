@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">Экранов в обзоре: %d</item>
+        <item quantity="one">1 экран в обзоре</item>
+    </plurals>
+    <plurals name="missed_call">
+        <item quantity="other">Пропущенных вызовов: %d</item>
+        <item quantity="one">1 пропущенный вызов</item>
+    </plurals>
+    <plurals name="unread_msg">
+        <item quantity="other">Непрочитанных сообщений: %d</item>
+        <item quantity="one">1 непрочитанное сообщение</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Неверный PIN-код SIM-карты. Осталось попыток: %d.</item>
+        <item quantity="one">Неверный PIN-код SIM-карты. Осталось попыток: %d. Затем для разблокировки устройства вам придется обратиться к своему оператору.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Неверный PUK-код SIM-карты. Осталось попыток: %d. Затем SIM-карта будет навсегда заблокирована.</item>
+        <item quantity="one">Неверный PUK-код SIM-карты. Осталось попыток: %d. Затем SIM-карта будет навсегда заблокирована.</item>
+    </plurals>
+</resources>

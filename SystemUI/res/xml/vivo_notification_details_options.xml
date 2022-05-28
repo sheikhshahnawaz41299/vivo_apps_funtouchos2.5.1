@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <VivoCheckBoxPreference android:title="@string/vivo_show_notification" android:key="show_notification" android:defaultValue="true" />
+    <PreferenceCategory android:key="divider1" style="?vivo:attr/dividerPreferenceStyle" />
+    <VivoCheckBoxPreference android:title="@string/vivo_show_priority_notification" android:key="show_priority_notification" android:defaultValue="true" />
+    <PreferenceCategory android:title="@string/vivo_show_priority_notification_illustration" android:key="show_priority_notification_illustration" />
+    <PreferenceCategory android:key="divider2" style="?vivo:attr/dividerPreferenceStyle" />
+    <VivoCheckBoxPreference android:title="@string/vivo_show_keyguard_notification" android:key="show_keyguard_notification" android:defaultValue="true" />
+    <VivoCheckBoxPreference android:title="@string/vivo_show_keyguard_notification_details" android:key="show_keyguard_notification_details" android:defaultValue="true" />
+    <PreferenceCategory android:title="@string/show_imanager_lock_tip" android:key="show_imanager_lock_tip" />
+    <PreferenceCategory android:title="@string/show_imanager_locked_tip" android:key="show_imanager_locked_tip" />
+    <PreferenceCategory android:key="divider3" style="?vivo:attr/dividerPreferenceStyle" />
+    <VivoCheckBoxPreference android:title="@string/vivo_show_desktop_app_icon_badge" android:key="show_desktop_app_icon_badge" android:defaultValue="true" />
+    <VivoCheckBoxPreference android:title="@string/vivo_show_notification_top_preview" android:key="show_top_preview" android:defaultValue="true" />
+</PreferenceScreen>

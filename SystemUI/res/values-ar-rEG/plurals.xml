@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d من الشاشات في النظرة العامة</item>
+        <item quantity="one">شاشة واحدة في النظرة العامة</item>
+    </plurals>
+    <plurals name="missed_call">
+        <item quantity="other">%d مكالمة (مكالمات) فائتة</item>
+        <item quantity="one">1 مكالمة فائتة</item>
+    </plurals>
+    <plurals name="unread_msg">
+        <item quantity="other">%d رسالة (رسائل) غير مقروءة</item>
+        <item quantity="one">1 رسالة غير مقروءة</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">رمز PIN لبطاقة SIM غير صحيح، لديك %d محاولات متبقية.</item>
+        <item quantity="one">رمز PIN لبطاقة SIM غير صحيح، لديك %d محاولة متبقية قبل أن تضطر إلى الاتصال بمشغل شبكة الجوال لإلغاء قفل الجهاز.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">رمز PUK لبطاقة SIM غير صحيح، لديك %d محاولات متبقية قبل أن تصبح بطاقة SIM غير صالحة للاستخدام إلى الأبد.</item>
+        <item quantity="one">رمز PUK لبطاقة SIM غير صحيح، لديك %d محاولات متبقية قبل أن تصبح بطاقة SIM غير صالحة للاستخدام إلى الأبد.</item>
+    </plurals>
+</resources>

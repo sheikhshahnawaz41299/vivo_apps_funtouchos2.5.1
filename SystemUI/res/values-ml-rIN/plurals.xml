@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">ചുരുക്കവിവരണത്തിലെ %d സ്‌ക്രീനുകൾ</item>
+        <item quantity="one">ചുരുക്കവിവരണത്തിലെ ഒരു സ്‌ക്രീൻ</item>
+    </plurals>
+    <plurals name="missed_call">
+        <item quantity="other">%d മിസ്ഡ് കോൾ(കൾ)</item>
+        <item quantity="one">1 മിസ്ഡ് കോൾ</item>
+    </plurals>
+    <plurals name="unread_msg">
+        <item quantity="other">%d വായിക്കാത്ത സന്ദേശം(ങ്ങൾ).</item>
+        <item quantity="one">1 വായിക്കാത്ത സന്ദേശം</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">തെറ്റായ SIM PIN കോഡ്, നിങ്ങൾക്ക് %d ശ്രമങ്ങൾ ബാക്കിയുണ്ട്.</item>
+        <item quantity="one">SIM PIN കോഡ് തെറ്റാണ്, നിങ്ങളുടെ ഉപകരണത്തിന്റെ ലോക്ക് നീക്കുന്നതിന് നിങ്ങളുടെ കാരിയറിനെ ബന്ധപ്പെടുന്നതിന് മുമ്പ് നിങ്ങൾക്ക് %d ശ്രമം അവശേഷിക്കുന്നുണ്ട്.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">തെറ്റായ SIM PUK കോഡ്, SIM സ്ഥിരമായി ഉപയോഗശൂന്യമാകുന്നതിന് മുമ്പ് നിങ്ങൾക്ക് %d ശ്രമങ്ങൾ അവശേഷിക്കുന്നു.</item>
+        <item quantity="one">തെറ്റായ SIM PUK കോഡ്, SIM സ്ഥിരമായി ഉപയോഗശൂന്യമാകുന്നതിന് മുമ്പ് നിങ്ങൾക്ക് %d ശ്രമങ്ങൾ അവശേഷിക്കുന്നു.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">ສ່ວນຕິດຕໍ່ຜູ້ໃຊ້ຂອງລະບົບ</string>
+    <string name="status_bar_clear_all_button">ລຶບ</string>
+    <string name="status_bar_recent_remove_item_title">ເອົາອອກຈາກລາຍການ</string>
+    <string name="status_bar_recent_inspect_item_title">ຂໍ້ມູນແອັບ</string>
+    <string name="status_bar_no_recent_apps">ໜ້າຈໍຫຼ້າສຸດຂອງທ່ານປະກົດຂຶ້ນທີ່ນີ້</string>
+    <string name="status_bar_accessibility_dismiss_recents">ປິດແອັບຫຼ້າສຸດທີ່ໃຊ້</string>
+    <string name="status_bar_no_notifications_title">ບໍ່ມີການແຈ້ງເຕືອນ</string>
+    <string name="status_bar_ongoing_events_title">ດຳເນີນຢູ່</string>
+    <string name="status_bar_latest_events_title">ການແຈ້ງເຕືອນ</string>
+    <string name="battery_low_title">ແບັດເຕີຣີ​ເຫຼືອ​ໜ້ອຍ</string>
+    <string name="battery_low_percent_format">ເຫຼືອຢູ່: %s</string>
+    <string name="battery_low_percent_format_saver_started">ເຫຼືອຢູ່: %s. ຕົວຊ່ວຍການປະຢັດໄຟໄດ້ຖືກເປີດແລ້ວ.</string>
+    <string name="invalid_charger">"ບໍ່ຮອງຮັບການສາກໄຟດ້ວຍ USB.
+ຕ້ອງໃຊ້ສະເພາະເຄື່ອງສາກທີ່ແຖມມານຳເທົ່ານັ້ນ."</string>
+    <string name="invalid_charger_title">ບໍ່​ຮອງຮັບ​ການ​ສາກ​ຜ່ານ USB.</string>
+    <string name="invalid_charger_text">ໃຊ້​ສະເພາະ​ສາຍ​ສາກ​ທີ່​ມາ​ກັບ​ເຄື່ອງ.</string>
+    <string name="battery_low_why">ການ​ຕັ້ງ​ຄ່າ</string>
+    <string name="battery_saver_confirmation_title">ເປີດ​ໃຊ້​ການ​ປະ​ຢັດ​ແບັດ​ເຕີ​ຣີ​ບໍ?</string>
+    <string name="battery_saver_confirmation_ok">ເປີດ</string>
+    <string name="battery_saver_start_action">​ເປີດ​ໃຊ້​ໂຕ​ປະ​ຢັດ​ແບັດ​ເຕີ​ຣີ</string>
+    <string name="status_bar_settings_settings_button">ການ​ຕັ້ງ​ຄ່າ</string>
+    <string name="status_bar_settings_airplane">ໂໝດເຮືອບິນ</string>
+    <string name="status_bar_settings_auto_rotation">ໝຸນໜ້າຈໍອັດຕະໂນມັດ</string>
+    <string name="status_bar_settings_mute_label">ປິດສຽງ</string>
+    <string name="status_bar_settings_auto_brightness_label">ອັດຕະໂນມັດ</string>
+    <string name="status_bar_settings_notifications">ການແຈ້ງເຕືອນ</string>
+    <string name="bluetooth_tethered">ປ່ອຍສັນຍານຜ່ານ Bluetooth ແລ້ວ</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">ຕັ້ງຄ່າວິທີການປ້ອນຂໍ້ມູນ</string>
+    <string name="status_bar_use_physical_keyboard">ແປ້ນຄີບອດ</string>
+    <string name="usb_device_permission_prompt">ອະນຸຍາດໃຫ້ແອັບ %1$s ເຂົ້າເຖິງອຸປະກອນ USB ບໍ?</string>
+    <string name="usb_accessory_permission_prompt">ອະນຸຍາດໃຫ້ແອັບ %1$s ເຂົ້າເຖິງອຸປະກອນພ່ວງ USB ບໍ?</string>
+    <string name="usb_device_confirm_prompt">ເປີດ %1$s ເມື່ອເຊື່ອມຕໍ່ກັບອຸປະກອນ USB ນີ້ຫຼືບໍ່?</string>
+    <string name="usb_accessory_confirm_prompt">ເປີດ %1$s ເມື່ອມີການເຊື່ອມຕໍ່ກັບອຸປະກອນເສີມ USB ນີ້ຫຼືບໍ່?</string>
+    <string name="usb_accessory_uri_prompt">ບໍ່ມີແອັບໃດທີ່ຕິດຕັ້ງໄປແລ້ວ ສາມາດເຮັດວຽກຮ່ວມກັບອຸປະກອນເສີມ USB ນີ້ໄດ້. ສຶກສາເພີ່ມເຕີມກ່ຽວກັບອຸປະກອນເສີມນີ້ທີ່ %1$s</string>
+    <string name="title_usb_accessory">ອຸປະກອນເສີມ USB</string>
+    <string name="label_view">ເບິ່ງ</string>
+    <string name="always_use_device">ໃຊ້ເປັນຄ່າເລີ່ມຕົ້ນສຳລັບອຸປະກອນ USB ນີ້</string>
+    <string name="always_use_accessory">ໃຊ້ຄ່າເລີ່ມຕົ້ນສຳລັບອຸປະກອນເສີມ USB ນີ້</string>
+    <string name="usb_debugging_title">ອະນຸຍາດໃຫ້ມີການແກ້ໄຂບັນຫາ USB ບໍ?</string>
+    <string name="usb_debugging_message">"ລາຍນິ້ມື RSA ຂອງຄອມພິວເຕີແມ່ນ:
+%1$s"</string>
+    <string name="usb_debugging_always">ອະນຸຍາດຈາກຄອມພິວເຕີນີ້ຕະຫຼອດ</string>
+    <string name="compat_mode_on">ຊູມໃຫ້ເຕັມໜ້າຈໍ</string>
+    <string name="compat_mode_off">ປັບໃຫ້ເຕັມໜ້າຈໍ</string>
+    <string name="screenshot_saving_ticker">ກໍາລັງບັນທຶກຮູບຖ່າຍໜ້າຈໍ...</string>
+    <string name="screenshot_saving_title">ກໍາລັງບັນທຶກຮູບຖ່າຍໜ້າຈໍ...</string>
+    <string name="screenshot_saving_text">ກຳລັງບັນທຶກພາບໜ້າຈໍ.</string>
+    <string name="screenshot_saved_title">ຖ່າຍຮູບໜ້າຈໍແລ້ວ</string>
+    <string name="screenshot_saved_text">ແຕະເພື່ອເບິ່ງພາບໜ້າຈໍຂອງທ່ານ.</string>
+    <string name="screenshot_failed_title">ບໍ່ສາມາດຖ່າຍຮູບໜ້າຈໍໄດ້</string>
+    <string name="screenshot_failed_text">ບໍ່​ສາມາດ​ຖ່າຍ​ຮູບ​ໜ້າ​ຈໍ​ໄດ້​ເນື່ອງ​ຈາກ​ບ່ອນ​ຈັດ​ເກັບ​ຂໍ້ມູນ​ທີ່​ຈຳກັດ ຫຼື​ແອັບ ຫຼື​ອົງກອນ​ຂອງ​ທ່ານ​ບໍ່​ອະນຸຍາດ​ໃຫ້​ເຮັດ​ໄດ້.</string>
+    <string name="usb_preference_title">USB ໂຕເລືອກການຍ້າຍໄຟລ໌</string>
+    <string name="use_mtp_button_title">ເຊື່ອມຕໍ່ເປັນ media player (MTP)</string>
+    <string name="use_ptp_button_title">ເຊື່ອມຕໍ່ເປັນກ້ອງຖ່າຍຮູບ (PTP)</string>
+    <string name="installer_cd_button_title">ຕິດຕັ້ງແອັບ Android File Transfer ສຳລັບ Mac</string>
+    <string name="accessibility_back">ກັບຄືນ</string>
+    <string name="accessibility_home">ໜ້າຈໍຫຼັກ</string>
+    <string name="accessibility_menu">ເມນູ</string>
+    <string name="accessibility_recent">ສະພາບລວມ</string>
+    <string name="accessibility_search_light">ຊອກຫາ</string>
+    <string name="accessibility_camera_button">ກ້ອງຖ່າຍຮູບ</string>
+    <string name="accessibility_phone_button">ໂທລະສັບ</string>
+    <string name="accessibility_unlock_button">ປົດລັອກ</string>
+    <string name="unlock_label">ປົດລັອກ</string>
+    <string name="phone_label">​ເປີດ​​ແປ້ນ​ໂທ​ລະ​ສັບ</string>
+    <string name="camera_label">ເປີດ​ກ້ອງ</string>
+    <string name="accessibility_ime_switch_button">ປຸ່ມສະລັບຮູບແບບການປ້ອນຂໍ້ມູນ.</string>
+    <string name="accessibility_compatibility_zoom_button">ປຸ່ມຊູມທີ່ໃຊ້ຮ່ວມກັນໄດ້.</string>
+    <string name="accessibility_compatibility_zoom_example">ຊູມຈໍນ້ອຍໄປເປັນຈໍຂະຫນາດໃຫຍ່.</string>
+    <string name="accessibility_bluetooth_connected">ເຊື່ອມຕໍ່ Bluetooth ແລ້ວ.</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth ຖືກຕັດການເຊື່ອມຕໍ່ແລ້ວ.</string>
+    <string name="accessibility_no_battery">ແບັດເຕີຣີໝົດ.</string>
+    <string name="accessibility_battery_one_bar">ແບັດເຕີຣີນຶ່ງຂີດ.</string>
+    <string name="accessibility_battery_two_bars">ແບັດເຕີຣີສອງຂີດ.</string>
+    <string name="accessibility_battery_three_bars">ແບັດເຕີຣີສາມຂີດ.</string>
+    <string name="accessibility_battery_full">ແບັດເຕີຣີເຕັມ.</string>
+    <string name="accessibility_no_phone">ບໍ່ມີໂທລະສັບ.</string>
+    <string name="accessibility_phone_one_bar">ສັນຍານໂທລະສັບໜຶ່ງຂີດ.</string>
+    <string name="accessibility_phone_two_bars">ສັນຍານສອງຂີດ.</string>
+    <string name="accessibility_phone_three_bars">ສັນຍານສາມຂີດ.</string>
+    <string name="accessibility_phone_signal_full">ສັນຍານໂທລະສັບເຕັມ.</string>
+    <string name="accessibility_no_data">ບໍ່ມີຂໍ້ມູນ.</string>
+    <string name="accessibility_data_one_bar">ສັນຍານຂໍ້ມູນໜຶ່ງຂີດ.</string>
+    <string name="accessibility_data_two_bars">ຂໍ້ມູນສອງຂີດ.</string>
+    <string name="accessibility_data_three_bars">ຂໍ້ມູນສາມຂີດ.</string>
+    <string name="accessibility_data_signal_full">ສັນ​ຍານຂໍ້ມູນ​ເຕັມ.</string>
+    <string name="accessibility_wifi_off">ປິດ Wi-Fi.</string>
+    <string name="accessibility_no_wifi">ຕັດເຊື່ອຕໍ່ Wi-Fi ແລ້ວ.</string>
+    <string name="accessibility_wifi_one_bar">Wi-Fi 1 ຂີດ.</string>
+    <string name="accessibility_wifi_two_bars">Wi-Fi 2 ຂີດ.</string>
+    <string name="accessibility_wifi_three_bars">Wi-Fi 3 ຂີດ.</string>
+    <string name="accessibility_wifi_signal_full">ສັນຍາ Wi-Fi ເຕັມ.</string>
+    <string name="accessibility_wifi_name">ເຊື່ອມ​ຕໍ່​ກັບ %s ແລ້ວ.</string>
+    <string name="accessibility_bluetooth_name">ເຊື່ອມຕໍ່ກັບ %s ແລ້ວ.</string>
+    <string name="accessibility_no_wimax">ບໍ່ມີ WiMAX.</string>
+    <string name="accessibility_wimax_one_bar">WiMAX ໜຶ່ງຂີດ.</string>
+    <string name="accessibility_wimax_two_bars">WiMAX ສອງຂີດ.</string>
+    <string name="accessibility_wimax_three_bars">WiMAX ສາມຂີດ.</string>
+    <string name="accessibility_wimax_signal_full">ສັນ​ຍານ WiMAX ເຕັມ.</string>
+    <string name="accessibility_no_signal">ບໍ່ມີສັນຍານ.</string>
+    <string name="accessibility_not_connected">ບໍ່ໄດ້ເຊື່ອມຕໍ່.</string>
+    <string name="accessibility_zero_bars">ບໍ່ມີຈັກຂີດ.</string>
+    <string name="accessibility_one_bar">ໜຶ່ງຂີດ.</string>
+    <string name="accessibility_two_bars">ສອງຂີດ.</string>
+    <string name="accessibility_three_bars">ສາມຂີດ.</string>
+    <string name="accessibility_signal_full">ສັນຍານເຕັມ.</string>
+    <string name="accessibility_desc_on">ເປີດ.</string>
+    <string name="accessibility_desc_off">ປິດ.</string>
+    <string name="accessibility_desc_connected">ເຊື່ອມ​ຕໍ່ແລ້ວ.</string>
+    <string name="accessibility_desc_connecting">ກຳ​ລັງ​ເຊື່ອມ​ຕໍ່.</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_roaming">ໂຣມມິງ</string>
+    <string name="accessibility_data_connection_edge">ຂອບ</string>
+    <string name="accessibility_no_sim">ບໍ່ມີ SIM.</string>
+    <string name="accessibility_bluetooth_tether">ການປ່ອຍສັນຍານ Bluetooth.</string>
+    <string name="accessibility_airplane_mode">ໂໝດເຮືອບິນ.</string>
+    <string name="accessibility_settings_button">ການຕັ້ງຄ່າລະບົບ.</string>
+    <string name="accessibility_notifications_button">ການແຈ້ງເຕືອນ.</string>
+    <string name="accessibility_remove_notification">ລຶບລ້າງການແຈ້ງເຕືອນ.</string>
+    <string name="accessibility_gps_enabled">GPS ເປີດແລ້ວ.</string>
+    <string name="accessibility_gps_acquiring">ກຳລັງຊອກຫາ GPS.</string>
+    <string name="accessibility_tty_enabled">TeleTypewriter ຖືກເປີດຢູ່.</string>
+    <string name="accessibility_ringer_vibrate">ສັ່ນເຕືອນພ້ອມສຽງເອີ້ນເຂົ້າ.</string>
+    <string name="accessibility_ringer_silent">ປິດສຽງ.</string>
+    <string name="accessibility_recents_item_will_be_dismissed">ຍົກເລີກ %s.</string>
+    <string name="accessibility_recents_item_dismissed">ລຶບ %s ແລ້ວ.</string>
+    <string name="accessibility_recents_item_launched">ກຳ​ລັງ​ເປີດ %s.</string>
+    <string name="accessibility_notification_dismissed">ປິດການແຈ້ງເຕືອນແລ້ວ.</string>
+    <string name="accessibility_desc_notification_shade">ໜ້າຈໍແຈ້ງເຕືອນ.</string>
+    <string name="accessibility_desc_quick_settings">ການຕັ້ງຄ່າດ່ວນ.</string>
+    <string name="accessibility_desc_lock_screen">ລັອກ​ໜ້າ​ຈໍ.</string>
+    <string name="accessibility_desc_settings">ການ​ຕັ້ງ​ຄ່າ</string>
+    <string name="accessibility_desc_recent_apps">ສະພາບລວມ</string>
+    <string name="accessibility_quick_settings_user">ຜູ້ໃຊ້: %s.</string>
+    <string name="accessibility_quick_settings_wifi">%1$s.</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">ປິດ Wi-Fi.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">ເປີດ Wi-Fi.</string>
+    <string name="accessibility_quick_settings_mobile">ການເຊື່ອມຕໍ່ຂໍ້ມູນມືຖື: %1$s. %2$s. %3$s.</string>
+    <string name="accessibility_quick_settings_battery">ລະດັບແບັດເຕີຣີ: %s.</string>
+    <string name="accessibility_quick_settings_airplane_off">ໂໝດເຮືອບິນປິດຢູ່.</string>
+    <string name="accessibility_quick_settings_airplane_on">ໂໝດເຮືອບິນເປີດຢູ່.</string>
+    <string name="accessibility_quick_settings_airplane_changed_off">ໂໝດເຮືອບິນປິດຢູ່.</string>
+    <string name="accessibility_quick_settings_airplane_changed_on">ເປີດໂໝດເຮືອບິນແລ້ວ.</string>
+    <string name="accessibility_quick_settings_bluetooth_off">Bluetooth ປິດ.</string>
+    <string name="accessibility_quick_settings_bluetooth_on">Bluetooth ເປີດ.</string>
+    <string name="accessibility_quick_settings_bluetooth_connecting">ກຳ​ລັງ​ເຊື່ອມ​ຕໍ່ Bluetooth.</string>
+    <string name="accessibility_quick_settings_bluetooth_connected">ເຊື່ອມຕໍ່ Bluetooth ແລ້ວ.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_off">ປິດ Bluetooth ແລ້ວ.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_on">ເປີດ Bluetooth ແລ້ວ.</string>
+    <string name="accessibility_quick_settings_location_off">​ການ​ລາຍ​ງານ​ສະ​ຖານ​ທີ່​ປິດ.</string>
+    <string name="accessibility_quick_settings_location_on">​ການ​ລາຍ​ງານ​ສະ​ຖານ​ທີ່​ເປີດ.</string>
+    <string name="accessibility_quick_settings_location_changed_off">ປິດ​ການ​ລາຍ​ງານ​ສະ​ຖານ​ທີ່​ແລ້ວ.</string>
+    <string name="accessibility_quick_settings_location_changed_on">ເປີດ​ການ​ລາຍ​ງານ​ສະ​ຖານ​ທີ່​ແລ້ວ.</string>
+    <string name="accessibility_quick_settings_alarm">ໂມງປຸກຖືກຕັ້ງເປັນເວລາ %s ແລ້ວ.</string>
+    <string name="accessibility_quick_settings_close">ປິດ​ແຖບ.</string>
+    <string name="accessibility_quick_settings_more_time">ເວລາເພີ່ມເຕີມ.</string>
+    <string name="accessibility_quick_settings_less_time">ຫຼຸດ​ເວ​ລາ.</string>
+    <string name="accessibility_quick_settings_flashlight_off">ໄຟ​ສາຍ​ປິດ.</string>
+    <string name="accessibility_quick_settings_flashlight_on">ໄຟ​ສາຍ​ເປີດ.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_off">ປິດ​ໄຟ​ສາຍ​ແລ້ວ.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_on">​ເປີດ​ໄຟ​ສາຍ​ແລ້ວ.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_off">ປິດສີທີ່ກົງກັນຂ້າມ.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_on">ເປີດການສະຫຼັບສີ.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_off">ປິດ​ຮັອດ​ສະ​ປອດ​ເຄື່ອນ​ທີ່​ແລ້ວ.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_on">ເປີດ​ຮັອດ​ສະ​ປອດ​ເຄື່ອນ​ທີ່​ແລ້ວ.</string>
+    <string name="accessibility_casting_turned_off">ຢຸດ​ການ​ສົ່ງ​​ພາບ​ໜ້າ​ຈໍ​ແລ້ວ.</string>
+    <string name="accessibility_brightness">ຄວາມແຈ້ງຂອງໜ້າຈໍ</string>
+    <string name="data_usage_disabled_dialog_3g_title">ປິດຂໍ້ມູນ 2G-3G</string>
+    <string name="data_usage_disabled_dialog_4g_title">ປິດຂໍ້ມູນ 4G</string>
+    <string name="data_usage_disabled_dialog_mobile_title">ຂໍ້ມູນມືຖືປິດຢູ່</string>
+    <string name="data_usage_disabled_dialog_title">ປິດຂໍ້ມູນ</string>
+    <string name="data_usage_disabled_dialog">"ອຸປະກອນຂອງທ່ານປິດຂໍ້ມູນແລ້ວ ເພາະວ່າມັນຮອດຂີດຈຳກັດທີ່ທ່ານຕັ້ງໄວ້.
+
+ການເປີດມັນກັບຄືນ ອາດຈະເຮັດໃຫ້ນຳໄປສູ່ການຄິດຄ່າບໍລິການຈາກຜູ້ໃຫ້ການບໍລິການຂອງທ່ານ."</string>
+    <string name="data_usage_disabled_dialog_enable">ເປີດຂໍ້ມູນ</string>
+    <string name="status_bar_settings_signal_meter_disconnected">ບໍ່ມີການເຊື່ອມຕໍ່ອິນເຕີເນັດ</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">ເຊື່ອມຕໍ່ WI-FI ແລ້ວ</string>
+    <string name="gps_notification_searching_text">ກຳລັງຊອກຫາ GPS</string>
+    <string name="gps_notification_found_text">ສະຖານທີ່ກຳນົດໂດຍ GPS</string>
+    <string name="accessibility_location_active">ການຮ້ອງຂໍສະຖານທີ່ທີ່ເຮັດວຽກຢູ່</string>
+    <string name="accessibility_clear_all">ລຶບການແຈ້ງເຕືອນທັງໝົດ.</string>
+    <string name="status_bar_notification_inspect_item_title">​ການ​ຕັ້ງ​ຄ່າ​ການ​ແຈ້ງ​ເຕືອນ</string>
+    <string name="status_bar_notification_app_settings_title">ການ​ຕັ້ງ​ຄ່າ %s</string>
+    <string name="accessibility_rotation_lock_off">ໜ້າຈໍຈະໝຸນໂດຍອັດຕະໂນມັດ.</string>
+    <string name="accessibility_rotation_lock_on_landscape">ໜ້າຈໍຖືກລັອກໃນລວງນອນ.</string>
+    <string name="accessibility_rotation_lock_on_portrait">ໜ້າຈໍຖືກລັອກຢູ່ໃນໂໝດແນວຕັ້ງ.</string>
+    <string name="accessibility_rotation_lock_off_changed">​ໜ້າ​ຈໍ​ຈະ​​ໝຸນ​ອັດ​ຕະ​ໂນ​ມັດ.</string>
+    <string name="accessibility_rotation_lock_on_landscape_changed">ໜ້າ​ຈໍ​ຕອນ​ນີ້​ຖືກ​ລັອກ​ໄວ້​ໃນ​ລວງ​ນອນ.</string>
+    <string name="accessibility_rotation_lock_on_portrait_changed">ໜ້າ​ຈໍ​ຕອນ​ນີ້​ຖືກ​ລັອກ​ໄວ້​ໃນ​ລວງ​ຕັ້ງ.</string>
+    <string name="dessert_case">ກ່ອງຂອງຫວານ</string>
+    <string name="start_dreams">Daydream</string>
+    <string name="ethernet_label">ອີ​ເທ​ເນັດ</string>
+    <string name="quick_settings_airplane_mode_label">ໂໝດເຮືອບິນ</string>
+    <string name="quick_settings_bluetooth_label">ບລູທູດ</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d ອຸປະກອນ)</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth ປິດ</string>
+    <string name="quick_settings_bluetooth_detail_empty_text">ບໍ່​ມີ​ອຸ​ປະ​ກອນ​ທີ່​ສາ​ມາດ​ຈັບ​ຄູ່​ໄດ້</string>
+    <string name="quick_settings_brightness_label">ລະດັບ​ຄວາມແຈ້ງ</string>
+    <string name="quick_settings_rotation_unlocked_label">ໝຸນ​ອັດ​ຕະ​ໂນ​ມັດ</string>
+    <string name="quick_settings_rotation_locked_label">​ລັອກ​ການ​ໝຸນ​ຈ​ໍ​ແລ້ວ</string>
+    <string name="quick_settings_rotation_locked_portrait_label">ລວງຕັ້ງ</string>
+    <string name="quick_settings_rotation_locked_landscape_label">ລວງນອນ</string>
+    <string name="quick_settings_ime_label">ວິທີການປ້ອນຂໍ້ມູນ</string>
+    <string name="quick_settings_location_label">ຂໍ້ມູນຈຸດທີ່ຕັ້ງ</string>
+    <string name="quick_settings_location_off_label">ຂໍ້ມູນສະຖານທີ່: ປິດຢູ່</string>
+    <string name="quick_settings_media_device_label">ອຸປະກອນສື່</string>
+    <string name="quick_settings_rssi_emergency_only">ການ​ໂທ​ສຸກ​ເສີນ​ເທົ່າ​ນັ້ນ</string>
+    <string name="quick_settings_settings_label">ການ​ຕັ້ງ​ຄ່າ</string>
+    <string name="quick_settings_time_label">ເວລາ</string>
+    <string name="quick_settings_user_label">ຂ້ອຍ</string>
+    <string name="quick_settings_user_title">ຜູ້ໃຊ້</string>
+    <string name="quick_settings_user_new_user">ຜູ້ໃຊ້ໃໝ່</string>
+    <string name="quick_settings_wifi_not_connected">ບໍ່ໄດ້ເຊື່ອມຕໍ່</string>
+    <string name="quick_settings_wifi_no_network">ບໍ່ມີເຄືອຂ່າຍ</string>
+    <string name="quick_settings_wifi_off_label">Wi-Fi Off</string>
+    <string name="quick_settings_wifi_detail_empty_text">ບໍ່ມີການບັນທຶກເຄືອຂ່າຍ</string>
+    <string name="quick_settings_cast_title">ໜ້າຈໍຄາສທ໌</string>
+    <string name="quick_settings_casting">​ກຳ​ລັງ​ສົ່ງ​ສັນ​ຍານ</string>
+    <string name="quick_settings_cast_device_default_name">​ອຸ​ປະ​ກອນບໍ່​ມີ​ຊື່</string>
+    <string name="quick_settings_cast_device_default_description">​ພ້ອ​ມ​ສົ່ງ​ສັນ​ຍານ​ແລ້ວ</string>
+    <string name="quick_settings_cast_detail_empty_text">​ບໍ່​ມີ​ອຸ​ປະ​ກອນ​ທີ່​ສາ​ມາດ​ໃຊ້​ໄດ້</string>
+    <string name="quick_settings_brightness_dialog_title">ລະດັບ​ຄວາມແຈ້ງ</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">ອັດຕະໂນມັດ</string>
+    <string name="quick_settings_inversion_label">​ສະ​ລັບ​ສີ</string>
+    <string name="quick_settings_color_space_label">ໂໝດການແກ້ໄຂສີ</string>
+    <string name="quick_settings_more_settings">​ການ​ຕັ້ງ​ຄ່າ​ເພີ່ມ​ເຕີມ</string>
+    <string name="quick_settings_done">ສຳເລັດແລ້ວ</string>
+    <string name="quick_settings_connected">ເຊື່ອມຕໍ່ແລ້ວ</string>
+    <string name="quick_settings_connected_via_wfa">ເຊື່ອມຕໍ່ແລ້ວ (ຜ່ານຕົວຊ່ວຍ Wi-Fi)</string>
+    <string name="quick_settings_connecting">ກຳລັງເຊື່ອມຕໍ່...</string>
+    <string name="quick_settings_tethering_label">ການປ່ອຍສັນຍານ</string>
+    <string name="quick_settings_hotspot_label">​ຮັອດ​ສະ​ປອດ</string>
+    <string name="quick_settings_notifications_label">ການແຈ້ງເຕືອນ</string>
+    <string name="quick_settings_flashlight_label">​ໄຟ​ສາຍ</string>
+    <string name="quick_settings_cellular_detail_title">ຂໍ້ມູນມືຖື</string>
+    <string name="quick_settings_cellular_detail_data_usage">ການນຳໃຊ້ຂໍ້ມູນ</string>
+    <string name="quick_settings_cellular_detail_remaining_data">​ຂໍ້​ມູນ​ທີ່​ຍັງ​ເຫຼືອ</string>
+    <string name="quick_settings_cellular_detail_over_limit">ເກີນຂີດຈຳກັດສ່ວນເທິງແລ້ວ</string>
+    <string name="quick_settings_cellular_detail_data_used">ໃຊ້​ໄປ​ແລ້ວ %s</string>
+    <string name="quick_settings_cellular_detail_data_limit">ຈຳ​ກັດ %s</string>
+    <string name="quick_settings_cellular_detail_data_warning">ຄຳ​ເຕືອນ %s</string>
+    <string name="recents_empty_message">ໜ້າຈໍຫຼ້າສຸດຂອງທ່ານປະກົດຂຶ້ນທີ່ນີ້</string>
+    <string name="recents_app_info_button_label">ຂໍ້ມູນແອັບ</string>
+    <string name="recents_lock_to_app_button_label">ລັອກໄປທີ່ແອັບ</string>
+    <string name="recents_search_bar_label">ຊອກຫາ</string>
+    <string name="recents_launch_error_message">ບໍ່​ສາ​ມາດ​ເລີ່ມ %s ໄດ້.</string>
+    <string name="expanded_header_battery_charged">ສາກເຕັມແລ້ວ</string>
+    <string name="expanded_header_battery_charging">ກຳລັງສາກໄຟ</string>
+    <string name="expanded_header_battery_charging_with_time">%s ຈົນກວ່າຈະເຕັມ</string>
+    <string name="expanded_header_battery_not_charging">ບໍ່ໄດ້ສາກໄຟ</string>
+    <string name="ssl_ca_cert_warning">"ເຄືອຄ່າຍອາດ
+ຖືກຕິດຕາມ"</string>
+    <string name="description_target_search">ຊອກຫາ</string>
+    <string name="description_direction_up">ເລື່ອນຂຶ້ນເພື່ອ %s.</string>
+    <string name="description_direction_left">ເລື່ອນໄປທາງຊ້າຍເພື່ອ %s.</string>
+    <string name="zen_no_interruptions_with_warning">ບໍ່ມີການຂັດຂວາງ. ບໍ່ມີລະບຽບສຽງສັນຍານ.</string>
+    <string name="zen_no_interruptions">ຫ້າມລົບກວນ</string>
+    <string name="zen_important_interruptions">ການ​ລົບ​ກວນ​ບຸ​ລິ​ມະ​ສິດ​ເທົ່າ​ນັ້ນ</string>
+    <string name="zen_alarm_information_time">ໂມງປຸກຕໍ່ໄປຂອງທ່ານແມ່ນເວລາ %s</string>
+    <string name="zen_alarm_information_day_time">ໂມງປຸກຕໍ່ໄປຂອງທ່ານແມ່ນ %s</string>
+    <string name="zen_alarm_warning">ທ່ານຈະບໍ່ໄດ້ຍິນໂມງປຸກຂອງທ່ານ %s</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
+    <string name="speed_bump_explanation">ການ​ແຈ້ງເຕືອນ​ທີ່​ສຳຄັນ​ໜ້ອຍ​ກວ່າ​ຢູ່​ດ້ານ​ລຸ່ມ</string>
+    <string name="notification_tap_again">​ແຕະ​ອີກ​ເທື່ອ​ນຶ່ງ​ເພື່ອ​ເປີດ</string>
+    <string name="keyguard_unlock">ເລື່ອນ​ຂຶ້ນ​ເພື່ອ​ປົດ​ລັອກ</string>
+    <string name="phone_hint">ຮູດໄປທາງຂວາ ສຳລັບໂທລະສັບ</string>
+    <string name="camera_hint">ຮູດໄປທາງຊ້າຍເພື່ອໃຊ້ກ້ອງຖ່າຍຮູບ</string>
+    <string name="interruption_level_none">ບໍ່ມີ</string>
+    <string name="interruption_level_priority">ສຳຄັນສູງສຸດ</string>
+    <string name="interruption_level_all">ທັງໝົດ</string>
+    <string name="keyguard_indication_charging_time">ກຳ​ລັງ​ສາກ​ໄຟ (%s ກວ່າ​ຈ​ະ​ເຕັມ)</string>
+    <string name="accessibility_multi_user_switch_switcher">ສະ​ລັບ​ຜູ້ໃຊ້</string>
+    <string name="accessibility_multi_user_switch_switcher_with_current">ປ່ຽນຜູ້ໃຊ້, ຜູ່ໃຊ້ປະຈຸບັນ %s</string>
+    <string name="accessibility_multi_user_switch_quick_contact">​ສະ​ແດງ​ໂປຣ​ໄຟລ໌</string>
+    <string name="user_add_user">ເພີ່ມຜູ້ໃຊ້</string>
+    <string name="user_new_user_name">ຜູ້ໃຊ້ໃໝ່</string>
+    <string name="guest_nickname">ແຂກ</string>
+    <string name="guest_new_guest">ເພີ່ມແຂກ</string>
+    <string name="guest_exit_guest">​ລຶບ​ແຂກ</string>
+    <string name="guest_exit_guest_dialog_title">ລຶບ​ແຂກບໍ?</string>
+    <string name="guest_exit_guest_dialog_message">​ແອັບ​ແລະ​ຂໍ້​ມູນ​ທັງ​ໝົດ​ໃນ​ເຊດ​ຊັນ​ນີ້​ຈະ​ຖືກ​ລຶບ​ອອກ.</string>
+    <string name="guest_exit_guest_dialog_remove">ເອົາອອກ</string>
+    <string name="guest_wipe_session_title">ຍິນ​ດີ​ຕ້ອນ​ຮັບ​ກັບ​ມາ, ຜູ້ຢ້ຽມ​ຢາມ!</string>
+    <string name="guest_wipe_session_message">ທ່ານ​ຕ້ອງ​ການ​ສືບ​ຕໍ່​ເຊດ​ຊັນ​ຂອງ​ທ່ານບໍ່?</string>
+    <string name="guest_wipe_session_wipe">ປິດເປີດໃໝ່</string>
+    <string name="guest_wipe_session_dontwipe">​ຕົກ​ລົງ, ດຳ​ເນີນ​ການ​ຕໍ່</string>
+    <string name="user_add_user_title">ເພີ່ມ​ຜູ້ໃຊ້​ໃໝ່​ບໍ?</string>
+    <string name="user_add_user_message_short">"ເມື່ອ​ທ່ານ​ເພີ່ມ​ຜູ້​ໃຊ້​ໃໝ່, ຜູ່​ໃຊ້​ນັ້ນ​ຈະ​ຕ້ອງ​ຕັ້ງ​ຄ່າ​ພື້ນ​ທີ່​ບ່ອນ​ຈັດ​ເກັບ​ຂໍ້​ມູນ​ຂອງ​ລາວ.
+
+ຜູ່​ໃຊ້​ທຸກ​ຄົນ​ສາ​ມາດ​ອັບ​ເດດ​ແອັບ​ຂອງ​ຜູ້​ໃຊ້​ຄົນ​ອື່ນ​ທັງ​ໝົດ​ໄດ້."</string>
+    <string name="battery_saver_notification_title">ເປີດ​ໃຊ້​ໂຕ​ປະຢັດ​ແບັດເຕີຣີ​ແລ້ວ</string>
+    <string name="battery_saver_notification_text">ຫຼຸດ​ປະ​ສິ​ທິ​ພາບ​ແລະ​ການ​ນຳ​ໃຊ້​ຂໍ້​ມູນ​ພື້ນຫຼັງ</string>
+    <string name="battery_saver_notification_action_text">ປິດ​ໂຕ​ປະ​ຢັດ​ແບັດ​ເຕີ​ຣີ</string>
+    <string name="notification_hidden_text">ເນື້ອຫາ​ຖືກ​ເຊື່ອງ​ໄວ້</string>
+    <string name="media_projection_dialog_text">%s ​ຈະ​ເລີ່ມ​ບັນ​ທຶກ​ທຸກ​ຢ່າງ​ທີ່​ສະ​ແດງ​ຜົນ​ໃນ​ໜ້າ​ຈໍ​ທ່ານ.</string>
+    <string name="media_projection_remember_text">ບໍ່ຕ້ອງສະແດງອີກ</string>
+    <string name="clear_all_notifications_text">ລຶບທັງໝົດ</string>
+    <string name="media_projection_action_text">ເລີ່ມທັນທີ</string>
+    <string name="empty_shade_text">ບໍ່ມີການແຈ້ງເຕືອນ</string>
+    <string name="device_owned_footer">ອຸ​ປະ​ກອນ​ອາດ​ມີ​ການ​ເຝົ້າ​ຕິດ​ຕາມ</string>
+    <string name="profile_owned_footer">ໂປຣ​ໄຟລ໌​ອາດ​ຖືກ​ເຝົ້າ​ຕິດ​ຕາມ​ຢູ່</string>
+    <string name="vpn_footer">ການນຳໃຊ້ເຄືອຂ່າຍອາດມີການກວດສອບຕິດຕາມ</string>
+    <string name="monitoring_title_device_owned">ການກວດ​ສອບ​ຕິດ​ຕາມ​ອຸ​ປະ​ກອນ</string>
+    <string name="monitoring_title_profile_owned">ການ​ຕິດ​ຕາມ​ໂປຣ​ໄຟລ໌</string>
+    <string name="monitoring_title">ການກວດສອບຕິດຕາມເຄືອຂ່າຍ</string>
+    <string name="disable_vpn">ປິດ​ການ​ໃຊ້ VPN</string>
+    <string name="disconnect_vpn">ຕັດ​ການ​ເຊື່ອມ​ຕໍ່ VPN</string>
+    <string name="monitoring_description_device_owned">"ອຸປະກອນນີ້ຖືກຈັດການໂດຍ:
+%1$s
+
+ຜູ້ດູແລລະບົບຂອງທ່ານສາມາດຕິດຕາມການເຄື່ອນໄຫວອຸປະກອນຂອງທ່ານ ແລະ ກິດຈະກຳເຄືອຂ່າຍ, ລວມທັງ ອີເມລ໌, ແອັບ ແລະ ເວັບໄຊທ໌ທີ່ປອດໄພ.
+
+ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ, ກະລຸນາຕິດຕໍ່ຜູ້ດູແລລະບົບຂອງທ່ານ."</string>
+    <string name="monitoring_description_vpn">"ທ່ານໃຫ້ \"%1$s\" ໃບອະນຸຍາດເພື່ອຕັ້ງການເຊື່ອມຕໍ່ VPN.
+
+ແອັບນີ້ສາມາດຕິດຕາມການເຄື່ອນໄຫວອຸປະກອນຂອງທ່ານ ແລະ ກິດຈະກຳເຄືອຂ່າຍ, ລວມທັງ ອີເມລ໌, ແອັບ ແລະ ເວັບໄຊທ໌ທີ່ປອດໄພ."</string>
+    <string name="monitoring_description_legacy_vpn">"ທ່ານໄດ້ເຊື່ອມຕໍ່ແລ້ວກັບ VPN (\"%1$s\").
+
+ຜູ້ໃຫ້ບໍລິການ VPN ຂອງທ່ານສາມາດຕິດຕາມການເຄື່ອນໄຫວອຸປະກອນຂອງທ່ານ ແລະ ກິດຈະກຳເຄືອຂ່າຍ ລວມທັງ ອີເມລ໌, ແອັບ ແລະເວັບໄຊທ໌ທີ່ປອດໄພ."</string>
+    <string name="monitoring_description_vpn_device_owned">"ອຸປະກອນນີ້ຖືກຈັດການໂດຍ:
+%1$s
+
+ຜູ້ດູແລລະບົບຂອງທ່ານສາມາດຕິດຕາມການເຄື່ອນໄຫວອຸປະກອນຂອງທ່ານ ແລະ ກິດຈະກຳເຄືອຂ່າຍ ລວມທັງ ອີເມລ໌, ແອັບ ແລະ ເວັບໄຊທ໌ທີ່ປອດໄພ. ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ, ກະລຸນາຕິດຕໍ່ຜູ້ດູແລລະບົບຂອງທ່ານ.
+
+ນອກຈາກນີ້, ທ່ານຍັງໃຫ້ \"%2$s\" ໃບອະນຸຍາດ ເພື່ອຕັ້ງການເຊື່ອມຕໍ່ VPN. ແອັບນີ້ສາມາດຕິດຕາມກິດຈະກຳເຄືອຂ່າຍ ເຊັ່ນກັນ."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"ອຸປະກອນນີ້ຖືກຈັດການໂດຍ:
+%1$s
+
+ຜູ້ດູແລລະບົບຂອງທ່ານສາມາດຕິດຕາມການເຄື່ອນໄຫວອຸປະກອນຂອງທ່ານ ແລະ ກິດຈະກຳເຄືອຂ່າຍ ລວມທັງ ອີເມລ໌, ແອັບ ແລະ ເວັບໄຊທ໌ທີ່ປອດໄພ. ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ, ກະລຸນາຕິດຕໍ່ຜູ້ດູແລລະບົບຂອງທ່ານ.
+
+ນອກຈາກນີ້, ທ່ານໄດ້ເຊື່ອມຕໍ່ແລ້ວກັບ VPN (\"%2$s\"). ຜູ້ໃຫ້ບໍລິການ VPN ຂອງທ່ານສາມາດຕິດຕາມການເຄື່ອນໄຫວກິດຈະກຳເຄືອຂ່າຍໄດ້ເຊັ່ນກັນ."</string>
+    <string name="monitoring_description_profile_owned">"ໂປຣໄຟລ໌ນີ້ຖືກຈັດການໂດຍ:
+%1$s
+
+ຜູ້ດູແລລະບົບຂອງທ່ານສາມາດຕິດຕາມການເຄື່ອນໄຫວອຸປະກອນຂອງທ່ານ ແລະ ກິດຈະກຳເຄືອຂ່າຍ, ລວມທັງ ອີເມລ໌, ແອັບ ແລະ ເວັບໄຊທ໌ທີ່ປອດໄພ.
+
+ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ, ກະລຸນາຕິດຕໍ່ຜູ້ດູແລລະບົບຂອງທ່ານ."</string>
+    <string name="monitoring_description_device_and_profile_owned">"ອຸປະກອນນີ້ຖືກຈັດການໂດຍ:
+%1$s
+ໂປຣໄຟລ໌ຂອງທ່ານຖືກຈັດການໂດຍ:
+%2$s
+
+ຜູ້ດູແລລະບົບຂອງທ່ານສາມາດຕິດຕາມການເຄື່ອນໄຫວອຸປະກອນຂອງທ່ານ ແລະ ກິດຈະກຳເຄືອຂ່າຍ, ລວມທັງ ອີເມລ໌, ແອັບ ແລະ ເວັບໄຊທ໌ທີ່ປອດໄພ.
+
+ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ, ກະລຸນາຕິດຕໍ່ຜູ້ດູແລລະບົບຂອງທ່ານ."</string>
+    <string name="monitoring_description_vpn_profile_owned">"ໂປຣໄຟລ໌ນີ້ຖືກຈັດການໂດຍ:
+%1$s
+
+ຜູ້ດູແລລະບົບຂອງທ່ານສາມາດຕິດຕາມການເຄື່ອນໄຫວອຸປະກອນຂອງທ່ານ ແລະ ກິດຈະກຳເຄືອຂ່າຍ ລວມທັງ ອີເມລ໌, ແອັບ ແລະ ເວັບໄຊທ໌ທີ່ປອດໄພ. ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ, ກະລຸນາຕິດຕໍ່ຜູ້ດູແລລະບົບຂອງທ່ານ.
+
+ນອກຈາກນີ້, ທ່ານຍັງໃຫ້ \"%2$s\" ໃບອະນຸຍາດ ເພື່ອຕັ້ງການເຊື່ອມຕໍ່ VPN. ແອັບນີ້ສາມາດຕິດຕາມກິດຈະກຳເຄືອຂ່າຍ ເຊັ່ນກັນ."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"ໂປຣໄຟລ໌ນີ້ຖືກຈັດການໂດຍ:
+%1$s
+
+ຜູ້ດູແລລະບົບຂອງທ່ານສາມາດຕິດຕາມການເຄື່ອນໄຫວອຸປະກອນຂອງທ່ານ ແລະ ກິດຈະກຳເຄືອຂ່າຍ ລວມທັງ ອີເມລ໌, ແອັບ ແລະ ເວັບໄຊທ໌ທີ່ປອດໄພ. ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ, ກະລຸນາຕິດຕໍ່ຜູ້ດູແລລະບົບຂອງທ່ານ.
+
+ນອກຈາກນີ້, ທ່ານໄດ້ເຊື່ອມຕໍ່ແລ້ວກັບ VPN (\"%2$s\"). ຜູ້ໃຫ້ບໍລິການ VPN ຂອງທ່ານສາມາດຕິດຕາມການເຄື່ອນໄຫວກິດຈະກຳເຄືອຂ່າຍໄດ້ເຊັ່ນກັນ."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"ອຸປະກອນນີ້ຖືກຈັດການໂດຍ:
+%1$s
+ໂປຣໄຟລ໌ຂອງທ່ານຖືກຈັດການໂດຍ:
+%2$s
+
+ຜູ້ດູແລລະບົບຂອງທ່ານສາມາດຕິດຕາມການເຄື່ອນໄຫວອຸປະກອນຂອງທ່ານ ແລະ ກິດຈະກຳເຄືອຂ່າຍ ລວມທັງ ອີເມລ໌, ແອັບ ແລະ ເວັບໄຊທ໌ທີ່ປອດໄພ. ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ, ກະລຸນາຕິດຕໍ່ຜູ້ດູແລລະບົບຂອງທ່ານ.
+
+ນອກຈາກນີ້, ທ່ານຍັງໃຫ້ \"%3$s\" ໃບອະນຸຍາດ ເພື່ອຕັ້ງການເຊື່ອມຕໍ່ VPN. ແອັບນີ້ສາມາດຕິດຕາມກິດຈະກຳເຄືອຂ່າຍ ເຊັ່ນກັນ."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"ອຸປະກອນນີ້ຖືກຈັດການໂດຍ:
+%1$s
+ໂປຣໄຟລ໌ຂອງທ່ານຖືກຈັດການໂດຍ:
+%2$s
+
+ຜູ້ດູແລລະບົບຂອງທ່ານສາມາດຕິດຕາມການເຄື່ອນໄຫວອຸປະກອນຂອງທ່ານ ແລະ ກິດຈະກຳເຄືອຂ່າຍ ລວມທັງ ອີເມລ໌, ແອັບ ແລະ ເວັບໄຊທ໌ທີ່ປອດໄພ. ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ, ກະລຸນາຕິດຕໍ່ຜູ້ດູແລລະບົບຂອງທ່ານ.
+
+ນອກຈາກນີ້, ທ່ານໄດ້ເຊື່ອມຕໍ່ແລ້ວກັບ VPN (\"%3$s\"). ຜູ້ໃຫ້ບໍລິການ VPN ຂອງທ່ານສາມາດຕິດຕາມການເຄື່ອນໄຫວກິດຈະກຳເຄືອຂ່າຍໄດ້ເຊັ່ນກັນ."</string>
+    <string name="keyguard_indication_trust_disabled">ອຸປະກອນຈະຍັງຄົງຖືກລັອກຢູ່ ຈົນກວ່າທ່ານຈະປົດລັອກດ້ວຍຕົນເອງ</string>
+    <string name="hidden_notifications_title">ຮັບເອົາການ​ແຈ້ງເຕືອນ​ໄວຂຶ້ນ</string>
+    <string name="hidden_notifications_text">ເບິ່ງພວກ​ມັນກ່ອນ​ທ່ານຈະ​ປົດລັອກ</string>
+    <string name="hidden_notifications_cancel">ບໍ່ ຂອບໃຈ</string>
+    <string name="hidden_notifications_setup">ການ​ຕັ້ງ​ຄ່າ</string>
+    <string name="zen_mode_and_condition">%1$s. %2$s</string>
+    <string name="screen_pinning_title">ປັກ​ໝຸດໜ້າ​ຈໍ​ແລ້ວ</string>
+    <string name="screen_pinning_description">ມັນຈະສະແດງໜ້າຈໍນີ້ຢ່າງເປັນປົກກະຕິ ຈົນກວ່າທ່ານຍົກເລີກມັນ. ສຳຜັດແລະແຕະ ກັບຄືນ ແລະ ພາບລວມ ເພື່ອຍົກເລີກ.</string>
+    <string name="screen_pinning_description_accessible">ມັນຈະສະແດງໜ້າຈໍນີ້ຢ່າງເປັນປົກກະຕິ ຈົນກວ່າທ່ານຍົກເລີກມັນ. ສຳຜັດແລະແຕະ ພາບລວມ ເພື່ອຍົກເລີກ.</string>
+    <string name="screen_pinning_positive">ຕົກລົງ</string>
+    <string name="screen_pinning_negative">ບໍ່ ຂອບໃຈ</string>
+    <string name="quick_settings_reset_confirmation_title">ເຊື່ອງ \"%1$s\" ບໍ?</string>
+    <string name="quick_settings_reset_confirmation_message">ລາຍການການຕັ້ງຄ່າດ່ວນນີ້ຈະປະກົດຂຶ້ນອີກໃນຄັ້ງຕໍ່ໄປທີ່ທ່ານເປີດໃຊ້ງານມັນໃນການຕັ້ງຄ່າ.</string>
+    <string name="quick_settings_reset_confirmation_button">ເຊື່ອງ</string>
+    <string name="clearDefaultHintMsg">ລຶບລ້າງຄ່າເລີ່ມຕົ້ນ ໃນ ການຕັ້ງຄ່າລະບົບ > ແອັບ > ດາວໂຫລດແລ້ວ.</string>
+    <string name="vivo_statusbar_type">ແຖບສະຖານະ</string>
+    <string name="vivo_keyguard_no_sim">ບໍ່ມີ SIM</string>
+    <string name="vivo_keyguard_charging">%d%% ສາກແລ້ວ</string>
+    <string name="vivo_keyguard_charging_complete">ສາກເຕັມແລ້ວ</string>
+    <string name="vivo_keyguard_holster_unlock_text">​ສະ​ໄລດ໌​ເພື່ອປົດລັອກ</string>
+    <string name="vivo_keyguard_holster_unlock_text_r">ເລື່ອນໄປທາງເບື້ອງຂວາໃນພື້ນທີ່ຮູບແບບເພື່ອປົດລັອກ</string>
+    <string name="vivo_keyguard_ripple_unlock_text">ເລື່ອນໄປບ່ອນໃດກໍ່ໄດ້ ເພື່ອປົດລັອກ</string>
+    <string name="default_head_portrait_name">ຊື່ຫຼິ້ນ</string>
+    <string name="click_tip">ການປັດລົງສາມາດເຮັດໃຫ້ໜ້າຈໍນ້ອຍລົງ</string>
+    <string name="lockscreen_icon_set">ແກ້ໄຂ</string>
+    <string name="back">ຍົກເລີກ</string>
+    <string name="save">ບັນທຶກ</string>
+    <string name="name">ຊື່ຫຼິ້ນ</string>
+    <string name="name_hint">ຊື່ຫຼິ້ນ</string>
+    <string name="head_icon">ອະວາຕາ</string>
+    <string name="edit_icon_title">ແກ້ໄຂຮູບ</string>
+    <string name="choose_from_photo_album">ເລືອກຮູບພາບຈາກອາລະບຳ</string>
+    <string name="choose_from_take_photo">ຖ່າຍຮູບ</string>
+    <string name="saving">ກຳລັງ​ບັນທຶກ...</string>
+    <string name="text_signature">ລາຍເຊັນສ່ວນຕົວ</string>
+    <string name="text_signature_hint">ອາລົມ</string>
+    <string name="font_name">ແບບຕົວໜັງສື</string>
+    <string name="color_name">ສີ</string>
+    <string name="font_default">ຄ່າມາດຕະຖານຂອງລະບົບ</string>
+    <string name="font_classic">ແບບຕົວໜັງສືແບບຄຣາສິກ</string>
+    <string name="font_fzm">ຟາວເດີເມວ</string>
+    <string name="font_fzltblack">ແລນຕິງ ການເຮ</string>
+    <string name="font_hwbold">STHeiti</string>
+    <string name="reach_length_limit">ຈຳນວນສູງສຸດຂອງ 2 ສາຍສາມາດຖືກສະແດງ. ຮອດຂີດຈຳກັດການປ້ອນຂໍ້ມູນແລ້ວ.</string>
+    <string name="reach_length_limit_cant_save">ລາຍເຊັນສ່ວນບຸກຄົນໄດ້ເກີນຂີດຈຳກັດທີ່ສະແດງ 2 ສາຍ. ກະລຸນາແກ້ໄຂ.</string>
+    <string name="name_input_limitation_info">ປະເພດການປ້ອນຂໍ້ມູນທີ່ຖືກຮອງຮັບລວມມີຕົວອັກສອນ, ຕົວເລກ ແລະຕົວອັກສອນພາສາຈີນເທົ່ານັ້ນ. ກະລຸນາປ້ອນຂໍ້ມູນອີກຄັ້ງ!</string>
+    <string name="vivo_keyguard_nature2_guide">ຮູບລົງເພື່ອສັບປ່ຽນ</string>
+    <string name="song_name">ຊື່ເພງ</string>
+    <string name="unknown_artist_name">ສິລະປິນທີ່ບໍ່ຮູ້</string>
+    <string name="unknown_album_name">ອາລະບໍ້າທີ່ບໍ່ຮູ້</string>
+    <string name="artist_name">ຊື່ສິລະປິນ</string>
+    <string name="album">ຊື່ອາລະບໍ້າ</string>
+    <string name="sdcard_busy_title">ບໍ່ມີຢູ່ໃນໂໝດບ່ອນເກັບຂໍ້ມູນ</string>
+    <string name="widget_artist">ນັກຮ້ອງ:</string>
+    <string name="widget_album">ອາລະບໍາ:</string>
+    <string name="no_lyric_textview">ບໍ່ມີເນື້ອເພງ</string>
+    <string name="signature_font">ແບບຕົວໜັງສືລາຍເຊັນ</string>
+    <string name="shortcut">ແອັບພລິເຄຊັນທີ່ເປີດໃຊ້ດ່ວນ</string>
+    <string name="shortcut_left">ແອັບທີ່ເປີດໃຊ້ໄວເບື້ອງຊ້າຍ</string>
+    <string name="shortcut_right">ແອັບທີ່ເປີດໃຊ້ໄວເບື້ອງຂວາ</string>
+    <string name="shortcut_none">ບໍ່ມີ</string>
+    <string name="shortcut_wait_load">ກຳລັງໂຫລດ...</string>
+    <string name="slide_to_start">ເລື່ອນຂຶ້ນເພື່ອເລີ່ມຕົ້ນ</string>
+    <string name="vivo_keyguard_quick_charging">ການສາກດ່ວນດ້ວຍເຄື່ອງສາກຄູ່ %d%%</string>
+    <string name="vivo_keyguard_radio_fav_toast_text">ມັນບໍ່ສາມາດຖືກຈັດເກັບໄດ້ຈົນກວ່າທ່ານເຂົ້າສູ່ລະບົບ</string>
+    <string name="vivo_keyguard_iconset_gif_too_large">ຮູບພາບໃຫຍ່ເກີນໄປ</string>
+    <string name="vivo_keyguard_iconset_gif_type_error">ຮູບພາບເສຍແລ້ວ</string>
+    <string name="font_hwfine">ແບບຕົວໜັງສືແບບຄຣາສິກ</string>
+    <string name="vivo_notification_tap_again">ຄຣິກສອງຄັ້ງ ເພື່ອເປີດ</string>
+    <string name="vivo_calendar_title_has">ເຫດການຫຼ້າສຸດ</string>
+    <string name="vivo_calendar_title_has_not">ບໍ່ມີເຫດການຫຼ້າສຸດ</string>
+    <string name="vivo_notification_title_has">ການແຈ້ງເຕືອນ</string>
+    <string name="vivo_notification_title_has_not">ບໍ່ມີການແຈ້ງເຕືອນ</string>
+    <string name="vivo_ongoing_title_has">ດຳເນີນຢູ່</string>
+    <string name="vivo_block_cancel">ປົດບລັອກ</string>
+    <string name="vivo_block">ບລັອກ</string>
+    <string name="vivo_clear">ລຶບ</string>
+    <string name="vivo_manage">ຈັດການ</string>
+    <string name="vivo_block_app_tip">ການແຈ້ງເຕືອນ %s ທີ່ບລັອກໄວ້</string>
+    <string name="vivo_notification_block_activity_title">ສະເໜີການແຈ້ງເຕືອນ</string>
+    <string name="vivo_manage_notification">ຈັດການເລື່ອງການແຈ້ງເຕືອນ</string>
+    <string name="vivo_hood_phone_jump">ແຕະກັບຄືນທີ່ຈຸດການໂທ</string>
+    <string name="vivo_hood_recorder_jump">ແຕະເພື່ອກັບຄືນໄປຫາຈຸດເຊື່ອມຕໍ່ການບັນທຶກ</string>
+    <string name="vivo_hood_phone_hold">ກໍາລັງຈັບ</string>
+    <string name="vivo_hood_phone_dialing">ການໂທ</string>
+    <string name="vivo_hood_phone_alerting">ສຽງກໍາລັງດັງ</string>
+    <string name="vivo_status_bar_setting_title">ແຖບສະຖານະ ແລະການແຈ້ງເຕືອນ</string>
+    <string name="vivo_sheid_manager_activity_loading">ກຳລັງໂຫຼດ...</string>
+    <string name="vivo_notification_type">ການແຈ້ງເຕືອນ</string>
+    <string name="vivo_network_speed_switch">ສະແດງຄວາມໄວເຄືອຂ່າຍ</string>
+    <string name="vivo_power_percent_switch">ສະແດງເປີເຊັນແບັດເຕີຣີ</string>
+    <string name="vivo_schedule_switch">ສະແດງເຫດການ</string>
+    <string name="vivo_netweork_flow_switch">ສະແດງການນຳໃຊ້ຂໍ້ມູນ</string>
+    <string name="vivo_top_notification_type">ຮູບແບບຕົວຢ່າງຍອດນິຍົມ</string>
+    <string name="vivo_notification_manage_entry">ຈັດການເລື່ອງການແຈ້ງເຕືອນ</string>
+    <string name="vivo_notification_screen_on">ເປີດໄຟໜ້າຈໍ ໃນຂະນະຮັບການແຈ້ງເຕືອນ</string>
+    <string name="vivo_label_notification_on">ແຖບການແຈ້ງເຕືອນ</string>
+    <string name="vivo_label_keygard_notification_on">ໜ້າຈໍລັອກ</string>
+    <string name="vivo_label_desktop_notification_on">ໝາຍໄວ້</string>
+    <string name="vivo_notification_screen_on_tip">ຄວບຄຸມວ່າ ໄຟໜ້າຈໍທີ່ຖືກລັອກຮຸ້ງຂຶ້ນຫຼືບໍ່ ເມື່ອການແຈ້ງເຕືອນເຂົ້າມາ(ຍົກເວັ້ນສຳລັບການແຈ້ງເຕືອນຈາກແອັບພາຍໃນເຄື່ອງ ແລະແອັບບຸກຄົນທີສາມ)</string>
+    <string name="vivo_status_bar_no_notification_shield_tip">ຖ້າບໍ່ຕ້ອງການແຈ້ງເຕືອນສາມາດບລັອກໄດ້ເລີຍ.</string>
+    <string name="vivo_notification_to_show_item">ແອັບທີ່ອະນຸຍາດໃຫ້ມີການແຈ້ງເຕືອນ</string>
+    <string name="vivo_notification_not_to_show_item">ແອັບທີ່ບໍ່ອະນຸຍາດການແຈ້ງເຕືອນ</string>
+    <string name="vivo_show_notification">ອະນຸຍາດການແຈ້ງເຕືອນ</string>
+    <string name="vivo_notification_disable">ບໍ່ອະນຸຍາດການແຈ້ງເຕືອນ</string>
+    <string name="vivo_show_notification_illustration">ການແຈ້ງເຕືອນຈະປະກົດຂຶ້ນເທິງແຖບການແຈ້ງເຕືອນ ເມື່ອການສັບປ່ຽນນີ້ຖືກເປີດຂຶ້ນ</string>
+    <string name="vivo_show_keyguard_notification">ສະແດງຢູ່ໜ້າຈໍລັອກ</string>
+    <string name="vivo_show_keyguard_notification_details">ສະແດງເນື້ອໃນການແຈ້ງເຕືອນໃນໜ້າຈໍລັອກ</string>
+    <string name="vivo_show_desktop_app_icon_badge">ເຄື່ອງໝາຍໄອຄອນແອັບເທິງໜ້າຈໍ</string>
+    <string name="vivo_show_notification_top_preview">ການສະແດງຕົວຢ່າງຍອດນິຍົມ</string>
+    <string name="vivo_notification_tip_style_headsup">ຫົວຂື້ນ</string>
+    <string name="vivo_notification_tip_style_ticker">ເລື່ອນ</string>
+    <string name="vivo_notification_tip_style_illustration">ການສະແດງຕົວຢ່າງລອຍ ສະແດງຢູ່ດ້ານເທິງຂອງໜ້າຈໍເປັນເວລາ 5 ວິນາທີ, ແລະພວກມັນສາມາດຖືກເຮັດປິດລົງໂດຍການເລື່ອນຂຶ້ນເທິງ ຫຼືຖືກລຶບໂດຍການເລື່ອນໃນລວງນອນ. ເລື່ອນການສະແດງຕົວຢ່າງໃນແຖບສະຖານະໄປແຕ່ລະແຖວ.</string>
+    <string name="vivo_show_priority_notification">ສຳຄັນສູງສຸດ</string>
+    <string name="vivo_show_priority_notification_illustration">ລາຍການສະແດງການແຈ້ງເຕືອນທາງດ້ານໜ້າ</string>
+    <string name="vivo_no_uim">ບໍ່ມີ UIM</string>
+    <string name="vivo_no_sim">ບໍ່ມີ SIM</string>
+    <string name="vivo_close">ປິດ</string>
+    <string name="vivo_sim_close">ປິດໃຊ້ງານ ແຜ່ນ SIM ແລ້ວ</string>
+    <string name="vivo_no_service">ບໍ່ມີບໍລິການ</string>
+    <string name="vivo_offline_mode">ໂໝດອອບໄລນ໌</string>
+    <string name="vivo_new_notification_hidden">ຂໍ້ຄວາມໃໝ່ເຂົ້າມາ</string>
+    <string name="vivo_screenshot_failed_text_no_memory">ບໍ່ສາມາດບັນທຶກຮູບໜ້າຈໍໄດ້. ພື້ນທີ່ອາດຈະບໍ່ພຽງພໍໃນອຸປະກອນບ່ອນເກັບຂໍ້ມູນ.</string>
+    <string name="vivo_done">ສຳເລັດແລ້ວ</string>
+    <string name="vivo_cancel">ຍົກເລີກ</string>
+    <string name="vivo_ok">ຕົກລົງ</string>
+    <string name="vivo_battery_full_ticker">ສາກເຕັມແລ້ວ</string>
+    <string name="vivo_battery_full_title">ສາກເຕັມແລ້ວ</string>
+    <string name="vivo_battery_full_msg">ການສາກສຳເລັດແລ້ວ. ກະລຸນາເອົາແຫຼ່ງຈ່າຍໄຟອອກໄປ.</string>
+    <string name="vivo_low_battery_dialog_title">ເຄັດລັບ</string>
+    <string name="vivo_low_battery_sps_tip">ແບັດເຕີຣີອ່ອນຫຼາຍ. ກະລຸນາສາກແບັດເຕີຣີຂອງທ່ານ ຫຼື ສັບປ່ຽນໄປຍັງໂໝດປະຢັດໄຟທີ່ສຸດ ເພື່ອຂະຫຍາຍເວລາການດຳເນີນງານຂອງໂທລະສັບ.</string>
+    <string name="vivo_low_battery_hifi_tip">ແບັດເຕີຣີອ່ອນຫຼາຍ. ປິດໂໝດ HI-FI ໂດຍອັດຕະໂນມັດ. ກະລຸນາສາກແບັດເຕີຣີຂອງທ່ານ ຫຼື ສັບປ່ຽນໄປຍັງໂໝດປະຢັດໄຟທີ່ສຸດ ເພື່ອຂະຫຍາຍເວລາການດຳເນີນງານຂອງໂທລະສັບ.</string>
+    <string name="vivo_low_battery_hifi_tip_cmcc">ແບັດເຕີຣີອ່ອນຫຼາຍ. ປິດໂໝດ HI-FI ໂດຍອັດຕະໂນມັດ. ກະລຸນາ ເຊື່ອມຕໍ່ເຄື່ອງສາກຂອງທ່ານ.</string>
+    <string name="vivo_sps">ຕົວບັນທຶກພິເສດ</string>
+    <string name="vivo_low_battery_tip">ແບັດເຕີຣີອ່ອນຫຼາຍ. ກະລຸນາຕໍ່ສາຍສາກ.</string>
+    <string name="vivo_wfd_noti_title">ລວມຫຼາຍໜ້າຈໍ</string>
+    <string name="vivo_wfd_noti_text">ສະແດງອຸປະກອນທີ່ເຊື່ອມຕໍ່</string>
+    <string name="vivo_guts_tips">ສົ່ງການແຈ້ງເຕືອນແລ້ວ</string>
+    <string name="vivo_network_speed_msg">ລາຍລະອຽດຄວາມໄວເຄືອຂ່າຍ</string>
+    <string name="usb_device_unconnected_suddenly">ຕັດເຊື່ອມຕໍ່ OTG ຢ່າງບໍ່ຄາດຄິດ</string>
+    <string name="usb_device_unconnected_suddenly_message">ປິດ OTG ກ່ອນເອົາອອກໄປ ເພື່ອຫຼີກຫຼ່ຽງການສູນເສຍຂໍ້ມູນ.</string>
+    <string name="usb_device_connected">OTG ເຊື່ອມຕໍ່ແລ້ວ</string>
+    <string name="usb_device_connected_message">ແຕະເພື່ອເບິ່ງ</string>
+    <string name="usb_device_disconnected">ເອົາ OTG ອອກໄປຢ່າງປອດໄພ</string>
+    <string name="sd_badremoval_notification_message">ກ່ອນການຍ້າຍແຜ່ນ SD, ປິດມັນໃນ \"ການຕັ້ງຄ່າ > ການຕັ້ງຄ່າເພີ່ມເຕີມ > ບ່ອນເກັບຂໍ້ມູນ\".</string>
+    <string name="uninstall_otg">ຖອນ​ການ​ຕິດ​ຕັ້ງ</string>
+    <string name="vivo_notification_icon_redraw_switch">ເຄື່ອງໝາຍເຮັດໃຫ້ສວຍງາມ</string>
+    <string name="global_action_super_power_save_tip_locking">ຈຳເປັນຕ້ອງປົດລັອກກ່ອນທີ່ຈະເຮັດວຽກ</string>
+    <string name="volume_fm">ລະດັບສຽງ FM</string>
+    <string name="show_imanager_lock_tip">ຖ້າທ່ານເປີດໃຊ້ງານລັອກແອັບໃນ i Manager, ການແຈ້ງເຕືອນໜ້າຈໍລັອກທີ່ລະອຽດຈະບໍ່ມີຢູ່ອີກຕໍ່ໄປ.</string>
+    <string name="show_imanager_locked_tip">ການແຈ້ງເຕືອນໜ້າຈໍລັກທີ່ລະອຽດບໍ່ມີຢູ່, ສຳລັບການລັອກໃນແອັບທີ່ທ່ານໄດ້ເປີດໃຊ້ງານແລ້ວໃນ i Manager.</string>
+    <string name="sd_badremoval_notification_message_4g">ກະລຸນາຖອນຕິດຕັ້ງແຜ່ນ SD ໃນ \"ການຕັ້ງຄ່າ > RAM ແລະພື້ນທີ່ຈັດເກັບຂໍ້ມູນ\" ກ່ອນທີ່ຈະຖອດມັນອອກ ເພື່ອຫຼີກຫຼ່ຽງການສູນເສຍຂໍ້ມູນ.</string>
+    <string name="vivo_notification_tip_none">ບໍ່ມີການເບິ່ງກ່ອນ</string>
+    <string name="vivo_develop_mode_tip">ໂໝດການພັດທະນາ</string>
+    <string name="vivo_up_slide_no_recent_apps">ບໍ່ມີແອັບຫຼ້າສຸດ</string>
+    <string name="vivo_up_slide_check_out">ກວດເບິ່ງ</string>
+    <string name="vivo_up_slide_statusbar_guide_tip">"ກົດຈາກປຸ່ມ 
+ເຂົ້າໄປສູນຄວບຄຸມ"</string>
+    <string name="vivo_up_slide_tip_swipe">ຮູດຂຶ້ນເທິງເພື່ອລຶບ</string>
+    <string name="vivo_up_slide_tip_white_list">ກົດຄ້າງໄວ້ ເພື່ອເພີ່ມໃສ່ລາຍການທີ່ອະນຸຍາດ \"ການເລັ່ງການແຕະຄັ້ງດຽວ\"</string>
+    <string name="vivo_up_slide_add_white_list_item">ເພີ່ມໃສ່ ບັນຊີຂາວ</string>
+    <string name="vivo_up_slide_remove_white_list_item">ເອົາອອກໄປຈາກລາຍການທີ່ອະນຸຍາດ</string>
+    <string name="vivo_switcher_order_title">ກຳນົດເອງ</string>
+    <string name="vivo_switcher_order_show">ສະແດງການສັບປ່ຽນ</string>
+    <string name="vivo_switcher_order_hide">ບໍ່ສະແດງການສັບປ່ຽນ</string>
+    <string name="vivo_switcher_order_hide_tip">"ເຊື່ອງ: ລາກການສັບປ່ຽນໄປຍັງພື້ນທີ່ \"ຢ່າງສະແດງການສັບປ່ຽນ\" 
+ປະເພດ: ລາກການສັບປ່ຽນໄປບ່ອນທີ່ທ່ານຕ້ອງການໃຫ້ມັນຢູ່ພື້ນທີ່ \"ສະແດງການສັບປ່ຽນ\""</string>
+    <string name="vivo_switcher_order_at_least">ຢ່າງໜ້ອຍໃຫ້ເຫຼືອໄວ້ 4 ລາຍການ</string>
+    <string name="vivo_switcher_cu">ການເລັ່ງ</string>
+    <string name="vivo_switcher_wifi">Wi-Fi</string>
+    <string name="vivo_switcher_apn">ເຄືອຂ່າຍຂໍ້ມູນ</string>
+    <string name="vivo_switcher_fl">​ໄຟ​ສາຍ</string>
+    <string name="vivo_switcher_wechat_scan">ສະແກນ</string>
+    <string name="vivo_switcher_smartshot">ຮູບໜ້າຈໍພິເສດ</string>
+    <string name="vivo_switcher_vibrate">​ໂໝດ​ສັ່ນ</string>
+    <string name="vivo_switcher_portrait">ແນວຕັ້ງ</string>
+    <string name="vivo_switcher_bright">ລະດັບ​ຄວາມແຈ້ງ</string>
+    <string name="vivo_switcher_sps">ຕົວບັນທຶກພິເສດ</string>
+    <string name="vivo_switcher_offline">ໂໝດອອບໄລນ໌</string>
+    <string name="vivo_switcher_sim_selection">ເລືອກຂໍ້ມູນບັດ</string>
+    <string name="vivo_switcher_bluetooth">ບລູທູດ</string>
+    <string name="vivo_switcher_reboot">ຣີບູດທ໌</string>
+    <string name="vivo_switcher_poweroff">ປິດເຄື່ອງ</string>
+    <string name="vivo_switcher_zen_mode">ຫ້າມລົບກວນ</string>
+    <string name="vivo_switcher_dialog_wechat_scan_message">ເພື່ອເປີດໃຊ້ \"ສະແກນລະຫັດ QR\" ຂອງ WeChat, ທ່ານຈຳເປັນຕ້ອງຕິດຕັ້ງ WeChat. ຕິດຕັ້ງດຽວນີ້ບໍ?</string>
+    <string name="vivo_switcher_wechat_scan_available_toast">Wechat \"ສະແກນລະຫັດ QR\" ມີຢູ່</string>
+    <string name="vivo_switcher_clear_up_tip_both" formatted="false">ປິດ %d ແອັບພື້ນຫຼັງ ແລະເພີ່ມຄວາມຈຳຂຶ້ນ %dMB.</string>
+    <string name="vivo_switcher_clear_up_tip_deamon">ປິດ %d ແອັບພື້ນຫຼັງ</string>
+    <string name="vivo_switcher_clear_up_tip_none">ຢູ່ໃນສະຖານະທີ່ດີທີ່ສຸດແລ້ວ</string>
+    <string name="vivo_switcher_wifi_open_tips_while_tethered">ການເປີດ Wi-Fi ຈະປິດໃຊ້ງານຮັອດສະປັອດດ Wi-Fi ແບບພົກພາ, ດຳເນີນການຕໍ່ບໍ?</string>
+    <string name="vivo_switcher_wifi_open_tips_sure">ຕົກລົງ</string>
+    <string name="vivo_switcher_wifi_open_tips_cancel">ຍົກເລີກ</string>
+    <string name="vivo_switcher_wifi_close_while_wfd_opened_title">ລວມຫຼາຍໜ້າຈໍ</string>
+    <string name="vivo_switcher_wifi_close_while_wfd_opened_context">ການປະຕິສຳພັນກັນຫຼາຍໜ້າຈໍຈະຖືກປິດໃຊ້ງານໂດຍອັດຕະໂນມັດ ເມື່ອ Wi-Fi ຖືກປິດ</string>
+    <string name="vivo_switcher_during_phone_forbidden">ສາຍບໍ່ວ່າງ</string>
+    <string name="vivo_switcher_offline_forbidden">ບໍ່ມີຢູ່ໃນໂໝດອອຟໄລນ໌</string>
+    <string name="vivo_switcher_need_sim">ການເຮັດວຽກຕ້ອງການ SIM ກຼາດ</string>
+    <string name="vivo_switcher_apn_dialog_title">ເຄືອຂ່າຍຂໍ້ມູນ</string>
+    <string name="vivo_switcher_apn_security_dialog_title">ເຄັດລັບ</string>
+    <string name="vivo_switcher_apn_security_dialog_msg">ເມື່ອເປີດໃຊ້ງານແລ້ວ, ການປັບປ່ຽນເວລາອັດຕະໂນມັດ, ການກວດເບິ່ງການອັບເດດອັດຕະໂນມັດ, ການຄົ້ນຫາຕຳແໜ່ງ, ການບໍລິການ vivo ແລະໜ້າຈໍຫຼັກແບບສະແຕນບາຍຈະໃຊ້ຂໍ້ມູນຈຳນວນໜ້ອຍໜຶ່ງ. ທ່ານຕ້ອງການສືບຕໍ່ບໍ?</string>
+    <string name="vivo_switcher_apn_security_dialog_tip">ຖ້າທ່ານເລືອກເພື່ອສືບຕໍ່, ທ່ານຈະບໍ່ຖືກເຕືອນໃນຄັ້ງຕໍ່ໄປທີ່ທ່ານໃຊ້ແອັບນີ້.</string>
+    <string name="vivo_switcher_apn_security_dialog_button_continue">​ສືບ​ຕໍ່</string>
+    <string name="vivo_switcher_apn_dialog_set_default_tip">ຕັ້ງເປັນບັດມາດຕະຖານສຳລັບອິນເຕີເນັດ ແລະຈະບໍ່ມີການເຕືອນໃຫ້ເລືອກບັດອີກຕໍ່ໄປ</string>
+    <string name="vivo_switcher_apn_dialog_set_default_tip2">ທ່ານສາມາດໄປທີ່ \"ການຕັ້ງຄ່າ > ເຄືອຂ່າຍມືຖື > ບັດມາດຕະຖານ\" ເພື່ອແກ້ໄຂການຕັ້ງຄ່າ</string>
+    <string name="vivo_switcher_dialog_title_tips">ເຄັດລັບ</string>
+    <string name="vivo_switcher_dialog_sps_tip">ພຽງແຕ່ຟັງຄ໌ຊັນໂທລະສັບ, ການສົ່ງແລະໂມງປຸກທີ່ຖືກເປີດໃຊ້ງານໃນໂໝດປະຢັດໄຟທີ່ສຸດເທົ່ານັ້ນ. ໂທລະສັບມືຖືຈະອອກຈາກໂໝດໂດຍອັດຕະໂນມັດຫຼັງຈາກສາກເຕັມແລ້ວ.</string>
+    <string name="vivo_switcher_dialog_sps_never_remide">ຢ່າເຕືອນຂ້ອຍອີກຄັ້ງ</string>
+    <string name="vivo_switcher_flashlight_low_battery_tip">ແບັດເຕີຣີອ່ອນ. ບໍ່ມີຄຸນສົມບັດນີ້ຢູ່ຊົ່ວຄາວ.</string>
+    <string name="vivo_switcher_speedup_dialog_whitelist_title">i Manager ເຕືອນທ່ານ</string>
+    <string name="vivo_switcher_speedup_dialog_whitelist_message">ແອັບທີ່ຈະບໍ່ສິ້ນສຸດລົງໂດຍການເລັ່ງດ້ວຍການແຕະຄັ້ງດຽວ. ບໍ່ສາມາດເພີ່ມແອັບໃສ່ລາຍການທີ່ອະນຸຍາດ.</string>
+    <string name="vivo_switcher_speedup_dialog_whitelist_ok">ຕັ້ງລາຍທີ່ທີ່ອະນຸຍາດ</string>
+    <string name="vivo_upslide_hifi_no_headphone">ບໍ່ສາມາດເປີດ Hi-Fi. ຫູຟັງບໍ່ໄດ້ແຊກໃສ່.</string>
+    <string name="vivo_upslide_hifi_low_battery">ບໍ່ສາມາດເປີດ Hi-Fi. ແບັດເຕີຣີອ່ອນ.</string>
+    <string name="vivo_upslide_hifi_opened">Hi-Fi ເປີດ</string>
+    <string name="vivo_upslide_hifi_closed">Hi-Fi ປິດ</string>
+    <string name="vivo_upslide_hifi_headset_tip">Hi-Fi ໃຊ້ງານໄດ້ໃນໂໝດຫູຟັງເທົ່ານັ້ນ</string>
+    <string name="vivo_upslide_artist_name">ຊື່ສິລະປິນ</string>
+    <string name="vivo_upslide_music_name">ຊື່ເພງ</string>
+    <string name="vivo_upslide_network_mode_any">ໃດໜຶ່ງ</string>
+    <string name="vivo_upslide_network_mode_only_2g">2G ເທົ່ານັ້ນ</string>
+    <string name="vivo_upslide_network_mode_register_choice">ຮອງຮັບເຄືອຂ່າຍ 2G ເທົ່ານັ້ນ, Ooredoo ສາມາດຖືກໃຊ້ຢ່າງຖືກຕ້ອງ. ຖ້າທ່ານເລືອກເຄືອຂ່າຍອື່ນໆ, Ooredoo ບໍ່ສາມາດໃຊ້ໄດ້.</string>
+    <string name="vivo_upslide_network_mode_tip">ກະລຸນາເລືອກ</string>
+    <string name="vivo_switcher_apn_dialog_close_apn_tip">ປິດ</string>
+    <string name="vivo_switcher_sps_dialog_ok">ຕົກລົງ</string>
+    <string name="vivo_upslide_hide_navigaton_bar_tip">ຮູດລົງເພື່ອເຊື່ອງ</string>
+    <string name="vivo_upslide_lock_task_dialog_msg">ເມື່ອໜ້າຈໍຖືກຖອນປັກໝຸດແລ້ວ, ອຸປະກອນຈະຢູ່ໃນໜ້າດຽວ. ເພື່ອຖອນປັກໝຸດ, ແຕະ \"ກັບຄືນ\" ແລະ \"ເມນູ\" ຄ້າງໄວ້.</string>
+    <string name="vivo_upslide_lock_task_dialog_negative">ບໍ່ ຂອບໃຈ</string>
+    <string name="vivo_upslide_lock_task_dialog_positive">ເລີ່ມ​ຕົ້ນ</string>
+    <string name="vivo_upslide_lock_task_dialog_title">ໃຊ້ການປັກໝຸດໜ້າຈໍບໍ?</string>
+    <string name="vivo_upslide_show_navigaton_bar_tip">ຮູດຂຶ້ນເພື່ອສະແດງ</string>
+    <string name="vivo_upslide_volume_tip">ມີເດຍ</string>
+    <string name="vivo_switcher_data_network_not_available">ເຄືອຂ່າຍມືຖືບໍ່ມີຢູ່</string>
+    <string name="vivo_switcher_wifi_ap">ຮັອດສະປັອດ Wi-Fi</string>
+    <string name="vivo_switcher_eye_protection">ການປ້ອງກັນຕາ</string>
+    <string name="vivo_switcher_eye_protection_tip">ໂໝດການປ້ອງກັນຕາ ໄດ້ຖືກເປີດໃຊ້ງານແລ້ວ. ກະລຸນາປັບປ່ຽນສີໜ້າຈໍເພື່ອບັນເທົາຄວາມເມື່ອຍລ້າຂອງສາຍຕາ.</string>
+    <string name="vivo_switcher_eye_protection_tip_ok">ຕົກລົງ</string>
+    <string name="vivo_upslide_operation_tips">ນຳເອົາ \"ສູນຄວບຄຸມ\" ຂຶ້ນມາ ໂດຍການເລື່ອນຂຶ້ນເທິງຈາກຂອບໜ້າຈໍດ້ານລຸ່ມ.</string>
+    <string name="vivo_upslide_setting_title">ສູນຄວບຄຸມ</string>
+    <string name="vivo_upslide_switch_tips">ອະນຸຍາດໃຫ້ນຳເອົາ \"ສູນຄວບຄຸມ\" ຂຶ້ນເທິງໜ້າຜູ້ໃຊ້ແອັບ. ຫຼັງຈາກປຸ່ມສັບປ່ຽນຖືກປິດ, ທ່ານຍັງສາມາດນຳເອົາ \"ສູນຄວບຄຸມ\" ຂຶ້ນເທິງເດັສທັອບ.</string>
+    <string name="vivo_upslide_switch_title">ນຳເອົາມັນຂຶ້ນເທິງໜ້າຜູ້ໃຊ້ແອັບ</string>
+    <string name="wifi_opened">ເປີດ​</string>
+    <string name="wifi_starting">ກຳລັງເປີດໃຊ້</string>
+    <string name="wifi_stopping">ກຳລັງປິດ</string>
+    <string name="wifi_prepare_connect">ຕຽມການເຊື່ອມຕໍ່</string>
+    <string name="keyguard_password_enter_pin_code">ໃສ່ລະຫັດ PIN</string>
+    <string name="keyguard_password_enter_puk_code">ປະເພດ PUK ຂອງ SIM ແລະລະຫັດ PIN ໃໝ່</string>
+    <string name="keyguard_password_enter_puk_prompt">ລະຫັດ PUK ຂອງ SIM</string>
+    <string name="keyguard_password_enter_pin_prompt">ລະຫັດ PIN ໃໝ່ຂອງ SIM</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">ແຕະເພື່ອພິມລະຫັດຜ່ານ</font></string>
+    <string name="keyguard_password_enter_password_code">ປ້ອນລະຫັດຜ່ານເຂົ້າ ເພື່ອປົດລັອກ</string>
+    <string name="keyguard_password_enter_pin_password_code">ພິມລະຫັດ PIN ເພື່ອປົດລັອກ</string>
+    <string name="keyguard_password_wrong_pin_code">ລະຫັດ PIN ບໍ່ຖືກຕ້ອງ.</string>
+    <string name="keyguard_label_text">ເພື່ອປົດລັອກ, ໃຫ້ກົດເມນູ ແລ້ວກົດ 0.</string>
+    <string name="faceunlock_multiple_failures">ຄວາມພະຍາຍາມປົດລັອກດ້ວຍໜ້ານັ້ນ ເກີນຈຳນວນທີ່ກຳນົດແລ້ວ</string>
+    <string name="keyguard_charged">ສາກເຕັມແລ້ວ</string>
+    <string name="keyguard_plugged_in">ກຳລັງສາກໄຟ</string>
+    <string name="keyguard_low_battery">ກະລຸນາຕໍ່ສາຍສາກ.</string>
+    <string name="keyguard_instructions_when_pattern_disabled">ກົດເມນູເພື່ອປົດລັອກ.</string>
+    <string name="keyguard_network_locked_message">ເຄືອຂ່າຍຖືກລັອກ</string>
+    <string name="keyguard_missing_sim_message_short">ບໍ່ມີແຜ່ນ SIM</string>
+    <string name="keyguard_missing_sim_message">ບໍ່ມີຊິມກາດຢູ່ໃນໂທລະສັບ.</string>
+    <string name="keyguard_missing_sim_instructions">ໃສ່ແຜ່ນ SIM.</string>
+    <string name="keyguard_missing_sim_instructions_long">ບໍ່ພົບເຫັນຊິມກາດ ຫຼືບໍ່ສາມາດອ່ານຊິມກາດໄດ້. ໃສ່ແຜ່ນ SIM.</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">ແຜ່ນ SIM ບໍ່ສາມາດໃຊ້ໄດ້.</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"ແຜ່ນ SIM ຂອງທ່ານຖືກປິດການນຳໃຊ້ຢ່າງຖາວອນແລ້ວ.
+ ຕິດຕໍ່ຜູ່ໃຫ້ບໍລິການລະບົບຂອງທ່ານເພື່ອຂໍ ແຜ່ນ SIM ໃໝ່."</string>
+    <string name="keyguard_sim_locked_message">ຊິມກາດຖືກລັອກ.</string>
+    <string name="keyguard_sim_puk_locked_message">ຊິມກາດຖືກລັອກດ້ວຍລະຫັດ PUK.</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">ປົດລັອກແຜ່ນ SIM…</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s. ວິດເຈັດ %2$d ຈາກທັງໝົດ %3$d.</string>
+    <string name="keyguard_accessibility_add_widget">ເພີ່ມວິດເຈັດ.</string>
+    <string name="keyguard_accessibility_widget_empty_slot">ຫວ່າງເປົ່າ</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">ຂະຫຍາຍພື້ນທີ່ປົດລັອກແລ້ວ.</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">ຫຍໍ້ພື້ນທີ່ປົດລັອກແລ້ວ.</string>
+    <string name="keyguard_accessibility_widget">%1$s ວິດເຈັດ.</string>
+    <string name="keyguard_accessibility_user_selector">ໂຕເລືອກຂອງຜູ້ໃຊ້</string>
+    <string name="keyguard_accessibility_camera">ກ້ອງຖ່າຍຮູບ</string>
+    <string name="keygaurd_accessibility_media_controls">ການຄວບຄຸມສື່</string>
+    <string name="keyguard_accessibility_widget_reorder_start">ການຈັດຮຽງວິເຈັດໃໝ່ເລີ່ມຕົ້ນແລ້ວ.</string>
+    <string name="keyguard_accessibility_widget_reorder_end">ການຈັດຮຽງວິດເຈັດຄືນໃໝ່ສຳເລັດແລ້ວ.</string>
+    <string name="keyguard_accessibility_widget_deleted">ລຶບວິດເຈັດ %1$s ແລ້ວ.</string>
+    <string name="keyguard_accessibility_expand_lock_area">ຂະຫຍາຍຂອບເຂດປົດລັອກ.</string>
+    <string name="keyguard_accessibility_slide_unlock">ການປົດລັອກດ້ວຍການເລື່ອນ.</string>
+    <string name="keyguard_accessibility_pattern_unlock">ປົດລັອກດ້ວຍຮູບແບບ.</string>
+    <string name="keyguard_accessibility_face_unlock">ປົດລັອກດ້ວຍໜ້າ.</string>
+    <string name="keyguard_accessibility_pin_unlock">ປົດລັອກດ້ວຍ PIN.</string>
+    <string name="keyguard_accessibility_password_unlock">ການປົດລັອກດ້ວຍລະຫັດຜ່ານ.</string>
+    <string name="keyguard_accessibility_pattern_area">ພື້ນທີ່ຮູບແບບ.</string>
+    <string name="keyguard_accessibility_slide_area">ເລື່ອນພື້ນທີ່.</string>
+    <string name="keyguard_accessibility_pin_area">ພື້ນທີ່ PIN</string>
+    <string name="keyguard_accessibility_sim_pin_area">ພື້ນທີ່ PIN ຂອງແຜ່ນ SIM</string>
+    <string name="keyguard_accessibility_sim_puk_area">ພື້ນທີ່ PUK ຂອງແຜ່ນ SIM</string>
+    <string name="keyguard_accessibility_transport_prev_description">ປຸ່ມ \"ເພງກ່ອນໜ້າ\"</string>
+    <string name="keyguard_accessibility_transport_next_description">ປຸ່ມ \"ເພງຖັດໄປ\"</string>
+    <string name="keyguard_accessibility_transport_pause_description">ປຸ່ມຢຸດພັກ</string>
+    <string name="keyguard_accessibility_transport_play_description">ປຸ່ມ \"ເປີດ\"</string>
+    <string name="keyguard_accessibility_transport_stop_description">ປຸ່ມຢຸດ</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">ຍົກໂປ້</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">ຊີ້ໂປ້ລົງ</string>
+    <string name="keyguard_accessibility_transport_heart_description">ຫົວ​ໃຈ</string>
+    <string name="keyguard_accessibility_show_bouncer">ປົດລັອກເພື່ອສືບຕໍ່</string>
+    <string name="keyguard_accessibility_hide_bouncer">ຍົກເລີກການເປີດໃຊ້ແລ້ວ</string>
+    <string name="keyguard_accessibility_delete_widget_start">ປ່ອຍ %1$s ທີ່ຈະຖືກລຶບອອກ.</string>
+    <string name="keyguard_accessibility_delete_widget_end">%1$s ຈະບໍ່ຖືກລຶບອອກ.</string>
+    <string name="keyguard_accessibility_next_alarm">​ໂມງ​ປຸກ​ຕໍ່​ໄປ​ຖືກ​ຕັ້ງ​ໄວ້​ເວ​ລາ %1$s</string>
+    <string name="keyboardview_keycode_cancel">ຍົກເລີກ</string>
+    <string name="keyboardview_keycode_delete">ລຶບ</string>
+    <string name="keyboardview_keycode_done">ສຳເລັດແລ້ວ</string>
+    <string name="keyboardview_keycode_mode_change">ການປ່ຽນແປງໂໝດ</string>
+    <string name="keyboardview_keycode_shift">Shift</string>
+    <string name="keyboardview_keycode_enter">ປ້ອນເຂົ້າ</string>
+    <string name="description_target_unlock">ປົດລັອກ</string>
+    <string name="description_target_camera">ກ້ອງຖ່າຍຮູບ</string>
+    <string name="description_target_silent">ປິດສຽງ</string>
+    <string name="description_target_soundon">ເປີດສຽງແລ້ວ</string>
+    <string name="description_direction_down">ເລື່ອນລົງ ສຳລັບ %s.</string>
+    <string name="description_direction_right">ເລື່ອນໄປຂວາ ສຳລັບ %s.</string>
+    <string name="user_switched">ຜູ້ໃຊ້ປະຈຸບັນແມ່ນ %1$s .</string>
+    <string name="kg_emergency_call_label">​ໂທສຸກ​ເສີນ</string>
+    <string name="kg_forgot_pattern_button_text">ລືມຮູບແບບ</string>
+    <string name="kg_wrong_pattern">ຮູບແບບປົດ​ລັອກ​ບໍ່​ຖືກ​ຕ້ອງ</string>
+    <string name="kg_wrong_password">ລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ</string>
+    <string name="kg_wrong_pin">ລະຫັດ PIN ຜິດ</string>
+    <string name="kg_too_many_failed_attempts_countdown">ລອງໃໝ່ອີກໃນ %d ວິນາທີ</string>
+    <string name="kg_pattern_instructions">ແຕ້ມຮູບແບບປົດລັອກຂອງທ່ານ</string>
+    <string name="kg_sim_pin_instructions">ໃສ່ລະຫັດ PIN ຂອງຊິມ</string>
+    <string name="kg_sim_pin_instructions_multi">ປ້ອນ PUK ສຳລັບແຜ່ນ SIM ເຂົ້າ \"%1$s\"</string>
+    <string name="kg_pin_instructions">ໃສ່ລະຫັດ PIN</string>
+    <string name="kg_password_instructions">ປ້ອນລະຫັດຜ່ານ</string>
+    <string name="kg_puk_enter_puk_hint">ຊິມຖືກປິດການນຳໃຊ້ແລ້ວ. ປ້ອນລະຫັດ PUK ເພື່ອດຳເນີນການຕໍ່. ຕິດຕໍ່ຜູ້ໃຫ້ບໍລິການສຳລັບລາຍລະອຽດ.</string>
+    <string name="kg_puk_enter_puk_hint_multi">ແຜ່ນ SIM \"%1$s\" ໄດ້ຖືກປິດໃຊ້ງານແລ້ວ. ທ່ານຈຳເປັນຕ້ອງປ້ອນ PUK ເຂົ້າເພື່ອສືບຕໍ່ການໃຊ້ມັນ. ສຳລັບລາຍລະອຽດ, ກະລຸນາຕິດຕໍ່ຜູ້ໃຫ້ການບໍລິການຂອງທ່ານ.</string>
+    <string name="kg_puk_enter_pin_hint">ໃສ່ລະຫັດ PIN ທີ່ຕ້ອງການ</string>
+    <string name="kg_enter_confirm_pin_hint">ຢືນຢັນລະຫັດ PIN ທີ່ຕ້ອງການ</string>
+    <string name="kg_sim_unlock_progress_dialog_message">ປົດລັອກແຜ່ນ SIM…</string>
+    <string name="kg_invalid_sim_pin_hint">ພິມລະຫັດ PIN ຄວາມຍາວ 4 ເຖິງ 8 ຕົວເລກ.</string>
+    <string name="kg_invalid_sim_puk_hint">ລະຫັດ PUK ຄວນມີຢ່າງໜ້ອຍ 8 ຕົວເລກ.</string>
+    <string name="kg_invalid_puk">ປ້ອນລະຫັດ PUK ທີ່ຖືກຕ້ອງຄືນໃໝ່. ການພະຍາຍາມໃສ່ຫຼາຍເທື່ອຈະເຮັດໃຫ້ຊິມກາດໃຊ້ບໍ່ໄດ້ຖາວອນ.</string>
+    <string name="kg_invalid_confirm_pin_hint">ລະຫັດ PIN ບໍ່ກົງກັນ</string>
+    <string name="kg_login_too_many_attempts">ແຕ້ມຮູບແບບປົດລັອກຫຼາຍເກີນໄປ</string>
+    <string name="kg_login_instructions">ເພື່ອປົດລັອກ, ເຂົ້າສູ່ລະບົບດ້ວຍບັນຊີ Google ຂອງທ່ານ.</string>
+    <string name="kg_login_username_hint">ຊື່ຜູ້ໃຊ້ (ທີ່ຢູ່ອີເມລ໌)</string>
+    <string name="kg_login_password_hint">ລະຫັດຜ່ານ</string>
+    <string name="kg_login_submit_button">​ເຂົ້າ​ສູ່​ລະ​ບົບ</string>
+    <string name="kg_login_invalid_input">ຊື່ຜູ່ໃຊ້ ຫຼືລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ</string>
+    <string name="kg_login_account_recovery_hint">"ລືມຊື່ຜູ້ໃຊ້ ຫຼືລະຫັດຜ່ານຂອງທ່ານບໍ່? 
+ກະລຸນາໄປທີ່ "<b>google.com/accounts/recovery</b>.</string>
+    <string name="kg_login_checking_password">ກຳລັງກວດສອບບັນຊີ...</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"ທ່ານພິມລະຫັດ PIN​ ຂອງທ່ານຜິດ %d ເທື່ອແລ້ວ. 
+
+ກະລຸນາລອງໃໝ່ໃນອີກ %d ວິນາທີ."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"ທ່ານໄດ້ປ້ອນລະຫັດຜ່ານຂອງທ່ານຢ່າງບໍ່ຖືກຕ້ອງ %d ຄັ້ງແລ້ວ. 
+
+ກະລຸນາລອງໃໝ່ອີກໃນ %d ວິນາທີ."</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"ທ່ານໄດ້ແຕ້ມຮູບແບບການປົດລັອກຂອງທ່ານບໍ່ຖືກຕ້ອງ %d ເທື່ອ. 
+
+ລອງໃໝ່ອີກໃນ %d ວິນາທີ."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">ທ່ານໄດ້ມີຄວາມພະຍາຍາມທີ່ຈະປົດລັອກໂທລະສັບຢ່າງບໍ່ຖືກຕ້ອງ %d ຄັ້ງແລ້ວ. ຫຼັງຈາກພະຍາຍາມບໍ່ສຳເລັດອີກ %d ຄັ້ງ, ໂທລະສັບຈະຖືກຕັ້ງຄືນໃໝ່, ແລະຂໍ້ມູນທັງໝົດໃນໂທລະສັບຈະຖືກລຶບ.</string>
+    <string name="kg_failed_attempts_now_wiping">ທ່ານໄດ້ມີຄວາມພະຍາຍາມທີ່ຈະປົດລັອກໂທລະສັບຢ່າງບໍ່ຖືກຕ້ອງ %d ຄັ້ງແລ້ວ. ໂທລະສັບຈະຖືກຕັ້ງຄືນໃໝ່, ແລະຂໍ້ມູນທັງໝົດໃນໂທລະສັບຈະຖືກລຶບ.</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" formatted="false">ທ່ານໄດ້ມີຄວາມພະຍາຍາມທີ່ຈະປົດລັອກໂທລະສັບຢ່າງບໍ່ຖືກຕ້ອງ %d ຄັ້ງແລ້ວ. ຫຼັງຈາກພະຍາຍາມບໍ່ສຳເລັດອີກ %d ຄັ້ງ, ລະບົບຈະເອົາຜູ້ໃຊ້ນີ້ອອກໄປ ລວມທັງຂໍ້ມູນຂອງມັນທັງໝົດ.</string>
+    <string name="kg_failed_attempts_now_erasing_user">ທ່ານໄດ້ມີຄວາມພະຍາຍາມທີ່ຈະປົດລັອກໂທລະສັບຢ່າງບໍ່ຖືກຕ້ອງ %d ຄັ້ງແລ້ວ. ລະບົບຈະເອົາຜູ້ໃຊ້ນີ້ອອກໄປ ລວມທັງຂໍ້ມູນຂອງມັນທັງໝົດ.</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" formatted="false">ທ່ານໄດ້ມີຄວາມພະຍາຍາມທີ່ຈະປົດລັອກໂທລະສັບຢ່າງບໍ່ຖືກຕ້ອງ %d ຄັ້ງແລ້ວ. ຫຼັງຈາກພະຍາຍາມບໍ່ສຳເລັດອີກ %d ຄັ້ງ, ລະບົບຈະເອົາໂປຣໄຟລ໌ບ່ອນເຮັດວຽກນີ້ອອກໄປ ລວມທັງຂໍ້ມູນຂອງມັນທັງໝົດ.</string>
+    <string name="kg_failed_attempts_now_erasing_profile">ທ່ານໄດ້ມີຄວາມພະຍາຍາມທີ່ຈະປົດລັອກໂທລະສັບຢ່າງບໍ່ຖືກຕ້ອງ %d ຄັ້ງແລ້ວ. ລະບົບຈະເອົາໂປຣໄຟລ໌ບ່ອນເຮັດວຽກນີ້ອອກໄປ ລວມທັງຂໍ້ມູນຂອງມັນທັງໝົດ.</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"ທ່ານແຕ້ມຮູບແບບປົດລັອກບໍ່ຖືກຕ້ອງ %d ຄັ້ງ. ຫຼັງຈາກຄວາມພະຍາມບໍ່ສຳເລັດ %d ຄັ້ງຂຶ້ນໄປ, ທ່ານຈະຖືກຂໍໃຫ້ປົດລັອກໂທລະສັບຂອງທ່ານໂດຍໃຊ້ບັນຊີອີເມລ໌ຂອງທ່ານ. 
+
+ກະລຸນາລອງໃໝ່ອີກໃນ %d ວິນາທີ."</string>
+    <string name="kg_reordering_delete_drop_target_text">ລຶບ</string>
+    <string name="kg_password_wrong_pin_code_pukked">ລະຫັດ PIN ຂອງ SIM ບໍ່ຖືກຕ້ອງທ່ານຕ້ອງຕິດຕໍ່ຫາຜູ້ໃຫ້ບໍລິການຂອງທ່ານ ເພື່ອປົດລັອກອຸປະກອນຂອງທ່ານ.</string>
+    <string name="kg_password_wrong_puk_code_dead">SIM ໃຊ້ບໍ່ໄດ້ແລ້ວ. ກະລຸນາຕິດຕໍ່ຫາຜູ້ໃຫ້ບໍລິການຂອງທ່ານ.</string>
+    <string name="kg_password_pin_failed">PIN ຂອງ SIM ເຮັດວຽກລົ້ມເຫຼວ!</string>
+    <string name="kg_password_puk_failed">PUK ຂອງ SIM ເຮັດວຽກລົ້ມເຫຼວ!</string>
+    <string name="kg_pin_accepted">ລະ​ຫັດ​ຖືກຕອບຮັບແລ້ວ!</string>
+    <string name="keyguard_transport_prev_description">ປຸ່ມເພງກ່ອນໜ້າ</string>
+    <string name="keyguard_transport_next_description">ປຸ່ມເພງຖັດໄປ</string>
+    <string name="keyguard_transport_pause_description">ປຸ່ມ \"ຢຸດຊົ່ວຄາວ\"</string>
+    <string name="keyguard_transport_play_description">ປຸ່ມ \"ເປີດ\"</string>
+    <string name="keyguard_transport_stop_description">ປຸ່ມ \"ຢຸດ\"</string>
+    <string name="keyguard_carrier_default">ບໍ່ມີການບໍລິການ.</string>
+    <string name="try_again">ລອງໃໝ່ອີກ</string>
+    <string name="vivo_forgot_pattern">ລືມຮູບແບບ</string>
+    <string name="vivo_forgot_password">ລືມລະຫັດຜ່ານ</string>
+    <string name="vivo_kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"ທ່ານໄດ້ແຕ້ມຮູບແບບປົດລັອກບໍ່ຖືກຕ້ອງ %d ຄັ້ງແລ້ວ. 
+ກະລຸນາລອງໃໝ່ອີກໃນ %d ວິນາທີ!"</string>
+    <string name="vivo_kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"ທ່ານໄດ້ປ້ອນລະຫັດຜ່ານປົດລັອກບໍ່ຖືກຕ້ອງ %d ຄັ້ງແລ້ວ. 
+ກະລຸນາລອງໃໝ່ອີກໃນ %d ວິນາທີ!"</string>
+    <string name="vivo_login_problem">ເພື່ອປົດລັອກ, ກະລຸນາປ້ອນຄຳຕອບເຂົ້າ</string>
+    <string name="vivo_login_answer_hint">ແຕະເພື່ອປ້ອນຄຳຕອບເຂົ້າ</string>
+    <string name="vivo_login_title">ປົດລັອກ</string>
+    <string name="vivo_login_problem_invalid_input">ຄຳຕອບຜິດ</string>
+    <string name="father_name">ຊື່ພໍ່ຂອງທ່ານແມ່ນຫຍັງ?</string>
+    <string name="spouse_name">ຊື່ຄູ່ສົມລັດຂອງທ່ານແມ່ນຫຍັງ?</string>
+    <string name="clean_visit_mode">ທ່ານໄດ້ອອກຈາກໂໝດຜູ້ເຂົ້າຊົມແລະລະຫັດຜ່ານຜູ້ເຂົ້າຊົມໝົດອາຍຸແລ້ວ.</string>
+    <string name="vivo_emergency">ໂທສຸກເສີນ</string>
+    <string name="vivo_return_to_call">ກັບໄປຫາການໂທ</string>
+    <string name="vivo_password_wrong_pin_code">PIN ບໍ່​ຖືກຕ້ອງ.</string>
+    <string name="vivo_password_enter_pin_code">ກະລຸນາ ປ້ອນ PIN ເຂົ້າໄປ</string>
+    <string name="vivo_password_enter_puk_code">ປ້ອນລະຫັດ PUK ເຂົ້າ</string>
+    <string name="vivo_mismatchPin">PIN ບໍ່ເຂົ້າກັນ. ກະລຸນາ ປ້ອນເຂົ້າຄືນໃໝ່.</string>
+    <string name="vivo_password_enter_new_pin_code">ປ້ອນ PIN ໃໝ່ເຂົ້າໄປ</string>
+    <string name="vivo_password_Confirm_pin_code">ຢືນຢັນລະຫັດ PIN ໃໝ່</string>
+    <string name="findphone_ok">ຕົກລົງ</string>
+    <string name="kg_password_findphone_tip">ກະລຸນາປ້ອນລະຫັດຜ່ານບັນຊີ vivo ຂອງທ່ານເຂົ້າ</string>
+    <string name="vivo_pinpuk_attempts">%d</string>
+    <string name="problem_label">Q:</string>
+    <string name="vivo_onehand_msg">ເມື່ອທ່ານເລື່ອນຈາກຂອບເບື້ອງຂວາ (ຫຼືເບື້ອງຊ້າຍ) ຂອງໜ້າຈໍ, ມັນສາມາດປ່ຽນເປັນໂໝດມືດຽວໄດ້.</string>
+    <string name="vivo_password_wrong">ລະຫັດ​ຜ່າ​ນບໍ່​ຖືກຕ້ອງ</string>
+    <string name="vivo_pattern_wrong">ຮູບແບບທີ່ບໍ່ຖືກຕ້ອງ</string>
+    <string name="pinpuk_attempts">ຄວາມພະຍາຍາມທີ່ຍັງເຫຼືອ:</string>
+    <string name="finger_need_password_msg">ຈຳເປັນຕ້ອງມີລະຫັດຜ່ານຂອງທ່ານເພື່ອເປີດໃຊ້ງານການຈົດຈຳລາຍນິ້ວມື</string>
+    <string name="finger_need_pattern_msg">ຈຳເປັນຕ້ອງມີຮູບແບບຂອງທ່ານເພື່ອເປີດໃຊ້ງານການຈົດຈຳລາຍນິ້ວມື</string>
+    <string name="finger_password_title">ປ້ອນລະຫັດຜ່ານ</string>
+    <string name="finger_pattern_title">ແຕ້ມຮູບແບບ</string>
+    <string name="findphone_unable_network">ບໍ່ສາມາດໃນການເຊື່ອມຕໍ່ເຄືອຂ່າຍ</string>
+    <string name="findphone_verifying_password">ກຳລັງກວດສອບລະຫັດຜ່ານ…</string>
+    <string name="pin_reboot_finger">ທ່ານຈຳເປັນຕ້ອງປ້ອນລະຫັດຜ່ານເຂົ້າເພື່ອເປີດໃຊ້ງານລາຍນິ້ວມືຫຼັງຈາກເປີດເຄື່ອງຄືນໃໝ່</string>
+    <string name="pattern_reboot_finger">ທ່ານຈຳເປັນຕ້ອງແຕ້ມຮູບແບບເພື່ອເປີດໃຊ້ງານລາຍນິ້ວມືຫຼັງຈາກເປີດເຄື່ອງຄືນໃໝ່</string>
+    <string name="confirm_max_lenth">ຮອດຂີດຈຳກັດຕົວອັກສອນສູງສຸດແລ້ວ</string>
+    <string name="use_fingerprint_or_password">ໃຊ້ລາຍນິ້ວມືຫຼືປ້ອນລະຫັດຜ່ານເຂົ້າ</string>
+    <string name="use_fingerprint_or_pattern">ໃຊ້ລາຍນິ້ວມືຫຼືແຕ້ມຮູບແບບ</string>
+    <string name="use_fingerprint_or_pin">ໃຊ້ລາຍນິ້ວມືຫຼືປ້ອນລະຫັດຜ່ານເຂົ້າ</string>
+</resources>

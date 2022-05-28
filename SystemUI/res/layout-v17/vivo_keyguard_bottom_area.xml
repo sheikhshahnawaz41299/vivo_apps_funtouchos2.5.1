@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/bottom_shortcut_area" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.systemui.statusbar.KeyguardAffordanceView android:layout_gravity="end|bottom|center" android:id="@id/right_shortcut" android:paddingLeft="25.0dip" android:paddingTop="25.0dip" android:layout_width="@dimen/vk_nature2_affordance_width" android:layout_height="@dimen/vk_nature2_affordance_width" android:src="@drawable/ic_camera_alt_24dp" android:scaleType="center" android:tint="#ffffffff" android:contentDescription="@string/accessibility_camera_button" />
+    <com.android.systemui.statusbar.KeyguardAffordanceView android:layout_gravity="start|bottom|center" android:id="@id/left_shortcut" android:paddingTop="25.0dip" android:paddingRight="25.0dip" android:layout_width="@dimen/vk_nature2_affordance_width" android:layout_height="@dimen/vk_nature2_affordance_width" android:src="@drawable/ic_phone_24dp" android:scaleType="center" android:tint="#ffffffff" android:contentDescription="@string/accessibility_phone_button" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tmp_text_signature" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_signature" android:layout_marginStart="16.0dip" />
+    <RelativeLayout android:id="@id/signature_bg" android:background="?vivo:generalBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="7.0dip" android:layout_below="@id/tmp_text_signature">
+        <EditText android:textSize="16.0sp" android:gravity="start|center|top" android:id="@id/input_signature" android:background="#00000000" android:padding="16.0dip" android:layout_width="192.0dip" android:layout_height="wrap_content" />
+        <TextView android:id="@id/show_text_num" android:background="#ff00ff00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_toStartOf="@id/text_del" />
+        <TextView android:id="@id/text_del" android:background="#ff00ffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

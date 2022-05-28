@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item>Wi-Fi</item>
+        <item>স্কেন কৰি আছে...</item>
+        <item>সংযোগ হৈ আছে...</item>
+        <item>শুদ্ধতা নিৰ্ণয় কৰি থকা হৈছে...</item>
+        <item>IP সংগ্ৰহ কৰি থকা হৈছে...</item>
+        <item>সংযোগ হৈ গ’ল</item>
+        <item>বিৰাম দিয়া হৈছে</item>
+        <item>সংযোগ বিচ্ছিন্ন হৈ আছে...</item>
+        <item>সংযোগ বিচ্ছিন্ন হৈ গ’ল</item>
+        <item>বিফল</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Wi-Fi</item>
+        <item>স্কেন কৰি আছে...</item>
+        <item>সংযোগ হৈ আছে...</item>
+        <item>শুদ্ধতা নিৰ্ণয় কৰি থকা হৈছে...</item>
+        <item>IP সংগ্ৰহ কৰি থকা হৈছে...</item>
+        <item>%1$s সংযোগ হৈ গ’ল</item>
+        <item>বিৰাম দিয়া হৈছে</item>
+        <item>সংযোগ বিচ্ছিন্ন হৈ আছে...</item>
+        <item>সংযোগ বিচ্ছিন্ন হৈ গ’ল</item>
+        <item>বিফল</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>আপোনাৰ পিতৃৰ নাম কি?</item>
+        <item>আপোনাৰ মাতৃৰ নাম কি?</item>
+        <item>আপোনাৰ পত্নীৰ নাম কি?</item>
+        <item>আপুনি কোনোখন প্ৰাথমিক বিদ্যালয়ত পঢ়িছিল?</item>
+        <item>আপোনাৰ শিশুবিদ্যালয়ৰ শিক্ষকৰ নাম কি আছিল?</item>
+        <item>আপোনাৰ উচ্চ মাধ্যমিক বিদ্যালয়ৰ শিক্ষকৰ নাম কি আছিল?</item>
+        <item>আপোনাৰ শিশুকালৰ ভাল বন্ধুৰ নাম কি আছিল?</item>
+        <item>আপোনাৰ জন্ম স্থান?</item>
+        <item>আপোনাৰ বিদ্যাৰ্থী (চাকৰি) চিনাক্তকৰণ নম্বৰ কি?</item>
+        <item>আপোনাৰ পৰিচয় পত্ৰখনৰ অন্তিম 6 টা অংক কি?</item>
+        <item>আপোনাৰ গাড়ীৰ লাইচেন্স ফলকখনৰ নম্বৰ</item>
+        <item>আপুনি প্ৰথমে কাম কৰা কোম্পানীটোৰ নাম কি আছিল?</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/popup_arrow_90" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vivo_popup_arrow_below_h_90" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    <ImageView android:id="@id/popup_arrow_270" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vivo_popup_arrow_below_h_270" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/popup_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" android:layout_toStartOf="@id/popup_arrow_90" android:layout_toEndOf="@id/popup_arrow_270" />
+    <ImageView android:id="@id/popup_arrow_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vivo_popup_arrow_below_v_0" android:layout_below="@id/popup_content" android:layout_centerHorizontal="true" />
+</RelativeLayout>

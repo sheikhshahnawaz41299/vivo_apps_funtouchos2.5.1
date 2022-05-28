@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item>Wi-Fi</item>
+        <item>اسکین کر رہا ہے…</item>
+        <item>کنیکٹ کر رہا ہے...</item>
+        <item>توثیق کر رہا ہے...</item>
+        <item>IP حاصل کر رہا ہے...</item>
+        <item>کنیکٹ ہو گيا</item>
+        <item>موقوف ہو گیا</item>
+        <item>منقطع کر رہا ہے...</item>
+        <item>منقطع کردہ</item>
+        <item>ناکام</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Wi-Fi</item>
+        <item>اسکین کر رہا ہے…</item>
+        <item>کنیکٹ کر رہا ہے...</item>
+        <item>توثیق کر رہا ہے...</item>
+        <item>IP حاصل کر رہا ہے...</item>
+        <item>کنیکٹ ہو گیا%1$s</item>
+        <item>موقوف ہو گیا</item>
+        <item>منقطع کر رہا ہے...</item>
+        <item>منقطع کردہ</item>
+        <item>ناکام</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>آپ کے والد کا نام کیا ہے؟</item>
+        <item>آپ کی ماں کا نام کیا ہے؟</item>
+        <item>آپ کے شریک حیات کا نام کیا ہے؟</item>
+        <item>کون سے ابتدائی مکتب آپ گئے تھے؟</item>
+        <item>آپکے کنڈر گارٹن کے استاد کا نام کیا ہے؟</item>
+        <item>آپکے ہائی اسکول کے استاد کا نام کیا تھا؟</item>
+        <item>آپ کے بچپن کے سب سے اچھے دوست کا نام کیا ہے؟</item>
+        <item>آپ کی پیدائش کی جگہ؟</item>
+        <item>آپ کا طالب علم (روزگار) شناختی نمبر کیا ہے؟</item>
+        <item>آپ کی شناختی کارڈ نمبر کے آخری 6 ہندسے کیا ہیں؟</item>
+        <item>آپ کی کار کا لائسنس پلیٹ نمبر کیا ہے؟</item>
+        <item>آپ کی سب سے پہلی کمپنی جہاں آپ نے کام کیا تھا کا نام کیا تھا؟</item>
+    </string-array>
+</resources>

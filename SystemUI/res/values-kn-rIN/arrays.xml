@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item>Wi-Fi</item>
+        <item>ಸ್ಕ್ಯಾನ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</item>
+        <item>ಸಂಪರ್ಕಪಡಿಸಲಾಗುತ್ತಿದೆ...</item>
+        <item>ಪ್ರಮಾಣೀಕರಿಸುತ್ತಿದೆ...</item>
+        <item>IP ಪಡೆಯಲಾಗುತ್ತಿದೆ…</item>
+        <item>ಸಂಪರ್ಕಿತಗೊಂಡಿದೆ</item>
+        <item>ತಡೆಹಿಡಿಯಲಾಗಿದೆ</item>
+        <item>ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಲಾಗುತ್ತಿದೆ...</item>
+        <item>ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸು</item>
+        <item>ವಿಫಲವಾಗಿದೆ</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Wi-Fi</item>
+        <item>ಸ್ಕ್ಯಾನ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</item>
+        <item>ಸಂಪರ್ಕಪಡಿಸಲಾಗುತ್ತಿದೆ...</item>
+        <item>ಪ್ರಮಾಣೀಕರಿಸುತ್ತಿದೆ...</item>
+        <item>IP ಪಡೆಯಲಾಗುತ್ತಿದೆ…</item>
+        <item>ಸಂಪರ್ಕಿತಗೊಂಡಿದೆ%1$s</item>
+        <item>ತಡೆಹಿಡಿಯಲಾಗಿದೆ</item>
+        <item>ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಲಾಗುತ್ತಿದೆ...</item>
+        <item>ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸು</item>
+        <item>ವಿಫಲವಾಗಿದೆ</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>ನಿಮ್ಮ ತಂದೆಯ ಹೆಸರೇನು?</item>
+        <item>ನಿಮ್ಮ ತಾಯಿಯ ಹೆಸರೇನು?</item>
+        <item>ನಿಮ್ಮ ಸಂಗಾತಿಯ ಹೆಸರೇನು?</item>
+        <item>ನೀವು ಹಾಜರಾದ ಪ್ರಾಥಮಿಕ ಶಾಲೆ ಯಾವುದು ?</item>
+        <item>ನಿಮ್ಮ ಕಿಂಡರ್ಗಾರ್ಟನ್ ಶಿಕ್ಷಕರ ಹೆಸರೇನು?</item>
+        <item>ನಿಮ್ಮ ಪ್ರೌಢಶಾಲಾ ಶಿಕ್ಷಕರ ಹೆಸರೇನು?</item>
+        <item>ನಿಮ್ಮ ಉತ್ತಮ ಬಾಲ್ಯ ಸ್ನೇಹಿತನ ಹೆಸರೇನು?</item>
+        <item>ನೀವು ಹುಟ್ಟಿದ ಸ್ಥಳ ಯಾವುದು?</item>
+        <item>ನಿಮ್ಮ ವಿದ್ಯಾರ್ಥಿ (ಉದ್ಯೋಗಿ) ಗುರುತಿಸುವಿಕೆಯ ಸಂಖ್ಯೆ ಯಾವುದು?</item>
+        <item>ನಿಮ್ಮ ಗುರುತಿನ ಕಾರ್ಡ್ ಸಂಖ್ಯೆಯ ಕೊನೆಯ 6 ಅಂಕಿಗಳು ಯಾವುವು?</item>
+        <item>ನಿಮ್ಮ ಕಾರಿನ ಪರವಾನಗಿ ಪ್ಲೇಟ್ ಸಂಖ್ಯೆ ಎಷ್ಟು?</item>
+        <item>ನೀವು ಕೆಲಸ ಮಾಡಿದ ಮೊದಲ ಕಂಪನಿಯ ಹೆಸರೇನು?</item>
+    </string-array>
+</resources>

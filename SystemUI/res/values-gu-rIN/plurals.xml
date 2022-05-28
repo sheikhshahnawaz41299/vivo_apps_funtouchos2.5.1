@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">વિહંગાવલોકનમાં %d સ્ક્રીન</item>
+        <item quantity="one">વિહંગાવલોકનમાં 1 સ્ક્રીન</item>
+    </plurals>
+    <plurals name="missed_call">
+        <item quantity="other">%d મિસ્ડ કૉલ(લો)</item>
+        <item quantity="one">1 છૂટેલો કૉલ</item>
+    </plurals>
+    <plurals name="unread_msg">
+        <item quantity="other">%d વણવાંચેલ સંદેશ(શા)</item>
+        <item quantity="one">1 ન વાંચેલ સંદેશ</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">ખોટો SIM કાર્ડ PIN, તમારી પાસે હજી %d પ્રયાસ છે.</item>
+        <item quantity="one">ખોટો SIM કાર્ડ PIN, તમારી પાસે હજી %d પ્રયાસ છે. જો તમે હજી નિષ્ફળ થાઓ, તો તમારે ઉપકરણને અનલૉક કરવા માટે કેરિયરનો સંપર્ક કરવો આવશ્યક છે.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">ખોટો SIM કાર્ડ PUK. તમે વધુ %d વખત પ્રયાસ કરી શકો છો. જો તમે હજી નિષ્ફળ થાઓ, તો SIM કાર્ડ કાયમી રીતે અક્ષમ થશે.</item>
+        <item quantity="one">ખોટો SIM કાર્ડ PUK. તમે વધુ %d વખત પ્રયાસ કરી શકો છો. જો તમે હજી નિષ્ફળ થાઓ, તો SIM કાર્ડ કાયમી રીતે અક્ષમ થશે.</item>
+    </plurals>
+</resources>

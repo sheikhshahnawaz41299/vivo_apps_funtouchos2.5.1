@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.vivo.common.keyguard.widget.music.MusicButtonPanel android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/music_panel_delete" android:background="@drawable/vivo_keyguard_nature3_music_delete_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageButton android:id="@id/music_panel_favourite" android:background="@drawable/vivo_keyguard_nature3_music_btn_fav_normal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageButton android:id="@id/music_panel_previous" android:background="@drawable/vivo_keyguard_nature3_music_pre_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/music_play_or_pause" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/music_panel_play" android:background="@drawable/vivo_keyguard_nature3_music_play_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageButton android:id="@id/music_panel_pause" android:background="@drawable/vivo_keyguard_nature3_music_pause_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ImageButton android:id="@id/music_panel_next" android:background="@drawable/vivo_keyguard_nature3_music_next_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.android.systemui.vivo.common.keyguard.widget.music.MusicButtonPanel>

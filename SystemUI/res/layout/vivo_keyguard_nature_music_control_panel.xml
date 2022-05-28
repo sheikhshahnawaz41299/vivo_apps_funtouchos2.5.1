@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/vivo_keyguard_music_play" android:background="@drawable/vivo_keyguard_nature_music_play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <ImageButton android:id="@id/vivo_keyguard_music_pause" android:background="@drawable/vivo_keyguard_nature_music_pause" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <ImageButton android:id="@id/vivo_keyguard_music_prev" android:background="@drawable/vivo_keyguard_nature_music_prev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="32.0dip" android:layout_toLeftOf="@id/vivo_keyguard_music_play" />
+    <ImageButton android:id="@id/vivo_keyguard_music_next" android:background="@drawable/vivo_keyguard_nature_music_next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="31.0dip" android:layout_toRightOf="@id/vivo_keyguard_music_play" />
+</RelativeLayout>

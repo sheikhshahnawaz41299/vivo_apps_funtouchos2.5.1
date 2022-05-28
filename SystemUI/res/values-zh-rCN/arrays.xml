@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item>Wi-Fi</item>
+        <item>正在扫描...</item>
+        <item>正在连接...</item>
+        <item>身份验证...</item>
+        <item>获取IP...</item>
+        <item>已连接</item>
+        <item>已暂停</item>
+        <item>正在断开...</item>
+        <item>已断开</item>
+        <item>失败</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Wi-Fi</item>
+        <item>正在扫描...</item>
+        <item>正在连接...</item>
+        <item>身份验证...</item>
+        <item>获取IP...</item>
+        <item>%1$s</item>
+        <item>已暂停</item>
+        <item>正在断开...</item>
+        <item>已断开</item>
+        <item>失败</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>您父亲的姓名？</item>
+        <item>您母亲的姓名？</item>
+        <item>您配偶的姓名？</item>
+        <item>您就读的小学是？</item>
+        <item>启蒙老师的名字？</item>
+        <item>高中班主任的名字？</item>
+        <item>最熟悉的童年好友的名字？</item>
+        <item>您的出生地？</item>
+        <item>您学号（工号）是？</item>
+        <item>您的身份证后6位数字？</item>
+        <item>您的车牌号？</item>
+        <item>您就职的第一家公司的名称？</item>
+    </string-array>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.vivo.common.network.VivoSignalClusterViewLeft android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/airplane" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vivo_signal_flightmode_white" />
+    <TextView android:textSize="@dimen/vivo_statusbar_no_sim_text_size" android:textStyle="bold" android:id="@id/text_no_sim" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vivo_no_sim" />
+    <LinearLayout android:gravity="end" android:orientation="vertical" android:id="@id/mobile_type_signal_sim1" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="bottom" android:id="@id/mobile_type_signal_sim1_ps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/mobile_type_sim1_ps" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/mobile_signal_sim1_ps" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom" android:id="@id/mobile_type_signal_sim1_cs" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/mobile_type_sim1_cs" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/mobile_signal_sim1_cs" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:visibility="invisible" android:layout_width="2.0dip" android:layout_height="2.0dip" />
+    <LinearLayout android:gravity="end" android:orientation="vertical" android:id="@id/mobile_type_signal_sim2" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="bottom" android:id="@id/mobile_type_signal_sim2_ps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/mobile_type_sim2_ps" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/mobile_signal_sim2_ps" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom" android:id="@id/mobile_type_signal_sim2_cs" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/mobile_type_sim2_cs" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/mobile_signal_sim2_cs" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/vivo_statusbar_network_speed_text_size" android:textStyle="bold" android:gravity="center_vertical" android:id="@id/networkspeed" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+</com.android.systemui.vivo.common.network.VivoSignalClusterViewLeft>

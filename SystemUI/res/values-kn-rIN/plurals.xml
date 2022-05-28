@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">ಸಮಗ್ರ ನೋಟದಲ್ಲಿರುವ %d ಪರದೆಗಳು</item>
+        <item quantity="one">ಸಮಗ್ರ ನೋಟದಲ್ಲಿರುವ 1 ಪರದೆಗಳು</item>
+    </plurals>
+    <plurals name="missed_call">
+        <item quantity="other">%d ತಪ್ಪಿದ ಕರೆಗಳು</item>
+        <item quantity="one">1 ತಪ್ಪಿದ ಕರೆ</item>
+    </plurals>
+    <plurals name="unread_msg">
+        <item quantity="other">%d ಓದದಿರುವ ಸಂದೇಶ(ಗಳು)</item>
+        <item quantity="one">1 ಓದದ ಸಂದೇಶ</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">ತಪ್ಪಾದ SIM PIN ಕೋಡ್, ನಿಮ್ಮಲ್ಲಿ %d ಪ್ರಯತ್ನಗಳು ಬಾಕಿ ಉಳಿದಿವೆ.</item>
+        <item quantity="one">ತಪ್ಪಾದ SIM PIN ಕೋಡ್, ನೀವು ನಿಮ್ಮ ಸಾಧನವನ್ನು ಅನ್ಲಾಕ್ ಮಾಡಲು ನಿಮ್ಮ ವಾಹಕವನ್ನು ಸಂಪರ್ಕಿಸುವುದಕ್ಕೂ ಮುನ್ನ %d ಪ್ರಯತ್ನಗಳು ಬಾಕಿಯಿವೆ.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">ತಪ್ಪಾದ SIM PUK ಕೋಡ್, SIM ಶಾಶ್ವತವಾಗಿ ನಿಷ್ಪ್ರಯೋಜಕವಾಗುವ ಮೊದಲು ನಿಮಗೆ %d ಪ್ರಯತ್ನಗಳು ಬಾಕಿಯಿವೆ.</item>
+        <item quantity="one">ತಪ್ಪಾದ SIM PUK ಕೋಡ್, SIM ಶಾಶ್ವತವಾಗಿ ನಿಷ್ಪ್ರಯೋಜಕವಾಗುವ ಮೊದಲು ನಿಮಗೆ %d ಪ್ರಯತ್ನಗಳು ಬಾಕಿಯಿವೆ.</item>
+    </plurals>
+</resources>

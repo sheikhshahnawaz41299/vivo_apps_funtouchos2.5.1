@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item>Wi-Fi</item>
+        <item>正在掃描...</item>
+        <item>正在連接...</item>
+        <item>身份驗証…</item>
+        <item>獲取IP…</item>
+        <item>已連接</item>
+        <item>已暫停</item>
+        <item>正在中斷...</item>
+        <item>已中斷</item>
+        <item>失敗</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Wi-Fi</item>
+        <item>正在掃描...</item>
+        <item>正在連接...</item>
+        <item>身份驗証…</item>
+        <item>獲取IP…</item>
+        <item>%1$s</item>
+        <item>已暫停</item>
+        <item>正在中斷...</item>
+        <item>已中斷</item>
+        <item>失敗</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>您父親的姓名？</item>
+        <item>您母親的姓名？</item>
+        <item>您配偶的姓名？</item>
+        <item>您就讀的小學是？</item>
+        <item>啟蒙老師的名字？</item>
+        <item>高中班主任的名字？</item>
+        <item>最熟悉的童年好友名字？</item>
+        <item>您的出生地方？</item>
+        <item>您的學號（職員証號碼）是？</item>
+        <item>您的身分證後6位數字？</item>
+        <item>您的車牌號碼？</item>
+        <item>您就職的第一間公司名稱？</item>
+    </string-array>
+</resources>

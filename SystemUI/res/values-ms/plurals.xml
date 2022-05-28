@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d skrin dalam gambaran keseluruhan</item>
+        <item quantity="one">1 skrin dalam gambaran keseluruhan</item>
+    </plurals>
+    <plurals name="missed_call">
+        <item quantity="other">%d panggilan terlepas</item>
+        <item quantity="one">1 panggilan tidak dijawab</item>
+    </plurals>
+    <plurals name="unread_msg">
+        <item quantity="other">%d mesej tidak dibaca</item>
+        <item quantity="one">1 mesej belum dibaca</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">PIN kad SIM salah, anda masih mempunyai %d cubaan.</item>
+        <item quantity="one">PIN kad SIM salah, anda masih mempunyai %d cubaan. Jika anda masih gagal, anda perlu hubungi pengendali untuk membuka kunci peranti.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">PUK kad SIM salah. Anda boleh mencuba sebanyak %d kali lagi. Jika anda masih gagal, kad SIM akan dinyahdayakan secara kekal.</item>
+        <item quantity="one">PUK kad SIM salah. Anda boleh mencuba sebanyak %d kali lagi. Jika anda masih gagal, kad SIM akan dinyahdayakan secara kekal.</item>
+    </plurals>
+</resources>

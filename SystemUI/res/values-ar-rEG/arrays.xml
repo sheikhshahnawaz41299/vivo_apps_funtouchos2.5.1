@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item>Wi-Fi</item>
+        <item>جارٍ المسح…</item>
+        <item>جارٍ الاتصال…</item>
+        <item>جارٍ المصادقة…</item>
+        <item>جارٍ الحصول على عنوان IP…</item>
+        <item>متصل</item>
+        <item>تم الإيقاف مؤقتًا</item>
+        <item>جارٍ قطع الاتصال…</item>
+        <item>تم قطع الاتصال</item>
+        <item>فشل</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Wi-Fi</item>
+        <item>جارٍ المسح…</item>
+        <item>جارٍ الاتصال…</item>
+        <item>جارٍ المصادقة…</item>
+        <item>جارٍ الحصول على عنوان IP…</item>
+        <item>متصل بـ %1$s</item>
+        <item>تم الإيقاف مؤقتًا</item>
+        <item>جارٍ قطع الاتصال…</item>
+        <item>تم قطع الاتصال</item>
+        <item>فشل</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>ما اسم والدك؟</item>
+        <item>ما اسم والدتك؟</item>
+        <item>ما اسم زوجتك؟</item>
+        <item>ما المدرسة الابتدائية التي ذهبت إليها؟</item>
+        <item>ما اسم مدرسك في مرحلة الحضانة؟</item>
+        <item>ما اسم مدرسك في المرحلة الثانوية؟</item>
+        <item>ما اسم أفضل صديق لك في مرحلة الطفولة؟</item>
+        <item>ما مكان ميلادك؟</item>
+        <item>ما رقم تعريف الطالب (العمل) الخاص بك؟</item>
+        <item>ما آخر 6 أرقام في رقم بطاقة إثبات الشخصية؟</item>
+        <item>ما رقم لوحة ترخيص سيارتك؟</item>
+        <item>ما اسم أول شركة عملتَ بها؟</item>
+    </string-array>
+</resources>

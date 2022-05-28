@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">స్థూలదృష్టిలో %d స్క్రీన్‌లు</item>
+        <item quantity="one">స్థూలదృష్టిలో 1 స్క్రీన్</item>
+    </plurals>
+    <plurals name="missed_call">
+        <item quantity="other">%d మిస్‌డ్ కాల్(లు)</item>
+        <item quantity="one">1 మిస్సెడ్ కాల్</item>
+    </plurals>
+    <plurals name="unread_msg">
+        <item quantity="other">%d చదవని సందేశం(లు)</item>
+        <item quantity="one">1 చదవని సందేశం</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">సిమ్ కార్డ్ PIN తప్పు. మీకు %d ప్రయత్నం(లు) మిగిలి ఉంది(ఉన్నాయి).</item>
+        <item quantity="one">సిమ్ కార్డ్ PIN తప్పు. మీకు మీ పరికరాన్ని అన్‌లాక్ చేయడానికి %d ప్రయత్నం(లు) మిగిలి ఉంది(ఉన్నాయి), ఆ తర్వాత మీరు మీ క్యారియర్‌ను సంప్రదించాలి.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">సిమ్ కార్డ్ PUK తప్పు. మీరు ఇంకా %d సార్లు ప్రయత్నించవచ్చు. మీరు ఇప్పటికీ విఫలమైతే, సిమ్ కార్డ్ శాశ్వతంగా నిలిపివేయబడుతుంది.</item>
+        <item quantity="one">సిమ్ కార్డ్ PUK తప్పు. మీరు ఇంకా %d సార్లు ప్రయత్నించవచ్చు. మీరు ఇప్పటికీ విఫలమైతే, సిమ్ కార్డ్ శాశ్వతంగా నిలిపివేయబడుతుంది.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.PhoneStatusBarView android:orientation="vertical" android:id="@id/vivo_status_bar" android:background="@drawable/system_bar_background" android:focusable="true" android:descendantFocusability="afterDescendants" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <ImageView android:id="@id/notification_lights_out" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="@dimen/status_bar_icon_size" android:layout_height="fill_parent" android:src="@drawable/ic_sysbar_lights_out_dot_small" android:scaleType="center" android:paddingStart="6.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/status_bar_contents" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="6.0dip" android:paddingEnd="6.0dip">
+        <com.android.systemui.statusbar.AlphaOptimizedFrameLayout android:orientation="horizontal" android:id="@id/notification_icon_area" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.android.keyguard.AlphaOptimizedLinearLayout android:id="@id/notification_icon_area_inner" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include android:id="@id/vivo_signal_cluster_left" android:layout_width="wrap_content" android:layout_height="fill_parent" layout="@layout/vivo_signal_cluster_view_left" />
+                <com.android.systemui.statusbar.StatusBarIconView android:id="@id/moreIcon" android:visibility="gone" android:layout_width="@dimen/status_bar_icon_size" android:layout_height="fill_parent" android:src="@drawable/stat_notify_more" />
+                <com.android.systemui.vivo.common.notification.VivoIconMerger android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/notificationIcons" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentStart="true" />
+            </com.android.keyguard.AlphaOptimizedLinearLayout>
+        </com.android.systemui.statusbar.AlphaOptimizedFrameLayout>
+        <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="2.0dip" android:paddingEnd="2.0dip">
+            <com.android.systemui.statusbar.policy.Clock android:textSize="@dimen/vivo_statusbar_clock_text_size" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center" android:id="@id/status_bar_clock" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="@dimen/status_bar_clock_max_width" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+            <ImageView android:gravity="center" android:id="@id/lock" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/vivo_lock_screen_another" />
+        </FrameLayout>
+        <com.android.keyguard.AlphaOptimizedLinearLayout android:orientation="horizontal" android:id="@id/system_icon_area" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="end|center" android:id="@id/statusIcons" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="end|center" android:id="@id/signal_battery_cluster" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="0.0dip" android:layout_alignParentEnd="true">
+                    <include android:id="@id/vivo_signal_cluster_right" android:layout_width="wrap_content" android:layout_height="fill_parent" layout="@layout/vivo_signal_cluster_view_right" />
+                    <TextView android:textSize="@dimen/vivo_statusbar_battery_percentage_text_size" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/battery_level" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="3.0dip" android:paddingEnd="1.0dip" />
+                    <com.android.systemui.statusbar.AnimatedImageView android:id="@id/battery" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.android.keyguard.AlphaOptimizedLinearLayout>
+    </LinearLayout>
+    <ViewStub android:id="@id/ticker_stub" android:layout="@layout/status_bar_ticker" android:inflatedId="@id/ticker" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.android.systemui.statusbar.phone.PhoneStatusBarView>

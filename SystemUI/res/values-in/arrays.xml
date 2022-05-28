@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item>Wi-Fi</item>
+        <item>Memindai…</item>
+        <item>Menyambung…</item>
+        <item>Mengotentikasi…</item>
+        <item>Mendapatkan IP...</item>
+        <item>Terhubung</item>
+        <item>Terhenti</item>
+        <item>Memutus sambungan…</item>
+        <item>Terputus</item>
+        <item>Gagal</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Wi-Fi</item>
+        <item>Memindai…</item>
+        <item>Connecting%1$s…</item>
+        <item>Authenticating%1$s…</item>
+        <item>Mendapatkan IP...</item>
+        <item>Connected%1$s</item>
+        <item>Terhenti</item>
+        <item>Disconnecting from %1$s…</item>
+        <item>Terputus</item>
+        <item>Gagal</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>Siapakah ayah Anda?</item>
+        <item>Siapakah ibu Anda?</item>
+        <item>Siapakah pasangan Anda?</item>
+        <item>Apa nama sekolah dasar Anda?</item>
+        <item>Siapa nama guru taman kanak-kanak Anda?</item>
+        <item>Siapa nama guru sekolah menengah atas Anda?</item>
+        <item>Siapa nama sahabat masa kecil Anda?</item>
+        <item>Di mana Anda lahir?</item>
+        <item>Apa nomor identifikasi pelajar (karyawan) Anda?</item>
+        <item>Apa 6 digit terakhir dari nomor kartu identitas Anda?</item>
+        <item>Apa nomor pelat lisensi mobil Anda?</item>
+        <item>Apa nama perusahaan tempat Anda bekerja pertama kali?</item>
+    </string-array>
+</resources>

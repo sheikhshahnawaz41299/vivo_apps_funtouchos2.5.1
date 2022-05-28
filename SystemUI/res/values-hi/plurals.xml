@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">ओवरव्यू में %d स्क्रीन्स</item>
+        <item quantity="one">ओवरव्यू में 1 स्क्रीन</item>
+    </plurals>
+    <plurals name="missed_call">
+        <item quantity="other">%d मिस कॉल(लें)</item>
+        <item quantity="one">1 छूटी कॉल</item>
+    </plurals>
+    <plurals name="unread_msg">
+        <item quantity="other">%d अपठित संदेश</item>
+        <item quantity="one">1 अपठित संदेश</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">गलत सिम कार्ड पिन। आपके पास %d प्रयास शेष हैं।</item>
+        <item quantity="one">गलत सिम कार्ड पिन। अपना डिवाइस अनलॉक करने के लिए अपने वाहक से संपर्क करने से पहले आपके पास %d प्रयास शेष हैं।</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">गलत सिम कार्ड PUK आप %d बार और प्रयास कर सकते हैं। अगर आप फिर भी असफल होते हैं, सिम कार्ड को स्थायी तौर पर अक्षम कर दिया जाएगा।</item>
+        <item quantity="one">गलत सिम कार्ड PUK आप %d बार और प्रयास कर सकते हैं। अगर आप फिर भी असफल होते हैं, सिम कार्ड को स्थायी तौर पर अक्षम कर दिया जाएगा।</item>
+    </plurals>
+</resources>
