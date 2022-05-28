@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ການບໍລິການອອນລາຍ</string>
+    <string name="smartkey">ການບໍລິການອອນລາຍ</string>
+    <string name="the_key_to_start">ການບໍລິການອອນລາຍ</string>
+    <string name="back">ກັບຄືນ</string>
+    <string name="cancel">ຍົກເລີກ</string>
+    <string name="the_key_to_start_off_tips">"ເມື່ອໜ້າຈໍດຳ, ຄ້າງ [ລະດັບສຽງ -] ໄວ້ ເພື່ອໃຊ້ໂທລະສັບ 
+ໝາຍເຫດ: ບໍ່ມີຢູ່ໃນຂະນະຫຼິ້ນເພງ"</string>
+    <string name="which_function_to_start">ເລືອກການທຳງານເພື່ອສະແດງເມື່ອກົດ [ລະດັບສຽງ -]</string>
+    <string name="start_flashlight_ornot">ເປີດ/ປິດ ໄຟສາຍ</string>
+    <string name="recorder">ບັນທຶກ</string>
+    <string name="start_camera">ເປີດ​ກ້ອງ</string>
+    <string name="start_application">ເປີດໃຊ້ງານແອັບ</string>
+    <string name="choice_application">ເລືອກແອັບ</string>
+    <string name="has_uninstalled">ບໍ່​ໄດ້​ຕິດ​ຕັ້ງເທື່ອ</string>
+    <string name="loading">ກຳລັງໂຫຼດ...</string>
+    <string name="start_facebook">ເປີດ Facebook</string>
+    <string name="flashlight_low_battery_tip">ແບັດເຕີຣີອ່ອນ. ບໍ່ມີຄຸນສົມບັດນີ້ຢູ່ຊົ່ວຄາວ.</string>
+</resources>

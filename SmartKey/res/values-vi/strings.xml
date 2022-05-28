@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Khởi chạy nhanh</string>
+    <string name="smartkey">Khởi chạy nhanh</string>
+    <string name="the_key_to_start">Khởi chạy nhanh</string>
+    <string name="back">Quay lại</string>
+    <string name="cancel">Hủy</string>
+    <string name="the_key_to_start_off_tips">"Khi màn hình chuyển sang màu đen, giữ phím giảm âm lượng [Âm lượng -] để sử dụng điện thoại 
+Lưu ý: Không khả dụng khi phát nhạc"</string>
+    <string name="which_function_to_start">Chọn chức năng để thực hiện khi giữ phím giảm âm lượng [Âm lượng -]</string>
+    <string name="start_flashlight_ornot">Bật/tắt đèn pin</string>
+    <string name="recorder">Ghi</string>
+    <string name="start_camera">Mở máy ảnh</string>
+    <string name="start_application">Mở ứng dụng</string>
+    <string name="choice_application">Chọn ứng dụng</string>
+    <string name="has_uninstalled">Không được cài đặt</string>
+    <string name="loading">Đang tải...</string>
+    <string name="start_facebook">Mở Facebook</string>
+    <string name="flashlight_low_battery_tip">Pin yếu. Tính năng này tạm thời không khả dụng.</string>
+</resources>

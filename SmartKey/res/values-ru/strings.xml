@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Интеллектуальный щелчок кнопкой</string>
+    <string name="smartkey">Интеллектуальный щелчок кнопкой</string>
+    <string name="the_key_to_start">Интеллектуальный щелчок кнопкой</string>
+    <string name="back">Назад</string>
+    <string name="cancel">Отмена</string>
+    <string name="the_key_to_start_off_tips">"При выключенном экране удерживайте кнопку [Громкость -], чтобы использовать телефон 
+Примечания. Недоступно при воспроизведении музыки"</string>
+    <string name="which_function_to_start">Выберите функцию, которая будет выполняться при удержании кнопки [Громкость -]</string>
+    <string name="start_flashlight_ornot">Включить/выключить фонарик</string>
+    <string name="recorder">Запись</string>
+    <string name="start_camera">Открыть камеру</string>
+    <string name="start_application">Включить приложение</string>
+    <string name="choice_application">Выбор приложения</string>
+    <string name="has_uninstalled">Не установлено</string>
+    <string name="loading">Загрузка…</string>
+    <string name="start_facebook">Открыть Facebook</string>
+    <string name="flashlight_low_battery_tip">Низкий заряд батареи. Эта функция временно недоступна.</string>
+</resources>

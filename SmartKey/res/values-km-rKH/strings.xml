@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ការចុចឆ្លាតវៃ</string>
+    <string name="smartkey">ការចុចឆ្លាតវៃ</string>
+    <string name="the_key_to_start">ការចុចឆ្លាតវៃ</string>
+    <string name="back">ថយក្រោយ</string>
+    <string name="cancel">បោះ​បង់​</string>
+    <string name="the_key_to_start_off_tips">"នៅពេលអេក្រង់ពណ៌ខ្មៅ កាន់ [កម្រិតសំលេង -] ឱ្យជាប់ដើម្បីប្រើទូរស័ព្ទ 
+កំណត់សម្គាល់៖ មិនអាចរកបាន នៅពេលកំពុងចាក់តន្រ្តី"</string>
+    <string name="which_function_to_start">ជ្រើសមុខងារដែលត្រូវបំពេញ នៅពេលកាន់ [កម្រិតសំលេង -] ឱ្យជាប់</string>
+    <string name="start_flashlight_ornot">បិទ/បិទពិល</string>
+    <string name="recorder">ថត</string>
+    <string name="start_camera">បើក​ម៉ាស៊ីន​ថត</string>
+    <string name="start_application">បើកកម្មវិធី</string>
+    <string name="choice_application">ជ្រើស​កម្មវិធី</string>
+    <string name="has_uninstalled">មិន​បា​ន​ដំឡើង</string>
+    <string name="loading">កំពុងផ្ទុក...</string>
+    <string name="start_facebook">បើក Facebook</string>
+    <string name="flashlight_low_battery_tip">ថ្មខ្សោយ។ លក្ខណៈពិសេសនេះគឺមិនអាចប្រើបានជាបណ្តោះអាសន្ន។</string>
+</resources>

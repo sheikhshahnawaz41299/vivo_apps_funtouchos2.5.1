@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">സ്മാർട്ട് ക്ലിക്ക്</string>
+    <string name="smartkey">സ്മാർട്ട് ക്ലിക്ക്</string>
+    <string name="the_key_to_start">സ്മാർട്ട് ക്ലിക്ക്</string>
+    <string name="back">മടങ്ങുക</string>
+    <string name="cancel">റദ്ദാക്കൂ</string>
+    <string name="the_key_to_start_off_tips">"സ്ക്രീൻ കറുപ്പാകുമ്പോൾ, ഫോൺ കുറിപ്പുകൾ [വോളിയം -]ഉപയോഗിക്കുന്നതിനായി ഹോൾഡുചെയ്യുക 
+കുറിപ്പുകൾ: സംഗീതം പ്ലേ ചെയ്യുമ്പോൾ ലഭ്യമല്ല"</string>
+    <string name="which_function_to_start">ഹോൾഡുചെയ്യുമ്പോൾ നിർവ്വഹിക്കാനുള്ള പ്രവർത്തനക്ഷമത തിരഞ്ഞെടുക്കുക[വോളിയം -]</string>
+    <string name="start_flashlight_ornot">ഫ്ലാഷ്‌ലൈറ്റ് ഓണാക്കുക/ഓഫാക്കുക</string>
+    <string name="recorder">റെക്കോർഡിംഗ്</string>
+    <string name="start_camera">ക്യാമറ തുറക്കുക</string>
+    <string name="start_application">ആപ്പ് പ്രാപ്തമാക്കുക</string>
+    <string name="choice_application">ആപ്പ് തിരഞ്ഞെടുക്കൂ</string>
+    <string name="has_uninstalled">ഇൻസ്‌റ്റാളുചെയ്തില്ല</string>
+    <string name="loading">ലോഡിംഗ്…</string>
+    <string name="start_facebook">Facebook തുറക്കുക</string>
+    <string name="flashlight_low_battery_tip">ബാറ്ററി കുറവാണ്. ഈ ഫീച്ചർ താൽക്കാലികമായി ലഭ്യമല്ല.</string>
+</resources>

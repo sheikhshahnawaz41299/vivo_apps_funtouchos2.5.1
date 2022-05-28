@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?vivo:generalBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/package_icon" android:layout_width="@dimen/app_icon_size" android:layout_height="@dimen/app_icon_size" android:scaleType="fitCenter" android:layout_centerVertical="true" android:layout_marginStart="@dimen/location_icon_margin" android:layout_alignParentStart="true" />
+    <TextView android:textAppearance="?vivo:textAppearancePreferenceTitle" android:id="@id/package_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:textDirection="locale" android:layout_marginStart="@dimen/location_left_margin" android:layout_toEndOf="@id/package_icon" />
+    <View android:id="@id/tile_divider" android:background="?android:dividerHorizontal" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@vivo:dimen/divider_height" android:layout_below="@id/package_icon" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/listview_divider_margin_left" />
+</RelativeLayout>

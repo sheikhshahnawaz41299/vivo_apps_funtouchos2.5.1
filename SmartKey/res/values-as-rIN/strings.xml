@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">স্মাৰ্ট ঘড়ী</string>
+    <string name="smartkey">স্মাৰ্ট ঘড়ী</string>
+    <string name="the_key_to_start">স্মাৰ্ট ঘড়ী</string>
+    <string name="back">পাছলৈ</string>
+    <string name="cancel">বাতিল</string>
+    <string name="the_key_to_start_off_tips">"স্ক্ৰীণ ক'লা হওতে, ফোন ব্যৱহাৰ কৰিবলৈ [ভলিউম -] ধৰি ৰাখক 
+টোকাসমূহ: সঙ্গীত চলি থাকোতে অনুপলভ্য"</string>
+    <string name="which_function_to_start">[ভলিউম -] ধৰি থকাৰ সময়ত সম্পাদন কৰিবলৈ কাৰ্য্যক্ষমতা বাছনি কৰক</string>
+    <string name="start_flashlight_ornot">ফ্লেচলাইট অন/অফ কৰক</string>
+    <string name="recorder">ৰেকৰ্ড</string>
+    <string name="start_camera">কেমেৰা খোলক</string>
+    <string name="start_application">এপ্প্‌ সক্ষম কৰক</string>
+    <string name="choice_application">এপ্প্‌ বাছনি কৰক</string>
+    <string name="has_uninstalled">ইনষ্টল কৰা নাই</string>
+    <string name="loading">লোডিং...</string>
+    <string name="start_facebook">Facebook খোলক</string>
+    <string name="flashlight_low_battery_tip">বেটাৰী কম আছে৷ এই সুবিধা সাময়িকভাৱে উপলব্ধ নহয়৷</string>
+</resources>

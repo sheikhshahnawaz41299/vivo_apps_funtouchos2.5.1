@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ಸ್ಮಾರ್ಟ್ ಕ್ಲಿಕ್</string>
+    <string name="smartkey">ಸ್ಮಾರ್ಟ್ ಕ್ಲಿಕ್</string>
+    <string name="the_key_to_start">ಸ್ಮಾರ್ಟ್ ಕ್ಲಿಕ್</string>
+    <string name="back">ಹಿಂದೆ</string>
+    <string name="cancel">ರದ್ದು</string>
+    <string name="the_key_to_start_off_tips">"ಸ್ಕ್ರೀನ್ ಕಪ್ಪು ಬಣ್ಣದಲ್ಲಿರುವಾಗ, ಫೋನ್ ಬಳಸಲು [ವಾಲ್ಯೂಮ್ -] ಒತ್ತಿ ಹಿಡಿಯಿರಿ 
+ಟಿಪ್ಪಣಿಗಳು: ಸಂಗೀತ ಪ್ಲೇ ಮಾಡುತ್ತಿರುವಾಗ ಲಭ್ಯವಿರುವುದಿಲ್ಲ"</string>
+    <string name="which_function_to_start">[ವಾಲ್ಯೂಮ್ -] ಒತ್ತಿ ಹಿಡಿದಿರುವಾಗ ನಿರ್ವಹಿಸಲು ಕಾರ್ಯವಿಧಾನವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="start_flashlight_ornot">ಫ್ಲಾಶ್‌ಲೈಟ್ ಆನ್/ಆಫ್ ಮಾಡಿ</string>
+    <string name="recorder">ರೆಕಾರ್ಡ್ ಆಗುತ್ತಿದೆ</string>
+    <string name="start_camera">ಕ್ಯಾಮರಾ ತೆರೆಯಿರಿ</string>
+    <string name="start_application">ಅಪ್ಲಿಕೇಶನ್ ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="choice_application">ಅಪ್ಲಿಕೇಶನ್ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="has_uninstalled">ಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ</string>
+    <string name="loading">ಲೋಡ್ ಆಗುತ್ತಿದೆ...</string>
+    <string name="start_facebook">Facebook ತೆರೆಯಿರಿ</string>
+    <string name="flashlight_low_battery_tip">ಬ್ಯಾಟರಿ ಕಡಿಮೆಯಿದೆ. ಈ ವೈಶಿಷ್ಟ್ಯವು ತಾತ್ಕಾಲಿಕವಾಗಿ ಲಭ್ಯವಿಲ್ಲ.</string>
+</resources>

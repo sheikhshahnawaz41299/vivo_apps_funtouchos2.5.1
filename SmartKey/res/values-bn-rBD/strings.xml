@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">দ্রুত চালু</string>
+    <string name="smartkey">দ্রুত চালু</string>
+    <string name="the_key_to_start">দ্রুত চালু</string>
+    <string name="back">ফরে যান</string>
+    <string name="cancel">বাতিল করুন</string>
+    <string name="the_key_to_start_off_tips">"যখন স্ক্রিন কালো থাকে তখন ফোনটি ব্যবহার করতে [ভলিউম -] ধরে থাকুন 
+টীকাসমূহ: সঙ্গীত বাজানোর সময় অনুপলব্ধ"</string>
+    <string name="which_function_to_start">[ভলিউম -] ধরে থাকার সময় কর্মসম্পাদন করতে কার্যকারিতাটি নির্বাচন করুন</string>
+    <string name="start_flashlight_ornot">ফ্ল্যাশআলোক চালু/বন্ধ করুন</string>
+    <string name="recorder">রেকর্ড করুন</string>
+    <string name="start_camera">ক্যামেরা খুলুন</string>
+    <string name="start_application">অ্যাপ খুলুন</string>
+    <string name="choice_application">অ্যাপ নির্বাচন করুন</string>
+    <string name="has_uninstalled">ইনস্টল করা নেই</string>
+    <string name="loading">লোড হচ্ছে...</string>
+    <string name="start_facebook">Facebook খুলুন</string>
+    <string name="flashlight_low_battery_tip">ব্যাটারি কম। এই বৈশিষ্ট্যটি সাময়িক ভাবে অনুপলব্ধ।</string>
+</resources>

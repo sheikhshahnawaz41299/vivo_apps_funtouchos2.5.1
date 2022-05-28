@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">အမြန်ဖွင့်ခြင်း</string>
+    <string name="smartkey">အမြန်ဖွင့်ခြင်း</string>
+    <string name="the_key_to_start">အမြန်ဖွင့်ခြင်း</string>
+    <string name="back">နောက်သို့</string>
+    <string name="cancel">ပယ်ဖျက်ပါ</string>
+    <string name="the_key_to_start_off_tips">"စခရင်က မှောင်စဉ် ဖုန်းကိုအသုံးပြုရန် [အသံခလုတ် -] ကိုထိနှိပ်ထားပါ 
+မှတ်စု-သီချင်းဖွင့်နေစဉ် အသုံးမပြုနိုင်ပါ"</string>
+    <string name="which_function_to_start">[အသံခလုတ် -] ကိုဖိနှိပ်ထားစဉ် လုပ်ဆောင်ချက်အား စတင်ရန် ရွေးချယ်ပါ</string>
+    <string name="start_flashlight_ornot">ဖလက်ရှ်မီး ဖွင့်/ပိတ်</string>
+    <string name="recorder">မှတ်တမ်း</string>
+    <string name="start_camera">ကင်မရာကိုဖွင့်ပါ</string>
+    <string name="start_application">App ဖွင့်သည်</string>
+    <string name="choice_application">app တစ်ခု ရွေးချယ်ပါ</string>
+    <string name="has_uninstalled">မထည့်သွင်းထားပါ</string>
+    <string name="loading">တင်နေသည်...</string>
+    <string name="start_facebook">Facebook ဖွင့်ပါ</string>
+    <string name="flashlight_low_battery_tip">ဘက်ထရီအားနည်းနေပါသည်၊ ဤအင်္ဂါရပ်ကို ယာယီအားဖြင့် သုံးမရနိုင်ပါ။</string>
+</resources>

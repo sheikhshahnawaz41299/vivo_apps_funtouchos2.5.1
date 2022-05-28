@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">स्मार्ट क्लिक</string>
+    <string name="smartkey">स्मार्ट क्लिक</string>
+    <string name="the_key_to_start">स्मार्ट क्लिक</string>
+    <string name="back">पाछु</string>
+    <string name="cancel">रद्द</string>
+    <string name="the_key_to_start_off_tips">"जखन स्क्रीन कारी भए गेल अछि, फोनक उपयोग करबाक लेल [तीव्रता-] पकड़ू 
+नोट सबए: जखन खेल संगीत अनुपलब्ध होइछ"</string>
+    <string name="which_function_to_start">[तीव्रता-] पकड़ैत काल काज करबाक लेल कार्यक्रमक चयन करु</string>
+    <string name="start_flashlight_ornot">फ्लेसलाइट खोलू / बंद करु</string>
+    <string name="recorder">अभिलेख</string>
+    <string name="start_camera">कैमरा खोलू</string>
+    <string name="start_application">आवेदन समर्थ करु</string>
+    <string name="choice_application">एप चयन करु</string>
+    <string name="has_uninstalled">स्थापना रद्द नहि</string>
+    <string name="loading">लोड करैत...</string>
+    <string name="start_facebook">Facebook खोलू</string>
+    <string name="flashlight_low_battery_tip">बैट्री न्यूनतम स्तर पर अछि। इ फिचर अस्थाइ रुपसँ अनउपलव्ध अछि।</string>
+</resources>

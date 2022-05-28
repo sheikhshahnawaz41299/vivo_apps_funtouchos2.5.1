@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">త్వరిత ప్రారంభం</string>
+    <string name="smartkey">త్వరిత ప్రారంభం</string>
+    <string name="the_key_to_start">త్వరిత ప్రారంభం</string>
+    <string name="back">వెనుకకు</string>
+    <string name="cancel">రద్దు చేయి</string>
+    <string name="the_key_to_start_off_tips">"స్క్రీన్ నల్లగా ఉన్నప్పుడు, ఫోన్‌ని ఉపయోగించడానికి [వాల్యూమ్ -]ని పట్టుకోండి 
+గమనికలు: సంగీతాన్ని ప్లే చేస్తున్నప్పుడు అందుబాటులో ఉండదు"</string>
+    <string name="which_function_to_start">[వాల్యూమ్ -]ని పట్టుకున్నప్పుడు అమలు చేయడానికి కార్యాచరణని ఎంచుకోండి</string>
+    <string name="start_flashlight_ornot">ఫ్లాష్‌లైట్‌ని ఆన్/ఆఫ్ చేయి</string>
+    <string name="recorder">రికా. చేయి</string>
+    <string name="start_camera">కెమెరాను తెరువు</string>
+    <string name="start_application">అనువర్తనాన్ని తెరువు</string>
+    <string name="choice_application">అప్లికేషన్‌ను ఎంచుకోండి</string>
+    <string name="has_uninstalled">ఇన్‌స్టా. కాలేదు</string>
+    <string name="loading">లోడ్ చే...</string>
+    <string name="start_facebook">Facebookని తెరువు</string>
+    <string name="flashlight_low_battery_tip">బ్యాటరీ తక్కువగా ఉంది. ఈ ఫీచర్ తాత్కాలికంగా అందుబాటులో లేదు.</string>
+</resources>

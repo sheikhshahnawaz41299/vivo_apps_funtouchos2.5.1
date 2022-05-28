@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_icon_size">51.0px</dimen>
+    <dimen name="location_icon_margin">12.0px</dimen>
+    <dimen name="location_left_margin">6.0px</dimen>
+    <dimen name="advance_icon_margin_right">21.0px</dimen>
+    <dimen name="title_textsize">16.0sp</dimen>
+    <dimen name="icon_padding">26.0px</dimen>
+    <dimen name="advance_marginLeft">210.0dip</dimen>
+    <dimen name="preference_list_divider_margin_left">48.0dip</dimen>
+    <dimen name="listview_divider_margin_left">46.0dip</dimen>
+</resources>

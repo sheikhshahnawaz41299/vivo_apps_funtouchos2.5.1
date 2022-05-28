@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mabilisang paglunsad</string>
+    <string name="smartkey">Mabilisang paglunsad</string>
+    <string name="the_key_to_start">Mabilisang paglunsad</string>
+    <string name="back">Bumalik</string>
+    <string name="cancel">Kanselahin</string>
+    <string name="the_key_to_start_off_tips">"Kapag itim ang screen, pindutin nang matagal ang [Volume -] upang gamitin ang telepono 
+Paunawa: Hindi available kapag nagpe-play ng musika"</string>
+    <string name="which_function_to_start">Piliin ang functionality na isasagawa kapag pinipindot nang matagal ang [Volume -]</string>
+    <string name="start_flashlight_ornot">I-on/i-off ang Flashlight</string>
+    <string name="recorder">I-record</string>
+    <string name="start_camera">Buksan ang camera</string>
+    <string name="start_application">Buksan ang app</string>
+    <string name="choice_application">Pumili ng app</string>
+    <string name="has_uninstalled">Hindi naka-install</string>
+    <string name="loading">Nilo-load...</string>
+    <string name="start_facebook">Buksan ang Facebook</string>
+    <string name="flashlight_low_battery_tip">Mahina ang baterya. Ang tampok na ito ay pansamantalang hindi available.</string>
+</resources>

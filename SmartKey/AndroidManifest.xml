@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.vivo.SmartKey" platformBuildVersionCode="22" platformBuildVersionName="5.1.1-eng.compiler.20170308">
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.STOP_APP_SWITCHES"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.bbk.iqoo.logsystem.permission.READ_DATA"/>
+    <uses-permission android:name="com.bbk.iqoo.logsystem.permission.WRITE_DATA"/>
+    <application android:allowBackup="true" android:icon="@drawable/ic_settings_smart_key_item" android:label="@string/smartkey" android:name=".SmartKeyApp" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <service android:enabled="false" android:name="com.squareup.leakcanary.internal.HeapAnalyzerService" android:process=":leakcanary"/>
+        <service android:enabled="false" android:name="com.squareup.leakcanary.DisplayLeakService"/>
+        <activity android:enabled="false" android:label="Leaks" android:name="com.squareup.leakcanary.internal.DisplayLeakActivity" android:taskAffinity="com.squareup.leakcanary"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.vivo.SmartKey.MainActivity" android:screenOrientation="portrait" android:theme="@style/bbk_title_bar_style">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.vivo.smartKey.bbk_mainactivity"/>
+                <category android:name="vivo.intent.category.settings.MAIN"/>
+            </intent-filter>
+            <meta-data android:name="vivo.settings.order" android:value="18000"/>
+            <meta-data android:name="search_xml" android:resource="@xml/smartkey_nodes"/>
+        </activity>
+        <activity android:excludeFromRecents="true" android:label="@string/choice_application" android:launchMode="singleTask" android:name="com.vivo.SmartKey.ApplicationListActivity" android:screenOrientation="portrait" android:theme="@vivo:style/Theme.Vigour.Light.NoTitleBar">
+            <intent-filter>
+                <action android:name="com.android.bbk_mainactivity.applicationlist"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name="com.vivo.SmartKey.MyService">
+            <intent-filter android:priority="1000">
+                <action android:name="vivo.action.ACTION_THE_KEY_TO_START_FUNCTIONS"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="orientation|screenSize" android:excludeFromRecents="true" android:launchMode="singleInstance" android:name=".SplashActivity" android:screenOrientation="portrait" android:theme="@style/SplashTheme"/>
+    </application>
+</manifest>

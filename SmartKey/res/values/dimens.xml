@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_icon_size">82.0px</dimen>
+    <dimen name="location_icon_margin">10.0dip</dimen>
+    <dimen name="location_left_margin">4.0dip</dimen>
+    <dimen name="advance_icon_margin_right">34.0px</dimen>
+    <dimen name="title_textsize">36.0px</dimen>
+    <dimen name="icon_padding">46.0px</dimen>
+    <dimen name="advance_marginLeft">200.0px</dimen>
+    <dimen name="title_width">250.0dip</dimen>
+</resources>

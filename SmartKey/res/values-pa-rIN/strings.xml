@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ਸਮਾਰਟ ਕਲਿੱਕ</string>
+    <string name="smartkey">ਸਮਾਰਟ ਕਲਿੱਕ</string>
+    <string name="the_key_to_start">ਸਮਾਰਟ ਕਲਿੱਕ</string>
+    <string name="back">ਪਿੱਛੇ</string>
+    <string name="cancel">ਰੱਦ ਕਰੋ</string>
+    <string name="the_key_to_start_off_tips">"ਜਦੋਂ ਸਕਰੀਨ ਕਾਲੀ ਹੁੰਦੀ ਹੈ, ਤਾਂ ਫੋਨ ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ [ਵਾਲਿਊਮ -] ਨੂੰ ਹੋਲਡ ਰੱਖੋ 
+ਨੋਟ: ਉਪਲਬਧ ਨਹੀ ਹੁੰਦੀ ਜਦੋਂ ਸੰਗੀਤ ਚੱਲਦਾ ਹੈ"</string>
+    <string name="which_function_to_start">[ਵਾਲਿਊਮ -] ਨੂੰ ਦਬਾਉਂਦੇ ਹੋਏ ਸੰਚਾਲਨ ਕਰਨ ਲਈ ਫੰਕਸ਼ਨ ਦੀ ਚੋਣ ਕਰੋ</string>
+    <string name="start_flashlight_ornot">ਫਲੈਸ਼ ਲਾਈਟ ਨੂੰ ਔਨ/ਔਫ ਕਰੋ</string>
+    <string name="recorder">ਰਿਕਾਰਡ</string>
+    <string name="start_camera">ਕੈਮਰਾ ਖੋਲ੍ਹੋ</string>
+    <string name="start_application">ਐਪ ਨੂੰ ਸਮਰਥ ਬਣਾਓ</string>
+    <string name="choice_application">ਐਪ ਦੀ ਚੋਣ ਕਰੋ</string>
+    <string name="has_uninstalled">ਇੰਸਟਾਲ ਨਹੀਂ ਕੀਤਾ</string>
+    <string name="loading">ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ...</string>
+    <string name="start_facebook">Facebook ਖੋਲ੍ਹੋ</string>
+    <string name="flashlight_low_battery_tip">ਬੈਟਰੀ ਘੱਟ ਹੈ। ਇਹ ਵਿਸ਼ੇਸ਼ਤਾ ਅਸਥਾਈ ਤੌਰ ਤੇ ਅਣਉਪਲਬਧ ਹੈ।</string>
+</resources>

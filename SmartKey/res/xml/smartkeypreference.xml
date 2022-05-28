@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/the_key_to_start" android:key="the_key_to_start_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <VivoCheckBoxPreference android:title="@string/the_key_to_start" android:key="the_key_to_start" android:defaultValue="false" />
+    <PreferenceCategory android:title="@string/the_key_to_start_off_tips" android:key="the_key_to_start_tips" style="?vivo:attr/explainPreferenceStyle" />
+    <PreferenceCategory style="?vivo:attr/dividerPreferenceStyle" />
+    <PreferenceCategory android:title="@string/which_function_to_start" android:key="which_function_to_start" style="?vivo:attr/explainPreferenceStyle" />
+</PreferenceScreen>

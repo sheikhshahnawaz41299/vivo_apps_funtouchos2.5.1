@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart click</string>
+    <string name="smartkey">Smart click</string>
+    <string name="the_key_to_start">Smart click</string>
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="the_key_to_start_off_tips">"When screen is black, hold [Volume -] to use the phone 
+Notes: Unavailable when playing music"</string>
+    <string name="which_function_to_start">Select the functionality to perform when holding [Volume -]</string>
+    <string name="start_flashlight_ornot">Turn on/off Flashlight</string>
+    <string name="recorder">Record</string>
+    <string name="start_camera">Open camera</string>
+    <string name="start_application">Enable app</string>
+    <string name="choice_application">Select application</string>
+    <string name="has_uninstalled">Uninstalled</string>
+    <string name="loading">Loading…</string>
+    <string name="start_facebook">Open Facebook</string>
+    <string name="flashlight_low_battery_tip">"Low battery, can't use this feature temporarily"</string>
+</resources>

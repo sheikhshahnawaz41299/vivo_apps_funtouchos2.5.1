@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">فوری آغاز کریں</string>
+    <string name="smartkey">فوری آغاز کریں</string>
+    <string name="the_key_to_start">فوری آغاز کریں</string>
+    <string name="back">واپس</string>
+    <string name="cancel">منسوخ کریں</string>
+    <string name="the_key_to_start_off_tips">"اگر اسکرین سیاہ ہے تو، فون چلانے کے لئے [والیوم -] دبائے رکھیں 
+نوٹس: موسیقی چلاتے وقت دستیاب نہیں ہے"</string>
+    <string name="which_function_to_start">[والیوم -] پکڑنے کے دوران عمل کرنے کے لئے فعالیت منتخب کریں</string>
+    <string name="start_flashlight_ornot">فلیش لائیٹ کھولیں/بند کریں</string>
+    <string name="recorder">ریکارڈ کریں</string>
+    <string name="start_camera">کیمرہ کھولیں</string>
+    <string name="start_application">ایپ کھولیں</string>
+    <string name="choice_application">ایپ منتخب کریں</string>
+    <string name="has_uninstalled">انسٹال نہیں ہے</string>
+    <string name="loading">لوڈ ہو رہا ہے…</string>
+    <string name="start_facebook">Facebook کھولیں</string>
+    <string name="flashlight_low_battery_tip">کم بیٹری۔ یہ خاصیت عارضی طور سے دستیاب نہیں ہے.</string>
+</resources>

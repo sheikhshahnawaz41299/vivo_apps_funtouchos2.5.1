@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">เริ่มต้นใช้งานด่วน</string>
+    <string name="smartkey">เริ่มต้นใช้งานด่วน</string>
+    <string name="the_key_to_start">เริ่มต้นใช้งานด่วน</string>
+    <string name="back">ย้อนกลับ</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="the_key_to_start_off_tips">"เมื่อหน้าจอเป็นสีดำ กด [ระดับเสียง -] ค้างไว้เพื่อใช้โทรศัพท์ 
+หมายเหตุ: ไม่สามารถใช้ได้เมื่อเล่นเพลง"</string>
+    <string name="which_function_to_start">เลือกฟังก์ชั่นการทำงานที่จะดำเนินการเมื่อกด [ระดับเสียง -] ค้างไว้</string>
+    <string name="start_flashlight_ornot">เปิด/ปิดไฟฉาย</string>
+    <string name="recorder">การบันทึกเสียง</string>
+    <string name="start_camera">เปิดกล้องถ่ายรูป</string>
+    <string name="start_application">เปิดแอพพลิเคชัน</string>
+    <string name="choice_application">เลือกแอปพลิเคชัน</string>
+    <string name="has_uninstalled">ยังไม่ได้ติดตั้ง</string>
+    <string name="loading">กำลังโหลด…</string>
+    <string name="start_facebook">เปิด Facebook</string>
+    <string name="flashlight_low_battery_tip">แบตเตอรี่อ่อน ไม่สามารถใช้งานคุณสมบัตินี้ได้ในขณะนี้</string>
+</resources>

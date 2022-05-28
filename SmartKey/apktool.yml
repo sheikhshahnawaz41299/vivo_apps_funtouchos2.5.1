@@ -1,0 +1,31 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: SmartKey.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- png
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '17'
+  targetSdkVersion: '23'
+sharedLibrary: false
+sparseResources: true
+unknownFiles:
+  com/iflytek/business/speech/ISpeechService.aidl: '8'
+  com/iflytek/business/speech/RecognitionListener.aidl: '8'
+  com/iflytek/business/speech/RecognizerResult.aidl: '8'
+  com/iflytek/business/speech/SynthesizerListener.aidl: '8'
+  com/iflytek/business/speech/VerifierListener.aidl: '8'
+  com/iflytek/business/speech/VerifierResult.aidl: '8'
+usesFramework:
+  ids:
+  - 1
+  - 3
+  tag: null
+version: 2.5.0
+versionInfo:
+  versionCode: '1'
+  versionName: '1.0'

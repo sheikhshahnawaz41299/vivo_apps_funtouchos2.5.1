@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lancar cepat</string>
+    <string name="smartkey">Lancar cepat</string>
+    <string name="the_key_to_start">Lancar cepat</string>
+    <string name="back">Kembali</string>
+    <string name="cancel">Batal</string>
+    <string name="the_key_to_start_off_tips">"Apabila skrin hitam, tekan terus [Kelantangan -] untuk menggunakan telefon 
+Nota: Tidak tersedia apabila sedang memainkan muzik"</string>
+    <string name="which_function_to_start">Pilih fungsi yang akan dijalankan apabila menekan terus [Kelantangan -]</string>
+    <string name="start_flashlight_ornot">Hidupkan/Matikan Lampu suluh</string>
+    <string name="recorder">Perakaman</string>
+    <string name="start_camera">Buka kamera</string>
+    <string name="start_application">membukakan app</string>
+    <string name="choice_application">Pilih aplikasi</string>
+    <string name="has_uninstalled">Tdk Pasang</string>
+    <string name="loading">Memuatkan...</string>
+    <string name="start_facebook">Buka Facebook</string>
+    <string name="flashlight_low_battery_tip">Bateri lemah, anda tidak boleh menggunakan ciri ini sekarang</string>
+</resources>

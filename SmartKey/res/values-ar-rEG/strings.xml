@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">النقر الذكي</string>
+    <string name="smartkey">النقر الذكي</string>
+    <string name="the_key_to_start">النقر الذكي</string>
+    <string name="back">رجوع</string>
+    <string name="cancel">إلغاء</string>
+    <string name="the_key_to_start_off_tips">"عندما تكون الشاشة سوداء، اضغط على مفتاح [خفض مستوى الصوت (-)] لاستخدام الهاتف 
+ملاحظات: هذه الخاصية غير متاحة أثناء تشغيل تطبيق الموسيقى"</string>
+    <string name="which_function_to_start">حدد هذه الوظيفة ليتم تنفيذها عند الضغط على مفتاح [خفض مستوى الصوت (-)]</string>
+    <string name="start_flashlight_ornot">تشغيل/إيقاف تشغيل ضوء الفلاش</string>
+    <string name="recorder">تسجيل</string>
+    <string name="start_camera">فتح الكاميرا</string>
+    <string name="start_application">تمكين التطبيق</string>
+    <string name="choice_application">تحديد تطبيق</string>
+    <string name="has_uninstalled">غير مثبت</string>
+    <string name="loading">تحميل...</string>
+    <string name="start_facebook">فتح تطبيق Facebook</string>
+    <string name="flashlight_low_battery_tip">طاقة البطارية منخفضة. هذه الميزة غير متاحة حاليًا.</string>
+</resources>

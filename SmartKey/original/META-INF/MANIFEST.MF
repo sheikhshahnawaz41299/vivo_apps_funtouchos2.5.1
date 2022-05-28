@@ -1,0 +1,135 @@
+Manifest-Version: 1.0
+Created-By: 1.7.0_75 (Oracle Corporation)
+
+Name: res/drawable/bbk_edit_square_all.xml
+SHA1-Digest: jfNPU+h4M4+4THf3ZCNaDWosY0Q=
+
+Name: res/drawable-mdpi-v4/selected.png
+SHA1-Digest: MG8P2SbmhXAW2f/eFo1XA4jqPrk=
+
+Name: res/xml/smartkey_nodes.xml
+SHA1-Digest: VjUaA/6+ItRlBBH1ecklR631M5s=
+
+Name: res/anim/anim_float_out.xml
+SHA1-Digest: Av84VnXU++lWle5YHvGpOVU6Nvs=
+
+Name: res/drawable-hdpi-v4/bbk_listview_item_bg_round.9.png
+SHA1-Digest: /oR8FPtuu6gONbOA1LGn9C4opDU=
+
+Name: res/drawable-hdpi-v4/bbk_listview_item_click_bg_round.9.png
+SHA1-Digest: 4a5a4PwpqNGazEeeqHYRsC0jA+w=
+
+Name: com/iflytek/business/speech/RecognitionListener.aidl
+SHA1-Digest: Bhszq+Y5mEbE0E/Jfa6QQIpo+8I=
+
+Name: res/color/bbk_tab_indicator_text.xml
+SHA1-Digest: qQnVq/1kcSbYUdvsI+SycCv5bvs=
+
+Name: resources.arsc
+SHA1-Digest: 7MpEqH3OQMHs2/Dosi0eO3oKrWo=
+
+Name: res/drawable-hdpi-v4/ic_launcher.png
+SHA1-Digest: Nq8q3HeTluE5JNCBpVvNy3BXtJI=
+
+Name: res/drawable-mdpi-v4/ic_launcher.png
+SHA1-Digest: RRxOSvpmhVfCwiprVV/wZlaqQpw=
+
+Name: res/drawable-hdpi-v4/bbk_edit_round_sel_bg.9.png
+SHA1-Digest: yaR0oc1/g093KYsd1Dwqd9ES/7c=
+
+Name: res/layout/smartkey_list_preference.xml
+SHA1-Digest: p71kn/kSTKMegTqdHVzIFepNXz8=
+
+Name: AndroidManifest.xml
+SHA1-Digest: 8PxMxkGgZxUo/1hhojY1lDLBqfA=
+
+Name: res/drawable-hdpi-v4/bbk_listview_item_bg.9.png
+SHA1-Digest: /oR8FPtuu6gONbOA1LGn9C4opDU=
+
+Name: res/layout/application_list_activity.xml
+SHA1-Digest: 7EcyXQgGphePvGYmW8u0pnrg9VI=
+
+Name: res/anim/anim_shot_out.xml
+SHA1-Digest: ze5qPrm19PqyvhLq2vqUEjD1KPI=
+
+Name: res/drawable-sw360dp-hdpi-v13/icon_cover.png
+SHA1-Digest: BQaOQGr3jZYbHb5pUMhly4igVGA=
+
+Name: res/anim/anim.xml
+SHA1-Digest: pKtbyXaSYVKdemYRfukD4lPK9Vc=
+
+Name: res/drawable-hdpi-v4/bbk_listview_item_click_bg.9.png
+SHA1-Digest: 4a5a4PwpqNGazEeeqHYRsC0jA+w=
+
+Name: res/drawable-mdpi-v4/ic_settings_smart_key_item.png
+SHA1-Digest: jvbfoekOamlQoREGDtl1U17ULEc=
+
+Name: com/iflytek/business/speech/SynthesizerListener.aidl
+SHA1-Digest: tolSrYuA5O1oF8fqo7iYF4vQZt0=
+
+Name: com/iflytek/business/speech/VerifierResult.aidl
+SHA1-Digest: DTkhXdQ2tASqczG60UMJ8ObLMDU=
+
+Name: com/iflytek/business/speech/ISpeechService.aidl
+SHA1-Digest: 6HrwpKE6D9gaGJZKczr6YiogPRY=
+
+Name: res/drawable-nodpi-v4/common_icon_mask.png
+SHA1-Digest: 52cWZ+OMDqMKH711Wq7SCRa4xe8=
+
+Name: res/drawable-hdpi-v4/bbk_edit_bottom_bg.9.png
+SHA1-Digest: UOHWcWuRbD9XnGHs7XBafmsQ/bA=
+
+Name: res/drawable-hdpi-v4/selected.png
+SHA1-Digest: MG8P2SbmhXAW2f/eFo1XA4jqPrk=
+
+Name: res/drawable-hdpi-v4/bbk_edit_bottom_sel_bg.9.png
+SHA1-Digest: yaR0oc1/g093KYsd1Dwqd9ES/7c=
+
+Name: res/drawable/bbk_edit_top_round.xml
+SHA1-Digest: OawI7Z5CntVjNNC+gC8YQvCQNiI=
+
+Name: res/drawable-nodpi-v4/icon_cover.png
+SHA1-Digest: HdBaVXRE8LtIr648HLKyVBTgI3A=
+
+Name: res/drawable-nodpi-v4/common_icon_cover.png
+SHA1-Digest: HdBaVXRE8LtIr648HLKyVBTgI3A=
+
+Name: res/layout/bbk_preference_bottom_view.xml
+SHA1-Digest: XjfOt7IiMJYbf2Q9e2qeeVdQmTg=
+
+Name: com/iflytek/business/speech/VerifierListener.aidl
+SHA1-Digest: SLvZD7lR/W7/nYjNVwPm1AtY9EQ=
+
+Name: res/xml/smartkeypreference.xml
+SHA1-Digest: wHMUWtw7JnmqKlWGC8VO6oUV7Wg=
+
+Name: res/drawable/bbk_edit_bottom_round.xml
+SHA1-Digest: uNR2bUszxIkzBhzBy7oE6b3VbC8=
+
+Name: res/drawable-nodpi-v4/common_icon_bg.png
+SHA1-Digest: 6IaWbyAG96kplUnNs+NmAehWOoE=
+
+Name: classes.dex
+SHA1-Digest: srU11GDsfPbs8YW/u4IVW6kDrok=
+
+Name: res/drawable/bbk_edit_all_round.xml
+SHA1-Digest: M4Gw8DbyoBUDlVPknRDuiKwBQVI=
+
+Name: res/anim/anim_float_in.xml
+SHA1-Digest: rlDFPUOajRkUEbH1AHAoAC/WKeM=
+
+Name: com/iflytek/business/speech/RecognizerResult.aidl
+SHA1-Digest: vO0+83F2OQTTNt4SfYO0i27Lh64=
+
+Name: res/anim/anim_shot_in.xml
+SHA1-Digest: AtdeWwyiUsYFEQFowvOEtFOmUjs=
+
+Name: res/drawable-hdpi-v4/bbk_edit_round_bg.9.png
+SHA1-Digest: UOHWcWuRbD9XnGHs7XBafmsQ/bA=
+
+Name: res/layout/smartkey_preference.xml
+SHA1-Digest: Gk9RJ/oQSryhOMa205eGTFiIJ1c=
+
+Name: res/layout/listview_item.xml
+SHA1-Digest: yf63TLPkQu8GLuhHlZAjsD9ZoDU=
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">விரைவுத் தொடக்கம்</string>
+    <string name="smartkey">விரைவுத் தொடக்கம்</string>
+    <string name="the_key_to_start">விரைவுத் தொடக்கம்</string>
+    <string name="back">பின்</string>
+    <string name="cancel">ரத்து செய்</string>
+    <string name="the_key_to_start_off_tips">"திரை கருப்பாக இருக்கும்போது, தொலைபேசிக் 
+குறிப்புகளைப் பயன்படுத்த [ஒலியளவு -] விசையைப் பிடிக்கவும்: இசை இயக்கப்படும்போதும் கிடைக்காது."</string>
+    <string name="which_function_to_start">[ஒலியளவு -] விசையைப் பிடித்திருக்கும்போது செய்ய வேண்டிய செயலைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="start_flashlight_ornot">பிளாஷ்லைட்டை இயக்கு/அணை</string>
+    <string name="recorder">பதிவுசெய்</string>
+    <string name="start_camera">கேமராவைத் திறக்கவும்</string>
+    <string name="start_application">பயன்பாட்டைத் திற</string>
+    <string name="choice_application">பயன்பாட்டைத் தேர்ந்தெடு</string>
+    <string name="has_uninstalled">நிறுவப்படவில்லை</string>
+    <string name="loading">ஏற்றுகிறது...</string>
+    <string name="start_facebook">Facebook -ஐத் திற</string>
+    <string name="flashlight_low_battery_tip">குறைந்த பேட்டரி. இந்த அம்சம் தற்காலிகமாக கிடைக்கப் பெறவில்லை.</string>
+</resources>

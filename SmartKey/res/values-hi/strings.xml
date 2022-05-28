@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">त्वरित लॉन्च</string>
+    <string name="smartkey">त्वरित लॉन्च</string>
+    <string name="the_key_to_start">त्वरित लॉन्च</string>
+    <string name="back">वापस जाएं</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="the_key_to_start_off_tips">"जब स्क्रीन काली हो तब फ़ोन का उपयोग करने के लिए [वॉल्यूम -] बटन दबाए रखें 
+नोट: जब संगीत चल रहा हो तब अनुपलब्ध रहता है"</string>
+    <string name="which_function_to_start">[वॉल्यूम -] को दबाए रखने के दौरान कोई फ़ंक्शन चलाने के लिए उसका चयन करें</string>
+    <string name="start_flashlight_ornot">फ़्लैशलाइट चालू/बंद करें</string>
+    <string name="recorder">रिकॉर्ड</string>
+    <string name="start_camera">कैमरा खोलें</string>
+    <string name="start_application">ऐप खोलें</string>
+    <string name="choice_application">ऐप चुनें</string>
+    <string name="has_uninstalled">स्थापित नही</string>
+    <string name="loading">लोड हो रहा है...</string>
+    <string name="start_facebook">Facebook खोलें</string>
+    <string name="flashlight_low_battery_tip">बैटरी कम है। यह सुविधा अस्थायी तौर पर अनुपलब्ध है।</string>
+</resources>
