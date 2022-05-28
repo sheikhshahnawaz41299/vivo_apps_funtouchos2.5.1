@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dashboard-categories
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <dashboard-category android:id="@id/cat_network" android:title="@string/settings_cat_network" settings:order="0">
+        <dashboard-tile android:icon="@drawable/ic_settings_airplane_item" android:id="@id/toggle_airplane" android:title="@string/airplane_mode" settings:order="200" settings:type="check" />
+        <dashboard-tile android:icon="@drawable/ic_settings_wifi_bbk_item" android:id="@id/wifi_settings" android:title="@string/wifi_settings_title" settings:order="300">
+            <intent android:action="android.settings.VIVO_WIFI_SETTINGS" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_tether_item" android:id="@id/tether_settings" android:title="@string/tether_settings_title_all" settings:order="400">
+            <intent android:action="android.settings.VIVO_TETHER_SETTINGS" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_roaming_item" android:id="@id/roaming_settings" android:title="@string/roaming_settings_title" settings:order="500">
+            <intent android:action="android.settings.CDMA_ROAMING_SETTINGS" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_network_item" android:id="@id/network_settings" android:title="@string/network_settings_title" settings:order="800">
+            <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.Settings" />
+        </dashboard-tile>
+    </dashboard-category>
+    <dashboard-category android:id="@id/cat_custom" android:title="@string/settings_cat_custom" settings:order="1000">
+        <dashboard-tile android:icon="@drawable/ic_settings_sound_item" android:id="@id/sound_settings" android:title="@string/sound_settings" android:fragment="com.vivo.settings.SoundSettings" settings:order="1100" />
+        <dashboard-tile android:icon="@drawable/ic_settings_light_item" android:id="@id/light_settings" android:title="@string/light_settings_title" android:fragment="com.vivo.settings.LightSettings" settings:order="1200" />
+        <dashboard-tile android:icon="@drawable/ic_settings_personality" android:id="@id/personality" android:title="@string/personality" settings:order="1400">
+            <intent android:action="android.intent.action.theme.Theme" />
+        </dashboard-tile>
+    </dashboard-category>
+    <dashboard-category android:id="@id/cat_basic" android:title="@string/settings_cat_basic" settings:order="2000">
+        <dashboard-tile android:icon="@drawable/ic_settings_development" android:id="@id/development_settings" android:title="@string/development_settings_title" android:fragment="com.android.settings.DevelopmentSettings" />
+        <dashboard-tile android:icon="@drawable/ic_system_update" android:id="@id/system_upate" android:title="@string/system_update_settings_list_item_title" settings:order="2050" settings:type="noti">
+            <intent android:action="com.vivo.action.ACTION_SYSTEM_UPDATER" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_call_item" android:id="@id/phone_settings" android:title="@string/phone_settings_title" settings:order="2100">
+            <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.CallFeaturesSetting" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_account_item" android:id="@id/account_settings" android:title="@string/sync_settings" android:fragment="com.android.settings.accounts.AccountSettings" />
+        <dashboard-tile android:icon="@drawable/ic_settings_finger" android:id="@id/finger_settings" android:title="@string/finger_passwordlock" settings:order="2250">
+            <intent android:action="android.intent.vivo.VivoTempSecurity" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_security" android:id="@id/security_settings" android:title="@string/security_settings_title" android:fragment="com.vivo.settings.VivoSecuritySettings" settings:order="2300" />
+        <dashboard-tile android:icon="@drawable/ic_settings_location" android:id="@id/location_settings" android:title="@string/location_settings_title" settings:order="2400">
+            <intent android:action="android.settings.LOCATION_SOURCE_SETTINGS" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_inputmethod_item" android:id="@id/language_settings_ex" android:title="@string/language_settings" android:fragment="com.vivo.settings.inputmethod.VivoInputMethodAndLanguageSettingsEx" settings:order="2450" />
+        <dashboard-tile android:icon="@drawable/ic_settings_ram_item" android:id="@id/ram_and_storage" android:title="@string/ram_and_storage" settings:order="2450">
+            <intent android:action="android.settings.MEMORY_CARD_SETTINGS" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_general_item" android:id="@id/general_setting" android:title="@string/general_label" android:fragment="com.vivo.settings.GeneralSettings" settings:order="2500" />
+    </dashboard-category>
+    <dashboard-category android:id="@id/cat_smart" android:title="@string/settings_cat_smart" android:summary="@string/glove_mode_explain" settings:order="10000">
+        <dashboard-tile android:icon="@drawable/ic_smart_motion_item" android:id="@id/motion_recognition_setting" android:title="@string/motion_recognition" settings:order="12000">
+            <intent android:targetPackage="com.vivo.motionrecognition" android:action="android.intent.action.MAIN" android:targetClass="com.vivo.motionrecognition.MotionRecognition" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_wfd_item" android:id="@id/wfd_settings" android:title="@string/wfd_settings_title" android:summary="@string/wifi_closed" settings:order="13000">
+            <intent android:action="android.settings.WIFI_DISPLAY_SETTINGS" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_singlehand_item" android:id="@id/one_hand_setings" android:title="@string/OneHand_title" android:fragment="com.vivo.settings.OneHandSettings" settings:order="15000" />
+        <dashboard-tile android:icon="@drawable/ic_settings_glovemode_item" android:persistent="false" android:id="@id/glove_mode" android:title="@string/glove_mode" android:disableDependentsState="true" settings:order="2147483645" settings:type="check" />
+    </dashboard-category>
+</dashboard-categories>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="?vivo:generalBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="@dimen/dashboard_tile_image_size" android:layout_height="@dimen/dashboard_tile_image_size" android:layout_marginStart="@vivo:dimen/preference_left_margin" android:layout_marginEnd="@vivo:dimen/preference_left_margin" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <TextView android:textAppearance="?vivo:textAppearancePreferenceTitle" android:ellipsize="end" android:id="@id/title" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="false" android:paddingEnd="20.0dip" />
+            <TextView android:textAppearance="?vivo:textAppearancePreferenceSummary" android:id="@id/status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/title" />
+        </RelativeLayout>
+        <FrameLayout android:id="@id/widget_frame" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@vivo:dimen/preference_right_margin" android:layout_toStartOf="@id/arrow" android:layout_toEndOf="@id/title">
+            <ImageView android:layout_gravity="end|center" android:id="@id/noti" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pref_notification" />
+            <BbkMoveBoolButton android:layout_gravity="end|center" android:id="@id/checkBox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <ImageView android:id="@id/arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?vivo:btnArrow" android:layout_centerVertical="true" android:layout_marginEnd="@vivo:dimen/preference_left_margin" android:layout_alignParentEnd="true" />
+        <View android:id="@id/tile_divider" android:background="?android:dividerHorizontal" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@vivo:dimen/divider_height" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

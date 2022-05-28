@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/app_instruction" android:key="app_instruction" />
+    <Preference android:persistent="false" android:title="@string/unlock_set_unlock_off_title" android:key="unlock_set_off" />
+    <Preference android:persistent="false" android:layout="@vivo:layout/vigour_preference_summary_down" android:title="@string/unlock_set_unlock_none_title" android:key="unlock_set_none" />
+    <Preference android:persistent="false" android:title="@string/unlock_set_unlock_pattern_title" android:key="unlock_set_pattern" />
+    <Preference android:persistent="false" android:title="@string/unlock_set_unlock_pin_title" android:key="unlock_set_pin" />
+</PreferenceScreen>

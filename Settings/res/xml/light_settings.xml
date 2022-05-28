@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/light_label"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/brightness" />
+    <com.vivo.settings.preference.SeekBarPreference android:persistent="false" android:key="brightness" settings:drawableStart="@drawable/ic_settings_display_low" settings:drawableEnd="@drawable/ic_settings_display_high" settings:max="235" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/automatic_brightness" android:key="auto_mode" />
+    <PreferenceCategory style="?vivo:attr/dividerPreferenceStyle" />
+    <PreferenceScreen android:persistent="false" android:title="@string/night_mode" android:key="night_mode" android:summary="@string/wifi_closed">
+        <intent android:action="android.intent.action.NightMode" />
+    </PreferenceScreen>
+</PreferenceScreen>

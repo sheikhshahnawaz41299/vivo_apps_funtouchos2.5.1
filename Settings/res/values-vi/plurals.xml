@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Bây giờ, bạn chỉ cần thực hiện %1$d bước nữa là sẽ trở thành nhà phát triển.</item>
+        <item quantity="one">Bây giờ, bạn chỉ cần thực hiện %1$d bước nữa là sẽ trở thành nhà phát triển.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Mật khẩu phải có ít nhất %d chữ cái.</item>
+        <item quantity="one">Mật khẩu phải có ít nhất 1 chữ cái.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Mật khẩu phải có ít nhất %d chữ viết thường.</item>
+        <item quantity="one">Mật khẩu phải có ít nhất 1 chữ viết thường.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Mật khẩu phải có ít nhất %d chữ viết hoa.</item>
+        <item quantity="one">Mật khẩu phải có ít nhất 1 chữ viết hoa.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Mật khẩu phải có ít nhất %d chữ số.</item>
+        <item quantity="one">Mật khẩu phải có ít nhất một chữ số.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Mật khẩu phải có ít nhất %d ký tự đặc biệt.</item>
+        <item quantity="one">Mật khẩu phải có ít nhất 1 ký tự đặc biệt.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Mật khẩu phải chứa ít nhất %d ký tự không phải ký tự chữ cái</item>
+        <item quantity="one">Mật khẩu phải chứa ít nhất 1 ký tự không phải ký tự chữ cái</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">PIN thẻ SIM không đúng. Bạn còn %d lần thử.</item>
+        <item quantity="one">PIN thẻ SIM không đúng. Bạn còn %d lần thử trước khi phải liên hệ với nhà cung cấp dịch vụ để mở khóa thiết bị.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d ứng dụng có thể đọc thông báo</item>
+        <item quantity="one">%d ứng dụng có thể đọc thông báo</item>
+    </plurals>
+    <plurals name="manage_condition_providers_summary_nonzero">
+        <item quantity="other">%d ứng dụng có thể cung cấp điều kiện</item>
+        <item quantity="one">%d ứng dụng có thể cung cấp điều kiện</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sos_call" android:key="touch_key"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/sos_call" android:key="sos_toggle_settings" />
+    <PreferenceCategory android:title="@string/sos_call_explain" android:key="sos_call_explain" style="?vivo:attr/explainPreferenceStyle" />
+</PreferenceScreen>

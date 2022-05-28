@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/normal" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_key_height">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@color/bottom_key_menu" android:id="@id/leftMenu" android:paddingTop="@dimen/menu_back_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bottom_key_menu" android:layout_toLeftOf="@id/imgNormal" />
+        <ImageView android:id="@id/imgNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/normal_bottom" android:layout_toLeftOf="@id/leftRadio" android:layout_centerVertical="true" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@color/bottom_key_back" android:id="@id/rightBack" android:paddingTop="@dimen/menu_back_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_back" android:layout_toRightOf="@id/imgNormal" />
+        <RadioButton android:id="@id/leftRadio" android:paddingRight="@dimen/radio_button_padding_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/radio_button_padding_left" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="leftRadioClick" />
+    </RelativeLayout>
+    <ImageView android:id="@id/dividerLine" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/divider_line" android:layout_below="@id/normal" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/bottom_key_height" android:layout_below="@id/dividerLine">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@color/bottom_key_back" android:id="@id/leftBack" android:paddingTop="@dimen/menu_back_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_back" android:layout_toLeftOf="@id/imgChange" />
+        <ImageView android:id="@id/imgChange" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/change_bottom" android:layout_toLeftOf="@id/rightRadio" android:layout_centerVertical="true" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@color/bottom_key_menu" android:id="@id/rightMenu" android:paddingTop="@dimen/menu_back_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bottom_key_menu" android:layout_toRightOf="@id/imgChange" />
+        <RadioButton android:id="@id/rightRadio" android:paddingRight="@dimen/radio_button_padding_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/radio_button_padding_left" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="rightRadioClick" />
+    </RelativeLayout>
+</RelativeLayout>

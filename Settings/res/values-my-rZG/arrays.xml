@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="screen_timeout_entries">
+        <item>15 စကၠန္႔</item>
+        <item>30 စကၠန္႔</item>
+        <item>1 မိနစ္</item>
+        <item>2 မိနစ္</item>
+        <item>5 မိနစ္</item>
+        <item>10 မိနစ္</item>
+        <item>30 မိနစ္</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>ချက်ချင်း</item>
+        <item>5 စကၠန္႔</item>
+        <item>15 စကၠန္႔</item>
+        <item>30 စကၠန္႔</item>
+        <item>1 မိနစ္</item>
+        <item>2 မိနစ္</item>
+        <item>5 မိနစ္</item>
+        <item>10 မိနစ္</item>
+        <item>30 မိနစ္</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>ေသး</item>
+        <item>သာမန္</item>
+        <item>ႀကီး</item>
+        <item>အလြန္တရာ ႀကီးမားေသာ</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>အလြန္ ေႏွး</item>
+        <item>အေႏွး</item>
+        <item>သာမန္</item>
+        <item>အျမန္</item>
+        <item>Faster</item>
+        <item>အလြန္ ျမန္</item>
+        <item>Rapid</item>
+        <item>Very rapid</item>
+        <item>Fastest</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>ရွာေဖြဖတ္ေနသည္…</item>
+        <item>ခ်ိတ္ဆက္ေနသည္…</item>
+        <item>သံုးခြင့္ရသူျဖစ္ေၾကာင္းအတည္ျပဳျခင္း…</item>
+        <item>IP လိပ္စာရယူေနသည္...</item>
+        <item>ခ်ိတ္ဆက္လ်က္ရွိသည္</item>
+        <item>ဆိုင္းငံ့ထားသည္</item>
+        <item>ခ်ိတ္ဆက္မႈျပတ္ေနသည္…</item>
+        <item>ခ်ိတ္ဆက္မႈမရွိပါ</item>
+        <item>မေအာင္ျမင္ပါ</item>
+        <item>အသံုးမျပဳႏိုင္</item>
+        <item>Temporarily avoiding poor connection</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>ရွာေဖြဖတ္ေနသည္…</item>
+        <item>%1$sသို႔ ခ်ိတ္ဆက္ေနသည္…</item>
+        <item>%1$s ႏွင့္ သံုးခြင့္ရသူျဖစ္ေၾကာင္းအတည္ျပဳျခင္း…</item>
+        <item>%1$s မွ IP လိပ္စာကို ရယူေနသည္...</item>
+        <item>%1$s သို႔ ခ်ိတ္ဆက္ထားသည္</item>
+        <item>ဆိုင္းငံ့ထားသည္</item>
+        <item>%1$s မွ ခ်ိတ္ဆက္မႈျပတ္ေနသည္…</item>
+        <item>ခ်ိတ္ဆက္မႈမရွိပါ</item>
+        <item>မေအာင္ျမင္ပါ</item>
+        <item>အသံုးမျပဳႏိုင္</item>
+        <item>Temporarily avoiding poor connection</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>ခ်ိတ္ဆက္လ်က္ရွိသည္</item>
+        <item>ဖိတ်ခေါ်ခဲ့သည်</item>
+        <item>မအောင်မြင်သော</item>
+        <item>အသံုးျပဳႏိုင္</item>
+        <item>ဆက္သြယ္မႈ အတိုင္းအတာျပင္ပ</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 မိနစ္</item>
+        <item>5 မိနစ္</item>
+        <item>1 နာရီ</item>
+        <item>ဘယ္ေတာ့မွ မထြက္ပါႏွင့္</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>အားနည္း</item>
+        <item>သင့္တင့္</item>
+        <item>ေကာင္း</item>
+        <item>အေကာင္းဆံုး</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>အျမဲတမ္း</item>
+        <item>ပလပ္တပ္ထားေသာအခါတြင္သာ</item>
+        <item>ဘယ္ေတာ့မွ</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>အျမဲတမ္း</item>
+        <item>ပလပ္တပ္ထားေသာအခါတြင္သာ</item>
+        <item>ဘယ္ေတာ့မွ</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>အလိုအေလ်ာက္</item>
+        <item>5GHz ႀကိမ္ႏႈန္းသီးသန္႕သာ အသံုးျပဳပါ</item>
+        <item>2.4GHz ႀကိမ္ႏႈန္းသီးသန္႕သာ အသံုးျပဳပါ</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>အသံုးျပဳခ်ိန္</item>
+        <item>ေနာက္ဆံုး သံုးခဲ့သည့္ အခ်ိန္</item>
+        <item>အက္ပလီေကးရွင္း အမည္</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>ဘာမွမဟုတ္</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>ဘာမွမဟုတ္</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>ပံုေသ</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>ဘာမွမဟုတ္</item>
+        <item>လူကိုယ္တုိင္လုပ္</item>
+        <item>ပေရာက္စီ အလိုအေလ်ာက္ ပံုေဖာ္မႈ</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>ဘာမွမဟုတ္</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP သို႔မဟုတ္ CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>သတ္မွတ္ထားျခင္းမရွိ</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>ဘာမွမဟုတ္</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>စက္တြင္း သိုေလွာင္မႈ စက္ပစၥည္း</item>
+        <item>ဖိုင္စုစည္းမႈျဖည္ခ်ႏုိင္သည့္ SD ကဒ္</item>
+        <item>စနစ်ကို ဆုံးဖြတ်စေပါ</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>တည္ေနရာ</item>
+        <item>ကိုယ္ေရးကိုယ္တာ</item>
+        <item>SMS</item>
+        <item>မီဒီယာ</item>
+        <item>စက္</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>coarse location</item>
+        <item>fine location</item>
+        <item>GPS</item>
+        <item>တုန္ခါပါ</item>
+        <item>အဆက္အသြယ္မ်ားကို ဖတ္ပါ</item>
+        <item>အဆက္အသြယ္ကုိ မြမ္းမံရန္</item>
+        <item>ဖုန္းေခၚမွတ္တမ္းမ်ားကို ဖတ္ပါ</item>
+        <item>ေခၚဆိုမႈ မွတ္တမ္းမ်ားကို ျပဳျပင္မြမ္းမံမည္</item>
+        <item>Read calendar</item>
+        <item>Modify calendar</item>
+        <item>Wi-Fi စကန္ဖတ္သည္</item>
+        <item>အသိေပးခ်က္မ်ား</item>
+        <item>cell scan</item>
+        <item>ဖုန္းေခၚပါ</item>
+        <item>read SMS</item>
+        <item>SMS မက္ေဆ့ခ်္ စာစီမည္</item>
+        <item>receive SMS</item>
+        <item>receive emergency SMS</item>
+        <item>receive MMS</item>
+        <item>receive WAP push</item>
+        <item>SMS ပို႔ပါ</item>
+        <item>read ICC SMS</item>
+        <item>write ICC SMS</item>
+        <item>Modify settings</item>
+        <item>Draw on top</item>
+        <item>Access notifications</item>
+        <item>ကင္မရာ</item>
+        <item>Record audio</item>
+        <item>Play audio</item>
+        <item>Read clipboard</item>
+        <item>Modify clipboard</item>
+        <item>Media buttons</item>
+        <item>Audio focus</item>
+        <item>Master volume</item>
+        <item>Voice volume</item>
+        <item>ျမည္သံ အသံအက်ယ္</item>
+        <item>မီဒီယာ အသံအက်ယ္</item>
+        <item>ႏႈိးစက္ အသံပမာဏ</item>
+        <item>အသိေပးခ်က္ အသံအက်ယ္</item>
+        <item>ဘလူးတုသ္ အသံအက်ယ္</item>
+        <item>ႏိုးၾကားေနပါ</item>
+        <item>monitor location</item>
+        <item>monitor high power location</item>
+        <item>သံုးစြဲမႈ စာရင္းအင္း အခ်က္အလက္ကို ရယူပါ</item>
+        <item>မိုက္ကိုအသံတိတ္ပါ၊ သို႕မဟုတ္ အသံတိတ္ျခင္းကို ပယ္ဖ်က္ပါ</item>
+        <item>မီဒီယာ ျပသမႈ</item>
+        <item>VPN ကိုအသက္သြင္းပါ</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>တည္ေနရာ</item>
+        <item>တည္ေနရာ</item>
+        <item>တည္ေနရာ</item>
+        <item>တုန္ခါပါ</item>
+        <item>အဆက္အသြယ္မ်ားကို ဖတ္ပါ</item>
+        <item>အဆက္အသြယ္ကုိ မြမ္းမံရန္</item>
+        <item>ဖုန္းေခၚမွတ္တမ္းမ်ားကို ဖတ္ပါ</item>
+        <item>ေခၚဆိုမႈ မွတ္တမ္းမ်ားကို ျပဳျပင္မြမ္းမံမည္</item>
+        <item>Read calendar</item>
+        <item>Modify calendar</item>
+        <item>တည္ေနရာ</item>
+        <item>Post notification</item>
+        <item>တည္ေနရာ</item>
+        <item>ဖုန္းေခၚပါ</item>
+        <item>SMS/MMS မက္ေဆ့ခ်္မ်ား ဖတ္မည္</item>
+        <item>SMS/MMS မက္ေဆ့ခ်္ မ်ားစာစီမည္</item>
+        <item>SMS/MMS မက္ေဆ့ခ်္မ်ား လက္ခံမည္</item>
+        <item>SMS/MMS မက္ေဆ့ခ်္မ်ား လက္ခံမည္</item>
+        <item>SMS/MMS မက္ေဆ့ခ်္မ်ား လက္ခံမည္</item>
+        <item>SMS/MMS မက္ေဆ့ခ်္မ်ား လက္ခံမည္</item>
+        <item>SMS/MMS မက္ေဆ့ခ်္မ်ား ပို႕မည္</item>
+        <item>SMS/MMS မက္ေဆ့ခ်္မ်ား ဖတ္မည္</item>
+        <item>SMS/MMS မက္ေဆ့ခ်္ မ်ားစာစီမည္</item>
+        <item>Modify settings</item>
+        <item>Draw on top</item>
+        <item>Access notifications</item>
+        <item>ကင္မရာ</item>
+        <item>အသံဖိုင္ မွတ္တမ္းသြင္းမည္</item>
+        <item>Play audio</item>
+        <item>Read clipboard</item>
+        <item>Modify clipboard</item>
+        <item>Media buttons</item>
+        <item>Audio focus</item>
+        <item>Master volume</item>
+        <item>Voice volume</item>
+        <item>ျမည္သံ အသံအက်ယ္</item>
+        <item>မီဒီယာ အသံအက်ယ္</item>
+        <item>ႏႈိးစက္ အသံပမာဏ</item>
+        <item>အသိေပးခ်က္ အသံအက်ယ္</item>
+        <item>ဘလူးတုသ္ အသံအက်ယ္</item>
+        <item>ႏိုးၾကားေနပါ</item>
+        <item>တည္ေနရာ</item>
+        <item>တည္ေနရာကို သံုးေနပါသည္</item>
+        <item>သံုးစြဲမႈ စာရင္းအင္း အခ်က္အလက္ကို ရယူပါ</item>
+        <item>မိုက္ကိုအသံတိတ္ပါ၊ သို႕မဟုတ္ အသံတိတ္ျခင္းကို ပယ္ဖ်က္ပါ</item>
+        <item>မီဒီယာ ျပသမႈ</item>
+        <item>VPN ကိုအသက္သြင္းပါ</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>တိုေတာင္း</item>
+        <item>အလယ္အလတ္</item>
+        <item>ရွည္လ်ား</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>ပံုေသ</item>
+        <item>Sans-serif</item>
+        <item>Sans-serif condensed</item>
+        <item>Sans-serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>Casual</item>
+        <item>Cursive</item>
+        <item>Small capitals</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>အလြန္ေသး</item>
+        <item>ေသး</item>
+        <item>သာမန္</item>
+        <item>ႀကီး</item>
+        <item>အလြန္တရာ ႀကီးမားေသာ</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>ပံုေသ</item>
+        <item>ဘာမွမဟုတ္</item>
+        <item>Outline</item>
+        <item>အရိပ္မ်ား</item>
+        <item>ေဖာင္းၾကြ</item>
+        <item>လိႈဏ္ေခါင္း</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>အက္ပ္ ပံုေသ စတုိင္ကို အသံုးျပဳပါ</item>
+        <item>အမည္းေပၚမွ အျဖဴေရာင္</item>
+        <item>အျဖဴေပၚမွ အမည္းေရာင္</item>
+        <item>အမည္းအေပၚမွ အ၀ါေရာင္</item>
+        <item>အျပာအေပၚမွ အ၀ါေရာင္</item>
+        <item>စိတ္ႀကိဳက္</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>၀င္ေရာက္လာသည့္ဖိုင္စုစည္းမႈ မွတ္တမ္း 64K ျပည့္တုိင္း</item>
+        <item>၀င္ေရာက္လာသည့္ဖုိင္စုစည္းမႈ မွတ္တမ္း 256K ျပည့္တုိင္း</item>
+        <item>၀င္ေရာက္လာသည့္ ဖုိင္စုစည္းမႈ မွတ္တမ္း 1M ျပည့္တုိင္း</item>
+        <item>၀င္ေရာက္လာသည့္ဖုိင္စုစည္းမႈ မွတ္တမ္း 4M ျပည့္တုိင္း</item>
+        <item>၀င္ေရာက္လာသည့္ဖုိင္စုစည္းမႈ မွတ္တမ္း 16M ျပည့္တုိင္း</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>ဘယ္ေတာ့မွ မစစ္ေဆးပါႏွင့္</item>
+        <item>DRM အေၾကာင္းအရာမွ်သာ စစ္ေဆးပါ</item>
+        <item>အျမဲတမ္း</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>HDCP စစ္ေဆးမႈကို ဘယ္ေတာ့မွ မသံုးပါႏွင့္</item>
+        <item>DRM အေၾကာင္းအရာအတြက္သာ HDCP စစ္ေဆးမႈကို အသံုးျပဳပါ</item>
+        <item>HDCP စစ္ေဆးမႈကို အျမဲအသံုးျပဳပါ</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>အန္နီေမးရွင္း ပိတ္ပါ</item>
+        <item>အန္နီေမးရွင္း အတိုင္းအတာ 0.5x</item>
+        <item>အန္နီေမးရွင္း အတိုင္းအတာ 1x</item>
+        <item>အန္နီေမးရွင္း အတိုင္းအတာ 1.5x</item>
+        <item>အန္နီေမးရွင္း အတိုင္းအတာ 2x</item>
+        <item>အန္နီေမးရွင္း အတိုင္းအတာ 5x</item>
+        <item>အန္နီေမးရွင္း အတိုင္းအတာ 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>အန္နီေမးရွင္း ပိတ္ပါ</item>
+        <item>အန္နီေမးရွင္း အတိုင္းအတာ 0.5x</item>
+        <item>အန္နီေမးရွင္း အတိုင္းအတာ 1x</item>
+        <item>အန္နီေမးရွင္း အတိုင္းအတာ 1.5x</item>
+        <item>အန္နီေမးရွင္း အတိုင္းအတာ 2x</item>
+        <item>အန္နီေမးရွင္း အတိုင္းအတာ 5x</item>
+        <item>အန္နီေမးရွင္း အတိုင္းအတာ 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>အန္နီေမးရွင္း ပိတ္ပါ</item>
+        <item>အန္နီေမးရွင္း အတိုင္းအတာ .5x</item>
+        <item>အန္နီေမးရွင္း အတိုင္းအတာ 1x</item>
+        <item>အန္နီေမးရွင္း အတိုင္းအတာ 1.5x</item>
+        <item>အန္နီေမးရွင္း အတိုင္းအတာ 2x</item>
+        <item>အန္နီေမးရွင္း အတိုင္းအတာ 5x</item>
+        <item>အန္နီေမးရွင္း အတိုင္းအတာ 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>ဘာမွမဟုတ္</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (လံုျခံဳေရး)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (လံုျခံဳေရး)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (လံုျခံဳေရး)</item>
+        <item>1280x720 tvdpi ႏွင့္ 1920x1080 xhdpi</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>ဘာမွမဟုတ္</item>
+        <item>Logcat</item>
+        <item>Systrace (ဂရပ္ဖစ္မ်ား)</item>
+        <item>glGetError တြင္ stack ေခၚပါ</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>ပိတ္</item>
+        <item>ေထာင့္မွန္စတုဂံပံုမဟုတ္ေသာ အပိုင္းေလးကို အျပာေရာင္တြင္ ဆြဲပါ</item>
+        <item>အစိမ္းေရာင္တြင္ စမ္းသပ္ထားေသာ ပံုဆြဲအမိန္႔ေပးခ်က္မ်ားကို ထင္သာေအာင္လုပ္ပါ</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>ပိတ္</item>
+        <item>စခရင္ေပၚတြင္ ဘားမ်ားအျဖစ္</item>
+        <item>adb shell dumpsys gfxinfo တြင္</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>ပိတ္</item>
+        <item>အပိုထြက္ ဧရိယာမ်ားကို ျပသမည္</item>
+        <item>ကာလာဘလိုင္းမ်ားအတြက္ ဧရိယာမ်ားကို ျပသမည္</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>စံကန္႔သတ္ခ်က္</item>
+        <item>ေနာက္ခံလုပ္ေဆာင္ခ်က္မ်ား မရွိပါ</item>
+        <item>အမ်ားဆံုး လုပ္ေဆာင္မႈ 1 ခု</item>
+        <item>အမ်ားဆံုး လုပ္ေဆာင္မႈ 2 ခု</item>
+        <item>အမ်ားဆံုး လုပ္ေဆာင္မႈ 3 ခု</item>
+        <item>အမ်ားဆံုး လုပ္ေဆာင္မႈ 4 ခု</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>ႀကိဳတင္ ေဝမွ်ထားေသာ ခလုတ္မ်ားႏွင့္ L2TP/IPSec VPN</item>
+        <item>အသိအမွတ္ျပဳလက္မွတ္မ်ားႏွင့္ L2TP/IPSec VPN</item>
+        <item>ႀကိဳတင္ ေဝမွ်ထားေသာ ခလုတ္မ်ားျဖင့္ IPSec VPN ႏွင့္ Xauth authentication</item>
+        <item>အသိအမွတ္ျပဳလက္မွတ္မ်ားျဖင့္ IPSec VPN ႏွင့္ Xauth authentication</item>
+        <item>အသိအမွတ္ျပဳလက္မွတ္မ်ားျဖင့္ IPSec VPN ႏွင့္ hybrid authentication</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>ခ်ိတ္ဆက္မႈမရွိပါ</item>
+        <item>စတင္ေနသည္…</item>
+        <item>ခ်ိတ္ဆက္ေနသည္…</item>
+        <item>ခ်ိတ္ဆက္လ်က္ရွိသည္</item>
+        <item>အခ်ိန္ကုန္ၿပီ</item>
+        <item>မေအာင္ျမင္ပါ</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>ေမးပါ</item>
+        <item>ဘယ္ေတာ့မွ ခြင့္မျပဳပါႏွင့္</item>
+        <item>အျမဲတမ္း ခြင့္ျပဳပါ</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>သင့္တင့္</item>
+        <item>အလယ္အလတ္</item>
+        <item>နိမ့္</item>
+        <item>critical</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>သာမန္</item>
+        <item>အလယ္အလတ္အဆင့္</item>
+        <item>မလံုေလာက္ပါ</item>
+        <item>အေရးတၾကီးေ၀ဖန္ေျပာဆို</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>ေနအိမ္</item>
+        <item>ထိပ္ပိုင္ အဆင့္ လႈပ္႐ွားမႈမ်ား</item>
+        <item>အေရးႀကီး (ေနာက္ပိုင္း)</item>
+        <item>အေရးႀကီး (ေနာက္ပိုင္း)</item>
+        <item>အရံသိမ္းပါ</item>
+        <item>ဟဲဗီး၀ိတ္</item>
+        <item>၀န္ေဆာင္မႈ (အလုပ္လုပ္ေနသည္)</item>
+        <item>၀န္ေဆာင္မႈ (ျပန္လည္စတင္ေနသည္)</item>
+        <item>လက္ခံရ႐ွိသူ</item>
+        <item>ပင္မ</item>
+        <item>ၿပီးခဲ့သည့္ လႈပ္႐ွားမႈ</item>
+        <item>၀င္ေရာက္လာသည့္ဖုိင္စုစည္းမႈ (သက္၀င္လႈပ္႐ွား)</item>
+        <item>၀င္ေရာက္လာသည့္ဖုိင္စုစည္းမႈ (သက္၀င္လႈပ္႐ွား သံုးစြဲသူ)</item>
+        <item>၀င္ေရာက္လာသည့္ဖုိင္စုစည္းမႈ (ဗလာ)</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>စိမ္းျပာ</item>
+        <item>အျပာ</item>
+        <item>မဲနယ္ေရာင္</item>
+        <item>ခရမ္းေရာင္</item>
+        <item>ပန္းေရာင္</item>
+        <item>အနီ</item>
+    </string-array>
+    <string-array name="ring_or_mtp_change_entries">
+        <item>ျမည္သံမ်ား</item>
+        <item>မီဒီယာ</item>
+    </string-array>
+    <string-array name="app_loc_permission">
+        <item>ပိတ္</item>
+        <item>ခြင့္ျပဳပါ</item>
+        <item>ေမးပါ</item>
+    </string-array>
+    <string-array name="key_light_control_mode">
+        <item>1.5 စကၠန္႔</item>
+        <item>6 စကၠန္႔</item>
+        <item>အျမဲဖြင့္ပါ</item>
+        <item>အျမဲ ပိတ္ပါ</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_amoled">
+        <item>15 စကၠန္႔</item>
+        <item>30 စကၠန္႔</item>
+        <item>1 မိနစ္</item>
+        <item>2 မိနစ္</item>
+        <item>5 မိနစ္</item>
+        <item>10 မိနစ္</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_mtfp">
+        <item>15 စကၠန္႔</item>
+        <item>30 စကၠန္႔</item>
+        <item>1 မိနစ္</item>
+        <item>2 မိနစ္</item>
+        <item>5 မိနစ္</item>
+        <item>10 မိနစ္</item>
+        <item>30 မိနစ္</item>
+        <item>ဘယ္ေတာ့မွ</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>သင့္ဖခင္အမည္ကိုေျပာပါ။</item>
+        <item>သင့္မိခင္အမည္ကိုေျပာပါ။</item>
+        <item>သင့္အိမ္ေထာင္ဖက္အမည္ကိုေျပာပါ။</item>
+        <item>သင္တက္ခဲ့သည့္ မူလတန္းေက်ာင္းကို ေျပာပါ။</item>
+        <item>သင့္မူလတန္းဆရာ၊မ အမည္ကိုေျပာပါ။</item>
+        <item>သင့္အထက္တန္းဆရာ၊မ အမည္ကိုေျပာပါ။</item>
+        <item>သင့္ကေလးဘ၀ အခ်စ္ဆံုးသူငယ္ခ်င္းအမည္ကို ေျပာပါ။</item>
+        <item>သင့္ကိုဘယ္မွာေမြးခဲ့သလဲ?</item>
+        <item>သင့္ေက်ာင္းသား (၀န္ထမ္း) မွတ္ပံုတင္နံပါတ္ကိုေျပာပါ။</item>
+        <item>သင့္မွတ္ပံုတင္မွ ေနာက္ဆံုးဂဏန္း 6 လံုးကိုေျပာပါ။</item>
+        <item>သင့္ကားနံပါတ္ကိုေျပာပါ။</item>
+        <item>သင္အလုပ္စတင္လုပ္ကိုင္ခဲ့သည့္ ကုမၸဏီအမည္ကို ေျပာပါ။</item>
+        <item>စိတ္ႀကိဳက္</item>
+    </string-array>
+    <string-array name="area_entrys">
+        <item>ထိုင္း</item>
+        <item>မေလးရွား</item>
+        <item>အင္ဒိုနီးရွား</item>
+        <item>အိႏိၵယ</item>
+        <item>ျမန္မာ</item>
+        <item>ဖိလစ္ပိုင္</item>
+        <item>ဗီယမ္နာမ္</item>
+        <item>ဘ႐ူႏုိင္း</item>
+        <item>ကမ္ဘောဒီးယား</item>
+        <item>လော</item>
+        <item>စင်ကာပူ</item>
+        <item>ဘဂၤလားေဒ့႐ွ္</item>
+        <item>နီေပါ</item>
+        <item>ပါကစ္စတန်</item>
+        <item>သီရိလကၤာ</item>
+    </string-array>
+    <string-array name="vivo_rom_25problem_ask_lables">
+        <item>သင္တက္ခဲ့သည့္ မူလတန္းေက်ာင္းကို ေျပာပါ။</item>
+        <item>သင့္ဖခင္အမည္ကိုေျပာပါ။</item>
+        <item>သင့္မိခင္အမည္ကိုေျပာပါ။</item>
+        <item>သင့္အိမ္ေထာင္ဖက္အမည္ကိုေျပာပါ။</item>
+        <item>သင့္ကိုဘယ္မွာေမြးခဲ့သလဲ?</item>
+        <item>သင့္မိဘမ်ားက သင့္ကိုဘာအတြက္ ေခၚတာလဲ?</item>
+        <item>သင့္အထက္တန္းေက်ာင္းဆရာလား?</item>
+        <item>သင့္ကေလးဘ၀က အခ်စ္ဆံုးသူငယ္ခ်င္းလား?</item>
+        <item>သင့္ေက်ာင္းသား (၀န္ထမ္း) မွတ္ပံုတင္နံပါတ္ကိုေျပာပါ။</item>
+        <item>သင့္ IC နံပါတ္၏ ေနာက္ဆံုးဂဏန္း 6 လံုးကဘာလဲ?</item>
+        <item>သင့္ကားနံပါတ္ကိုေျပာပါ။</item>
+        <item>သင္အလုပ္စတင္လုပ္ကိုင္ခဲ့သည့္ ကုမၸဏီအမည္ကို ေျပာပါ။</item>
+        <item>စိတ္ႀကိဳက္</item>
+    </string-array>
+    <string-array name="timezones_cities_array">
+        <item>အာဘစ္ဒ္ဂ်န္၊ အိုင္ဗရီကို႕စ္</item>
+        <item>အဘူဒါဘီ၊ ယူေအအီး</item>
+        <item>အကၠရာ၊ ဂါနာ</item>
+        <item>အာဒစ္စ္ အာဘာဘာ၊ အီသီရိုးပီးယား</item>
+        <item>အဲဒီလိတ္၊ ၾသစေၾတးလ်</item>
+        <item>အလာစကာ၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>အယ္လ္ဂ်ီရာစ္၊ အယ္လ္ဂ်ီးရီးယား</item>
+        <item>အယ္မတ္တီ၊ ကာဇက္စတန္</item>
+        <item>အမ္ဘြန္၊ အင္ဒိုနီးရွား</item>
+        <item>အာမန္၊ ေဂ်ာ္ဒန္</item>
+        <item>အမ္စတာဒမ္၊ နယ္သာလန္</item>
+        <item>အာနာဒရီ၊ ရုရွား</item>
+        <item>အန္ကာရစ္၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>အန္ကာရာ၊ တူရကီ</item>
+        <item>အန္႐ွန္၊ တ႐ုတ္</item>
+        <item>အန္တန္နာနာရီဗို၊ မာဒါဂတ္စကား</item>
+        <item>အက္ရွ္ကဘတ္၊ တာ့ခ္မင္နစၥတန္</item>
+        <item>အက္စ္မာရာ၊ အီရီတီရာ</item>
+        <item>အက္စ္တာနာ၊ ကာဇက္ကစၥတန္</item>
+        <item>အာစြန္စီယြန္၊ ပါရာေဂြး</item>
+        <item>ေအသင္၊ ဂရိ</item>
+        <item>အတၱလန္တာ၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>ေအာက္ကလန္ကြ်န္းစု၊ နယူးဇီလန္</item>
+        <item>ေအာ္စတင္၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>အာဇိုရီးစ္၊ ေပၚတူဂီ</item>
+        <item>ဘက္ဂဒက္၊ အီရတ္</item>
+        <item>ဘာကူ၊ အဇာဘိုင္ဂ်န္</item>
+        <item>ဘာတီမိုး၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>ဘာမာကို၊ မာလီ</item>
+        <item>ဘန္ဂေလာ၊ အိႏိၵယ</item>
+        <item>ဗန္ေကာက္၊ ထိုင္း</item>
+        <item>ဘန္ဂူး၊ ဗဟိုအာဖရိက သမၼတႏုိင္ငံ</item>
+        <item>ေဘာင္ဒင္း၊ တ႐ုတ္</item>
+        <item>ေဘာင္ေတာင္း၊ တ႐ုတ္</item>
+        <item>ဘာစီလိုနာ၊ စပိန္</item>
+        <item>ဘာရီ၊ အီတလီ</item>
+        <item>ေဘ့စ္-တီရီ၊ ဂြာဒီလုပ္ပ္</item>
+        <item>ေပက်င္း၊ တ႐ုတ္</item>
+        <item>ေဘရြတ္၊ လဘႏြန္</item>
+        <item>ဘဲလ္ဂရိတ္၊ ဆားဗီးယား</item>
+        <item>ဘီလီဇီၿမိဳ႕ေတာ္၊ ဘီလီဇီ</item>
+        <item>ဘန္႐ွီး၊ တ႐ုတ္</item>
+        <item>ဘာလင္၊ ဂ်ာမနီ</item>
+        <item>ဘန္း၊ ဆြစ္ဇာလန္</item>
+        <item>ဘစ္ကက္၊ ကာဂ်စ္စတန္</item>
+        <item>ဘစ္ဆူအာ၊ ဂီနီဘစ္ဆူအာ</item>
+        <item>ဘိုတုိဂါ၊ ကိုလံဘီယာ</item>
+        <item>ဘိုေလာ့ခ္ညာ၊ အီတလီ</item>
+        <item>ေဘာ္စတြန္၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>ဘရာဇီးလီးယား၊ ဘရာဇီးလ္</item>
+        <item>ဘရာတစ္လာဗာ၊ ဆလိုေဗးနီးယား</item>
+        <item>ဘရာဇာေဗးလ္၊ ကြန္ဂို</item>
+        <item>ဘရစ္ခ်္ေတာင္း၊ ဘာေဘဒိုးစ္</item>
+        <item>ဘရစၥဘိန္း၊ ၾသစေၾတးလ်</item>
+        <item>ဘရပ္ဆဲလ္၊ ဘယ္လ္ဂ်ီယမ္</item>
+        <item>ဘူခ်ာရက္စ္၊ ရိုေမးနီးယား</item>
+        <item>ဘူဒါပက္စ္၊ ဟန္ေဂရီ</item>
+        <item>ဗ်ဴႏိုေအးရီးစ္၊ အာဂ်င္တီးနား</item>
+        <item>ကိုင္ရို၊ အီဂ်စ္</item>
+        <item>ကာလ္ဂရီ၊ ကေနဒါ</item>
+        <item>ကေနရီ ကြ်န္းစု၊ စပိန္</item>
+        <item>ကန္ဘာရာ၊ ၾသစေၾတးလ်</item>
+        <item>ကိတ္ပ္ေတာင္း၊ ေတာင္အာဖရိက</item>
+        <item>ကာရာကတ္စ္၊ ဗင္နီဇြဲလား</item>
+        <item>ကာဒစ္ဖ္၊ ေဝးလ္</item>
+        <item>ကာဆာဘလန္ကာ၊ ေမာ္ရုိကို</item>
+        <item>ကာတန္ဇာ႐ို၊ အီတလီ</item>
+        <item>ကာယင္နီ၊ ျပင္သစ္ဂီနီ</item>
+        <item>ခ်န္ခြ်န္း၊ တရုတ္</item>
+        <item>ခ်န္႐ွ၊ တ႐ုတ္</item>
+        <item>ခ်န္က်ိဳး၊ တ႐ုတ္</item>
+        <item>ခ်ာလိုတီ၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>ခ်ာ႐ိုလက္ အမီလီ၊ အေမရိကန္ ဗာဂ်င္းကြ်န္းစု</item>
+        <item>ခ်ယ္ယာဘီင့္၊ ႐ု႐ွ</item>
+        <item>ခ်န္ဒူး၊ တရုတ္</item>
+        <item>ခ်င္ႏိုင္း၊ အိႏၵိယ</item>
+        <item>ခ်ီကာဂို၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>ခ်ီဟြားဟြား၊ မကၠဆီကို</item>
+        <item>ခ်ီဆီေနာ၊ ေမာ္ဒိုဗာ</item>
+        <item>ခ်ီတာ၊ ႐ု႐ွ</item>
+        <item>ခ်ံဳက်င္း၊ တရုတ္</item>
+        <item>ကလီဗ္လန္း၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>ကိုလမ္ဘို၊ သီရိလကၤာ</item>
+        <item>ကိုလံဘတ္စ္၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>ကိုနာကရီ၊ ဂီနီ</item>
+        <item>ကိုပင္ေဟဂန္၊ ဒိန္းမတ္</item>
+        <item>ေကာ္ေက့ခ်္၊ အိုင္ယာလန္</item>
+        <item>ခ႐ိုတုန္း၊ အီတလီ</item>
+        <item>ဒါကာ၊ ဆီနီေဂါ</item>
+        <item>ဒါလီယန္၊ တရုတ္</item>
+        <item>ဒဲလတ္စ္၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>ဒါမာစကတ္၊ ဆီးရီးယား</item>
+        <item>ဒါခ်င္း၊ တ႐ုတ္</item>
+        <item>ဒါအတ္စ္ ဆာလမ္၊ တန္ဇန္နီးယား</item>
+        <item>ဒါဝင္၊ ၾသစေၾတးလ်</item>
+        <item>ဒါတုန္း၊၊ တ႐ုတ္</item>
+        <item>ဒန္ပါဆာ၊ အင္ဒိုနီး႐ွား</item>
+        <item>ဒန္ဗာ၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>ဒီထရြိဳက္၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>ဒါကာ၊ ဘဂၤလားေဒ့ရွ္</item>
+        <item>ဒီေယဂို ဂါစီယာ၊ ယူေက</item>
+        <item>ဒီဂ်ီဘိုတီ</item>
+        <item>ဒိုဟာ၊ ကာတာ</item>
+        <item>ဒိုအာလာ၊ ကင္မ႐ြန္း</item>
+        <item>ဒူဘိုင္း၊ ယူေအအီး</item>
+        <item>ဒဗ္ဗလင္၊ အိုင္ယာလန္</item>
+        <item>ဒူရွ္ဟန္ဘီ၊ တာဂ်ီကစၥတန္</item>
+        <item>အီစတာကြ်န္း၊ ခ်ီလီ</item>
+        <item>အီဒင္ဘတ္ခ္၊ စေကာ့တလန္</item>
+        <item>အက္ဒမြန္တန္၊ ကေနဒါ</item>
+        <item>အယ္လ္ပါဆို၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>ဖာနန္ဒို ဒီ ႏို႐ြန္ဟ၊ ဘရာဇီးလ္</item>
+        <item>ဖေလာရန္႕စ္၊ အီတလီ</item>
+        <item>ဖို႕တ္-ဒီ-ဖရန္႕စ္၊ မာတင္နစ္ခ္</item>
+        <item>ဖရန္႕ဖတ္၊ ဂ်ာမနီ</item>
+        <item>ဖရီးေတာင္း၊ ဆီရီယာလီႏြန္</item>
+        <item>ဖူ႐ွန္၊ တ႐ုတ္</item>
+        <item>ဖူ႐ွင္း၊ တ႐ုတ္</item>
+        <item>ဖူေက်ာင္၊ တ႐ုတ္</item>
+        <item>ဂါဘြန္ရံုး၊ ေဘာ့စ္ဝါနာ</item>
+        <item>ဂါဘာပါဂို႕စ္ ကြ်န္းစု၊ အီေကြေဒါ</item>
+        <item>ဂ်နီဗာ၊ ဆြစ္ဇာလန္</item>
+        <item>ဂ်ီႏိုအာ၊ အီတလီ</item>
+        <item>ေဂ်ာ့ခ်္ေတာင္း၊ ဂူယားနား</item>
+        <item>ဂရင္းလန္း</item>
+        <item>ဂရတ္ဗီကင္၊ ေတာင္ေဂ်ာ္ဂ်ီယာ</item>
+        <item>ဂူအမ္</item>
+        <item>ကြမ္က်ိဳး၊ တရုတ္</item>
+        <item>ဂြာတီမာလာ</item>
+        <item>ဂြာတီမာလာ ၿမိဳ႕ေတာ္၊ ဂြာတီမာလာ</item>
+        <item>ကြီယန္၊ တရုတ္</item>
+        <item>ဂူစတာဗီးယား၊ စိန္႕ဘာသာလီမီ</item>
+        <item>ဟိုက္ကူ၊ တရုတ္</item>
+        <item>ဟာလီဖက္စ္၊ ကေနဒါ</item>
+        <item>ဟမ္းဘတ္ခ္၊ ဂ်ာမနီ</item>
+        <item>ဟန္ဒန္၊ တ႐ုတ္</item>
+        <item>ဟန္က်ိဳး၊ တ႐ုတ္</item>
+        <item>ဟႏိြဳင္း၊ ဗီယက္နမ္</item>
+        <item>ဟာရာရီ၊ ဇင္ဘာေဘြ</item>
+        <item>ဟာဘင္း၊ တရုတ္</item>
+        <item>ဟာဗားနား၊ က်ဴးဘား</item>
+        <item>ဟာဝါအီ၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>ဟီေဖး၊ တ႐ုတ္</item>
+        <item>ဟယ္လ္ဆင္းကီး၊ ဖင္လန္</item>
+        <item>ဟိုခ်ီမင္းစီးတီး၊ ဗီယက္နမ္</item>
+        <item>ဟိုဘတ္၊ ၾသစေၾတးလ်</item>
+        <item>ဟိုေဟာ့၊ တ႐ုတ္</item>
+        <item>ေဟာင္ေကာင္၊ တ႐ုတ္</item>
+        <item>ဟိုႏုိလူလူ၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>ဟူစတင္၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>ဟို႕ဗ္၊ မြန္ဂိုးလီးယား</item>
+        <item>ဟြာရီအန္၊ တ႐ုတ္</item>
+        <item>ဟိုင္နန္၊ တ႐ုတ္</item>
+        <item>ဟိုက္ဒရာဘတ္၊ အိႏၵိယ</item>
+        <item>အင္ဒီယန္နား ပိုလစ္၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>အာကြတ္စ္၊ ရုရွား</item>
+        <item>အစၥလမ္မာဘတ္၊ ပါကစၥတန္</item>
+        <item>အစၥတန္ဘူ၊ တူရကီ</item>
+        <item>အီဇ္ဗက္၊ ႐ု႐ွ</item>
+        <item>ဂ်ကာတာ၊ အင္ဒိုနီး႐ွား</item>
+        <item>ဂ်စ္ဒန္၊ ေဆာ္ဒီအာေရဗ်</item>
+        <item>ေဂ်ရုစလင္၊ အစၥေရး</item>
+        <item>ဂ်ီလင္း ၿမိဳ႕ေတာ္၊ တ႐ုတ္</item>
+        <item>ဂ်ီနန္၊ တ႐ုတ္</item>
+        <item>ဂ်င္ေက်ာင္၊ တ႐ုတ္</item>
+        <item>က်ီ႐ွီး၊ တ႐ုတ္</item>
+        <item>ဂ်ိဳဟန္စ္ဘတ္ခ္၊ ေတာင္အာဖရိက</item>
+        <item>ကဘူးလ္၊ အာဖဂန္နစၥတန္</item>
+        <item>ကာလင္နင္ဂရက္၊ ႐ု႐ွ</item>
+        <item>ကမ္ခ်တ္က၊ ႐ု႐ွ</item>
+        <item>ကမ္ပါဘာ၊ ယူဂန္ဒါ</item>
+        <item>ကရာခ်ီ၊ ပါကစၥတန္</item>
+        <item>ခတၱမႏၵဴ၊ နီေပါ</item>
+        <item>ခ်ာဘာ႐ိုဗ္၊ ႐ု႐ွ</item>
+        <item>ခါကိဗ္၊ ယူကရိန္း</item>
+        <item>ခါတုမ္၊ ဆူဒန္</item>
+        <item>ကင္းစတန္၊ ဂ်ေမကာ</item>
+        <item>ကင္ဟာစာ၊ ကြန္ဂိုဒီမိုကရက္တစ္ သမၼတႏုိင္ငံ</item>
+        <item>ကီရီတီမာတီ၊ ကီရီဘာတီ</item>
+        <item>ကာလကတၱား၊ အိႏိၵယ</item>
+        <item>ခရာစညိဳရာ့စ္၊ ရုရွား</item>
+        <item>ကြာလာလမ္ပူ၊ မေလးရွား</item>
+        <item>ကူမင္း၊ တ႐ုတ္</item>
+        <item>ကူဝိတ္စီးတီး</item>
+        <item>ကီယက္ဗ္၊ ယူကရိန္း</item>
+        <item>ဘာပါ့ဇ္၊ ဘိုလီးဗီးယား</item>
+        <item>လာဂို႕စ္၊ ႏုိင္ဂ်ီးရီးယား</item>
+        <item>လဟိုး၊ ပါကစၥတန္</item>
+        <item>လန္က်ိဳး၊ တ႐ုတ္</item>
+        <item>လာ့စ္ဗီးဂတ္စ္၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>လီမာ၊ ပီရူး</item>
+        <item>လစ္စဘြန္း၊ ေပၚတူဂီ</item>
+        <item>လ်ဴက်ိဳး၊ တ႐ုတ္</item>
+        <item>လူဘယ္ဂ်ာနာ၊ ဆလိုေဗးနီးယား</item>
+        <item>လန္ဒန္၊ ယူေက</item>
+        <item>ေလာ့စ္အိန္ဂ်လိစ္၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>လူဝီးစ္ဗီးလ္၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>လူအန္ဒါ၊ အန္ဂိုလာ</item>
+        <item>လူဘမါဘာ႐ွီ၊ ဒီ အာ ကြန္ဂို</item>
+        <item>ေလာင္ယန္း၊ တ႐ုတ္</item>
+        <item>လူစာကာ၊ ဇမ္ဘီယာ</item>
+        <item>လူဇင္ဘတ္</item>
+        <item>လီဗစ္၊ ယူကရိန္း</item>
+        <item>မကာအို၊ တ႐ုတ္</item>
+        <item>မက္ဒရစ္၊ စပိန္</item>
+        <item>မာဂါဒန္၊ ရုရွား</item>
+        <item>မာဂ်ဴ႐ို၊ မာ႐ွယ္ကြ်န္းစုမ်ား</item>
+        <item>မာလာဘို၊ အီေကြတိုးရီးယား ဂီနီ</item>
+        <item>မလီ၊ ေမာ္ဒိုက္ဗ္</item>
+        <item>မာနာဂြာ၊ နီကာရာဂြာ</item>
+        <item>မာနာမာ၊ ဘာရိန္း</item>
+        <item>မာနာ႐ုစ္၊ ဘရာဇီးလ္</item>
+        <item>မနီလာ၊ ဖိလစ္ပိုင္</item>
+        <item>မာပူတို၊ မိုဇမ္ဘစ္ခ္</item>
+        <item>မာရီေဂါ့၊ စိန္႕မာတင္</item>
+        <item>ေမယိုတီ၊ ျပင္သစ္</item>
+        <item>မာဇတ္တလန္၊ မကၠဆီကို</item>
+        <item>မကၠာ၊ ေဆာ္ဒီအာေရဗ်</item>
+        <item>မဲလ္ဘုန္း၊ ၾသစေၾတးလ်</item>
+        <item>မမ္ဖစ္စ္၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>မက္ဆင္နာ၊ အီတလီ</item>
+        <item>မကၠဆီကိုစီးတီး၊ မကၠဆီကို</item>
+        <item>မီယာမီ၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>အလယ္-အတၱလန္တစ္</item>
+        <item>မစ္ဒ္ေဝး ကြ်န္းစု၊ အေမရိက</item>
+        <item>မီလန္၊ အီတလီ</item>
+        <item>မီဝါကီး၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>မီနီယာပိုလစ္၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>မင့္န္စ္၊ ဘီလာရုစ္</item>
+        <item>မိုဂါဒစ္ရႈး၊ ဆိုမားလီးယား</item>
+        <item>မြန္႐ိုဗီရာ၊ လိုက္ဘီရီးယား</item>
+        <item>မြန္တီဗီဒီယို၊ ဥရုေဂြး</item>
+        <item>မြန္ထရီ၊ ကေနဒါ</item>
+        <item>ေမာ္စကို၊ ရုရွား</item>
+        <item>မူဒန္ဂ်င္း၊ တ႐ုတ္</item>
+        <item>မြမ္ဘိုင္း၊ အိႏိၵယ</item>
+        <item>ျမဴးနစ္၊ ဂ်ာမနီ</item>
+        <item>မတ္စကတ္၊ အိုမန္</item>
+        <item>နီရူဘီ၊ ကင္ညာ</item>
+        <item>နန္ခ်န္၊ တ႐ုတ္</item>
+        <item>နန္က်င္း၊ တရုတ္</item>
+        <item>နန္နင္း၊ တ႐ုတ္</item>
+        <item>နပိုလီ၊ အီတလီ</item>
+        <item>ေနတာစ္၊ ဆြစ္ဇာလန္</item>
+        <item>နာဂ်ာမီနာ၊ ခ်တ္</item>
+        <item>နယူးေဒလီ၊ အိႏိၵယ</item>
+        <item>နယူးေအာ္လန္းစ္၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>နယူးေယာက္ခ္၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>နယူးေဖာင္လန္၊ ကေနဒါ</item>
+        <item>နီရာေမ၊ ႏုိင္ဂ်ာ</item>
+        <item>နင္ဘို၊ တ႐ုတ္</item>
+        <item>ႏိုအာေခ်ာ့တ္၊ ေမာ္ရစ္တီနီးယား</item>
+        <item>ႏိုမီရာ၊ နယူးကယ္လီဒိုးနီးယား</item>
+        <item>ႏိုဗိုကုဇနက္ခ္၊ ႐ု႐ွ</item>
+        <item>ႏိုဗိုစီဘီရာစ္၊ ႐ု႐ွ</item>
+        <item>ႏူကြာလိုဖာ၊ တြန္ဂါ</item>
+        <item>ႏ်ဴခ္၊ ဂရင္းလန္း</item>
+        <item>အိုမက္၊ ႐ု႐ွ</item>
+        <item>အိုရယ္လ္၊ ကာဇက္ကစၥတန္</item>
+        <item>အိုဆာကာ၊ ဂ်ပန္</item>
+        <item>ေအာ့စလို၊ ေနာ္ေဝး</item>
+        <item>အိုတာဝါ၊ ကေနဒါ</item>
+        <item>အိုဂါဒိုဂို၊ ဘာကီနာဖာဆို</item>
+        <item>ပါဂို ပါဂို၊ အေမရိကန္ ဆာမိုအာ</item>
+        <item>ပါလာမုိ၊ အီတလီ</item>
+        <item>ပနားမားစီးတီး၊ ပနားမား</item>
+        <item>ပါရာမာရီဘို၊ ဆူရီနမ္</item>
+        <item>ပဲရစ္၊ ျပင္သစ္</item>
+        <item>ပမ္း၊ ႐ု႐ွ</item>
+        <item>ပတ္သ္၊ ၾသစေၾတးလ်</item>
+        <item>ပီထ႐ိုပက္ဗ္လိုဗက္ခ္-ကမ္ခ်တ္စကီး၊ ႐ု႐ွ</item>
+        <item>ဖီလာဒဲဖီးယား၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>ဖႏြမ္းပင္၊ ကေမာၻဒီးယား</item>
+        <item>ဖီးနစ္၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>ပင္ဒင္႐ွန္၊ တ႐ုတ္</item>
+        <item>ေပါ့ဂိုဂီကာ၊ မြန္တီနီဂ႐ို</item>
+        <item>ပြန္တာ ဒယ္လ္ဂါဒါ၊ ေပၚတူဂီ</item>
+        <item>ပို႕တ္ လူဝစ္၊ ေမာ္ရစ္႐ွ</item>
+        <item>ပို႕တ္-အူ-ပရင့္စ္၊ ေဟတီ</item>
+        <item>ပို႕တ္လန္း၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>ပရက္ဂ္၊ ခ်က္သမၼတႏုိင္ငံ</item>
+        <item>ပရာရီယာ၊ ေက့ပ္ ဗာဒီ</item>
+        <item>ၿပံဳယမ္း၊ ဒီမိုကရက္တစ္ ျပည္သူ႕သမၼတ ကိုရီးယားႏုိင္ငံ</item>
+        <item>ခ်င္ေဒါင္း၊ တ႐ုတ္</item>
+        <item>ခ်ီခ်ီဟာ၊ တ႐ုတ္</item>
+        <item>ကြီတို၊ အီေကြေဒါ</item>
+        <item>ရာဘတ္၊ ေမာ္႐ိုကို</item>
+        <item>ရီစီဖီ၊ ဘရာဇီးလ္</item>
+        <item>ရီဂ်ီနာ၊ ကေနဒါ</item>
+        <item>ေရဂ်ာဗစ္၊ အိုက္စလန္</item>
+        <item>ရီဂါ၊ လတ္ဗီယား</item>
+        <item>ရီယိုဒီဂ်နဲရိုး၊ ဘရာဇီးလ္</item>
+        <item>ရီယတ္၊ ေဆာ္ဒီအာေရဗ်</item>
+        <item>ေရာမ၊ အီတလီ</item>
+        <item>ေဆာ္ေပၚလို၊ ဘရာဇီးလ္</item>
+        <item>စိန္႕-ဒင္းနစ္စ္၊ ရီယူနီယံကြ်န္း</item>
+        <item>ေဆာ့တ္လိတ္ၿမိဳ႕ေတာ္၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>ဆာမာရာ၊ ႐ု႐ွ</item>
+        <item>ဆန္အန္တိုနီယို၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>ဆန္ဒီေယဂို၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>ဆန္ဖရန္ စစ္စကို၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>ဆန္ဂ်ိဳ႕စ္၊ ေကာ္စတာရီကာ</item>
+        <item>ဆန္ဂ်ဴအန္၊ ျပဴတိုရီကို</item>
+        <item>ဆန္မာရီႏို</item>
+        <item>ဆန္ဆာေဗဒိုး၊ အယ္လ္ဆာေဗဒိုး</item>
+        <item>ဆာနာအာ၊ ယီမင္</item>
+        <item>ဆန္တီေယဂို၊ ခ်ီလီ</item>
+        <item>ဆန္တို ဒိုမင္ဂို၊ ဒိုမီနီကန္ သမၼတႏုိင္ငံ</item>
+        <item>ဆာရာေဂ်ဗို၊ ေဘာ့စနီးယား ႏွင့္ ဟာဇီဂိုေဗးနီးယား</item>
+        <item>ဆီယက္တဲလ္၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>ဆိုးလ္၊ ေတာင္ကိုရီးယား</item>
+        <item>ရွန္ဟိုင္း၊ တရုတ္</item>
+        <item>႐ွန္ခ်ီယူ၊ တ႐ုတ္</item>
+        <item>႐ွန္ေတာင္း၊ တ႐ုတ္</item>
+        <item>ရွန္ယန္၊ တရုတ္</item>
+        <item>ရွန္က်န္၊ တရုတ္</item>
+        <item>႐ွီက်ီးက်န္၊ တ႐ုတ္</item>
+        <item>စင်ကာပူ</item>
+        <item>စကိုပ္ဂ်ီ၊ မာစီဒိုးနီးယား</item>
+        <item>ဆိုဖီယာ၊ ဘူေဂးရီးယား</item>
+        <item>စိန္႕ဂြ်န္၊ ကေနဒါ</item>
+        <item>စိန္႕ပီတာစဘတ္ခ္၊ ရုရွား</item>
+        <item>စိန္႕ပီယာႏွင့္ မီကြန္လြန္၊ ျပင္သစ္</item>
+        <item>စေတာ့ခ္ဟုမ္း၊ ဆြီဒင္</item>
+        <item>ဆူဗာ၊ ဖီဂ်ီ</item>
+        <item>စုက်ိဳး၊ တ႐ုတ္</item>
+        <item>ဆစ္ဒနီ၊ ၾသစေၾတးလ်</item>
+        <item>တီဟီတီ ျပင္သစ္ ေပၚလီနီး႐ွား</item>
+        <item>တိုင္ေပ၊ တရုတ္</item>
+        <item>တိုင္ယြန္၊ တ႐ုတ္</item>
+        <item>ေတာလင္း၊ အက္စတိုးနီးယား</item>
+        <item>တန္႐ွန္၊ တ႐ုတ္</item>
+        <item>တာရာဝါ၊ ကီရီဘာတီ</item>
+        <item>တာ႐ွ္ကန္႕၊ ဥဇဘက္ကစၥတန္</item>
+        <item>တီဘီလီစီ၊ ေဂ်ာ္ဂ်ီယာ</item>
+        <item>တီဂူစီဂယ္လ္ပါ၊ ဟြန္ဒူးရပ္စ္</item>
+        <item>တီဟီရန္၊ အီရန္</item>
+        <item>ဆက္တယ္လ္မန္႕၊ ၿဗိတိသွ် ဗာဂ်င္းကြ်န္းစု</item>
+        <item>တီယန္က်င္း၊ တရုတ္</item>
+        <item>တီဂ်ဴယာနာ၊ မကၠဆီကို</item>
+        <item>တိုက်ိဳ၊ ဂ်ပန္</item>
+        <item>တြန္ဂါ</item>
+        <item>တိုရြန္တို၊ ကေနဒါ</item>
+        <item>ထရီပိုလီ၊ လစ္ဗ်ား</item>
+        <item>တူနစ္၊ တူနီး႐ွား</item>
+        <item>တိုရီႏို၊ အီတလီ</item>
+        <item>အူဖ၊ ႐ု႐ွ</item>
+        <item>အူလန္ဘက္တာ၊ မြန္ဂိုလီးယား</item>
+        <item>အူရမ္ခ်ီ၊ တရုတ္</item>
+        <item>ဗာဒူဇ္၊ လက္ခ်င္စတိန္း</item>
+        <item>ဗယ္လ္လက္တာ၊ ေမာ္လ္တာ</item>
+        <item>ဗန္ကူးဗား၊ ကေနဒါ</item>
+        <item>ဗီ႐ိုနာ၊ အီတလီ</item>
+        <item>ဗစ္တိုးရီးယား၊ ဆိုင္ခ်ီလီစ္</item>
+        <item>ဗီယင္နာ၊ ၾသစတီးယား</item>
+        <item>ဗီလ္နီရုစ္၊ လစ္သူေယးနီးယား</item>
+        <item>ဗဘာဒီဗိုစေတာ့ခ္၊ ႐ု႐ွ</item>
+        <item>ဗိုလ္ဂိုဂရတ္၊ ႐ု႐ွ</item>
+        <item>ဝါေဆာ၊ ပိုလန္</item>
+        <item>ဝါရွင္တန္ ဒီစီ၊ အေမရိကန္ျပည္ေထာင္စု</item>
+        <item>ေဝဖန္း၊ တ႐ုတ္</item>
+        <item>ဝယ္လင္တန္၊ နယူးဇီလန္</item>
+        <item>ဝင္းဟုတ္ခ္၊ နမီးဘီးယား</item>
+        <item>ဝင္နီပက္ဂ္၊ ကေနဒါ</item>
+        <item>ဝူဟန္၊ တရုတ္</item>
+        <item>ဝူ႐ွီး၊ တ႐ုတ္</item>
+        <item>ရွီအန္၊ တရုတ္</item>
+        <item>႐ွန္ယန္၊ တ႐ုတ္</item>
+        <item>႐ွီနင္း၊ တ႐ုတ္</item>
+        <item>႐ွဴက်ိဳး၊ တ႐ုတ္</item>
+        <item>ယာကြတ္စ္၊ ရုရွား</item>
+        <item>ယာမိုစ္စိုခ႐ို၊ အိုင္ဗရီကို႕စ္</item>
+        <item>ရန္ကုန္၊ ျမန္မာ</item>
+        <item>ယန္တိုင္း၊ တ႐ုတ္</item>
+        <item>ေယာင္အြန္ဒီ၊ ကင္မ႐ြန္း</item>
+        <item>ရီကတီရင္ဘာခ္၊ ႐ု႐ွ</item>
+        <item>ေရယာဗန္၊ အာေမးနီးယား</item>
+        <item>ယီခ်န္၊ တ႐ုတ္</item>
+        <item>ယီခြ်န္၊ တ႐ုတ္</item>
+        <item>႐ုဇ္ႏုိ-ဆာခါလစ္လ္၊ ႐ု႐ွ</item>
+        <item>ဇာဂရက္၊ ခ႐ိုေရး႐ွား</item>
+        <item>ေဇာင္ကြ်န္း၊ တ႐ုတ္</item>
+        <item>က်န္ဂ်ီေကာင္း၊ တ႐ုတ္</item>
+        <item>က်န္ဂ်င္း၊ တ႐ုတ္</item>
+        <item>က်န္က်ိဳး၊ တ႐ုတ္</item>
+        <item>ဇီဘို၊ တ႐ုတ္</item>
+        <item>ဇူးရစ္ခ်္၊ ဆြစ္ဇာလန္</item>
+        <item>ေတာင္ေဂ်ာ္ဂ်ီယာ</item>
+        <item>ဘန္ဒါ ဆရီ ဘဂဝမ္</item>
+        <item>ဗီယင္တုိင္း</item>
+    </string-array>
+</resources>

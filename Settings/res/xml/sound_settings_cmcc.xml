@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sound_settings" android:key="sound_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceScreen android:title="@string/profiles" android:key="Profiles_setting" android:summary="@string/summary_profiles" android:fragment="com.vivo.settings.ProfileSettings" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/vibrate_title" android:key="vibrate" />
+    <PreferenceCategory />
+    <com.vivo.settings.preference.SeekBarPreference android:layout="@layout/layout_seek_bar_pref_sound" android:key="seekbar_ring" settings:drawableStart="@drawable/ic_settings_sound_ring" settings:max="7" settings:scaleMax="true" />
+    <com.vivo.settings.preference.SeekBarPreference android:layout="@layout/layout_seek_bar_pref_sound" android:key="seekbar_media" settings:drawableStart="@drawable/ic_settings_sound_music" settings:max="31" settings:scaleMax="true" />
+    <com.vivo.settings.preference.SeekBarPreference android:layout="@layout/layout_seek_bar_pref_sound" android:key="seekbar_alarm" settings:drawableStart="@drawable/ic_settings_sound_alarm" settings:max="7" settings:scaleMax="true" />
+    <PreferenceCategory />
+    <PreferenceScreen android:title="@string/zen_mode_title" android:key="zen_mode" settings:keywords="@string/keywords_sounds_and_notifications_interruptions">
+        <intent android:action="android.settings.ZEN_MODE_SETTINGS" />
+    </PreferenceScreen>
+    <com.vivo.settings.preference.VivoListPreference android:persistent="false" android:entries="@array/ring_or_mtp_change_entries" android:title="@string/ring_vol_change_by_keys" android:key="ring_vol_change_by_keys" android:summary="@string/screen_timeout_summary" android:entryValues="@array/ring_or_mtp_change_values" />
+    <PreferenceCategory android:key="ring_vol_change_by_keys_explain" style="?vivo:attr/explainPreferenceStyle" />
+    <PreferenceCategory android:persistent="false" style="?vivo:attr/dividerPreferenceStyle" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/title_srs_max_v" android:key="srs_maxv" />
+    <PreferenceCategory android:title="@string/title_srs_max_v_explain" android:key="srs_maxv_cat" style="?vivo:attr/explainPreferenceStyle" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/title_speaker_boost" android:key="speaker_boost" />
+    <PreferenceCategory android:title="@string/title_speaker_boost_explain" android:key="speaker_boost_cat" style="?vivo:attr/explainPreferenceStyle" />
+    <PreferenceScreen android:title="@string/ringtone_phone_title" android:key="sound_ringtone" android:summary="@string/pick_ringtone" />
+    <PreferenceScreen android:title="@string/ringtone_phone_title" android:key="sound_ringtone_sim2" android:summary="@string/pick_ringtone" />
+    <PreferenceScreen android:title="@string/ringtone_messages_title" android:key="sound_messages" android:summary="@string/ringtone_summary" />
+    <PreferenceScreen android:title="@string/ringtone_messages_title" android:key="sound_messages_sim2" android:summary="@string/ringtone_summary" />
+    <PreferenceScreen android:title="@string/ringtone_notification_title" android:key="sound_notification" android:summary="@string/ringtone_summary" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/ascending_ring" android:key="ascending_ring" />
+    <PreferenceCategory />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/dtmf_tone_enable_title" android:key="dtmf_tone" android:defaultValue="true" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/sound_effects_enable_title" android:key="sound_effects" android:defaultValue="true" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/lock_sounds_enable_title" android:key="lock_sounds" android:defaultValue="true" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/message_sent_sound" android:key="message_sent_sound" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/vivo_input_method_sound" android:key="key_input_method_sound" />
+    <PreferenceCategory android:key="hifi_globle_category_2" />
+    <PreferenceScreen android:title="@string/hifi_settings" android:key="hifi_settings">
+        <intent android:action="bbk.media.action.DISPLAY_HIFI_CONTROL_PANEL" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/vivo_sound" android:key="vivo_sound">
+        <intent android:action="vivo.intent.action.VIVO_SOUND" />
+    </PreferenceScreen>
+    <PreferenceCategory android:key="hifi_globle_category_1" />
+    <PreferenceScreen android:title="@string/ktv_title" android:key="ktv_settings">
+        <intent android:action="vivo.intent.action.start_karaoke_settings" />
+    </PreferenceScreen>
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/key_vibrate_state" android:key="key_vibrate_state" />
+    <PreferenceCategory android:title="@string/key_vibrate_state_summary" style="?vivo:attr/explainPreferenceStyle" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/dual_spkr" android:key="key_dual_spkr" />
+    <PreferenceCategory android:title="@string/dual_spkr_exp" android:key="key_dual_spkr_exp" style="?vivo:attr/explainPreferenceStyle" />
+</PreferenceScreen>

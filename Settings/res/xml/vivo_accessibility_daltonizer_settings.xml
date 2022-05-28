@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/accessibility_display_daltonizer_preference_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/accessibility_display_daltonizer_preference_title" android:key="diaplay_daltonizer" />
+    <PreferenceCategory android:title="@string/accessibility_display_daltonizer_preference_subtitle" style="?vivo:attr/explainPreferenceStyle" />
+    <PreferenceCategory android:persistent="false" style="?vivo:attr/dividerPreferenceStyle" />
+    <com.vivo.settings.preference.VivoListPreference android:persistent="false" android:entries="@array/daltonizer_type_entries" android:title="@string/daltonizer_type" android:key="type" android:summary="%s" android:entryValues="@array/daltonizer_type_values" />
+</PreferenceScreen>

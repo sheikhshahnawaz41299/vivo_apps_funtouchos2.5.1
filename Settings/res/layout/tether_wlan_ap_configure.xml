@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/ssid_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@vivo:dimen/preference_divider_height">
+        <TextView android:textAppearance="@style/TextAppearance.TileTitle" android:paddingLeft="@vivo:dimen/preference_left_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_ssid" />
+        <EditText android:textAppearance="@style/TextAppearance.Small" android:gravity="center|right" android:layout_gravity="center|right" android:id="@id/ssid_edit" android:background="@null" android:paddingLeft="8.0dip" android:paddingRight="@vivo:dimen/preference_right_margin" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/wifi_ssid_hint" android:singleLine="true" android:maxLength="32" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@vivo:dimen/preference_divider_height">
+        <LinearLayout android:orientation="vertical" android:background="?vivo:generalBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/security_layout" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+                <TextView android:textAppearance="@style/TextAppearance.TileTitle" android:paddingLeft="@vivo:dimen/preference_left_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_security" />
+                <Spinner android:gravity="center|right" android:entries="@array/wifi_ap_security" android:id="@id/security_spinner" android:background="@null" android:paddingRight="@vivo:dimen/preference_right_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:prompt="@string/wifi_security" style="@style/wifi_item_content" />
+            </LinearLayout>
+            <View android:id="@id/tile_divider" android:background="?android:dividerHorizontal" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@vivo:dimen/divider_height" android:layout_marginStart="@vivo:dimen/preference_left_margin" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/password_layout" android:background="?vivo:generalBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/TextAppearance.TileTitle" android:paddingLeft="@vivo:dimen/preference_left_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_password" />
+            <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:paddingLeft="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <BbkMoveBoolButton android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/password_show" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+                <EditText android:textAppearance="@style/TextAppearance.Small" android:gravity="center|right" android:id="@id/password_edit" android:background="@null" android:paddingRight="@vivo:dimen/preference_right_margin" android:layout_width="fill_parent" android:layout_height="fill_parent" android:password="true" android:singleLine="true" android:maxLength="63" android:layout_toLeftOf="@id/password_show" android:layout_centerVertical="true" android:imeOptions="flagForceAscii" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

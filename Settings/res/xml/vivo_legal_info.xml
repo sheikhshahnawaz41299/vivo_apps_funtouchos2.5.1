@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/legal_information"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/settings_copyright_activity_title" android:key="copyright" />
+    <PreferenceScreen android:title="@string/settings_license_activity_title" android:key="license">
+        <intent android:action="android.settings.LICENSE" />
+    </PreferenceScreen>
+    <Preference android:title="@string/google_license_activity_title" android:key="terms">
+        <intent android:action="android.settings.TERMS" />
+    </Preference>
+    <PreferenceScreen android:title="@string/supervision" android:key="supervision" />
+</PreferenceScreen>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">आब अहाँ %1$d कदम दूर छी एकटाटा विकाशककें रुपमे।</item>
+        <item quantity="one">आब अहाँ %1$d कदम दूर छी एकटाटा विकाशककें रुपमे।</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">कूट शब्दमे निश्चित रुपेन कमसँ कम %d अक्षर होइक।</item>
+        <item quantity="one">कूट शब्दमे निश्चित रुपेन कमसँ कम 1 अक्षर होइक।</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">कूट शब्दमे निश्चित रुपेन कमसँ कम %d छोट केशक अक्षर होइक।</item>
+        <item quantity="one">कूट शब्दमे निश्चित रुपेन कमसँ कम 1टा छोट केशक अक्षर होइक।</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">कूट शब्दमे निश्चित रुपेन कमसँ कम %d उपर केशक अक्षर होइक।</item>
+        <item quantity="one">कूट शब्दमे निश्चित रुपेन कमसँ कम 1 उपर केशक अक्षर होइक।</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">कूट शब्दमे निश्चित रुपेन कमसँ कम %d अंक होइक।</item>
+        <item quantity="one">कूट शब्दमे निश्चित रुपेन कमसँ कम एकटा अंक होइक।</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">कूट शब्दमे निश्चित रुपेन कमसँ कम %d खास चरित्र होइक।</item>
+        <item quantity="one">कूट शब्दमे निश्चित रुपेन कमसँ कम 1 खास चरित्र होइक।</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">कूट शब्दमे निश्चित रुपेन कमसँ कम %d अअक्षर चरित्र होइक</item>
+        <item quantity="one">कूट शब्दमे निश्चित रुपेन कमसँ कम 1 टा अअक्षर चरित्र होइक</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">अशुद्ध SIM PIN कोड, अहाँ लग %d बेर बचल प्रयास अछि।</item>
+        <item quantity="one">अशुद्ध SIM PIN कोड, अपन यन्त्रकेँ खोलबाक हेतु संवाहकसँ सम्पर्क करबासँ पूर्व अहाँ लग %d बेर बचल अपन प्रयास अछि।</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d एप(सब) सुचना पढि सकैत अछि</item>
+        <item quantity="one">%d एप(सब) सुचना पढि सकैत अछि</item>
+    </plurals>
+    <plurals name="manage_condition_providers_summary_nonzero">
+        <item quantity="other">%d एप शर्त दैत अछि</item>
+        <item quantity="one">%d एप शर्त दैत अछि</item>
+    </plurals>
+</resources>

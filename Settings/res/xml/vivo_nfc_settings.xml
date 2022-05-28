@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/nfc_quick_toggle_title" android:key="nfc_toggle" />
+    <PreferenceCategory android:title="@string/android_nfc_explained" android:key="nfc_toggle_explain" style="?vivo:attr/explainPreferenceStyle" />
+    <PreferenceCategory android:key="dual_sim_nfc_cat" />
+    <com.vivo.settings.preference.VivoListPreference android:persistent="false" android:title="@string/nfc_pay" android:key="dual_sim_nfc" android:dependency="nfc_toggle" />
+    <PreferenceCategory />
+    <Preference android:title="@string/nfc_tag" android:key="nfc_tag" android:dependency="nfc_toggle">
+        <intent android:targetPackage="bbk.nfc" android:action="android.intent.action.MAIN" android:targetClass="bbk.nfc.MainActivity" />
+    </Preference>
+    <PreferenceCategory />
+    <Preference android:title="@string/nfc_transfer" android:key="nfc_transfer" android:dependency="nfc_toggle" android:fragment="com.vivo.settings.NfcTransfer" />
+</PreferenceScreen>

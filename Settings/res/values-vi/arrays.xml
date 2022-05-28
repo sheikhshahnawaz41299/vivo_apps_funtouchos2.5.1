@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="screen_timeout_entries">
+        <item>15 giây</item>
+        <item>30 giây</item>
+        <item>1 phút</item>
+        <item>2 phút</item>
+        <item>5 phút</item>
+        <item>10 phút</item>
+        <item>30 phút</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Ngay lập tức</item>
+        <item>5 giây</item>
+        <item>15 giây</item>
+        <item>30 giây</item>
+        <item>1 phút</item>
+        <item>2 phút</item>
+        <item>5 phút</item>
+        <item>10 phút</item>
+        <item>30 phút</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Nhỏ</item>
+        <item>Bình thường</item>
+        <item>Lớn</item>
+        <item>Cực lớn</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Rất chậm</item>
+        <item>Chậm</item>
+        <item>Bình thường</item>
+        <item>Nhanh</item>
+        <item>Nhanh hơn</item>
+        <item>Rất nhanh</item>
+        <item>Mau lẹ</item>
+        <item>Cực kỳ mau lẹ</item>
+        <item>Nhanh nhất</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Đang quét mạng…</item>
+        <item>Đang kết nối...</item>
+        <item>Đang xác thực...</item>
+        <item>Đang nhận địa chỉ IP...</item>
+        <item>Đã kết nối</item>
+        <item>Đã tạm dừng</item>
+        <item>Đang ngắt kết nối...</item>
+        <item>Đã ngắt kết nối</item>
+        <item>Không thành công</item>
+        <item>Đã tắt</item>
+        <item>Bị tắt tạm thời (kết nối mạng kém)</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Đang quét mạng…</item>
+        <item>Đang kết nối với %1$s…</item>
+        <item>Đang xác thực với %1$s…</item>
+        <item>Đang nhận địa chỉ IP từ %1$s...</item>
+        <item>Đã kết nối với %1$s</item>
+        <item>Đã tạm dừng</item>
+        <item>Đang ngắt kết nối khỏi %1$s...</item>
+        <item>Đã ngắt kết nối</item>
+        <item>Không thành công</item>
+        <item>Đã tắt</item>
+        <item>Bị tắt tạm thời (kết nối mạng kém)</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Đã kết nối</item>
+        <item>Đã mời</item>
+        <item>Không thành công</item>
+        <item>Khả dụng</item>
+        <item>Ngoài phạm vi</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 phút</item>
+        <item>5 phút</item>
+        <item>1 giờ</item>
+        <item>Không hết thời gian chờ</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Yếu</item>
+        <item>Bình thường</item>
+        <item>Tốt</item>
+        <item>Tuyệt vời</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Luôn luôn</item>
+        <item>Không ngủ khi đang sạc</item>
+        <item>Không bao giờ</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Luôn luôn</item>
+        <item>Không ngủ khi đang sạc</item>
+        <item>Không bao giờ</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Tự động</item>
+        <item>Chỉ 5 GHz</item>
+        <item>Chỉ 2,4 GHz</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Thời gian sử dụng</item>
+        <item>Thời gian sử dụng lần cuối</item>
+        <item>Tên ứng dụng</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>Không có</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Không có</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Tĩnh</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Không có</item>
+        <item>Hướng dẫn</item>
+        <item>Cấu hình tự động của proxy</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Không có</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP hoặc CHAP</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>Chưa chỉ định</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>Không có</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Thiết bị lưu trữ trong</item>
+        <item>Thẻ SD có thể tháo rời</item>
+        <item>Cho phép hệ thống quyết định</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>Vị trí</item>
+        <item>Cá nhân</item>
+        <item>Nhắn tin</item>
+        <item>Phương tiện</item>
+        <item>Thiết bị</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>Vị trí gần đúng</item>
+        <item>Vị trí chính xác</item>
+        <item>GPS</item>
+        <item>Rung</item>
+        <item>Đọc danh bạ</item>
+        <item>Sửa liên hệ</item>
+        <item>Đọc nhật ký cuộc gọi</item>
+        <item>Sửa đổi nhật ký cuộc gọi</item>
+        <item>Đọc lịch</item>
+        <item>Sửa đổi lịch</item>
+        <item>Quét Wi-Fi</item>
+        <item>Thông báo</item>
+        <item>Quét mạng điện thoại</item>
+        <item>Gọi</item>
+        <item>Đọc SMS</item>
+        <item>Soạn SMS</item>
+        <item>Nhận SMS</item>
+        <item>Nhận SMS khẩn cấp</item>
+        <item>Nhận MMS</item>
+        <item>Nhận thông báo đẩy WAP</item>
+        <item>Gửi SMS</item>
+        <item>Đọc SMS ICC</item>
+        <item>Viết SMS ICC</item>
+        <item>Sửa đổi cài đặt</item>
+        <item>Vẽ từ đầu</item>
+        <item>Truy cập thông báo</item>
+        <item>Camera</item>
+        <item>"Ghi âm "</item>
+        <item>Phát âm thanh</item>
+        <item>Đọc nội dung trong bảng nhớ tạm</item>
+        <item>Sửa đổi bảng nhớ tạm</item>
+        <item>Nút phương tiện</item>
+        <item>Tập trung âm thanh</item>
+        <item>Âm lượng chính</item>
+        <item>Âm lượng thoại</item>
+        <item>Âm lượng chuông báo</item>
+        <item>Âm lượng đa phương tiện</item>
+        <item>Âm lượng báo thức</item>
+        <item>Âm lượng thông báo</item>
+        <item>Âm lượng Bluetooth</item>
+        <item>Luôn bật</item>
+        <item>Giám sát vị trí</item>
+        <item>Giám sát dịch vụ thông tin về vị trí tiêu thụ điện</item>
+        <item>Nhận thông tin thống kê mức sử dụng</item>
+        <item>Tắt tiếng micro hoặc hủy tắt tiếng</item>
+        <item>Phương tiện chiếu hình</item>
+        <item>Kích hoạt VPN</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>Vị trí</item>
+        <item>Vị trí</item>
+        <item>Vị trí</item>
+        <item>Rung</item>
+        <item>Đọc danh bạ</item>
+        <item>Sửa liên hệ</item>
+        <item>Đọc nhật ký cuộc gọi</item>
+        <item>Sửa đổi nhật ký cuộc gọi</item>
+        <item>Đọc lịch</item>
+        <item>Sửa đổi lịch</item>
+        <item>Vị trí</item>
+        <item>Đăng thông báo</item>
+        <item>Vị trí</item>
+        <item>Gọi</item>
+        <item>Đọc tin nhắn SMS/MMS</item>
+        <item>Soạn tin nhắn SMS/MMS</item>
+        <item>Nhận tin nhắn SMS/MMS</item>
+        <item>Nhận tin nhắn SMS/MMS</item>
+        <item>Nhận tin nhắn SMS/MMS</item>
+        <item>Nhận tin nhắn SMS/MMS</item>
+        <item>Gửi tin nhắn SMS/MMS</item>
+        <item>Đọc tin nhắn SMS/MMS</item>
+        <item>Soạn tin nhắn SMS/MMS</item>
+        <item>Sửa đổi cài đặt</item>
+        <item>Vẽ từ đầu</item>
+        <item>Truy cập thông báo</item>
+        <item>Camera</item>
+        <item>"Ghi âm "</item>
+        <item>Phát âm thanh</item>
+        <item>Đọc nội dung trong bảng nhớ tạm</item>
+        <item>Sửa đổi bảng nhớ tạm</item>
+        <item>Nút phương tiện</item>
+        <item>Tập trung âm thanh</item>
+        <item>Âm lượng chính</item>
+        <item>Âm lượng thoại</item>
+        <item>Âm lượng chuông báo</item>
+        <item>Âm lượng đa phương tiện</item>
+        <item>Âm lượng báo thức</item>
+        <item>Âm lượng thông báo</item>
+        <item>Âm lượng Bluetooth</item>
+        <item>Luôn bật</item>
+        <item>Vị trí</item>
+        <item>Thông tin về vị trí</item>
+        <item>Nhận thông tin thống kê mức sử dụng</item>
+        <item>Tắt tiếng micro hoặc hủy tắt tiếng</item>
+        <item>Phương tiện chiếu hình</item>
+        <item>Kích hoạt VPN</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Ngắn</item>
+        <item>Trung bình</item>
+        <item>Dài</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>Mặc định</item>
+        <item>Sans-serif</item>
+        <item>Sans-serif condensed</item>
+        <item>Sans-serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>Casual</item>
+        <item>Cursive</item>
+        <item>Small capitals</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>Cực nhỏ</item>
+        <item>Nhỏ</item>
+        <item>Bình thường</item>
+        <item>Lớn</item>
+        <item>Cực lớn</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>Mặc định</item>
+        <item>Không có</item>
+        <item>Viền ngoài</item>
+        <item>Bóng đổ</item>
+        <item>dập nổi</item>
+        <item>Khai thác</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>Sử dụng ứng dụng kiểu mặc định</item>
+        <item>Trắng trên nền đen</item>
+        <item>Đen trên nền trắng</item>
+        <item>Vàng trên nền đen</item>
+        <item>Vàng trên nền lam</item>
+        <item>T.chỉnh</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Mỗi nhật ký có bộ đệm 64K</item>
+        <item>Mỗi nhật ký có bộ đệm 256K</item>
+        <item>Mỗi nhật ký có bộ đệm 1M</item>
+        <item>Mỗi nhật ký có bộ đệm 4M</item>
+        <item>Mỗi nhật ký có bộ đệm 16M</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Không kiểm tra</item>
+        <item>Chỉ kiểm tra nội dung DRM</item>
+        <item>Luôn kiểm tra</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Không sử dụng kiểm tra HDCP</item>
+        <item>Chỉ sử dụng kiểm tra HDCP cho nội dung DRM</item>
+        <item>Luôn sử dụng kiểm tra HDCP</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Tắt hình động</item>
+        <item>Tỷ lệ hình động 0,5x</item>
+        <item>Tỷ lệ hình động 1x</item>
+        <item>Tỷ lệ hình động 1,5x</item>
+        <item>Tỷ lệ hình động 2x</item>
+        <item>Tỷ lệ hình động 5x</item>
+        <item>Tỷ lệ hình động 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Tắt hình động</item>
+        <item>Tỷ lệ hình động 0,5x</item>
+        <item>Tỷ lệ hình động 1x</item>
+        <item>Tỷ lệ hình động 1,5x</item>
+        <item>Tỷ lệ hình động 2x</item>
+        <item>Tỷ lệ hình động 5x</item>
+        <item>Tỷ lệ hình động 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>Tắt hình động</item>
+        <item>Tỷ lệ hình động 0,5x</item>
+        <item>Tỷ lệ hình động 1x</item>
+        <item>Tỷ lệ hình động 1,5x</item>
+        <item>Tỷ lệ hình động 2x</item>
+        <item>Tỷ lệ hình động 5x</item>
+        <item>Tỷ lệ hình động 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Không có</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (bảo đảm)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (bảo đảm)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (bảo đảm)</item>
+        <item>1280x720 tvdpi và 1920x1080 xhdpi</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Không có</item>
+        <item>Logcat</item>
+        <item>Systrace (đồ họa)</item>
+        <item>Gọi chồng trên glGetError</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Tắt</item>
+        <item>Vẽ vùng cắt xén không phải hình chữ nhật bằng màu lam</item>
+        <item>Kiểm thử lệnh vẽ được tô sáng màu lục</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Tắt</item>
+        <item>Hiển thị dưới dạng biểu đồ cột trên màn hình</item>
+        <item>Trong shell adb dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Tắt</item>
+        <item>Hiển thị khu vực vẽ lên trên</item>
+        <item>Hiển thị khu vực cho chứng mù màu lục</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Giới hạn thông thường</item>
+        <item>Không cho phép quá trình trên nền</item>
+        <item>Tối đa 1 quá trình</item>
+        <item>Tối đa 2 quá trình</item>
+        <item>Tối đa 3 quá trình</item>
+        <item>Tối đa 4 quá trình</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>VPN L2TP/IPSec có khóa chia sẻ trước</item>
+        <item>VPN L2TP/IPSec có chứng chỉ</item>
+        <item>VPN IPSec có khóa chia sẻ trước và xác thực Xauth</item>
+        <item>VPN IPSec có chứng chỉ và xác thực Xauth</item>
+        <item>VPN IPSec có chứng chỉ và xác thực hỗn hợp</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Đã ngắt kết nối</item>
+        <item>Đang khởi tạo...</item>
+        <item>Đang kết nối...</item>
+        <item>Đã kết nối</item>
+        <item>Thời gian chờ</item>
+        <item>Không thành công</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Hỏi</item>
+        <item>Không cho phép</item>
+        <item>Luôn cho phép</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>Bình thường</item>
+        <item>Trung bình</item>
+        <item>Thấp</item>
+        <item>tới hạn</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>Bình thường</item>
+        <item>Mức trung bình</item>
+        <item>Thấp</item>
+        <item>tới hạn</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>Thường trú</item>
+        <item>Hoạt động cấp cao nhất</item>
+        <item>Quan trọng (nền trước)</item>
+        <item>Quan trọng (nền)</item>
+        <item>Sao lưu</item>
+        <item>Hạng nặng</item>
+        <item>Dịch vụ (đang chạy)</item>
+        <item>Dịch vụ (đang khởi động lại)</item>
+        <item>Người nhận</item>
+        <item>Màn hình chính</item>
+        <item>Hoạt động trước đó</item>
+        <item>Đã lưu bộ đệm (hoạt động)</item>
+        <item>Đã lưu bộ đệm (máy khách hoạt động)</item>
+        <item>Đã lưu bộ đệm (trống)</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>Xanh ngọc</item>
+        <item>Lam</item>
+        <item>Chàm</item>
+        <item>Tím</item>
+        <item>Hồng</item>
+        <item>Đỏ</item>
+    </string-array>
+    <string-array name="ring_or_mtp_change_entries">
+        <item>Nhạc chuông</item>
+        <item>Phương tiện</item>
+    </string-array>
+    <string-array name="app_loc_permission">
+        <item>Tắt</item>
+        <item>Cho phép</item>
+        <item>Hỏi</item>
+    </string-array>
+    <string-array name="key_light_control_mode">
+        <item>1.5 giây</item>
+        <item>6 giây</item>
+        <item>Luôn bật</item>
+        <item>Luôn tắt</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_amoled">
+        <item>15 giây</item>
+        <item>30 giây</item>
+        <item>1 phút</item>
+        <item>2 phút</item>
+        <item>5 phút</item>
+        <item>10 phút</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_mtfp">
+        <item>15 giây</item>
+        <item>30 giây</item>
+        <item>1 phút</item>
+        <item>2 phút</item>
+        <item>5 phút</item>
+        <item>10 phút</item>
+        <item>30 phút</item>
+        <item>Không bao giờ</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>Cha bạn tên là gì?</item>
+        <item>Mẹ bạn tên là gì?</item>
+        <item>Vợ/chồng bạn tên là gì?</item>
+        <item>Bạn học trường tiểu học nào?</item>
+        <item>Cô giáo của bạn ở trường mẫu giáo tên là gì?</item>
+        <item>Cô giáo của bạn ở trường trung học tên là gì?</item>
+        <item>Người bạn thân nhất của bạn hồi nhỏ tên là gì?</item>
+        <item>Bạn sinh ra ở đâu?</item>
+        <item>Số thẻ học sinh (nhân viên) của bạn là số mấy?</item>
+        <item>6 số cuối cùng trong số chứng minh thư của bạn là gì?</item>
+        <item>Biển số xe của bạn là số mấy?</item>
+        <item>Tên công ty đầu tiên bạn làm việc là gì?</item>
+        <item>Vấn đề tùy chỉnh</item>
+    </string-array>
+    <string-array name="area_entrys">
+        <item>Thái Lan</item>
+        <item>Malaysia</item>
+        <item>Indonesia</item>
+        <item>Ấn Độ</item>
+        <item>Miến Điện</item>
+        <item>Philippines</item>
+        <item>Việt Nam</item>
+        <item>Brunei</item>
+        <item>Campuchia</item>
+        <item>Lào</item>
+        <item>Singapore</item>
+        <item>Bangladesh</item>
+        <item>Nepal</item>
+        <item>Pakistan</item>
+        <item>Sri Lanka</item>
+    </string-array>
+    <string-array name="vivo_rom_25problem_ask_lables">
+        <item>Bạn học trường tiểu học nào?</item>
+        <item>Cha bạn tên là gì?</item>
+        <item>Mẹ bạn tên là gì?</item>
+        <item>Vợ/chồng bạn tên là gì?</item>
+        <item>Bạn sinh ra ở đâu?</item>
+        <item>Cha mẹ thường gọi bạn bằng tên gì?</item>
+        <item>Giáo viên trung học của bạn tên gì?</item>
+        <item>Bạn bè thân nhất thời thơ ấu của bạn tên gì?</item>
+        <item>Số thẻ học sinh (nhân viên) của bạn là số mấy?</item>
+        <item>6 số cuối cùng của Chứng minh nhân dân bạn là số mấy?</item>
+        <item>Biển số xe của bạn là số mấy?</item>
+        <item>Tên công ty đầu tiên bạn làm việc là gì?</item>
+        <item>Vấn đề tùy chỉnh</item>
+    </string-array>
+    <string-array name="timezones_cities_array">
+        <item>Abidjan, Bờ Biển Ngà</item>
+        <item>Abu Dhabi, Các Tiểu Vương Quốc Ả Rập</item>
+        <item>Accra, Ghana</item>
+        <item>Addis Ababa, Ethiopia</item>
+        <item>Adelaide, Úc</item>
+        <item>Alaska, Hoa Kỳ</item>
+        <item>Algiers, Algeria</item>
+        <item>Almaty, Kazakhstan</item>
+        <item>Ambon, Indonesia</item>
+        <item>Amman, Jordan</item>
+        <item>Amsterdam, Hà Lan</item>
+        <item>Anadyr, Nga</item>
+        <item>Anchorage, Hoa Kỳ</item>
+        <item>Ankara, Thổ Nhĩ Kỳ</item>
+        <item>An Sơn, Trung Quốc</item>
+        <item>Antananarivo, Madagascar</item>
+        <item>Ashgabat, Turkmenistan</item>
+        <item>Asmara, Eritrea</item>
+        <item>Astana, Kazakhstan</item>
+        <item>Asuncion, Paraguay</item>
+        <item>Athens, Hy Lạp</item>
+        <item>Atlanta, Hoa Kỳ</item>
+        <item>Auckland, New Zealand</item>
+        <item>Austin, Hoa Kỳ</item>
+        <item>Azores, Bồ Đào Nha</item>
+        <item>Baghdad, Iraq</item>
+        <item>Baku, Azerbaijan</item>
+        <item>Baltimore, Hòa Kỳ</item>
+        <item>Bamako, Mali</item>
+        <item>Bangalore, Ấn Độ</item>
+        <item>Bangkok, Thailand</item>
+        <item>Bangui, Cộng Hòa Trung Phi</item>
+        <item>Bảo Định, Trung Quốc</item>
+        <item>Bao Đầu, Trung Quốc</item>
+        <item>Barcelona, Tây Ban Nha</item>
+        <item>Bari, Ý</item>
+        <item>Basse-Terre, Guadeloupe</item>
+        <item>Bắc Kinh, Trung Quốc</item>
+        <item>Beirut, Lebanon</item>
+        <item>Belgrade, Serbia</item>
+        <item>Thành phố Belize, Belize</item>
+        <item>Bản Khê, Trung Quốc</item>
+        <item>Berlin, Đức</item>
+        <item>Bern, Thụy Sĩ</item>
+        <item>Bishkek, Kyrgyzstan</item>
+        <item>Bissau, Guinea Bissau</item>
+        <item>Bogotá, Colombia</item>
+        <item>Bologna, Ý</item>
+        <item>Boston, Hoa Kỳ</item>
+        <item>Brasilia, Brazil</item>
+        <item>Bratislava, Slovakia</item>
+        <item>Brazzaville, Congo</item>
+        <item>Bridgetown, Barbados</item>
+        <item>Brisbane, Úc</item>
+        <item>Brussels, Bỉ</item>
+        <item>Bucharest, Romania</item>
+        <item>Budapest, Hungary</item>
+        <item>Buenos Aires, Argentina</item>
+        <item>Cairo, Ai Cập</item>
+        <item>Calgary, Canada</item>
+        <item>Quần đảo Canary, Tây Ban Nha</item>
+        <item>Canberra, Úc</item>
+        <item>Cape Town, Nam Phi</item>
+        <item>Caracas, Venezuela</item>
+        <item>Cardiff, Wales</item>
+        <item>Casablanca, Morocco</item>
+        <item>Catanzaro, Ý</item>
+        <item>Cayenne, Guiana thuộc Pháp</item>
+        <item>Trường Xuân, Trung Quốc</item>
+        <item>Trường Sa, Trung Quốc</item>
+        <item>Thường Châu, Trung Quốc</item>
+        <item>Charlotte, Hoa Kỳ</item>
+        <item>Charlotte Amalie, Quần đảo Virgin thuộc Hoa Kỳ</item>
+        <item>Chelyabinsk, Nga</item>
+        <item>Thành Đô, Trung Quốc</item>
+        <item>Chennai, Ấn Độ</item>
+        <item>Chicago, Hoa Kỳ</item>
+        <item>Chihuahua, Mexico</item>
+        <item>Chisinau, Moldova</item>
+        <item>Chita, Nga</item>
+        <item>Trùng Khánh, Trung Quốc</item>
+        <item>Cleveland, Hoa Kỳ</item>
+        <item>Colombo, Sri Lanka</item>
+        <item>Columbus, Hoa Kỳ</item>
+        <item>Conakry, Guinea</item>
+        <item>Copenhagen, Đan Mạch</item>
+        <item>Cork, Ai Len</item>
+        <item>Crotone, Ý</item>
+        <item>Dakar, Senegal</item>
+        <item>Đại Liên, Trung Quốc</item>
+        <item>Dallas, Hoa Kỳ</item>
+        <item>Damascus, Syria</item>
+        <item>Đại Khánh, Trung Quốc</item>
+        <item>Dar es Salaam, Tanzania</item>
+        <item>Darwin, Úc</item>
+        <item>Đại Đồng, Trung Quốc</item>
+        <item>Denpasar, Indonesia</item>
+        <item>Denver, Hoa Kỳ</item>
+        <item>Detroit, Hoa Kỳ</item>
+        <item>Dhaka, Bangladesh</item>
+        <item>Diego Garcia, Vương Quốc Anh</item>
+        <item>Djibouti</item>
+        <item>Doha, Qatar</item>
+        <item>Douala, Cameroon</item>
+        <item>Dubai, Các Tiểu Vương Quốc Ả Rập</item>
+        <item>Dublin, Ireland</item>
+        <item>Dushanbe, Tajikistan</item>
+        <item>Đảo Phục Sinh, Chile</item>
+        <item>Edinburgh, Scotland</item>
+        <item>Edmonton, Canada</item>
+        <item>El Paso, Hoa Kỳ</item>
+        <item>Fernando de Noronha, Brazil</item>
+        <item>Florence, Ý</item>
+        <item>Fort-de-France, Martinique</item>
+        <item>Frankfurt, Đức</item>
+        <item>Freetown, Sierra Leone</item>
+        <item>Phủ Thuận, Trung Quốc</item>
+        <item>Phụ Tân, Trung Quốc</item>
+        <item>Phúc Châu, Trung Quốc</item>
+        <item>Gaborone, Botswana</item>
+        <item>Quần đảo Galapagos, Ecuador</item>
+        <item>Geneva, Thụy Sĩ</item>
+        <item>Genoa, Ý</item>
+        <item>George Town, Guyana</item>
+        <item>Greenland</item>
+        <item>Grytviken, Nam Georgia</item>
+        <item>Guam</item>
+        <item>Quảng Châu, Trung Quốc</item>
+        <item>Guatemala</item>
+        <item>Thành phố Guatemala, Guatemala</item>
+        <item>Quý Dương, Trung Quốc</item>
+        <item>Gustavia, Saint Barthelemy</item>
+        <item>Hải Khẩu, Trung Quốc</item>
+        <item>Halifax, Canada</item>
+        <item>Hamburg, Đức</item>
+        <item>Hàm Đan, Trung Quốc</item>
+        <item>Hàng Châu, Trung Quốc</item>
+        <item>Hà Nội, Việt Nam</item>
+        <item>Harare, Zimbabwe</item>
+        <item>Cáp Nhĩ Tân, Trung Quốc</item>
+        <item>Havana, Cuba</item>
+        <item>Hawaii, Hoa Kỳ</item>
+        <item>Hợp Phì, Trung Quốc</item>
+        <item>Helsinki, Phần Lan</item>
+        <item>Tp. Hồ Chí Minh, Việt Nam</item>
+        <item>Hobart, Úc</item>
+        <item>Hohhot, Trung Quốc</item>
+        <item>Hồng Kông, Trung Quốc</item>
+        <item>Honolulu, Hoa Kỳ</item>
+        <item>Houston, Hoa Kỳ</item>
+        <item>Hovd, Mông Cổ</item>
+        <item>Hoài An, Trung Quốc</item>
+        <item>Hoài Nam, Trung Quốc</item>
+        <item>Hyderabad, Ấn Độ</item>
+        <item>Indianapolis, Hoa Kỳ</item>
+        <item>Irkutsk, Nga</item>
+        <item>Islamabad, Pakistan</item>
+        <item>Istanbul, Thổ Nhĩ Kỳ</item>
+        <item>Izhevsk, Nga</item>
+        <item>Jakarta, Indonesia</item>
+        <item>Jeddah, Ả Rập Xê-Út</item>
+        <item>Jerusalem, Israel</item>
+        <item>Thành phố Cát Lâm, Trung Quốc</item>
+        <item>Tế Nam, Trung Quốc</item>
+        <item>Cẩm Châu, Trung Quốc</item>
+        <item>Kê Tây, Trung Quốc</item>
+        <item>Johannesburg, Nam Phi</item>
+        <item>Kabul, Afghanistan</item>
+        <item>Kaliningrad, Nga</item>
+        <item>Kamchatka, Nga</item>
+        <item>Kampala, Uganda</item>
+        <item>Karachi, Pakistan</item>
+        <item>Kathmandu, Nepal</item>
+        <item>Khabarovsk, Nga</item>
+        <item>Kharkiv, Ukraine</item>
+        <item>Khartoum, Sudan</item>
+        <item>Kingston, Canada</item>
+        <item>Kinshasa, Cộng hòa Dân chủ Congo</item>
+        <item>Kiritimati, Kiribati</item>
+        <item>Kolkata, Ấn Độ</item>
+        <item>Krasnoyarsk, Nga</item>
+        <item>Kuala Lumpur, Malaysia</item>
+        <item>Côn Minh, Trung Quốc</item>
+        <item>Thành phố Kuwait, Kuwait</item>
+        <item>Kyiv, Ukraine</item>
+        <item>La Paz, Bolivia</item>
+        <item>Lagos, Nigeria</item>
+        <item>Lahore, Pakistan</item>
+        <item>Lan Châu, Trung Quốc</item>
+        <item>Las Vegas, Hoa Kỳ</item>
+        <item>Lima, Peru</item>
+        <item>Lisbon, Bồ Đào Nha</item>
+        <item>Liễu Châu, Trung Quốc</item>
+        <item>Ljubljana, Slovenia</item>
+        <item>London, Anh</item>
+        <item>Los Angeles, Hoa Kỳ</item>
+        <item>Louisville, Hoa Kỳ</item>
+        <item>Luanda, Angola</item>
+        <item>Lubumbashi, Cộng hòa Dân chủ Congo</item>
+        <item>Lạc Dương, Trung Quốc</item>
+        <item>Lusaka, Zambia</item>
+        <item>Luxembourg</item>
+        <item>Lviv, Ukraine</item>
+        <item>Ma Cao, Trung Quốc</item>
+        <item>Madrid, Tây Ban Nha</item>
+        <item>Magadan, Nga</item>
+        <item>Majuro, Quần đảo Marshall</item>
+        <item>Malabo, Guinea Xích đạo</item>
+        <item>Male, Maldives</item>
+        <item>Managua, Nicaragua</item>
+        <item>Manama, Bahrain</item>
+        <item>Manaus, Brazil</item>
+        <item>Manila, Philippines</item>
+        <item>Maputo, Mozambique</item>
+        <item>Marigot, Saint Martin</item>
+        <item>Mayotte, Pháp</item>
+        <item>Mazatlan, Mexico</item>
+        <item>Mecca, Ả-Rập Xê-Út</item>
+        <item>Melbourne, Úc</item>
+        <item>Memphis, Hoa Kỳ</item>
+        <item>Messina, Ý</item>
+        <item>Thành phố Mexico, Mexico</item>
+        <item>Miami, Hoa Kỳ</item>
+        <item>Trung Ðại Tây Dương</item>
+        <item>Đảo Midway, Hoa Kỳ</item>
+        <item>Milan, Ý</item>
+        <item>Milwaukee, Hoa Kỳ</item>
+        <item>Minneapolis, Hoa Kỳ</item>
+        <item>Minsk, Belarus</item>
+        <item>Mogadishu, Somalia</item>
+        <item>Monrovia, Liberia</item>
+        <item>Montevideo, Uruguay</item>
+        <item>Montreal, Canada</item>
+        <item>Moscow, Nga</item>
+        <item>Mẫu Đơn Giang, Trung Quốc</item>
+        <item>Mumbai, Ấn Độ</item>
+        <item>Munich, Đức</item>
+        <item>Muscat, Oman</item>
+        <item>Nairobi, Kenya</item>
+        <item>Nam Xương, Trung Quốc</item>
+        <item>Nam Kinh, Trung Quốc</item>
+        <item>Nam Ninh, Trung Quốc</item>
+        <item>Naples, Ý</item>
+        <item>Naters, Thụy Sĩ</item>
+        <item>"N'Djamena, Chad"</item>
+        <item>New Delhi, Ấn Độ</item>
+        <item>New Orleans, Hoa Kỳ</item>
+        <item>New York, Hoa Kỳ</item>
+        <item>Newfoundland, Canada</item>
+        <item>Niamey, Niger</item>
+        <item>Ninh Ba, Trung Quốc</item>
+        <item>Nouakchott, Mauritania</item>
+        <item>Noumea, New Caledonia</item>
+        <item>Novokuznetsk, Nga</item>
+        <item>Novosibirsk, Nga</item>
+        <item>Nukualofa, Tonga</item>
+        <item>Nuuk, Greenland</item>
+        <item>Omsk, Nga</item>
+        <item>Oral, Kazakhstan</item>
+        <item>Osaka, Nhật Bản</item>
+        <item>Oslo, Na Uy</item>
+        <item>Ottawa, Canada</item>
+        <item>Ouagadougou, Burkina Faso</item>
+        <item>Pago Pago, Samoa thuộc Hoa Kỳ</item>
+        <item>Palermo, Ý</item>
+        <item>Panama City, Panama</item>
+        <item>Paramaribo, Suriname</item>
+        <item>Paris, Pháp</item>
+        <item>Perm, Nga</item>
+        <item>Perth, Úc</item>
+        <item>Petropavlovsk-Kamchatskiy, Nga</item>
+        <item>Philadelphia, Hoa Kỳ</item>
+        <item>Phnom Penh, Campuchia</item>
+        <item>Phoenix, Hoa Kỳ</item>
+        <item>Bình Đỉnh Sơn, Trung Quốc</item>
+        <item>Podgorica, Montenegro</item>
+        <item>Ponta Delgada, Bồ Đào Nha</item>
+        <item>Port Louis, Mauritius</item>
+        <item>Port-au-Prince, Haiti</item>
+        <item>Portland, Hoa Kỳ</item>
+        <item>Prague, Cộng hòa Séc</item>
+        <item>Praia, Cape Verde</item>
+        <item>Bình Nhưỡng, Cộng hòa Dân chủ Nhân dân Triều Tiên</item>
+        <item>Thanh Đảo, Trung Quốc</item>
+        <item>Tề Tề Cáp Nhĩ, Trung Quốc</item>
+        <item>Quito, Ecuador</item>
+        <item>Rabat, Morocco</item>
+        <item>Recife, Brazil</item>
+        <item>Regina, Canada</item>
+        <item>Reykjavik, Iceland</item>
+        <item>Riga, Latvia</item>
+        <item>Rio de Janeiro, Brazil</item>
+        <item>Riyadh, Ả Rập Xê-Út</item>
+        <item>Rome, Ý</item>
+        <item>São Paulo, Brazil</item>
+        <item>Saint-Denis, Đảo Reunion</item>
+        <item>Thành phố Salt Lake, Hoa Kỳ</item>
+        <item>Samara, Nga</item>
+        <item>San Antonio, Hoa Kỳ</item>
+        <item>San Diego, Hoa Kỳ</item>
+        <item>San Francisco, Hoa Kỳ</item>
+        <item>San José, Costa Rica</item>
+        <item>San Juan, Puerto Rico</item>
+        <item>San Marino</item>
+        <item>San Salvador, El Salvador</item>
+        <item>"Sana'a, Yemen"</item>
+        <item>Santiago, Chile</item>
+        <item>Santo Domingo, Cộng hòa Dominica</item>
+        <item>Sarajevo, Bosnia và Herzegovina</item>
+        <item>Seattle, Hoa Kỳ</item>
+        <item>Seoul, Hàn Quốc</item>
+        <item>Thượng Hải, Trung Quốc</item>
+        <item>Thương Khâu, Trung Quốc</item>
+        <item>Sán Đầu, Trung Quốc</item>
+        <item>Thẩm Dương, Trung Quốc</item>
+        <item>Thâm Quyến, Trung Quốc</item>
+        <item>Thạch Gia Trang, Trung Quốc</item>
+        <item>Singapore</item>
+        <item>Skopje, Macedonia</item>
+        <item>Sofia, Bulgaria</item>
+        <item>"St.John's, Canada"</item>
+        <item>St.Petersburg, Nga</item>
+        <item>St. Pierre và Miquelon, Pháp</item>
+        <item>Stockholm, Thụy Điển</item>
+        <item>Suva, Fiji</item>
+        <item>Tô Châu, Trung Quốc</item>
+        <item>Sydney, Úc</item>
+        <item>Tahiti, Polynesia thuộc Pháp</item>
+        <item>Đài Bắc, Trung Quốc</item>
+        <item>Thái Nguyên, Trung Quốc</item>
+        <item>Tallinn, Estonia</item>
+        <item>Đường Sơn, Trung Quốc</item>
+        <item>Tarawa, Kiribati</item>
+        <item>Tashkent, Uzbekistan</item>
+        <item>Tbilisi, Gruzia</item>
+        <item>Tegucigalpa, Honduras</item>
+        <item>Tehran, Iran</item>
+        <item>The Settlement, Quần đảo Virgin thuộc Anh</item>
+        <item>Thiên Tân, Trung Quốc</item>
+        <item>Tijuana, Mexico</item>
+        <item>Tokyo, Nhật Bản</item>
+        <item>Tonga</item>
+        <item>Toronto, Canada</item>
+        <item>Tripoli, Libya</item>
+        <item>Tunis, Tunisia</item>
+        <item>Turin, Ý</item>
+        <item>Ufa, Nga</item>
+        <item>Ulaanbaatar, Mongolia</item>
+        <item>ürümqi, Trung Quốc</item>
+        <item>Vaduz, Liechtenstein</item>
+        <item>Valletta, Malta</item>
+        <item>Vancouver, Canada</item>
+        <item>Verona, Ý</item>
+        <item>Victoria, Seychelles</item>
+        <item>Vienna, Áo</item>
+        <item>Vilnius, Lithuania</item>
+        <item>Vladivostok, Nga</item>
+        <item>Volgograd, Nga</item>
+        <item>Warsaw, Ba Lan</item>
+        <item>Washington DC, Hoa Kỳ</item>
+        <item>Duy Phường, Trung Quốc</item>
+        <item>Wellington, New Zealand</item>
+        <item>Windhoek, Namibia</item>
+        <item>Winnipeg, Canada</item>
+        <item>Vũ Hán, Trung Quốc</item>
+        <item>Vô Tích, Trung Quốc</item>
+        <item>Tây An, Trung Quốc</item>
+        <item>Tương Dương, Trung Quốc</item>
+        <item>Tây Ninh, Trung Quốc</item>
+        <item>Từ Châu, Trung Quốc</item>
+        <item>Yakutsk, Nga</item>
+        <item>Yamoussoukro, Bờ Biển Ngà</item>
+        <item>Yangon, Miến Điện</item>
+        <item>Yên Đài, Trung Quốc</item>
+        <item>Yaounde, Cameroon</item>
+        <item>Yekaterinburg, Nga</item>
+        <item>Yerevan, Armenia</item>
+        <item>Nghi Xương, Trung Quốc</item>
+        <item>Y Xuân, Trung Quốc</item>
+        <item>Yuzhno-Sakhalinsk, Nga</item>
+        <item>Zagreb, Croatia</item>
+        <item>Tảo Trang, Trung Quốc</item>
+        <item>Trương Gia Khẩu, Trung Quốc</item>
+        <item>Trạm Giang, Trung Quốc</item>
+        <item>Trịnh Châu, Trung Quốc</item>
+        <item>Truy Bác, Trung Quốc</item>
+        <item>Zürich, Thụy Sỹ</item>
+        <item>Nam Georgia</item>
+        <item>Bandar Seri Begawan</item>
+        <item>Vientiane</item>
+    </string-array>
+</resources>

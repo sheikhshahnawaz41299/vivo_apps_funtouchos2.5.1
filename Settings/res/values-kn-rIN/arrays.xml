@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="screen_timeout_entries">
+        <item>15 ಸೆಕೆಂಡುಗಳು</item>
+        <item>30 ಸೆಕೆಂಡುಗಳು</item>
+        <item>1 ನಿಮಿಷ</item>
+        <item>2 ನಿಮಿಷಗಳು</item>
+        <item>5 ನಿಮಿಷಗಳು</item>
+        <item>10 ನಿಮಿಷಗಳು</item>
+        <item>30 ನಿಮಿಷಗಳು</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>ತಕ್ಷಣವೇ</item>
+        <item>5 ಸೆಕೆಂಡುಗಳು</item>
+        <item>15 ಸೆಕೆಂಡುಗಳು</item>
+        <item>30 ಸೆಕೆಂಡುಗಳು</item>
+        <item>1 ನಿಮಿಷ</item>
+        <item>2 ನಿಮಿಷಗಳು</item>
+        <item>5 ನಿಮಿಷಗಳು</item>
+        <item>10 ನಿಮಿಷಗಳು</item>
+        <item>30 ನಿಮಿಷಗಳು</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>ಸಣ್ಣ</item>
+        <item>ಸಾಧಾರಣ</item>
+        <item>ದೊಡ್ಡದು</item>
+        <item>ಬಹಳ ದೊಡ್ಡದು</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>ತುಂಬಾ ನಿಧಾನ</item>
+        <item>ನಿಧಾನ</item>
+        <item>ಸಾಧಾರಣ</item>
+        <item>ವೇಗ</item>
+        <item>ಕ್ಷಿಪ್ರ</item>
+        <item>ಅತ್ಯಂತ ವೇಗ</item>
+        <item>ತ್ವರಿತ</item>
+        <item>ಅತ್ಯಂತ ತ್ವರಿತ</item>
+        <item>ಅತಿ ಕ್ಷಿಪ್ರ</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>ಸ್ಕ್ಯಾನ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</item>
+        <item>ಸಂಪರ್ಕಪಡಿಸಲಾಗುತ್ತಿದೆ...</item>
+        <item>ಪ್ರಮಾಣೀಕರಿಸಲಾಗುತ್ತಿದೆ...</item>
+        <item>IP ವಿಳಾಸವನ್ನು ಪಡೆಯಲಾಗುತ್ತಿದೆ…</item>
+        <item>ಸಂಪರ್ಕಿತಗೊಂಡಿದೆ</item>
+        <item>ತಡೆಹಿಡಿಯಲಾಗಿದೆ</item>
+        <item>ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಲಾಗುತ್ತಿದೆ...</item>
+        <item>ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಲಾಗಿದೆ</item>
+        <item>ವಿಫಲವಾಗಿದೆ</item>
+        <item>ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ</item>
+        <item>ಕಳಪೆ ಸಂಪರ್ಕವನ್ನು ತಾತ್ಕಾಲಿಕವಾಗಿ ತಡೆಗಟ್ಟಲಾಗುತ್ತಿದೆ</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>ಸ್ಕ್ಯಾನ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</item>
+        <item>%1$s ಗೆ ಸಂಪರ್ಕಪಡಿಸಲಾಗುತ್ತಿದೆ…</item>
+        <item>%1$s ಜೊತೆ ಪ್ರಮಾಣೀಕರಿಸಲಾಗುತ್ತಿದೆ…</item>
+        <item>%1$s ನಿಂದ IP ವಿಳಾಸವನ್ನು ಪಡೆಯಲಾಗುತ್ತಿದೆ…</item>
+        <item>%1$s ಗೆ ಸಂಪರ್ಕಪಡಿಸಲಾಗಿದೆ</item>
+        <item>ತಡೆಹಿಡಿಯಲಾಗಿದೆ</item>
+        <item>%1$s ನಿಂದ ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಲಾಗುತ್ತಿದೆ…</item>
+        <item>ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಲಾಗಿದೆ</item>
+        <item>ವಿಫಲವಾಗಿದೆ</item>
+        <item>ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ</item>
+        <item>ಕಳಪೆ ಸಂಪರ್ಕವನ್ನು ತಾತ್ಕಾಲಿಕವಾಗಿ ತಡೆಗಟ್ಟಲಾಗುತ್ತಿದೆ</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>ಸಂಪರ್ಕಿತಗೊಂಡಿದೆ</item>
+        <item>ಆಹ್ವಾನಿಸಲಾಗಿದೆ</item>
+        <item>ವಿಫಲವಾಗಿದೆ</item>
+        <item>ಲಭ್ಯವಿದೆ</item>
+        <item>ವ್ಯಾಪ್ತಿಯ ಹೊರಗಿದೆ</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 ನಿಮಿಷಗಳು</item>
+        <item>5 ನಿಮಿಷಗಳು</item>
+        <item>1 ಗಂಟೆ</item>
+        <item>ಎಂದಿಗೂ ಅವಧಿ ಮೀರದಿರಲಿ</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>ಕಳಪೆ</item>
+        <item>ಯುಕ್ತ</item>
+        <item>ಉತ್ತಮ</item>
+        <item>ಉತ್ಕೃಷ್ಟ</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>ಯಾವಾಗಲೂ</item>
+        <item>ಕೇವಲ ಪ್ಲಗ್ ಇನ್ ಮಾಡಿದಾಗ</item>
+        <item>ಎಂದಿಗೂ ಬೇಡ</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>ಯಾವಾಗಲೂ</item>
+        <item>ಕೇವಲ ಪ್ಲಗ್ ಇನ್ ಮಾಡಿದಾಗ</item>
+        <item>ಎಂದಿಗೂ ಬೇಡ</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>ಸ್ವಯಂಚಾಲಿತ</item>
+        <item>5 GHz ಮಾತ್ರ</item>
+        <item>2.4 GHz ಮಾತ್ರ</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>ಬಳಕೆ ಸಮಯ</item>
+        <item>ಕಳೆದ ಬಾರಿಯ ಬಳಕೆ</item>
+        <item>ಅಪ್ಲಿಕೇಶನ್ ಹೆಸರು</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>ಯಾವುದೂ ಇಲ್ಲ</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>ಯಾವುದೂ ಇಲ್ಲ</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>ಸ್ಥಿರ</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>ಯಾವುದೂ ಇಲ್ಲ</item>
+        <item>ಹಸ್ತಚಾಲಿತ</item>
+        <item>ಪ್ರಾಕ್ಸಿ ಸ್ವಯಂ-ಕಾನ್ಫಿಗ್</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>ಯಾವುದೂ ಇಲ್ಲ</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP ಅಥವಾ CHAP</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>ನಿರ್ದಿಷ್ಟಪಡಿಸಲಾಗದ್ದು</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>ಯಾವುದೂ ಇಲ್ಲ</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>ಆಂತರಿಕ ಸಾಧನ ಸಂಗ್ರಹಣೆ</item>
+        <item>ತೆಗೆದುಹಾಕಬಹುದಾದ SD ಕಾರ್ಡ್</item>
+        <item>ಸಿಸ್ಟಂ ನಿರ್ಧರಿಸಲಿ</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>ಸ್ಥಾನ</item>
+        <item>ವೈಯಕ್ತಿಕ</item>
+        <item>ಸಂದೇಶ</item>
+        <item>ಮಾಧ್ಯಮ</item>
+        <item>ಸಾಧನ</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>ಒರಟು ಸ್ಥಾನ</item>
+        <item>ಉತ್ಕೃಷ್ಟ ಸ್ಥಾನ</item>
+        <item>GPS</item>
+        <item>ವೈಬ್ರೇಟ್‌</item>
+        <item>ಓದುವ ಸಂಪರ್ಕಗಳು</item>
+        <item>ಸಂಪರ್ಕಗಳನ್ನು ಮಾರ್ಪಡಿಸಿ</item>
+        <item>ಕರೆಯ ಲಾಗ್‌ ಓದಿ</item>
+        <item>ಕರೆಯ ಲಾಗ್‌ ಮಾರ್ಪಡಿಸಿ</item>
+        <item>ಕ್ಯಾಲೆಂಡರ್‌ ಓದಿ</item>
+        <item>ಕ್ಯಾಲೆಂಡರ್‌ ಮಾರ್ಪಡಿಸಿ</item>
+        <item>wi-fi ಸ್ಕ್ಯಾನ್</item>
+        <item>ಅಧಿಸೂಚನೆ</item>
+        <item>ಸೆಲ್ ಸ್ಕ್ಯಾನ್</item>
+        <item>ಕರೆ</item>
+        <item>SMS ಓದಿ</item>
+        <item>SMS ಬರೆಯಿರಿ</item>
+        <item>SMS ಸ್ವೀಕರಿಸಿ</item>
+        <item>ತುರ್ತು SMS ಸ್ವೀಕರಿಸಿ</item>
+        <item>MMS ಸ್ವೀಕರಿಸಿ</item>
+        <item>WAP ಪುಶ್‌ ಸ್ವೀಕರಿಸಿ</item>
+        <item>SMS ಕಳುಹಿಸು</item>
+        <item>ICC SMS ಓದಿ</item>
+        <item>ICC SMS ಬರೆಯಿರಿ</item>
+        <item>ಸೆಟ್ಟಿಂಗ್‌‌ಗಳನ್ನು ಮಾರ್ಪಡಿಸಿ</item>
+        <item>ಮೇಲಕ್ಕೆ ಎಳೆಯಿರಿ</item>
+        <item>ಅಧಿಸೂಚನೆಗಳನ್ನು ಪ್ರವೇಶಿಸಿ</item>
+        <item>ಕ್ಯಾಮರಾ</item>
+        <item>ಆಡಿಯೋ ರೆಕಾರ್ಡ್‌ ಮಾಡಿ</item>
+        <item>ಆಡಿಯೋ ಪ್ಲೇ ಮಾಡಿ</item>
+        <item>ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ ಓದಿ</item>
+        <item>ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ ಮಾರ್ಪಡಿಸಿ</item>
+        <item>ಮಾಧ್ಯಮ ಬಟನ್‌ಗಳು</item>
+        <item>ಆಡಿಯೋ ಫೋಕಸ್</item>
+        <item>ಮಾಸ್ಟರ್‌ ವಾಲ್ಯೂಮ್</item>
+        <item>ಧ್ವನಿ ವಾಲ್ಯೂಮ್</item>
+        <item>ರಿಂಗ್‌ ವಾಲ್ಯೂಮ್</item>
+        <item>ಮಾಧ್ಯಮ ವಾಲ್ಯೂಮ್</item>
+        <item>ಅಲಾರ್ಮ್ ಧ್ವನಿ</item>
+        <item>ಅಧಿಸೂಚನೆ ವಾಲ್ಯೂಮ್</item>
+        <item>bluetooth ವಾಲ್ಯೂಮ್</item>
+        <item>ಎಚ್ಚರವಹಿಸಿ</item>
+        <item>ಪರಿವೀಕ್ಷಣೆ ಸ್ಥಾನ</item>
+        <item>ಪರಿವೀಕ್ಷಣೆಯ ಹೆಚ್ಚಿನ ಸಾಮರ್ಥ್ಯದ ಸ್ಥಾನ</item>
+        <item>ಬಳಕೆ ಅಂಕಿಅಂಶಗಳನ್ನು ಪಡೆಯಿರಿ</item>
+        <item>ಮೈಕ್ರೋಫೋನ್ ಮ್ಯೂಟ್/ಅನ್‌ಮ್ಯೂಟ್ ಮಾಡಿ</item>
+        <item>ಪ್ರಾಜೆಕ್ಟ್ ಮೀಡಿಯಾ</item>
+        <item>VPN ಸಕ್ರಿಯಗೊಳಿಸಿ</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>ಸ್ಥಾನ</item>
+        <item>ಸ್ಥಾನ</item>
+        <item>ಸ್ಥಾನ</item>
+        <item>ವೈಬ್ರೇಟ್‌</item>
+        <item>ಓದುವ ಸಂಪರ್ಕಗಳು</item>
+        <item>ಸಂಪರ್ಕಗಳನ್ನು ಮಾರ್ಪಡಿಸಿ</item>
+        <item>ಕರೆಯ ಲಾಗ್‌ ಓದಿ</item>
+        <item>ಕರೆಯ ಲಾಗ್‌ ಮಾರ್ಪಡಿಸಿ</item>
+        <item>ಕ್ಯಾಲೆಂಡರ್‌ ಓದಿ</item>
+        <item>ಕ್ಯಾಲೆಂಡರ್‌ ಮಾರ್ಪಡಿಸಿ</item>
+        <item>ಸ್ಥಾನ</item>
+        <item>ಪೋಸ್ಟ್‌ ಅಧಿಸೂಚನೆ</item>
+        <item>ಸ್ಥಾನ</item>
+        <item>ಕರೆ</item>
+        <item>SMS/MMS ಓದಿ</item>
+        <item>SMS/MMS ಬರೆಯಿರಿ</item>
+        <item>SMS/MMS ಸ್ವೀಕರಿಸಿ</item>
+        <item>SMS/MMS ಸ್ವೀಕರಿಸಿ</item>
+        <item>SMS/MMS ಸ್ವೀಕರಿಸಿ</item>
+        <item>SMS/MMS ಸ್ವೀಕರಿಸಿ</item>
+        <item>SMS/MMS ಕಳುಹಿಸಿ</item>
+        <item>SMS/MMS ಓದಿ</item>
+        <item>SMS/MMS ಬರೆಯಿರಿ</item>
+        <item>ಸೆಟ್ಟಿಂಗ್‌‌ಗಳನ್ನು ಮಾರ್ಪಡಿಸಿ</item>
+        <item>ಮೇಲಕ್ಕೆ ಎಳೆಯಿರಿ</item>
+        <item>ಅಧಿಸೂಚನೆಗಳನ್ನು ಪ್ರವೇಶಿಸಿ</item>
+        <item>ಕ್ಯಾಮರಾ</item>
+        <item>ಆಡಿಯೋ ರೆಕಾರ್ಡ್‌ ಮಾಡಿ</item>
+        <item>ಆಡಿಯೋ ಪ್ಲೇ ಮಾಡಿ</item>
+        <item>ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ ಓದಿ</item>
+        <item>ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ ಮಾರ್ಪಡಿಸಿ</item>
+        <item>ಮಾಧ್ಯಮ ಬಟನ್‌ಗಳು</item>
+        <item>ಆಡಿಯೋ ಫೋಕಸ್</item>
+        <item>ಮಾಸ್ಟರ್‌ ವಾಲ್ಯೂಮ್</item>
+        <item>ಧ್ವನಿ ವಾಲ್ಯೂಮ್</item>
+        <item>ರಿಂಗ್‌ ವಾಲ್ಯೂಮ್</item>
+        <item>ಮಾಧ್ಯಮ ವಾಲ್ಯೂಮ್</item>
+        <item>ಅಲಾರ್ಮ್ ಧ್ವನಿ</item>
+        <item>ಅಧಿಸೂಚನೆ ವಾಲ್ಯೂಮ್</item>
+        <item>bluetooth ವಾಲ್ಯೂಮ್</item>
+        <item>ಎಚ್ಚರವಹಿಸಿ</item>
+        <item>ಸ್ಥಾನ</item>
+        <item>ಸ್ಥಾನ</item>
+        <item>ಬಳಕೆ ಅಂಕಿಅಂಶಗಳನ್ನು ಪಡೆಯಿರಿ</item>
+        <item>ಮೈಕ್ರೋಫೋನ್ ಮ್ಯೂಟ್/ಅನ್‌ಮ್ಯೂಟ್ ಮಾಡಿ</item>
+        <item>ಪ್ರಾಜೆಕ್ಟ್ ಮೀಡಿಯಾ</item>
+        <item>VPN ಸಕ್ರಿಯಗೊಳಿಸಿ</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>ಚಿಕ್ಕದು</item>
+        <item>ಮಧ್ಯಮ</item>
+        <item>ದೀರ್ಘವಾದ</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>ಡೀಫಾಲ್ಟ್</item>
+        <item>Sans-serif</item>
+        <item>Sans-serif condensed</item>
+        <item>Sans-serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>Casual</item>
+        <item>Cursive</item>
+        <item>Small capitals</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>ತುಂಬಾ ಸಣ್ಣ</item>
+        <item>ಸಣ್ಣ</item>
+        <item>ಸಾಧಾರಣ</item>
+        <item>ದೊಡ್ಡದು</item>
+        <item>ಬಹಳ ದೊಡ್ಡದು</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>ಡೀಫಾಲ್ಟ್</item>
+        <item>ಯಾವುದೂ ಇಲ್ಲ</item>
+        <item>ಔಟ್‌ಲೈನ್</item>
+        <item>ಡ್ರಾಪ್ ನೆರಳು</item>
+        <item>ಹೆಚ್ಚಿಸಲಾಗಿದೆ</item>
+        <item>ಕುಗ್ಗಿರುವುದು</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>ಆಪ್‌‌ ಡೀಫಾಲ್ಟ್‌ ಬಳಸಿ</item>
+        <item>ಕಪ್ಪು ಬಣ್ಣದಲ್ಲಿ ಬಿಳಿ</item>
+        <item>ಬಿಳಿ ಬಣ್ಣದಲ್ಲಿ ಕಪ್ಪು</item>
+        <item>ಕಪ್ಪು ಬಣ್ಣದಲ್ಲಿ ಹಳದಿ</item>
+        <item>ನೀಲಿ ಬಣ್ಣದಲ್ಲಿ ಹಳದಿ</item>
+        <item>ಕಸ್ಟಮ್</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>ಪ್ರತಿ ಲಾಗ್ ಬಫರ್‌ಗೆ 64K</item>
+        <item>ಪ್ರತಿ ಲಾಗ್ ಬಫರ್‌ಗೆ 256K</item>
+        <item>ಪ್ರತಿ ಲಾಗ್ ಬಫರ್‌ಗೆ 1M</item>
+        <item>ಪ್ರತಿ ಲಾಗ್ ಬಫರ್‌ಗೆ 4M</item>
+        <item>ಪ್ರತಿ ಲಾಗ್ ಬಫರ್‌ಗೆ 16M</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>ಎಂದಿಗೂ ಪರಿಶೀಲಿಸದಿರು</item>
+        <item>DRM ವಿಷಯಗಳಿಗಾಗಿ ಮಾತ್ರ ಪರಿಶೀಲಿಸಿ</item>
+        <item>ಯಾವಾಗಲೂ ಪರಿಶೀಲಿಸು</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>HDCP ಪರಿಶೀಲನೆಯನ್ನು ಎಂದಿಗೂ ಬಳಸದಿರು</item>
+        <item>DRM ವಿಷಯಗಳಿಗೆ ಮಾತ್ರ HDCP ಪರೀಕ್ಷಿಸುವಿಕೆಯನ್ನು ಬಳಸು</item>
+        <item>HDCP ಪರಿಶೀಲನೆಯನ್ನು ಯಾವಾಗಲೂ ಬಳಸು</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>ಆನಿಮೇಶನ್ ಆಫ್</item>
+        <item>ಅನಿಮೇಶನ್‌‌ ಮಾಪಕ 0.5x</item>
+        <item>ಆನಿಮೇಶನ್ ಮಾಪಕ 1x</item>
+        <item>ಅನಿಮೇಶನ್‌‌ ಮಾಪಕ 1.5x</item>
+        <item>ಆನಿಮೇಶನ್ ಮಾಪಕ 2x</item>
+        <item>ಆನಿಮೇಶನ್ ಮಾಪಕ 5x</item>
+        <item>ಆನಿಮೇಶನ್ ಮಾಪಕ 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>ಆನಿಮೇಶನ್ ಆಫ್</item>
+        <item>ಅನಿಮೇಶನ್‌‌ ಮಾಪಕ 0.5x</item>
+        <item>ಆನಿಮೇಶನ್ ಮಾಪಕ 1x</item>
+        <item>ಅನಿಮೇಶನ್‌‌ ಮಾಪಕ 1.5x</item>
+        <item>ಆನಿಮೇಶನ್ ಮಾಪಕ 2x</item>
+        <item>ಆನಿಮೇಶನ್ ಮಾಪಕ 5x</item>
+        <item>ಆನಿಮೇಶನ್ ಮಾಪಕ 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>ಆನಿಮೇಶನ್ ಆಫ್</item>
+        <item>ಅನಿಮೇಶನ್‌‌ ಮಾಪಕ 0.5x</item>
+        <item>ಆನಿಮೇಶನ್ ಮಾಪಕ 1x</item>
+        <item>ಅನಿಮೇಶನ್‌‌ ಮಾಪಕ 1.5x</item>
+        <item>ಆನಿಮೇಶನ್ ಮಾಪಕ 2x</item>
+        <item>ಆನಿಮೇಶನ್ ಮಾಪಕ 5x</item>
+        <item>ಆನಿಮೇಶನ್ ಮಾಪಕ 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>ಯಾವುದೂ ಇಲ್ಲ</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (ಸುರಕ್ಷಿತ)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (ಸುರಕ್ಷಿತ)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 XHDPi (ಸುರಕ್ಷಿತ)</item>
+        <item>1280x720 tvdpi ಮತ್ತು 1920x1080 XHDPi</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>ಯಾವುದೂ ಇಲ್ಲ</item>
+        <item>Logcat</item>
+        <item>Systrace (ಗ್ರಾಫಿಕ್ಸ್)</item>
+        <item>glGetError ನಲ್ಲಿ ಕರೆಯ ಸ್ಟ್ಯಾಕ್</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>ಮುಚ್ಚು</item>
+        <item>ಆಯತಾಕಾರವಲ್ಲದ ಕ್ಲಿಪ್‌ ಸ್ಥಳವನ್ನು ನೀಲಿಯಲ್ಲಿ ಡ್ರಾ ಮಾಡಿ</item>
+        <item>ಪರೀಕ್ಷಿತ ಚಿತ್ರ ಆದೇಶವನ್ನು ಹಸಿರಿನಲ್ಲಿ ಹೈಲೈಟ್‌ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>ಮುಚ್ಚು</item>
+        <item>ಪರದೆಯ ಮೇಲಿನ ಪಟ್ಟಿಗಳು</item>
+        <item>In adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>ಮುಚ್ಚು</item>
+        <item>ಓವರ್‌ಡ್ರಾ ಪ್ರದೇಶಗಳನ್ನು ತೋರಿಸು</item>
+        <item>ಡ್ಯೂಟರ್‌ನೋಮಲಿಗಾಗಿ ಪ್ರದೇಶಗಳನ್ನು ತೋರಿಸು</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>ಪ್ರಮಾಣಿತ ಮಿತಿ</item>
+        <item>ಹಿನ್ನೆಲೆ ಪ್ರಕ್ರಿಯೆಗಳು ಇಲ್ಲ</item>
+        <item>ಬಹುತೇಕ 1 ಪ್ರಕ್ರಿಯೆ</item>
+        <item>ಬಹುತೇಕ 2 ಪ್ರಕ್ರಿಯೆಗಳು</item>
+        <item>ಬಹುತೇಕ 3 ಪ್ರಕ್ರಿಯೆಗಳು</item>
+        <item>ಬಹುತೇಕ 4 ಪ್ರಕ್ರಿಯೆಗಳು</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>ಪೂರ್ವ-ಹಂಚಿಕೆಯಾದ ಕೀಗಳನ್ನು ಹೊಂದಿರುವ L2TP/IPSec VPN</item>
+        <item>ಪ್ರಮಾಣಪತ್ರಗಳನ್ನು ಹೊಂದಿರುವ L2TP/IPSec VPN</item>
+        <item>ಪೂರ್ವ-ಹಂಚಿಕೆಯಾದ ಕೀಗಳು ಮತ್ತು Xauth ಪ್ರಮಾಣೀಕರಣವನ್ನು ಹೊಂದಿರುವ IPSec VPN</item>
+        <item>ಪ್ರಮಾಣಪತ್ರಗಳು ಮತ್ತು Xauth ಪ್ರಮಾಣೀಕರಣವನ್ನು ಹೊಂದಿರುವ IPSec VPN</item>
+        <item>ಪ್ರಮಾಣಪತ್ರಗಳು ಮತ್ತು ಹೈಬ್ರಿಡ್ ಪ್ರಮಾಣೀಕರಣವನ್ನು ಹೊಂದಿರುವ IPSec VPN</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಲಾಗಿದೆ</item>
+        <item>ಆರಂಭಿಸಲಾಗುತ್ತಿದೆ...</item>
+        <item>ಸಂಪರ್ಕಪಡಿಸಲಾಗುತ್ತಿದೆ...</item>
+        <item>ಸಂಪರ್ಕಿತಗೊಂಡಿದೆ</item>
+        <item>ಕಾಲಾವಧಿ</item>
+        <item>ವಿಫಲವಾಗಿದೆ</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>ಕೇಳಿ</item>
+        <item>ಎಂದಿಗೂ ಅನುಮತಿಸಬೇಡಿ</item>
+        <item>ಯಾವಾಗಲೂ ಅನುಮತಿಸಿ</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>ಯುಕ್ತ</item>
+        <item>ಮಧ್ಯಮ</item>
+        <item>ಕಡಿಮೆ</item>
+        <item>ಗಂಭೀರ</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>ಸಾಧಾರಣ</item>
+        <item>ಮಧ್ಯಮ</item>
+        <item>ಕಡಿಮೆ</item>
+        <item>ಗಂಭೀರ</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>ನಿರಂತರ</item>
+        <item>ಉನ್ನತ ಚಟುವಟಿಕೆ</item>
+        <item>ಪ್ರಮುಖ (ಮುನ್ನೆಲೆ)</item>
+        <item>ಪ್ರಮುಖ (ಹಿನ್ನೆಲೆ)</item>
+        <item>ಬ್ಯಾಕಪ್</item>
+        <item>ಭಾರಿ ತೂಕ</item>
+        <item>ಸೇವೆ (ಚಾಲನೆಯಲ್ಲಿದೆ)</item>
+        <item>ಸೇವೆ (ಮರುಪ್ರಾರಂಭಿಸಲಾಗುತ್ತಿದೆ)</item>
+        <item>ಸ್ವೀಕರಿಸುವವರು</item>
+        <item>ಮುಖ ಪರದೆ</item>
+        <item>ಕೊನೆಯ ಚಟುವಟಿಕೆ</item>
+        <item>ಕ್ಯಾಶ್ ಮಾಡಲಾಗಿದೆ (ಚಟುವಟಿಕೆ)</item>
+        <item>ಕ್ಯಾಶ್ ಮಾಡಲಾದ (ಚಟುವಟಿಕೆ ಕ್ಲೈಂಟ್)</item>
+        <item>ಕ್ಯಾಶ್ ಮಾಡಲಾಗಿದೆ (ಖಾಲಿ)</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>ಗಾಢ ಹಸಿರು-ನೀಲಿ</item>
+        <item>ನೀಲಿ</item>
+        <item>ಇಂಡಿಗೊ</item>
+        <item>ನೇರಳೆ ಬಣ್ಣ</item>
+        <item>ಪಿಂಕ್</item>
+        <item>ಕೆಂಪು</item>
+    </string-array>
+    <string-array name="ring_or_mtp_change_entries">
+        <item>ರಿಂಗ್‌ಟೋನ್‌</item>
+        <item>ಮಾಧ್ಯಮ</item>
+    </string-array>
+    <string-array name="app_loc_permission">
+        <item>ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ</item>
+        <item>ಅನುಮತಿಸು</item>
+        <item>ಕೇಳಿ</item>
+    </string-array>
+    <string-array name="key_light_control_mode">
+        <item>1.5 ಸೆಕೆಂಡುಗಳು</item>
+        <item>6 ಸೆಕೆಂಡುಗಳು</item>
+        <item>ಯಾವಾಗಲೂ ಆನ್</item>
+        <item>ಯಾವಾಗಲೂ ಆಫ್</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_amoled">
+        <item>15 ಸೆಕೆಂಡುಗಳು</item>
+        <item>30 ಸೆಕೆಂಡುಗಳು</item>
+        <item>1 ನಿಮಿಷ</item>
+        <item>2 ನಿಮಿಷಗಳು</item>
+        <item>5 ನಿಮಿಷಗಳು</item>
+        <item>10 ನಿಮಿಷಗಳು</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_mtfp">
+        <item>15 ಸೆಕೆಂಡುಗಳು</item>
+        <item>30 ಸೆಕೆಂಡುಗಳು</item>
+        <item>1 ನಿಮಿಷ</item>
+        <item>2 ನಿಮಿಷಗಳು</item>
+        <item>5 ನಿಮಿಷಗಳು</item>
+        <item>10 ನಿಮಿಷಗಳು</item>
+        <item>30 ನಿಮಿಷಗಳು</item>
+        <item>ಎಂದಿಗೂ ಬೇಡ</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>ನಿಮ್ಮ ತಂದೆಯ ಹೆಸರೇನು?</item>
+        <item>ನಿಮ್ಮ ತಾಯಿಯ ಹೆಸರೇನು?</item>
+        <item>ನಿಮ್ಮ ಸಂಗಾತಿಯ ಹೆಸರೇನು?</item>
+        <item>ನೀವು ಹಾಜರಾದ ಪ್ರಾಥಮಿಕ ಶಾಲೆ ಯಾವುದು ?</item>
+        <item>ನಿಮ್ಮ ಕಿಂಡರ್ಗಾರ್ಟನ್ ಶಿಕ್ಷಕರ ಹೆಸರೇನು?</item>
+        <item>ನಿಮ್ಮ ಪ್ರೌಢಶಾಲಾ ಶಿಕ್ಷಕರ ಹೆಸರೇನು?</item>
+        <item>ನಿಮ್ಮ ಉತ್ತಮ ಬಾಲ್ಯ ಸ್ನೇಹಿತನ ಹೆಸರೇನು?</item>
+        <item>ನೀವು ಹುಟ್ಟಿದ ಸ್ಥಳ ಯಾವುದು?</item>
+        <item>ನಿಮ್ಮ ವಿದ್ಯಾರ್ಥಿ (ಉದ್ಯೋಗಿ) ಗುರುತಿಸುವಿಕೆಯ ಸಂಖ್ಯೆ ಯಾವುದು?</item>
+        <item>ನಿಮ್ಮ ಗುರುತಿನ ಕಾರ್ಡ್ ಸಂಖ್ಯೆಯ ಕೊನೆಯ 6 ಅಂಕಿಗಳು ಯಾವುವು?</item>
+        <item>ನಿಮ್ಮ ಕಾರಿನ ಪರವಾನಗಿ ಪ್ಲೇಟ್ ಸಂಖ್ಯೆ ಏನು?</item>
+        <item>ನೀವು ಕೆಲಸ ಮಾಡಿದ ಮೊದಲ ಕಂಪನಿಯ ಹೆಸರೇನು?</item>
+        <item>ಕಸ್ಟಮೈಸ್‌ಗೊಳಿಸಿದ ಪ್ರಶ್ನೆ</item>
+    </string-array>
+    <string-array name="area_entrys">
+        <item>ಥೈಲ್ಯಾಂಡ್</item>
+        <item>ಮಲೇಷಿಯಾ</item>
+        <item>ಇಂಡೋನೇಷ್ಯಾ</item>
+        <item>ಭಾರತ</item>
+        <item>ಮಾಯನ್ಮಾರ್</item>
+        <item>ಫಿಲಿಪ್ಪೀನ್ಸ್</item>
+        <item>ವಿಯೆಟ್ನಾಂ</item>
+        <item>ಬ್ರೂನೈ</item>
+        <item>ಕಾಂಬೋಡಿಯಾ</item>
+        <item>ಲಾವೋಸ್</item>
+        <item>ಸಿಂಗಾಪುರ</item>
+        <item>ಬಾಂಗ್ಲಾದೇಶ</item>
+        <item>ನೇಪಾಳ</item>
+        <item>ಪಾಕಿಸ್ತಾನ</item>
+        <item>ಶ್ರೀಲಂಕಾ</item>
+    </string-array>
+    <string-array name="vivo_rom_25problem_ask_lables">
+        <item>ನೀವು ಹಾಜರಾದ ಪ್ರಾಥಮಿಕ ಶಾಲೆ ಯಾವುದು ?</item>
+        <item>ನಿಮ್ಮ ತಂದೆಯ ಹೆಸರೇನು?</item>
+        <item>ನಿಮ್ಮ ತಾಯಿಯ ಹೆಸರೇನು?</item>
+        <item>ನಿಮ್ಮ ಸಂಗಾತಿಯ ಹೆಸರೇನು?</item>
+        <item>ನೀವು ಹುಟ್ಟಿದ ಸ್ಥಳ ಯಾವುದು?</item>
+        <item>ನಿಮ್ಮ ಅಡ್ಡಹೆಸರು ಏನು?</item>
+        <item>ನಿಮ್ಮ ಪ್ರೌಢಶಾಲಾ ತರಗತಿಯ ಶಿಕ್ಷಕರೇ?</item>
+        <item>ನಿಮ್ಮ ಉತ್ತಮ ಬಾಲ್ಯದ ಗೆಳೆಯ ಯಾರು?</item>
+        <item>ನಿಮ್ಮ ವಿದ್ಯಾರ್ಥಿ (ಉದ್ಯೋಗಿ) ಗುರುತಿಸುವಿಕೆಯ ಸಂಖ್ಯೆ ಯಾವುದು?</item>
+        <item>ನಿಮ್ಮ ID ಸಂಖ್ಯೆಯ ಕೊನೆಯ 6 ಅಂಕೆಗಳು ಯಾವುವು?</item>
+        <item>ನಿಮ್ಮ ಕಾರಿನ ಪರವಾನಗಿ ಪ್ಲೇಟ್ ಸಂಖ್ಯೆ ಏನು?</item>
+        <item>ನೀವು ಕೆಲಸ ಮಾಡಿದ ಮೊದಲ ಕಂಪನಿಯ ಹೆಸರೇನು?</item>
+        <item>ಕಸ್ಟಮೈಸ್‌ಗೊಳಿಸಿದ ಪ್ರಶ್ನೆ</item>
+    </string-array>
+    <string-array name="timezones_cities_array">
+        <item>ಅಬಿಡ್ಜನ್, ಕೋಟ್ ಡಿ ಐವರಿ</item>
+        <item>ಅಬುದಾಬಿ, ಯುಎಇ</item>
+        <item>ಅಕ್ರಾ, ಘಾನಾ</item>
+        <item>ಅಡಿಸ್ ಅಬಾಬ, ಇಥಿಯೋಪಿಯ</item>
+        <item>ಅಡಿಲೇಡ್, ಆಸ್ಟ್ರೇಲಿಯ</item>
+        <item>ಅಲಾಸ್ಕಾ, ಅಮೆರಿಕ</item>
+        <item>ಅಲ್ಜೀರ್ಸ್, ಅಲ್ಜೀರಿಯಾ</item>
+        <item>ಅಲ್ಮಾಟಿ, ಕಜಕಿಸ್ತಾನ್</item>
+        <item>ಅಂಬನ್, ಇಂಡೋನೇಷ್ಯಾ</item>
+        <item>ಅಮ್ಮಾನ್, ಜೊರ್ಡಾನ್</item>
+        <item>ಆಮ್‌ಸ್ಟರ್‌ಡ್ಯಾಮ್, ನೆದರ್‌ಲ್ಯಾಂಡ್ಸ್</item>
+        <item>ಅನದ್ಯರ್, ರಷ್ಯಾ</item>
+        <item>ಆನ್ಷೋರೇಗ್, ಅಮೆರಿಕ</item>
+        <item>ಅಂಕಾರ, ಟರ್ಕಿ</item>
+        <item>ಅನ್ಶನ್, ಚೀನಾ</item>
+        <item>ಅಂಟಾನನಾರಿವೊ, ಮಡಗಾಸ್ಕರ್</item>
+        <item>ಅಷ್ಗಬಟ್, ತುರ್ಕಮೆನಿಸ್ತಾನ್</item>
+        <item>ಅಸ್ಮಾರಾ ಏರಿಟ್ರಿಯ</item>
+        <item>ಆಸ್ತಾನಾ, ಕಜಕಿಸ್ತಾನ್</item>
+        <item>ಅಸೂನ್ಸಿಯಾನ್, ಪರಾಗ್ವೆ</item>
+        <item>ಅಥೆನ್ಸ್, ಗ್ರೀಸ್</item>
+        <item>ಅಟ್ಲಾಂಟಾ, ಅಮೆರಿಕ</item>
+        <item>ಆಕ್ಲೆಂಡ್, ನ್ಯೂಜಿಲ್ಯಾಂಡ್</item>
+        <item>ಆಸ್ಟಿನ್, ಅಮೆರಿಕ</item>
+        <item>ಅಜೋರಸ್, ಪೋರ್ಚುಗಲ್</item>
+        <item>ಬಾಗ್ದಾದ್, ಇರಾಕ್</item>
+        <item>ಬಾಕು, ಅಜರ್ಬೈಜಾನ್</item>
+        <item>ಬಾಲ್ಟಿಮೋರ್, ಅಮೆರಿಕ</item>
+        <item>ಬಮಾಕೋ, ಮಾಲಿ</item>
+        <item>ಬೆಂಗಳೂರು, ಭಾರತ</item>
+        <item>ಬ್ಯಾಂಕಾಕ್, ಥೈಲ್ಯಾಂಡ್</item>
+        <item>ಬಾಂಗಿ, ಮಧ್ಯ ಆಫ್ರಿಕಾ ಗಣರಾಜ್ಯ</item>
+        <item>ಬವೊಡಿಂಗ್, ಚೀನಾ</item>
+        <item>ಬೌಟೌ, ಚೀನಾ</item>
+        <item>ಬಾರ್ಸಿಲೋನಾ, ಸ್ಪೇನ್</item>
+        <item>ಬರಿ, ಇಟಲಿ</item>
+        <item>ಬೇಸ್-ಟೆರ್ರೆ, ಗುಡೆಲೋಪ್</item>
+        <item>ಬೀಜಿಂಗ್, ಚೀನಾ</item>
+        <item>ಬೈರುತ್ ಲೆಬನಾನ್</item>
+        <item>ಬೆಲ್ಗ್ರೇಡ್, ಸೆರ್ಬಿಯ</item>
+        <item>ಬೆಲೀಜ್ ನಗರ, ಬೆಲೀಜ್</item>
+        <item>ಬೆನ್ಕಸಿ, ಚೀನಾ</item>
+        <item>ಬರ್ಲಿನ್, ಜರ್ಮನಿ</item>
+        <item>ಬರ್ನ್, ಸ್ವಿಜರ್‌ಲ್ಯಾಂಡ್</item>
+        <item>ಬಿಷ್ಕೆಕ್, ಕಿರ್ಗಿಸ್ತಾನ್</item>
+        <item>ಬಿಸ್ಸಾವು ಗಿನಿ ಬಿಸ್ಸಾವ್</item>
+        <item>ಬೊಗೊಟಾ, ಕೊಲಂಬಿಯ</item>
+        <item>ಬೊಲೋಗ್ನಾ, ಇಟಲಿ</item>
+        <item>ಬೋಸ್ಟನ್, ಅಮೆರಿಕ</item>
+        <item>ಬ್ರೆಸಿಲಿಯ, ಬ್ರೆಜಿಲ್</item>
+        <item>ಬ್ರಾಟಿಸ್ಲಾವಾ, ಸ್ಲೋವಾಕಿಯ</item>
+        <item>ಬ್ರಾಜ್ಜಾವಿಲ್ಲೆ, ಕಾಂಗೋ</item>
+        <item>ಬ್ರಿಡ್ಜ್‌ಟೌನ್, ಬಾರ್ಬಡೋಸ್</item>
+        <item>ಬ್ರಿಸ್ಬೇನ್, ಆಸ್ಟ್ರೇಲಿಯ</item>
+        <item>ಬ್ರಸ್ಸೆಲ್ಸ್, ಬೆಲ್ಜಿಯಂ</item>
+        <item>ಬುಚಾರೆಸ್ಟ್, ರೊಮೇನಿಯ</item>
+        <item>ಬುಡಾಪೆಸ್ಟ್, ಹಂಗೇರಿ</item>
+        <item>ಬ್ಯೂನಸ್ ಐರಿಸ್, ಅರ್ಜೆಂಟೈನಾ</item>
+        <item>ಕೈರೋ, ಈಜಿಪ್ಟ್</item>
+        <item>ಕ್ಯಾಲ್ಗರಿ, ಕೆನಡಾ</item>
+        <item>ಕೆನರಿ ದ್ವೀಪಗಳು, ಸ್ಪೇನ್</item>
+        <item>ಕ್ಯಾನ್ಬೆರಾ, ಆಸ್ಟ್ರೇಲಿಯ</item>
+        <item>ಕೇಪ್ ಟೌನ್, ದಕ್ಷಿಣ ಆಫ್ರಿಕಾ</item>
+        <item>ಕ್ಯಾರಕಾಸ್, ವೆನೆಜುವೆಲಾ</item>
+        <item>ಕಾರ್ಡಿಫ್, ವೇಲ್ಸ್</item>
+        <item>ಕಾಸಾಬ್ಲಾಂಕಾ ಮೊರಾಕ್ಕೊ</item>
+        <item>ಕ್ಯಾಟನ್ಜಾರೋ, ಇಟಲಿ</item>
+        <item>ಕೇಯ್ನ್, ಫ್ರೆಂಚ್ ಗಯಾನ</item>
+        <item>ಚಾಂಗ್ಚುನ್, ಚೀನಾ</item>
+        <item>ಚಾಂಗ್‌ಷಾ, ಚೀನಾ</item>
+        <item>ಚಾಂಗೌ, ಚೀನಾ</item>
+        <item>ಷಾರ್ಲೆಟ್, ಅಮೆರಿಕ</item>
+        <item>ಷಾರ್ಲೆಟ್ ಅಮೇಲಿ, ಅಮೆರಿಕ ವರ್ಜಿನ್ ದ್ವೀಪಗಳು</item>
+        <item>ಚೆಲ್ಯಾಬಿನ್ಸ್ಕ್, ರಷ್ಯಾ</item>
+        <item>ಚೆಂಗ್ಡು, ಚೀನಾ</item>
+        <item>ಚೆನೈ, ಭಾರತ</item>
+        <item>ಚಿಕಾಗೊ, ಅಮೆರಿಕ</item>
+        <item>ಚಿಹೋವಾ, ಮೆಕ್ಸಿಕೊ</item>
+        <item>ಚಿಸಿನಾವು, ಮಾಲ್ಡೊವಾ</item>
+        <item>ಚಿಟ, ರಷ್ಯಾ</item>
+        <item>ಚಾಂಗಿಂಗ್, ಚೀನಾ</item>
+        <item>ಕ್ಲೀವ್‌ಲ್ಯಾಂಡ್ , ಅಮೆರಿಕ</item>
+        <item>ಕೊಲಂಬೊ, ಶ್ರೀಲಂಕಾ</item>
+        <item>ಕೊಲಂಬಸ್, ಅಮೆರಿಕ</item>
+        <item>ಕೋನಾಕ್ರಿ, ಗಿನಿಯಾ</item>
+        <item>ಕೋಪನ್‌ಹೇಗನ್, ಡೆನ್ಮಾರ್ಕ್</item>
+        <item>ಕಾರ್ಕ್, ಐರ್ಲೆಂಡ್</item>
+        <item>ಕ್ರೊಟೋನ್, ಇಟಲಿ</item>
+        <item>ಡಾಕರ್, ಸೆನೆಗಲ್</item>
+        <item>ಡೇಲಿಯನ್, ಚೀನಾ</item>
+        <item>ಡಲ್ಲಾಸ್, ಅಮೆರಿಕ</item>
+        <item>ಡಮಾಸ್ಕಸ್, ಸಿರಿಯಾ</item>
+        <item>ಡ್ಯಾಕ್ವಿಂಗ್, ಚೀನಾ</item>
+        <item>ದಾರ್ ಎಸ್ ಸಲಾಮ್, ಟಾಂಜಾನಿಯ</item>
+        <item>ಡಾರ್ವಿನ್, ಆಸ್ಟ್ರೇಲಿಯ</item>
+        <item>ಡಟಾಂಗ್, ಚೀನಾ</item>
+        <item>ಡೆನ್ಸಪಾರ್, ಇಂಡೋನೇಷ್ಯಾ</item>
+        <item>ಡೆನ್ವರ್, ಅಮೆರಿಕ</item>
+        <item>ಡೆಟ್ರಾಯಿಟ್, ಅಮೆರಿಕ</item>
+        <item>ಢಾಕಾ, ಬಾಂಗ್ಲಾದೇಶ</item>
+        <item>ಡಿಯಾಗೋ ಗಾರ್ಸಿಯಾ, ಇಂಗ್ಲೆಂಡ್</item>
+        <item>ಜಿಬೌಟಿ</item>
+        <item>ದೋಹಾ, ಕತಾರ್</item>
+        <item>ಡೌವಾಲ, ಕ್ಯಾಮರೂನ್</item>
+        <item>ದುಬೈ, ಯುಎಇ</item>
+        <item>ಡಬ್ಲಿನ್, ಐರ್ಲೆಂಡ್</item>
+        <item>ಡುಷಂಬೆ, ತಜಿಕಿಸ್ತಾನ್</item>
+        <item>ಈಸ್ಟರ್ ದ್ವೀಪ, ಚಿಲಿ</item>
+        <item>ಎಡಿನ್‌ಬರ್ಗ್, ಸ್ಕಾಟ್‌ಲ್ಯಾಂಡ್</item>
+        <item>ಎಡ್ಮಂಟನ್, ಕೆನಡಾ</item>
+        <item>ಎಲ್ ಪಾಸೊ, ಅಮೆರಿಕ</item>
+        <item>ಫರ್ನಾಂಡೊ ಡೆ ನೊರೊನ್ಹ, ಬ್ರೆಜಿಲ್</item>
+        <item>ಫ್ಲಾರೆನ್ಸ್, ಇಟಲಿ</item>
+        <item>ಕೋಟೆ-ಡಿ-ಫ್ರಾನ್ಸ್, ಮಾರ್ಟಿನಿಕ್</item>
+        <item>ಫ್ರಾಂಕ್‌ಫರ್ಟ್, ಜರ್ಮನಿ</item>
+        <item>ಫ್ರೀಟೌನ್, ಸಿಯೆರಾ ಲಿಯೋನ್</item>
+        <item>ಫ್ಯೂಶನ್, ಚೀನಾ</item>
+        <item>ಫ್ಯೂಕ್ಸಿನ್, ಚೀನಾ</item>
+        <item>ಫುಜೋವು, ಚೀನಾ</item>
+        <item>ಗಾಬರೋನ್, ಬೋಟ್ಸ್‌ವಾನಾ</item>
+        <item>ಗ್ಯಾಲಪಗೋಸ್ ದ್ವೀಪಗಳು, ಈಕ್ವೆಡಾರ್</item>
+        <item>ಜಿನೀವಾ, ಸ್ವಿಜರ್ಲ್ಯಾಂಡ್</item>
+        <item>ಜಿನೊವಾ, ಇಟಲಿ</item>
+        <item>ಜಾರ್ಜ್ ಟೌನ್, ಗಯಾನ</item>
+        <item>ಗ್ರೀನ್‌ಲ್ಯಾಂಡ್</item>
+        <item>ಗ್ರಿಟ್ವಿಕೆನ್, ದಕ್ಷಿಣ ಜಾರ್ಜಿಯಾ</item>
+        <item>ಗುವಾಮ್</item>
+        <item>ಗುವಾಂಗ್ಝೌ, ಚೀನಾ</item>
+        <item>ಗ್ವಾಟೆಮಾಲಾ</item>
+        <item>ಗ್ವಾಟೆಮಾಲಾ ಸಿಟಿ, ಗ್ವಾಟೆಮಾಲಾ</item>
+        <item>ಗಿಯಾಂಗ್, ಚೀನಾ</item>
+        <item>ಗುಸ್ಟಾವಿಯ, ಸೇಂಟ್ ಬಾರ್ಥೆಲೇಮಿ</item>
+        <item>ಹೈಕೌ, ಚೀನಾ</item>
+        <item>ಹ್ಯಾಲಿಫ್ಯಾಕ್ಸ್, ಕೆನಡಾ</item>
+        <item>ಹ್ಯಾಂಬರ್ಗ್, ಜರ್ಮನಿ</item>
+        <item>ಹನ್ದನ್, ಚೀನಾ</item>
+        <item>ಹಂಗ್ಝೌ, ಚೀನಾ</item>
+        <item>ಹನೋಯಿ, ವಿಯೆಟ್ನಾಂ</item>
+        <item>ಹರಾರೆ, ಜಿಂಬಾಬ್ವೆ</item>
+        <item>ಹರ್ಬಿನ್, ಚೀನಾ</item>
+        <item>ಹವನ, ಕ್ಯೂಬಾ</item>
+        <item>ಹವಾಯಿ, ಅಮೆರಿಕ</item>
+        <item>ಹೆಫೈ, ಚೀನಾ</item>
+        <item>ಹೆಲ್ಸಿಂಕಿ, ಫಿನ್‌ಲ್ಯಾಂಡ್</item>
+        <item>ಹೊ ಚಿ ಮಿನ್ಹ್ ನಗರ, ವಿಯೆಟ್ನಾಂ</item>
+        <item>ಹೊಬಾರ್ಟ್, ಆಸ್ಟ್ರೇಲಿಯ</item>
+        <item>ಹೊಹೊಟ್, ಚೀನಾ</item>
+        <item>ಹಾಂಗ್ ಕಾಂಗ್, ಚೀನಾ</item>
+        <item>ಹೊನೊಲುಲು, ಅಮೆರಿಕ</item>
+        <item>ಹೂಸ್ಟನ್, ಅಮೆರಿಕ</item>
+        <item>ಹವ್ಡ್, ಮಂಗೋಲಿಯಾ</item>
+        <item>ಹುಯಾನ್, ಚೀನಾ</item>
+        <item>ಹುಯ್ನನ್ ಚೀನಾ</item>
+        <item>ಹೈದರಾಬಾದ್, ಭಾರತ</item>
+        <item>ಇಂಡಿಯಾನಾಪೊಲಿಸ್, ಅಮೆರಿಕ</item>
+        <item>ಇರ್ಕುಟ್‌ಸ್ಕ್, ರಷ್ಯಾ</item>
+        <item>ಇಸ್ಲಾಮಾಬಾದ್, ಪಾಕಿಸ್ತಾನ</item>
+        <item>ಇಸ್ತಾಂಬುಲ್, ಟರ್ಕಿ</item>
+        <item>ಇಝೆವ್ಸಕ್, ರಷ್ಯಾ</item>
+        <item>ಜಕಾರ್ತಾ, ಇಂಡೋನೇಷ್ಯಾ</item>
+        <item>ಜೆಡ್ಡಾ, ಸೌದಿ ಅರೇಬಿಯ</item>
+        <item>ಜೆರುಸಲೆಮ್, ಇಸ್ರೇಲ್</item>
+        <item>ಜಿಲಿನ್ ಸಿಟಿ, ಚೀನಾ</item>
+        <item>ಜಿನಾನ್, ಚೀನಾ</item>
+        <item>ಜಿನ್‌ಜೌವು, ಚೀನಾ</item>
+        <item>ಜಿಕ್ಸಿ, ಚೀನಾ</item>
+        <item>ಜೋಹಾನ್ಸ್‌ಬರ್ಗ್, ದಕ್ಷಿಣ ಆಫ್ರಿಕಾ</item>
+        <item>ಕಾಬೂಲ್, ಆಫ್‌ಘಾನಿಸ್ತಾನ್</item>
+        <item>ಕಲಿನಿಗ್ರಾಡ್, ರಷ್ಯಾ</item>
+        <item>ಕಂಚಟ್ಕ್, ರಷ್ಯಾ</item>
+        <item>ಕಂಪಾಲಾ, ಉಗಾಂಡಾ</item>
+        <item>ಕರಾಚಿ, ಪಾಕಿಸ್ತಾನ</item>
+        <item>ಕಠ್ಮಂಡು, ನೇಪಾಳ</item>
+        <item>ಖಬರೋವ್‌ಸ್ಕ್, ರಷ್ಯಾ</item>
+        <item>ಖಾರ್ಕಿವ್, ಉಕ್ರೇನ್</item>
+        <item>ಖಾರ್ಟೌಮ್, ಸುಡಾನ್</item>
+        <item>ಕಿಂಗ್‌ಸ್ಟನ್ , ಕೆನಡಾ</item>
+        <item>ಕಿನ್ಶಾನ, ಕಾಂಗೋ ಡೆಮೋ.ರಿಪಬ್ಲಿಕ್</item>
+        <item>ಕಿರಿಟಿಮಾಟಿ, ಕಿರಿಬಟಿ</item>
+        <item>ಕೋಲ್ಕತಾ, ಭಾರತ</item>
+        <item>ಕ್ರಸನೊಯರ್ಸ್ಕ್, ರಷ್ಯಾ</item>
+        <item>ಕೌಲಾಲಂಪುರ್, ಮಲೇಷ್ಯಾ</item>
+        <item>ಕುನ್ಮಿಂಗ್, ಚೀನಾ</item>
+        <item>ಕುವೈತ್ ನಗರ, ಕುವೈತ್</item>
+        <item>ಕೈಯಿವ್, ಉಕ್ರೇನ್</item>
+        <item>ಲಾ ಪಾಜ್, ಬೊಲಿವಿಯಾ</item>
+        <item>ಲಾಗೋಸ್, ನೈಜೀರಿಯಾ</item>
+        <item>ಲಾಹೋರ್, ಪಾಕಿಸ್ತಾನ</item>
+        <item>ಲನ್ಜೌ, ಚೀನಾ</item>
+        <item>ಲಾಸ್ ವೆಗಾಸ್, ಅಮೆರಿಕ</item>
+        <item>ಲಿಮಾ, ಪೆರು</item>
+        <item>ಲಿಸ್ಬನ್, ಪೋರ್ಚುಗಲ್</item>
+        <item>ಲಿಯುಝೌ, ಚೀನಾ</item>
+        <item>ಲುಜುಬ್ಲಾಜಾನಾ, ಸ್ಲೊವೇನಿಯ</item>
+        <item>ಲಂಡನ್, ಇಂಗ್ಲೆಂಡ್</item>
+        <item>ಲಾಸ್ ಏಂಜಲೀಸ್, ಅಮೆರಿಕ</item>
+        <item>ಲೂಯಿಸ್ವಿಲ್ಲೆ, ಅಮೆರಿಕ</item>
+        <item>ಲುವಾಂಡಾ, ಅಂಗೋಲ</item>
+        <item>ಲುಬುಂಬಶಿ, ಡಿ.ಆರ್ ಕಾಂಗೋ</item>
+        <item>ಲುವೊಯಾಂಗ್, ಚೀನಾ</item>
+        <item>ಲುಸಾಕಾ, ಜಾಂಬಿಯಾ</item>
+        <item>ಲಕ್ಸೆಂಬರ್ಗ್</item>
+        <item>ಎಲ್ವಿವ್, ಉಕ್ರೇನ್,</item>
+        <item>ಮಕಾವು, ಚೀನಾ</item>
+        <item>ಮ್ಯಾಡ್ರಿಡ್, ಸ್ಪೇನ್</item>
+        <item>ಮಗದನ್, ರಷ್ಯಾ</item>
+        <item>ಮಜುರೊ, ಮಾರ್ಷಲ್ ದ್ವೀಪಗಳು</item>
+        <item>ಮಲಾಬೋ, ಈಕ್ವಟೋರಿಯಲ್ ಗಿನಿಯಾ</item>
+        <item>ಮೇಲ್, ಮಾಲ್ಡೀವ್ಸ್</item>
+        <item>ಮನಗುವಾ, ನಿಕರಾಗುವಾ</item>
+        <item>ಮನಾಮ, ಬಹರೈನ್</item>
+        <item>ಮನಾಸ್, ಬ್ರೆಜಿಲ್</item>
+        <item>ಮನಿಲಾ, ಫಿಲಿಪೈನ್ಸ್</item>
+        <item>ಮಪುಟೊ, ಮೊಜಾಂಬಿಕ್</item>
+        <item>ಮರಿಗಾಟ್, ಸೇಂಟ್ ಮಾರ್ಟಿನ್</item>
+        <item>ಮಯೊಟ್ಟೆ, ಫ್ರಾನ್ಸ್</item>
+        <item>ಮಜಾಟ್ಲಾನ್, ಮೆಕ್ಸಿಕೊ</item>
+        <item>ಮೆಕ್ಕಾ, ಸೌದಿ ಅರೇಬಿಯ</item>
+        <item>ಮೆಲ್ಬೋರ್ನ್, ಆಸ್ಟ್ರೇಲಿಯ</item>
+        <item>ಮೆಂಫಿಸ್, ಅಮೆರಿಕ</item>
+        <item>ಮೆಸ್ಸಿನ, ಇಟಲಿ</item>
+        <item>ಮೆಕ್ಸಿಕೊ ಸಿಟಿ, ಮೆಕ್ಸಿಕೊ</item>
+        <item>ಮಿಯಾಮಿ, ಅಮೆರಿಕ</item>
+        <item>ಮಧ್ಯ-ಅಟ್ಲಾಂಟಿಕ್</item>
+        <item>ಮಿಡ್ವೇ ದ್ವೀಪ, USA</item>
+        <item>ಮಿಲಾನ್, ಇಟಲಿ</item>
+        <item>ಮಿಲ್ವಾಕೀ, ಅಮೆರಿಕ</item>
+        <item>ಮಿನ್ನೆಪೋಲಿಸ್, ಅಮೆರಿಕ</item>
+        <item>ಮಿನ್ಸ್ಕ್, ಬೆಲಾರಸ್</item>
+        <item>ಮೊಗಾದಿಶು, ಸೊಮಾಲಿಯ</item>
+        <item>ಮೊನ್ರೋವಿಯಾ, ಲಿಬೇರಿಯ</item>
+        <item>ಮಾಂಟೆವೀಡಿಯೋ, ಉರುಗ್ವೇ</item>
+        <item>ಮಾಂಟ್ರಿಯಲ್, ಕೆನಡಾ</item>
+        <item>ಮಾಸ್ಕೋ, ರಷ್ಯಾ</item>
+        <item>ಮುಡಂಜಿಯಾಂಗ್, ಚೀನಾ</item>
+        <item>ಮುಂಬೈ, ಭಾರತ</item>
+        <item>ಮ್ಯೂನಿಚ್, ಜರ್ಮನಿ</item>
+        <item>ಮಸ್ಕಟ್, ಒಮಾನ್</item>
+        <item>ನೈರೋಬಿ, ಕೀನ್ಯಾ</item>
+        <item>ನಾನ್ಚಾಂಗ್, ಚೀನಾ</item>
+        <item>ನಾನ್ಜಿಂಗ್, ಚೀನಾ</item>
+        <item>ನಾನಿಂಗ್, ಚೀನಾ</item>
+        <item>ನೇಪಲ್ಸ್, ಇಟಲಿ</item>
+        <item>ನೇಟರ್ಸ್, ಸ್ವಿಜರ್‌ಲ್ಯಾಂಡ್</item>
+        <item>ಜಾಮೆನಾ, ಚಾಡ್</item>
+        <item>ನವದಹಲಿ, ಭಾರತ</item>
+        <item>ನ್ಯೂ ಆರ್ಲಿಯನ್ಸ್, ಅಮೆರಿಕ</item>
+        <item>ನ್ಯೂಯಾರ್ಕ್, ಅಮೆರಿಕ</item>
+        <item>ನ್ಯೂಫೌಂಡ್ಲ್ಯಾಂಡ್, ಕೆನಡಾ</item>
+        <item>ನಿಯಾಮೆ, ನೈಜರ್</item>
+        <item>ನಿನ್ಗಬೊ, ಚೀನಾ</item>
+        <item>ನೌಕ್ಚೋಟ್ಟ್, ಮಾರಿಟಾನಿಯ</item>
+        <item>ನೌಮೀಯ, ನ್ಯೂ ಕ್ಯಾಲೆಡೋನಿಯಾ</item>
+        <item>ನೊವೊಕುನ್ಸೆಟ್‌ಸ್ಕ್, ರಷ್ಯಾ</item>
+        <item>ನೊವೊಸಿಬಿರ್ಸ್ಕ್, ರಷ್ಯಾ</item>
+        <item>ನುಕುವಾಲೋಫಾ, ಟೊಂಗಾ</item>
+        <item>ನುಕ್, ಗ್ರೀನ್‌ಲ್ಯಾಂಡ್</item>
+        <item>ಒಮ್‌ಸ್ಕ್, ರಷ್ಯಾ</item>
+        <item>ಓರಲ್, ಕಜಕಿಸ್ತಾನ್</item>
+        <item>ಒಸಾಕಾ, ಜಪಾನ್</item>
+        <item>ಓಸ್ಲೋ, ನಾರ್ವೆ</item>
+        <item>ಒಟ್ಟಾವಾ, ಕೆನಡಾ</item>
+        <item>ಔಗಾಡೌಗೌ, ಬುರ್ಕಿನಾ ಫಾಸೊ</item>
+        <item>ಪಾಗೋ ಪಾಗೋ, ಅಮೆರಿಕನ್ ಸಮೋವಾ</item>
+        <item>ಪಲೆರ್ಮೋ, ಇಟಲಿ</item>
+        <item>ಪನಾಮ ಸಿಟಿ, ಪನಾಮಾ</item>
+        <item>ಪರಮರಿಬೊ, ಸುರಿನಾಮ್</item>
+        <item>ಪ್ಯಾರಿಸ್, ಫ್ರಾನ್ಸ್</item>
+        <item>ಪೆರ್ಮ್, ರಷ್ಯಾ</item>
+        <item>ಪರ್ತ್, ಆಸ್ಟ್ರೇಲಿಯ</item>
+        <item>ಪೆಟ್ರೊಪಾವ್ಲೊಸ್ಕ್- ಕಾಮ್ಚಾಟ್ಸ್‌ಸ್ಕೈ , ರಷ್ಯಾ</item>
+        <item>ಫಿಲಡೆಲ್ಫಿಯಾ, ಅಮೆರಿಕ</item>
+        <item>ನೋಮ್ ಪೆನ್, ಕಾಂಬೋಡಿಯ</item>
+        <item>ಫೀನಿಕ್ಸ್, ಅಮೆರಿಕ</item>
+        <item>ಪಿಂಗ್ಡಿಂಗ್ಶನ್, ಚೀನಾ</item>
+        <item>ಪೊಡ್ಗೋರಿಕಾ, ಮಾಂಟೆನೆಗ್ರೊ</item>
+        <item>ಪೊಂಟಾ ಡೆಲ್ಗಾಡ, ಪೋರ್ಚುಗಲ್</item>
+        <item>ಪೋರ್ಟ್ ಲೂಯಿಸ್, ಮಾರಿಷಸ್</item>
+        <item>ಪೋರ್ಟ್-ಔ-ಪ್ರಿನ್ಸ್, ಹೈತಿ</item>
+        <item>ಪೋರ್ಟ್‌ಲ್ಯಾಂಡ್, ಅಮೆರಿಕ</item>
+        <item>ಪ್ರೇಗ್, ಜೆಕ್ ರಿಪಬ್ಲಿಕ್</item>
+        <item>ಪ್ರಾರಾಯ್, ಕೇಪ್ ವರ್ಡೆ</item>
+        <item>ಪ್ಯೊಂಗ್ಯಾಂಗ್, ಡೆಮಾಕ್ರಟಿಕ್ ಪೀಪಲ್ಸ್ ರಿಪಬ್ಲಿಕ್ ಆಫ್ ಕೊರಿಯಾ</item>
+        <item>ಕ್ವಿಂಗ್ಡಾವೊ, ಚೀನಾ</item>
+        <item>ಕಿಕಿಹಾರ್, ಚೀನಾ</item>
+        <item>ಕ್ವಿಟೊ, ಈಕ್ವೆಡಾರ್</item>
+        <item>ರಬತ್, ಮೊರಾಕ್ಕೊ</item>
+        <item>ರಿಸಿಫ್, ಬ್ರೆಜಿಲ್</item>
+        <item>ರೆಜಿನಾ, ಕೆನಡಾ</item>
+        <item>ರೆಕ್ಜಾವಿಕ್, ಐಲ್ಯಾಂಡ್</item>
+        <item>ರಿಗಾ, ಲಾಟ್ವಿಯಾ</item>
+        <item>ರಿಯೊ ಡಿ ಜನೈರೊ, ಬ್ರೆಜಿಲ್</item>
+        <item>ರಿಯಾದ್, ಸೌದಿ ಅರೇಬಿಯ</item>
+        <item>ರೋಮ್, ಇಟಲಿ</item>
+        <item>ಸಾವೊ ಪಾಲೊ, ಬ್ರೆಜಿಲ್</item>
+        <item>ಸೇಂಟ್-ಡೆನಿಸ್, ರಿಯೂನಿಯನ್ ದ್ವೀಪ</item>
+        <item>ಸಾಲ್ಟ್ ಲೇಕ್ ಸಿಟಿ, ಅಮೆರಿಕ</item>
+        <item>ಸಮರಾ, ರಷ್ಯಾ</item>
+        <item>ಸ್ಯಾನ್ ಆಂಟೋನಿಯೊ, ಅಮೆರಿಕ</item>
+        <item>ಸ್ಯಾನ್ ಡಿಯಾಗೋ, ಅಮೆರಿಕ</item>
+        <item>ಸ್ಯಾನ್ ಫ್ರಾನ್ಸಿಸ್ಕೊ, ಅಮೆರಿಕ</item>
+        <item>ಸ್ಯಾನ್ ಜೋಸ್, ಕೋಸ್ಟಾ ರಿಕ</item>
+        <item>ಸ್ಯಾನ್ ಜುವಾನ್, ಪೋರ್ಟೊ ರಿಕೊ</item>
+        <item>ಸ್ಯಾನ್ ಮರಿನೋ</item>
+        <item>ಸ್ಯಾನ್ ಸಾಲ್ವಡೋರ್, ಎಲ್ ಸಾಲ್ವಡಾರ್</item>
+        <item>ಸಾನಾ, ಯೆಮೆನ್</item>
+        <item>ಸ್ಯಾಂಟಿಗೊ, ಚಿಲಿ</item>
+        <item>ಸ್ಯಾಂಟೋ ಡೊಮಿಂಗೊ, ಡೊಮಿನಿಕನ್ ರಿಪಬ್ಲಿಕ್</item>
+        <item>ಸಾರೆಜೀವೊ, ಬೊಸ್ನಿಯಾ ಮತ್ತು ಹರ್ಜೆಗೋವಿನಾ</item>
+        <item>ಸಿಯಾಟಲ್, ಅಮೆರಿಕ</item>
+        <item>ಸಿಯೋಲ್, ದಕ್ಷಿಣ ಕೊರಿಯ</item>
+        <item>ಶಾಂಘೈ, ಚೀನಾ</item>
+        <item>ಷಾಂಗ್‌ಕ್ಯೂ, ಚೀನಾ</item>
+        <item>ಷಾಂತೋವ್, ಚೀನಾ</item>
+        <item>ಶೆನ್ಯಾಂಗ್, ಚೀನಾ</item>
+        <item>ಷೆನ್ಜೆನ್, ಚೀನಾ</item>
+        <item>ಶಿಜಿಯಾಂಝುವಾಂಗ್, ಚೀನಾ</item>
+        <item>ಸಿಂಗಾಪುರ</item>
+        <item>ಸ್ಕೋಜೆ, ಮೆಸಿಡೋನಿಯಾ</item>
+        <item>ಸೋಫಿಯಾ, ಬಲ್ಗೇರಿಯ</item>
+        <item>ಸೇಂಟ್ ಜಾನ್ಸ್, ಕೆನಡಾ</item>
+        <item>ಸೇಂಟ್ ಪೀಟರ್ಸ್‌ಬರ್ಗ್, ರಷ್ಯಾ</item>
+        <item>ಸೇಂಟ್ ಪಿಯರ್ ಮತ್ತು ಮಿಕೆಲಾನ್, ಫ್ರಾನ್ಸ್</item>
+        <item>ಸ್ಟಾಕ್ಹೋಮ್, ಸ್ವೀಡನ್</item>
+        <item>ಸುವಾ, ಫಿಜಿ</item>
+        <item>ಸುಜೋವು, ಚೀನಾ</item>
+        <item>ಸಿಡ್ನಿ, ಆಸ್ಟ್ರೇಲಿಯ</item>
+        <item>ಟಹೀಟಿ, ಫ್ರೆಂಚ್ ಪಾಲಿನೇಷ್ಯಾ</item>
+        <item>ತೈಪೆ, ಚೀನಾ</item>
+        <item>ತೈಯುವಾನ್, ಚೀನಾ</item>
+        <item>ಟ್ಯಾಲಿನ್, ಎಸ್ಟೋನಿಯಾ</item>
+        <item>ಟಂಗ್ಶನ್, ಚೀನಾ</item>
+        <item>ಟರಾವಾ, ಕಿರಿಬಾಟಿ</item>
+        <item>ತಾಷ್ಕೆಂಟ್, ಉಜ್ಬೇಕಿಸ್ತಾನ್</item>
+        <item>ತ್ಬಿಲಿಸಿ, ಜಾರ್ಜಿಯ</item>
+        <item>ತೆಗುಸಿಗಲ್ಪಾ ಹೊಂಡುರಾಸ್</item>
+        <item>ಟೆಹರಾನ್, ಇರಾನ್</item>
+        <item>ದಿ ಸೆಟಲ್‌ಮೆಂಟ್, ಜಿಬಿ ವರ್ಜಿನ್ ದ್ವೀಪಗಳು</item>
+        <item>ಟಿಯಾಂಜಿನ್, ಚೀನಾ</item>
+        <item>ಟಿಜುವಾನಾ, ಮೆಕ್ಸಿಕೊ</item>
+        <item>ಟೊಕಿಯೊ, ಜಪಾನ್</item>
+        <item>ಟೊಂಗಾ</item>
+        <item>ಟೊರೊಂಟೊ, ಕೆನಡಾ</item>
+        <item>ಟ್ರಿಪೋಲಿ, ಲಿಬಿಯಾ</item>
+        <item>ಟುನಿಸ್, ಟುನಿಷ್ಯಾ</item>
+        <item>ಟ್ಯೂರಿನ್, ಇಟಲಿ</item>
+        <item>ಯುಫಾ, ರಷ್ಯಾ</item>
+        <item>ಉಲಾನ್‌ಬತಾರ್, ಮಂಗೋಲಿಯಾ</item>
+        <item>ಉರುಮ್ಕಿ, ಚೀನಾ</item>
+        <item>ವಡಝ್, ಲಿಚ್ಟೆನ್ಸ್ಟಿನ್</item>
+        <item>ವೆಲೆಟ್ಟಾ, ಮಾಲ್ಟಾ</item>
+        <item>ವ್ಯಾಂಕೋವರ್, ಕೆನಡಾ</item>
+        <item>ವೆರೋನಾ, ಇಟಲಿ</item>
+        <item>ವಿಕ್ಟೋರಿಯ, ಸೀಶೆಲ್ಸ್</item>
+        <item>ವಿಯೆನ್ನಾ, ಆಸ್ಟ್ರಿಯ</item>
+        <item>ವಿಲ್ನಿಯಸ್, ಲಿಥುವೇನಿಯಾ</item>
+        <item>ವ್ಲಾಡಿವೋಸ್ಟಾಕ್, ರಷ್ಯಾ</item>
+        <item>ವೋಲ್ಗೊಗ್ರಾಡ್, ರಷ್ಯಾ</item>
+        <item>ವಾರ್ಸಾ, ಪೋಲೆಂಡ್</item>
+        <item>ವಾಷಿಂಗ್ಟನ್, ಡಿಸಿ, ಅಮೆರಿಕ</item>
+        <item>ವೈಫಂಗ್, ಚೀನಾ</item>
+        <item>ವೆಲ್ಲಿಂಗ್ಟನ್, ನ್ಯೂಜಿಲ್ಯಾಂಡ್</item>
+        <item>ವಿಂಡ್ಹೋಕ್, ನಮೀಬಿಯ</item>
+        <item>ವಿನ್ನಿಪೆಗ್, ಕೆನಡಾ</item>
+        <item>ವುಹಾನ್, ಚೀನಾ</item>
+        <item>ವುಕ್ಸಿ, ಚೀನಾ</item>
+        <item>ಕ್ಸಿಯಾನ್, ಚೀನಾ</item>
+        <item>ಕ್ಸಿಯಾಂಗ್ ಯಾಂಗ್, ಚೀನಾ</item>
+        <item>ಕ್ಸೈನಿಂಗ್, ಚೀನಾ</item>
+        <item>ಕ್ಸುಜೌ, ಚೀನಾ</item>
+        <item>ಯಾಕುಟ್ಸಕ್, ರಷ್ಯಾ</item>
+        <item>ಯಮೌಸುಕ್ರೊ, ಕೋಟ್ ಡಿ ಐವರಿ</item>
+        <item>ಯಂಗೂನ್, ಮ್ಯಾನ್ಮಾರ್</item>
+        <item>ಯಂತೈ, ಚೀನಾ</item>
+        <item>ಯಾವುಂಡೆ, ಕ್ಯಾಮರೂನ್</item>
+        <item>ಯೆಕಟೇನ್ಬರ್ಗ್, ರಷ್ಯಾ</item>
+        <item>ಯೆರೆವಾನ್, ಅರ್ಮೇನಿಯ</item>
+        <item>ಯಿಚಂಗ್, ಚೀನಾ</item>
+        <item>ಯಿಚುವಾನ್ ಚೀನಾ</item>
+        <item>ಯುಝೊನೊ –ಸಖಾಲೆನ್‌ಸ್ಕ್, ರಷ್ಯಾ</item>
+        <item>ಝಾಗ್ರೆಬ್, ಕ್ರೊಯೇಷಿಯ</item>
+        <item>ಝಾವೋಜುವಾಂಗ್, ಚೀನಾ</item>
+        <item>ಝಾಂಗ್ಜಿಯಾಕಾವು, ಚೀನಾ</item>
+        <item>ಝಾನ್ಜಿಯಾಂಗ್, ಚೀನಾ</item>
+        <item>ಜ್ಹೆಂಗ್ ಝೌ, ಚೀನಾ</item>
+        <item>ಝಿಬೊ, ಚೀನಾ</item>
+        <item>ಜೂರಿಚ್, ಸ್ವಿಜರ್ಲ್ಯಾಂಡ್</item>
+        <item>ದಕ್ಷಿಣ ಜಾರ್ಜಿಯಾ</item>
+        <item>ಬ್ಯಾಂಡರ್ ಸೆರಿ ಬೆಗವಾನ್</item>
+        <item>ವಿಯೆಂಟಿಯಾನ್</item>
+    </string-array>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<node action="android.intent.vivo.VivoTempSecurity" en-rUS="fingerprint" zh-rCN="指纹与密码" zh-rHK="指紋與密碼" zh-rTW="指紋與密碼">
+    <node extra="extra_select lock" en-rUS="Screen lock" zh-rCN="屏幕锁定" zh-rHK="螢幕鎖定" zh-rTW="螢幕鎖定" />
+    <node extra="extra_select add" en-rUS="Add fingerprint" zh-rCN="添加指纹" zh-rHK="添加指紋" zh-rTW="新增指紋" />
+</node>

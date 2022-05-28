@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/general_label" android:key="general_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceScreen android:title="@string/about_settings" android:key="about_settings" android:order="0" android:fragment="com.vivo.settings.VivoDeviceInfoSettings" />
+    <PreferenceScreen android:title="@string/global_search_title" android:key="search" android:order="500">
+        <intent android:action="com.bbk.launcher2.ACTION_SEARCH_SETTINGS" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/sos_call" android:key="sos_call" android:order="551" android:fragment="com.vivo.settings.VivoSosCallFragment" />
+    <PreferenceCategory android:key="divider" android:order="900" />
+    <PreferenceScreen android:title="@string/bluetooth_settings_title" android:key="bt_settings" android:summary="@string/wifi_closed" android:order="1000">
+        <intent android:action="android.settings.BLUETOOTH_SETTINGS" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/nfc_quick_toggle_title" android:key="nfc_settings" android:summary="@string/nfc_closed" android:order="1100">
+        <intent android:action="android.settings.BBK_NFC_SETTINGS_TWO" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/upnp_settings" android:key="upnp_settings" android:summary="@string/nfc_closed" android:order="1200">
+        <intent android:targetPackage="com.vivo.upnpserver" android:action="android.intent.action.MAIN" android:targetClass="com.vivo.upnpserver.UpnpActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/vpn_settings_title" android:key="vpn_settings" android:order="1300">
+        <intent android:action="android.net.vpn.SETTINGS" />
+    </PreferenceScreen>
+    <PreferenceScreen android:persistent="false" android:title="@string/otg_storage_category_title" android:key="otg" android:summary="@string/wifi_closed" android:order="1350" android:fragment="com.vivo.settings.OtgSettingsFragment" />
+    <PreferenceCategory android:order="1400" />
+    <com.vivo.settings.preference.VivoListPreference android:persistent="false" android:entries="@array/screen_timeout_entries" android:title="@string/screen_timeout" android:key="screen_timeout" android:order="1500" android:entryValues="@array/screen_timeout_values" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/flip_to_answer" android:key="holster_to_answer_call" android:order="1600" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/protect_lock" android:key="protect_lock" android:order="1700" />
+    <PreferenceScreen android:title="@string/holster_title" android:key="holster" android:summary="@string/wifi_closed" android:order="1750" android:fragment="com.vivo.settings.HolsterFragment" />
+    <PreferenceScreen android:title="@string/notification_light" android:key="notification_light" android:order="1800" android:fragment="com.vivo.settings.NotificationLight" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/notification_pulse_title" android:key="notification_light_checkbox" android:order="1900" />
+    <com.vivo.settings.preference.VivoListPreference android:entries="@array/key_light_control_mode" android:title="@string/Touch_key_light_duration" android:key="touch_key_light_duration" android:order="2000" android:entryValues="@array/key_light_control_mode_values" />
+    <PreferenceScreen android:title="@string/touch_key" android:key="touch_key" android:order="2030">
+        <intent android:action="android.settings.TOUCH_KEY" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/fast_charge_title" android:key="fast_charge" android:summary="@string/wifi_closed" android:order="2050" android:fragment="com.vivo.settings.FastChargeFragment" />
+    <VivoCheckBoxPreference android:title="@string/flash_light_remind" android:key="flash_light_remind" android:order="2060" />
+    <PreferenceCategory android:title="@string/flash_light_remind_explain" android:key="flash_light_remind_explain" android:order="2070" />
+    <PreferenceScreen android:title="@string/bottom_key_function" android:key="bottom_key_function" android:order="2080">
+        <intent android:targetPackage="com.android.settings" android:targetClass="com.vivo.settings.VivoBottomKeyFunction" />
+    </PreferenceScreen>
+    <PreferenceCategory android:order="2100" />
+    <PreferenceScreen android:title="@string/date_and_time_settings_title" android:order="2200" android:fragment="com.vivo.settings.VivoDateTimeSettingsEx" />
+    <PreferenceScreen android:title="@string/schedule_power_switch" android:key="schedule_power_on" android:order="2500">
+        <intent android:action="com.android.bbk_schpwronoff" />
+    </PreferenceScreen>
+    <PreferenceCategory android:order="2600" />
+    <PreferenceScreen android:title="@string/storage_settings" android:key="storage_settings" android:order="2700">
+        <intent android:action="android.settings.MEMORY_CARD_SETTINGS" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/applications_settings" android:key="applications_settings" android:order="2800">
+        <intent android:action="android.settings.APPLICATION_SETTINGS" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/privacy_settings" android:key="privacy_settings" android:order="3000" android:fragment="com.vivo.settings.VivoPrivacySettingsEx" />
+    <PreferenceCategory />
+    <PreferenceCategory android:order="3100" />
+    <PreferenceScreen android:title="@string/phone_instructions" android:key="phone_instructions" android:order="3200">
+        <intent android:action="com.android.bbk_phoneInstructions" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/app_name_service" android:key="locationquery" android:order="3300">
+        <intent android:targetPackage="com.android.BBKTools" android:action="android.intent.action.MAIN" android:targetClass="com.android.BBKTools.Service.BBKCityList" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/ewarranty" android:key="ewarranty" android:order="3400" />
+    <PreferenceScreen android:title="@string/user_experience" android:key="user_experience" android:summary="@string/nfc_closed" android:order="3500">
+        <intent android:targetPackage="com.bbk.iqoo.logsystem" android:targetClass="com.bbk.iqoo.logsystem.activities.UserFeedBackSetting" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/number_area" android:key="number_area" android:order="3600">
+        <intent android:targetPackage="com.android.BBKTools" android:targetClass="com.android.BBKTools.Service.AttributionUpdateActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/vivo_accessibility_settings" android:key="accessibility_settings" android:order="3700" android:fragment="com.android.settings.accessibility.AccessibilitySettings" />
+</PreferenceScreen>

@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="screen_timeout_entries">
+        <item>15 ସେକେଣ୍ଡ୍</item>
+        <item>30 ସେକେଣ୍ଡ୍</item>
+        <item>1 ମିନିଟ୍</item>
+        <item>2 ମିନିଟ୍</item>
+        <item>5 ମିନିଟ୍</item>
+        <item>10 ମିନିଟ୍</item>
+        <item>30 ମିନିଟ୍</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>ତୁରନ୍ତ</item>
+        <item>5 ସେକେଣ୍ଡ୍</item>
+        <item>15 ସେକେଣ୍ଡ୍</item>
+        <item>30 ସେକେଣ୍ଡ୍</item>
+        <item>1 ମିନିଟ୍</item>
+        <item>2 ମିନିଟ୍</item>
+        <item>5 ମିନିଟ୍</item>
+        <item>10 ମିନିଟ୍</item>
+        <item>30 ମିନିଟ୍</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>ଛୋଟ</item>
+        <item>ସାଧାରଣ</item>
+        <item>ବଡ</item>
+        <item>ଅତିରିକ୍ତ ବୃହତ</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>ଖୁବ୍ ଧୀର</item>
+        <item>ଧିର</item>
+        <item>ସାଧାରଣ</item>
+        <item>ଦ୍ରୁତ</item>
+        <item>ଦ୍ରୁତତର</item>
+        <item>ଅଧିକ ଦ୍ରୁତ</item>
+        <item>ଶୀଘ୍ର</item>
+        <item>ବହୁତ ଶୀଘ୍ର</item>
+        <item>ଦ୍ରୁତତମ</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>ସ୍କାନ୍‍ କରାଯାଛି...</item>
+        <item>ସଂଯୋଗ କରୁଛି...</item>
+        <item>ପ୍ରାମାଣିକିକରଣ କରାଯାଉଛି...</item>
+        <item>IP ଠିକଣା ହାସଲ କରାଯାଉଛି…</item>
+        <item>କନେକ୍ଟ ହୋଇଛି</item>
+        <item>ବିରତ ହୋଇଛି</item>
+        <item>ବିଛିନ୍ନ କରାଯାଉଛି...</item>
+        <item>ବିଚ୍ଛିନ୍ନ ହୋଇଛି</item>
+        <item>ବିଫଳ ହୋଇଛି</item>
+        <item>ଅକ୍ଷମ ହୋଇଛି</item>
+        <item>ସାମୟିକ ଭାବେ ବନ୍ଦ ହୋଇଛି (ଖରାପ ନେଟୱାର୍କ ସଂଯୋଜନା)</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>ସ୍କାନ୍‍ କରାଯାଛି...</item>
+        <item>%1$s କୁ ସଂଯୋଗ କରାଯାଉଛି...</item>
+        <item>%1$s ସହ ପ୍ରାମାଣିକିକରଣ କରାଯାଉଛି...</item>
+        <item>IP ଠିକଣା %1$s ରୁ ହାସଲ କରାଯାଉଛି...</item>
+        <item>%1$s କୁ ସଂଯୋଜିତ</item>
+        <item>ବିରତ ହୋଇଛି</item>
+        <item>%1$s ରୁ ବିଚ୍ଛିନ୍ନ କରାଯାଉଛି...</item>
+        <item>ବିଚ୍ଛିନ୍ନ ହୋଇଛି</item>
+        <item>ବିଫଳ ହୋଇଛି</item>
+        <item>ଅକ୍ଷମ ହୋଇଛି</item>
+        <item>ସାମୟିକ ଭାବେ ବନ୍ଦ ହୋଇଛି (ଖରାପ ନେଟୱାର୍କ ସଂଯୋଜନା)</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>କନେକ୍ଟ ହୋଇଛି</item>
+        <item>ଆମନ୍ତ୍ରିତ</item>
+        <item>ବିଫଳ ହୋଇଛି</item>
+        <item>ଉପଲବ୍ଧ</item>
+        <item>ରେଞ୍ଜ ବାହାରେ</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 ମିନିଟ୍</item>
+        <item>5 ମିନିଟ୍</item>
+        <item>1 ଘଣ୍ଟା</item>
+        <item>କଦାପି ସମୟ ଶେଷ ନୁହେଁ</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>ଦୁର୍ବଳ</item>
+        <item>ସାଧାରଣ</item>
+        <item>ଭଲ</item>
+        <item>ଅତିଉତ୍ତମ</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>ସର୍ବଦା</item>
+        <item>କେବଳ ପ୍ଲଗ୍ ଇନ୍ ହୋଇଥିବା ବେଳେ</item>
+        <item>କେବେ ନୁହଁ</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>ସର୍ବଦା</item>
+        <item>କେବଳ ପ୍ଲଗ୍ ଇନ୍ ହୋଇଥିବା ବେଳେ</item>
+        <item>କେବେ ନୁହଁ</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>ସ୍ଵତଃ</item>
+        <item>5 GHz କେବଳ</item>
+        <item>2.4 GHz କେବଳ</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>ବ୍ୟବହାର ସମୟ</item>
+        <item>ଶେଷ ଥର ବ୍ୟବହୃତ</item>
+        <item>ଆପ୍ ନାମ</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>କିଛିନୁହେଁ</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>କିଛିନୁହେଁ</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>ଷ୍ଟାଟିକ୍</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>କିଛିନୁହେଁ</item>
+        <item>ମାନୁଆଲ୍</item>
+        <item>ପ୍ରୋକ୍ସି ସ୍ଵତଃ-ବିନ୍ୟାସ</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>କିଛିନୁହେଁ</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP କିମ୍ବା CHAP</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>ଅଣନିର୍ଦ୍ଧିଷ୍ଟ ହୋଇଛି</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>କିଛିନୁହେଁ</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>ଇଣ୍ଟର୍ନାଲ୍ ଡିଭାଇସ୍ ଷ୍ଟୋରେଜ୍</item>
+        <item>ବାହାର କରାଯାଇ ପାରିବା SD କାର୍ଡ୍</item>
+        <item>ସିଷ୍ଟମ୍‌କୁ ନିଷ୍ପତ୍ତି ନେବାକୁ ଦିଅନ୍ତୁ</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>ଅବସ୍ଥାନ</item>
+        <item>ବ୍ୟକ୍ତିଗତ</item>
+        <item>SMS</item>
+        <item>ମିଡିଆ</item>
+        <item>ଡିଭାଇସ୍</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>ପାଖାପାଖି ଅବସ୍ଥାନ</item>
+        <item>ସଠିକ୍ ଅବସ୍ଥାନ</item>
+        <item>GPS</item>
+        <item>ଭାଇବ୍ରେଟ୍</item>
+        <item>ସମ୍ପର୍କ ପଠନ କରନ୍ତୁ</item>
+        <item>କଣ୍ଟାକ୍ଟ୍ ରୂପାନ୍ତର କରନ୍ତୁ</item>
+        <item>କଲ୍ ଲଗ୍ ପଠନ କରନ୍ତୁ</item>
+        <item>କଲ୍ ଲଗ୍ ରୂପାନ୍ତର କରନ୍ତୁ</item>
+        <item>କ୍ୟାଲେଣ୍ଡର ପଠନ କରନ୍ତୁ</item>
+        <item>କ୍ୟାଲେଣ୍ଡର ରୂପାନ୍ତର କରନ୍ତୁ</item>
+        <item>wi-fi ସ୍କାନ୍</item>
+        <item>ବିଜ୍ଞପ୍ତି</item>
+        <item>ଫୋନ୍ ନେଟୱାର୍କ ସ୍କାନ୍</item>
+        <item>କଲ୍</item>
+        <item>SMS ପଠନ କରନ୍ତୁ</item>
+        <item>SMS ରଚନା କରନ୍ତୁ</item>
+        <item>SMS ପ୍ରାପ୍ତ କରନ୍ତୁ</item>
+        <item>ଜରୁରୀକାଳୀନ SMS ପ୍ରାପ୍ତ କରନ୍ତୁ</item>
+        <item>MMS ପ୍ରାପ୍ତ କରନ୍ତୁ</item>
+        <item>WAP ପୁଶ୍ ମେସେଜ୍ ପ୍ରାପ୍ତ କରନ୍ତୁ</item>
+        <item>SMS ପଠାନ୍ତୁ</item>
+        <item>ICC SMS ପଠନ କରନ୍ତୁ</item>
+        <item>ICC SMS ଲେଖନ୍ତୁ</item>
+        <item>ସେଟିଂସ୍ ରୂପାନ୍ତର କରନ୍ତୁ</item>
+        <item>ଶୀର୍ଷରେ ଅଙ୍କନ କରନ୍ତୁ</item>
+        <item>ବିଜ୍ଞପ୍ତି ଆକସେସ୍ କରନ୍ତୁ</item>
+        <item>କ୍ୟାମେରା</item>
+        <item>ଅଡିଓ ରେକର୍ଡ</item>
+        <item>ଅଡିଓ ବଜାନ୍ତୁ</item>
+        <item>କ୍ଲିପ୍ ବୋର୍ଡ ବିଷୟବସ୍ତୁ ପଠନ କରନ୍ତୁ</item>
+        <item>କ୍ଲିପ୍ ବୋର୍ଡ ରୂପାନ୍ତର କରନ୍ତୁ</item>
+        <item>ମିଡିଆ ବଟନ୍ସ୍</item>
+        <item>ଅଡିଓ ଫୋକସ୍</item>
+        <item>ମାଷ୍ଟର୍ ଭଲ୍ୟୁମ୍</item>
+        <item>ଭଏସ୍ ଭଲ୍ୟୁମ୍</item>
+        <item>ରିଙ୍ଗର୍ ଭଲ୍ୟୁମ୍</item>
+        <item>ମିଡିଆ ଭଲ୍ୟୁମ୍</item>
+        <item>ଆଲ୍‌ରାମ୍ ଭଲ୍ୟୁମ୍</item>
+        <item>ବିଜ୍ଞପ୍ତି ଭଲ୍ୟୁମ୍</item>
+        <item>ବ୍ଲୁଟୁଥ୍ ଭଲ୍ୟୁମ୍</item>
+        <item>ଜାଗ୍ରତ ରୁହନ୍ତୁ</item>
+        <item>ଅବସ୍ଥାନ ନୀରିକ୍ଷଣ କରନ୍ତୁ</item>
+        <item>ଅବସ୍ଥାନ ସୂଚନା ସେବା ବ୍ୟବହାର କରିବା ପାୱାର୍ ନୀରିକ୍ଷଣ କରନ୍ତୁ</item>
+        <item>ବ୍ୟବହାତ ସ୍ଥିତି ପ୍ରାପ୍ତ କରନ୍ତୁ</item>
+        <item>ମାଇକ୍ରୋଫୋନ୍ ମ୍ୟୁଟ୍/ଅନ୍‌ମ୍ୟୁଟ୍ କରନ୍ତୁ</item>
+        <item>ପ୍ରୋଜେକ୍ଟ ମିଡିଆ</item>
+        <item>VPN ସକ୍ରିୟ କରନ୍ତୁ</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>ଅବସ୍ଥାନ</item>
+        <item>ଅବସ୍ଥାନ</item>
+        <item>ଅବସ୍ଥାନ</item>
+        <item>ଭାଇବ୍ରେଟ୍</item>
+        <item>ସମ୍ପର୍କ ପଠନ କରନ୍ତୁ</item>
+        <item>କଣ୍ଟାକ୍ଟ୍ ରୂପାନ୍ତର କରନ୍ତୁ</item>
+        <item>କଲ୍ ଲଗ୍ ପଠନ କରନ୍ତୁ</item>
+        <item>କଲ୍ ଲଗ୍ ରୂପାନ୍ତର କରନ୍ତୁ</item>
+        <item>କ୍ୟାଲେଣ୍ଡର ପଠନ କରନ୍ତୁ</item>
+        <item>କ୍ୟାଲେଣ୍ଡର ରୂପାନ୍ତର କରନ୍ତୁ</item>
+        <item>ଅବସ୍ଥାନ</item>
+        <item>ବିଜ୍ଞପ୍ତି ପୋଷ୍ଟ କରନ୍ତୁ</item>
+        <item>ଅବସ୍ଥାନ</item>
+        <item>କଲ୍</item>
+        <item>SMS/MMS ମେସେଜ୍ ପଠନ କରନ୍ତୁ</item>
+        <item>SMS/MMS ମେସେଜ୍ ରଚନା କରନ୍ତୁ</item>
+        <item>SMS/MMS ମେସେଜ୍ ପ୍ରାପ୍ତ କରନ୍ତୁ</item>
+        <item>SMS/MMS ମେସେଜ୍ ପ୍ରାପ୍ତ କରନ୍ତୁ</item>
+        <item>SMS/MMS ମେସେଜ୍ ପ୍ରାପ୍ତ କରନ୍ତୁ</item>
+        <item>SMS/MMS ମେସେଜ୍ ପ୍ରାପ୍ତ କରନ୍ତୁ</item>
+        <item>SMS/MMS ମେସେଜ୍ ପଠାନ୍ତୁ</item>
+        <item>SMS/MMS ମେସେଜ୍ ପଠନ କରନ୍ତୁ</item>
+        <item>SMS/MMS ମେସେଜ୍ ରଚନା କରନ୍ତୁ</item>
+        <item>ସେଟିଂସ୍ ରୂପାନ୍ତର କରନ୍ତୁ</item>
+        <item>ଶୀର୍ଷରେ ଅଙ୍କନ କରନ୍ତୁ</item>
+        <item>ବିଜ୍ଞପ୍ତି ଆକସେସ୍ କରନ୍ତୁ</item>
+        <item>କ୍ୟାମେରା</item>
+        <item>ଅଡିଓ ରେକର୍ଡ</item>
+        <item>ଅଡିଓ ବଜାନ୍ତୁ</item>
+        <item>କ୍ଲିପ୍ ବୋର୍ଡ ବିଷୟବସ୍ତୁ ପଠନ କରନ୍ତୁ</item>
+        <item>କ୍ଲିପ୍ ବୋର୍ଡ ରୂପାନ୍ତର କରନ୍ତୁ</item>
+        <item>ମିଡିଆ ବଟନ୍ସ୍</item>
+        <item>ଅଡିଓ ଫୋକସ୍</item>
+        <item>ମାଷ୍ଟର୍ ଭଲ୍ୟୁମ୍</item>
+        <item>ଭଏସ୍ ଭଲ୍ୟୁମ୍</item>
+        <item>ରିଙ୍ଗର୍ ଭଲ୍ୟୁମ୍</item>
+        <item>ମିଡିଆ ଭଲ୍ୟୁମ୍</item>
+        <item>ଆଲ୍‌ରାମ୍ ଭଲ୍ୟୁମ୍</item>
+        <item>ବିଜ୍ଞପ୍ତି ଭଲ୍ୟୁମ୍</item>
+        <item>ବ୍ଲୁଟୁଥ୍ ଭଲ୍ୟୁମ୍</item>
+        <item>ଜାଗ୍ରତ ରୁହନ୍ତୁ</item>
+        <item>ଅବସ୍ଥାନ</item>
+        <item>ଅବସ୍ଥାନ ସୂଚନା</item>
+        <item>ବ୍ୟବହାତ ସ୍ଥିତି ପ୍ରାପ୍ତ କରନ୍ତୁ</item>
+        <item>ମାଇକ୍ରୋଫୋନ୍ ମ୍ୟୁଟ୍/ଅନ୍‌ମ୍ୟୁଟ୍ କରନ୍ତୁ</item>
+        <item>ପ୍ରୋଜେକ୍ଟ ମିଡିଆ</item>
+        <item>VPN ସକ୍ରିୟ କରନ୍ତୁ</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>ଛୋଟ</item>
+        <item>ମଧ୍ୟମ</item>
+        <item>ଦୀର୍ଘ</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>ଡିଫଲ୍ଟ୍</item>
+        <item>Sans-serif</item>
+        <item>Sans-serif condensed</item>
+        <item>Sans-serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>Casual</item>
+        <item>Cursive</item>
+        <item>Small capitals</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>ଅତିରିକ୍ତ ଛୋଟ</item>
+        <item>ଛୋଟ</item>
+        <item>ସାଧାରଣ</item>
+        <item>ବଡ</item>
+        <item>ଅତିରିକ୍ତ ବୃହତ</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>ଡିଫଲ୍ଟ୍</item>
+        <item>କିଛିନୁହେଁ</item>
+        <item>ଆଉଟ୍‌ଲାଇନ୍</item>
+        <item>ଛାୟା</item>
+        <item>ରେଜଡ୍</item>
+        <item>ବିଷାଦ</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>ଆପ୍ ଡିଫଲ୍ଟ ବ୍ୟବହାର କରନ୍ତୁ</item>
+        <item>କଳା ଉପରେ ଧଳା</item>
+        <item>ଧଳା ଉପରେ କଳା</item>
+        <item>କଳା ଉପରେ ହଳଦିଆ</item>
+        <item>ହଳଦିଆ ଉପରେ ନୀଳ</item>
+        <item>କଷ୍ଟମାଇଜ୍</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>64K ପ୍ରତି ଲଗ୍ ବଫର୍</item>
+        <item>256K ପ୍ରତି ଲଗ୍ ବଫର୍</item>
+        <item>1M ପ୍ରତି ଲଗ୍ ବଫର୍</item>
+        <item>4M ପ୍ରତି ଲଗ୍ ବଫର୍</item>
+        <item>16M ପ୍ରତି ଲଗ୍ ବଫର୍</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>କଦାପି ଯାଞ୍ଚ କରନ୍ତୁ ନାହିଁ</item>
+        <item>କେବଳ DRM ବିଷୟବସ୍ତୁ ଯାଞ୍ଚ କରନ୍ତୁ</item>
+        <item>ସର୍ବଦା ଯାଞ୍ଚ କରନ୍ତୁ</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>କଦାପି HDCP ଯାଞ୍ଚ କରିବା ବ୍ୟବହାର କରନ୍ତୁ ନାହିଁ</item>
+        <item>DRM ବିଷୟ ବସ୍ତୁ ପାଇଁ କେବଳ HDCP ଯାଞ୍ଚ କରିବା ବ୍ୟବହାର କରନ୍ତୁ</item>
+        <item>ସର୍ବଦା କେବଳ HDCP ଯାଞ୍ଚ କରିବା ବ୍ୟବହାର କରନ୍ତୁ</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>ଆନିମେସନ୍ ବନ୍ଦ କରନ୍ତୁ</item>
+        <item>ଆନିମେସନ୍ ସ୍କେଲ୍ 0.5x</item>
+        <item>ଆନିମେସନ୍ ସ୍କେଲ୍ 1x</item>
+        <item>ଆନିମେସନ୍ ସ୍କେଲ୍ 1.5x</item>
+        <item>ଆନିମେସନ୍ ସ୍କେଲ୍ 2x</item>
+        <item>ଆନିମେସନ୍ ସ୍କେଲ୍ 5x</item>
+        <item>ଆନିମେସନ୍ ସ୍କେଲ୍ 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>ଆନିମେସନ୍ ବନ୍ଦ କରନ୍ତୁ</item>
+        <item>ଆନିମେସନ୍ ସ୍କେଲ୍ 0.5x</item>
+        <item>ଆନିମେସନ୍ ସ୍କେଲ୍ 1x</item>
+        <item>ଆନିମେସନ୍ ସ୍କେଲ୍ 1.5x</item>
+        <item>ଆନିମେସନ୍ ସ୍କେଲ୍ 2x</item>
+        <item>ଆନିମେସନ୍ ସ୍କେଲ୍ 5x</item>
+        <item>ଆନିମେସନ୍ ସ୍କେଲ୍ 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>ଆନିମେସନ୍ ବନ୍ଦ କରନ୍ତୁ</item>
+        <item>ଆନିମେସନ୍ ସ୍କେଲ୍ 0.5x</item>
+        <item>ଆନିମେସନ୍ ସ୍କେଲ୍ 1x</item>
+        <item>ଆନିମେସନ୍ ସ୍କେଲ୍ 1.5x</item>
+        <item>ଆନିମେସନ୍ ସ୍କେଲ୍ 2x</item>
+        <item>ଆନିମେସନ୍ ସ୍କେଲ୍ 5x</item>
+        <item>ଆନିମେସନ୍ ସ୍କେଲ୍ 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>କିଛିନୁହେଁ</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (ନିରାପଦ)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (ନିରାପଦ)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (ନିରାପଦ)</item>
+        <item>1280x720 tvdpi ଏବଂ 1920x1080 xhdpi</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>କିଛିନୁହେଁ</item>
+        <item>Logcat</item>
+        <item>ସିସ୍‌ଟ୍ରେସ୍ (ଗ୍ରାଫିକ୍ସ)</item>
+        <item>glGetError ରେ ଷ୍ଟାକ୍ କଲ୍</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>ବନ୍ଦ</item>
+        <item>ନୀଳରେ ଅଣ-ଆୟତାକାର କ୍ଲିପ୍ ଅଞ୍ଚଳ ଅଙ୍କନ କରନ୍ତୁ</item>
+        <item>ସବୁଜରେ ହାଏଲାଇଟ୍ ହୋଇଥିବା ଚିତ୍ରାଙ୍କନ କମାଣ୍ଡ ପରୀକ୍ଷା କରନ୍ତୁ</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>ବନ୍ଦ</item>
+        <item>ସ୍କ୍ରିନ୍‌ରେ ବାର୍ ଚାର୍ଟ୍ ପରି ଦେଖାଯାଇଛି</item>
+        <item>adb shell dumpsys gfxinfo ରେ</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>ବନ୍ଦ</item>
+        <item>ଓଭରଡ୍ର ଅଞ୍ଚଳ ଦେଖାନ୍ତୁ</item>
+        <item>ଡିୟୁଟେରାନୋମାଲି ପାଇଁ ଅଞ୍ଚଳ ଦେଖାନ୍ତୁ</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>ମାନାଙ୍କ ସୀମା</item>
+        <item>ବ୍ୟାକ୍‌ଗ୍ରାଉଣ୍ଡ ପ୍ରକ୍ରିୟାକୁ ଅନୁମତି ଦିଅନ୍ତୁ ନାହିଁ</item>
+        <item>ସର୍ବାଧିକ 1 ପ୍ରକ୍ରିୟା</item>
+        <item>ସର୍ବାଧିକ 2 ପ୍ରକ୍ରିୟା</item>
+        <item>ସର୍ବାଧିକ 3 ପ୍ରକ୍ରିୟା</item>
+        <item>ସର୍ବାଧିକ 4 ପ୍ରକ୍ରିୟା</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>ପୂର୍ବରୁ ଅଂଶୀଦାର ହୋଇଥିବା କୀଗୁଡିକ ସହ 2TP/IPSec VPN</item>
+        <item>ସାର୍ଟିଫିକେଟ୍ ସହ 2TP/IPSec VPN</item>
+        <item>ପୂର୍ବରୁ ଅଂଶୀଦାର ହୋଇଥିବା କୀଗୁଡିକ ଏବଂ XAuth ପ୍ରାମାଣିକିକରଣ ସହ IPSec VPN</item>
+        <item>ସାର୍ଟିଫିକେଟ୍ ଏବଂ XAuth ପ୍ରାମାଣିକିକରଣ ସହ IPSec VPN</item>
+        <item>ସାର୍ଟିଫିକେଟ୍ ଏବଂ ହାଇବ୍ରୀଡ୍ ପ୍ରାମାଣିକିକରଣ ସହ IPSec VPN</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>ବିଚ୍ଛିନ୍ନ ହୋଇଛି</item>
+        <item>ଆରମ୍ଭ କରୁଛି...</item>
+        <item>ସଂଯୋଗ କରୁଛି...</item>
+        <item>କନେକ୍ଟ ହୋଇଛି</item>
+        <item>ସମୟ ଶେଷ</item>
+        <item>ବିଫଳ ହୋଇଛି</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>ପଚାରନ୍ତୁ</item>
+        <item>କେବେ ଅନୁମତି କରନ୍ତୁ ନାହିଁ</item>
+        <item>ସର୍ବଦା ଅନୁମତି ଦିଅନ୍ତୁ</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>ସାଧାରଣ</item>
+        <item>ମଧ୍ୟମ</item>
+        <item>ନିମ୍ନ</item>
+        <item>ଜଟିଳ</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>ସାଧାରଣ</item>
+        <item>ମଧ୍ୟମ</item>
+        <item>ନିମ୍ନ</item>
+        <item>ଜଟିଳ</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>ପର୍‌ସିସେଣ୍ଟ</item>
+        <item>ଶୀର୍ଷ କାର୍ଯ୍ୟକଳାପ</item>
+        <item>ପ୍ରମୁଖ (ଫୋରଗ୍ରାଉଣ୍ଡ)</item>
+        <item>ପ୍ରମୁଖ (ବ୍ୟାକ୍‌ଗ୍ରାଉଣ୍ଡ)</item>
+        <item>ବ୍ୟାକ.</item>
+        <item>ଅଧିକ ଓଜନ</item>
+        <item>ସେବା (ଚାଲୁଛି)</item>
+        <item>ସେବା (ପୁନରାରମ୍ଭ ହେଉଛି)</item>
+        <item>ରିସିଭର୍</item>
+        <item>ହୋମ୍ ସ୍କ୍ରିନ୍</item>
+        <item>ଶେଷ କାର୍ଯ୍ୟକଳାପ</item>
+        <item>କ୍ୟାଚ୍ ହୋଇଛି (କାର୍ଯ୍ୟକଳାପ)</item>
+        <item>କ୍ୟାଚ୍ ହୋଇଛି (କାର୍ଯ୍ୟକଳାପ କ୍ଲାଏଣ୍ଟ)</item>
+        <item>କ୍ୟାଚ୍ ହୋଇଛି (ଶୂନ୍ୟ)</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>କେୟନ୍</item>
+        <item>ନୀଳ</item>
+        <item>ଇଣ୍ଡିଗୋ</item>
+        <item>ବାଇଗଣୀ</item>
+        <item>ଗୋଲାପୀ</item>
+        <item>ଲାଲ୍</item>
+    </string-array>
+    <string-array name="ring_or_mtp_change_entries">
+        <item>ରିଙ୍ଗ୍‌ଟୋନସ୍</item>
+        <item>ମିଡିଆ</item>
+    </string-array>
+    <string-array name="app_loc_permission">
+        <item>ଅକ୍ଷମ</item>
+        <item>ଅନୁମତି ଦିଅନ୍ତୁ</item>
+        <item>ପଚାରନ୍ତୁ</item>
+    </string-array>
+    <string-array name="key_light_control_mode">
+        <item>1.5 ସେକେଣ୍ଡ୍</item>
+        <item>6 ସେକେଣ୍ଡ୍</item>
+        <item>ସର୍ବଦା ଅନ୍</item>
+        <item>ସର୍ବଦା ଅଫ୍ କରନ୍ତୁ</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_amoled">
+        <item>15 ସେକେଣ୍ଡ୍</item>
+        <item>30 ସେକେଣ୍ଡ୍</item>
+        <item>1 ମିନିଟ୍</item>
+        <item>2 ମିନିଟ୍</item>
+        <item>5 ମିନିଟ୍</item>
+        <item>10 ମିନିଟ୍</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_mtfp">
+        <item>15 ସେକେଣ୍ଡ୍</item>
+        <item>30 ସେକେଣ୍ଡ୍</item>
+        <item>1 ମିନିଟ୍</item>
+        <item>2 ମିନିଟ୍</item>
+        <item>5 ମିନିଟ୍</item>
+        <item>10 ମିନିଟ୍</item>
+        <item>30 ମିନିଟ୍</item>
+        <item>କେବେ ନୁହଁ</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>ଆପଣଙ୍କ ପିତାଙ୍କ ନାମ କଣ?</item>
+        <item>ଆପଣଙ୍କ ମାତାଙ୍କ ନାମ କଣ?</item>
+        <item>ଆପଣଙ୍କ ସ୍ତ୍ରୀଙ୍କ ନାମ କଣ?</item>
+        <item>ଆପଣ କେଉଁ ଏଲିମେଣ୍ଟାରି ସ୍କୁଲ୍‌କୁ ଯାଇଛନ୍ତି?</item>
+        <item>ଆପଣଙ୍କ କିଣ୍ଡରଗାଡେନ୍‌ ଶିକ୍ଷକଙ୍କର ନାମ କଣ ଥିଲା?</item>
+        <item>ଆପଣଙ୍କ ଉଚ୍ଚ ବିଦ୍ୟାଳୟର ଶିକ୍ଷକଙ୍କ ନାମ କଣ ଥିଲା?</item>
+        <item>ଆପଣଙ୍କ ପିଲାଦିନର ପ୍ରିୟ ବନ୍ଧୁଙ୍କ ନାମ କଣ ଥିଲା?</item>
+        <item>ଆପଣଙ୍କ ଜନ୍ମର ସ୍ଥାନ କେଉଁଠି?</item>
+        <item>ଆପଣଙ୍କର ଛାତ୍ର (କର୍ମଚାରୀ) ଚିହ୍ନଟକରଣ ନମ୍ବର କେତେ?</item>
+        <item>ଆପଣଙ୍କ ପରିଚୟକରଣ କାର୍ଡ୍ ନମ୍ଵର୍ ଶେଷ 6 ଅଙ୍କଗୁଡିକ କଣ?</item>
+        <item>ଆପଣଙ୍କ କାର୍‌ର ଲାଇସେନ୍ସ ପ୍ଲେଟ୍‌ ନମ୍ଵର୍ କଣ?</item>
+        <item>ଆପଣ କାର୍ଯ୍ୟ କରିଥିବା ପ୍ରଥମ କମ୍ପାନୀର ନାମ କଣ?</item>
+        <item>ସ୍ଵନିର୍ଦ୍ଧାରିତ ପ୍ରଶ୍ନ</item>
+    </string-array>
+    <string-array name="area_entrys">
+        <item>ଥାଇଲ୍ୟାଣ୍ଡ</item>
+        <item>ମାଲେସିଆ</item>
+        <item>ଇଣ୍ଡୋନେସିଆ</item>
+        <item>ଭାରତ</item>
+        <item>ମାୟନମାର୍</item>
+        <item>ଫିଲିପାଇନ୍ସ</item>
+        <item>ଭିତନାମା</item>
+        <item>ବ୍ରୁନେଇ</item>
+        <item>କମ୍ବୋଡିଆ</item>
+        <item>ଲାଓସ୍</item>
+        <item>ସିଙ୍ଗାପୁର</item>
+        <item>ବଙ୍ଗଳାଦେଶ</item>
+        <item>ନେପାଳ</item>
+        <item>ପାକିସ୍ତାନ</item>
+        <item>ଶ୍ରୀଲଙ୍କା</item>
+    </string-array>
+    <string-array name="vivo_rom_25problem_ask_lables">
+        <item>ଆପଣ କେଉଁ ଏଲିମେଣ୍ଟାରି ସ୍କୁଲ୍‌କୁ ଯାଇଛନ୍ତି?</item>
+        <item>ଆପଣଙ୍କ ପିତାଙ୍କ ନାମ କଣ?</item>
+        <item>ଆପଣଙ୍କ ମାତାଙ୍କ ନାମ କଣ?</item>
+        <item>ଆପଣଙ୍କ ସ୍ତ୍ରୀଙ୍କ ନାମ କଣ?</item>
+        <item>ଆପଣଙ୍କ ଜନ୍ମର ସ୍ଥାନ କେଉଁଠି?</item>
+        <item>ଆପଣଙ୍କ ଡାକ ନାମ କଣ?</item>
+        <item>ଆପଣଙ୍କ ହାଇ ସ୍କୁଲ୍ ଶ୍ରେଣୀ ଶିକ୍ଷକ?</item>
+        <item>ଆପଣଙ୍କର ସର୍ବୋତ୍ତମ ବାଲ୍ୟ ବନ୍ଧୁ?</item>
+        <item>ଆପଣଙ୍କର ଛାତ୍ର (କର୍ମଚାରୀ) ଚିହ୍ନଟକରଣ ନମ୍ବର କେତେ?</item>
+        <item>ଆପଣଙ୍କ ID ନମ୍ୱର୍‌ ଶେଷ 6 ଅଙ୍କଗୁଡିକ କଣ?</item>
+        <item>ଆପଣଙ୍କ କାର୍‌ର ଲାଇସେନ୍ସ ପ୍ଲେଟ୍‌ ନମ୍ଵର୍ କଣ?</item>
+        <item>ଆପଣ କାର୍ଯ୍ୟ କରିଥିବା ପ୍ରଥମ କମ୍ପାନୀର ନାମ କଣ?</item>
+        <item>ସ୍ଵନିର୍ଦ୍ଧାରିତ ପ୍ରଶ୍ନ</item>
+    </string-array>
+    <string-array name="timezones_cities_array">
+        <item>ଆବିଡଜାନ୍, କୋଟେ ଡ୍ଲଭୋରେ</item>
+        <item>ଆବୁ ଧାବି, U.A.E</item>
+        <item>ଆକ୍ରା, ଘାନା</item>
+        <item>ଆଡିସ୍ ଆବବା, ଏଥିଓପିଆ</item>
+        <item>ଆଡିଲେଡ୍, ଅଷ୍ଟ୍ରେଲିଆ</item>
+        <item>ଆଲସ୍କା, U.S.A</item>
+        <item>ଆଲିଜେରିସ୍, ଆଲିଜେରିଆ</item>
+        <item>ଅଲମାଟି,କାଜାଖସ୍ଥାନ</item>
+        <item>ଆମବୋନ୍‌,ଇଣ୍ଡୋନେସିଆ</item>
+        <item>ଆମାନ, ଜୋର୍ଡାନ୍</item>
+        <item>ଆମଷ୍ଟରଡାମ୍, ନେଦରଲ୍ୟାଣ୍ଡ୍</item>
+        <item>ଆନାଡାୟାର,ରୁଷିଆ</item>
+        <item>ଆଞ୍ଚୋରାଜେ, USA</item>
+        <item>ଅଙ୍କାରା, ତୁର୍କୀ</item>
+        <item>ଆସୋନ୍ସ, ଚୀନ୍</item>
+        <item>ଆଣ୍ଟେନାନାରଭିଓ, ମାଡାଗାସ୍କର</item>
+        <item>ଆଶାଖାବାଦ,ତୁର୍କମେନିସ୍ଥାନ</item>
+        <item>ଆସମାରା, ଇରିଟିରା</item>
+        <item>ଆସ୍ଥାନା, କାଜାଖସ୍ଥାନ</item>
+        <item>ଆସୁନସିଓନ୍, ପାରାଗୁଇରୀ</item>
+        <item>ଏଥେନସ୍, ଗ୍ରୀସ୍</item>
+        <item>ଆଟାଲାଣ୍ଟା, U.S.A</item>
+        <item>ଅକଲ୍ୟାଣ୍ଡ୍ , ନ୍ୟୁଜିଲ୍ୟାଣ୍ଡ</item>
+        <item>ଅଷ୍ଟିନ୍, U.S.A</item>
+        <item>ଆଜୋରେସ୍, ପର୍ତୁଗାଲ</item>
+        <item>ବାଗଦାଦ୍, ଇରାକ୍</item>
+        <item>ବାକୁ,ଆଜେରବାଇଜାନ୍</item>
+        <item>ବାଲ୍ଟିମୋରେ, U.S.A</item>
+        <item>ବାମାକୋ, ମଲି</item>
+        <item>ବାଙ୍ଗାଲୁର୍‌, ଭାରତ</item>
+        <item>ବ୍ୟାଂକକ୍‍,ଥାଇଲ୍ୟାଣ୍ଡ</item>
+        <item>ବାନଗୁଇ, କେନ୍ଦ୍ରୀୟ ଆଫ୍ରିକୀୟ ରିପବ୍ଲିକ୍</item>
+        <item>ବୋର୍ଡିଂ, ଚୀନ୍</item>
+        <item>ବାଉଟୋନ୍, ଚୀନ୍</item>
+        <item>ବାର୍ସିଲୋନା, ସ୍ପେନ୍‌</item>
+        <item>ବାରି, ଇଟାଲୀ</item>
+        <item>ବେସେସ୍‌-ଟେରେନ୍‌, ଗୁଆଡେଲଉପ୍</item>
+        <item>ବେଜିଂ, ଚୀନ</item>
+        <item>ବେୟୁରୁଟ୍, ଲେବାନନ</item>
+        <item>ବେଲଗ୍ରେଡ୍, ସର୍ବିଆ</item>
+        <item>ବେଲିଜ୍ ସହର, ବେଲିଜ୍</item>
+        <item>ବେନକ୍ସି, ଚୀନ</item>
+        <item>ବର୍ଲିନ୍, ଜର୍ମାନୀ</item>
+        <item>ବେରେନ, ସ୍ଵିଜରଲ୍ୟାଣ୍ଡ୍</item>
+        <item>ବିଶକେକ୍‌,କିରିଗିଜସ୍ଥାନ</item>
+        <item>ବାଇସୁ, ଗିନୀ ବିସାଉ</item>
+        <item>ବେଗୋଟ୍, କୋଲମ୍ୱିଆ</item>
+        <item>ବୋଲୋଗ୍ନା, ଇଟାଲୀ</item>
+        <item>ବୋଷ୍ଟନ୍, U.S.A</item>
+        <item>ବ୍ରାସିଲିଆ, ବ୍ରାଜିଲ୍‌</item>
+        <item>ବ୍ରାଟିସାଲଭା, ସ୍ଲୋଭାକିଆ</item>
+        <item>ବ୍ରାଜାଭିଲ୍ଲେ, କଙ୍ଗୋ</item>
+        <item>ବ୍ରିଜଗୋଟାଉନ୍ ବାରର୍ବଡୋସ୍</item>
+        <item>ବ୍ରିସବେନ୍, ଅଷ୍ଟ୍ରେଲିଆ</item>
+        <item>ବ୍ରୁସେଲ୍‍ସ, ବେଲଜିୟମ୍</item>
+        <item>ବୁଚରେଷ୍ଟ, ରୋମାନିଆ</item>
+        <item>ବୁଡାପେଷ୍ଟ, ହଙ୍ଗେରୀ</item>
+        <item>ବୁଏନସ ଏୟାର୍ସ, ଆର୍ଜେଣ୍ଟିନା</item>
+        <item>କାଇରୋ, ଇଜିପ୍ଟ</item>
+        <item>କାଲ୍‍ଗାରୀ, କାନାଡା</item>
+        <item>କାନାରୀ ଆଇଲ୍ୟାଣ୍ଡ, ସ୍ପେନ୍‌</item>
+        <item>କାନବେରା, ଅଷ୍ଟ୍ରେଲିଆ</item>
+        <item>କେପ୍ ଟାଉନ, ଦକ୍ଷିଣ ଆଫ୍ରିକା</item>
+        <item>କାରାକାସ୍ , ଭେନେଜୁଏଲା</item>
+        <item>କାର୍ଡିଫ, ୱେଲ୍‍ସ</item>
+        <item>କାସାବ୍ଲାଙ୍କା, ମୋରୋକୋ</item>
+        <item>କ୍ୟାଣ୍ଟଜୋରୋ, ଇଟାଲୀ</item>
+        <item>ସାଇନି, ଫ୍ରେଞ୍ଚ୍ ଗୁଆନା</item>
+        <item>ଚାଂଚୁନ, ଚୀନ</item>
+        <item>ଚାଙ୍ଗଶ, ଚୀନ୍</item>
+        <item>ଚେହେନଜୁ, ଚୀନ</item>
+        <item>ଚାରଲୋଟି, U.S.A</item>
+        <item>ଚାର୍ଲୋଟ୍ ଆମୋଲି, ୟୁ.ଏସ. ଭର୍ଜିନ୍‍ ଆଇଲ୍ୟାଣ୍ଡ୍ସ</item>
+        <item>ଚିଲୟାବିନସ୍କ, ରୁଷିଆ</item>
+        <item>ଚେଂଡୁ,ଚୀନ</item>
+        <item>ଚେନ୍ନାଇ, ଭାରତ</item>
+        <item>ଚିକାଗୋ, USA</item>
+        <item>ଚିହୁଆହୁଆ, ମେକ୍ସିକୋ</item>
+        <item>ଚିସିନାଉ, ମୋଲଡୋଭା</item>
+        <item>ଚିତା, ରୁଷିଆ</item>
+        <item>ଚିଂକିଂ,ଚୀନ</item>
+        <item>କ୍ଲେଭିଲ୍ୟାଣ୍ଡ, U.S.A</item>
+        <item>କଲମ୍ୱୋ, ଶ୍ରୀଲଙ୍କା</item>
+        <item>କଲୋମ୍ଵସ୍, U.S.A</item>
+        <item>କୋନାକ୍ରେ, ଗୁଏନିଆ</item>
+        <item>କୋପେନହେଗେନ୍, ଡେନମାର୍କ</item>
+        <item>କର୍କ, ଆୟରଲ୍ୟାଣ୍ଡ</item>
+        <item>କ୍ରୋଟୋନେ, ଇଟାଲୀ</item>
+        <item>ଡାକାର୍, ସିନେଗଲ୍‌</item>
+        <item>ଡାଇଲନ୍‌,ଚୀନ</item>
+        <item>ଡାଲାସ୍, U.S.A</item>
+        <item>ଡାମାସକୁସ୍, ସାରିଆ</item>
+        <item>ଡାୟୁଇଁ ଚୀନ୍</item>
+        <item>ଡାର୍ ଏସ୍ ସାଲାମ୍, ତାଞ୍ଜାନିଆ</item>
+        <item>ଡାରୱିନ୍ , ଅଷ୍ଟ୍ରେଲିଆ</item>
+        <item>ଡେଟଙ୍ଗ୍, ଚୀନ୍</item>
+        <item>ଢେନ୍ପସର୍, ଇଣ୍ଡୋନେସିଆ</item>
+        <item>ଡେନଭର୍‌, USA</item>
+        <item>ଡେଟ୍ରୋଇଟ୍, U.S.A</item>
+        <item>ଢାକା,ବାଙ୍ଗଲାଦେଶ</item>
+        <item>ଡିଆଗୋ ଗାରସି, U.K</item>
+        <item>ଡଜିବୌଟି</item>
+        <item>ଦୋହା,ୱାତର୍‌</item>
+        <item>ଡୋଉଲା, କାମେରୁନ୍</item>
+        <item>ଦୁବାଇ</item>
+        <item>ଡବଲିନ୍‌, ଆୟରଲ୍ୟାଣ୍ଡ</item>
+        <item>ଦୁଶାନ୍ୱୋ, ତାଜିକିସ୍ଥାନ</item>
+        <item>ଇଷ୍ଟର୍‍ ଆଇଲ୍ୟାଣ୍ଡ୍, ଚିଲି</item>
+        <item>ଏଡିନ୍‍ବର୍ଗ, ସ୍କଟ୍‌ଲ୍ୟାଣ୍ଡ୍</item>
+        <item>ଇଡମୋନଟୋନ୍‌, କାନାଡା</item>
+        <item>ଇଆଇ ପାସୋ, U.S.A</item>
+        <item>ଫର୍ଣ୍ଣାଣ୍ଡୋ ଡି ନୋରନାହ, ବ୍ରାଜିଲ୍‍</item>
+        <item>ଫ୍ଲୋରେନ୍ସ, ଇଟାଲୀ</item>
+        <item>ଫୋର୍ଟ୍‌-ଡେ -ଫ୍ରାନ୍ସ, ମାର୍ଟିନିକ୍‍</item>
+        <item>ଫ୍ରାଙ୍କଫ୍ରୁଟ୍, ଜର୍ମାନୀ</item>
+        <item>ଫ୍ରିଟାଉନ, ସାରି ଲିଓନୀ</item>
+        <item>ଫୁଶୁନ୍, ଚୀନ୍</item>
+        <item>ଫୁକ୍ସିନ୍, ଚୀନ୍</item>
+        <item>ଫୁଝୋ, ଚୀନ</item>
+        <item>ଗାବୋରୋନେ, ବୋଟସ୍ୱୱାରନ</item>
+        <item>ଗାଲାପାଗୋସ୍ ଆଇଲ୍ୟାଣ୍ଡସ୍‍, ଇକ୍ଵେଡର୍‍</item>
+        <item>ଜେନିଭା, ସ୍ଵିଜରଲ୍ୟାଣ୍ଡ୍</item>
+        <item>ଜିନୋଆ, ଇଟାଲୀ</item>
+        <item>ଜର୍ଜ ଟାଉନ୍‍ , ଗୁଆନା</item>
+        <item>ଗ୍ରୀନ୍‌ଲ୍ୟାଣ୍ଡ</item>
+        <item>ଗ୍ରାଟିଭିକେନ୍‌, ସାଉଥ ଜର୍ଜିଆ</item>
+        <item>ଗୁଆମ୍</item>
+        <item>ଗୁଆଂଝୌ, ଚୀନ</item>
+        <item>ଗୁଆଟେମାଲା</item>
+        <item>ଗୁଆଟେମାଲା ସିଟି, ଗୁଆଟେମାଲା</item>
+        <item>ଗୁୟାଂ, ଚୀନ</item>
+        <item>ଗୁଷ୍ଟାବିଅ, ସେଣ୍ଟ ବାର୍ଥିଲମ୍ୱୋ</item>
+        <item>ହାଇକୌ, ଚୀନ</item>
+        <item>ହାଲିଫାକ୍ସ, କାନାଡା</item>
+        <item>ହାମବର୍ଗ, ଜର୍ମାନୀ</item>
+        <item>ହ୍ୟାଣ୍ଡଡ୍ୟାନ୍‌, ଚୀନ</item>
+        <item>ହାଂଝୌ, ଚୀନ</item>
+        <item>ହାନୋଇ,ଭିଏତନାମ</item>
+        <item>ହରାରେ, ଜିମ୍ଵାୱେ</item>
+        <item>ହାରବିନ, ଚୀନ</item>
+        <item>ହାଭାନା, କ୍ୟୁବା</item>
+        <item>ହାୱାଇ, USA</item>
+        <item>ହେଫେଇ, ଚୀନ</item>
+        <item>ହେଲ୍‍ସିଙ୍କି, ଫିନଲ୍ୟାଣ୍ଡ</item>
+        <item>ହୋ ଚି ମିନହ୍ ସହର,ଭିଏତନାମ</item>
+        <item>ହୋବାର୍ଟ୍, ଅଷ୍ଟ୍ରେଲିଆ</item>
+        <item>ହୋହୋଟ୍‍ , ଚୀନ</item>
+        <item>ହଂ କଂ, ଚୀନ</item>
+        <item>ହୋନଲୁଲୁ, U.S.A</item>
+        <item>ହୌସ୍ତୋନ୍, U.S.A</item>
+        <item>ହୋଭଡ୍, ମଙ୍ଗୋଲିଆ</item>
+        <item>ହୁୟାନ, ଚୀନ</item>
+        <item>ହୁୟାଇନ୍‌, ଚୀନ</item>
+        <item>ହାଇଦ୍ରାବାଦ, ଭାରତ</item>
+        <item>ଇଣ୍ଡିଆନାପଲିସ୍, U.S.A</item>
+        <item>ଇରକୁଟସ୍କ, ରୁଷିଆ</item>
+        <item>ଇସଲମାବାଦ୍, ପାକିସ୍ଥାନ</item>
+        <item>ଇସ୍ତନାବୁଲ୍, ତୁର୍କୀ</item>
+        <item>ଇଜୁଭେସ୍କ, ରୁଷିଆ</item>
+        <item>ଜାକର୍ତ୍ତା,ଇଣ୍ଡୋନେସିଆ</item>
+        <item>ଜିଦାସ, ସାଉଦି ଆରବିଆ</item>
+        <item>ଜେରୁସୋଲାମ୍, ଇସ୍ରାଇଲ୍</item>
+        <item>ଜିଲିନ୍‌ ସିଟି, ଚୀନ</item>
+        <item>ଜିନାନ, ଚୀନ</item>
+        <item>ଜିନଝୌ, ଚୀନ</item>
+        <item>ଜିକ୍ସି, ଚୀନ</item>
+        <item>ଜୋହନସବର୍ଗ, ଦକ୍ଷିଣ ଆଫ୍ରିକା</item>
+        <item>କାବୁଲ୍‌,ଆଫଗାନିସ୍ତାନ</item>
+        <item>କଲିନିନ୍‍ଗ୍ରାଡ୍ , ରୁଷିଆ</item>
+        <item>କାମଚଟକା, ରୁଷିଆ</item>
+        <item>କାମ୍ପାଲା, ୟୁଗାଣ୍ଡା</item>
+        <item>କରାଚି, ପାକିସ୍ଥାନ</item>
+        <item>କାଠମାଣ୍ଡୁ, ନେପାଲ</item>
+        <item>ଖବାରୋଭସ୍କ, ରୁଷିଆ</item>
+        <item>ଖାରକିଭ୍‌, ୟୁକ୍ରେନ୍‌</item>
+        <item>ଖାରଟୋଉମ୍, ସୁଦାନ୍</item>
+        <item>କିଂଷ୍ଟନ୍, କାନାଡା</item>
+        <item>କିନଶାସ୍, କଙ୍ଗୋ ଡେମୋକ୍ରେଟିକ୍ ରିପବ୍ଲିକ</item>
+        <item>କିରିତିମାତି, କିରିବାଟି</item>
+        <item>କଲିକତା, ଭାରତ</item>
+        <item>କର୍ସୋନୋୟାରସ୍କ, ରୁଷିଆ</item>
+        <item>କୁଲ୍ଲା ଲୁମପୁର୍, ମାଲେସିୟା</item>
+        <item>କୁନମିଂ, ଚୀନ</item>
+        <item>କୁୱେତ୍ ସିଟି, କୁୱେତ୍</item>
+        <item>କ୍ଵିଭ, ୟୁକ୍ରେନ୍‌</item>
+        <item>ଲା ପାଜ୍‌, ବଲିଭିଆ</item>
+        <item>ଲଗୋସ୍, ନାଇଜରିଆ</item>
+        <item>ଲାହୋର୍‌, ପାକିସ୍ଥାନ</item>
+        <item>ଲ୍ୟାନଝୌ, ଚୀନ</item>
+        <item>ଲାସ୍ ଭେଗାସ୍, U.S.A</item>
+        <item>ଲିମା, ପେରୁ</item>
+        <item>ଲିଜବନ୍, ପର୍ତ୍ତୁଗାଲ୍</item>
+        <item>ଲିଉଝୌ, ଚୀନ</item>
+        <item>ଲଜୁବକାନା, ସ୍ଲୋଭାନିଆ</item>
+        <item>ଲଣ୍ଡନ, ଇଂଲଣ୍ଡ</item>
+        <item>ଲସ୍‍ ଆନଜେଲସ୍, U.S.A</item>
+        <item>ଲୌସିଭିଲ୍ଲେ, U.S.A</item>
+        <item>ଲୁଆଣ୍ଡା, ଆନଗୋଲା</item>
+        <item>ଲୁବୁମବାଶି ରିପବ୍ଲିକ ଡେମୋକ୍ରେଟିକ୍ କଙ୍ଗୋ</item>
+        <item>ଲୁଓୟାଂ, ଚୀନ</item>
+        <item>ଲୁସାକା, ଜାମ୍ବିଆ</item>
+        <item>ଲକ୍ସେମବର୍ଗ୍</item>
+        <item>ଲିଭିଭ୍‍, ୟୁକ୍ରେନ୍‌</item>
+        <item>ମାକାଉ, ଚୀନ୍</item>
+        <item>ମାଦ୍ରିଦ୍‍ , ସ୍ପେନ୍‌</item>
+        <item>ମାଗାଦାନ, ରୁଷିଆ</item>
+        <item>ମାଜୁରୋ, ମାର୍ସଲ୍ ଦ୍ଵୀପପୁଞ୍ଜ</item>
+        <item>ମାଲାବୋ, ଇକ୍ୟୂଟୋରିଆଲ ଗିନି</item>
+        <item>ମାଲେ, ମାଲଦ୍ୱୀପ</item>
+        <item>ମାନାଗୁଆ, ନିକାରାଗୁଆ</item>
+        <item>ମାନାମା,ବାହାରିନ୍</item>
+        <item>ମାନାଅସ୍, ବ୍ରାଜିଲ୍‌</item>
+        <item>ମାନିଲା, ଫିଲିପିନ୍ସ</item>
+        <item>ମାପୁଟୋ, ମୋଜାମ୍ବିକ୍ଵି</item>
+        <item>ମାରିଗଟ୍‌, ସେଣ୍ଟ୍ ମାର୍ଟିନ୍‍</item>
+        <item>ମାଇତୋ, ଫ୍ରାନ୍ସ</item>
+        <item>ମାଜାଟଲାନ୍, ମେକ୍ସିକୋ</item>
+        <item>ମକ୍କା, ସାଉଦି ଆରବିଆ</item>
+        <item>ମେଲ୍‌ବର୍ଣ୍ଣ୍, ଅଷ୍ଟ୍ରେଲିଆ</item>
+        <item>ମେମଫିସ୍, U.S.A</item>
+        <item>ମେସିନା, ଇଟାଲୀ</item>
+        <item>ମେକ୍ସିକୋ ସହର, ମେକ୍ସିକୋ</item>
+        <item>ମିଆମି, U.S.A</item>
+        <item>ମଧ୍ୟ-ଆଟଲାଣ୍ଟିକ୍</item>
+        <item>ମିଡୱେ ଆଇଲ୍ୟାଣ୍ଡ୍, USA</item>
+        <item>ମିଲାନ୍, ଇଟାଲୀ</item>
+        <item>ମିଲୱାଉକି, U.S.A</item>
+        <item>ମିନ୍ନେପୋଲିସ୍, U.S.A</item>
+        <item>ମିନ୍‍ସ୍କ, ବେଲରୁସ୍</item>
+        <item>ମୋଗାଡିଶୁ, ସୋମାଲିଆ</item>
+        <item>ମୋନୋରୋଭିଆ, ଲିବେରିଆ</item>
+        <item>ମୋନଟେଭିଡିଓ, ଉରଗେରୀ</item>
+        <item>ମୋନଟେରଲ୍‌, କାନାଡା</item>
+        <item>ମସ୍କୋ, ରୁଷିଆ</item>
+        <item>ମୁଦାନଜିୟାଂ, ଚୀନ</item>
+        <item>ମୁମ୍ୱାଇ, ଭାରତ</item>
+        <item>ମ୍ୟୁନିକ୍‍ , ଜର୍ମାନୀ</item>
+        <item>ମୁସକାଟ, ଓମାନ୍</item>
+        <item>ନାଇରୋବି, କେନିଆ</item>
+        <item>ନାନ୍‍ଚାଂ, ଚୀନ</item>
+        <item>ନାନଜିଂ, ଚୀନ</item>
+        <item>ନାନିଂ, ଚୀନ</item>
+        <item>ନେପଲସ୍‌, ଇଟାଲୀ</item>
+        <item>ନେଟରେସ୍‌, ସ୍ଵିଜରଲ୍ୟାଣ୍ଡ୍</item>
+        <item>"ନ'ଡିଜମୋନନ୍, ଚାର୍ଡ୍"</item>
+        <item>ନ୍ୟୁ ଦିଲ୍ଲୀ, ଭାରତ</item>
+        <item>ନୂତନ ୱରଲେନ୍ସ୍‌, U.S.A</item>
+        <item>ନ୍ୟୁ ୟୋର୍କ, U.S.A</item>
+        <item>ନିୟୁଫାଉଣ୍ଡଲ୍ୟାଣ୍ଡ୍, କାନାଡା</item>
+        <item>ନିଆମେ, ନିଗରେ</item>
+        <item>ନିଙ୍ଗବୋ, ଚୀନ</item>
+        <item>ନୁଆକୋଛୋଟ୍‌, ମାରୁତିଆନା</item>
+        <item>ନୌମିଆ, ନ୍ୟୁ କ୍ୟାଲେଡୋନିଆ</item>
+        <item>ନୋଭୋସିବିର୍ସ୍କନେଟ୍ସ୍, ରୁଷିଆ</item>
+        <item>ନୋଭୋସିବିର୍ସ୍କ, ରୁଷିଆ</item>
+        <item>ନୁକୁଆଲୋଫା, ଟୋଙ୍ଗା</item>
+        <item>ନୁକ୍‌, ଗ୍ରୀନଲ୍ୟାଣ୍ଡ</item>
+        <item>ଓମାସ୍କ ରୁଷିଆ</item>
+        <item>ଅରାଲ୍, କାଜାକସ୍ତାନ୍</item>
+        <item>ଓସାକ,ଜାପାନ</item>
+        <item>ଓସ୍ଲୋ, ନରୱେ</item>
+        <item>ଆଔଟ୍, କାନାଡା</item>
+        <item>ଉଅଗଡୋଉଗୋଉ, ବୁର୍କିନ, ଫସୋ</item>
+        <item>ପାଗୋ ପାଗୋ, ଆମେରିକୀୟ ସାମୋଆ</item>
+        <item>ପାଲେର୍ମୋ, ଇଟାଲୀ</item>
+        <item>ପାନାମା ସିଟ୍, ପାନାମା</item>
+        <item>ପାରାମାରିବୋ, ସୁରିନାମେ</item>
+        <item>ପ୍ୟାରିସ୍‍ , ଫ୍ରାନ୍ସ</item>
+        <item>ପେରମ୍‌, ରୁଷିଆ</item>
+        <item>ପେର୍ଥ, ଅଷ୍ଟ୍ରେଲିଆ</item>
+        <item>ପେଟ୍ରୋପବ୍ଲୋଲସ୍କ-କାମଚାଟସ୍କାଇ, ରୁଷିଆ</item>
+        <item>ଫିଲାଡୋଲଫିଆ, U.S.A</item>
+        <item>ଫନୋମ୍ ପେନହ, କାମବୋଡିଆ</item>
+        <item>ଫୋନିକ୍ସ୍, U.S.A</item>
+        <item>ପିଂଡିଂସାନ୍‍ , ଚୀନ</item>
+        <item>ପୋଡଗୋରିକା, ମୋଣ୍ଟେନେଗ୍ରୋ</item>
+        <item>ପୋଣ୍ଟା ଡେଲଗାଡା, ପର୍ତୁଗାଲ</item>
+        <item>ପୋର୍ଟ୍‌ ଲୁଇସ୍‍ , ମରିସସ୍</item>
+        <item>ପୋର୍ଟ-ଆଉ-ପ୍ରିନ୍ସ</item>
+        <item>ପୋର୍ଟଲ୍ୟାଣ୍ଡ, U.S.A</item>
+        <item>ପ୍ୟାରିସ୍‍ , ଫ୍ରାନ୍ସ</item>
+        <item>ପ୍ରାୟା, କେପ୍ ଭର୍ଡେ</item>
+        <item>ପୟୋଙ୍ଗୟାଙ୍ଗ, କୋରୋଆ ଗଣତାନ୍ତ୍ରିକ ଗଣପ୍ରଜାତନ୍ତ୍ରୀ</item>
+        <item>କ୍ଵିଂଡାଓ, ଚୀନ</item>
+        <item>କ୍ଵିକ୍ଵିହର୍‍ , ଚୀନ</item>
+        <item>କୁଇଟୋ, ଇକୁଏଡର୍‌</item>
+        <item>ରବାତ୍‌, ମୋରୋକୋ</item>
+        <item>ରେଫି, ବ୍ରାଜିଲ୍</item>
+        <item>ରେଜିନା, କାନାଡା</item>
+        <item>ରେୟକଜାଭିକ୍, ଆଇଲ୍ୟାଣ୍ଡ</item>
+        <item>ରିଗା, ଲାଟଭିଆ</item>
+        <item>ରାଇଓ ଡି ଜେନେରିଓ</item>
+        <item>ରିଭାଦ, ସାଉଦି ଆରବିଆ</item>
+        <item>ରୋମ୍, ଇଟାଲୀ</item>
+        <item>ସାୟୋ ପାଉଲ୍, ବ୍ରାଜିଲ୍</item>
+        <item>ସେଣ୍ଟ-ଡେନିସ୍‌, ରିୟୁନିଅନ୍‍ ଆଇଲ୍ୟାଣ୍ଡ୍</item>
+        <item>ସଲ୍ଟ ଲେକ୍ ସିଟି, U.S.A</item>
+        <item>ସାମେରା, ରୁଷିଆ</item>
+        <item>ସାନ୍ ଆଣ୍ଟୋନିଓ, U.S.A</item>
+        <item>ସନ୍‍ ଡିଏଗୋ, U.S.A</item>
+        <item>ସ୍ୟାନ୍‌ ଫ୍ୟାନ୍‌ସିସକୋ, U.S.A</item>
+        <item>ସାନ୍‍ ଜୋସ୍‍ , କୋଷ୍ଟା ରିକା</item>
+        <item>ସାନ ଜୁଆନ, ପୁଇଟ୍ରୌ ରିକ୍</item>
+        <item>ସାନ୍‍ ମାରିନୋ</item>
+        <item>ସାନ୍ ସାଲଭାଡୋର୍, ଏଲ୍ ସାଲଭାଡୋର୍</item>
+        <item>ସାନ୍ସ୍, ୟାମେନ୍</item>
+        <item>ସାଣ୍ଟିଆଗୋ, ଚିଲି</item>
+        <item>ସାଣ୍ଟୋ ଡୋମିଙ୍ଗୋ, ଡୋମିନିକା ସଧାରଣତନ୍ତ୍ର</item>
+        <item>ସାରାଜେଭୋ, ବୋସନିଆ ଓ ହେରଜେଗୋବିନା</item>
+        <item>ସେଟାଲେ, U.S.A</item>
+        <item>ସିଓଲ୍‌, ଦକ୍ଷିଣ କୋରି</item>
+        <item>ସାଂଘାଇ, ଚୀନ</item>
+        <item>ସ୍ୱାହନୱିଂ, ଚୀନ</item>
+        <item>ସାନତୌ, ଚୀନ</item>
+        <item>ସେନ୍‍ୟାଙ୍ଗ୍ , ଚୀନ</item>
+        <item>ସେନଜେନ୍‍ , ଚୀନ</item>
+        <item>ସିଜୁଙ୍ଗ, ଚୀନ</item>
+        <item>ସିଙ୍ଗାପୁର</item>
+        <item>ସ୍କୋପଜେ, ମାସିଡୋନିଆ</item>
+        <item>ସୋଫିଆ, ବୁଲଗେରିଆ</item>
+        <item>ସେଣ୍ଟ୍. ଜେନ୍ସ୍, କାନାଡା</item>
+        <item>ସେଣ୍ଟ. ପିଟର୍ସବର୍ଗ୍, ରୁଷିଆ</item>
+        <item>ସେଣ୍ଟ. ପିରେ ଏବଂ ମୁକ୍ୟୁଲୋନ୍, ଫ୍ରାନ୍ସ</item>
+        <item>ଷ୍ଟକ୍‌ହୋମ୍, ସ୍ଵିଡେନ୍</item>
+        <item>ସୁଭା, ଫିଜି</item>
+        <item>ସୁଝୌ, ଚୀନ</item>
+        <item>ସିଡନି, ଅଷ୍ଟ୍ରେଲିଆ</item>
+        <item>ତାହିତି, ଫ୍ରେଞ୍ଚ୍ ପୋଲିନେସିଆ</item>
+        <item>ତାଇପେ, ଚୀନ</item>
+        <item>ତାଇୟୁଆନ୍‍ , ଚୀନ</item>
+        <item>ତାଲିନ୍‍ , ଇଷ୍ଟୋନିଆ</item>
+        <item>ତାଙ୍ଗସାନ୍‌ , ଚୀନ</item>
+        <item>ତାରାୱା, କିରିବାଟି</item>
+        <item>ତାସକେଣ୍ଟ, ଉଜବେକସ୍ତାନ</item>
+        <item>ତବିଲିସି, ଜର୍ଜିଆ</item>
+        <item>ଟେଗୁଚିଗଲାପା, ହୋଣ୍ଡରୋସ୍</item>
+        <item>ତେହେରାନ୍, ଇରାନ୍‌</item>
+        <item>ସେଟେଲମେଣ୍ଟ୍, GB ଭାର୍ରଗାନ୍ ଆଇଲୋଣ୍ତା</item>
+        <item>ତିଆନ୍‍ଜିନ୍‍ , ଚୀନ</item>
+        <item>ଟିଜୁଆନା, ମେକ୍ସିକୋ</item>
+        <item>ଟୋକିଓ, ଜାପାନ</item>
+        <item>ଟୋଙ୍ଗା</item>
+        <item>ଟୋରୋଣ୍ଟୋ, କାନାଡା</item>
+        <item>ତ୍ରିପୋଲି, ଲିବିୟା</item>
+        <item>ତୁନିସା, ତୁନିଶିୟା</item>
+        <item>ଟୁରିନ୍‌, ଇଟାଲୀ</item>
+        <item>Ufa, ରୁଷିଆ</item>
+        <item>ଉଲାନବାଟାର, ମଙ୍ଗୋଲିଆ</item>
+        <item>ଉରୁମ୍‍କି, ଚୀନ</item>
+        <item>ଭାଡୁଜ୍, ଲିଚେଟେନ୍‌ଷ୍ଟାଇନ୍</item>
+        <item>ଭଲଟିଆ, ମଲତା</item>
+        <item>ଭାନକୌଭର୍, କାନାଡା</item>
+        <item>ଭେରୋନା, ଇଟାଲୀ</item>
+        <item>ଭିକ୍ଟୋରିଆ, ସିଚେଲେସ</item>
+        <item>ଭିନେନା, ଅଷ୍ଟ୍ରିଆ</item>
+        <item>ଭିଲନିୟସ୍, ଲିଥୁନିଆନ୍</item>
+        <item>ଭଲାଡିଭୋଷ୍ଟକ୍, ରୁଷିଆ</item>
+        <item>ଭୋଲଗ୍ରୋୱାର୍ଡ୍‍, ରୁଷିଆ</item>
+        <item>ୱାରସା, ପୋଲାଣ୍ଡ</item>
+        <item>ୱାଶିଂଟନ୍ ଡିସି, U.S.A</item>
+        <item>ୱିଫାଙ୍ଗ, ଚୀନ</item>
+        <item>ୱେଲିଂଟନ୍, ନ୍ୟୁଜିଲ୍ୟାଣ୍ଡ</item>
+        <item>ୱିନଧୋଏକ, ନାମ୍ବିଆ</item>
+        <item>ୱିନିପେଗ୍, କାନାଡା</item>
+        <item>ଉହାନ, ଚୀନ</item>
+        <item>ଉକ୍‍ସି, ଚୀନ</item>
+        <item>ଜିଆନ୍‍ , ଚୀନ</item>
+        <item>ଜିଆନ୍‍ୟାଙ୍ଗ୍ , ଚୀନ</item>
+        <item>ଜିନିଙ୍ଗ୍ , ଚୀନ</item>
+        <item>ଜୁଝୌ, ଚୀନ</item>
+        <item>ୟାକୁଟ୍‍ସ୍କ, ରୁଷିୟା</item>
+        <item>ୟାମୋସ୍ସୋକ୍ରୋ, କୋଟେ ଡ୍ଲଭୋରେ</item>
+        <item>ୟାନଗୋନ,ମିୟାମାର</item>
+        <item>ୟାନ୍ତାଇ, ଚୀନ</item>
+        <item>ୟ୍ୱାଣ୍ଡୋ, କାମେରୁନ୍</item>
+        <item>ହୟେକାଟୋରିନବର୍ଗ, ରୁଷିୟା</item>
+        <item>ହୟେରେଭାନ, ଆରମେନିଆ</item>
+        <item>ଇଚାଙ୍ଗ୍ , ଚୀନ</item>
+        <item>ଇଚୁନ୍‍ , ଚୀନ</item>
+        <item>ୟୁହ୍ନୋ-ସଅଖଲିନ୍ସ୍, ରୁଷିଆ</item>
+        <item>ଜାଗ୍ରେବ୍, କ୍ରୋଆଟିଆ</item>
+        <item>ଜାଓଝୁଆଂ, ଚୀନ</item>
+        <item>ଝାଙ୍ଗଜିଆକାଉ, ଚୀନ</item>
+        <item>ଝାଂଜିୟାଂ, ଚୀନ</item>
+        <item>ଝେଂଝୌ, ଚୀନ</item>
+        <item>ଜିବୁ, ଚୀନ</item>
+        <item>ଜ୍ୟୁଉରିଚ୍‌, ସ୍ଵିଜରଲ୍ୟାଣ୍ଡ୍</item>
+        <item>ସାଉଥ ଜର୍ଜିଆ</item>
+        <item>ବନ୍ଦର ସେରୀ ବେଗୱାନ</item>
+        <item>ଭିଏନଟିଏନ୍</item>
+    </string-array>
+</resources>

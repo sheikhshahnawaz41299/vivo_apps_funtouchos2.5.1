@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.vivo.settings.notification.settime.TimePreference android:key="time1" settings:flag1="1" />
+    <com.vivo.settings.notification.settime.TimePreference android:key="time2" settings:flag1="2" />
+    <PreferenceCategory style="?vivo:attr/dividerPreferenceStyle" />
+    <com.vivo.settings.notification.settime.RepeatPreference android:persistent="false" android:title="@string/alarm_repeat" android:key="setRepeat1" />
+    <com.vivo.settings.notification.settime.RepeatPreferenceEx android:key="setRepeat2" />
+</PreferenceScreen>

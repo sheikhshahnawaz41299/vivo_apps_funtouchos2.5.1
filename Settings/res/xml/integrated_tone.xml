@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/integrated_tone" android:key="sound_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/dtmf_tone_enable_title" android:key="dtmf_tone" android:defaultValue="true" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/sound_effects_enable_title" android:key="sound_effects" android:defaultValue="true" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/lock_sounds_enable_title" android:key="lock_sounds" android:defaultValue="true" />
+    <PreferenceCategory />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/message_sent_sound" android:key="message_sent_sound" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/vivo_input_method_sound" android:key="key_input_method_sound" />
+</PreferenceScreen>

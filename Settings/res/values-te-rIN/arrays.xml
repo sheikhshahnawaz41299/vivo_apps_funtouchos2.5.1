@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="screen_timeout_entries">
+        <item>15 సెకన్లు</item>
+        <item>30 సెకన్లు</item>
+        <item>1 నిమిషం</item>
+        <item>2 నిమిషాలు</item>
+        <item>5 నిమిషాలు</item>
+        <item>10 నిమిషాలు</item>
+        <item>30 నిమిషాలు</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>త్వరితమే</item>
+        <item>5 సెకన్లు</item>
+        <item>15 సెకన్లు</item>
+        <item>30 సెకన్లు</item>
+        <item>1 నిమిషం</item>
+        <item>2 నిమిషాలు</item>
+        <item>5 నిమిషాలు</item>
+        <item>10 నిమిషాలు</item>
+        <item>30 నిమిషాలు</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>చిన్నది</item>
+        <item>సాధారణం</item>
+        <item>పెద్దది</item>
+        <item>చాలా పెద్దది</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>చాలా నెమ్మది</item>
+        <item>నెమ్మది</item>
+        <item>సాధారణం</item>
+        <item>వేగం</item>
+        <item>చాలా వేగం</item>
+        <item>అత్యంత వేగం</item>
+        <item>తీవ్ర వేగం</item>
+        <item>అత్యంత తీవ్ర వేగం</item>
+        <item>అధిక వేగం</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>స్కాన్ చేస్తోంది...</item>
+        <item>కనెక్ట్ చేస్తోంది...</item>
+        <item>ప్రామాణీకరిస్తోంది...</item>
+        <item>IP చిరునామాను పొందుతోంది...</item>
+        <item>కనెక్ట్ అయ్యింది</item>
+        <item>పాజ్ చేయబడింది</item>
+        <item>డిస్‌కనెక్ట్ చేస్తోంది...</item>
+        <item>డిస్‌కనెక్ట్ అయ్యింది</item>
+        <item>విఫలమైంది</item>
+        <item>నిలిపివేయబడింది</item>
+        <item>తాత్కాలికంగా ఆఫ్ చేయబడింది (బలహీన నెట్‌వర్క్ కనెక్షన్)</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>స్కాన్ చేస్తోంది...</item>
+        <item>%1$sకి కనెక్ట్ చేస్తోంది…</item>
+        <item>%1$sతో ప్రామాణీకరిస్తోంది…</item>
+        <item>%1$s నుండి IP చిరునామాను పొందుతోంది...</item>
+        <item>%1$sకి కనెక్ట్ చేయబడింది</item>
+        <item>పాజ్ చేయబడింది</item>
+        <item>%1$s నుండి డిస్‌కనెక్ట్ అవుతోంది...</item>
+        <item>డిస్‌కనెక్ట్ అయ్యింది</item>
+        <item>విఫలమైంది</item>
+        <item>నిలిపివేయబడింది</item>
+        <item>తాత్కాలికంగా ఆఫ్ చేయబడింది (బలహీన నెట్‌వర్క్ కనెక్షన్)</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>కనెక్ట్ అయ్యింది</item>
+        <item>ఆహ్వానించబడింది</item>
+        <item>విఫలమైంది</item>
+        <item>అందుబాటులో ఉంది</item>
+        <item>పరిధిలో లేదు</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 నిమిషాలు</item>
+        <item>5 నిమిషాలు</item>
+        <item>1 గంట</item>
+        <item>ఎప్పటికీ గడువు సమయం మించిపోవద్దు</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>బలహీనం</item>
+        <item>సాధారణం</item>
+        <item>మంచి</item>
+        <item>అద్భుతం</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>ఎల్లప్పుడూ</item>
+        <item>ప్లగిన్ చేసినప్పుడు మాత్రమే</item>
+        <item>ఎప్పటికీ వద్దు</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>ఎల్లప్పుడూ</item>
+        <item>ప్లగిన్ చేసినప్పుడు మాత్రమే</item>
+        <item>ఎప్పుడూ వద్దు</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>స్వయం</item>
+        <item>5 GHz మాత్రమే</item>
+        <item>2.4 GHz మాత్రమే</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>వినియోగ సమయం</item>
+        <item>చివరి వినియోగ సమయం</item>
+        <item>అప్లికేషన్ పేరు</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>ఏదీ వద్దు</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>ఏదీలేదు</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>స్థిరం</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>ఏదీలేదు</item>
+        <item>మాన్యువల్</item>
+        <item>ప్రాక్సీ స్వయంచాలిత కాన్ఫిగరేషన్</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>ఏదీలేదు</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP లేదా CHAP</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>పేర్కొనబడలేదు</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>ఏదీలేదు</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>అంతర్గత పరికర నిల్వ</item>
+        <item>అన్‌మౌంట్ చేయదగిన SD కార్డ్</item>
+        <item>సిస్టమ్‌ను నిర్ణయించుకోనివ్వండి</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>స్థానం</item>
+        <item>వ్యక్తిగతం</item>
+        <item>SMS</item>
+        <item>మీడియా</item>
+        <item>పరికరం</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>ఇంచుమించు స్థానం</item>
+        <item>ఖచ్చితమైన స్థానం</item>
+        <item>GPS</item>
+        <item>వైబ్రేట్ చేయి</item>
+        <item>పరిచయాలను చదువు</item>
+        <item>పరిచయాన్ని సవరించు</item>
+        <item>కాల్ లాగ్‌లను చదవడం</item>
+        <item>కాల్ లాగ్‌లను సవరించండి</item>
+        <item>క్యాలెండర్ చదవండి</item>
+        <item>క్యాలెండర్ సవరించండి</item>
+        <item>Wi-Fi స్కాన్</item>
+        <item>నోటిఫికేషన్</item>
+        <item>ఫోన్ నెట్‌వర్క్ స్కాన్</item>
+        <item>కాల్ చేయి</item>
+        <item>SMS చదవండి</item>
+        <item>SMS కంపోజ్ చేయండి</item>
+        <item>SMS స్వీకరించండి</item>
+        <item>అత్యవసర SMS స్వీకరించండి</item>
+        <item>MMS స్వీకరించండి</item>
+        <item>WAP పుష్ సందేశం స్వీకరించండి</item>
+        <item>SMS పంపడం</item>
+        <item>ICC SMS చదవండి</item>
+        <item>ICC SMS వ్రాయండి</item>
+        <item>సెట్టింగ్‌లు సవరించండి</item>
+        <item>పైన గీయండి</item>
+        <item>నోటిఫికేషన్‌లను యాక్సెస్ చేయడం</item>
+        <item>కెమెరా</item>
+        <item>ఆడియో రికార్డ్ చేయండి</item>
+        <item>ఆడియో ప్లే చేయండి</item>
+        <item>క్లిప్‌బోర్డ్ కంటెంట్ చదవండి</item>
+        <item>క్లిప్‌బోర్డ్ సవరించండి</item>
+        <item>మీడియా బటన్‌లు</item>
+        <item>ఆడియో ఫోకస్</item>
+        <item>మాస్టర్ వాల్యూమ్</item>
+        <item>వాయిస్ వాల్యూమ్</item>
+        <item>రింగర్ వాల్యూమ్</item>
+        <item>మీడియా వాల్యూమ్</item>
+        <item>అలారం వాల్యూమ్</item>
+        <item>నోటిఫికేషన్ వాల్యూమ్</item>
+        <item>బ్లూటూత్ వాల్యూమ్</item>
+        <item>సక్రియంగా ఉంచండి</item>
+        <item>స్థానం పర్యవేక్షించండి</item>
+        <item>అధిక శక్తి వినియోగ స్థాన సమాచార సేవలను పర్యవేక్షించండి</item>
+        <item>వినియోగ గణాంకాల సమాచారాన్ని పొందండి</item>
+        <item>మైక్‌ని మ్యూట్ చేయండి లేదా మ్యూట్‌ని రద్దు చేయండి</item>
+        <item>ప్రొజెక్షన్ మీడియా</item>
+        <item>VPNని యాక్టివేట్ చేయండి</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>స్థానం</item>
+        <item>స్థానం</item>
+        <item>స్థానం</item>
+        <item>వైబ్రేట్ చేయి</item>
+        <item>పరిచయాలను చదువు</item>
+        <item>పరిచయాన్ని సవరించు</item>
+        <item>కాల్ లాగ్‌లను చదవడం</item>
+        <item>కాల్ లాగ్‌లను సవరించండి</item>
+        <item>క్యాలెండర్ చదవండి</item>
+        <item>క్యాలెండర్ సవరించండి</item>
+        <item>స్థానం</item>
+        <item>నోటిఫికేషన్‌ను పోస్ట్ చేయి</item>
+        <item>స్థానం</item>
+        <item>కాల్ చేయి</item>
+        <item>SMS/MMS సందేశాలు చదవండి</item>
+        <item>SMS/MMS సందేశాలు కంపోజ్ చేయండి</item>
+        <item>SMS/MMS సందేశాలు స్వీకరించండి</item>
+        <item>SMS/MMS సందేశాలు స్వీకరించండి</item>
+        <item>SMS/MMS సందేశాలు స్వీకరించండి</item>
+        <item>SMS/MMS సందేశాలు స్వీకరించండి</item>
+        <item>SMS/MMS సందేశాలు పంపండి</item>
+        <item>SMS/MMS సందేశాలు చదవండి</item>
+        <item>SMS/MMS సందేశాలు కంపోజ్ చేయండి</item>
+        <item>సెట్టింగ్‌లు సవరించండి</item>
+        <item>పైన గీయండి</item>
+        <item>నోటిఫికేషన్‌లను యాక్సెస్ చేయడం</item>
+        <item>కెమెరా</item>
+        <item>ఆడియో రికార్డ్ చేయండి</item>
+        <item>ఆడియో ప్లే చేయండి</item>
+        <item>క్లిప్‌బోర్డ్ కంటెంట్ చదవండి</item>
+        <item>క్లిప్‌బోర్డ్ సవరించండి</item>
+        <item>మీడియా బటన్‌లు</item>
+        <item>ఆడియో ఫోకస్</item>
+        <item>మాస్టర్ వాల్యూమ్</item>
+        <item>వాయిస్ వాల్యూమ్</item>
+        <item>రింగర్ వాల్యూమ్</item>
+        <item>మీడియా వాల్యూమ్</item>
+        <item>అలారం వాల్యూమ్</item>
+        <item>నోటిఫికేషన్ వాల్యూమ్</item>
+        <item>బ్లూటూత్ వాల్యూమ్</item>
+        <item>సక్రియంగా ఉంచండి</item>
+        <item>స్థానం</item>
+        <item>స్థాన సమాచారం</item>
+        <item>వినియోగ గణాంకాల సమాచారాన్ని పొందండి</item>
+        <item>మైక్‌ని మ్యూట్ చేయండి లేదా మ్యూట్‌ని రద్దు చేయండి</item>
+        <item>ప్రొజెక్షన్ మీడియా</item>
+        <item>VPNని యాక్టివేట్ చేయండి</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>తక్కువ</item>
+        <item>మధ్యస్థం</item>
+        <item>ఎక్కువ</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>డిఫాల్ట్</item>
+        <item>Sans-serif</item>
+        <item>Sans-serif సంక్షిప్తం</item>
+        <item>Sans-serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>Casual</item>
+        <item>Cursive</item>
+        <item>Small capitals</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>చాలా చిన్నవి</item>
+        <item>చిన్నది</item>
+        <item>సాధారణం</item>
+        <item>పెద్దది</item>
+        <item>చాలా పెద్దది</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>డిఫాల్ట్</item>
+        <item>ఏదీలేదు</item>
+        <item>చుట్టుగీత</item>
+        <item>నీడలు</item>
+        <item>ఎంబాస్‌మెంట్</item>
+        <item>వ్యాకులత</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>అప్లికేషన్ డిఫాల్ట్ శైలిని ఉపయోగించండి</item>
+        <item>నలుపులో తెలుపు</item>
+        <item>తెలుపులో నలుపు</item>
+        <item>నలుపులో పసుపు</item>
+        <item>నీలంలో పసుపు</item>
+        <item>అనుకూలీకరించు</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>ప్రతి లాగ్ బఫర్ 64K</item>
+        <item>ప్రతి లాగ్ బఫర్ 256K</item>
+        <item>ప్రతి లాగ్ బఫర్ 1M</item>
+        <item>ప్రతి లాగ్ బఫర్ 4M</item>
+        <item>ప్రతి లాగ్ బఫర్ 16M</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>ఎప్పటికీ తనిఖీ చేయవద్దు</item>
+        <item>DRM కంటెంట్ మాత్రమే తనిఖీ చేస్తుంది</item>
+        <item>ఎల్లప్పుడూ తనిఖీ చేస్తుంది</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>ఎప్పటికీ HDCP తనిఖీని ఉపయోగించవద్దు</item>
+        <item>DRM కంటెంట్ కోసం మాత్రమే HDCP తనిఖీని ఉపయోగిస్తుంది</item>
+        <item>ఎల్లప్పుడు HDCP తనిఖీని ఉపయోగిస్తుంది</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>యానిమేషన్ ఆఫ్ చేయండి</item>
+        <item>యానిమేషన్ స్కేల్ 0.5x</item>
+        <item>యానిమేషన్ స్కేల్ 1x</item>
+        <item>యానిమేషన్ స్కేల్ 1.5x</item>
+        <item>యానిమేషన్ స్కేల్ 2x</item>
+        <item>యానిమేషన్ స్కేల్ 5x</item>
+        <item>యానిమేషన్ స్కేల్ 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>యానిమేషన్ ఆఫ్ చేయండి</item>
+        <item>యానిమేషన్ స్కేల్ 0.5x</item>
+        <item>యానిమేషన్ స్కేల్ 1x</item>
+        <item>యానిమేషన్ స్కేల్ 1.5x</item>
+        <item>యానిమేషన్ స్కేల్ 2x</item>
+        <item>యానిమేషన్ స్కేల్ 5x</item>
+        <item>యానిమేషన్ స్కేల్ 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>యానిమేషన్ ఆఫ్ చేయండి</item>
+        <item>యానిమేషన్ స్కేల్ 0.5x</item>
+        <item>యానిమేషన్ స్కేల్ 1x</item>
+        <item>యానిమేషన్ స్కేల్ 1.5x</item>
+        <item>యానిమేషన్ స్కేల్ 2x</item>
+        <item>యానిమేషన్ స్కేల్ 5x</item>
+        <item>యానిమేషన్ స్కేల్ 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>ఏదీలేదు</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (సురక్షితం)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (సురక్షితం)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (సురక్షితం)</item>
+        <item>1280x720 tvdpi మరియు 1920x1080 xhdpi</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>ఏదీలేదు</item>
+        <item>లాగ్‌క్యాట్</item>
+        <item>సిస్ట్రేస్ (గ్రాఫిక్స్)</item>
+        <item>glGetErrorలో స్టాక్ కాల్ చేయండి</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>ఆఫ్</item>
+        <item>దీర్ఘచతురస్రాకారం కాని క్లిప్ ప్రాంతాన్ని నీలి రంగులో గీయి</item>
+        <item>ఆకుపచ్చ రంగులో హైలైట్ చేసిన డ్రాయింగ్ ఆదేశాలను పరీక్షించు</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>ఆఫ్</item>
+        <item>స్క్రీన్‌లో బార్ చార్ట్‌గా చూపబడింది</item>
+        <item>adb shell dumpsys gfxinfoలో</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>ఆఫ్</item>
+        <item>అతివ్యాప్తి ప్రాంతాలు చూపు</item>
+        <item>వర్ణ లోపం గల ప్రాంతాలు చూపు</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>ప్రామాణిక పరిమితులు</item>
+        <item>నేపథ్య ప్రాసెస్‌లను అనుమతించవద్దు</item>
+        <item>గరిష్టంగా 1 ప్రాసెస్</item>
+        <item>గరిష్టంగా 2 ప్రాసెస్‌లు</item>
+        <item>గరిష్టంగా 3 ప్రాసెస్‌లు</item>
+        <item>గరిష్టంగా 4 ప్రాసెస్‌లు</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>పూర్వ భాగస్వామ్య కీలతో L2TP/IPSec VPN</item>
+        <item>ప్రమాణపత్రాలతో L2TP/IPSec VPN</item>
+        <item>పూర్వ భాగస్వామ్య కీలు మరియు Xauth ప్రామాణీకరణతో IPSec VPN</item>
+        <item>ప్రమాణపత్రాలు మరియు Xauth ప్రామాణీకరణతో IPSec VPN</item>
+        <item>ప్రమాణపత్రాలు మరియు హైబ్రిడ్ ప్రామాణీకరణతో IPSec VPN</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>డిస్‌కనెక్ట్ అయ్యింది</item>
+        <item>ప్రారంభిస్తోంది...</item>
+        <item>కనెక్ట్ చేస్తోంది...</item>
+        <item>కనెక్ట్ అయ్యింది</item>
+        <item>గడువు ముగిసింది</item>
+        <item>విఫలమైంది</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>అడుగు</item>
+        <item>ఎప్పుడూ అనుమతించవద్దు</item>
+        <item>ఎల్లప్పుడూ అనుమతించు</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>సాధారణం</item>
+        <item>మధ్యస్థం</item>
+        <item>తక్కువ</item>
+        <item>క్లిష్టం</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>సాధారణం</item>
+        <item>మధ్యస్థ స్థాయి</item>
+        <item>తక్కువ</item>
+        <item>క్లిష్టం</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>నివాసి</item>
+        <item>అగ్ర స్థాయి కార్యాచరణలు</item>
+        <item>ముఖ్యమైనది (ముందువైపు)</item>
+        <item>ముఖ్యమైనది (నేపథ్యం)</item>
+        <item>బ్యాకప్ చేయి</item>
+        <item>భారీ బరువు</item>
+        <item>సేవ (అమలవుతోంది)</item>
+        <item>సేవ (పునఃప్రారంభిస్తోంది)</item>
+        <item>స్వీకర్త</item>
+        <item>హోమ్ స్క్రీన్</item>
+        <item>మునుపటి కార్యాచరణ</item>
+        <item>బఫర్ చేయబడింది (సక్రియంగా ఉంది)</item>
+        <item>బఫర్ చేయబడింది (సక్రియ క్లయింట్)</item>
+        <item>బఫర్ చేయబడింది (ఖాళీగా ఉంది)</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>ముదురు నీలం</item>
+        <item>నీలి రంగు</item>
+        <item>నీలి రంగు</item>
+        <item>బర్గండి</item>
+        <item>గులాబి రంగు</item>
+        <item>ఎరుపు రంగు</item>
+    </string-array>
+    <string-array name="ring_or_mtp_change_entries">
+        <item>రింగ్‌టోన్</item>
+        <item>మీడియా</item>
+    </string-array>
+    <string-array name="app_loc_permission">
+        <item>నిలిపివేయి</item>
+        <item>అనుమతించు</item>
+        <item>అడుగు</item>
+    </string-array>
+    <string-array name="key_light_control_mode">
+        <item>1.5 సెకన్లు</item>
+        <item>6 సెకన్లు</item>
+        <item>ఎల్లప్పుడూ ఆన్‌లో ఉంచు</item>
+        <item>ఎల్లప్పుడూ ఆఫ్‌లో ఉంచు</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_amoled">
+        <item>15 సెకన్లు</item>
+        <item>30 సెకన్లు</item>
+        <item>1 నిమిషం</item>
+        <item>2 నిమిషాలు</item>
+        <item>5 నిమిషాలు</item>
+        <item>10 నిమిషాలు</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_mtfp">
+        <item>15 సెకన్లు</item>
+        <item>30 సెకన్లు</item>
+        <item>1 నిమిషం</item>
+        <item>2 నిమిషాలు</item>
+        <item>5 నిమిషాలు</item>
+        <item>10 నిమిషాలు</item>
+        <item>30 నిమిషాలు</item>
+        <item>ఎప్పటికీ వద్దు</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>మీ తండ్రి పేరు ఏమిటి?</item>
+        <item>మీ తల్లి పేరు ఏమిటి?</item>
+        <item>మీ జీవిత భాగస్వామి పేరు ఏమిటి?</item>
+        <item>మీరు చదివిన ప్రాథమిక పాఠశాల ఏది?</item>
+        <item>మీ కిండర్ గార్డెన్ టీచర్ పేరు ఏమిటి?</item>
+        <item>మీ ఉన్నత పాఠశాల ఉపాధ్యాయుని పేరు ఏమిటి?</item>
+        <item>మీ ఉత్తమ బాల్య స్నేహితుని పేరు ఏమిటి?</item>
+        <item>మీ స్వస్థలం ఏది?</item>
+        <item>మీ విద్యార్థి (ఉపాది) గుర్తింపు సంఖ్య ఏమిటి?</item>
+        <item>మీ గుర్తింపు కార్డ్ నంబర్‌లో చివరి 6 అంకెలు ఏవి?</item>
+        <item>మీ కార్ లైసెన్స్ ప్లేట్ నంబర్ ఏమిటి?</item>
+        <item>మీరు పని చేసిన మొదటి కంపెనీ పేరు ఏమిటి?</item>
+        <item>అనుకూలీకరించిన ప్రశ్న</item>
+    </string-array>
+    <string-array name="area_entrys">
+        <item>థాయిల్యాండ్</item>
+        <item>మలేషియా</item>
+        <item>ఇండోనేషియా</item>
+        <item>భారతదేశం</item>
+        <item>మయన్మార్</item>
+        <item>ఫిలిప్పీన్స్</item>
+        <item>వియత్నాం</item>
+        <item>బ్రూనై</item>
+        <item>కాంబోడియా</item>
+        <item>లావోస్</item>
+        <item>సింగపూర్</item>
+        <item>బంగ్లాదేశ్</item>
+        <item>నేపాల్</item>
+        <item>పాకిస్తాన్</item>
+        <item>శ్రీలంక</item>
+    </string-array>
+    <string-array name="vivo_rom_25problem_ask_lables">
+        <item>మీరు చదివిన ప్రాథమిక పాఠశాల ఏది?</item>
+        <item>మీ తండ్రి పేరు ఏమిటి?</item>
+        <item>మీ తల్లి పేరు ఏమిటి?</item>
+        <item>మీ జీవిత భాగస్వామి పేరు ఏమిటి?</item>
+        <item>మీ స్వస్థలం ఏది?</item>
+        <item>మీ తల్లిదండ్రులు మిమ్మల్ని ఏమని పిలుస్తారు?</item>
+        <item>మీ ఉన్నత పాఠశాల తరగతి ఉపాధ్యాయుడు ఎవరు?</item>
+        <item>మీ చిన్ననాటి మంచి స్నేహితుడు ఎవరు?</item>
+        <item>మీ విద్యార్థి (ఉపాది) గుర్తింపు సంఖ్య ఏమిటి?</item>
+        <item>మీ IC నంబర్ యొక్క చివరి 6 అంకెలు ఏమిటి?</item>
+        <item>మీ కార్ లైసెన్స్ ప్లేట్ నంబర్ ఏమిటి?</item>
+        <item>మీరు పని చేసిన మొదటి కంపెనీ పేరు ఏమిటి?</item>
+        <item>అనుకూలీకరించిన ప్రశ్న</item>
+    </string-array>
+    <string-array name="timezones_cities_array">
+        <item>అబిడ్జాన్,ఐవరీ కోస్ట్</item>
+        <item>అబుదాబి, UAE</item>
+        <item>అక్రా, ఘనా</item>
+        <item>అడ్డిస్ అబాబా,ఇథియోపియా</item>
+        <item>అడిలైడ్,ఆస్ట్రేలియా</item>
+        <item>అలస్కా, USA</item>
+        <item>అల్జియర్స్,అల్జీరియా</item>
+        <item>అల్మటీ,కజక్‌స్థాన్</item>
+        <item>అంబన్,ఇండోనేషియా</item>
+        <item>అమ్మన్,జోర్డాన్</item>
+        <item>అమ్‌స్టర్‌డామ్,నెదర్లాండ్స్</item>
+        <item>అనాడ్యిర్,రష్యా</item>
+        <item>యాంకరేజ్, USA</item>
+        <item>అంకారా,టర్కీ</item>
+        <item>అన్‌షాన్, చైనా</item>
+        <item>అంటనానరివో, మడగాస్కర్</item>
+        <item>అష్గాబాత్,తుర్క్‌మెనిస్థాన్</item>
+        <item>అస్మారా, ఎరిట్రియా</item>
+        <item>అస్తానా, కజకిస్తాన్</item>
+        <item>అసెన్షియన్,పరాగ్వే</item>
+        <item>ఏథెన్స్,గ్రీస్</item>
+        <item>అట్లాంటా,యు.ఎస్.ఎ</item>
+        <item>ఆక్లాండ్,న్యూజిల్యాండ్</item>
+        <item>ఆస్టిన్,యు.ఎస్.ఎ</item>
+        <item>అజోర్స్, పోర్చుగల్</item>
+        <item>బాగ్దాద్,ఇరాక్</item>
+        <item>బాకు,అజెర్‌బైజాన్</item>
+        <item>బాల్టిమోర్,అమెరికా</item>
+        <item>బమాకో, మాలి</item>
+        <item>బెంగుళూరు,భారతదేశం</item>
+        <item>బ్యాంకాక్,థాయ్‌లాండ్</item>
+        <item>బంగ్వీ, సెంట్రల్ ఆఫ్రికన్ రిపబ్లిక్</item>
+        <item>బవోడింగ్, చైనా</item>
+        <item>బొవాటో, చైనా</item>
+        <item>బార్సెలోనా, స్పెయిన్</item>
+        <item>బారి,ఇటలీ</item>
+        <item>బస్సె-టెర్రె, గ్వాడిలోప్</item>
+        <item>బీజింగ్, చైనా</item>
+        <item>బీరట్,లెబనాన్</item>
+        <item>బెల్‌గ్రేడ్,సెర్బియా</item>
+        <item>బెలిజ్ సిటీ, బెలిజ్</item>
+        <item>బెన్‌క్సి, చైనా</item>
+        <item>బెర్లిన్,జర్మనీ</item>
+        <item>బెర్న్, స్విట్జర్లాండ్</item>
+        <item>బిష్కెక్,కిర్గిజ్‌స్థాన్</item>
+        <item>బిస్సావ్, గినియా బిస్సావ్</item>
+        <item>బొగోటా, కొలంబియా</item>
+        <item>బొలొగ్నా,ఇటలీ</item>
+        <item>బోస్టన్,యు.ఎస్.ఎ</item>
+        <item>బ్రెసిలియా,బ్రెజిల్</item>
+        <item>బ్రిటిస్లేవా, స్లొవేకియా</item>
+        <item>బ్రజావిల్లే,కాంగో</item>
+        <item>బ్రిడ్జ్‌టౌన్,బార్బడోస్</item>
+        <item>బ్రిస్బేన్,ఆస్ట్రేలియా</item>
+        <item>బ్రసెల్స్,బెల్జియం</item>
+        <item>బుకారెస్ట్,రొమేనియా</item>
+        <item>బుడాపెస్ట్,హంగేరీ</item>
+        <item>బ్యూనోస్ ఎయిర్స్,అర్జెంటీనా</item>
+        <item>కెయిరో,ఈజిప్ట్</item>
+        <item>కాల్గరీ,కెనడా</item>
+        <item>క్యానరీ దీవులు, స్పెయిన్</item>
+        <item>కాన్‌బెర్రా,ఆస్ట్రేలియా</item>
+        <item>కేప్ టౌన్,దక్షిణాఫ్రికా</item>
+        <item>కార్కస్,వెనిజులా</item>
+        <item>కార్డిఫ్, వేల్స్</item>
+        <item>కాసాబ్లెంకా,మొరాకో</item>
+        <item>క్యాటన్‌జారో, ఇటలీ</item>
+        <item>కయెన్నె, ఫ్రెంట్ గయానా</item>
+        <item>చాంగ్‌చన్,చైనా</item>
+        <item>ఛాంగ్షా, చైనా</item>
+        <item>ఛాంగ్‌జ్సో, చైనా</item>
+        <item>చార్లోట్,యు.ఎస్.ఎ</item>
+        <item>షార్లొట్టే అమాలీ, యు.ఎస్ వర్జిన్ దీవులు</item>
+        <item>చేల్యబిన్‌స్క్, రష్యా</item>
+        <item>చెంగ్డు,చైనా</item>
+        <item>చెన్నై, భారతదేశం</item>
+        <item>చికాగో,యు.ఎస్.ఎ</item>
+        <item>చివావా,మెక్సికన్</item>
+        <item>చిసినావ్, మాల్డోవా</item>
+        <item>చిటా, రష్యా</item>
+        <item>చాంగ్‌కింగ్,చైనా</item>
+        <item>క్లీవ్‌ల్యాండ్, యుఎస్ఎ</item>
+        <item>కొలంబో,శ్రీ లంకా</item>
+        <item>కొలంబస్,యు.ఎస్.ఎ</item>
+        <item>కొనాక్రి,గినియా</item>
+        <item>కోపెన్హెగన్,డెన్మార్క్</item>
+        <item>కార్కెయిగ్,ఐర్లాండ్</item>
+        <item>క్రొటోన్, ఇటలీ</item>
+        <item>దాకర్, సెనగల్</item>
+        <item>డాలియన్,చైనా</item>
+        <item>డల్లాస్,యు.ఎస్.ఎ</item>
+        <item>డమాస్కస్,సిరియా</item>
+        <item>డాక్వింగ్, చైనా</item>
+        <item>డర్ ఎస్ సలామ్,టాంజానియా</item>
+        <item>డార్విన్,ఆస్ట్రేలియా</item>
+        <item>డేటాంగ్, చైనా</item>
+        <item>డెన్‌పసర్, ఇండోనేషియా</item>
+        <item>డెన్వర్,యు.ఎస్.ఎ</item>
+        <item>డిట్రాయిట్,యు.ఎస్.ఎ</item>
+        <item>ఢాకా,బంగ్లాదేశ్</item>
+        <item>డీగో జార్షియా, UK</item>
+        <item>జిబౌటి</item>
+        <item>దోహా,ఖతార్</item>
+        <item>డౌవాలా, కెమెరూన్</item>
+        <item>దుబాయ్, UAE</item>
+        <item>డబ్లిన్, ఐర్లాండ్</item>
+        <item>దుషాన్బె,తజికిస్థాన్</item>
+        <item>ఈస్టర్ దీవి, చిలీ</item>
+        <item>ఎడిన్‌బర్గ్, స్కాట్లాండ్</item>
+        <item>ఎడ్మాంటన్,కెనడా</item>
+        <item>ఎల్ పాసో,యు.ఎస్.ఎ</item>
+        <item>ఫెర్నాండో డి నోరాన్హా, బ్రెజిల్</item>
+        <item>ఫ్లోరెన్స్,ఇటలీ</item>
+        <item>ఫోర్ట్-డె-ఫ్రాన్స్, మార్టినిక్</item>
+        <item>ఫ్రాంక్‌ఫర్ట్,జర్మనీ</item>
+        <item>ఫ్రీటౌన్, సియెర్రా లియోన్</item>
+        <item>ఫుషున్, చైనా</item>
+        <item>ఫుక్సిన్, చైనా</item>
+        <item>ఫుజో, చైనా</item>
+        <item>గబరోన్,బోట్స్వానా</item>
+        <item>గలపాగోస్ దీవులు,ఈక్వెడార్</item>
+        <item>జెనీవా,స్విట్జ్‌ర్లాండ్</item>
+        <item>జినోవ,ఇటలీ</item>
+        <item>జార్జ్‌టౌన్,గయానా</item>
+        <item>గ్రీన్‌ల్యాండ్</item>
+        <item>గ్రిట్వికెన్, దక్షిణ జార్జియా</item>
+        <item>గ్వామ్</item>
+        <item>గ్వాంగో,చైన్</item>
+        <item>గ్వాటిమాలా</item>
+        <item>గ్వాటిమాలా సిటీ, గ్వాటిమాలా</item>
+        <item>గ్వియాగ్,చైనా</item>
+        <item>గస్తేవియా, సెయింట్ బర్తలేమి</item>
+        <item>హైకౌ,చైనా</item>
+        <item>హాలిఫ్యాక్స్, కెనడా</item>
+        <item>హాంబర్గ్,జర్మనీ</item>
+        <item>హాండన్, చైనా</item>
+        <item>హంగ్జో, చైనా</item>
+        <item>హనాయ్,వియత్నాం</item>
+        <item>హరారే,జింబాబ్వే</item>
+        <item>హార్బిన్,చైనా</item>
+        <item>హవానా,క్యూబా</item>
+        <item>హవాయి, USA</item>
+        <item>హిఫీ, చైనా</item>
+        <item>హెల్సింకీ,ఫిన్లాండ్</item>
+        <item>హొ చి మిన్హ్ నగరం,వియత్నాం</item>
+        <item>హాబర్ట్, ఆస్ట్రేలియా</item>
+        <item>హొహ్హోట్, చైనా</item>
+        <item>హాంగ్‌కాంగ్, చైనా</item>
+        <item>హొనొలులు, USA</item>
+        <item>హోస్టన్,యు.ఎస్.ఎ</item>
+        <item>హోవ్డ్, మంగోలియా</item>
+        <item>హుయాన్, చైనా</item>
+        <item>హుయ్‌నాన్, చైనా</item>
+        <item>హైదరాబాద్, భారతదేశం</item>
+        <item>ఇండియానాపోలిస్,యు.ఎస్.ఎ</item>
+        <item>ఇర్‌కట్స్క్,రష్యా</item>
+        <item>ఇస్లామాబాద్,పాకిస్థాన్</item>
+        <item>ఇస్తాంబుల్,టర్కీ</item>
+        <item>ఇజెవ్‌స్క్, రష్యా</item>
+        <item>జకార్తా, ఇండోనేషియా</item>
+        <item>జిద్దాన్,సౌదీ అరేబియా</item>
+        <item>జెరుసలేం,ఇజ్రాయిల్</item>
+        <item>జిలిన్ నగరం, చైనా</item>
+        <item>జినాన్, చైనా</item>
+        <item>జింగ్జౌ, చైనా</item>
+        <item>జిక్సి, చైనా</item>
+        <item>జోహెన్స్‌బర్గ్, దక్షిణ ఆఫ్రికా</item>
+        <item>కాబుల్,ఆఫ్ఘనిస్థాన్</item>
+        <item>కలినిన్‌గ్రాడ్, రష్యా</item>
+        <item>కంఛట్కా, రష్యా</item>
+        <item>కంపాలా,ఉగండా</item>
+        <item>కరాచీ,పాకిస్థాన్</item>
+        <item>ఖాట్మండు,నేపాల్</item>
+        <item>ఖబరోవ్‌స్క్, రష్యా</item>
+        <item>ఖర్కివ్, ఉక్రెయిన్</item>
+        <item>ఖార్టోమ్,సూడాన్</item>
+        <item>కింగ్‌స్టన్,జమైకా</item>
+        <item>కిన్‌షాస, కాంగో డెమో.రిప.</item>
+        <item>కిరిటిమటి,కిరిటిబాటి</item>
+        <item>కోల్‌కత్తా,భారతదేశం</item>
+        <item>క్రాస్నోయార్స్క్,రష్యా</item>
+        <item>కౌలాలంపూర్,మలేషియా</item>
+        <item>కున్మింగ్, చైనా</item>
+        <item>కువైట్ నగరం</item>
+        <item>క్వివ్,ఉక్రెయిన్</item>
+        <item>లా పాజ్,బొలివీయా</item>
+        <item>లాగోస్,నైజీరియా</item>
+        <item>లాహోర్,పాకిస్థాన్</item>
+        <item>ల్యాంజో, చైనా</item>
+        <item>లాస్ వెగాస్,యు.ఎస్.ఎ</item>
+        <item>లిమా,పెరు</item>
+        <item>లిస్బన్,పోర్చుగల్</item>
+        <item>లిజ్వో, చైనా</item>
+        <item>ల్యూబ్లియానా, స్లొవేనియా</item>
+        <item>లండన్,యు.కె</item>
+        <item>లాస్ ఏంజిల్స్,యు.ఎస్.ఎ</item>
+        <item>లాయిస్‌విల్లే,యు.ఎస్.ఎ</item>
+        <item>లువాండా, అంగోలా</item>
+        <item>లుబుంబషి, D.R. కాంగో</item>
+        <item>లుయోంగ్, చైనా</item>
+        <item>లుసాకా,జాంబియా</item>
+        <item>లక్సంబర్గ్</item>
+        <item>ల్వివ్, ఉక్రెయిన్</item>
+        <item>మకావ్, చైనా</item>
+        <item>మాడ్రిడ్,స్పెయిన్</item>
+        <item>మగదన్,రష్యా</item>
+        <item>మజురో, మార్షల్ దీవులు</item>
+        <item>మలబో,ఈక్వెటోరియల్ గినియా</item>
+        <item>మలె,మాల్దీవులు</item>
+        <item>మనాగువా,నికరాగువా</item>
+        <item>మనామా,బహ్రెయిన్</item>
+        <item>మనాస్, బ్రెజిల్</item>
+        <item>మనీలా,ఫిలిప్పీన్స్</item>
+        <item>మపుటో, మొజాంబిక్</item>
+        <item>మారిగాట్, సెయింట్ మార్టిన్</item>
+        <item>మయొట్టె, ఫ్రాన్స్</item>
+        <item>మజట్లాన్,మెక్సికన్</item>
+        <item>మెక్కా, సౌధీ అరేబియా</item>
+        <item>మెల్బోర్న్,ఆస్ట్రేలియా</item>
+        <item>మెంఫిస్,యు.ఎస్.ఎ</item>
+        <item>మెస్సినా, ఇటలీ</item>
+        <item>మెక్సికో నగరం,మెక్సికో</item>
+        <item>మియామీ,యు.ఎస్.ఎ</item>
+        <item>మధ్య అట్లాంటిక్</item>
+        <item>మిడ్‌వే దీవి,అమెరికా</item>
+        <item>మిలన్,ఇటలీ</item>
+        <item>మిల్వాకీ,యు.ఎస్.ఎ</item>
+        <item>మిన్నెయపొలిస్, USA</item>
+        <item>మిన్స్క్,బెలారస్</item>
+        <item>మొగడిషు,సొమాలియా</item>
+        <item>మొన్రోవియా, లిబేరియా</item>
+        <item>మోంటెవీడియో,ఉరుగ్వే</item>
+        <item>మాంట్రియల్,కెనడా</item>
+        <item>మాస్కో,రష్యా</item>
+        <item>ముడాన్జియాంగ్, చైనా</item>
+        <item>ముంబై,భారత దేశం</item>
+        <item>మునిచ్,జర్మనీ</item>
+        <item>మస్కట్,ఒమన్</item>
+        <item>నైరోబీ,కెన్యా</item>
+        <item>నాన్‌చాంగ్, చైనా</item>
+        <item>నాంజింగ్,చైనా</item>
+        <item>నానింగ్, చైనా</item>
+        <item>నపోలి,ఇటలీ</item>
+        <item>నేటర్స్, స్విట్జర్లాండ్</item>
+        <item>ఎన్జమేనా,చాద్</item>
+        <item>న్యూఢిల్లీ, భారతదేశం</item>
+        <item>న్యూ ఓర్లియన్స్,యు.ఎస్.ఎ</item>
+        <item>న్యూయార్క్,యు.ఎస్.ఎ</item>
+        <item>న్యూఫౌండ్‌ల్యాండ్, కెనడా</item>
+        <item>నియామె, నైగర్</item>
+        <item>నింగ్బో, చైనా</item>
+        <item>నౌవక్‌షాట్, మారిటానియా</item>
+        <item>నోమియా, న్యూ కాలడోనియా</item>
+        <item>నోవోకుజ్నెటెస్క్, రష్యా</item>
+        <item>నోవోసిబిర్‌స్క్, రష్యా</item>
+        <item>నుకులోఫా, టోంగా</item>
+        <item>నూక్,గ్రీన్‌ల్యాండ్</item>
+        <item>ఓమ్‌స్క్, రష్యా</item>
+        <item>ఓరల్, కజకిస్తాన్</item>
+        <item>ఓసాకా,జపాన్</item>
+        <item>ఓస్లో,నార్వే</item>
+        <item>ఓటవా,కెనడా</item>
+        <item>ఆవగడౌగౌ, బర్కిన ఫసో</item>
+        <item>పగో పగో, అమెరికన్ సమోవా</item>
+        <item>పలెర్మో, ఇటలీ</item>
+        <item>పనామా నగరం,పనామా</item>
+        <item>పరమారిబో,సూరినామ్</item>
+        <item>ప్యారిస్,ఫ్రాన్స్</item>
+        <item>పెర్మ్, రష్యా</item>
+        <item>పెర్త్, ఆస్ట్రేలియా</item>
+        <item>పెట్రోపావ్లోవ్‌స్క్-కంచాట్‌స్కీ, రష్యా</item>
+        <item>ఫిలడెల్ఫియా,యు.ఎస్.ఎ</item>
+        <item>ప్నామ్ పెన్హ్,కాంబోడియా</item>
+        <item>ఫినిక్స్,యు.ఎస్.ఎ</item>
+        <item>పింగ్డింగ్‌షాన్, చైనా</item>
+        <item>పొడ్గోరికా, మాంటెనెగ్రో</item>
+        <item>పోంటా డెల్గాడా, పోర్చుగల్</item>
+        <item>పోర్ట్ లూయిస్, మారిషియస్</item>
+        <item>పోర్టవ్ ప్రిన్స్,హైతీ</item>
+        <item>పోర్ట్‌ల్యాండ్,యు.ఎస్.ఎ</item>
+        <item>ప్రేగ్, చెక్ రిపబ్లిక్</item>
+        <item>ప్రాయియా,కేప్ వెర్డె</item>
+        <item>ప్యోంగ్యాంగ్, డెమొక్రటిక్ పీపుల్స్ రిపబ్లిక్ ఆఫ్ కొరియా</item>
+        <item>కింగ్డావో, చైనా</item>
+        <item>కిక్హార్, చైనా</item>
+        <item>కిటో,ఈక్వెడార్</item>
+        <item>ర్యాబట్, మొరాకో</item>
+        <item>రెసిఫె, బ్రెజిల్</item>
+        <item>రెజీనా,కెనడా</item>
+        <item>రెక్జావిక్, ఐస్‌ల్యాండ్</item>
+        <item>రిగా, లాట్వియా</item>
+        <item>రియో డి జానెయిరో,బ్రెజిల్</item>
+        <item>రియాద్,సౌదీ అరేబియా</item>
+        <item>రోమ్,ఇటలీ</item>
+        <item>సావో పాలో,బ్రెజిల్</item>
+        <item>సెయింట్ డెనిస్, రీయూనియన్ దీవి</item>
+        <item>సాల్ట్ లేక్ సిటీ, USA</item>
+        <item>సమారా, రష్యా</item>
+        <item>శాన్ యాంటోనియో,యు.ఎస్.ఎ</item>
+        <item>శాన్ డీగో,యు.ఎస్.ఎ</item>
+        <item>శాన్ ఫ్రాన్సిస్కో,యు.ఎస్.ఎ</item>
+        <item>శాన్ జోస్,కోస్టా రికా</item>
+        <item>శాన్ జువాన్, ఫ్యూర్టో రికో</item>
+        <item>శాన్ మారినో</item>
+        <item>శాన్ సాల్వడార్,ఎల్ సాల్వడార్</item>
+        <item>సనా, యెమెన్</item>
+        <item>శాంటియాగో,చిలీ</item>
+        <item>శాంటో డోమింగో, డొమినికన్ రిపబ్లిక్</item>
+        <item>సరాజెవో,బోస్నియా మరియ హెర్జ్‌గోవినా</item>
+        <item>సీయోటెల్,యు.ఎస్.ఎ</item>
+        <item>సియోల్, దక్షిణ కొరియా</item>
+        <item>షాంగై,చైనా</item>
+        <item>షాంగ్‌క్యు, చైనా</item>
+        <item>షాంటో, చైనా</item>
+        <item>షెన్యాంగ్,చైనా</item>
+        <item>షెంజెన్,చైనా</item>
+        <item>షిజియాంగ్‌జువాంగ్, చైనా</item>
+        <item>సింగపూర్</item>
+        <item>స్కోప్జె,మేసిడొనియా</item>
+        <item>సోఫియా,బల్గేరియా</item>
+        <item>సెయింట్ జాన్,కెనడా</item>
+        <item>సెయి. పీటర్స్‌బర్గ్,రష్యా</item>
+        <item>సెయింట్ పియెర్రె మరియు మికెలాన్, ఫ్రాన్స్</item>
+        <item>స్టాక్‌హోమ్,స్వీడన్</item>
+        <item>సువా,ఫిజి</item>
+        <item>సూషూ, చైనా</item>
+        <item>సిడ్నీ,ఆస్ట్రేలియా</item>
+        <item>తహిటి, ఫ్రెంచ్ పాలినేషియా</item>
+        <item>తైపై,చైనా</item>
+        <item>తైయువాన్, చైనా</item>
+        <item>టల్లిన్న్, ఈస్టోనియా</item>
+        <item>తంగ్షాన్, చైనా</item>
+        <item>తరావా, కిరిబాటి</item>
+        <item>తష్కంత్, ఉజ్బెకిస్థాన్</item>
+        <item>టిబ్లిసి,జార్జియా</item>
+        <item>టెగుసిగల్పా, హొండురాస్</item>
+        <item>టెహ్రాన్,ఇరాన్</item>
+        <item>ది సెటిల్‌మెంట్, GB వర్జిన్ దీవులు</item>
+        <item>టియాంజిన్,చైనా</item>
+        <item>టిజువాన్,మెక్సికన్</item>
+        <item>టోక్యో,జపాన్</item>
+        <item>టోంగా</item>
+        <item>టొరంటో,కెనడా</item>
+        <item>ట్రిపోలి,లిబ్యా</item>
+        <item>తునిస్, తునీషియా</item>
+        <item>టొరినో,ఇటలీ</item>
+        <item>యుఫా, రష్యా</item>
+        <item>ఉలాన్‌బటర్, మంగోలియా</item>
+        <item>ఉరుంకి,చైనా</item>
+        <item>వడూజ్, లిచెన్‌స్టెయిన్</item>
+        <item>వల్లెట్టా, మాల్టా</item>
+        <item>వాంకోవర్,కెనడా</item>
+        <item>వెరోనా, ఇటలీ</item>
+        <item>విక్టోరియా, సీషెల్స్</item>
+        <item>వియన్నా,ఆస్ట్రియా</item>
+        <item>విల్నియస్,లిథుయేనియా</item>
+        <item>వ్లాడివోస్టక్, రష్యా</item>
+        <item>వోల్గాగ్రాడ్, రష్యా</item>
+        <item>వార్సా,పోలాండ్</item>
+        <item>వాషింగ్టన్,డి.సి,యు.ఎస్.ఎ</item>
+        <item>వీఫాంగ్, చైనా</item>
+        <item>వెల్లింగ్టన్,న్యూజిల్యాండ్</item>
+        <item>విండ్హోక్,నమీబియా</item>
+        <item>విన్నిపెగ్,కెనడా</item>
+        <item>వుహాన్,చైనా</item>
+        <item>వుక్సి, చైనా</item>
+        <item>గ్జియాన్,చైనా</item>
+        <item>గ్జియాంగ్యాంగ్, చైనా</item>
+        <item>గ్జినింగ్, చైనా</item>
+        <item>గ్జుజో, చైనా</item>
+        <item>యాకుట్స్క్,రష్యా</item>
+        <item>యమౌస్సోక్రో, కోట్ డివోయెర్</item>
+        <item>య్యాగన్, మయన్మార్</item>
+        <item>యాంటై, చైనా</item>
+        <item>యవౌండే, కెమెరూన్</item>
+        <item>ఏకటెరింబర్గ్, రష్యా</item>
+        <item>యెరెవన్,అర్మేనియా</item>
+        <item>యిచాంగ్, చైనా</item>
+        <item>ఇషున్, చైనా</item>
+        <item>యుజ్నో-సఖాలిన్‌స్క్, రష్యా</item>
+        <item>జగ్రెబ్, క్రొయేషియా</item>
+        <item>జాజోవాంగ్, చైనా</item>
+        <item>జాగ్జియాకో, చైనా</item>
+        <item>జాంగ్జియాంగ్, చైనా</item>
+        <item>జెంగ్జో, చైనా</item>
+        <item>జిబో, చైనా</item>
+        <item>జ్యూరిచ్,స్విట్జ్‌ర్లాండ్</item>
+        <item>దక్షిణ జార్జియా</item>
+        <item>బ్యాండర్ స్రీ బెగావన్</item>
+        <item>వియెంటియేన్</item>
+    </string-array>
+</resources>

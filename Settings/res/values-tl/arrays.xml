@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="screen_timeout_entries">
+        <item>15 segundo</item>
+        <item>30 segundo</item>
+        <item>1 minuto</item>
+        <item>2 minuto</item>
+        <item>5 minuto</item>
+        <item>10 minuto</item>
+        <item>30 minuto</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Kaagad</item>
+        <item>5 segundo</item>
+        <item>15 segundo</item>
+        <item>30 segundo</item>
+        <item>1 minuto</item>
+        <item>2 minuto</item>
+        <item>5 minuto</item>
+        <item>10 minuto</item>
+        <item>30 minuto</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Maliit</item>
+        <item>Normal</item>
+        <item>Malaki</item>
+        <item>Napakalaki</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Napakabagal</item>
+        <item>Mabagal</item>
+        <item>Normal</item>
+        <item>Mabilis</item>
+        <item>Mas mabilis</item>
+        <item>Napakabilis</item>
+        <item>Matulin</item>
+        <item>Napakatulin</item>
+        <item>Pinakamabilis</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Sina-scan ang mga network…</item>
+        <item>Kumokonekta...</item>
+        <item>Pinapatunayan...</item>
+        <item>Kumukuha ng IP address...</item>
+        <item>Nakakonekta</item>
+        <item>Naka-pause</item>
+        <item>Tinatanggal sa pagkakonekta...</item>
+        <item>Natanggal sa pagkakonekta</item>
+        <item>Nabigo</item>
+        <item>Hindi pinagana</item>
+        <item>Pansamantalang naka-off (mahinang koneksyon sa network)</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Sina-scan ang mga network…</item>
+        <item>Kumokonekta sa %1$s…</item>
+        <item>Pinatutunayan sa %1$s…</item>
+        <item>Kumukuha ng IP address mula sa %1$s...</item>
+        <item>Nakakonekta sa %1$s</item>
+        <item>Naka-pause</item>
+        <item>Umalis sa pagkakonekta mula sa %1$s...</item>
+        <item>Natanggal sa pagkakonekta</item>
+        <item>Nabigo</item>
+        <item>Hindi pinagana</item>
+        <item>Pansamantalang naka-off (mahinang koneksyon sa network)</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Nakakonekta</item>
+        <item>Inimbitahan</item>
+        <item>Nabigo</item>
+        <item>Available</item>
+        <item>Wala sa saklaw</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minuto</item>
+        <item>5 minuto</item>
+        <item>1 oras</item>
+        <item>Kailanman hindi magta-timeout</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Mahina</item>
+        <item>Pangkalahatan</item>
+        <item>Mabuti</item>
+        <item>Napakagaling</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Palagi</item>
+        <item>Kapag naka-plug in lang</item>
+        <item>Huwag kailanman</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Palagi</item>
+        <item>Kapag naka-plug in lang</item>
+        <item>Huwag kailanman</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Auto</item>
+        <item>5 GHz lamang</item>
+        <item>2.4 GHz lamang</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Oras ng paggamit</item>
+        <item>Oras na huling ginamit</item>
+        <item>Pangalan ng app</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>Wala</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Wala</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Static</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Wala</item>
+        <item>Manu-mano</item>
+        <item>Awtomatikong configuration ng proxy</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Wala</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP o CHAP</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>Hindi matukoy</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>Wala</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Internal na storage device</item>
+        <item>Naa-unmount na SD card</item>
+        <item>Hayaang magpasya ang system</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>Lokasyon</item>
+        <item>Personal</item>
+        <item>Pagmemensahe</item>
+        <item>Media</item>
+        <item>Device</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>Humigit-kumulang na lokasyon</item>
+        <item>Wastong lokasyon</item>
+        <item>GPS</item>
+        <item>Vibrate</item>
+        <item>Mga contact ng access</item>
+        <item>Baguhin ang contact</item>
+        <item>Basahin ang mga log ng tawag</item>
+        <item>Baguhin ang mga log ng tawag</item>
+        <item>Basahin ang kalendaryo</item>
+        <item>Baguhin ang kalendaryo</item>
+        <item>Scan ng Wi-Fi</item>
+        <item>Abiso</item>
+        <item>Scan ng network ng telepono</item>
+        <item>Tawag</item>
+        <item>Basahin ang SMS</item>
+        <item>Magbuo ng SMS</item>
+        <item>Tumanggap ng SMS</item>
+        <item>Tumanggap ng emerhensiyang SMS</item>
+        <item>Tumanggap ng MMS</item>
+        <item>Tumanggap ng push na mensahe ng WAP</item>
+        <item>Magpadala ng SMS</item>
+        <item>Basahin ang ICC SMS</item>
+        <item>Isulat ang ICC SMS</item>
+        <item>Baguhin ang mga setting</item>
+        <item>Gumuhit sa itaas</item>
+        <item>Ma-access ang mga abiso</item>
+        <item>Camera</item>
+        <item>I-record ang audio</item>
+        <item>I-play ang audio</item>
+        <item>Basahin ang nilalaman ng clipboard</item>
+        <item>Baguhin ang clipboard</item>
+        <item>Mga button ng media</item>
+        <item>Audio focus</item>
+        <item>Master volume</item>
+        <item>Volume ng boses</item>
+        <item>Volume ng ringer</item>
+        <item>Media volume</item>
+        <item>Volume ng alarma</item>
+        <item>Volume ng abiso</item>
+        <item>Volume ng bluetooth</item>
+        <item>Manatiling gising</item>
+        <item>Subaybayan ang lokasyon</item>
+        <item>Subaybayan ang mga serbisyo ng impormasyon ng gumagamit ng power</item>
+        <item>Kumuha ng impormasyon ng mga istatistika sa paggamit</item>
+        <item>I-mute ang mikropono o kanselahin ang pag-mute</item>
+        <item>Projection media</item>
+        <item>I-activate ang VPN</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>Lokasyon</item>
+        <item>Lokasyon</item>
+        <item>Lokasyon</item>
+        <item>Vibrate</item>
+        <item>Mga contact ng access</item>
+        <item>Baguhin ang contact</item>
+        <item>Basahin ang mga log ng tawag</item>
+        <item>Baguhin ang mga log ng tawag</item>
+        <item>Basahin ang kalendaryo</item>
+        <item>Baguhin ang kalendaryo</item>
+        <item>Lokasyon</item>
+        <item>Post na abiso</item>
+        <item>Lokasyon</item>
+        <item>Tawag</item>
+        <item>Basahin ang mga mensahe ng SMS/MMS</item>
+        <item>Bumuo ng mga mensahe ng SMS/MMS</item>
+        <item>Tanggapin ang mga mensahe ng SMS/MMS</item>
+        <item>Tanggapin ang mga mensahe ng SMS/MMS</item>
+        <item>Tanggapin ang mga mensahe ng SMS/MMS</item>
+        <item>Tanggapin ang mga mensahe ng SMS/MMS</item>
+        <item>Ipadala ang mga mensahe ng SMS/MMS</item>
+        <item>Basahin ang mga mensahe ng SMS/MMS</item>
+        <item>Bumuo ng mga mensahe ng SMS/MMS</item>
+        <item>Baguhin ang mga setting</item>
+        <item>Gumuhit sa itaas</item>
+        <item>Ma-access ang mga abiso</item>
+        <item>Camera</item>
+        <item>I-record ang audio</item>
+        <item>I-play ang audio</item>
+        <item>Basahin ang nilalaman ng clipboard</item>
+        <item>Baguhin ang clipboard</item>
+        <item>Mga button ng media</item>
+        <item>Audio focus</item>
+        <item>Master volume</item>
+        <item>Volume ng boses</item>
+        <item>Volume ng ringer</item>
+        <item>Media volume</item>
+        <item>Volume ng alarma</item>
+        <item>Volume ng abiso</item>
+        <item>Volume ng bluetooth</item>
+        <item>Manatiling gising</item>
+        <item>Lokasyon</item>
+        <item>Impormasyon ng lokasyon</item>
+        <item>Kumuha ng impormasyon ng mga istatistika sa paggamit</item>
+        <item>I-mute ang mikropono o kanselahin ang pag-mute</item>
+        <item>Projection media</item>
+        <item>I-activate ang VPN</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Maikli</item>
+        <item>Katamtaman</item>
+        <item>Mahaba</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>Default</item>
+        <item>Sans-serif</item>
+        <item>Sans-serif condensed</item>
+        <item>Sans-serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>Casual</item>
+        <item>Cursive</item>
+        <item>Small capitals</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>Napakaliit</item>
+        <item>Maliit</item>
+        <item>Normal</item>
+        <item>Malaki</item>
+        <item>Napakalaki</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>Default</item>
+        <item>Wala</item>
+        <item>Balangkas</item>
+        <item>Mga anino</item>
+        <item>embossment</item>
+        <item>Excavation</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>Gamitin ang default na istilo ng app</item>
+        <item>Puti sa itim</item>
+        <item>Itim sa puti</item>
+        <item>Dilaw sa itim</item>
+        <item>Dilaw sa asul</item>
+        <item>I-customize</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Bawat log buffer 64K</item>
+        <item>Bawat log buffer 256K</item>
+        <item>Bawat log buffer 1M</item>
+        <item>Bawat log buffer 4M</item>
+        <item>Bawat log buffer 16M</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Huwag kailanman magsuri</item>
+        <item>DRM na content lang ang suriin</item>
+        <item>Palaging magsuri</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Huwag kailanman gumamit ng pagsusuri ng HDCP</item>
+        <item>Gumamit ng pagsusuri ng HDCP para sa DRM na content lang</item>
+        <item>Palaging gumamit ng pagsusuri ng HDCP</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>I-off ang animation</item>
+        <item>Animation scale 0.5x</item>
+        <item>Animation scale 1x</item>
+        <item>Animation scale 1.5x</item>
+        <item>Animation scale 2x</item>
+        <item>Animation scale 5x</item>
+        <item>Animation scale 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>I-off ang animation</item>
+        <item>Animation scale 0.5x</item>
+        <item>Animation scale 1x</item>
+        <item>Animation scale 1.5x</item>
+        <item>Animation scale 2x</item>
+        <item>Animation scale 5x</item>
+        <item>Animation scale 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>I-off ang animation</item>
+        <item>Animation scale 0.5x</item>
+        <item>Animation scale 1x</item>
+        <item>Animation scale 1.5x</item>
+        <item>Animation scale 2x</item>
+        <item>Animation scale 5x</item>
+        <item>Animation scale 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Wala</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (secure)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (secure)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (secure)</item>
+        <item>1280x720 tvdpi at 1920x1080 xhdpi</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Wala</item>
+        <item>Logcat</item>
+        <item>Systrace (graphics)</item>
+        <item>Stack ng tawag sa glGetError</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>I-off</item>
+        <item>Gumuhit ng hindi parihaba na rehiyon ng clip sa kulay asul</item>
+        <item>Subukan ang mga command sa pagguhit na naka-highlight sa kulay berde</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>I-off</item>
+        <item>Ipinapakita sa screen bilang bar chart</item>
+        <item>Sa adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>I-off</item>
+        <item>Ipakita ang mga bahaging may overdraw</item>
+        <item>Ipakita ang mga bahagi para sa deuteranomaly</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Karaniwang mga limitasyon</item>
+        <item>Huwag payagan ang pagproseso ng background</item>
+        <item>Pinakamarami ang 1 proseso</item>
+        <item>Pinakamarami ang 2 proseso</item>
+        <item>Pinakamarami ang 3 proseso</item>
+        <item>Pinakamarami ang 4 na proseso</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>L2TP/IPSec VPN na may mga paunang ibinahaging key</item>
+        <item>L2TP/IPSec VPN na may mga certificate</item>
+        <item>IPSec VPN na may mga paunang ibinahaging key at pagpapatunay ng Xauth</item>
+        <item>IPSec VPN na may mga certificate at pagpapatunay ng Xauth</item>
+        <item>IPSec VPN na may mga certificate at hybrid na pagpapatunay</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Natanggal sa pagkakonekta</item>
+        <item>Sinisimulan...</item>
+        <item>Kumokonekta...</item>
+        <item>Nakakonekta</item>
+        <item>Time out</item>
+        <item>Nabigo</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Magtanong</item>
+        <item>Huwag payagan kailanman</item>
+        <item>Palaging payagan</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>Pangkalahatan</item>
+        <item>Katamtaman</item>
+        <item>Mababa</item>
+        <item>kritikal</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>Normal</item>
+        <item>Katamtamang antas</item>
+        <item>Mababa</item>
+        <item>kritikal</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>Resident</item>
+        <item>Mga aktibidad na mataas ang antas</item>
+        <item>Mahalaga (foreground)</item>
+        <item>Mahalaga (background)</item>
+        <item>I-back up</item>
+        <item>Heavyweight</item>
+        <item>Serbisyo (gumagana)</item>
+        <item>Serbisyo (nagre-restart)</item>
+        <item>Receiver</item>
+        <item>Home screen</item>
+        <item>Nakaraang aktibidad</item>
+        <item>Naka-buffer (aktibo)</item>
+        <item>Naka-buffer (aktibong client)</item>
+        <item>Naka-buffer (walang laman)</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>Cyan</item>
+        <item>Blue</item>
+        <item>Indigo</item>
+        <item>Lila</item>
+        <item>Kulay-rosas</item>
+        <item>Pula</item>
+    </string-array>
+    <string-array name="ring_or_mtp_change_entries">
+        <item>Ringtone</item>
+        <item>Media</item>
+    </string-array>
+    <string-array name="app_loc_permission">
+        <item>Huwag paganahin</item>
+        <item>Payagan</item>
+        <item>Magtanong</item>
+    </string-array>
+    <string-array name="key_light_control_mode">
+        <item>1.5 segundo</item>
+        <item>6 na segundo</item>
+        <item>Palaging naka-on</item>
+        <item>Palaging naka-off</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_amoled">
+        <item>15 segundo</item>
+        <item>30 segundo</item>
+        <item>1 minuto</item>
+        <item>2 minuto</item>
+        <item>5 minuto</item>
+        <item>10 minuto</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_mtfp">
+        <item>15 segundo</item>
+        <item>30 segundo</item>
+        <item>1 minuto</item>
+        <item>2 minuto</item>
+        <item>5 minuto</item>
+        <item>10 minuto</item>
+        <item>30 minuto</item>
+        <item>Huwag kailanman</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>Ano ang pangalan ng iyong ama?</item>
+        <item>Ano ang pangalan ng iyong ina?</item>
+        <item>Ano ang pangalan ng iyong asawa?</item>
+        <item>Saang paaralang elementarya ka nag-aral?</item>
+        <item>Ano ang pangalan ng guro mo noong kindergarten?</item>
+        <item>Ano ang pangalan ng guro mo noong high school?</item>
+        <item>Ano ang pangalan ng pinakamatalik mong kaibigan noong bata ka?</item>
+        <item>Saan ka ipinanganak?</item>
+        <item>Ano ang iyong numero ng pagkakakilanlan sa paaralan (trabaho)?</item>
+        <item>Ano ang huling 6 na digit ng numero ng iyong identification card?</item>
+        <item>Ano ang numero ng plaka ng lisensya ng iyong sasakyan?</item>
+        <item>Ano ang pangalan ng kumpanya kung saan ka unang nagtrabaho?</item>
+        <item>Custom na problema</item>
+    </string-array>
+    <string-array name="area_entrys">
+        <item>Thailand</item>
+        <item>Malaysia</item>
+        <item>Indonesia</item>
+        <item>India</item>
+        <item>Myanmar</item>
+        <item>Pilipinas</item>
+        <item>Vietnam</item>
+        <item>Brunei</item>
+        <item>Cambodia</item>
+        <item>Laos</item>
+        <item>Singapore</item>
+        <item>Bangladesh</item>
+        <item>Nepal</item>
+        <item>Pakistan</item>
+        <item>Sri Lanka</item>
+    </string-array>
+    <string-array name="vivo_rom_25problem_ask_lables">
+        <item>Saang paaralang elementarya ka nag-aral?</item>
+        <item>Ano ang pangalan ng iyong ama?</item>
+        <item>Ano ang pangalan ng iyong ina?</item>
+        <item>Ano ang pangalan ng iyong asawa?</item>
+        <item>Saan ka ipinanganak?</item>
+        <item>ano ang tawag sa iyo ng iyong mga magulang?</item>
+        <item>Ang guro sa iyong klase sa high school?</item>
+        <item>Ang pinakamatalik mong kaibigan sa pagkabata?</item>
+        <item>Ano ang iyong numero ng pagkakakilanlan sa paaralan (trabaho)?</item>
+        <item>Ang huling 6 na digit ng iyong IC number?</item>
+        <item>Ano ang numero ng plaka ng lisensya ng iyong sasakyan?</item>
+        <item>Ano ang pangalan ng kumpanya kung saan ka unang nagtrabaho?</item>
+        <item>Custom na problema</item>
+    </string-array>
+    <string-array name="timezones_cities_array">
+        <item>"Abidjan, Cote d'Ivoire"</item>
+        <item>Abu Dhabi, UAE</item>
+        <item>Accra, Ghana</item>
+        <item>Addis Ababa, Ethiopia</item>
+        <item>Adelaide, Australia</item>
+        <item>Alaska, USA</item>
+        <item>Algiers, Algeria</item>
+        <item>Almaty, Kazakhstan</item>
+        <item>Ambon, Indonesia</item>
+        <item>Amman, Jordan</item>
+        <item>Amsterdam, Netherlands</item>
+        <item>Anadyr, Russia</item>
+        <item>Anchorage, USA</item>
+        <item>Ankara, Turkey</item>
+        <item>Anshan, China</item>
+        <item>Antananarivo, Madagascar</item>
+        <item>Ashgabat, Turkmenistan</item>
+        <item>Asmara, Eritrea</item>
+        <item>Astana, Kazakhstan</item>
+        <item>Asuncion, Paraguay</item>
+        <item>Athens, Greece</item>
+        <item>Atlanta, USA</item>
+        <item>Auckland, New Zealand</item>
+        <item>Austin, USA</item>
+        <item>Azores, Portugal</item>
+        <item>Baghdad, Iraq</item>
+        <item>Baku, Azerbaijan</item>
+        <item>Baltimore, USA</item>
+        <item>Bamako, Mali</item>
+        <item>Bangalore, India</item>
+        <item>Bangkok, Thailand</item>
+        <item>Bangui, Central African Republic</item>
+        <item>Baoding, China</item>
+        <item>Baotou, China</item>
+        <item>Barcelona, Spain</item>
+        <item>Bari, Italy</item>
+        <item>Basse-Terre, Guadeloupe</item>
+        <item>Beijing, China</item>
+        <item>Beirut, Lebanon</item>
+        <item>Belgrade, Serbia</item>
+        <item>Belize City, Belize</item>
+        <item>Benxi, China</item>
+        <item>Berlin, Germany</item>
+        <item>Bern, Switzerland</item>
+        <item>Bishkek, Kyrgyzstan</item>
+        <item>Bissau, Guinea Bissau</item>
+        <item>Bogotá, Colombia</item>
+        <item>Bologna, Italy</item>
+        <item>Boston, USA</item>
+        <item>Brasilia, Brazil</item>
+        <item>Bratislava, Slovakia</item>
+        <item>Brazzaville, Congo</item>
+        <item>Bridgetown, Barbados</item>
+        <item>Brisbane, Australia</item>
+        <item>Brussels, Belgium</item>
+        <item>Bucharest, Romania</item>
+        <item>Budapest, Hungary</item>
+        <item>Buenos Aires, Argentina</item>
+        <item>Cairo, Egypt</item>
+        <item>Calgary, Canada</item>
+        <item>Canary Islands, Spain</item>
+        <item>Canberra, Australia</item>
+        <item>Cape Town, South Africa</item>
+        <item>Caracas, Venezuela</item>
+        <item>Cardiff, Wales</item>
+        <item>Casablanca, Morocco</item>
+        <item>Catanzaro, Italy</item>
+        <item>Cayenne, French Guiana</item>
+        <item>Changchun, China</item>
+        <item>Changsha, China</item>
+        <item>Changzhou, China</item>
+        <item>Charlotte, USA</item>
+        <item>Charlotte Amalie, U.S. Virgin Islands</item>
+        <item>Chelyabinsk, Russia</item>
+        <item>Chengdu, China</item>
+        <item>Chennai, India</item>
+        <item>Chicago, USA</item>
+        <item>Chihuahua, Mexico</item>
+        <item>Chisinau, Moldova</item>
+        <item>Chita, Russia</item>
+        <item>Chongqing, China</item>
+        <item>Cleveland, USA</item>
+        <item>Colombo, Sri Lanka</item>
+        <item>Columbus, USA</item>
+        <item>Conakry, Guinea</item>
+        <item>Copenhagen, Denmark</item>
+        <item>Cork, Ireland</item>
+        <item>Crotone, Italy</item>
+        <item>Dakar, Senegal</item>
+        <item>Dalian, China</item>
+        <item>Dallas, USA</item>
+        <item>Damascus, Syria</item>
+        <item>Daqing, China</item>
+        <item>Dar es Salaam, Tanzania</item>
+        <item>Darwin, Australia</item>
+        <item>Datong, China</item>
+        <item>Denpasar, Indonesia</item>
+        <item>Denver, USA</item>
+        <item>Detroit, USA</item>
+        <item>Dhaka, Bangladesh</item>
+        <item>Diego Garcia, UK</item>
+        <item>Djibouti</item>
+        <item>Doha, Qatar</item>
+        <item>Douala, Cameroon</item>
+        <item>Dubai, UAE</item>
+        <item>Dublin, Ireland</item>
+        <item>Dushanbe, Tajikistan</item>
+        <item>Easter Island, Chile</item>
+        <item>Edinburgh, Scotland</item>
+        <item>Edmonton, Canada</item>
+        <item>El Paso, USA</item>
+        <item>Fernando de Noronha, Brazil</item>
+        <item>Florence, Italy</item>
+        <item>Fort-de-France, Martinique</item>
+        <item>Frankfurt, Germany</item>
+        <item>Freetown, Sierra Leone</item>
+        <item>Fushun, China</item>
+        <item>Fuxin, China</item>
+        <item>Fuzhou, China</item>
+        <item>Gaborone, Botswana</item>
+        <item>Galapagos Islands, Ecuador</item>
+        <item>Geneva, Switzerland</item>
+        <item>Genoa, Italy</item>
+        <item>Georgetown, Guyana</item>
+        <item>Greenland</item>
+        <item>Grytviken, South Georgia</item>
+        <item>Guam</item>
+        <item>Guangzhou, China</item>
+        <item>Guatemala</item>
+        <item>Guatemala City, Guatemala</item>
+        <item>Guiyang, China</item>
+        <item>Gustavia, Saint Barthelemy</item>
+        <item>Haikou, China</item>
+        <item>Halifax, Canada</item>
+        <item>Hamburg, Germany</item>
+        <item>Handan, China</item>
+        <item>Hangzhou, China</item>
+        <item>Hanoi, Vietnam</item>
+        <item>Harare, Zimbabwe</item>
+        <item>Harbin, China</item>
+        <item>Havana, Cuba</item>
+        <item>Hawaii, USA</item>
+        <item>Hefei, China</item>
+        <item>Helsinki, Finland</item>
+        <item>Ho Chi Minh City, Vietnam</item>
+        <item>Hobart, Australia</item>
+        <item>Hohhot, China</item>
+        <item>Hong Kong, China</item>
+        <item>Honolulu, USA</item>
+        <item>Houston, USA</item>
+        <item>Hovd, Mongolia</item>
+        <item>"Huai'an, China"</item>
+        <item>Huainan, China</item>
+        <item>Hyderabad, India</item>
+        <item>Indianapolis, USA</item>
+        <item>Irkutsk, Russia</item>
+        <item>Islamabad, Pakistan</item>
+        <item>Istanbul, Turkey</item>
+        <item>Izhevsk, Russia</item>
+        <item>Jakarta, Indonesia</item>
+        <item>Jeddah, Saudi Arabia</item>
+        <item>Jerusalem, Israel</item>
+        <item>Jilin City, China</item>
+        <item>Jinan, China</item>
+        <item>Jinzhou, China</item>
+        <item>Jixi, China</item>
+        <item>Johannesburg, South Africa</item>
+        <item>Kabul, Afghanistan</item>
+        <item>Kaliningrad, Russia</item>
+        <item>Kamchatka, Russia</item>
+        <item>Kampala, Uganda</item>
+        <item>Karachi, Pakistan</item>
+        <item>Kathmandu, Nepal</item>
+        <item>Khabarovsk, Russia</item>
+        <item>Kharkiv, Ukraine</item>
+        <item>Khartoum, Sudan</item>
+        <item>Kingston, Canada</item>
+        <item>Kinshasa, Congo Dem.Rep.</item>
+        <item>Kiritimati, Kiribati</item>
+        <item>Kolkata, India</item>
+        <item>Krasnoyarsk, Russia</item>
+        <item>Kuala Lumpur, Malaysia</item>
+        <item>Kunming, China</item>
+        <item>Kuwait City, Kuwait</item>
+        <item>Kyiv, Ukraine</item>
+        <item>La Paz, Bolivia</item>
+        <item>Lagos, Nigeria</item>
+        <item>Lahore, Pakistan</item>
+        <item>Lanzhou, China</item>
+        <item>Las Vegas, USA</item>
+        <item>Lima, Peru</item>
+        <item>Lisbon, Portugal</item>
+        <item>Liuzhou, China</item>
+        <item>Ljubljana, Slovenia</item>
+        <item>London, England</item>
+        <item>Los Angeles, USA</item>
+        <item>Louisville, USA</item>
+        <item>Luanda, Angola</item>
+        <item>Lubumbashi, D.R. Congo</item>
+        <item>Luoyang, China</item>
+        <item>Lusaka, Zambia</item>
+        <item>Luxembourg</item>
+        <item>Lviv, Ukraine</item>
+        <item>Macau, China</item>
+        <item>Madrid, Spain</item>
+        <item>Magadan, Russia</item>
+        <item>Majuro, Marshall Islands</item>
+        <item>Malabo, Equatorial Guinea</item>
+        <item>Malé, Maldives</item>
+        <item>Managua, Nicaragua</item>
+        <item>Manama, Bahrain</item>
+        <item>Manaus, Brazil</item>
+        <item>Maynila, Pilipinas</item>
+        <item>Maputo, Mozambique</item>
+        <item>Marigot, Saint Martin</item>
+        <item>Mayotte, France</item>
+        <item>Mazatlan, Mexico</item>
+        <item>Mecca, Saudi Arabia</item>
+        <item>Melbourne, Australia</item>
+        <item>Memphis, USA</item>
+        <item>Messina, Italy</item>
+        <item>Mexico City, Mexico</item>
+        <item>Miami, USA</item>
+        <item>Mid-Atlantic</item>
+        <item>Midway Island, USA</item>
+        <item>Milan, Italy</item>
+        <item>Milwaukee, USA</item>
+        <item>Minneapolis, USA</item>
+        <item>Minsk, Belarus</item>
+        <item>Mogadishu, Somalia</item>
+        <item>Monrovia, Liberia</item>
+        <item>Montevideo, Uruguay</item>
+        <item>Montreal, Canada</item>
+        <item>Moscow, Russia</item>
+        <item>Mudanjiang, China</item>
+        <item>Mumbai, India</item>
+        <item>Munich, Germany</item>
+        <item>Muscat, Oman</item>
+        <item>Nairobi, Kenya</item>
+        <item>Nanchang, China</item>
+        <item>Nanjing, China</item>
+        <item>Nanning, China</item>
+        <item>Naples, Italy</item>
+        <item>Naters, Switzerland</item>
+        <item>"N'Djamena, Chad"</item>
+        <item>New Delhi, India</item>
+        <item>New Orleans, USA</item>
+        <item>New York, USA</item>
+        <item>Newfoundland, Canada</item>
+        <item>Niamey, Niger</item>
+        <item>Ningbo, China</item>
+        <item>Nouakchott, Mauritania</item>
+        <item>Noumea, New Caledonia</item>
+        <item>Novokuznetsk, Russia</item>
+        <item>Novosibirsk, Russia</item>
+        <item>Nukualofa, Tonga</item>
+        <item>Nuuk, Greenland</item>
+        <item>Omsk, Russia</item>
+        <item>Oral, Kazakhstan</item>
+        <item>Osaka, Japan</item>
+        <item>Oslo, Norway</item>
+        <item>Ottawa, Canada</item>
+        <item>Ouagadougou, Burkina Faso</item>
+        <item>Pago Pago, American Samoa</item>
+        <item>Palermo, Italy</item>
+        <item>Panama City, Panama</item>
+        <item>Paramaribo, Suriname</item>
+        <item>Paris, France</item>
+        <item>Perm, Russia</item>
+        <item>Perth, Australia</item>
+        <item>Petropavlovsk-Kamchatsky, Russia</item>
+        <item>Philadelphia, USA</item>
+        <item>Phnom Penh, Cambodia</item>
+        <item>Phoenix, USA</item>
+        <item>Pingdingshan, China</item>
+        <item>Podgorica, Montenegro</item>
+        <item>Ponta Delgada, Portugal</item>
+        <item>Port Louis, Mauritius</item>
+        <item>Port-au-Prince, Haiti</item>
+        <item>Portland, USA</item>
+        <item>Prague, Czech Republic</item>
+        <item>Praia, Cape Verde</item>
+        <item>"Pyongyang, Democratic People's Republic of Korea"</item>
+        <item>Qingdao, China</item>
+        <item>Qiqihar, China</item>
+        <item>Quito, Ecuador</item>
+        <item>Rabat, Morocco</item>
+        <item>Recife, Brazil</item>
+        <item>Regina, Canada</item>
+        <item>Reykjavik, Iceland</item>
+        <item>Riga, Latvia</item>
+        <item>Rio de Janeiro, Brazil</item>
+        <item>Riyadh, Saudi Arabia</item>
+        <item>Rome, Italy</item>
+        <item>São Paulo, Brazil</item>
+        <item>Saint-Denis, Reunion Island</item>
+        <item>Salt Lake City, USA</item>
+        <item>Samara, Russia</item>
+        <item>San Antonio, USA</item>
+        <item>San Diego, USA</item>
+        <item>San Francisco, USA</item>
+        <item>San José, Costa Rica</item>
+        <item>San Juan, Puerto Rico</item>
+        <item>San Marino</item>
+        <item>San Salvador, El Salvador</item>
+        <item>"Sana'a, Yemen"</item>
+        <item>Santiago, Chile</item>
+        <item>Santo Domingo, Dominican Republic</item>
+        <item>Sarajevo, Bosnia and Herzegovina</item>
+        <item>Seattle, USA</item>
+        <item>Seoul, South Korea</item>
+        <item>Shanghai, China</item>
+        <item>Shangqiu, China</item>
+        <item>Shantou, China</item>
+        <item>Shenyang, China</item>
+        <item>Shenzhen, China</item>
+        <item>Shijiazhuang, China</item>
+        <item>Singapore</item>
+        <item>Skopje, Macedonia</item>
+        <item>Sofia, Bulgaria</item>
+        <item>"St. John's, Canada"</item>
+        <item>St. Petersburg, Russia</item>
+        <item>St. Pierre and Miquelon, France</item>
+        <item>Stockholm, Sweden</item>
+        <item>Suva, Fiji</item>
+        <item>Suzhou, China</item>
+        <item>Sydney, Australia</item>
+        <item>Tahiti, French Polynesia</item>
+        <item>Taipei, China</item>
+        <item>Taiyuan, China</item>
+        <item>Tallinn, Estonia</item>
+        <item>Tangshan, China</item>
+        <item>Tarawa, Kiribati</item>
+        <item>Tashkent, Uzbekistan</item>
+        <item>Tbilisi, Georgia</item>
+        <item>Tegucigalpa, Honduras</item>
+        <item>Tehran, Iran</item>
+        <item>The Settlement, GB Vrgn Islds</item>
+        <item>Tianjin, China</item>
+        <item>Tijuana, Mexico</item>
+        <item>Tokyo, Japan</item>
+        <item>Tonga</item>
+        <item>Toronto, Canada</item>
+        <item>Tripoli, Libya</item>
+        <item>Tunis, Tunisia</item>
+        <item>Turin, Italy</item>
+        <item>Ufa, Russia</item>
+        <item>Ulaanbaatar, Mongolia</item>
+        <item>Ürümqi, China</item>
+        <item>Vaduz, Liechtenstein</item>
+        <item>Valletta, Malta</item>
+        <item>Vancouver, Canada</item>
+        <item>Verona, Italy</item>
+        <item>Victoria, Seychelles</item>
+        <item>Vienna, Austria</item>
+        <item>Vilnius, Lithuania</item>
+        <item>Vladivostok, Russia</item>
+        <item>Volgograd, Russia</item>
+        <item>Warsaw, Poland</item>
+        <item>Washington DC, USA</item>
+        <item>Weifang, China</item>
+        <item>Wellington, New Zealand</item>
+        <item>Windhoek, Namibia</item>
+        <item>Winnipeg, Canada</item>
+        <item>Wuhan, China</item>
+        <item>Wuxi, China</item>
+        <item>"Xi'an, China"</item>
+        <item>Xiangyang, China</item>
+        <item>Xining, China</item>
+        <item>Xuzhou, China</item>
+        <item>Yakutsk, Russia</item>
+        <item>"Yamoussoukro, Cote d'Ivoire"</item>
+        <item>Yangon, Myanmar</item>
+        <item>Yantai, China</item>
+        <item>Yaounde, Cameroon</item>
+        <item>Yekaterinburg, Russia</item>
+        <item>Yerevan, Armenia</item>
+        <item>Yichang, China</item>
+        <item>Yichun, China</item>
+        <item>Yuzhno-Sakhalinsk, Russia</item>
+        <item>Zagreb, Croatia</item>
+        <item>Zaozhuang, China</item>
+        <item>Zhangjiakou, China</item>
+        <item>Zhanjiang, China</item>
+        <item>Zhengzhou, China</item>
+        <item>Zibo, China</item>
+        <item>Zürich, Switzerland</item>
+        <item>South Georgia</item>
+        <item>Bandar Seri Begawan</item>
+        <item>Vientiane</item>
+    </string-array>
+</resources>

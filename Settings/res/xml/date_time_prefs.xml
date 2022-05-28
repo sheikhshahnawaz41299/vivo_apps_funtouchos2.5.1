@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/date_and_time"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <VivoCheckBoxPreference android:title="@string/date_time_zone_auto" android:key="auto_time" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/date_time_auto" android:key="auto_time_ex" />
+    <PreferenceCategory android:title="@string/auto_time_explain" android:key="auto_time_explain" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/zone_auto" android:key="auto_zone" />
+    <Preference android:title="@string/date_time_set_time" android:key="time" android:summary="12:00am" />
+    <Preference android:title="@string/date_time_set_date" android:key="date" android:summary="03/10/2008" />
+    <PreferenceScreen android:title="@string/date_time_set_timezone" android:key="timezone" android:summary="GMT-8:00">
+        <intent android:targetPackage="com.android.settings" android:targetClass="com.vivo.settings.ZoneSettings" />
+    </PreferenceScreen>
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/thai_calendar" android:key="thaiCalendar" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/date_time_24hour" android:key="24 hour" />
+    <ListPreference android:title="@string/date_time_date_format" android:key="date_format" android:summary="mm/dd/yyyy" />
+</PreferenceScreen>

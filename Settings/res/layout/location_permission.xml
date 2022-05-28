@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@android:id/icon" android:layout_width="@dimen/app_icon_size" android:layout_height="@dimen/app_icon_size" android:layout_marginLeft="@dimen/location_icon_margin" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/location_left_margin" android:layout_toLeftOf="@android:id/summary" android:layout_toRightOf="@android:id/icon" android:layout_centerVertical="true" />
+    <TextView android:textAppearance="?vivo:textAppearancePreferenceSummary" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@vivo:dimen/preference_right_margin" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:id="@id/divider" android:background="?android:dividerHorizontal" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@vivo:dimen/divider_height" android:layout_marginLeft="@dimen/location_left_margin" android:layout_toRightOf="@android:id/icon" android:layout_alignParentBottom="true" />
+</RelativeLayout>

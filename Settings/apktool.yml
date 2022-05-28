@@ -1,0 +1,27 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: Settings.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- png
+- jpg
+- ogg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '21'
+  targetSdkVersion: '21'
+sharedLibrary: false
+sparseResources: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  - 3
+  tag: null
+version: 2.5.0
+versionInfo:
+  versionCode: '41'
+  versionName: 2.5.1

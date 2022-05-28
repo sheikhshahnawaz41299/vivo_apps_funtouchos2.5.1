@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">మీరు ఇప్పుడు డెవలపర్ కావడానికి %1$d అడుగుల దూరంలో ఉన్నారు.</item>
+        <item quantity="one">మీరు ఇప్పుడు డెవలపర్ కావడానికి %1$d అడుగుల దూరంలో ఉన్నారు.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">పాస్‌వర్డ్‌లో కనీసం %d అక్షరాలు ఉండాలి.</item>
+        <item quantity="one">పాస్‌వర్డ్‌లో కనీసం 1 అక్షరం ఉండాలి.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">పాస్‌వర్డ్‌లో కనీసం %d లోయర్‌కేస్ అక్షరాలు ఉండాలి.</item>
+        <item quantity="one">పాస్‌వర్డ్‌లో కనీసం 1 లోయర్‌కేస్ అక్షరం ఉండాలి.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">పాస్‌వర్డ్‌లో కనీసం %d అప్పర్‌కేస్ అక్షరాలు ఉండాలి.</item>
+        <item quantity="one">పాస్‌వర్డ్‌లో కనీసం 1 అప్పర్‌కేస్ అక్షరం ఉండాలి.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">పాస్‌వర్డ్‌లో కనీసం %d అంకెలు ఉండాలి.</item>
+        <item quantity="one">పాస్‌వర్డ్‌లో కనీసం ఒక అంకె ఉండాలి.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">పాస్‌వర్డ్‌లో కనీసం %d ప్రత్యేక అక్షరాలు ఉండాలి.</item>
+        <item quantity="one">పాస్‌వర్డ్‌లో కనీసం 1 ప్రత్యేక అక్షరం ఉండాలి.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">పాస్‌వర్డ్‌లో కనీసం %d సంఖ్యాత్మక అక్షరాలు లేదా సంకేత చిహ్నాలు ఉండాలి</item>
+        <item quantity="one">పాస్‌వర్డ్‌లో కనీసం 1 ఆల్ఫా యేతర అక్షరం ఉండాలి</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">సిమ్ కార్డ్ PIN తప్పు. మీకు %d ప్రయత్నం(లు) మిగిలి ఉంది(ఉన్నాయి).</item>
+        <item quantity="one">సిమ్ కార్డ్ PIN తప్పు. మీకు మీ పరికరాన్ని అన్‌లాక్ చేయడానికి %d ప్రయత్నం(లు) మిగిలి ఉంది(ఉన్నాయి), ఆ తర్వాత మీరు మీ క్యారియర్‌ను సంప్రదించాలి.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d అప్లికేషన్(లు) నోటిఫికేషన్‌లను చదవగలదు/చదవగలవు</item>
+        <item quantity="one">%d అప్లికేషన్(లు) నోటిఫికేషన్‌లను చదవగలదు/చదవగలవు</item>
+    </plurals>
+    <plurals name="manage_condition_providers_summary_nonzero">
+        <item quantity="other">%d అప్లికేషన్‌లు షరతులను అందించగలవు</item>
+        <item quantity="one">%d అప్లికేషన్‌లు షరతులను అందించగలవు</item>
+    </plurals>
+</resources>

@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="screen_timeout_entries">
+        <item>15 ثانية</item>
+        <item>30 ثوانٍ</item>
+        <item>1 دقيقة</item>
+        <item>2 دقيقة</item>
+        <item>5 دقائق</item>
+        <item>10 دقائق</item>
+        <item>30 دقيقة</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>فورًا</item>
+        <item>5 ثوانٍ</item>
+        <item>15 ثانية</item>
+        <item>30 ثوانٍ</item>
+        <item>1 دقيقة</item>
+        <item>2 دقيقة</item>
+        <item>5 دقائق</item>
+        <item>10 دقائق</item>
+        <item>30 دقيقة</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>صغير</item>
+        <item>عادي</item>
+        <item>كبير</item>
+        <item>كبير جدًا</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>بطيء للغاية</item>
+        <item>بطيء</item>
+        <item>عادي</item>
+        <item>سريع</item>
+        <item>أسرع</item>
+        <item>سريع جدًا</item>
+        <item>سريع للغاية</item>
+        <item>شديد السرعة للغاية</item>
+        <item>الأسرع</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>جارٍ المسح…</item>
+        <item>جارٍ الاتصال…</item>
+        <item>جارٍ المصادقة…</item>
+        <item>جارٍ الحصول على عنوان IP…</item>
+        <item>متصل</item>
+        <item>تم الإيقاف مؤقتًا</item>
+        <item>جارٍ قطع الاتصال…</item>
+        <item>تم قطع الاتصال</item>
+        <item>فشل</item>
+        <item>معطل</item>
+        <item>تم إيقاف التشغيل مؤقتًا (اتصال الشبكة ضعيف)</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>جارٍ المسح…</item>
+        <item>جارٍ الاتصال بـ %1$s…</item>
+        <item>جارٍ المصادقة مع %1$s…</item>
+        <item>جارٍ الحصول على عنوان IP من %1$s…</item>
+        <item>متصل بـ %1$s</item>
+        <item>تم الإيقاف مؤقتًا</item>
+        <item>جارٍ قطع الاتصال بـ %1$s…</item>
+        <item>تم قطع الاتصال</item>
+        <item>فشل</item>
+        <item>معطل</item>
+        <item>تم إيقاف التشغيل مؤقتًا (اتصال الشبكة ضعيف)</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>متصل</item>
+        <item>تمت الدعوة</item>
+        <item>فشل</item>
+        <item>متاح</item>
+        <item>خارج النطاق</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 دقيقة</item>
+        <item>5 دقائق</item>
+        <item>ساعة واحدة</item>
+        <item>بلا مهلة</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>ضعيف</item>
+        <item>عام</item>
+        <item>جيد</item>
+        <item>ممتاز</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>دائمًا</item>
+        <item>أثناء التوصيل بالطاقة فقط</item>
+        <item>مطلقًا</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>دائمًا</item>
+        <item>أثناء التوصيل بالطاقة فقط</item>
+        <item>مطلقًا</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>تلقائي</item>
+        <item>5 جيجاهرتز فقط</item>
+        <item>2.4 جيجاهرتز فقط</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>وقت الاستخدام</item>
+        <item>آخر مرة تم استخدامه</item>
+        <item>اسم التطبيق</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>لا شيء</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>لا شيء</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>ثابت</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>لا شيء</item>
+        <item>يدوي</item>
+        <item>تكوين تلقائي للوكيل</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>لا شيء</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>بروتوكول مصادقة كلمات المرور (PAP) أو بروتوكول CHAP</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>غير محدد</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>لا شيء</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>وحدة تخزين الجهاز الداخلية</item>
+        <item>بطاقة SD قابلة للإزالة</item>
+        <item>ترك القرار للنظام</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>الموقع</item>
+        <item>شخصي</item>
+        <item>رسالة SMS</item>
+        <item>الوسائط</item>
+        <item>الجهاز</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>الموقع التقريبي</item>
+        <item>الموقع الدقيق</item>
+        <item>GPS</item>
+        <item>اهتزاز</item>
+        <item>قراءة جهات الاتصال</item>
+        <item>تعديل جهات الاتصال</item>
+        <item>قراءة سجلات المكالمات</item>
+        <item>تعديل سجلات المكالمات</item>
+        <item>قراءة التقويم</item>
+        <item>تعديل التقويم</item>
+        <item>مسح شبكات wi-fi</item>
+        <item>إشعار</item>
+        <item>مسح شبكة الهاتف</item>
+        <item>اتصال</item>
+        <item>قراءة رسائل SMS</item>
+        <item>إنشاء رسائل SMS</item>
+        <item>استلام رسائل SMS</item>
+        <item>استلام رسائل SMS للطوارئ</item>
+        <item>استلام رسائل MMS</item>
+        <item>استلام رسائل WAP push</item>
+        <item>إرسال رسالة SMS</item>
+        <item>قراءة رسائل SMS لبطاقة ICC</item>
+        <item>كتابة رسائل SMS لبطاقة ICC</item>
+        <item>تعديل الإعدادات</item>
+        <item>رسم في الأعلى</item>
+        <item>إشعارات الوصول</item>
+        <item>كاميرا</item>
+        <item>تسجيل الصوت</item>
+        <item>تشغيل الصوت</item>
+        <item>قراءة محتوى الحافظة</item>
+        <item>تعديل محتوى الحافظة</item>
+        <item>أزرار الوسائط</item>
+        <item>التركيز على الصوت</item>
+        <item>مستوى الصوت الرئيسي</item>
+        <item>مستوى الصوت</item>
+        <item>مستوى صوت الرنين</item>
+        <item>مستوى صوت الوسائط</item>
+        <item>مستوى صوت المنبه</item>
+        <item>مستوى صوت الإشعار</item>
+        <item>مستوى صوت Bluetooth</item>
+        <item>استمرار الوضع النشط</item>
+        <item>مراقبة الموقع</item>
+        <item>مراقبة خدمات معلومات الموقع التي تستهلك الطاقة</item>
+        <item>الحصول على إحصائيات الاستخدام</item>
+        <item>كتم /إلغاء كتم صوت الميكروفون</item>
+        <item>عرض الوسائط</item>
+        <item>تنشيط شبكة VPN</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>الموقع</item>
+        <item>الموقع</item>
+        <item>الموقع</item>
+        <item>اهتزاز</item>
+        <item>قراءة جهات الاتصال</item>
+        <item>تعديل جهات الاتصال</item>
+        <item>قراءة سجلات المكالمات</item>
+        <item>تعديل سجلات المكالمات</item>
+        <item>قراءة التقويم</item>
+        <item>تعديل التقويم</item>
+        <item>الموقع</item>
+        <item>نشر إشعار</item>
+        <item>الموقع</item>
+        <item>اتصال</item>
+        <item>قراءة رسائل SMS/MMS</item>
+        <item>إنشاء رسائل SMS/MMS</item>
+        <item>استلام رسائل SMS/MMS</item>
+        <item>استلام رسائل SMS/MMS</item>
+        <item>استلام رسائل SMS/MMS</item>
+        <item>استلام رسائل SMS/MMS</item>
+        <item>إرسال رسائل SMS/MMS</item>
+        <item>قراءة رسائل SMS/MMS</item>
+        <item>إنشاء رسائل SMS/MMS</item>
+        <item>تعديل الإعدادات</item>
+        <item>رسم في الأعلى</item>
+        <item>إشعارات الوصول</item>
+        <item>كاميرا</item>
+        <item>تسجيل الصوت</item>
+        <item>تشغيل الصوت</item>
+        <item>قراءة محتوى الحافظة</item>
+        <item>تعديل محتوى الحافظة</item>
+        <item>أزرار الوسائط</item>
+        <item>التركيز على الصوت</item>
+        <item>مستوى الصوت الرئيسي</item>
+        <item>مستوى الصوت</item>
+        <item>مستوى صوت الرنين</item>
+        <item>مستوى صوت الوسائط</item>
+        <item>مستوى صوت المنبه</item>
+        <item>مستوى صوت الإشعار</item>
+        <item>مستوى صوت Bluetooth</item>
+        <item>استمرار الوضع النشط</item>
+        <item>الموقع</item>
+        <item>معلومات الموقع</item>
+        <item>الحصول على إحصائيات الاستخدام</item>
+        <item>كتم /إلغاء كتم صوت الميكروفون</item>
+        <item>عرض الوسائط</item>
+        <item>تنشيط شبكة VPN</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>قصير</item>
+        <item>متوسط</item>
+        <item>طويل</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>افتراضي</item>
+        <item>Sans-serif</item>
+        <item>Sans-serif condensed</item>
+        <item>Sans-serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>Casual</item>
+        <item>Cursive</item>
+        <item>Small capitals</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>صغير جدًا</item>
+        <item>صغير</item>
+        <item>عادي</item>
+        <item>كبير</item>
+        <item>كبير جدًا</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>افتراضي</item>
+        <item>لا شيء</item>
+        <item>مخطط</item>
+        <item>ظلال</item>
+        <item>مرتفعة</item>
+        <item>منخفضة</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>استخدام الإعدادات الافتراضية للتطبيق</item>
+        <item>أبيض على أسود</item>
+        <item>أسود على أبيض</item>
+        <item>أصفر على أسود</item>
+        <item>أصفر على أزرق</item>
+        <item>تخصيص</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>64 كيلوبايت لكل مخزن مؤقت للتسجيل</item>
+        <item>٢٥٦ K لكل مخزن مؤقت للتسجيل</item>
+        <item>1 ميجابايت لكل مخزن مؤقت للتسجيل</item>
+        <item>4 ميجابايت لكل مخزن مؤقت للتسجيل</item>
+        <item>16 ميجابايت لكل مخزن مؤقت للتسجيل</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>عدم التحقق مطلقًا</item>
+        <item>التحقق من محتوى DRM فقط</item>
+        <item>التحقق دائمًا</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>عدم استخدام التحقق من HDCP مطلقًا</item>
+        <item>استخدام التحقق من HDCP لمحتوى DRM فقط</item>
+        <item>استخدام التحقق من HDCP دائمًا</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>إيقاف تشغيل الرسوم المتحركة</item>
+        <item>مقياس الرسوم المتحركة 0.5x</item>
+        <item>مقياس الرسوم المتحركة 1x</item>
+        <item>مقياس الرسوم المتحركة 1.5x</item>
+        <item>مقياس الرسوم المتحركة 2x</item>
+        <item>مقياس الرسوم المتحركة 5x</item>
+        <item>مقياس الرسوم المتحركة 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>إيقاف تشغيل الرسوم المتحركة</item>
+        <item>مقياس الرسوم المتحركة 0.5x</item>
+        <item>مقياس الرسوم المتحركة 1x</item>
+        <item>مقياس الرسوم المتحركة 1.5x</item>
+        <item>مقياس الرسوم المتحركة 2x</item>
+        <item>مقياس الرسوم المتحركة 5x</item>
+        <item>مقياس الرسوم المتحركة 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>إيقاف تشغيل الرسوم المتحركة</item>
+        <item>مقياس الرسوم المتحركة 0.5x</item>
+        <item>مقياس الرسوم المتحركة 1x</item>
+        <item>مقياس الرسوم المتحركة 1.5x</item>
+        <item>مقياس الرسوم المتحركة 2x</item>
+        <item>مقياس الرسوم المتحركة 5x</item>
+        <item>مقياس الرسوم المتحركة 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>لا شيء</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (آمن)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (آمن)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (آمن)</item>
+        <item>1280x720 tvdpi و1920x1080 xhdpi</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>لا شيء</item>
+        <item>Logcat</item>
+        <item>Systrace (رسومات)</item>
+        <item>تكدس الاستدعاءات في دالة glGetError</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>إغلاق</item>
+        <item>رسم منطقة القصاصة غير المستطيلة باللون الأزرق</item>
+        <item>تمييز أوامر الرسم الاختباري باللون الأخضر</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>إغلاق</item>
+        <item>إظهار على الشاشة كمخطط شريطي</item>
+        <item>في adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>إغلاق</item>
+        <item>إظهار مناطق تجاوز الحد</item>
+        <item>إظهار مناطق شذوذ إبصار الأخضر والأحمر</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>الحدود القياسية</item>
+        <item>عدم السماح بتشغيل عمليات في الخلفية</item>
+        <item>عملية واحدة بحد أقصى</item>
+        <item>عمليتان بحد أقصى</item>
+        <item>3 عمليات بحد أقصى</item>
+        <item>4 عمليات بحد أقصى</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>شبكة L2TP/IPSec VPN مزودة بمفاتيح مشتركة مسبقًا</item>
+        <item>شبكة L2TP/IPSec VPN مزودة بشهادات</item>
+        <item>شبكة IPSec VPN مزودة بمفاتيح مشتركة مسبقًا ومصادقة Xauth</item>
+        <item>شبكة IPSec VPN مزودة بشهادات ومصادقة Xauth</item>
+        <item>شبكة IPSec VPN مزودة بشهادات ومصادقة مختلطة</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>غير متصل</item>
+        <item>جار التهيئة…</item>
+        <item>جارٍ الاتصال…</item>
+        <item>متصل</item>
+        <item>المهلة</item>
+        <item>فشل</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>اسأل</item>
+        <item>عدم السماح مطلقًا</item>
+        <item>السماح دائمًا</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>عام</item>
+        <item>متوسط</item>
+        <item>منخفض</item>
+        <item>حرج</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>عادي</item>
+        <item>معتدل</item>
+        <item>منخفض</item>
+        <item>حرج</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>ثابت</item>
+        <item>أعلى نشاط</item>
+        <item>مهم (المقدمة)</item>
+        <item>مهم (الخلفية)</item>
+        <item>نسخ احتياطي</item>
+        <item>مرتبة عالية</item>
+        <item>الخدمة (قيد التشغيل)</item>
+        <item>الخدمة (إعادة التشغيل)</item>
+        <item>المستلِم</item>
+        <item>الشاشة الرئيسية</item>
+        <item>آخر نشاط</item>
+        <item>تخزين مؤقت (النشاط)</item>
+        <item>تخزين مؤقت (عميل النشاط)</item>
+        <item>تخزين مؤقت (فارغ)</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>سماوي</item>
+        <item>أزرق</item>
+        <item>نيلي</item>
+        <item>أرجواني</item>
+        <item>وردي</item>
+        <item>أحمر</item>
+    </string-array>
+    <string-array name="ring_or_mtp_change_entries">
+        <item>نغمات الرنين</item>
+        <item>الوسائط</item>
+    </string-array>
+    <string-array name="app_loc_permission">
+        <item>تعطيل</item>
+        <item>سماح</item>
+        <item>اسأل</item>
+    </string-array>
+    <string-array name="key_light_control_mode">
+        <item>1.5 ثوانٍ</item>
+        <item>6 ثوانٍ</item>
+        <item>تشغيل دائمًا</item>
+        <item>إيقاف تشغيل دائمًا</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_amoled">
+        <item>15 ثانية</item>
+        <item>30 ثوانٍ</item>
+        <item>1 دقيقة</item>
+        <item>2 دقيقة</item>
+        <item>٥ دقائق</item>
+        <item>10 دقائق</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_mtfp">
+        <item>15 ثانية</item>
+        <item>30 ثوانٍ</item>
+        <item>1 دقيقة</item>
+        <item>2 دقيقة</item>
+        <item>٥ دقائق</item>
+        <item>10 دقائق</item>
+        <item>٣٠ دقيقة</item>
+        <item>مطلقًا</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>ما اسم والدك؟</item>
+        <item>ما اسم والدتك؟</item>
+        <item>ما اسم زوجتك؟</item>
+        <item>ما المدرسة الابتدائية التي ذهبت إليها؟</item>
+        <item>ما اسم مدرسك في مرحلة الحضانة؟</item>
+        <item>ما اسم مدرسك في المرحلة الثانوية؟</item>
+        <item>ما اسم أفضل صديق لك في مرحلة الطفولة؟</item>
+        <item>ما مكان ميلادك؟</item>
+        <item>ما رقم تعريف الطالب (العمل) الخاص بك؟</item>
+        <item>ما آخر 6 أرقام في رقم بطاقة إثبات الشخصية؟</item>
+        <item>ما رقم لوحة ترخيص سيارتك؟</item>
+        <item>ما اسم أول شركة عملتَ بها؟</item>
+        <item>سؤال مخصص</item>
+    </string-array>
+    <string-array name="area_entrys">
+        <item>تايلاند</item>
+        <item>ماليزيا</item>
+        <item>إندونيسيا</item>
+        <item>الهند</item>
+        <item>ميانمار</item>
+        <item>الفلبين</item>
+        <item>فيتنام</item>
+        <item>بروناي</item>
+        <item>كمبوديا</item>
+        <item>لاوس</item>
+        <item>سنغافورة</item>
+        <item>بنجلاديش</item>
+        <item>نيبال</item>
+        <item>باكستان</item>
+        <item>سريلانكا</item>
+    </string-array>
+    <string-array name="vivo_rom_25problem_ask_lables">
+        <item>ما المدرسة الابتدائية التي ذهبت إليها؟</item>
+        <item>ما اسم والدك؟</item>
+        <item>ما اسم والدتك؟</item>
+        <item>ما اسم زوجتك؟</item>
+        <item>ما مكان ميلادك؟</item>
+        <item>ما لقبك؟</item>
+        <item>ما اسم مدرس الفصل في المرحلة الثانوية؟</item>
+        <item>مَن أفضل أصدقاء الطفولة؟</item>
+        <item>ما رقم تعريف الطالب (العمل) الخاص بك؟</item>
+        <item>ما آخر 6 أرقام في رقم التعريف الشخصي؟</item>
+        <item>ما رقم لوحة ترخيص سيارتك؟</item>
+        <item>ما اسم أول شركة عملتَ بها؟</item>
+        <item>سؤال مخصص</item>
+    </string-array>
+    <string-array name="timezones_cities_array">
+        <item>أبيدجان، ساحل العاج</item>
+        <item>أبو ظبي، الإمارات</item>
+        <item>أكرا، غانا</item>
+        <item>أديس أبابا، إثيوبيا</item>
+        <item>أديليد، أستراليا</item>
+        <item>ألاسكا، الولايات المتحدة</item>
+        <item>الجزائر، الجزائر</item>
+        <item>ألماتي، كازاخستان</item>
+        <item>أمبون، إندونيسيا</item>
+        <item>عمان، الأردن</item>
+        <item>أمستردام، هولندا</item>
+        <item>أنادير، روسيا</item>
+        <item>أنكوريج، الولايات المتحدة</item>
+        <item>أنقرة، تركيا</item>
+        <item>آنشان، الصين</item>
+        <item>أنتاناناريفو، مدغشقر</item>
+        <item>عشق أباد، تركمانستان</item>
+        <item>أسمرة، إريتريا</item>
+        <item>أستانا، كازاخستان</item>
+        <item>أسونسيون، باراغواي</item>
+        <item>أثينا، اليونان</item>
+        <item>أتلانتا، الولايات المتحدة</item>
+        <item>أوكلاند، نيوزيلندا</item>
+        <item>أوستن، الولايات المتحدة</item>
+        <item>الأزور، البرتغال</item>
+        <item>بغداد، العراق</item>
+        <item>باكو، أذربيجان</item>
+        <item>بالتيمور، الولايات المتحدة</item>
+        <item>باماكو، مالي</item>
+        <item>بنغالور، الهند</item>
+        <item>بانكوك، تايلاند</item>
+        <item>بانغي، جمهورية إفريقيا الوسطى</item>
+        <item>باودينج، الصين</item>
+        <item>باوتو، الصين</item>
+        <item>برشلونة، إسبانيا</item>
+        <item>باري، إيطاليا</item>
+        <item>باس-تير، جوادلوب</item>
+        <item>بكين، الصين</item>
+        <item>بيروت، لبنان</item>
+        <item>بلجراد، صربيا</item>
+        <item>بليز سيتي، بليز</item>
+        <item>بنشي، الصين</item>
+        <item>برلين، ألمانيا</item>
+        <item>برن، سويسرا</item>
+        <item>بيشكك، قيرغيزستان</item>
+        <item>بيساو، غينيا بيساو</item>
+        <item>بوغوتا، كولومبيا</item>
+        <item>بولونيا، إيطاليا</item>
+        <item>بوسطن، الولايات المتحدة</item>
+        <item>برازيليا، البرازيل</item>
+        <item>براتيسلافا، سلوفاكيا</item>
+        <item>برازافيل، الكونغو</item>
+        <item>بريدج تاون، بربادوس</item>
+        <item>بريزبن، أستراليا</item>
+        <item>بروكسل، بلجيكا</item>
+        <item>بوخارست، رومانيا</item>
+        <item>بودابست، المجر</item>
+        <item>بوينس أيرس، الأرجنتين</item>
+        <item>القاهرة، مصر</item>
+        <item>كالجاري، كندا</item>
+        <item>جزر الكناري، إسبانيا</item>
+        <item>كانبرا، أستراليا</item>
+        <item>كيب تاون، جنوب إفريقيا</item>
+        <item>كاراكاس، فنزويلا</item>
+        <item>كارديف، ويلز</item>
+        <item>الدار البيضاء، المغرب</item>
+        <item>كتنزارو، إيطاليا</item>
+        <item>كايين، غويانا الفرنسية</item>
+        <item>تشانجتشون، الصين</item>
+        <item>تشانجشا، الصين</item>
+        <item>تشانجتشو، الصين</item>
+        <item>تشارلوت، الولايات المتحدة</item>
+        <item>شارلوت أمالي، جزر فيرجن الأمريكية</item>
+        <item>تشيليابنسك، روسيا</item>
+        <item>تشنجدو، الصين</item>
+        <item>تشيناي، الهند</item>
+        <item>شيكاغو، الولايات المتحدة</item>
+        <item>تشيواوا، المكسيك</item>
+        <item>كيشيناو، مولدوفا</item>
+        <item>تشيتا، روسيا</item>
+        <item>تشونجتشينج، الصين</item>
+        <item>كليفلاند، الولايات المتحدة</item>
+        <item>كولومبو، سريلانكا</item>
+        <item>كولومبوس، الولايات المتحدة</item>
+        <item>كوناكري، غينيا</item>
+        <item>كوبنهاجن، الدنمارك</item>
+        <item>كورك، أيرلندا</item>
+        <item>كروتونه، إيطاليا</item>
+        <item>داكار، السنغال</item>
+        <item>داليان، الصين</item>
+        <item>دالاس، الولايات المتحدة</item>
+        <item>دمشق، سوريا</item>
+        <item>داتشينج، الصين</item>
+        <item>دار السلام، تنزانيا</item>
+        <item>داروين، أستراليا</item>
+        <item>داتونج، الصين</item>
+        <item>دنباسار، إندونيسيا</item>
+        <item>دينفر، الولايات المتحدة</item>
+        <item>ديترويت، الولايات المتحدة</item>
+        <item>دكا، بنغلاديش</item>
+        <item>دييغو غارسيا، المملكة المتحدة</item>
+        <item>جيبوتي</item>
+        <item>الدوحة، قطر</item>
+        <item>دوالا، الكاميرون</item>
+        <item>دبي، الإمارات</item>
+        <item>دبلن، أيرلندا</item>
+        <item>دوشنبه، طاجيكستان</item>
+        <item>جزيرة إيستر، شيلي</item>
+        <item>إدنبرة، أسكتلندا</item>
+        <item>إدمونتون، كندا</item>
+        <item>إل باسو، الولايات المتحدة</item>
+        <item>فرناندو دي نورونا، البرازيل</item>
+        <item>فلورنسا، إيطاليا</item>
+        <item>فور دو فرانس، مارتينيك</item>
+        <item>فرانكفورت، ألمانيا</item>
+        <item>فري تاون، سيراليون</item>
+        <item>فوشون، الصين</item>
+        <item>فوشين، الصين</item>
+        <item>فوتشو، الصين</item>
+        <item>غابورون، بتسوانا</item>
+        <item>أرخبيل غالاباغوس، الإكوادور</item>
+        <item>جنيف، سويسرا</item>
+        <item>جنوة، إيطاليا</item>
+        <item>جورج تاون، غيانا</item>
+        <item>جرينلاند</item>
+        <item>غرايتفيكن، جورجيا الجنوبية</item>
+        <item>غوام</item>
+        <item>جوانجتشو، الصين</item>
+        <item>جواتيمالا</item>
+        <item>مدينة غواتيمالا، غواتيمالا</item>
+        <item>جوييانغ، الصين</item>
+        <item>جوستافيا، سان بارتيلمي</item>
+        <item>هايكو، الصين</item>
+        <item>هاليفاكس، كندا</item>
+        <item>هامبورغ، ألمانيا</item>
+        <item>هاندان، الصين</item>
+        <item>هانجتشو، الصين</item>
+        <item>هانوي، فيتنام</item>
+        <item>هراري، زيمبابوي</item>
+        <item>هاربن، الصين</item>
+        <item>هافانا، كوبا</item>
+        <item>هاواي، الولايات المتحدة</item>
+        <item>خفي، الصين</item>
+        <item>هلسنكي، فنلندا</item>
+        <item>مدينة هو تشي منه، فيتنام</item>
+        <item>هوبارت، أستراليا</item>
+        <item>هوهوت، الصين</item>
+        <item>هونج كونج، الصين</item>
+        <item>هونولولو، الولايات المتحدة</item>
+        <item>هيوستن، الولايات المتحدة</item>
+        <item>هوفد، منغوليا</item>
+        <item>هوايان، الصين</item>
+        <item>هواينان، الصين</item>
+        <item>حيدر أباد، الهند</item>
+        <item>إنديانابوليس، الولايات المتحدة</item>
+        <item>إيركوتسك، روسيا</item>
+        <item>إسلام أباد، باكستان</item>
+        <item>إسطنبول، تركيا</item>
+        <item>إيجيفسك، روسيا</item>
+        <item>جاكرتا، إندونيسيا</item>
+        <item>جدة، المملكة العربية السعودية</item>
+        <item>القدس، إسرائيل</item>
+        <item>مدينة جيلين، الصين</item>
+        <item>جينان، الصين</item>
+        <item>جينتشو، الصين</item>
+        <item>جيشي، الصين</item>
+        <item>جوهانسبرغ، جنوب إفريقيا</item>
+        <item>كابول، أفغانستان</item>
+        <item>كالينينجراد، روسيا</item>
+        <item>كامشاتكا، روسيا</item>
+        <item>كامبالا، أوغندا</item>
+        <item>كراتشي، باكستان</item>
+        <item>كاتماندو، نيبال</item>
+        <item>خاباروفسك، روسيا</item>
+        <item>خاركوف، أوكرانيا</item>
+        <item>الخرطوم، السودان</item>
+        <item>كينجستون، كندا</item>
+        <item>كينشاسا، جمهورية الكونغو الديمقراطية</item>
+        <item>كيريتيماي، كيريباتي</item>
+        <item>كلكتا، الهند</item>
+        <item>كراسنويارسك، روسيا</item>
+        <item>كوالالمبور، ماليزيا</item>
+        <item>كونمينغ، الصين</item>
+        <item>مدينة الكويت، الكويت</item>
+        <item>كييف، أوكرانيا</item>
+        <item>لاباز، بوليفيا</item>
+        <item>لاجوس، نيجيريا</item>
+        <item>لاهور، باكستان</item>
+        <item>لانتشو، الصين</item>
+        <item>لاس فيجاس، الولايات المتحدة</item>
+        <item>ليما، بيرو</item>
+        <item>لشبونة، البرتغال</item>
+        <item>ليوتشو، الصين</item>
+        <item>ليوبليانا، سلوفينيا</item>
+        <item>لندن، إنجلترا</item>
+        <item>لوس أنجلوس، الولايات المتحدة</item>
+        <item>لويفيل، الولايات المتحدة</item>
+        <item>لواندا، أنجولا</item>
+        <item>لوبومباشي، جهورية الكونغو الديمقراطية</item>
+        <item>لويانغ، الصين</item>
+        <item>لوساكا، زامبيا</item>
+        <item>لوكسمبورج</item>
+        <item>لفيف، أوكرانيا</item>
+        <item>ماكاو، الصين</item>
+        <item>مدريد، إسبانيا</item>
+        <item>ماغادان، روسيا</item>
+        <item>ماجورو، جزر مارشال</item>
+        <item>مالابو، غينيا الاستوائية</item>
+        <item>ماليه، جزر المالديف</item>
+        <item>ماناغوا، نيكاراغوا</item>
+        <item>المنامة، البحرين</item>
+        <item>ماناوس، البرازيل</item>
+        <item>مانيلا، الفلبين</item>
+        <item>مابوتو، موزمبيق</item>
+        <item>ماريجوت، سان مارتين</item>
+        <item>مايوت، فرنسا</item>
+        <item>مازاتلان، المكسيك</item>
+        <item>مكة، المملكة العربية السعودية</item>
+        <item>ملبورن، أستراليا</item>
+        <item>ممفيس، الولايات المتحدة</item>
+        <item>مسينة، إيطاليا</item>
+        <item>مكسيكو سيتي، المكسيك</item>
+        <item>ميامي، الولايات المتحدة</item>
+        <item>إقليم الأطلسي الأوسط</item>
+        <item>جزيرة ميدواي، الولايات المتحدة</item>
+        <item>ميلانو، إيطاليا</item>
+        <item>ميلواكي، الولايات المتحدة</item>
+        <item>مينيابولس، الولايات المتحدة</item>
+        <item>مينسك، بيلاروس</item>
+        <item>مقديشيو، الصومال</item>
+        <item>مونروفيا، ليبيريا</item>
+        <item>مونتيفيديو، أوروغواي</item>
+        <item>مونتريال، كندا</item>
+        <item>موسكو، روسيا</item>
+        <item>مودانجيانغ، الصين</item>
+        <item>مومباي، الهند</item>
+        <item>ميونخ، ألمانيا</item>
+        <item>مسقط، عمان</item>
+        <item>نبيوربي، كينيا</item>
+        <item>نانتشانغ، الصين</item>
+        <item>نانجينج، الصين</item>
+        <item>نانينج، الصين</item>
+        <item>نابولي، إيطاليا</item>
+        <item>ناترس، سويسرا</item>
+        <item>أنجمينا، تشاد</item>
+        <item>نيودلهي، الهند</item>
+        <item>نيو أورلينز، الولايات المتحدة</item>
+        <item>نيويورك، الولايات المتحدة</item>
+        <item>نيوفاوندلاند، كندا</item>
+        <item>نيامي، النيجر</item>
+        <item>نينغبو، الصين</item>
+        <item>نواكشوط، موريتانيا</item>
+        <item>نوميا، كاليدونيا الجديدة</item>
+        <item>نوفوكوزنتسك، روسيا</item>
+        <item>نوفوسيبيرسك، روسيا</item>
+        <item>نوكو ألوفا، تونغا</item>
+        <item>نوك، جرينلاند</item>
+        <item>أومسك، روسيا</item>
+        <item>أورال، كازاخستان</item>
+        <item>أوساكا، اليابان</item>
+        <item>أوسلو، النرويج</item>
+        <item>أوتاوا، كندا</item>
+        <item>واجادوجو، بوركينا فاسو</item>
+        <item>باغو باغو، ساموا الأمريكية</item>
+        <item>باليرمو، إيطاليا</item>
+        <item>بنما سيتي، بنما</item>
+        <item>باراماريبو، سورينام</item>
+        <item>باريس، فرنسا</item>
+        <item>بيرم، روسيا</item>
+        <item>بيرث، أستراليا</item>
+        <item>بتروبافلوفسك كامشاتسكي، روسيا</item>
+        <item>فيلادلفيا، الولايات المتحدة</item>
+        <item>بنوم بنه، كمبوديا</item>
+        <item>فينيكس، الولايات المتحدة</item>
+        <item>بينجدينجشان، الصين</item>
+        <item>بودغوريتسا، الجبل الأسود</item>
+        <item>بونتا ديلغادا، البرتغال</item>
+        <item>بور لويس، موريشيوس</item>
+        <item>بورت أو برانس، هاييتي</item>
+        <item>بورتلاند، الولايات المتحدة</item>
+        <item>براغ، جمهورية التشيك</item>
+        <item>برايا، الرأس الأخضر</item>
+        <item>بيونج يانج، جمهورية كوريا الديمقراطية الشعبية</item>
+        <item>تشينغداو، الصين</item>
+        <item>تشيتشيهار، الصين</item>
+        <item>كيتو، الإكوادور</item>
+        <item>الرباط، المغرب</item>
+        <item>ريسيفي، البرازيل</item>
+        <item>ريجينا، كندا</item>
+        <item>ريكيافيك، أيسلندا</item>
+        <item>ريغا، لاتفيا</item>
+        <item>ريو دي جانيرو، البرازيل</item>
+        <item>الرياض، المملكة العربية السعودية</item>
+        <item>روما، إيطاليا</item>
+        <item>ساوباولو، البرازيل</item>
+        <item>سان دوني، لا ريونيون</item>
+        <item>سالت ليك سيتي، الولايات المتحدة</item>
+        <item>سامارا، روسيا</item>
+        <item>سان أنتونيو، الولايات المتحدة</item>
+        <item>سان دييغو، الولايات المتحدة</item>
+        <item>سان فرانسيسكو، الولايات المتحدة</item>
+        <item>سان خوسيه، كوستاريكا</item>
+        <item>سان خوان، بورتوريكو</item>
+        <item>سان مارينو</item>
+        <item>سان سلفادور، السلفادور</item>
+        <item>صنعاء، اليمن</item>
+        <item>سانتياغو، شيلي</item>
+        <item>سانتو دومينجو، جمهورية الدومينيكان</item>
+        <item>سراييفو، البوسنة والهرسك</item>
+        <item>سياتل، الولايات المتحدة</item>
+        <item>سيول، كوريا الجنوبية</item>
+        <item>شنغهاي، الصين</item>
+        <item>شانغكيو، الصين</item>
+        <item>شانتو، الصين</item>
+        <item>شنيانغ، الصين</item>
+        <item>شنتشن، الصين</item>
+        <item>شيجياتشوانغ، الصين</item>
+        <item>سنغافورة</item>
+        <item>سكوبيه، مقدونيا</item>
+        <item>صوفيا، بلغاريا</item>
+        <item>سانت جونز، كندا</item>
+        <item>سانت بطرسبرغ، روسيا</item>
+        <item>سان بيير وميكلون، فرنسا</item>
+        <item>ستوكهولم، السويد</item>
+        <item>سوفا، فيجي</item>
+        <item>سوتشو، الصين</item>
+        <item>سيدني، أستراليا</item>
+        <item>تاهيتي، بولينزيا الفرنسية</item>
+        <item>تايبيه، الصين</item>
+        <item>تاييوان، الصين</item>
+        <item>تالين، إستونيا</item>
+        <item>تانغشان، الصين</item>
+        <item>تاراوا، كريباتي</item>
+        <item>طشقند، أوزبكستان</item>
+        <item>تبليسي، جورجيا</item>
+        <item>تيجوسي جالبا، هندوراس</item>
+        <item>طهران، إيران</item>
+        <item>ذا ستلمنت، جزر فيرجن البريطانية</item>
+        <item>تيانجين، الصين</item>
+        <item>تيخوانا، المكسيك</item>
+        <item>طوكيو، اليابان</item>
+        <item>تونغا</item>
+        <item>تورونتو، كندا</item>
+        <item>طرابلس، ليبيا</item>
+        <item>تونس، تونس</item>
+        <item>تورينو، إيطاليا</item>
+        <item>أوفا، روسيا</item>
+        <item>أولان باتور، منغوليا</item>
+        <item>أورومتشي، الصين</item>
+        <item>فادوز، ليشتنشتاين</item>
+        <item>فاليتا، مالطا</item>
+        <item>فانكوفر، كندا</item>
+        <item>فيرونا، إيطاليا</item>
+        <item>فيكتوريا، سيشل</item>
+        <item>فيينا، النمسا</item>
+        <item>فيلنيوس، ليتوانيا</item>
+        <item>فلاديفوستوك، روسيا</item>
+        <item>فولجوجراد، روسيا</item>
+        <item>وارسو، بولندا</item>
+        <item>واشنطن العاصمة، الولايات المتحدة</item>
+        <item>ويفانغ، الصين</item>
+        <item>ويلينجتون، نيوزيلندا</item>
+        <item>ويندهوك، ناميبيا</item>
+        <item>وينيبيج، كندا</item>
+        <item>ووهان، الصين</item>
+        <item>ووشي، الصين</item>
+        <item>شيان، الصين</item>
+        <item>شيانجيانغ، الصين</item>
+        <item>شينينغ، الصين</item>
+        <item>شوتشو، الصين</item>
+        <item>ياكوتسك، روسيا</item>
+        <item>ياماسوكرو، ساحل العاج</item>
+        <item>يانغون، ميانمار</item>
+        <item>يانتاي، الصين</item>
+        <item>ياوندي، الكاميرون</item>
+        <item>يكاترينبورغ، روسيا</item>
+        <item>يريفان، أرمينيا</item>
+        <item>ييتشانغ، الصين</item>
+        <item>ييتشون، الصين</item>
+        <item>يوجنو ساخالينسك، روسيا</item>
+        <item>زغرب، كرواتيا</item>
+        <item>تساوتشوانغ، الصين</item>
+        <item>تشانغجياكو، الصين</item>
+        <item>تشانغجيانج، الصين</item>
+        <item>تشنغتشو، الصين</item>
+        <item>زيبو، الصين</item>
+        <item>زيورخ، سويسرا</item>
+        <item>جورجيا الجنوبية</item>
+        <item>بندر سري بكاوان</item>
+        <item>فيينتيان</item>
+    </string-array>
+</resources>

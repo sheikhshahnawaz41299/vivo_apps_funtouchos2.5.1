@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?vivo:generalBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:layout_marginStart="3.0dip" android:layout_marginEnd="?android:scrollbarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:minHeight="?android:listPreferredItemHeightSmall" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceLargeInverse" android:textSize="18.0sp" android:ellipsize="end" android:gravity="start|center" android:id="@id/text1" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:layout_above="@id/divider" android:layout_marginStart="@vivo:dimen/preference_left_margin" android:layout_toStartOf="@id/text2" />
+        <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textSize="14.0sp" android:ellipsize="end" android:gravity="center|right" android:id="@id/text2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:layout_above="@id/divider" android:layout_marginStart="5.0dip" android:layout_marginEnd="30.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:id="@id/divider" android:background="?android:dividerHorizontal" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@vivo:dimen/divider_height" android:layout_marginStart="@vivo:dimen/preference_left_margin" />
+</LinearLayout>

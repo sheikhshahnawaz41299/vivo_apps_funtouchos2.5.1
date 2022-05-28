@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/zen_mode_title" android:key="zen_mode_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/zen_mode_explain" android:key="zen_mode_explain" style="?vivo:attr/explainPreferenceStyle" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/auto_open_zen_mode" android:key="zen_mode" />
+    <PreferenceCategory android:key="shecdul_rules">
+        <VivoCheckBoxPreference android:persistent="false" android:title="@string/shedul_open_zen_mode" android:key="shecdul_zen_mode" />
+    </PreferenceCategory>
+    <PreferenceCategory style="?vivo:attr/dividerPreferenceStyle" />
+    <PreferenceScreen android:persistent="false" android:title="@string/zen_mode_downtime_mode_title" android:key="starred" android:fragment="com.vivo.settings.notification.VivoZenModeFrom" />
+    <PreferenceCategory android:title="@string/zen_mode_prorit_explain_contacts" android:key="important" style="?vivo:attr/explainPreferenceStyle" />
+</PreferenceScreen>

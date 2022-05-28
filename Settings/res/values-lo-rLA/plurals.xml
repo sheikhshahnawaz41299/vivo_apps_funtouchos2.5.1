@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">ດຽວນີ້ ທ່ານຍັງຢູ່ໄກ %1$d ຈາກການເປັນນັກພັດທະນາ.</item>
+        <item quantity="one">ດຽວນີ້ ທ່ານຍັງຢູ່ໄກ %1$d ຈາກການເປັນນັກພັດທະນາ.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">ລະຫັດຜ່ານຈະຕ້ອງມີຢ່າງໜ້ອຍ %d ຕົວອັກສອນ.</item>
+        <item quantity="one">ລະຫັດຜ່ານຈະຕ້ອງມີຢ່າງໜ້ອຍ 1 ຕົວອັກສອນ.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">ລະຫັດຜ່ານຈະຕ້ອງມີຢ່າງໜ້ອຍ %d ຕົວອັກສອນນ້ອຍ.</item>
+        <item quantity="one">ລະຫັດຜ່ານຈະຕ້ອງມີຢ່າງໜ້ອຍ 1 ຕົວອັກສອນນ້ອຍ.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">ລະຫັດຜ່ານຈະຕ້ອງມີຢ່າງໜ້ອຍ %d ຕົວອັກສອນໃຫຍ່.</item>
+        <item quantity="one">ລະຫັດຜ່ານຈະຕ້ອງມີຢ່າງໜ້ອຍ 1 ຕົວອັກສອນໃຫຍ່.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">ລະຫັດຜ່ານຈະຕ້ອງມີຢ່າງໜ້ອຍ %d ຕົວເລກ.</item>
+        <item quantity="one">ລະຫັດຜ່ານຕ້ອງມີໂຕເລກຢ່າງໜ້ອຍໜຶ່ງໂຕ.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">ລະຫັດຜ່ານຈະຕ້ອງມີຢ່າງໜ້ອຍ %d ຕົວອັກສອນພິເສດ.</item>
+        <item quantity="one">ລະຫັດຜ່ານຈະຕ້ອງມີຢ່າງໜ້ອຍ 1 ຕົວອັກສອນພິເສດ.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">ລະຫັດຜ່ານຈະຕ້ອງມີຢ່າງໜ້ອຍ %d ຕົວອັກສອນທີ່ເປັນຕົວໜັງສື</item>
+        <item quantity="one">ລະຫັດຜ່ານຈະຕ້ອງມີຢ່າງໜ້ອຍ 1 ຕົວອັກສອນທີ່ບໍ່ເປັນຕົວໜັງສື</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">ລະຫັດ PIN SIM ບໍ່ຖືກຕ້ອງ, ທ່ານເຫຼືອຄວາມພະຍາຍາມອີກ %d ຄັ້ງ.</item>
+        <item quantity="one">ລະຫັດ PIN SIM ບໍ່ຖືກຕ້ອງ, ທ່ານເຫຼືອຄວາມພະຍາຍາມອີກ %d ຄັ້ງ ກ່ອນທີ່ທ່ານຈະຕ້ອງໄດ້ຕິດຕໍ່ຜູ້ໃຫ້ບໍລິການຂອງທ່ານທີ່ຈະ ປົດລັອກ ອຸປະກອນຂອງທ່ານ.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d ແອັບສາມາດອ່ານການແຈ້ງເຕືອນ</item>
+        <item quantity="one">%d ແອັບສາມາດອ່ານການແຈ້ງເຕືອນ</item>
+    </plurals>
+    <plurals name="manage_condition_providers_summary_nonzero">
+        <item quantity="other">%d ແອັບທີ່ໃຫ້ເງື່ອນໄຂ</item>
+        <item quantity="one">%d ແອັບທີ່ໃຫ້ເງື່ອນໄຂ</item>
+    </plurals>
+</resources>

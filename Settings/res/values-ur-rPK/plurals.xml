@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">اب آپ ایک ڈٰولپر ہونے سے %1$d قدم دوری پر ہیں۔</item>
+        <item quantity="one">اب آپ ایک ڈٰولپر ہونے سے %1$d قدم دوری پر ہیں۔</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">پاس ورڈ کم از کم %d حروف پر مشتمل ہونا چاہیے۔</item>
+        <item quantity="one">پاس ورڈ کم از کم 1 حرف کا حامل ہونا چاہیے۔</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">پاس ورڈ کم از کم %d سمال حروف پر مشتمل ہونا چاہیے۔</item>
+        <item quantity="one">پاس ورڈ کم از کم 1 سمال حرف کا حامل ہونا چاہیے۔</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">پاس ورڈ کم از کم %d کیپیٹل حروف پر مشتمل ہونا چاہیے۔</item>
+        <item quantity="one">پاس ورڈ کم از کم 1 کیپیٹل حرف کا حامل ہونا چاہیے۔</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">پاس ورڈ کم از کم %d ہندسے ہونے چاہیے۔</item>
+        <item quantity="one">پاس ورڈ کم از کم ایک ہندسہ کا حامل ہونا چاہیے۔</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">پاس ورڈ کم از کم %d خسوصی کیریکٹرز پر مشتمل ہونا چاہیے۔</item>
+        <item quantity="one">پاس ورڈ کم از کم 1 خصوصی کیریکٹر کا حامل ہونا چاہیے۔</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">پاس ورڈ لازماً کم از کم %d حروف پر مشتمل ہونا چاہیے۔</item>
+        <item quantity="one">پاسورڈ میں کم از کم 1 غیر تہجی حرف شامل ہونا چاہیئے</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">غلط SIM کارڈ PIN، آپ کے پاس اب بھی %d کوششیں باقی ہیں.</item>
+        <item quantity="one">غلط SIM کارڈ PIN۔ آپ کے پاس %d کوشش (کوششیں) باقی ہیں اس کے بعد ہی آپ اپنا ڈیوائس انلاک کرنے کے لئے اپنے کیریئر سے رابطہ کر سکیں گے۔</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d ایپ (ایپس) اطلاع نامے ریڈ کر سکتا ہے</item>
+        <item quantity="one">%d ایپ (ایپس) اطلاع نامے ریڈ کر سکتا ہے</item>
+    </plurals>
+    <plurals name="manage_condition_providers_summary_nonzero">
+        <item quantity="other">%d ایپس شرائط فراہم کر سکتے ہیں</item>
+        <item quantity="one">%d ایپس شرائط فراہم کر سکتے ہیں</item>
+    </plurals>
+</resources>

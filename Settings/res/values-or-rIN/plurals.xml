@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">ଜଣେ ଡେଭଲପର୍ ହେବାରେ ଆପଣ ବର୍ତ୍ତମାନ %1$d ଷ୍ଟେପ୍ ଦୂରରେ।</item>
+        <item quantity="one">ଜଣେ ଡେଭଲପର୍ ହେବାରେ ଆପଣ ବର୍ତ୍ତମାନ %1$d ଷ୍ଟେପ୍ ଦୂରରେ।</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">ପାସ୍‌ୱାର୍ଡ୍ ଅତିକମରେ %d ଅକ୍ଷରଗୁଡିକ ଧାରଣ କରିବା ଜରୁରୀ।</item>
+        <item quantity="one">ପାସ୍‌ୱାର୍ଡ୍ ନିଶ୍ଚିତଭାବରେ ଅତିକମ୍‌ରେ 1 ଅକ୍ଷର ଧାରଣ କରିଥିବା ଆବଶ୍ୟକ।</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">ପାସ୍‌ୱାର୍ଡ୍ ଅତିକମରେ %d ଲୋୟର୍‌କେସ୍ ଅକ୍ଷରଗୁଡିକ ଧାରଣ କରିବା ଜରୁରୀ।</item>
+        <item quantity="one">ପାସ୍‌ୱାର୍ଡ୍ ନିଶ୍ଚିତଭାବରେ ଅତିକମ୍‌ରେ 1 ଲୋୟର୍‌କେସ୍ ଅକ୍ଷର ଧାରଣ କରିଥିବା ଆବଶ୍ୟକ।</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">ପାସ୍‌ୱାର୍ଡ୍ ଅତିକମରେ %d ଅପର୍‌କେସ୍ ଅକ୍ଷରଗୁଡିକ ଧାରଣ କରିବା ଆବଶ୍ୟକ।</item>
+        <item quantity="one">ପାସ୍‌ୱାର୍ଡ୍ ନିଶ୍ଚିତଭାବରେ ଅତିକମ୍‌ରେ 1 ଅପର୍‌କେସ୍ ଅକ୍ଷର ଧାରଣ କରିଥିବା ଆବଶ୍ୟକ।</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">ପାସ୍‌ୱାର୍ଡ୍ ଅତିକମରେ %d ସଂଖ୍ୟା ଧାରଣ କରିବା ଜରୁରୀ।</item>
+        <item quantity="one">ପାସ୍‌ୱାର୍ଡ୍ ନିଶ୍ଚିତ ଭାବରେ ଅତି କମରେ ଏକ ସଂଖ୍ୟା ଧାରଣ କରିବା ଆବଶ୍ୟକ।</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">ପାସ୍‌ୱାର୍ଡ୍ ଅତିକମରେ %d ବିଶେଷ ବର୍ଣ୍ଣଗୁଡିକ ଧାରଣ କରିବା ଆବଶ୍ୟକ।</item>
+        <item quantity="one">ପାସ୍‌ୱାର୍ଡ୍ ନିଶ୍ଚିତଭାବରେ ଅତିକମ୍‌ରେ 1 ବିଶେଷ ବର୍ଣ୍ଣ ଧାରଣ କରିଥିବା ଆବଶ୍ୟକ।</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">ପାସ୍‌ୱାର୍ଡ୍ ନିଶ୍ଚିତଭାବରେ ଅତିକମ୍‌ରେ %d ଅଣ-ଲୋୟର୍‌କେସ୍ ଅକ୍ଷର ଧାରଣ କରିଥିବା ଆବଶ୍ୟକ।</item>
+        <item quantity="one">ପାସ୍‌ୱାର୍ଡ୍ ନିଶ୍ଚିତଭାବରେ ଅତିକମ୍‌ରେ 1 ଅଣ-ଲୋୟର୍‌କେସ୍ ଅକ୍ଷର ଧାରଣ କରିଥିବା ଆବଶ୍ୟକ।</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">ଭୁଲ୍ SIM PIN କୋଡ୍, ଆପଣଙ୍କର %d ଉଦ୍ୟମ ବାକି ରହିଛି।</item>
+        <item quantity="one">ଭୁଲ୍ SIM PIN କୋଡ୍, ଆପଣଙ୍କ ଡିଭାଇସ୍ ଅଣଲକ୍ କରିବାକୁ ଆପଣଙ୍କ କ୍ୟାରିଅର୍‌କୁ ଆପଣ ସମ୍ପର୍କ କରିବା ପୂର୍ବରୁ ଆପଣଙ୍କର %d ଉଦ୍ୟମ ବାକି ରହିଛି।</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d ଆପ୍(ଗୁଡିକ) ବିଜ୍ଞପ୍ତି ପଠନ କରିପାରେ</item>
+        <item quantity="one">%d ଆପ୍(ଗୁଡିକ) ବିଜ୍ଞପ୍ତି ପଠନ କରିପାରେ</item>
+    </plurals>
+    <plurals name="manage_condition_providers_summary_nonzero">
+        <item quantity="other">%d ଆପ୍ ସର୍ତ୍ତ ପ୍ରଦାନ କରେ</item>
+        <item quantity="one">%d ଆପ୍ ସର୍ତ୍ତ ପ୍ରଦାନ କରେ</item>
+    </plurals>
+</resources>

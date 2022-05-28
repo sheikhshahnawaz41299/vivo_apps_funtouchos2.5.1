@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/language_keyboard_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <Preference android:title="@string/default_inputmethod" android:key="current_input_method" />
+    <PreferenceCategory android:title="@string/text_category" android:key="keyboard_settings_category" />
+</PreferenceScreen>

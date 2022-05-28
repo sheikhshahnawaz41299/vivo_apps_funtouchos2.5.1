@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/location_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/data_location_des" android:key="location_des" />
+    <com.vivo.settings.preference.BBKSingleChoicePreference android:title="@string/phone_mount" android:key="phone_mount" />
+    <com.vivo.settings.preference.BBKSingleChoicePreference android:title="@string/on_sd_mount" android:key="sd_mount" />
+    <PreferenceCategory android:title="@string/warning_tips" style="?vivo:attr/explainPreferenceStyle" />
+</PreferenceScreen>

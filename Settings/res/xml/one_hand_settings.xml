@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/OneHand_title" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/onehand_keyboard" android:key="onehandkeyboardsummary" />
+    <VivoCheckBoxPreference android:layout="@vivo:layout/vigour_preference_summary_down" android:title="@string/vivo_keyboard" android:key="vivo_keyboard" android:summary="@string/vivo_keyboard_summary" android:defaultValue="false" />
+    <VivoCheckBoxPreference android:title="@string/dial_pad" android:key="dial_pad" android:defaultValue="false" />
+    <VivoCheckBoxPreference android:title="@string/pin_lock" android:key="pin_lock" android:defaultValue="false" />
+    <PreferenceCategory android:title="@string/gesture_settings" android:key="onhandsummary" />
+    <VivoCheckBoxPreference android:title="@string/access_keyboard" android:key="OneHandGesture" android:defaultValue="false" />
+    <PreferenceCategory android:title="@string/onehand_summary" android:key="onehand_info" style="?vivo:attr/explainPreferenceStyle" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/access_miniscreen" android:key="gesture_enable" />
+    <PreferenceCategory android:title="@string/miniscreen_info" android:key="gesture_explain" style="?vivo:attr/explainPreferenceStyle" />
+</PreferenceScreen>

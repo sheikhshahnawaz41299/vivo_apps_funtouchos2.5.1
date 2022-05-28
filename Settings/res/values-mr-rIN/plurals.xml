@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">आपण आता विकासक होण्यापासून %1$d पावले दूर आहात.</item>
+        <item quantity="one">आपण आता विकासक होण्यापासून %1$d पावले दूर आहात.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">संकेतशब्दामध्ये किमान %d अक्षरे असली पाहिजेत.</item>
+        <item quantity="one">संकेतशब्दामध्ये किमान 1 अक्षर असले पाहिजे.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">संकेतशब्दामध्ये किमान %d लहान लिपीतील अक्षरे असली पाहिजेत.</item>
+        <item quantity="one">संकेतशब्दामध्ये किमान 1 लहान लिपीतील अक्षर असले पाहिजे.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">संकेतशब्दामध्ये किमान %d मोठ्या लिपीतील अक्षरे असली पाहिजेत.</item>
+        <item quantity="one">संकेतशब्दामध्ये किमान 1 मोठ्या लिपीतील अक्षर असले पाहिजे.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">संकेतशब्दामध्ये किमान %d अंक असले पाहिजेत.</item>
+        <item quantity="one">संकेतशब्दामध्ये किमान एक अंक असला पाहिजे.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">संकेतशब्दामध्ये किमान %d विशेष वर्ण असले पाहिजेत.</item>
+        <item quantity="one">संकेतशब्दामध्ये किमान 1 विशेष वर्ण असला पाहिजे.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">संकेतशब्दामध्ये निदान %d अक्षर नसलेले वर्ण असायला हवे</item>
+        <item quantity="one">संकेतशब्दामध्ये निदान 1 अक्षर नसलेला वर्ण असायला हवा</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">चुकीचा सिम कार्ड पिन, आपल्याकडे अजूनही %d प्रयत्न आहेत.</item>
+        <item quantity="one">चुकीचा सिम कार्ड पिन. आपले डिव्हाइस अनलॉक करण्यासाठी आपल्या वाहकाशी संपर्क करण्यापूर्वी आपल्याकडे %d उर्वरित प्रयत्न आहेत.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d अ‍ॅप(प्स) सूचना वाचू शकतात</item>
+        <item quantity="one">%d अ‍ॅप(प्स) सूचना वाचू शकतात</item>
+    </plurals>
+    <plurals name="manage_condition_providers_summary_nonzero">
+        <item quantity="other">%d ॲप्स स्थिती प्रदान करू शकतात</item>
+        <item quantity="one">%d ॲप्स स्थिती प्रदान करू शकतात</item>
+    </plurals>
+</resources>

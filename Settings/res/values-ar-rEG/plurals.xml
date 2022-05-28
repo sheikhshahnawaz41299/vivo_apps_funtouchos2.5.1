@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">أنت الآن على بعد %1$d خطوة لتصبح مطورًا.</item>
+        <item quantity="one">أنت الآن على بعد %1$d خطوة لتصبح مطورًا.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">يجب أن تحتوي كلمة المرور على %d من الأحرف بحد أدنى.</item>
+        <item quantity="one">يجب أن تحتوي كلمة المرور على حرف واحد على الأقل.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">يجب أن تحتوي كلمة المرور على %d من الأحرف الصغيرة بحد أدنى.</item>
+        <item quantity="one">يجب أن تحتوي كلمة المرور على حرف صغير واحد بحد أدنى.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">يجب أن تحتوي كلمة المرور على %d من الأحرف الكبيرة بحد أدنى.</item>
+        <item quantity="one">يجب أن تحتوي كلمة المرور على حرف كبير واحد بحد أدنى.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">يجب أن تحتوي كلمة المرور على %d من الأرقام بحد أدنى.</item>
+        <item quantity="one">يجب أن تحتوي كلمة المرور على رقم واحد على الأقل.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">يجب أن تحتوي كلمة المرور على %d من الأحرف الخاصة بحد أدنى.</item>
+        <item quantity="one">يجب أن تحتوي كلمة المرور على حرف خاص واحد بحد أدنى.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">يجب أن تحتوي كلمة المرور على %d من الأحرف غير الأبجدية بحد أدنى</item>
+        <item quantity="one">يجب أن تحتوي كلمة المرور على حرف غير أبجدي واحد بحد أدنى</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">رمز PIN لبطاقة SIM غير صحيح، لديك %d محاولات متبقية.</item>
+        <item quantity="one">رمز PIN لبطاقة SIM غير صحيح، لديك %d محاولة متبقية قبل أن تضطر إلى الاتصال بمشغل شبكة الجوال لإلغاء قفل الجهاز.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">يستطيع %d من التطبيقات قراءة الإشعارات</item>
+        <item quantity="one">يستطيع %d من التطبيقات قراءة الإشعارات</item>
+    </plurals>
+    <plurals name="manage_condition_providers_summary_nonzero">
+        <item quantity="other">تطبيق %d يوفر شروطًا</item>
+        <item quantity="one">تطبيق %d يوفر شروطًا</item>
+    </plurals>
+</resources>

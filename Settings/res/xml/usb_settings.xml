@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/location_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/usb_connection_category" />
+    <com.vivo.settings.preference.RadioPreference android:persistent="false" android:title="@string/usb_charge_title" android:key="usb_charge" />
+    <com.vivo.settings.preference.RadioPreference android:persistent="false" android:title="@string/usb_ums_title" android:key="usb_ums" android:summary="@string/usb_ums_summary" />
+    <com.vivo.settings.preference.RadioPreference android:persistent="false" android:title="@string/usb_mtp_title" android:key="usb_mtp" android:summary="@string/usb_mtp_summary" />
+    <com.vivo.settings.preference.RadioPreference android:persistent="false" android:title="@string/usb_ptp_title" android:key="usb_ptp" android:summary="@string/usb_ptp_summary" />
+    <PreferenceCategory />
+    <com.vivo.settings.preference.SettingsCheckboxPreference android:persistent="false" android:title="@string/enable_adb" android:key="enable_adb" android:summary="@string/enable_adb_summary" layout="@vivo:layout/vigour_preference_summary_down" />
+    <com.vivo.settings.preference.SettingsMultiLinePreference android:persistent="false" android:layout="@vivo:layout/vigour_preference_summary_down" android:title="@string/enable_vivo_assistant_title" android:key="vivo_assistant" android:summary="@string/enable_vivo_assistant_summary" />
+    <PreferenceCategory android:title="@string/usb_mtp_driver" android:key="category_mtp_driver" style="?vivo:attr/explainPreferenceStyle" />
+    <PreferenceCategory />
+    <com.vivo.settings.preference.CheckBoxPreferenceFront android:persistent="false" android:layout="@layout/check_box_pref_front" android:title="@string/usb_settings_no_popup" android:key="usb_show" />
+</PreferenceScreen>

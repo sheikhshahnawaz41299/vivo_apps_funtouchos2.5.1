@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="screen_timeout_entries">
+        <item>15 ছেকেণ্ড</item>
+        <item>30 ছেকেণ্ড</item>
+        <item>1 মিনিট</item>
+        <item>2 মিনিট</item>
+        <item>5 মিনিট</item>
+        <item>10 মিনিট</item>
+        <item>30 মিনিট</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>তাৎক্ষণিকভাৱে</item>
+        <item>5 ছেকেণ্ড</item>
+        <item>15 ছেকেণ্ড</item>
+        <item>30 ছেকেণ্ড</item>
+        <item>1 মিনিট</item>
+        <item>2 মিনিট</item>
+        <item>5 মিনিট</item>
+        <item>10 মিনিট</item>
+        <item>30 মিনিট</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>সৰু</item>
+        <item>সাধাৰণ</item>
+        <item>ডাঙৰ</item>
+        <item>অতিৰিক্তভাৱে ডাঙৰ</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>বৰ মন্থৰ</item>
+        <item>মন্থৰ</item>
+        <item>সাধাৰণ</item>
+        <item>দ্ৰুত</item>
+        <item>বেগী</item>
+        <item>বৰ বেগী</item>
+        <item>ৰেপিড</item>
+        <item>বৰ ৰেপিড</item>
+        <item>দ্ৰুততম</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>স্কেন কৰি আছে...</item>
+        <item>সংযোগ হৈ আছে...</item>
+        <item>শুদ্ধতা নিৰ্ণয় কৰি থকা হৈছে...</item>
+        <item>IP ঠিকনা প্ৰাপ্ত কৰি আছে...</item>
+        <item>সংযোগ হৈ গ’ল</item>
+        <item>বিৰাম দিয়া হৈছে</item>
+        <item>সংযোগ বিচ্ছিন্ন হৈ আছে...</item>
+        <item>সংযোগ বিচ্ছিন্ন হৈ গ’ল</item>
+        <item>বিফল</item>
+        <item>অক্ষম কৰা হৈছে</item>
+        <item>অস্থায়ীভাৱে অফ হৈছে (দুৰ্বল নেটৱৰ্ক সংযোগ)</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>স্কেন কৰি আছে...</item>
+        <item>%1$s-লৈ সংযোগ কৰি আছে...</item>
+        <item>%1$s-ৰ সৈতে প্ৰমাণিকৰণ কৰি আছে...</item>
+        <item>%1$s-ৰ পৰা IP ঠিকনা প্ৰাপ্ত কৰি আছে...</item>
+        <item>%1$s ইয়ালৈ সংযোজিত কৰিছে</item>
+        <item>বিৰাম দিয়া হৈছে</item>
+        <item>%1$s-ৰ পৰা সংযোগহীন কৰি আছে...</item>
+        <item>সংযোগ বিচ্ছিন্ন হৈ গ’ল</item>
+        <item>বিফল</item>
+        <item>অক্ষম কৰা হৈছে</item>
+        <item>অস্থায়ীভাৱে অফ হৈছে (দুৰ্বল নেটৱৰ্ক সংযোগ)</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>সংযোগ হৈ গ’ল</item>
+        <item>আমন্ত্ৰণ কৰা হ’ল</item>
+        <item>বিফল</item>
+        <item>উপলব্ধ</item>
+        <item>ৰেঞ্জৰ বাহিৰত</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 মিনিট</item>
+        <item>5 মিনিট</item>
+        <item>1 ঘণ্টা</item>
+        <item>কেতিয়াও সময় উকলি নাযায়</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>দুৰ্বল</item>
+        <item>সাধাৰণ</item>
+        <item>ভাল</item>
+        <item>সৰ্বোত্তম</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>সদায়ে</item>
+        <item>কেৱল প্লাগ ইন কৰিলে</item>
+        <item>কেতিয়াও নহয়</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>সদায়ে</item>
+        <item>কেৱল প্লাগ ইন কৰিলে</item>
+        <item>কেতিয়াও নহয়</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>অটো</item>
+        <item>কেৱল 5 GHz</item>
+        <item>কেৱল 2.4 GHz</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>ব্যৱহাৰৰ সময়</item>
+        <item>অন্তিম বাৰ ব্যৱহাৰ</item>
+        <item>এপ্পৰ নাম</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>একো নাই</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>একো নাই</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>ষ্টেটিক</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>একো নাই</item>
+        <item>মেনুৱেল</item>
+        <item>প্ৰক্সি অটো-কনফিগ</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>একো নাই</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP বা CHAP</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>নিৰ্দিষ্ট কৰা নহ’ল</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>একো নাই</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>আভ্যন্তৰীণ ডিভাইচ সংগ্ৰহণ</item>
+        <item>অপসাৰণযোগ্য SD কার্ড</item>
+        <item>ছিষ্টেমক নির্ধাৰণ কৰিবলৈ দিয়ক</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>অৱস্থান</item>
+        <item>ব্যক্তিগত</item>
+        <item>SMS</item>
+        <item>মিডিয়া</item>
+        <item>ডিভাইচ</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>আনুমানিক অৱস্থান</item>
+        <item>সঠিক অৱস্থান</item>
+        <item>GPS</item>
+        <item>ভাইব্ৰেট</item>
+        <item>সম্পৰকসমূহ পঢ়ক</item>
+        <item>সম্পৰ্ক সংশোধন কৰক</item>
+        <item>কল লগসমূহ পঢ়ক</item>
+        <item>কল লগসমূহ সংশোধন কৰক</item>
+        <item>কেলেণ্ডাৰ পঢ়ক</item>
+        <item>কেলেণ্ডাৰ সংশোধন কৰক</item>
+        <item>wi-fi স্কেন</item>
+        <item>জাননী</item>
+        <item>ফোন নেটৱৰ্ক স্কেন কৰক</item>
+        <item>কল</item>
+        <item>SMS পঢ়ক</item>
+        <item>SMS কম্পোজ কৰক</item>
+        <item>SMS প্ৰাপ্ত কৰক</item>
+        <item>জৰুৰীকালীন SMS প্ৰাপ্ত কৰক</item>
+        <item>MMS প্ৰাপ্ত কৰক</item>
+        <item>WAP পুশ্ব বাৰ্তা প্ৰাপ্ত কৰক</item>
+        <item>SMS প্ৰেৰণ কৰক</item>
+        <item>ICC SMS পঢ়ক</item>
+        <item>ICC SMS লিখক</item>
+        <item>ছেটিংছ সংশোধন কৰক</item>
+        <item>শীৰ্ষত অংকন কৰক</item>
+        <item>জাননীসমূহ প্ৰৱেশাধিকাৰ কৰক</item>
+        <item>কেমেৰা</item>
+        <item>"অডিঅ' ৰেকৰ্ড কৰক"</item>
+        <item>"অডিঅ' প্লে কৰক"</item>
+        <item>"ক্লিপব'ৰ্ড সামগ্ৰী পঢ়ক"</item>
+        <item>"ক্লিপব'ৰ্ড সংশোধন কৰক"</item>
+        <item>মিডিয়া বুটামসমূহ</item>
+        <item>"অডিঅ' ফ'কাচ"</item>
+        <item>মাষ্টাৰ ভলিউম</item>
+        <item>ভইচ ভলিউম</item>
+        <item>ৰিংগাৰ ভলিউম</item>
+        <item>মিডিয়া ভলিউম</item>
+        <item>এলাৰ্ম ভলিউম</item>
+        <item>জাননী ভলিউম</item>
+        <item>Bluetooth ভলিউম</item>
+        <item>সাৰে থাকক</item>
+        <item>অৱস্থান নিৰীক্ষণ কৰক</item>
+        <item>পাৱাৰ শোষণ কৰা অৱ্স্থান তথ্য সেৱাসমূহ নিৰীক্ষণ কৰক</item>
+        <item>ব্যৱহাৰৰ স্থিতি লাভ কৰক</item>
+        <item>"মাইক্ৰ'ফোন মিউট/আনমিউট কৰক"</item>
+        <item>"প্ৰ'জেক্ট মিডিয়া"</item>
+        <item>VPN সক্ৰিয় কৰক</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>অৱস্থান</item>
+        <item>অৱস্থান</item>
+        <item>অৱস্থান</item>
+        <item>ভাইব্ৰেট</item>
+        <item>সম্পৰকসমূহ পঢ়ক</item>
+        <item>সম্পৰ্ক সংশোধন কৰক</item>
+        <item>কল লগসমূহ পঢ়ক</item>
+        <item>কল লগসমূহ সংশোধন কৰক</item>
+        <item>কেলেণ্ডাৰ পঢ়ক</item>
+        <item>কেলেণ্ডাৰ সংশোধন কৰক</item>
+        <item>অৱস্থান</item>
+        <item>জাননী পোষ্ট কৰক</item>
+        <item>অৱস্থান</item>
+        <item>কল</item>
+        <item>SMS/MMS বাৰ্তাসমূহ পঢ়ক</item>
+        <item>SMS/MMS বাৰ্তাসমূহ কম্পোজ কৰক</item>
+        <item>SMS/MMS বাৰ্তাসমূহ প্ৰাপ্ত কৰক</item>
+        <item>SMS/MMS বাৰ্তাসমূহ প্ৰাপ্ত কৰক</item>
+        <item>SMS/MMS বাৰ্তাসমূহ প্ৰাপ্ত কৰক</item>
+        <item>SMS/MMS বাৰ্তাসমূহ প্ৰাপ্ত কৰক</item>
+        <item>SMS/MMS বাৰ্তাসমূহ প্ৰেৰণ কৰক</item>
+        <item>SMS/MMS বাৰ্তাসমূহ পঢ়ক</item>
+        <item>SMS/MMS বাৰ্তাসমূহ কম্পোজ কৰক</item>
+        <item>ছেটিংছ সংশোধন কৰক</item>
+        <item>শীৰ্ষত অংকন কৰক</item>
+        <item>জাননীসমূহ প্ৰৱেশাধিকাৰ কৰক</item>
+        <item>কেমেৰা</item>
+        <item>"অডিঅ' ৰেকৰ্ড কৰক"</item>
+        <item>"অডিঅ' প্লে কৰক"</item>
+        <item>"ক্লিপব'ৰ্ড সামগ্ৰী পঢ়ক"</item>
+        <item>"ক্লিপব'ৰ্ড সংশোধন কৰক"</item>
+        <item>মিডিয়া বুটামসমূহ</item>
+        <item>"অডিঅ' ফ'কাচ"</item>
+        <item>মাষ্টাৰ ভলিউম</item>
+        <item>ভইচ ভলিউম</item>
+        <item>ৰিংগাৰ ভলিউম</item>
+        <item>মিডিয়া ভলিউম</item>
+        <item>এলাৰ্ম ভলিউম</item>
+        <item>জাননী ভলিউম</item>
+        <item>Bluetooth ভলিউম</item>
+        <item>সাৰে থাকক</item>
+        <item>অৱস্থান</item>
+        <item>অৱস্থান তথ্য</item>
+        <item>ব্যৱহাৰৰ স্থিতি লাভ কৰক</item>
+        <item>"মাইক্ৰ'ফোন মিউট/আনমিউট কৰক"</item>
+        <item>"প্ৰ'জেক্ট মিডিয়া"</item>
+        <item>VPN সক্ৰিয় কৰক</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>চুটি</item>
+        <item>মজলীয়া</item>
+        <item>দীঘল</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>"ডিফ'ল্ট"</item>
+        <item>Sans-serif</item>
+        <item>Sans-serif condensed</item>
+        <item>Sans-serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>Casual</item>
+        <item>Cursive</item>
+        <item>Small capitals</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>অতিৰিক্তভাৱে সৰু</item>
+        <item>সৰু</item>
+        <item>সাধাৰণ</item>
+        <item>ডাঙৰ</item>
+        <item>অতিৰিক্তভাৱে ডাঙৰ</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>"ডিফ'ল্ট"</item>
+        <item>একো নাই</item>
+        <item>আউটলাইন</item>
+        <item>"শ্বেড'"</item>
+        <item>উত্থাপিত কৰক</item>
+        <item>বিষন্ন</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>এপ্প্‌ ডিফল্ট ব্যৱহাৰ কৰক</item>
+        <item>"ক'লাত বগা"</item>
+        <item>"বগাত ক'লা"</item>
+        <item>"ক'লাত হালধীয়া"</item>
+        <item>নীলাত হালধীয়া</item>
+        <item>অনুকূলন</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>64K প্ৰতি লগ বাফাৰ</item>
+        <item>256K প্ৰতি লগ বাফাৰ</item>
+        <item>1M প্ৰতি লগ বাফাৰ</item>
+        <item>4M প্ৰতি লগ বাফাৰ</item>
+        <item>16M প্ৰতি লগ বাফাৰ</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>কেতিয়াও পৰীক্ষা কৰা নাই</item>
+        <item>কেৱল DRM সমল পৰীক্ষা কৰক</item>
+        <item>সদায়ে পৰীক্ষা কৰক</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>কেতিয়াও HDCP পৰীক্ষা ব্যৱহাৰ কৰিব নোৱাৰে</item>
+        <item>কেৱল DRM সামগ্ৰীৰ কাৰণে HDCP পৰীক্ষা ব্যৱহাৰ কৰক</item>
+        <item>সদায় HDCP পৰীক্ষা ব্যৱহাৰ কৰক</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>এনিমেশ্বন অফ কৰক</item>
+        <item>এনিমেশ্বন স্কেল 0.5x</item>
+        <item>এনিমেশ্বন স্কেল 1x</item>
+        <item>এনিমেশ্বন স্কেল 1.5x</item>
+        <item>এনিমেশ্বন স্কেল 2x</item>
+        <item>এনিমেশ্বন স্কেল 5x</item>
+        <item>এনিমেশ্বন স্কেল 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>এনিমেশ্বন অফ কৰক</item>
+        <item>এনিমেশ্বন স্কেল 0.5x</item>
+        <item>এনিমেশ্বন স্কেল 1x</item>
+        <item>এনিমেশ্বন স্কেল 1.5x</item>
+        <item>এনিমেশ্বন স্কেল 2x</item>
+        <item>এনিমেশ্বন স্কেল 5x</item>
+        <item>এনিমেশ্বন স্কেল 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>এনিমেশ্বন অফ কৰক</item>
+        <item>এনিমেশ্বন স্কেল 0.5x</item>
+        <item>এনিমেশ্বন স্কেল 1x</item>
+        <item>এনিমেশ্বন স্কেল 1.5x</item>
+        <item>এনিমেশ্বন স্কেল 2x</item>
+        <item>এনিমেশ্বন স্কেল 5x</item>
+        <item>এনিমেশ্বন স্কেল 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>একো নাই</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (নিৰাপদ)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (নিৰাপদ)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (নিৰাপদ)</item>
+        <item>1280x720 tvdpi আৰু 1920x1080 xhdpi</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>একো নাই</item>
+        <item>Logcat</item>
+        <item>চিচট্ৰেচ (গ্ৰাফিক)</item>
+        <item>glGetError-ত কল ষ্টেক</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>বন্ধ কৰক</item>
+        <item>নীলাত অনা-আয়তকাৰ ক্লিপ অংকন কৰক</item>
+        <item>সেউজীয়াত পৰীক্ষা অংকন কৰা কামাণ্ডসমূহ হাইলাইট হয়</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>বন্ধ কৰক</item>
+        <item>বাৰ চাৰ্ট ৰূপে স্ক্ৰীণত দেখুৱায়</item>
+        <item>adb শ্বেল ডাম্পিছ gfxinfo-ত</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>বন্ধ কৰক</item>
+        <item>অভাৰড্ৰ’ ক্ষেত্ৰসমূহ দেখুৱাওক</item>
+        <item>ডিঅ’টেৰান’ৰমেলিৰ বাবে ক্ষেত্ৰসমূহ দেখুৱাওক</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>মান্য সীমা</item>
+        <item>পৃষ্ঠভাগৰ প্ৰক্ৰিয়াসমূহক অনুমতি নিদিব</item>
+        <item>কমেও 1 টা প্ৰক্ৰিয়া</item>
+        <item>কমেও 2 টা প্ৰক্ৰিয়া</item>
+        <item>কমেও 3 টা প্ৰক্ৰিয়া</item>
+        <item>কমেও 4 টা প্ৰক্ৰিয়া</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>পূৰ্বে ভাগ-বতৰা কৰা কীসমূহৰ সৈতে L2TP/IPSec VPN</item>
+        <item>প্ৰমাণপত্ৰসমূহৰ সৈতে L2TP/IPSec VPN</item>
+        <item>পূৰ্বে ভাগ-বতৰা কৰা কীসমূহ আৰু Xauth প্ৰমাণীকৰণৰ সৈতে IPSec VPN</item>
+        <item>প্ৰমাণপত্ৰ আৰু Xauth প্ৰমাণীকৰণৰ সৈতে IPSec VPN</item>
+        <item>প্ৰমাণপত্ৰ আৰু হাইব্ৰিড প্ৰমাণীকৰণৰ সৈতে IPSec VPN</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>সংযোগহীন হ’ল</item>
+        <item>আৰম্ভ হৈ আছে...</item>
+        <item>সংযোগ হৈ আছে...</item>
+        <item>সংযোগ হৈ গ’ল</item>
+        <item>টাইমআউট</item>
+        <item>বিফল</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>সোধক</item>
+        <item>কেতিয়াও অনুমতি নিদিয়ে</item>
+        <item>সদায় অনুমতি দিয়ক</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>সাধাৰণ</item>
+        <item>মজলীয়া</item>
+        <item>নিম্ন</item>
+        <item>গুৰুতৰ</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>সাধাৰণ</item>
+        <item>মধ্যম</item>
+        <item>নিম্ন</item>
+        <item>গুৰুতৰ</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>স্থিৰ</item>
+        <item>শীৰ্ষ ক্ৰিয়া-কলাপ</item>
+        <item>গুৰুত্বপূৰ্ণ (অগ্ৰভূমি)</item>
+        <item>গুৰুত্বপূৰ্ণ (পৃষ্ঠভূমি)</item>
+        <item>বেকআপ</item>
+        <item>গধুৰ ওজন</item>
+        <item>সেৱা (চলি আছে)</item>
+        <item>সেৱা (পুনৰাৰম্ভ হৈ আছে)</item>
+        <item>প্ৰাপ্তকৰ্তা</item>
+        <item>হোম স্ক্ৰীণ</item>
+        <item>অন্তিম ক্ৰিয়া-কলাপ</item>
+        <item>কেশ্ব (ক্ৰিয়া-কলাপ)</item>
+        <item>কেশ্ব (ক্ৰিয়া-কলাপ কায়েণ্ট)</item>
+        <item>কেশ্ব (শূণ্য)</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>চিয়ান</item>
+        <item>নীলা</item>
+        <item>ইণ্ডিগো</item>
+        <item>পাৰ্পল</item>
+        <item>গুলপীয়া</item>
+        <item>ৰঙা</item>
+    </string-array>
+    <string-array name="ring_or_mtp_change_entries">
+        <item>"ৰিংট'নসমূহ"</item>
+        <item>মিডিয়া</item>
+    </string-array>
+    <string-array name="app_loc_permission">
+        <item>নিষ্ক্ৰিয়</item>
+        <item>অনুমতি দিয়ক</item>
+        <item>সোধক</item>
+    </string-array>
+    <string-array name="key_light_control_mode">
+        <item>1.5 ছেকেণ্ড</item>
+        <item>6 ছেকেণ্ড</item>
+        <item>সকলো সময়তে অন</item>
+        <item>সদায় অফ</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_amoled">
+        <item>15 ছেকেণ্ড</item>
+        <item>30 ছেকেণ্ড</item>
+        <item>1 মিনিট</item>
+        <item>2 মিনিট</item>
+        <item>5 মিনিট</item>
+        <item>10 মিনিট</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_mtfp">
+        <item>15 ছেকেণ্ড</item>
+        <item>30 ছেকেণ্ড</item>
+        <item>1 মিনিট</item>
+        <item>2 মিনিট</item>
+        <item>5 মিনিট</item>
+        <item>10 মিনিট</item>
+        <item>30 মিনিট</item>
+        <item>কেতিয়াও নহয়</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>আপোনাৰ পিতৃৰ নাম কি?</item>
+        <item>আপোনাৰ মাতৃৰ নাম কি?</item>
+        <item>আপোনাৰ পত্নীৰ নাম কি?</item>
+        <item>আপুনি কোনোখন প্ৰাথমিক বিদ্যালয়ত পঢ়িছিল?</item>
+        <item>আপোনাৰ শিশুবিদ্যালয়ৰ শিক্ষকৰ নাম কি আছিল?</item>
+        <item>আপোনাৰ উচ্চ মাধ্যমিক বিদ্যালয়ৰ শিক্ষকৰ নাম কি আছিল?</item>
+        <item>আপোনাৰ শিশুকালৰ ভাল বন্ধুৰ নাম কি আছিল?</item>
+        <item>আপোনাৰ জন্ম স্থান?</item>
+        <item>আপোনাৰ বিদ্যাৰ্থী (চাকৰি) চিনাক্তকৰণ নম্বৰ কি?</item>
+        <item>আপোনাৰ পৰিচয় পত্ৰখনৰ অন্তিম 6 টা অংক কি?</item>
+        <item>আপোনাৰ গাড়ীৰ লাইচেন্স ফলকখনৰ নম্বৰ কি?</item>
+        <item>আপুনি প্ৰথমে কাম কৰা কোম্পানীটোৰ নাম কি আছিল?</item>
+        <item>বিশেষ প্ৰশ্ন</item>
+    </string-array>
+    <string-array name="area_entrys">
+        <item>থাইলেণ্ড</item>
+        <item>মালয়েচিয়া</item>
+        <item>ইণ্ডোনেচিয়া</item>
+        <item>ভাৰত</item>
+        <item>ম্যানমাৰ</item>
+        <item>ফিলিপাইন</item>
+        <item>ভিয়েটনাম</item>
+        <item>ব্ৰুনেই</item>
+        <item>কম্বোডিয়া</item>
+        <item>লাও</item>
+        <item>ছিংগাপুৰ</item>
+        <item>বাংলাদেশ</item>
+        <item>নেপাল</item>
+        <item>পাকিস্তান</item>
+        <item>শ্ৰী লংকা</item>
+    </string-array>
+    <string-array name="vivo_rom_25problem_ask_lables">
+        <item>আপুনি কোনোখন প্ৰাথমিক বিদ্যালয়ত পঢ়িছিল?</item>
+        <item>আপোনাৰ পিতৃৰ নাম কি?</item>
+        <item>আপোনাৰ মাতৃৰ নাম কি?</item>
+        <item>আপোনাৰ পত্নীৰ নাম কি?</item>
+        <item>আপোনাৰ জন্ম স্থান?</item>
+        <item>আপোনাৰ উপনাম কি?</item>
+        <item>আপোনাৰ উচ্চ বিদ্যালয়ৰ শ্ৰেণী শিক্ষক কোন?</item>
+        <item>আপোনাৰ শৈশৱৰ শ্ৰেষ্ঠ বন্ধু?</item>
+        <item>আপোনাৰ বিদ্যাৰ্থী (চাকৰি) চিনাক্তকৰণ নম্বৰ কি?</item>
+        <item>আপোনাৰ ID নম্বৰৰ অন্তিম 6 টা অংক কি?</item>
+        <item>আপোনাৰ গাড়ীৰ লাইচেন্স ফলকখনৰ নম্বৰ কি?</item>
+        <item>আপুনি প্ৰথমে কাম কৰা কোম্পানীটোৰ নাম কি আছিল?</item>
+        <item>বিশেষ প্ৰশ্ন</item>
+    </string-array>
+    <string-array name="timezones_cities_array">
+        <item>আবিডজান, কোটে ডিআইভৰি</item>
+        <item>আবু ধাবি, ইউ.এ.ই</item>
+        <item>আকৰা, ঘানা</item>
+        <item>এডিছ আবাব, ইথিওপিয়া</item>
+        <item>এডেলেইদ, অষ্ট্ৰেলিয়া</item>
+        <item>আলাস্কা, ইউ.এছ.এ</item>
+        <item>অলগিয়েৰ্ছ, আলজেৰিয়া</item>
+        <item>আলমাটি, কাজাখস্তান</item>
+        <item>আমবোন, ইণ্ডোনেছিয়া</item>
+        <item>আমান, জৰ্ডান</item>
+        <item>আমষ্টাৰ্ডাম, নেদাৰলেণ্ডছ</item>
+        <item>আনাডিৰ, ৰাছিয়া</item>
+        <item>এংকোৰেজ, ইউ.এছ.এ</item>
+        <item>আনকাৰা, তুৰ্কী</item>
+        <item>অনচন, চীন</item>
+        <item>আণ্টানানেৰিভো, মাদাগাস্কাৰ</item>
+        <item>আশ্বগাবাট, তুৰ্কমেনিস্তান</item>
+        <item>আছমাৰা, এৰিট্ৰিয়া</item>
+        <item>আষ্টানা, কাজাখস্তান</item>
+        <item>আছুনছিয়ন, পাৰাগুৱে</item>
+        <item>এথেন্স, গ্ৰীচ</item>
+        <item>আটলাণ্টা, ইউ.এছ.এ</item>
+        <item>অকলেণ্ড, নিউ জিলেণ্ড</item>
+        <item>অষ্টিন, ইউ.এছ.এ</item>
+        <item>আজোৰ্চ, পৰ্টুগাল</item>
+        <item>বাগদাদ, ইৰাক</item>
+        <item>বাকু, আজেৰবেইজান</item>
+        <item>বাল্টিমোৰ, ইউ.এছ.এ</item>
+        <item>বেমাকো, মালি</item>
+        <item>বাংগালোৰ, ভাৰত</item>
+        <item>বেংকক, থাইলেণ্ড</item>
+        <item>বেঙ্গুই, চেণ্ট্ৰেল আফ্ৰিকান ৰিপাব্লিক</item>
+        <item>বাওডিং, চীন</item>
+        <item>বাওটৌ, চীন</item>
+        <item>বাৰ্চিলোনা, স্পেইন</item>
+        <item>বাৰি, ইটালী</item>
+        <item>বেছি-টেৰি, গুৱাডেলোপে</item>
+        <item>বেইজিং, চীন</item>
+        <item>বেইৰুট, লেবানন</item>
+        <item>বেলগ্ৰেড, চাৰ্বিয়া</item>
+        <item>বেলিজ চিটি, বেলিজ</item>
+        <item>বেনঝি, চীন</item>
+        <item>বাৰ্লিন, জাৰ্মানী</item>
+        <item>বেৰ্ণ, চুইজাৰলেণ্ড</item>
+        <item>বিশ্বেক, কিৰ্গিস্তান</item>
+        <item>বিছাউ, গিনি বিছাউ</item>
+        <item>বোগোটা, কলোম্বিয়া</item>
+        <item>বোলোগনা, ইটালী</item>
+        <item>বোষ্টন, ইউ.এছ.এ</item>
+        <item>ব্ৰাছিলিয়া, ব্ৰাজিল</item>
+        <item>ব্ৰেটিশ্লেভা, শ্লোভেকিয়া</item>
+        <item>ব্ৰেজাভিলে, কঙ্গো</item>
+        <item>ব্ৰিজটাউন, বাৰ্বাডোছ</item>
+        <item>ব্ৰিছবেন, অষ্ট্ৰেলিয়া</item>
+        <item>ব্ৰুছলেছ, বেলজিয়াম</item>
+        <item>বাছাৰেষ্ট, ৰোমানিয়া</item>
+        <item>বুডাপেষ্ট, হাঙ্গেৰী</item>
+        <item>বুইনোছ আইৰেছ, আৰ্জেণ্টিনা</item>
+        <item>কাইৰো, ইজিপ্ত</item>
+        <item>কেলগেৰী, কানাডা</item>
+        <item>কেনেৰী দ্বীপপুঞ্জ, স্পেইন</item>
+        <item>কেনবেৰা, অষ্ট্ৰেলিয়া</item>
+        <item>কেপ টাউন, দক্ষিণ আফ্ৰিকা</item>
+        <item>কাৰাকাছ, ভেনিজুৱেলা</item>
+        <item>কাৰ্ডিফ, ৱেলছ</item>
+        <item>কাছাব্লাঞ্ছা, মৰোক্কো</item>
+        <item>কাটানজাৰো, ইটালী</item>
+        <item>কেয়নি, ফ্ৰেন্স গুয়ানা</item>
+        <item>চাংচুন, চীন</item>
+        <item>চাংচা, চীন</item>
+        <item>চাংজু, চীন</item>
+        <item>চাৰ্লোটি, ইউ.এছ.এ</item>
+        <item>চাৰ্লোটি আমালেই, ইউ.এছ ভাৰ্জিন আইলেণ্ড</item>
+        <item>ছেলয়াবিনস্ক, ৰাছিয়া</item>
+        <item>চেংডু, চীন</item>
+        <item>চেন্নাই, ভাৰত</item>
+        <item>চিকাগো, ইউ.এছ.এ</item>
+        <item>চিহুৱাহুৱা, মেক্সিকো</item>
+        <item>চিছিনাউ, মোলডোভা</item>
+        <item>চিটা, ৰাছিয়া</item>
+        <item>চংকিং, চীন</item>
+        <item>ক্লিভলেণ্ড, ইউ.এছ.এ</item>
+        <item>কলম্বো, শ্ৰী লংকা</item>
+        <item>কলম্বাছ, ইউ.এছ.এ</item>
+        <item>কোনাক্ৰি, গিনি</item>
+        <item>কোপেনহেগেন, ডেনমাৰ্ক</item>
+        <item>কোৰ্ক, আয়াৰলেণ্ড</item>
+        <item>ক্ৰোটোনে, ইটালী</item>
+        <item>ডাকাৰ, ছেনেগাল</item>
+        <item>ডালিয়ান, চীন</item>
+        <item>ডালাছ, ইউ.এছ.এ</item>
+        <item>ডামাছকাছ, ছিৰিয়া</item>
+        <item>ডেকিং, চীন</item>
+        <item>ডাৰ এছ ছালাম, টাঞ্জানিয়া</item>
+        <item>ডাৰউইন, অষ্ট্ৰেলিয়া</item>
+        <item>ডেটোং, চীন</item>
+        <item>ডেনপাছাৰ, ইণ্ডোনেছিয়া</item>
+        <item>ডেনভাৰ, ইউ.এছ.এ</item>
+        <item>ডেট্ৰোইট, ইউ.এছ.এ</item>
+        <item>ঢাকা, বাংলাদেশ</item>
+        <item>ডিয়েগো গাৰ্ছিয়া, ইউ.কে</item>
+        <item>জিবুটি</item>
+        <item>ডোহা, কাটাৰ</item>
+        <item>ডৌআলা, কেমেৰুন</item>
+        <item>ডুবাই, ইউ.এ.ই</item>
+        <item>ডাবলিন, আয়াৰলেণ্ড</item>
+        <item>ডুশ্বানবে, তাজিকিস্তান</item>
+        <item>ইষ্টাৰ আইলেণ্ড, চিলি</item>
+        <item>এডিনবাৰ্গ, স্কটলেণ্ড</item>
+        <item>ইডমোনটন, কানাডা</item>
+        <item>এল পাছো, ইউ.এছ.এ</item>
+        <item>ফাৰ্নাণ্ডো ডি নোৰোহা, ব্ৰাজিল</item>
+        <item>ফ্লোৰেন্স, ইটালী</item>
+        <item>ফ’ৰ্ট-ডে-ফ্ৰেন্স, মাৰ্টিনিক</item>
+        <item>ফ্ৰেংকফুৰ্ট, জাৰ্মানী</item>
+        <item>ফ্ৰিটাউন, ছিয়েৰা লিয়নে</item>
+        <item>ফুছহুন, চীন</item>
+        <item>ফুক্সিন, চীন</item>
+        <item>ফুঝু, চীন</item>
+        <item>গেবোৰোন, বোটছৱানা</item>
+        <item>গেলাপাগোছ আইলেণ্ডছ, ইকুৱাড’ৰ</item>
+        <item>জেনেভা, চুইজাৰলেণ্ড</item>
+        <item>জেনোৱা, ইটালী</item>
+        <item>জৰ্জ টাউন, গুয়েনা</item>
+        <item>গ্ৰীনলেণ্ড</item>
+        <item>গ্ৰেইটভিকেন, দক্ষিণ জৰ্জিয়া</item>
+        <item>গুৱাম</item>
+        <item>গুৱাংজু, চীন</item>
+        <item>গুৱাটেমালা</item>
+        <item>গুৱাটেমালা চিটি, গুৱাটেমালা</item>
+        <item>গুইয়াং, চীন</item>
+        <item>গুষ্টাভিয়া, ছেইণ্ট বাৰ্থেলেমি</item>
+        <item>হাইকু, চীন</item>
+        <item>হেলিফেক্স, কানাডা</item>
+        <item>হামবাৰ্গ, জাৰ্মানী</item>
+        <item>হেণ্ডেন, চীনা</item>
+        <item>হেংজু, চীন</item>
+        <item>হানোই, ভিয়েটনাম</item>
+        <item>হাৰাৰে, জিম্বাব’ৱে</item>
+        <item>হাৰ্বিন, চীন</item>
+        <item>হাভানা, কুবা</item>
+        <item>হাৱাই, ইউ.এছ.এ</item>
+        <item>হেফেই, চীন</item>
+        <item>হেলছিনকি, ফিনলেণ্ড</item>
+        <item>হো চি মিনহ চিটি, ভিয়েটনাম</item>
+        <item>হোবাৰ্ট, অষ্ট্ৰেলিয়া</item>
+        <item>হোহহট, চীন</item>
+        <item>হং কং, চীন</item>
+        <item>হোনোলুলু, ইউ.এছ.এ</item>
+        <item>হৌষ্টন, ইউ.এছ.এ</item>
+        <item>হোভড, মঙ্গোলিয়া</item>
+        <item>হুৱাইআন, চীন</item>
+        <item>হুৱাইনান, চীন</item>
+        <item>হায়দৰাবাদ, ভাৰত</item>
+        <item>ইণ্ডিয়ানাপোলিছ, ইউ.এছ.এ</item>
+        <item>ইৰ্কুটস্ক, ৰাছিয়া</item>
+        <item>ইছলামাবাদ, পাকিস্তান</item>
+        <item>ইস্তানবুল, তুৰ্কী</item>
+        <item>ইজেভস্ক, ৰাছিয়া</item>
+        <item>জাকাৰ্টা, ইণ্ডোনেছিয়া</item>
+        <item>জেডাহ, চৌডি আৰবিয়া</item>
+        <item>জেৰুজালেম, ইজৰাইল</item>
+        <item>জিলিন চহৰ, চীন</item>
+        <item>জিনান, চীন</item>
+        <item>জিনজুউ, চীন</item>
+        <item>জিক্সি, চীন</item>
+        <item>জোহান্সবাৰ্গ, দক্ষিণ আফ্ৰিকা</item>
+        <item>কাবুল, আফগানিস্তান</item>
+        <item>কালিনিনগ্ৰাড, ৰাছিয়া</item>
+        <item>কামচাটকা, ৰাছিয়া</item>
+        <item>কামপালা, উগাণ্ডা</item>
+        <item>কৰাচী, পাকিস্তান</item>
+        <item>কাঠমাণ্ডু, নেপাল</item>
+        <item>খাবাৰোভস্ক, ৰাছিয়া</item>
+        <item>খাৰ্কিভ, ইউক্ৰেইন</item>
+        <item>খাৰটৌম, চুডান</item>
+        <item>কিংষ্টন, কানাডা</item>
+        <item>কিনছাছা, কঙ্গো ডিম.ৰিপ.</item>
+        <item>কিৰিটিমাটি, কিৰিবাটি</item>
+        <item>কলকাতা, ভাৰত</item>
+        <item>ক্ৰাছনোয়াৰ্স্ক, ৰাছিয়া</item>
+        <item>কুৱালা লুমপুৰ, মালয়েছিয়া</item>
+        <item>কুনমিং, চীন</item>
+        <item>কুৱেইট চিটি, কুৱেইট</item>
+        <item>কীভ, ইউক্ৰেইন</item>
+        <item>লা পজ, বলিভিয়া</item>
+        <item>লাগোছ, নাইজেৰিয়া</item>
+        <item>লাহোৰ, পাকিস্তান</item>
+        <item>লেনঝু, চীন</item>
+        <item>লাছ ভেগাছ, ইউ.এছ.এ</item>
+        <item>লিমা, পেৰু</item>
+        <item>লিচবন, পৰ্টুগাল</item>
+        <item>লিউঝু, চীন</item>
+        <item>ল্যুব্লিয়ানা, শ্লোভেনিয়া</item>
+        <item>লণ্ডন, ইংলেণ্ড</item>
+        <item>লছ এঞ্জেলছ, ইউ.এছ.এ</item>
+        <item>লুইচভিলে, ইউ.এছ.এ</item>
+        <item>লুৱাণ্ডা, এঙ্গোলা</item>
+        <item>লুবুমবাছি, ডি.আৰ. কংগো</item>
+        <item>লুয়াং, চীন</item>
+        <item>লুছাকা, জাম্বিয়া</item>
+        <item>লাক্সেমবাৰ্গ</item>
+        <item>লেভিউ, ইউক্ৰেইন</item>
+        <item>মাকাউ, চীন</item>
+        <item>মাদ্ৰিদ, স্পেইন</item>
+        <item>মাগাডান, ৰাছিয়া</item>
+        <item>মাজুৰো, মাৰ্শ্বেল আইলেণ্ডছ</item>
+        <item>মালাবো, ইকুৱাআটোৰিয়েল গিনি</item>
+        <item>মালে, মালদ্বীপ</item>
+        <item>মানাগুৱা, নিকাৰাগুৱা</item>
+        <item>মানামা, বাহৰেইন</item>
+        <item>মানাউছ, ব্ৰাজিল</item>
+        <item>মেনিলা, ফিলিপাইনছ</item>
+        <item>মাপুটা, মোজাম্বিক</item>
+        <item>মাৰিগোট, ছেইণ্ট মাৰ্টিন</item>
+        <item>মেয়োটি, ফ্ৰেন্স</item>
+        <item>মাজাটলেন, মেক্সিকো</item>
+        <item>মক্কা, চৌডি আৰবিয়া</item>
+        <item>মেলব’ৰ্ণ, অষ্ট্ৰেলিয়া</item>
+        <item>মেমফিছ, ইউ.এছ.এ</item>
+        <item>মেছিনা, ইটালী</item>
+        <item>মেক্সিকো চহৰ, মেক্সিকো</item>
+        <item>মিয়ামি, ইউ.এছ.এ</item>
+        <item>মধ্য-আটলাণ্টিক</item>
+        <item>মিডৱে আইলেণ্ড, ইউ.এছ.এ</item>
+        <item>মিলান, ইটালী</item>
+        <item>মিলৱাউকি, ইউ.এছ.এ</item>
+        <item>মিনিএপোলিছ, ইউ.এছ.এ</item>
+        <item>মিনস্ক, বেলাৰুছ</item>
+        <item>মোগাডিছু, ছোমালিয়া</item>
+        <item>মোনৰোভিয়া, লিবেৰিয়</item>
+        <item>মোণ্টেভিডিঅ’, উৰুগুৱে</item>
+        <item>মোণ্টৰিয়েল, কানাডা</item>
+        <item>মস্কো, ৰাছিয়া</item>
+        <item>মুডানজিয়াং, চীন</item>
+        <item>মুম্বাই, ভাৰত</item>
+        <item>মুনিচ, জাৰ্মানী</item>
+        <item>মুছকাট, ওমান</item>
+        <item>নাইৰোবি, কেনিয়া</item>
+        <item>নানচেং, চীন</item>
+        <item>নেনজিং, চীন</item>
+        <item>নেনিং, চীন</item>
+        <item>নেপলেছ, ইটালী</item>
+        <item>নেটাৰ্ছ, চুইজাৰলেণ্ড</item>
+        <item>এনডিজামেনা, চাড</item>
+        <item>নতুন দিল্লী, ভাৰত</item>
+        <item>নিউ ওৰলিনছ, ইউ.এছ.এ</item>
+        <item>নিউ ইয়ৰ্ক, ইউ.এছ.এ</item>
+        <item>নিউফাউণ্ডলেণ্ড, কানাডা</item>
+        <item>নিয়ামেই, নাইজাৰ</item>
+        <item>নিংবো, চীন</item>
+        <item>নৌয়াকচোট, মৌৰিটানিয়া</item>
+        <item>নৌমিয়া, নিউ কেলেডোনিয়া</item>
+        <item>নোভোকুজেণ্টেস্ক, ৰাছিয়া</item>
+        <item>নোভোছিবিৰ্স্ক, ৰাছিয়া</item>
+        <item>নুকুৱালোফা, টোঙ্গা</item>
+        <item>নুক, গ্ৰীনলেণ্ড</item>
+        <item>ওমস্ক, ৰাছিয়া</item>
+        <item>অৰেল, কাজাখস্তান</item>
+        <item>ওস্কা, জাপান</item>
+        <item>ওছলো, নৰৱে</item>
+        <item>ওটাৱা, কানাডা</item>
+        <item>ঔগাডৌগৌ, বুৰ্কিনা ফাছো</item>
+        <item>পাগো পাগো, এমেৰিকান ছামোআ</item>
+        <item>পালেৰ্মো, ইটালী</item>
+        <item>পানামা চহৰ, পানামা</item>
+        <item>পাৰামাৰিবো, চুৰিনাম</item>
+        <item>পেৰিছ, ফ্ৰেন্স</item>
+        <item>পাৰ্ম, ৰাছিয়া</item>
+        <item>পাৰ্থ, অষ্ট্ৰেলিয়া</item>
+        <item>পেট্ৰোপাভলোভস্ক-কামচাটস্কী, ৰাছিয়া</item>
+        <item>ফিলাডেলফিয়া, ইউ.এছ.এ</item>
+        <item>নম্ পেন কেম্বোডিয়া</item>
+        <item>ফোনিক্স, ইউ.এছ.এ</item>
+        <item>পিংডিংছান, চীন</item>
+        <item>পোডগোৰ্চিয়া, মোণ্টেনেগ্ৰো</item>
+        <item>পোণ্টা ডেলগাডা, পৰ্টুগাল</item>
+        <item>প’ৰ্ট লুইচ, মৰিচাছ</item>
+        <item>প’ৰ্ট-আউ-প্ৰিন্স, হাইটি</item>
+        <item>প’ৰ্টলেণ্ড, ইউ.এছ.এ</item>
+        <item>প্ৰাগ, চেক প্ৰজাতন্ত্ৰ</item>
+        <item>প্ৰাইয়া, কেপে ভাৰ্ডে</item>
+        <item>পিয়োংয়াং, ডেমোক্ৰেটিক পিপ’লছ ৰিপাব্লিক অফ কোৰিয়া</item>
+        <item>কুইংডাও, চীন</item>
+        <item>কুইকুইহাৰ, চীন</item>
+        <item>কুইটো, একুৱাডোৰ</item>
+        <item>ৰাবাট, মৰোক্কো</item>
+        <item>ৰেচিফি, ব্ৰাজিল</item>
+        <item>ৰেজিনা, কানাড</item>
+        <item>ৰেইকজাভিক, আইচলেণ্ড</item>
+        <item>ৰিগা, লেটভিয়া</item>
+        <item>ৰিও ডে জেনেৰিও, ব্ৰাজিল</item>
+        <item>ৰিয়াধ, চৌদি আৰৱ</item>
+        <item>ৰোম, ইটালী</item>
+        <item>ছাও পাওলো, ব্ৰাজিল</item>
+        <item>ছেইণ্ট-ডেনিছ, ৰিইউনিয়্ন আইলেণ্ড</item>
+        <item>ছল্ট লেক চিটি, ইউ.এছ.এ</item>
+        <item>ছামাৰা, ৰাছিয়া</item>
+        <item>ছেন এণ্টোনিও, ইউ.এছ.এ</item>
+        <item>ছেন ডিয়েগো, ইউ.এছ.এ</item>
+        <item>ছান ফ্ৰেন্সিছকো, ইউ.এছ.এ</item>
+        <item>ছেন জোছে, কোষ্টা ৰিকা</item>
+        <item>ছান জুৱান, পুৱেৰ্টো ৰিকো</item>
+        <item>ছেন মাৰিনো</item>
+        <item>ছান ছেলভাডোৰ, এল ছেলভাডোৰ</item>
+        <item>ছানা, য়েমেন</item>
+        <item>ছেণ্টিয়েগো, চিলি</item>
+        <item>ছেণ্টো ডোমিনগো, ডোমিনিকেন ৰিপাব্লিক</item>
+        <item>ছাৰাজেভো, বোছনিয়া আৰু হাৰ্জেগোভিন্দা</item>
+        <item>ছিটল, ইউ.এছ.এ</item>
+        <item>ছিউল, দক্ষিণ কোৰিয়া</item>
+        <item>ছাংহাই, চীন</item>
+        <item>ছাংকুই, চীন</item>
+        <item>শ্বানটাউ, চীন</item>
+        <item>শ্বেনয়াং, চীন</item>
+        <item>শ্বেনজেন, চীন</item>
+        <item>ছিয়াঝুয়াং, চীন</item>
+        <item>ছিংগাপুৰ</item>
+        <item>স্কোপে, মেচিডোনিয়া</item>
+        <item>ছোফিয়া, বুলগেৰিয়া</item>
+        <item>ছে. জনছ, কানাডা</item>
+        <item>ছেইন্ট পিটাৰবাৰ্গ, ৰাছিয়া</item>
+        <item>ছেইণ্ট পিয়েৰে আৰু মিকুইলন, ফ্ৰেন্স</item>
+        <item>ষ্টকলোম, চুইডেন</item>
+        <item>ছুভা, ফিজি</item>
+        <item>ছুজহাউ, চীন</item>
+        <item>চিডনী, অষ্ট্ৰেলিয়া</item>
+        <item>টাহিটি, ফ্ৰেন্স পলিনেছিয়া</item>
+        <item>টেইপেই, চীন</item>
+        <item>টাইয়ুৱান, চীন</item>
+        <item>টালিন, ইষ্টোনিয়া</item>
+        <item>টাংশ্বান, চীন</item>
+        <item>টাৰাৱা, কিৰিবাটি</item>
+        <item>টাচকেণ্ট, উজবেকিস্তান</item>
+        <item>টিবিলিছি, জৰ্জিয়া</item>
+        <item>টেগুচিগালপা, হোণ্ডুৰাছ</item>
+        <item>তেহৰান, ইৰান</item>
+        <item>দ্যা ছেটেলমেণ্ট, জি.বি ভাৰ্জিন আইলেণ্ড</item>
+        <item>টিয়ানজিন, চীন</item>
+        <item>টিজুয়ানা, মেক্সিকো</item>
+        <item>টকিঅ’, জাপান</item>
+        <item>টোঙ্গা</item>
+        <item>টৰোণ্টো, কানাডা</item>
+        <item>ট্ৰিপোলি, লিবিয়া</item>
+        <item>টুনিছ, টুনিছিয়া</item>
+        <item>টুৰিন, ইটালী</item>
+        <item>উফা, ৰাছিয়া</item>
+        <item>উলানবাটাৰ, মঙ্গোলিয়া</item>
+        <item>উৰুমকি, চীন</item>
+        <item>ভাডুজ, লিচেষ্টেনষ্টাইন</item>
+        <item>ভেলেটা, মাল্টা</item>
+        <item>ভেনকুভেৰ, কানাডা</item>
+        <item>ভেৰোনা, ইটালী</item>
+        <item>ভিক্টোৰিয়া, ছিচেলছ</item>
+        <item>ভিয়েনা, অষ্ট্ৰিয়া</item>
+        <item>ভিলনিয়াছ, লিথুৱানিয়া</item>
+        <item>ভ্লাডিভোষ্টোক, ৰাছিয়া</item>
+        <item>ভোলগোগ্ৰেড, ৰাছিয়া</item>
+        <item>ৱাৰছাও, পোলেণ্ড</item>
+        <item>ৱাছিংটন ডিচি, ইউ.এছ.এ</item>
+        <item>ৱাইফেং, চীন</item>
+        <item>ৱেলিটন, নিউ জিলেণ্ড</item>
+        <item>উইনধোক, নামিবিয়া</item>
+        <item>উইনিপেগ, কানাডা</item>
+        <item>উহান, চীন</item>
+        <item>উক্সি, চীন</item>
+        <item>জিয়ান, চীন</item>
+        <item>জিয়াংয়াং, চীন</item>
+        <item>ঝিনিং, চীন</item>
+        <item>ছুঝাউ, চীন</item>
+        <item>য়াকুটস্ক, ৰাছিয়া</item>
+        <item>য়ামৌছোক্ৰো, কোটে ডি আইভৰি</item>
+        <item>য়াংগোন, ম্যানমাৰ</item>
+        <item>য়াণ্টাই, চীন</item>
+        <item>য়াউণ্ডে, কেমেৰুন</item>
+        <item>য়েকাটেৰিনবাৰ্গ, ৰাছিয়া</item>
+        <item>য়েৰেভেন, আৰ্মেনিয়া</item>
+        <item>ইচেং, চীন</item>
+        <item>য়িচুন, চীন</item>
+        <item>য়ুজোনো-ছাখালিংস্ক, ৰাছিয়া</item>
+        <item>জাগ্ৰেব, ক্ৰোৱেছিয়া</item>
+        <item>ঝাওজুয়াং, চীন</item>
+        <item>ঝাংজিআকু, চীন</item>
+        <item>ঝানজিয়াং, চীন</item>
+        <item>ঝেংজু, চীন</item>
+        <item>ঝিবো, চীন</item>
+        <item>জুৰিচ, চুইজাৰলেণ্ড</item>
+        <item>দক্ষিণ জৰ্জিয়া</item>
+        <item>বান্দৰ ছেৰি বেগাৱান</item>
+        <item>ভিয়েনচিয়ানে</item>
+    </string-array>
+</resources>

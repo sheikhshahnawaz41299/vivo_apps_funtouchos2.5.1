@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <RelativeLayout android:id="@id/textlayout" android:focusable="false" android:clickable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@vivo:dimen/preference_left_margin" android:layout_marginTop="5.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textAppearance="?vivo:textAppearancePreferenceSummary" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="5" android:layout_below="@android:id/title" android:layout_alignLeft="@android:id/title" />
+        </RelativeLayout>
+        <RadioButton android:layout_gravity="center_vertical" android:id="@id/radiobutton" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="15.0dip" />
+    </LinearLayout>
+    <View android:id="@id/tile_divider" android:background="?android:dividerHorizontal" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@vivo:dimen/divider_height" android:layout_marginLeft="@vivo:dimen/preference_left_margin" android:layout_alignParentBottom="true" />
+</RelativeLayout>

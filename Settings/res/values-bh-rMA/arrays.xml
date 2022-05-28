@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="screen_timeout_entries">
+        <item>15 सेकंड</item>
+        <item>30 सेकंड</item>
+        <item>1 मिनट</item>
+        <item>2 मिनट</item>
+        <item>5 मिनट</item>
+        <item>10 मिनट</item>
+        <item>30 मिनट</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>तत्काल</item>
+        <item>5 सेकंड</item>
+        <item>15 सेकंड</item>
+        <item>30 सेकंड</item>
+        <item>1 मिनट</item>
+        <item>2 मिनट</item>
+        <item>5 मिनट</item>
+        <item>10 मिनट</item>
+        <item>30 मिनट</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>छोटका</item>
+        <item>सामान्य</item>
+        <item>बड़का</item>
+        <item>अतिरिक्त बड़का</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>बहुत धीरे</item>
+        <item>धीरे</item>
+        <item>सामान्य</item>
+        <item>तेज</item>
+        <item>और तेज</item>
+        <item>बहुत तेज</item>
+        <item>तेजी स</item>
+        <item>बहुत तेजी स</item>
+        <item>सब स तेज</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>स्कैन करैत...</item>
+        <item>जोडैत…</item>
+        <item>प्रमाणित कए रहल अछि…</item>
+        <item>IP पता प्राप्त कए रहल अछि…</item>
+        <item>जोडल</item>
+        <item>रोकल गेल</item>
+        <item>अलग करैत…</item>
+        <item>अलग कायल गेल</item>
+        <item>असफल</item>
+        <item>विकलांग</item>
+        <item>अस्थायी रूपसँ बंद कए देल गेल (कमजोर नेटवर्क जोड)</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>स्कैन करैत...</item>
+        <item>%1$s सँ जोडू …</item>
+        <item>%1$s क संग सत्यापन …</item>
+        <item>%1$s सँ IP पता प्राप्त करु…</item>
+        <item>%1$s सँ जोडल</item>
+        <item>रोकल गेल</item>
+        <item>%1$s सँ अलग करैत…</item>
+        <item>अलग कायल गेल</item>
+        <item>असफल</item>
+        <item>विकलांग</item>
+        <item>अस्थायी रूपसँ बंद कए देल गेल (कमजोर नेटवर्क जोड)</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>जोडल</item>
+        <item>आमंत्रित</item>
+        <item>असफल</item>
+        <item>उपलब्ध</item>
+        <item>सीमा स बाहर अछि</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 मिनट</item>
+        <item>5 मिनट</item>
+        <item>1 घंटा</item>
+        <item>कखनों समय खत्म नहि होयत</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>कमजोर</item>
+        <item>सामान्य</item>
+        <item>नीक</item>
+        <item>बहुत नीक</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>हरदम</item>
+        <item>तार स जोड़ले पर</item>
+        <item>कखनों नहीं</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>हरदम</item>
+        <item>तार स जोड़ले पर</item>
+        <item>कखनों नहीं</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>सवतः</item>
+        <item>केवल 5 GHz</item>
+        <item>केवल 2.4 GHz</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>इस्तेमाल के समय</item>
+        <item>अंतिम बेर इस्तेमाल कएल गेल</item>
+        <item>एप के नाम</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>कोनो नहि</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>कोनो नहि</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>स्थिर</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>कोनो नहि</item>
+        <item>मैन्यूअल</item>
+        <item>प्रॉक्सी ऑटो-कनफिग</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>कोनो नहि</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP वा CHAP</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>अविस्तृत</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>कोनो नहि</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>आन्तरिक उपकरण भंडारण</item>
+        <item>हटेवायोग्य SD कार्ड</item>
+        <item>मशीनकें निर्णय करए दिऔक</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>स्थान</item>
+        <item>निजी</item>
+        <item>SMS</item>
+        <item>मीडिया</item>
+        <item>उपकरण</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>अनुमानित स्थान</item>
+        <item>तय स्थान</item>
+        <item>GPS</item>
+        <item>कंपन</item>
+        <item>सम्पर्क के पढ़ू</item>
+        <item>संपर्क मे संशोधन करू</item>
+        <item>कॉल लॉग पढ़ू</item>
+        <item>कॉल लॉगमें बदलाव करू</item>
+        <item>पंचाँग पढ़ू</item>
+        <item>पंचाँग में बदलाव करू</item>
+        <item>Wi-Fi स्कैन</item>
+        <item>नोटिफिकेशन</item>
+        <item>फोन नेटवर्कक स्कैन</item>
+        <item>कॉल</item>
+        <item>SMS पढ़ू</item>
+        <item>SMS लिखू</item>
+        <item>SMS प्राप्त करू</item>
+        <item>आपातकालीन SMS प्राप्त करू</item>
+        <item>MMS प्राप्त करू</item>
+        <item>WAP पुश संदेश प्राप्त करू</item>
+        <item>SMS भेजू</item>
+        <item>ICC SMS पढ़ू</item>
+        <item>ICC SMS लिखू</item>
+        <item>स्थापना बदलू</item>
+        <item>सबसँ ऊपर लिखू</item>
+        <item>प्रबेशक सुचना</item>
+        <item>कैमरा</item>
+        <item>श्रब्य रिकॉर्ड करू</item>
+        <item>श्रब्य चलाऊ</item>
+        <item>क्लिपबोर्डके सामग्री पढ़ू</item>
+        <item>क्लिपबोर्डमें बदलाव करू</item>
+        <item>मीडिया बटन</item>
+        <item>श्रब्य जोड़</item>
+        <item>मास्टर तिब्रता</item>
+        <item>आवाज तिब्रता</item>
+        <item>रिंगर के मात्रा</item>
+        <item>मीडिया मात्रा</item>
+        <item>अलार्मक तीव्रता</item>
+        <item>नोटिफकेशन के आवाज के मात्रा</item>
+        <item>"ब्लूटुथ 'क तिब्रता"</item>
+        <item>जागल रहू</item>
+        <item>स्थानक निगरानी करू</item>
+        <item>स्थानक जानकारी सेवा सभक पावर खपतक निगरानी करू</item>
+        <item>उपयोगक आंकड़ा प्राप्त करू</item>
+        <item>माइक्रोफोनके मूक/अमूक करू</item>
+        <item>मीडियाकें प्रस्तुत करू</item>
+        <item>VPN के सक्षम करू</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>स्थान</item>
+        <item>स्थान</item>
+        <item>स्थान</item>
+        <item>कंपन</item>
+        <item>सम्पर्क के पढ़ू</item>
+        <item>संपर्क मे संशोधन करू</item>
+        <item>कॉल लॉग पढ़ू</item>
+        <item>कॉल लॉगमें बदलाव करू</item>
+        <item>पंचाँग पढ़ू</item>
+        <item>पंचाँग में बदलाव करू</item>
+        <item>स्थान</item>
+        <item>सुचना साझा करू</item>
+        <item>स्थान</item>
+        <item>कॉल</item>
+        <item>SMS/MMS संदेश पढ़ू</item>
+        <item>SMS/MMS संदेश लिखू</item>
+        <item>SMS/MMS संदेश प्राप्त करू</item>
+        <item>SMS/MMS संदेश प्राप्त करू</item>
+        <item>SMS/MMS संदेश प्राप्त करू</item>
+        <item>SMS/MMS संदेश प्राप्त करू</item>
+        <item>SMS/MMS संदेश भेजू</item>
+        <item>SMS/MMS संदेश पढ़ू</item>
+        <item>SMS/MMS संदेश लिखू</item>
+        <item>स्थापना बदलू</item>
+        <item>सबसँ ऊपर लिखू</item>
+        <item>प्रबेशक सुचना</item>
+        <item>कैमरा</item>
+        <item>श्रब्य रिकॉर्ड करू</item>
+        <item>श्रब्य चलाऊ</item>
+        <item>क्लिपबोर्डके सामग्री पढ़ू</item>
+        <item>क्लिपबोर्डमें बदलाव करू</item>
+        <item>मीडिया बटन</item>
+        <item>श्रब्य जोड़</item>
+        <item>मास्टर तिब्रता</item>
+        <item>आवाज तिब्रता</item>
+        <item>रिंगर के मात्रा</item>
+        <item>मीडिया मात्रा</item>
+        <item>अलार्मक तीव्रता</item>
+        <item>नोटिफकेशन के आवाज के मात्रा</item>
+        <item>"ब्लूटुथ 'क तिब्रता"</item>
+        <item>जागल रहू</item>
+        <item>स्थान</item>
+        <item>लोकेशन के जानकारी</item>
+        <item>उपयोगक आंकड़ा प्राप्त करू</item>
+        <item>माइक्रोफोनके मूक/अमूक करू</item>
+        <item>मीडियाकें प्रस्तुत करू</item>
+        <item>VPN के सक्षम करू</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>कम</item>
+        <item>मध्य</item>
+        <item>लंबा</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>डिफॉल्ट</item>
+        <item>Sans-serif</item>
+        <item>Sans-serif condensed</item>
+        <item>Sans-serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>Casual</item>
+        <item>Cursive</item>
+        <item>Small capitals</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>अतिरिक्त छोटका</item>
+        <item>छोटका</item>
+        <item>सामान्य</item>
+        <item>बड़का</item>
+        <item>अतिरिक्त बड़का</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>डिफॉल्ट</item>
+        <item>कोनो नहि</item>
+        <item>बाहरी रेखांकन</item>
+        <item>परछाइ</item>
+        <item>उभारल गेल</item>
+        <item>खिन्न</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>एप दुषित तौर पर प्रयोग करू</item>
+        <item>काला पर सफेद</item>
+        <item>सफेद पर काला</item>
+        <item>काला पर पीला</item>
+        <item>नीला पर पीला</item>
+        <item>बनाइए</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>64K प्रति लॉग बफर</item>
+        <item>256K प्रति लॉग बफर</item>
+        <item>1M प्रति लॉग बफर</item>
+        <item>4M प्रति लॉग बफर</item>
+        <item>16M प्रति लॉग बफर</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>कखनों नहीं जांचू</item>
+        <item>केवल DRM सामग्री जांचू</item>
+        <item>हमेशा जांचू</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>HDCP जाँच कहियो उपयोग नहि करी</item>
+        <item>मात्र DRM तत्वक लेल HDCP जाँचक उपयोग करू</item>
+        <item>हमेशा HDCP जाँचक उपयोग करु</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>एनिमेसन बंद करु</item>
+        <item>एनिमेसन स्केल 0.5x</item>
+        <item>एनिमेसन स्केल 1x</item>
+        <item>एनिमेसन स्केल 1.5x</item>
+        <item>एनिमेसन स्केल 2x</item>
+        <item>एनिमेसन स्केल 5x</item>
+        <item>एनिमेसन स्केल 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>एनिमेसन बंद करु</item>
+        <item>एनिमेसन स्केल 0.5x</item>
+        <item>एनिमेसन स्केल 1x</item>
+        <item>एनिमेसन स्केल 1.5x</item>
+        <item>एनिमेसन स्केल 2x</item>
+        <item>एनिमेसन स्केल 5x</item>
+        <item>एनिमेसन स्केल 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>एनिमेसन बंद करु</item>
+        <item>एनिमेसन स्केल 0.5x</item>
+        <item>एनिमेसन स्केल 1x</item>
+        <item>एनिमेसन स्केल 1.5x</item>
+        <item>एनिमेसन स्केल 2x</item>
+        <item>एनिमेसन स्केल 5x</item>
+        <item>एनिमेसन स्केल 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>कोनो नहि</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (सुरक्षित)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (सुरक्षित)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (सुरक्षित)</item>
+        <item>1280x720 tvdpi आ 1920x1080 xhdpi</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>कोनो नहि</item>
+        <item>Logcat</item>
+        <item>Systrace (ग्राफिक्स)</item>
+        <item>glGetError पर ढेर बजाऊ</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>बंद करू</item>
+        <item>नीला रंग में गैर आयताकार क्लिप क्षेत्र बनाऊ</item>
+        <item>टेस्ट ड्राइंग निर्देश हरियर मे प्रकाशित कएल अछि</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>बंद करू</item>
+        <item>स्क्रीन पर बार चार्ट के रुप मे देखाऊ</item>
+        <item>adb खोल में gfxinfo डालू</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>बंद करू</item>
+        <item>ओवरड्रॉ क्षेत्र देखाऊ</item>
+        <item>देखई में दिक्कत वला के लेल क्षेत्र देखाऊ</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>नियामक सीमा</item>
+        <item>पाश्व प्रक्रियाकें अनुमति नहि दिऔक</item>
+        <item>अधिकत्तम 1 प्रक्रिया पर</item>
+        <item>अधिकत्तम 2 प्रक्रिया पर</item>
+        <item>अधिकत्तम 3 प्रक्रिया पर</item>
+        <item>अधिकत्तम 4 प्रक्रिया पर</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>पूर्व साझी कुंजीक संग L2TP / IPSec VPN</item>
+        <item>प्रमाण पत्रक संग L2TP / IPSec VPN</item>
+        <item>पूर्व साझिया चाभी आ Xauth प्रमाणीकरणक संग IPSec VPN</item>
+        <item>प्रमाण पत्र आ Xauth प्रमाणीकरणक संग IPSec VPN</item>
+        <item>प्रमाण पत्र आ संकर प्रमाणीकरणक संग IPSec VPN</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>अलग कायल गेल</item>
+        <item>आंरम्भ कए रहल अछि…</item>
+        <item>जोडैत…</item>
+        <item>जोडल</item>
+        <item>समय समाप्त</item>
+        <item>असफल</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>पुछू</item>
+        <item>कहियो अनुमति नहि देल</item>
+        <item>सदिखन अनुमति दिऔक</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>सामान्य</item>
+        <item>मध्य</item>
+        <item>निम्न</item>
+        <item>नाजुक</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>सामान्य</item>
+        <item>संयत</item>
+        <item>निम्न</item>
+        <item>नाजुक</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>निरंतर</item>
+        <item>उच्च क्रियाकलाप</item>
+        <item>महत्वपुर्ण (अग्रभाग)</item>
+        <item>महत्वपुर्ण (पृष्ठभूमि)</item>
+        <item>बैकअप</item>
+        <item>भारी वजन</item>
+        <item>सेवा (चलि रहल अछि)</item>
+        <item>सेवा (पुन: शुरु करैत)</item>
+        <item>पौनिहार</item>
+        <item>होम स्क्रीन</item>
+        <item>अन्तिम क्रियाकलाप</item>
+        <item>द्रुतिका (क्रियाकलाप)</item>
+        <item>द्रुतिका (क्रियाकलाप ग्राहक)</item>
+        <item>द्रुतिका (रिक्त)</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>फिरोजी</item>
+        <item>नीला</item>
+        <item>नील</item>
+        <item>नीला</item>
+        <item>गुलाबी</item>
+        <item>लाल</item>
+    </string-array>
+    <string-array name="ring_or_mtp_change_entries">
+        <item>रीँगटोन</item>
+        <item>मीडिया</item>
+    </string-array>
+    <string-array name="app_loc_permission">
+        <item>असमर्थ</item>
+        <item>अनुमति दिअ</item>
+        <item>पुछू</item>
+    </string-array>
+    <string-array name="key_light_control_mode">
+        <item>1.5 सेकंड</item>
+        <item>6 सेकंड</item>
+        <item>सदिखन चालु</item>
+        <item>सदिखन बन्द</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_amoled">
+        <item>15 सेकंड</item>
+        <item>30 सेकंड</item>
+        <item>1 मिनट</item>
+        <item>2 मिनट</item>
+        <item>5 मिनट</item>
+        <item>10 मिनट</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_mtfp">
+        <item>15 सेकंड</item>
+        <item>30 सेकंड</item>
+        <item>1 मिनट</item>
+        <item>2 मिनट</item>
+        <item>5 मिनट</item>
+        <item>10 मिनट</item>
+        <item>30 मिनट</item>
+        <item>कखनों नहीं</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>अहाँक पिताक नाम की थिक ?</item>
+        <item>अहाँक माताक नाम की थिक?</item>
+        <item>अहाँक पति/ पत्नीक नाम की थिक ?</item>
+        <item>अहां कोन प्राथमिक विद्यालयमे गेल छी?</item>
+        <item>अहांक बचपनक शिक्षकक नाम की छल?</item>
+        <item>अहांक उच्च विद्यालयक शिक्षकक नाम की छल?</item>
+        <item>अहांक बचपनक सबसँ प्रिय मित्रक नाम की छल?</item>
+        <item>अहांक जन्म स्थान?</item>
+        <item>अहाँक छात्रक ( रोजगार) पहिचान संख्या की अछि?</item>
+        <item>अहांक परिचय पत्रक अंतिम 6 अंक की सब अछि?</item>
+        <item>अहांक कारक लाइसेन्स प्लेट संख्या की अछि?</item>
+        <item>अहाँ पहिल कम्पनीमे जे काज केलौ तकर नाम की छल?</item>
+        <item>विशिष्ट प्रश्न</item>
+    </string-array>
+    <string-array name="area_entrys">
+        <item>थाइलैंड</item>
+        <item>मलेशिया</item>
+        <item>इंडोनेशिया</item>
+        <item>इंडिया</item>
+        <item>म्यांमार</item>
+        <item>फिलीपींस</item>
+        <item>वियतनाम</item>
+        <item>ब्रुनेई</item>
+        <item>कंबोडिया</item>
+        <item>लाओस</item>
+        <item>सिंगापुर</item>
+        <item>बांग्लादेश</item>
+        <item>नेपाल</item>
+        <item>पाकिस्तान</item>
+        <item>श्री लंका</item>
+    </string-array>
+    <string-array name="vivo_rom_25problem_ask_lables">
+        <item>अहां कोन प्राथमिक विद्यालयमे गेल छी?</item>
+        <item>अहाँक पिताक नाम की थिक ?</item>
+        <item>अहाँक माताक नाम की थिक?</item>
+        <item>अहाँक पति/ पत्नीक नाम की थिक ?</item>
+        <item>अहांक जन्म स्थान?</item>
+        <item>अहांक उपनाम की अछि?</item>
+        <item>अहाँक उच्च विद्यालयक वर्ग शिक्षक?</item>
+        <item>अहाँ सबसँ नीक बचपनक मित्र?</item>
+        <item>अहाँक छात्रक ( रोजगार) पहिचान संख्या की अछि?</item>
+        <item>अहांक आइडीक अंतिम 6 अँक की अछि?</item>
+        <item>अहांक कारक लाइसेन्स प्लेट संख्या की अछि?</item>
+        <item>अहाँ पहिल कम्पनीमे जे काज केलौ तकर नाम की छल?</item>
+        <item>विशिष्ट प्रश्न</item>
+    </string-array>
+    <string-array name="timezones_cities_array">
+        <item>अबीडजन, कोटे डलभोइर</item>
+        <item>अबुधाबी, यूएइ</item>
+        <item>अकरा, घाना</item>
+        <item>अदीस अबाबा, इथोपीया</item>
+        <item>एडेलेड, आस्ट्रेलिया</item>
+        <item>अलास्का, यूएसए</item>
+        <item>अल्जीएर्स, अरल्जीरीया</item>
+        <item>अलमाटी, कजाख्स्तान</item>
+        <item>अमबोन, इन्डोनेसीया</item>
+        <item>अमान, जोरडन</item>
+        <item>आरम्सडम, नीदरलैण्ड</item>
+        <item>अनादीर, रुस</item>
+        <item>अनकोरगे, यूएसए</item>
+        <item>अँकारा, टर्की</item>
+        <item>अनसान, चीन</item>
+        <item>अंटानानारीवो, मेडागास्कर</item>
+        <item>अस्काबस्त, तुर्कमेनीस्तान</item>
+        <item>असमारा, इरिटिया</item>
+        <item>अस्ताना, कजाख्स्तान</item>
+        <item>असुनसीयन, पारागुवे</item>
+        <item>एथेन्स, ग्रीस</item>
+        <item>अटलांटा, यूएसए</item>
+        <item>आकलैण्ड, न्यूजीलैण्ड</item>
+        <item>आस्टीन, युएसए</item>
+        <item>एजोर्स, पोर्तगाल</item>
+        <item>बगदाद, इराक</item>
+        <item>बाकु, अजरबैजान</item>
+        <item>बाल्टीमोर, युएसए</item>
+        <item>बमाको, माली</item>
+        <item>बेँगेलोर, भारत</item>
+        <item>बेगँकाक, थाइलैण्ड</item>
+        <item>बंगुइ, केन्द्रीय आफ्रीकन गणतंत्र</item>
+        <item>बोओडिंग, चीन</item>
+        <item>बाओटाउ, चीन</item>
+        <item>बारसीलोना, स्पेन</item>
+        <item>बारी, इटली</item>
+        <item>बस्से-तेर्रे, ग्वाडेलौप</item>
+        <item>बेजीँग, चीन</item>
+        <item>बेइरुट, लेबनान</item>
+        <item>बेलग्रेड, सर्बिया</item>
+        <item>बेलीजे शहर, बेलीजे</item>
+        <item>बेन्क्सी, चीन</item>
+        <item>बरलीन, जर्मनी</item>
+        <item>बर्न, स्वीटजरलैण्ड</item>
+        <item>बीसकेक, कीरजीस्तान</item>
+        <item>बीसाउ, गुनियाँ बीसाउ</item>
+        <item>बोगोटा, कोलम्बिया</item>
+        <item>बोलोग्ना, इटली</item>
+        <item>बोस्टन, यूएसए</item>
+        <item>ब्रासीलीया, ब्राजील</item>
+        <item>ब्राटीसलाभा, स्लोभेकिया</item>
+        <item>ब्राजवीले, कोन्गो</item>
+        <item>ब्रीजटाउन, बारबाडोस</item>
+        <item>ब्रीसबेन, आस्ट्रेलिया</item>
+        <item>ब्रुसेल्स, बेल्जीयम</item>
+        <item>बुचारेष्ट, रोमानीया</item>
+        <item>बुडापेष्ट, हँग्री</item>
+        <item>बेउनस आइर्स, अरजीनटीना</item>
+        <item>कैरो, इजीप्ट</item>
+        <item>कलगेरी, कनाडा</item>
+        <item>कैनेरी दीप, स्पेन</item>
+        <item>केनबेरा, आस्ट्रेलिया</item>
+        <item>केप टाउन, दक्षिण अफ्रीका</item>
+        <item>कराकस, भेनेजूवेला</item>
+        <item>काडिफ, वेल्स</item>
+        <item>कासाब्लांका, मोरक्को</item>
+        <item>कैटेनजरो, इटली</item>
+        <item>क्याने, फ्रेंच गुयाना</item>
+        <item>चाँगचुन, चीन</item>
+        <item>चँग्सा, चीन</item>
+        <item>झँझाउ, चीन</item>
+        <item>चारलोटे, युएसए</item>
+        <item>चारलोटे अमालीए, यूएस भरजीन टापू</item>
+        <item>चेलियाबिंक, रुस</item>
+        <item>चेँगदु, चीन</item>
+        <item>चेन्नै, भारत</item>
+        <item>सीकागो, यूएसए</item>
+        <item>चीहुआहुआ, मेक्सिको</item>
+        <item>चीसीनाउ, मोलडोभा</item>
+        <item>चीता, रुस</item>
+        <item>चोँगकीँग, चीन</item>
+        <item>क्लीभलैण्ड, युएसए</item>
+        <item>कोल्बो, श्री लंका</item>
+        <item>कोलम्बस, यूएसए</item>
+        <item>कनाक्री, गुएना</item>
+        <item>कोपेनहोगन, डेनमार्क</item>
+        <item>कोर्क, आयरलैण्ड</item>
+        <item>क्रोटोन, इटली</item>
+        <item>डकर, सेनेगल</item>
+        <item>डालीयन, चीन</item>
+        <item>डलास, यूएसए</item>
+        <item>डेमासकस, सीरीया</item>
+        <item>डाकीँग, चीन</item>
+        <item>डार एस सलाम, तन्जानिया</item>
+        <item>डारवीन, आस्ट्रेलिया</item>
+        <item>डटाँग, चीन</item>
+        <item>डेनपसार, इन्डोनेसिया</item>
+        <item>डेनवर, यूएसए</item>
+        <item>डेट्रोइट, यूएसए</item>
+        <item>ढाका, बग्लादेश</item>
+        <item>डिगो गरसिया, यूके</item>
+        <item>जिबौती</item>
+        <item>दोहा, कत्तर</item>
+        <item>डौला, केमेराउन</item>
+        <item>दुबई, यूएइ</item>
+        <item>डबलीन, आयरलैंड</item>
+        <item>दुसान्वे, ताजाकीस्तान</item>
+        <item>इस्टर द्वीप, चीली</item>
+        <item>इडीनवर्घ, स्काटलैण्ड</item>
+        <item>इडमौटन, कनाडा</item>
+        <item>एल पासो, युएसए</item>
+        <item>फरनान्डो डे नोरोन्हा, ब्राजील</item>
+        <item>फ्लोरेंस, इटली</item>
+        <item>फोर्ट-डे-फ्राँस, मार्टनिक</item>
+        <item>फ्रेकपर्ट, जर्मनी</item>
+        <item>फ्रीशहर, सीयरा लियोन</item>
+        <item>फुसुन, चीन</item>
+        <item>फुक्सीन, चीन</item>
+        <item>फुजाउ, चीन</item>
+        <item>गेबोरोने, बोस्टवाना</item>
+        <item>गलापागोस, आइलैण्ड, इक्वाडोर</item>
+        <item>जेनेवा, स्वीटजरलैण्ड</item>
+        <item>जेनोवा, इटली</item>
+        <item>जोर्ज शहर, गुआना</item>
+        <item>ग्रीनलैण्ड</item>
+        <item>ग्रीटविकेन, दक्षिण जोरजिया</item>
+        <item>गुआम</item>
+        <item>गुआँगझुँग, चीन</item>
+        <item>ग्वाटेमाला</item>
+        <item>ग्वाटेमाला शहर, ग्वाटेमाला</item>
+        <item>गुइयाँग, चीन</item>
+        <item>गुसटाभीया, सेन्ट बारथीलेमी</item>
+        <item>हैकाउ, चीन</item>
+        <item>हेलीफेक्स, कनाडा</item>
+        <item>हमवर्ग, जर्मनी</item>
+        <item>हनडन, चीन</item>
+        <item>हँगझौ, चीन</item>
+        <item>हनोइ, वीयतनाम</item>
+        <item>हरारे, जीम्बाम्बे</item>
+        <item>हारबीन, चीन</item>
+        <item>हवाना, क्वूबा</item>
+        <item>हवाइ, यूएसए</item>
+        <item>हेफी, चीन</item>
+        <item>हेलसीन्की, फीनलैण्ड</item>
+        <item>हो ची मीन्ह शहर, वीयतनाम</item>
+        <item>होबाल्ट, आस्ट्रेलिया</item>
+        <item>होहोट, चीन</item>
+        <item>हाँग काँग, चीन</item>
+        <item>होनोलूलू, यूएसए</item>
+        <item>हास्टन, यूएसए</item>
+        <item>होव्ड, मँगोलिया</item>
+        <item>हुआअन, चीन</item>
+        <item>हुआनन, चीन</item>
+        <item>हाइदरावाद, भारत</item>
+        <item>इण्डीयानापोलीस, यूएसए</item>
+        <item>इरकुत्स्क, रुस</item>
+        <item>इस्लामाबाद, पाकिस्तान</item>
+        <item>इस्तानबुल, टर्की</item>
+        <item>इजेक्स, रुस</item>
+        <item>जकार्ता, इण्डोनेसीया</item>
+        <item>जोदाह, साउदी अरबिया</item>
+        <item>जेरुसलम, इसराइल</item>
+        <item>जीलीन शहर, चीन</item>
+        <item>जीनान, चीन</item>
+        <item>जीनझाउ, चीन</item>
+        <item>जीक्सी, चीन</item>
+        <item>जोहानेसवर्ग, दक्षिण अफ्रीका</item>
+        <item>काबूल, अफगानिस्तान</item>
+        <item>कालीँगग्राड, रुस</item>
+        <item>केमचत्का, रुस</item>
+        <item>कम्पाला, युगान्डा</item>
+        <item>कराची, पाकिस्तान</item>
+        <item>काठमान्डु, नेपाल</item>
+        <item>खबारोस्क, रुस</item>
+        <item>खारकीक, उक्रेन</item>
+        <item>खारटौम, सुडान</item>
+        <item>किँग्सटन, कनाडा</item>
+        <item>कीनसासा, कोँगो डेम.रेप.</item>
+        <item>कीरीतीमती, कीरीबती</item>
+        <item>कोलकता, भारत</item>
+        <item>क्रास्नोयास्क, रुस</item>
+        <item>क्वाला लमपुर, मलेसीया</item>
+        <item>कुनमीँग, चीन</item>
+        <item>कुवैत शहर, कुवैत</item>
+        <item>क्वीव, उक्रेन</item>
+        <item>ला पाज, बोलीवीया</item>
+        <item>लागोस, नाइजीरीया</item>
+        <item>लाहोर, पाकिस्तान</item>
+        <item>लानजाउ, चीन</item>
+        <item>लस भेगेस, यूएसए</item>
+        <item>लीमा, पेरु</item>
+        <item>लीसवन, पोर्तगाल</item>
+        <item>लीउझौ, चीन</item>
+        <item>जुबुजाना, स्लोवेनिया</item>
+        <item>लान्डन, इँगलैण्ड</item>
+        <item>लास एन्जील्स, यूएसए</item>
+        <item>लोइसवीले, यूएसए</item>
+        <item>लुआन्दा, अँगोला</item>
+        <item>लुबुमबासी, डी. आर. कोन्गो</item>
+        <item>लीओआँग, चीन</item>
+        <item>लुसाका, जाम्बीया</item>
+        <item>लग्जेमबर्ग</item>
+        <item>ल्भीभ, उक्रेन</item>
+        <item>मकाउ, चीन</item>
+        <item>मेड्रीड, स्पेन</item>
+        <item>मगदन, रुस</item>
+        <item>माजुरो, मारशल दीप</item>
+        <item>मेलाबो, इक्वाटोरीयल गुनिया</item>
+        <item>माले, माल्डीब्स</item>
+        <item>मेनागुआ, निकारागुआ</item>
+        <item>मनामा, बहराइन</item>
+        <item>मनौस, ब्राजील</item>
+        <item>मनीला, फीलीपीन्स</item>
+        <item>मापुटो, मोजाम्बिक</item>
+        <item>मेरीगोट, सेन्ट मारटीन</item>
+        <item>मायोटे, फ्राँस</item>
+        <item>मजटलान, मेक्सिको</item>
+        <item>मेक्का, साउदी अरबिया</item>
+        <item>मेलवर्न, आस्ट्रेलिया</item>
+        <item>मेमफीस, युएसए</item>
+        <item>मेसिना, इटली</item>
+        <item>मेक्सीको शहर, मेक्सीको</item>
+        <item>मीयामी, यूएसए</item>
+        <item>मध्य-अटलांटिक</item>
+        <item>मध्य रस्ता दिप, यूएसए</item>
+        <item>मीलन, इटली</item>
+        <item>मीलवौकी, युएसए</item>
+        <item>मीनआपोलीस, यूएसए</item>
+        <item>मीन्सक, बेलारुस</item>
+        <item>मोगाडीसु, सोमालीया</item>
+        <item>मेनरोविया, लिबेरिया</item>
+        <item>मोन्टेबीडियो, उरुग्वे</item>
+        <item>मोनट्रीयल, कनाडा</item>
+        <item>मास्को, रुस</item>
+        <item>मुडाँगजिआँग, चीन</item>
+        <item>मुम्बइ, भारत</item>
+        <item>मुनीच, जर्मनी</item>
+        <item>मुस्काट, ओमान</item>
+        <item>नैरौबी, केन्या</item>
+        <item>नानचाँग, चीन</item>
+        <item>नानजीँग, चीन</item>
+        <item>नानीँग, चीन</item>
+        <item>नेप्लेस, इटली</item>
+        <item>नेटर्स, स्वीटजरलैण्ड</item>
+        <item>एनडजामेना, चाड</item>
+        <item>न्यू देलही, भारत</item>
+        <item>नव ओरलीन्स, यूएसए</item>
+        <item>न्यू ओर्क, यूएसए</item>
+        <item>न्यूफाउण्डलैण्ड, कनाडा</item>
+        <item>नियामी, नीगेर</item>
+        <item>नीँग्बो, चीन</item>
+        <item>नुआकचोट, मौरिटानियाँ</item>
+        <item>नौमिया, नव कैलेडोनिया</item>
+        <item>नोभोकुजनेस्क, रुस</item>
+        <item>नोभोसिबिस्क, रुस</item>
+        <item>नुकुवालोफा, टोँगा</item>
+        <item>नूक, ग्रीनलैण्ड</item>
+        <item>ओम्क, रुस</item>
+        <item>ओरल, कजाख्स्तान</item>
+        <item>ओसाका, जापान</item>
+        <item>ओस्लो, नोरवे</item>
+        <item>ओटावा, कनाडा</item>
+        <item>वागाडाउगौ, बुरकीना फासो</item>
+        <item>पैगौ पैगौ, अमेरिकन समोआ</item>
+        <item>पेलेर्मो, इटली</item>
+        <item>पनामा शहर, पनामा</item>
+        <item>पेरामारिहो, सुरीनेम</item>
+        <item>पेरीस, फ्राँस</item>
+        <item>पर्म, रुस</item>
+        <item>पर्थ, आस्ट्रेलिया</item>
+        <item>पेट्रोपावलोस्क-कामचस्की, रुस</item>
+        <item>फीलाडेफीया, यूएसए</item>
+        <item>फोम पेंह, वीयतनाम</item>
+        <item>फोइनिक्स, यूएसए</item>
+        <item>पीँगडीँगसन, चीन</item>
+        <item>पोडगोरिका, मोटेनेग्रो</item>
+        <item>पोण्टा डेलगादा, पोर्तगाल</item>
+        <item>पोर्ट लोउस, मरीसस</item>
+        <item>पोर्ट-औ-प्रींस, हैती</item>
+        <item>पोर्टलैण्ड, युएसए</item>
+        <item>पराग्वे, क्रेच गणतंत्र</item>
+        <item>परैया, केप वरदे</item>
+        <item>प्योनगियाँग, प्रजातंत्र जनताक गणतंत्र कोरिया</item>
+        <item>क्वीनडाउ, चीन</item>
+        <item>क्वीक्वीहर, चीन</item>
+        <item>क्वीटो, इक्वाडोर</item>
+        <item>रबट, मोरक्को</item>
+        <item>रेसीफे, ब्राजील</item>
+        <item>रेगीना, कनाडा</item>
+        <item>रीकजावीक, आइसलैंड</item>
+        <item>रीगा, लटवीया</item>
+        <item>रीओ डेजेनेरिओ, ब्राजील</item>
+        <item>रीयाद्ध, सउदी अरबीया</item>
+        <item>रोम, इटली</item>
+        <item>साओ जाउसो, ब्राजील</item>
+        <item>सेन्ट डेनिस, पुन:एकिकृत द्वीप</item>
+        <item>साल्ट लेक शहर, यूएसए</item>
+        <item>समरा, रुस</item>
+        <item>सन एनटानियो, युएसए</item>
+        <item>सनडिएगो, युएसए</item>
+        <item>सन फ्राँसिसको, यूएसए</item>
+        <item>सन जोसे, कोस्टा रिका</item>
+        <item>सन जुआन, पुएरटो रीको</item>
+        <item>सन मैरिनो</item>
+        <item>सन सल्वाडोर, इल सल्वाडोर</item>
+        <item>सानाज, एमेन</item>
+        <item>सेनटीएगो, चीली</item>
+        <item>सान्टो डोमिन्गो, डोमनिकन गणतंत्र</item>
+        <item>सराजेबो, बोसनीया आ हरजोगोबीना</item>
+        <item>सेट्टल, यूएसए</item>
+        <item>सीयोल, दक्षिण कोरिया</item>
+        <item>सँघाइ, चीन</item>
+        <item>सँगक्वू, चीन</item>
+        <item>सँनताउ, चीन</item>
+        <item>सेन्याँग, चीन</item>
+        <item>सेनझेँग, चीन</item>
+        <item>सीजीयाझुआँग, चीन</item>
+        <item>सिंगापुर</item>
+        <item>सोजे, मेकडोनिया</item>
+        <item>सोफीया, बुलगारीया</item>
+        <item>एसटी जोन्स, कनाडा</item>
+        <item>एसटी. पीटर्सवर्ग, रुस</item>
+        <item>एसटी. पीएरे आ मिक्वेलान, फ्राँस</item>
+        <item>स्टोखोलम, स्वीडेन</item>
+        <item>सुवा, फीजी</item>
+        <item>सुझाउ, चीन</item>
+        <item>सीडनी, आस्ट्रेलिया</item>
+        <item>तहिती, फ्रेँच पोलिनेसिया</item>
+        <item>ताइपे, चीन</item>
+        <item>ताइयूअन, चीन</item>
+        <item>टालीन, इस्टोनीया</item>
+        <item>ताँगसन, चीन</item>
+        <item>तरवा, कीरीवती</item>
+        <item>तासकन्त, उजबेकीस्तान</item>
+        <item>त्ब्लीसी, जोरजीया</item>
+        <item>तेगुसीगल्पा, होन्डुरास</item>
+        <item>तेहरान, इरान</item>
+        <item>बस्ती, जीबी भरजीन टापू</item>
+        <item>तीआँगजीन, चीन</item>
+        <item>तीजुआना, मेक्सिको</item>
+        <item>टोक्यो, जापान</item>
+        <item>टोँगा</item>
+        <item>टोरन्टो, कनाडा</item>
+        <item>ट्रीपोली, लीबीया</item>
+        <item>टुनीस, टुनीसीया</item>
+        <item>टुरीन, इटली</item>
+        <item>उफा, रुस</item>
+        <item>उलानबटोर, मँगोलिया</item>
+        <item>उरुम्क्वी, चीन</item>
+        <item>भडुज, लिचटेन्सटाइन</item>
+        <item>भेलेटा, माल्टा</item>
+        <item>वानकौवर, कनाडा</item>
+        <item>भेरोना, इटली</item>
+        <item>भिक्टोरिया, सीचेल्स</item>
+        <item>भीयना, आस्ट्रिया</item>
+        <item>वीलनीयस, लीथुआनीया</item>
+        <item>भलाडीवोस्टोक, रुस</item>
+        <item>भोल्गोग्रेड, रुस</item>
+        <item>वारसाउ, पोलैण्ड</item>
+        <item>वासीँगटन, डीसी, यूएसए</item>
+        <item>वेफ़ांग, चीन</item>
+        <item>वेलीँगटन, न्यूजीलैण्ड</item>
+        <item>वीन्ढोएक, नामीबीया</item>
+        <item>वीनीपेंग, कनाडा</item>
+        <item>वुहान, चीन</item>
+        <item>वुक्सी, चीन</item>
+        <item>सीआन, चीन</item>
+        <item>सीयाँग्याँग, चीन</item>
+        <item>सीनीँग, चीन</item>
+        <item>सुझाउ, चीन</item>
+        <item>याकुत्स्क, रुस</item>
+        <item>यमोसकरो, कोटे डलभोइर</item>
+        <item>यँगुन, म्यांमार</item>
+        <item>यानताइ, चीन</item>
+        <item>याओन्डे, केमेराउन</item>
+        <item>यकातेरिंगवर्ग, रुस</item>
+        <item>येरेवन, अरमेनीया</item>
+        <item>यीचाँग, चीन</item>
+        <item>यिचून, चीन</item>
+        <item>युझनो-सखालिंक्स, रुस</item>
+        <item>जगरेब, क्रोसीया</item>
+        <item>जाओझुआँग, चीन</item>
+        <item>झाँगजिआकौ, चीन</item>
+        <item>झाँगजियाँग, चीन</item>
+        <item>झेँगझाउ, चीन</item>
+        <item>जीबो, चीन</item>
+        <item>जुरीच, स्वीटजरलैण्ड</item>
+        <item>दक्षिण जोरजिया</item>
+        <item>बन्दर सेरी बेगवान</item>
+        <item>वीएनटीआने</item>
+    </string-array>
+</resources>

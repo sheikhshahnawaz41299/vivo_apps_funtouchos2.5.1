@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">%1$d (na) hakbang ka na lang bago maging isang developer.</item>
+        <item quantity="one">%1$d (na) hakbang ka na lang bago maging isang developer.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Dapat ay may %d o higit pang titik ang password.</item>
+        <item quantity="one">Dapat ay may 1 o higit pang titik ang password.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Dapat ay may %d o higit pang maliit na titik ang password.</item>
+        <item quantity="one">Dapat ay may 1 o higit pang maliit na titik ang password.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Dapat ay may %d o higit pang malaking titik ang password.</item>
+        <item quantity="one">Dapat ay may 1 o higit pang malaking titik ang password.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Dapat ay may %d o higit pang digit ang password.</item>
+        <item quantity="one">Dapat ay may isa o higit pang digit ang password.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Dapat ay may %d o higit pang special character ang password.</item>
+        <item quantity="one">Dapat ay may 1 o higit pang special character ang password.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Dapat maglaman ng hindi bababa sa %d (na) hindi alpha na character ang password</item>
+        <item quantity="one">Dapat maglaman ng hindi bababa sa isang hindi alpha na character ang password</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Maling PIN ng SIM card, mayroon ka pang %d (na) pagsubok.</item>
+        <item quantity="one">Maling PIN ng SIM card, mayroon ka pang %d (na) pagsubok. Kung hindi ka pa rin magtagumpay, dapat kang makipag-ugnayan sa carrier para i-unlock ang device.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d (na) app ang makakabasa ng mga notification</item>
+        <item quantity="one">%d (na) app ang makakabasa ng mga notification</item>
+    </plurals>
+    <plurals name="manage_condition_providers_summary_nonzero">
+        <item quantity="other">%d (na) app ang makakapagbigay ng mga kondisyon</item>
+        <item quantity="one">%d (na) app ang makakapagbigay ng mga kondisyon</item>
+    </plurals>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/notification_pulse_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/noti_charge_title" android:key="charge" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/noti_noti_title" android:key="noti" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/noti_record_title" android:key="record" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/noti_low_power_title" android:key="low_power" />
+    <PreferenceCategory android:title="@string/noti_explain" style="?vivo:attr/explainPreferenceStyle" />
+</PreferenceScreen>

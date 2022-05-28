@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="screen_timeout_entries">
+        <item>15 с</item>
+        <item>30 с</item>
+        <item>1 мин</item>
+        <item>2 мин</item>
+        <item>5 мин</item>
+        <item>10 мин</item>
+        <item>30 мин</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Сразу</item>
+        <item>5 с</item>
+        <item>15 с</item>
+        <item>30 с</item>
+        <item>1 мин</item>
+        <item>2 мин</item>
+        <item>5 мин</item>
+        <item>10 мин</item>
+        <item>30 мин</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Мелкий</item>
+        <item>Обычный</item>
+        <item>Крупный</item>
+        <item>Огромный</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Очень медленная</item>
+        <item>Медленная</item>
+        <item>Обычный</item>
+        <item>Умеренно быстрая</item>
+        <item>Быстрая</item>
+        <item>Очень быстрая</item>
+        <item>Ускоренная</item>
+        <item>Сильно ускоренная</item>
+        <item>Максимальная</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Поиск...</item>
+        <item>Подключение...</item>
+        <item>Аутентификация...</item>
+        <item>Получение IP-адреса...</item>
+        <item>Подключено</item>
+        <item>Приостановлено</item>
+        <item>Отключение...</item>
+        <item>Отключено</item>
+        <item>Сбой</item>
+        <item>Отключено</item>
+        <item>Временно отключено (плохое соединение)</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Поиск...</item>
+        <item>Соединение с сетью %1$s...</item>
+        <item>Аутентификация в сети %1$s..</item>
+        <item>Получение IP-адреса от сети %1$s...</item>
+        <item>Подключено к сети %1$s</item>
+        <item>Приостановлено</item>
+        <item>Отключение от сети %1$s...</item>
+        <item>Отключено</item>
+        <item>Сбой</item>
+        <item>Отключено</item>
+        <item>Временно отключено (плохое соединение)</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Подключено</item>
+        <item>Приглашено</item>
+        <item>Сбой</item>
+        <item>Доступно</item>
+        <item>Вне диапазона</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 мин</item>
+        <item>5 мин</item>
+        <item>1 ч</item>
+        <item>Без времени ожидания</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Слабый</item>
+        <item>Общий</item>
+        <item>Хороший</item>
+        <item>Отличный</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Всегда</item>
+        <item>Только при питании от сети</item>
+        <item>Никогда</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Всегда</item>
+        <item>Только при питании от сети</item>
+        <item>Никогда</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Автоматически</item>
+        <item>Только 5 ГГц</item>
+        <item>Только 2,4 ГГц</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Время использования</item>
+        <item>Последнее использование</item>
+        <item>Название приложения</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>Нет</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Нет</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Статический</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Нет</item>
+        <item>Вручную</item>
+        <item>Автоконфигурация прокси</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Нет</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP или CHAP</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>Не указано</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>Нет</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Внутренний накопитель устройства</item>
+        <item>Съемная SD-карта</item>
+        <item>На усмотрение системы</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>Местоположение</item>
+        <item>Личные данные</item>
+        <item>SMS</item>
+        <item>Мультимедиа</item>
+        <item>Устройство</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>Приблизительное местоположение</item>
+        <item>Точное местоположение</item>
+        <item>GPS</item>
+        <item>Вибросигнал</item>
+        <item>Считывать данные контактов</item>
+        <item>Изменить контакт</item>
+        <item>Просмотр списка вызовов</item>
+        <item>Изменение списка вызовов</item>
+        <item>Считывать данные календаря</item>
+        <item>Изменение календаря</item>
+        <item>поиск сетей wi-fi</item>
+        <item>Уведомление</item>
+        <item>поиск мобильных сетей</item>
+        <item>Позвонить</item>
+        <item>Чтение SMS</item>
+        <item>Создание SMS</item>
+        <item>Получение SMS</item>
+        <item>Получение экстренных SMS</item>
+        <item>Получение MMS</item>
+        <item>Получение сообщений WAP PUSH</item>
+        <item>Отправить SMS-сообщение</item>
+        <item>Чтение SMS со смарт-карты</item>
+        <item>Запись SMS на смарт-карту</item>
+        <item>Изменение настроек</item>
+        <item>Отображать поверх других элементов</item>
+        <item>Доступ к уведомлениям</item>
+        <item>Камера</item>
+        <item>Записать аудио</item>
+        <item>Воспроизвести аудио</item>
+        <item>Считать из буфера обмена</item>
+        <item>Изменить буфер обмена</item>
+        <item>Кнопки мультимедиа</item>
+        <item>Аудиофокус</item>
+        <item>Общая громкость</item>
+        <item>Громкость голоса</item>
+        <item>Громкость звонка</item>
+        <item>Громкость мультимедиа</item>
+        <item>Громкость будильника</item>
+        <item>Громкость уведомлений</item>
+        <item>Громкость Bluetooth-устройств</item>
+        <item>Не выключать экран</item>
+        <item>Отслеживать местоположение</item>
+        <item>Контролировать использование энергии при определении местоположения</item>
+        <item>Посмотреть статистику использования</item>
+        <item>Включить/отключить микрофон</item>
+        <item>Трансляция контента</item>
+        <item>Активация VPN</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>Местоположение</item>
+        <item>Местоположение</item>
+        <item>Местоположение</item>
+        <item>Вибросигнал</item>
+        <item>Считывать данные контактов</item>
+        <item>Изменить контакт</item>
+        <item>Просмотр списка вызовов</item>
+        <item>Изменение списка вызовов</item>
+        <item>Считывать данные календаря</item>
+        <item>Изменение календаря</item>
+        <item>Местоположение</item>
+        <item>Разместить уведомление</item>
+        <item>Местоположение</item>
+        <item>Позвонить</item>
+        <item>Чтение SMS/MMS</item>
+        <item>Запись SMS/MMS</item>
+        <item>Получение SMS/MMS</item>
+        <item>Получение SMS/MMS</item>
+        <item>Получение SMS/MMS</item>
+        <item>Получение SMS/MMS</item>
+        <item>Отправка SMS/MMS</item>
+        <item>Чтение SMS/MMS</item>
+        <item>Запись SMS/MMS</item>
+        <item>Изменение настроек</item>
+        <item>Отображать поверх других элементов</item>
+        <item>Доступ к уведомлениям</item>
+        <item>Камера</item>
+        <item>Записать аудио</item>
+        <item>Воспроизвести аудио</item>
+        <item>Считать из буфера обмена</item>
+        <item>Изменить буфер обмена</item>
+        <item>Кнопки мультимедиа</item>
+        <item>Аудиофокус</item>
+        <item>Общая громкость</item>
+        <item>Громкость голоса</item>
+        <item>Громкость звонка</item>
+        <item>Громкость мультимедиа</item>
+        <item>Громкость будильника</item>
+        <item>Громкость уведомлений</item>
+        <item>Громкость Bluetooth-устройств</item>
+        <item>Не выключать экран</item>
+        <item>Местоположение</item>
+        <item>Информация о местоположении</item>
+        <item>Посмотреть статистику использования</item>
+        <item>Включить/отключить микрофон</item>
+        <item>Трансляция контента</item>
+        <item>Активация VPN</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Небольшая</item>
+        <item>Средний</item>
+        <item>Длинные</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>По умолчанию</item>
+        <item>Sans-serif</item>
+        <item>Sans-serif condensed</item>
+        <item>Sans-serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>Casual</item>
+        <item>Cursive</item>
+        <item>Small capitals</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>Очень мелкий</item>
+        <item>Мелкий</item>
+        <item>Обычный</item>
+        <item>Крупный</item>
+        <item>Огромный</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>По умолчанию</item>
+        <item>Нет</item>
+        <item>Контур</item>
+        <item>С тенью</item>
+        <item>Приподнятый</item>
+        <item>Утопленный</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>По умолчанию</item>
+        <item>Белый на черном</item>
+        <item>Черный на белом</item>
+        <item>Желтый на черном</item>
+        <item>Желтый на синем</item>
+        <item>Настроить</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Буфер журнала: макс. 64 КБ</item>
+        <item>Буфер журнала: макс. 256 КБ</item>
+        <item>Буфер журнала: макс. 1 МБ</item>
+        <item>Буфер журнала: макс. 4 МБ</item>
+        <item>Буфер журнала: макс. 16 МБ</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Никогда не проверять</item>
+        <item>Проверять только DRM-контент</item>
+        <item>Всегда проверять</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Не использовать проверку HDCP</item>
+        <item>Использовать проверку HDCP только для DRM-контента</item>
+        <item>Всегда использовать проверку HDCP</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Без анимации</item>
+        <item>Анимация 0,5x</item>
+        <item>Анимация 1x</item>
+        <item>Анимация 1,5x</item>
+        <item>Анимация 2x</item>
+        <item>Анимация 5x</item>
+        <item>Анимация 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Без анимации</item>
+        <item>Анимация 0,5x</item>
+        <item>Анимация 1x</item>
+        <item>Анимация 1,5x</item>
+        <item>Анимация 2x</item>
+        <item>Анимация 5x</item>
+        <item>Анимация 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>Без анимации</item>
+        <item>Анимация 0,5x</item>
+        <item>Анимация 1x</item>
+        <item>Анимация 1,5x</item>
+        <item>Анимация 2x</item>
+        <item>Анимация 5x</item>
+        <item>Анимация 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Нет</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (безопасное)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (безопасное)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (безопасное)</item>
+        <item>1280x720 tvdpi и 1920x1080 xhdpi</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Нет</item>
+        <item>Logcat</item>
+        <item>Systrace (графика)</item>
+        <item>Список вызовов в glGetError</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Закрыть</item>
+        <item>Непрямоугольное усечение синим</item>
+        <item>Тест. команды рисования зеленым</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Закрыть</item>
+        <item>На экране в виде полос</item>
+        <item>В adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Закрыть</item>
+        <item>Показывать области наложения</item>
+        <item>Выделять области определенного цвета</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Стандартное ограничение</item>
+        <item>Без фоновых процессов</item>
+        <item>Не более одного процесса</item>
+        <item>Не более 2 процессов</item>
+        <item>Не более 3 процессов</item>
+        <item>Не более 4 процессов</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>VPN-соединение по протоколу L2TP/IPSec с общими ключами</item>
+        <item>VPN-подключение по протоколу L2TP/IPSec с использованием сертификатов</item>
+        <item>VPN-подключение IPSec с общими ключами и аутентификацией Xauth</item>
+        <item>VPN-подключение IPSec с использованием сертификатов и аутентификации Xauth</item>
+        <item>VPN-подключение IPSec с использованием сертификатов и комбинированной аутентификации</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Отключена</item>
+        <item>Инициализация...</item>
+        <item>Подключение...</item>
+        <item>Подключено</item>
+        <item>Время ожидания</item>
+        <item>Сбой</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Спрашивать</item>
+        <item>Не разрешать</item>
+        <item>Разрешать всегда</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>Общий</item>
+        <item>Средний</item>
+        <item>Низкий</item>
+        <item>Очень мало</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>Обычный</item>
+        <item>Пока хватает</item>
+        <item>Мало</item>
+        <item>Очень мало</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>Стабильное</item>
+        <item>Наиболее частое действие</item>
+        <item>Важное (активный режим)</item>
+        <item>Важное (фоновый режим)</item>
+        <item>Копир.</item>
+        <item>Большой объем данных</item>
+        <item>Служба (работает)</item>
+        <item>Служба (перезапуск)</item>
+        <item>Получатель</item>
+        <item>Начальный экран</item>
+        <item>Последнее действие</item>
+        <item>Кэшировано (действие)</item>
+        <item>Кэшировано (клиент)</item>
+        <item>Кэшировано (пусто)</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>Сине-зеленый</item>
+        <item>Синий</item>
+        <item>Индиго</item>
+        <item>Пурпурный</item>
+        <item>Розовый</item>
+        <item>Красный</item>
+    </string-array>
+    <string-array name="ring_or_mtp_change_entries">
+        <item>Рингтоны</item>
+        <item>Мультимедиа</item>
+    </string-array>
+    <string-array name="app_loc_permission">
+        <item>Выключить</item>
+        <item>Разрешить</item>
+        <item>Спрашивать</item>
+    </string-array>
+    <string-array name="key_light_control_mode">
+        <item>1.5 с</item>
+        <item>6 с</item>
+        <item>Всегда включено</item>
+        <item>Всегда выключено</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_amoled">
+        <item>15 с</item>
+        <item>30 с</item>
+        <item>1 мин</item>
+        <item>2 мин</item>
+        <item>5 мин</item>
+        <item>10 мин</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_mtfp">
+        <item>15 с</item>
+        <item>30 с</item>
+        <item>1 мин</item>
+        <item>2 мин</item>
+        <item>5 мин</item>
+        <item>10 мин</item>
+        <item>30 мин</item>
+        <item>Никогда</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>Имя вашего отца</item>
+        <item>Имя вашей матери</item>
+        <item>Имя вашего супруга/вашей супруги</item>
+        <item>Начальная школа, которую вы посещали</item>
+        <item>Имя вашей воспитательницы в детском саду</item>
+        <item>Имя вашего школьного учителя</item>
+        <item>Имя вашего лучшего друга/подруги детства</item>
+        <item>Место вашего рождения</item>
+        <item>Номер вашего студенческого (рабочего) удостоверения</item>
+        <item>Последние 6 цифр номера вашего удостоверения личности</item>
+        <item>Номер вашей машины</item>
+        <item>Ваше первое место работы</item>
+        <item>Пользовательский вопрос</item>
+    </string-array>
+    <string-array name="area_entrys">
+        <item>Таиланд</item>
+        <item>Малайзия</item>
+        <item>Индонезия</item>
+        <item>Индия</item>
+        <item>Мьянма</item>
+        <item>Филиппины</item>
+        <item>Вьетнам</item>
+        <item>Бруней</item>
+        <item>Камбоджа</item>
+        <item>Лаос</item>
+        <item>Сингапур</item>
+        <item>Бангладеш</item>
+        <item>Непал</item>
+        <item>Пакистан</item>
+        <item>Шри-Ланка</item>
+    </string-array>
+    <string-array name="vivo_rom_25problem_ask_lables">
+        <item>Начальная школа, которую вы посещали</item>
+        <item>Имя вашего отца</item>
+        <item>Имя вашей матери</item>
+        <item>Имя вашего супруга/вашей супруги</item>
+        <item>Место вашего рождения</item>
+        <item>Ваша кличка</item>
+        <item>Имя вашего школьного учителя</item>
+        <item>Имя вашего лучшего друга/подруги детства</item>
+        <item>Номер вашего студенческого (рабочего) удостоверения</item>
+        <item>Последние 6 цифр номера вашего удостоверения личности</item>
+        <item>Номер вашей машины</item>
+        <item>Ваше первое место работы</item>
+        <item>Пользовательский вопрос</item>
+    </string-array>
+    <string-array name="timezones_cities_array">
+        <item>"Абиджан, Кот д'Ивуар"</item>
+        <item>Абу-Даби, ОАЭ</item>
+        <item>Аккра, Гана</item>
+        <item>Аддис-Абеба, Эфиопия</item>
+        <item>Аделаида, Австралия</item>
+        <item>Аляска, США</item>
+        <item>Алжир (город), Алжир</item>
+        <item>Алматы, Казахстан</item>
+        <item>Амбон, Индонезия</item>
+        <item>Амман, Иордания</item>
+        <item>Амстердам, Нидерланды</item>
+        <item>Анадырь, Россия</item>
+        <item>Анкоридж, США</item>
+        <item>Анкара, Турция</item>
+        <item>Аньшань, Китай</item>
+        <item>Антананариву, Мадагаскар</item>
+        <item>Ашхабат, Туркменистан</item>
+        <item>Асмэра, Эритрея</item>
+        <item>Астана, Казахстан</item>
+        <item>Асунсьон, Парагвай</item>
+        <item>Афины, Греция</item>
+        <item>Атланта, США</item>
+        <item>Окленд, Новая Зеландия</item>
+        <item>Остин, США</item>
+        <item>Азорские острова, Португалия</item>
+        <item>Багдад, Ирак</item>
+        <item>Баку, Азербайджан</item>
+        <item>Балтимор, США</item>
+        <item>Бамако, Мали</item>
+        <item>Бангалор, Индия</item>
+        <item>Бангкок, Таиланд</item>
+        <item>Банги, Центрально-Африканская Республика</item>
+        <item>Баодин, Китай</item>
+        <item>Баотоу, Китай</item>
+        <item>Барселона, Испания</item>
+        <item>Бари, Италия</item>
+        <item>Бас-Тер, Гваделупа</item>
+        <item>Пекин, Китай</item>
+        <item>Бейрут, Ливан</item>
+        <item>Белград, Сербия</item>
+        <item>Белиз (город), Белиз</item>
+        <item>Бэньси, Китай</item>
+        <item>Берлин, Германия</item>
+        <item>Берн, Швейцария</item>
+        <item>Бишкек, Киргизия</item>
+        <item>Бисау, Гвинея-Бисау</item>
+        <item>Богота, Колумбия</item>
+        <item>Болонья, Италия</item>
+        <item>Бостон, США</item>
+        <item>Бразилиа, Бразилия</item>
+        <item>Братислава, Словакия</item>
+        <item>Браззавиль, Конго</item>
+        <item>Бриджтаун, Барбадос</item>
+        <item>Брисбен, Австралия</item>
+        <item>Брюссель, Бельгия</item>
+        <item>Бухарест, Румыния</item>
+        <item>Будапешт, Венгрия</item>
+        <item>Буэнос-Айрес, Аргентина</item>
+        <item>Каир, Египет</item>
+        <item>Калгари, Канада</item>
+        <item>Канарские острова, Испания</item>
+        <item>Канберра, Австралия</item>
+        <item>Кейптаун, Южная Африка</item>
+        <item>Каракас, Венесуэла</item>
+        <item>Кардифф, Уэльс</item>
+        <item>Касабланка, Марокко</item>
+        <item>Катандзаро, Италия</item>
+        <item>Кайенна, Французская Гвиана</item>
+        <item>Чанчунь, Китай</item>
+        <item>Чанша, Китай</item>
+        <item>Чанчжоу, Китай</item>
+        <item>Шарлотт, США</item>
+        <item>Шарлотта-Амалия, Виргинские острова (США)</item>
+        <item>Челябинск, Россия</item>
+        <item>Чэнду, Китай</item>
+        <item>Ченнаи, Индия</item>
+        <item>Чикаго, США</item>
+        <item>Чиуауа, Мексика</item>
+        <item>Кишинев, Молдова</item>
+        <item>Чита, Россия</item>
+        <item>Чунцин, Китай</item>
+        <item>Кливленд, США</item>
+        <item>Коломбо, Шри-Ланка</item>
+        <item>Колумбус, США</item>
+        <item>Конакри, Гвинея</item>
+        <item>Копенгаген, Дания</item>
+        <item>Корк, Ирландия</item>
+        <item>Кротоне, Италия</item>
+        <item>Дакар, Сенегал</item>
+        <item>Далянь, Китай</item>
+        <item>Даллас, США</item>
+        <item>Дамаск, Сирия</item>
+        <item>Дацин, Китай</item>
+        <item>Дар-эс-Салам, Танзания</item>
+        <item>Дарвин, Австралия</item>
+        <item>Датун, Китай</item>
+        <item>Денпасар, Индонезия</item>
+        <item>Денвер, США</item>
+        <item>Детройт, США</item>
+        <item>Дакка, Бангладеш</item>
+        <item>Диего-Гарсия, Великобритания</item>
+        <item>Джибути</item>
+        <item>Доха, Катар</item>
+        <item>Дуала, Камерун</item>
+        <item>Дубай, ОАЭ</item>
+        <item>Дублин, Ирландия</item>
+        <item>Душанбе, Таджикистан</item>
+        <item>Остров Пасхи, Чили</item>
+        <item>Эдинбург, Шотландия</item>
+        <item>Эдмонтон, Канада</item>
+        <item>Эль-Пасо, США</item>
+        <item>Фернанду-ди-Норонья, Бразилия</item>
+        <item>Флоренция, Италия</item>
+        <item>Фор-де-Франс, Мартиника</item>
+        <item>Франкфурт, Германия</item>
+        <item>Фритаун, Сьерра-Леоне</item>
+        <item>Фушунь, Китай</item>
+        <item>Фусинь, Китай</item>
+        <item>Фучжоу, Китай</item>
+        <item>Габороне, Ботсвана</item>
+        <item>Галапагосские острова, Эквадор</item>
+        <item>Женева, Швейцария</item>
+        <item>Генуя, Италия</item>
+        <item>Джорджтаун, Гайана</item>
+        <item>Гренландия</item>
+        <item>Грютвикен, Южная Георгия</item>
+        <item>Гуам</item>
+        <item>Гуанчжоу, Китай</item>
+        <item>Гватемала</item>
+        <item>Гватемала (город), Гватемала</item>
+        <item>Гуйян, Китай</item>
+        <item>Густавия, Сен-Бартелеми</item>
+        <item>Хайкоу, Китай</item>
+        <item>Галифакс, Канада</item>
+        <item>Гамбург, Германия</item>
+        <item>Ханьдань, Китай</item>
+        <item>Ханчжоу, Китай</item>
+        <item>Ханой, Вьетнам</item>
+        <item>Хараре, Зимбабве</item>
+        <item>Харбин, Китай</item>
+        <item>Гавана, Куба</item>
+        <item>Гавайи, США</item>
+        <item>Хэфэй, Китай</item>
+        <item>Хельсинки, Финляндия</item>
+        <item>Хошимин, Вьетнам</item>
+        <item>Хобарт, Австралия</item>
+        <item>Хух-Хото, Китай</item>
+        <item>Гонконг, Китай</item>
+        <item>Гонолулу, США</item>
+        <item>Хьюстон, США</item>
+        <item>Ховд, Монголия</item>
+        <item>Хуайань, Китай</item>
+        <item>Хуайнань, Китай</item>
+        <item>Хайдарабад, Индия</item>
+        <item>Индианаполис, США</item>
+        <item>Иркутск, Россия</item>
+        <item>Исламабад, Пакистан</item>
+        <item>Стамбул, Турция</item>
+        <item>Ижевск, Россия</item>
+        <item>Джакарта, Индонезия</item>
+        <item>Джидда, Саудовская Аравия</item>
+        <item>Иерусалим, Израиль</item>
+        <item>Цзилинь (город), Китай</item>
+        <item>Цзинань, Китай</item>
+        <item>Цзиньчжоу, Китай</item>
+        <item>Цзиси, Китай</item>
+        <item>Йоханнесбург, Южная Африка</item>
+        <item>Кабул, Афганистан</item>
+        <item>Калининград, Россия</item>
+        <item>Камчатка, Россия</item>
+        <item>Кампала, Уганда</item>
+        <item>Карачи, Пакистан</item>
+        <item>Катманду, Непал</item>
+        <item>Хабаровск, Россия</item>
+        <item>Харьков, Украина</item>
+        <item>Хартум, Судан</item>
+        <item>Кингстон, Канада</item>
+        <item>Киншаса, Демократическая Республика Конго</item>
+        <item>Киритимати, Кирибати</item>
+        <item>Колката, Индия</item>
+        <item>Красноярск, Россия</item>
+        <item>Куала-Лумпур, Малайзия</item>
+        <item>Куньмин, Китай</item>
+        <item>Эль-Кувейт, Кувейт</item>
+        <item>Киев, Украина</item>
+        <item>Ла-Пас, Боливия</item>
+        <item>Лагос, Нигерия</item>
+        <item>Лахор, Пакистан</item>
+        <item>Ланьчжоу, Китай</item>
+        <item>Лас-Вегас, США</item>
+        <item>Лима, Перу</item>
+        <item>Лиссабон, Португалия</item>
+        <item>Лючжоу, Китай</item>
+        <item>Любляна, Словения</item>
+        <item>Лондон, Англия</item>
+        <item>Лос-Анджелес, США</item>
+        <item>Луисвилл, США</item>
+        <item>Луанда, Ангола</item>
+        <item>Лубумбаши, Демократическая Республика Конго</item>
+        <item>Лоян, Китай</item>
+        <item>Лусака, Замбия</item>
+        <item>Люксембург</item>
+        <item>Львов, Украина</item>
+        <item>Макао, Китай</item>
+        <item>Мадрид, Испания</item>
+        <item>Магадан, Россия</item>
+        <item>Маджуро, Маршалловы острова</item>
+        <item>Малабо, Экваториальная Гвинея</item>
+        <item>Мале, Мальдивы</item>
+        <item>Манагуа, Никарагуа</item>
+        <item>Манама, Бахрейн</item>
+        <item>Манаус, Бразилия</item>
+        <item>Манила, Филиппины</item>
+        <item>Мапуту, Мозамбик</item>
+        <item>Мариго, Сен-Мартен</item>
+        <item>Майотта, Франция</item>
+        <item>Масатлан, Мексика</item>
+        <item>Мекка, Саудовская Аравия</item>
+        <item>Мельбурн, Австралия</item>
+        <item>Мемфис, США</item>
+        <item>Мессина, Италия</item>
+        <item>Мехико, Мексика</item>
+        <item>Майами, США</item>
+        <item>Средне-Атлантические штаты</item>
+        <item>Остров Мидуэй, США</item>
+        <item>Милан, Италия</item>
+        <item>Милуоки, США</item>
+        <item>Миннеаполис, США</item>
+        <item>Минск, Беларусь</item>
+        <item>Могадишо, Сомали</item>
+        <item>Монровия, Либерия</item>
+        <item>Монтевидео, Уругвай</item>
+        <item>Монреаль, Канада</item>
+        <item>Москва, Россия</item>
+        <item>Муданьцзян, Китай</item>
+        <item>Мумбаи, Индия</item>
+        <item>Мюнхен, Германия</item>
+        <item>Маскат, Оман</item>
+        <item>Найроби, Кения</item>
+        <item>Наньчан, Китай</item>
+        <item>Нанкин, Китай</item>
+        <item>Наньнин, Китай</item>
+        <item>Неаполь, Италия</item>
+        <item>Натерс, Швейцария</item>
+        <item>Нджамена, Чад</item>
+        <item>Нью-Дели, Индия</item>
+        <item>Новый Орлеан, США</item>
+        <item>Нью-Йорк, США</item>
+        <item>Ньюфаундленд, Канада</item>
+        <item>Ниамей, Нигер</item>
+        <item>Нинбо, Китай</item>
+        <item>Нуакшот, Мавритания</item>
+        <item>Нумеа, Новая Каледония</item>
+        <item>Новокузнецк, Россия</item>
+        <item>Новосибирск, Россия</item>
+        <item>Нукуалофа, Тонга</item>
+        <item>Нуук, Гренландия</item>
+        <item>Омск, Россия</item>
+        <item>Уральск, Казахстан</item>
+        <item>Осака, Япония</item>
+        <item>Осло, Норвегия</item>
+        <item>Оттава, Канада</item>
+        <item>Уагадугу, Буркина-Фасо</item>
+        <item>Паго-Паго, Американское Самоа</item>
+        <item>Палермо, Италия</item>
+        <item>Панама (город), Панама</item>
+        <item>Парамарибо, Суринам</item>
+        <item>Париж, Франция</item>
+        <item>Пермь, Россия</item>
+        <item>Перт, Австралия</item>
+        <item>Петропавловск-Камчатский, Россия</item>
+        <item>Филадельфия, США</item>
+        <item>Пномпень, Камбоджа</item>
+        <item>Финикс, США</item>
+        <item>Пиндиншань, Китай</item>
+        <item>Подгорица, Черногория</item>
+        <item>Понта-Делгада, Португалия</item>
+        <item>Порт-Луи, Маврикий</item>
+        <item>Порт-о-Пренс, Гаити</item>
+        <item>Портленд, США</item>
+        <item>Прага, Чехия</item>
+        <item>Прая, Кабо-Верде</item>
+        <item>Пхеньян, Корейская Народно-Демократическая Республика</item>
+        <item>Циндао, Китай</item>
+        <item>Цицикар, Китай</item>
+        <item>Кито, Эквадор</item>
+        <item>Рабат, Марокко</item>
+        <item>Ресифи, Бразилия</item>
+        <item>Реджайна, Канада</item>
+        <item>Рейкьявик, Исландия</item>
+        <item>Рига, Латвия</item>
+        <item>Рио-де-Жанейро, Бразилия</item>
+        <item>Эр-Рияд, Саудовская Аравия</item>
+        <item>Рим, Италия</item>
+        <item>Сан-Паулу, Бразилия</item>
+        <item>Сен-Дени, остров Реюньон</item>
+        <item>Солт-Лейк-Сити, США</item>
+        <item>Самара, Россия</item>
+        <item>Сан-Антонио, США</item>
+        <item>Сан-Диего, США</item>
+        <item>Сан-Франциско, США</item>
+        <item>Сан-Хосе, Коста-Рика</item>
+        <item>Сан-Хуан, Пуэрто-Рико</item>
+        <item>Сан-Марино</item>
+        <item>Сан-Сальвадор, Сальвадор</item>
+        <item>Сана, Йемен</item>
+        <item>Сантьяго, Чили</item>
+        <item>Санто-Доминго, Доминиканская Республика</item>
+        <item>Сараево, Босния и Герцеговина</item>
+        <item>Сиэтл, США</item>
+        <item>Сеул, Южная Корея</item>
+        <item>Шанхай, Китай</item>
+        <item>Шанцю, Китай</item>
+        <item>Шаньтоу, Китай</item>
+        <item>Шэньян, Китай</item>
+        <item>Шэньчжэнь, Китай</item>
+        <item>Шицзячжуан, Китай</item>
+        <item>Сингапур</item>
+        <item>Скопье, Македония</item>
+        <item>София, Болгария</item>
+        <item>Сент-Джонс, Канада</item>
+        <item>Санкт-Петербург, Россия</item>
+        <item>Сен-Пьер и Микелон, Франция</item>
+        <item>Стокгольм, Швеция</item>
+        <item>Сува, Фиджи</item>
+        <item>Сучжоу, Китай</item>
+        <item>Сидней, Австралия</item>
+        <item>Таити, Французская Полинезия</item>
+        <item>Тайбэй, Китай</item>
+        <item>Тайюань, Китай</item>
+        <item>Таллинн, Эстония</item>
+        <item>Таншань, Китай</item>
+        <item>Тарава, Кирибати</item>
+        <item>Ташкент, Узбекистан</item>
+        <item>Тбилиси, Грузия</item>
+        <item>Тегусигальпа, Гондурас</item>
+        <item>Тегеран, Иран</item>
+        <item>Сеттльмент, Британские Виргинские острова</item>
+        <item>Тяньцзинь, Китай</item>
+        <item>Тихуана, Мексика</item>
+        <item>Токио, Япония</item>
+        <item>Тонга</item>
+        <item>Торонто, Канада</item>
+        <item>Триполи, Ливия</item>
+        <item>Тунис (город), Тунис</item>
+        <item>Турин, Италия</item>
+        <item>Уфа, Россия</item>
+        <item>Улан-Батор, Монголия</item>
+        <item>Урумчи, Китай</item>
+        <item>Вадуц, Лихтенштейн</item>
+        <item>Валлетта, Мальта</item>
+        <item>Ванкувер, Канада</item>
+        <item>Верона, Италия</item>
+        <item>Виктория, Сейшельские острова</item>
+        <item>Вена, Австрия</item>
+        <item>Вильнюс, Литва</item>
+        <item>Владивосток, Россия</item>
+        <item>Волгоград, Россия</item>
+        <item>Варшава, Польша</item>
+        <item>Вашингтон (округ Колумбия), США</item>
+        <item>Вэйфан, Китай</item>
+        <item>Веллингтон, Новая Зеландия</item>
+        <item>Виндхук, Намибия</item>
+        <item>Виннипег, Канада</item>
+        <item>Ухань, Китай</item>
+        <item>Уси, Китай</item>
+        <item>Сиань, Китай</item>
+        <item>Сянъян, Китай</item>
+        <item>Синин, Китай</item>
+        <item>Сюйчжоу, Китай</item>
+        <item>Якутск, Россия</item>
+        <item>"Ямусукро, Кот д'Ивуар"</item>
+        <item>Янгон, Мьянма</item>
+        <item>Яньтай, Китай</item>
+        <item>Яунде, Камерун</item>
+        <item>Екатеринбург, Россия</item>
+        <item>Ереван, Армения</item>
+        <item>Ичан, Китай</item>
+        <item>Ичунь, Китай</item>
+        <item>Южно-Сахалинск, Россия</item>
+        <item>Загреб, Хорватия</item>
+        <item>Цзаочжуан, Китай</item>
+        <item>Чжанцзякоу, Китай</item>
+        <item>Чжаньцзян, Китай</item>
+        <item>Чжэнчжоу, Китай</item>
+        <item>Цзыбо, Китай</item>
+        <item>Цюрих, Швейцария</item>
+        <item>Южная Георгия</item>
+        <item>Бандар-Сери-Бегаван</item>
+        <item>Вьентьян</item>
+    </string-array>
+</resources>

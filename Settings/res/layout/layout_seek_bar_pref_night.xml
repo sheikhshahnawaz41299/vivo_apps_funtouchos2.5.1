@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="?vivo:generalBackground" android:layout_width="fill_parent" android:layout_height="@dimen/night_seekbar_layout_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:textSize="@dimen/night_seekbar_text_size" android:id="@id/left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/night_seekbar_text_right_padding" android:layout_marginTop="@dimen/night_seekbar_text_top_padding" android:text="@string/night_cold" android:layout_alignParentLeft="true" />
+            <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:textSize="@dimen/night_seekbar_text_size" android:id="@id/right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/night_seekbar_text_top_padding" android:layout_marginRight="@dimen/night_seekbar_text_right_padding" android:text="@string/night_warm" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/seek_bg" android:paddingBottom="@dimen/night_seekbar_bg_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/night_seekbar_bg_sides_padding" android:layout_marginRight="@dimen/night_seekbar_bg_sides_padding" android:src="@drawable/seekbg" android:layout_alignParentBottom="true" />
+        <SeekBar android:id="@id/seek_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/night_seekbar_sides_padding" android:layout_marginRight="@dimen/night_seekbar_sides_padding" android:layout_marginBottom="@dimen/night_seekbar_bottom_padding" android:layout_alignParentBottom="true" style="@style/vivoThemeSeekBar" />
+    </RelativeLayout>
+</RelativeLayout>

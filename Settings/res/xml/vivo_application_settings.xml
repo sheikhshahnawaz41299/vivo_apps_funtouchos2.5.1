@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/applications_settings_header" android:key="applications_settings" android:summary="@string/applications_settings_summary"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/app_install_location_title" android:key="app_install_location" android:summary="@string/first_installocation">
+        <intent android:action="android.settings.SELECT_FIRST_INSTALL_LOCATION" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/applications_installed" android:fragment="com.android.settings.applications.ManageApplications" />
+    <PreferenceScreen android:title="@string/applications_runningservices" android:key="running_apps" android:fragment="com.android.settings.applications.ManageApplications">
+        <extra android:name="classname" android:value="com.android.settings.Settings$RunningServicesActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/applications_all" android:key="all_apps" android:fragment="com.android.settings.applications.ManageApplications">
+        <extra android:name="classname" android:value="com.android.settings.Settings$StorageUseActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/app_can_move" android:key="moveable_app" android:fragment="com.android.settings.applications.ManageApplications">
+        <extra android:name="classname" android:value="com.android.settings.applications.AppInSdcard" />
+    </PreferenceScreen>
+    <PreferenceCategory />
+    <PreferenceScreen android:title="@string/factory_app_name">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.vivo.settings.applications.FactoryAppManager" />
+    </PreferenceScreen>
+</PreferenceScreen>

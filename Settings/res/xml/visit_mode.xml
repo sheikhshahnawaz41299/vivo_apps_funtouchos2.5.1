@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/visit_title" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/visitKey" android:key="visitKey" />
+    <Preference android:persistent="false" android:title="@string/clean_mode" android:key="clear_mode" android:summary="@string/unsettings" />
+    <PreferenceScreen android:persistent="false" android:title="@string/fingerprint_visit" android:key="visitor_fingerprint" android:summary="@string/fingerprint_null">
+        <intent android:targetPackage="com.crucialtec.btp" android:targetClass="com.crucialtec.btp.EnrolActivity" />
+    </PreferenceScreen>
+    <PreferenceCategory android:title="@string/key_info" android:key="key_info" style="?vivo:attr/explainPreferenceStyle" />
+    <PreferenceCategory android:title="@string/hide_type" android:key="visit_hide_type" />
+    <Preference android:persistent="false" android:title="@string/contacts" android:key="contacts">
+        <intent android:action="com.android.contacts.action.BATCH_OPERATE_SECRET_CONTACTS" />
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/hide_apps" android:key="hideapps">
+        <intent android:targetPackage="com.android.settings" android:targetClass="com.vivo.settings.applications.HideAppManager" />
+    </Preference>
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/picture" android:key="picture" android:defaultValue="false" />
+    <PreferenceCategory android:title="@string/hide_info" android:key="hide_info" style="?vivo:attr/explainPreferenceStyle" />
+    <PreferenceCategory android:title="@string/visit_help" android:key="visit_help" />
+    <Preference android:persistent="false" android:title="@string/visit_info" android:key="visit_info" />
+</PreferenceScreen>

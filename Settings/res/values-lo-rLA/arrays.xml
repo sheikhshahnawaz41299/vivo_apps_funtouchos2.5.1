@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="screen_timeout_entries">
+        <item>15 ວິນາທີ</item>
+        <item>30 ວິນາທີ</item>
+        <item>1 ນາ​ທີ</item>
+        <item>2 ນາທີ</item>
+        <item>5 ນາທີ</item>
+        <item>10 ນາທີ</item>
+        <item>30 ນາທີ</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>ທັນທີ</item>
+        <item>5 ວິນາທີ</item>
+        <item>15 ວິນາທີ</item>
+        <item>30 ວິນາທີ</item>
+        <item>1 ນາ​ທີ</item>
+        <item>2 ນາທີ</item>
+        <item>5 ນາທີ</item>
+        <item>10 ນາທີ</item>
+        <item>30 ນາທີ</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>ນ້ອຍ</item>
+        <item>ປົກກະຕິ</item>
+        <item>ໃຫ່ຍ</item>
+        <item>"ದು 
+ໃຫຍ່ເປັນພິເສດ"</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>ຊ້າຫຼາຍ</item>
+        <item>ຊ້າ</item>
+        <item>ປົກກະຕິ</item>
+        <item>ໄວ</item>
+        <item>ໄວຂຶ້ນ</item>
+        <item>ໄວຫຼາຍ</item>
+        <item>ໄວຫຼາຍຂຶ້ນອີກ</item>
+        <item>ໄວສຸດໆ</item>
+        <item>ໄວທີ່ສຸດ</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>ກຳລັງສະແກນ...</item>
+        <item>ກຳລັງເຊື່ອມຕໍ່...</item>
+        <item>ກຳລັງພິສູດຢືນຢັນ...</item>
+        <item>ກຳລັງຮັບເອົາທີ່ຢູ່ IP026</item>
+        <item>ເຊື່ອມຕໍ່ແລ້ວ</item>
+        <item>ຢຸດຊົ່ວຄາວແລ້ວ</item>
+        <item>ກຳລັງຕັດການເຊື່ອມຕໍ່...</item>
+        <item>ຕັດເຊື່ອມຕໍ່ແລ້ວ</item>
+        <item>ບໍ່ສຳເລັດ</item>
+        <item>ບລັອກແລ້ວ</item>
+        <item>ຫຼີກເວັ້ນການເຊື່ອມຕໍ່ຊົ່ວຄາວຫາກສັນຍານບໍ່ແຮງພໍ</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>ກຳລັງສະແກນ...</item>
+        <item>ກຳລັງເຊື່ອມຕໍ່ %1$s…</item>
+        <item>ກຳລັງກວດສອບສິດທິກັບ %1$s…</item>
+        <item>ກຳລັງຂໍທີ່ຢູ່ IP ຈາກ %1$s…</item>
+        <item>ເຊື່ອມ​ຕໍ່​ກັບ %1$s ແລ້ວ</item>
+        <item>ຢຸດຊົ່ວຄາວແລ້ວ</item>
+        <item>ກຳລັງຕັດການເຊື່ອມຕໍ່ຈາກ %1$s...</item>
+        <item>ຕັດເຊື່ອມຕໍ່ແລ້ວ</item>
+        <item>ບໍ່ສຳເລັດ</item>
+        <item>ບລັອກແລ້ວ</item>
+        <item>ຫຼີກເວັ້ນການເຊື່ອມຕໍ່ຊົ່ວຄາວຫາກສັນຍານບໍ່ແຮງພໍ</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>ເຊື່ອມຕໍ່ແລ້ວ</item>
+        <item>ເຊີນແລ້ວ</item>
+        <item>ບໍ່ສຳເລັດ</item>
+        <item>ສາມາດໃຊ້ໄດ້</item>
+        <item>ຢູ່ນອກໄລຍະສັນຍານ</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 ນາທີ</item>
+        <item>5 ນາທີ</item>
+        <item>1 ຊົ່ວໂມງ</item>
+        <item>ບໍ່ມີໝົດເວລາ</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>ອ່ອນ</item>
+        <item>ພໍໃຊ້</item>
+        <item>ດີ</item>
+        <item>ດີເລີດ</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>ຕະຫຼອດເວລາ</item>
+        <item>ສະເພາະເມື່ອສຽບສາຍສາກ</item>
+        <item>ບໍ່ເຄີຍ</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>ຕະຫຼອດເວລາ</item>
+        <item>ສະເພາະເມື່ອສຽບສາຍສາກ</item>
+        <item>ບໍ່ເຄີຍ</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>ອັດຕະໂນມັດ</item>
+        <item>5 GHz ເທົ່ານັ້ນ</item>
+        <item>2.4 GHz ເທົ່ານັ້ນ</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>ເວລາການນຳໃຊ້</item>
+        <item>ໃຊ້​ເທື່ອ​ສຸດ​ທ້າຍ</item>
+        <item>ຊື່ແອັບ</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>ບໍ່ມີ</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>ບໍ່ມີ</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>ຄົງທີ່</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>ບໍ່ມີ</item>
+        <item>ອົາເອງ</item>
+        <item>ຕັ້ງຄ່າ​ພຣັອກ​ຊີ​ອັດຕະໂນມັດ</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>ບໍ່ມີ</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP ຫຼື CHAP</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>ບໍ່ໄດ້ລະບຸ</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>ບໍ່ມີ</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>ພື້ນທີ່ຈັດເກັບຂໍ້ມູນພາຍໃນອຸປະກອນ</item>
+        <item>ແຜ່ນ SD ທີ່ສາມາດຖອດໄດ້</item>
+        <item>ໃຫ້ລະບົບຕັດສິນເອງ</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>ສະຖານທີ່</item>
+        <item>ສ່ວນຕົວ</item>
+        <item>SMS</item>
+        <item>ມີເດຍ</item>
+        <item>ອຸປະກອນ</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>ຕຳແໜ່ງໂດຍປະມານ</item>
+        <item>ຈຸດທີ່ຕັ້ງໄຟລ໌</item>
+        <item>GPS</item>
+        <item>ສັ່ນເຕືອນ</item>
+        <item>ອ່ານລາຍຊື່ຜູ້ຕິດຕໍ່</item>
+        <item>ແກ້ໄຂຜູ້ຕິດຕໍ່</item>
+        <item>ອ່ານບັນທຶກການໂທ</item>
+        <item>ແກ້ໄຂບັນທຶກການໂທ</item>
+        <item>ອ່ານ​ປະ​ຕິ​ທິນ</item>
+        <item>ແກ້ໄຂປະຕິທິນ</item>
+        <item>ສະແກນ wi-fi</item>
+        <item>ການແຈ້ງເຕືອນ</item>
+        <item>ສະແກນສະຖານີມືຖື</item>
+        <item>​​ການ​ໂທ</item>
+        <item>ອ່ານ SMS</item>
+        <item>ຂຽນ SMS</item>
+        <item>ຮັບ SMS</item>
+        <item>ຮັບ SMS ສຸກເສີນ</item>
+        <item>ຮັບ MMS</item>
+        <item>ຮັບຂໍ້ຄວາມ WAP push</item>
+        <item>ສົ່ງ​ SMS</item>
+        <item>ອ່ານ ICC SMS</item>
+        <item>ຂຽນ​ ICC SMS</item>
+        <item>ແກ້ໄຂການຕັ້ງຄ່າ</item>
+        <item>ແຕ້ມໃສ່ເທິງສຸດ</item>
+        <item>ເຂົ້າເຖິງການແຈ້ງເຕືອນ</item>
+        <item>ກ້ອງຖ່າຍຮູບ</item>
+        <item>ບັນທຶກສຽງ</item>
+        <item>ຫຼິ້ນສຽງ</item>
+        <item>ອ່ານເນື້ອໃນຄລິບບອດ</item>
+        <item>ແກ້ໄຂຄລິບບອດ</item>
+        <item>ປຸ່ມ​ມີເດຍ</item>
+        <item>ຈຸດສູນກາງສຽງ</item>
+        <item>ລະດັບສຽງຫຼັກ</item>
+        <item>ລະດັບສຽງເວົ້າ</item>
+        <item>ລະດັບສຽງເຕືອນ</item>
+        <item>ລະດັບສຽງມີເດຍ</item>
+        <item>ລະດັບສຽງໂມງປຸກ</item>
+        <item>ລະດັບສຽງແຈ້ງເຕືອນ</item>
+        <item>ລະດັບສຽງ Bluetooth</item>
+        <item>ເປີດໜ້າຈໍຕະຫຼອດ</item>
+        <item>ຕຳແໜ່ງ​ຕິດ​ຕາມ</item>
+        <item>ຕິດຕາມສະຖານທີ່ທີ່ມີພະລັງງານສູງ</item>
+        <item>ໂຫຼດ​ສະ​ຖິ​ຕິ​ການ​ນຳ​ໃຊ້</item>
+        <item>ປິດສຽງ/ເປີດສຽງໄມໂຄຣໂຟນ</item>
+        <item>​ໂປ​ຣ​ເຈັກ​ມີ​ເດຍ</item>
+        <item>​​ເປີດ​ນຳ​ໃຊ້ VPN</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>ສະຖານທີ່</item>
+        <item>ສະຖານທີ່</item>
+        <item>ສະຖານທີ່</item>
+        <item>ສັ່ນເຕືອນ</item>
+        <item>ອ່ານລາຍຊື່ຜູ້ຕິດຕໍ່</item>
+        <item>ແກ້ໄຂຜູ້ຕິດຕໍ່</item>
+        <item>ອ່ານບັນທຶກການໂທ</item>
+        <item>ແກ້ໄຂບັນທຶກການໂທ</item>
+        <item>ອ່ານ​ປະ​ຕິ​ທິນ</item>
+        <item>ແກ້ໄຂປະຕິທິນ</item>
+        <item>ສະຖານທີ່</item>
+        <item>ການແຈ້ງເຕືອນໂພສ</item>
+        <item>ສະຖານທີ່</item>
+        <item>​​ການ​ໂທ</item>
+        <item>ອ່ານຂໍ້ຄວາມ SMS/MMS</item>
+        <item>ຂຽນຂໍ້ຄວາມ SMS/MMS</item>
+        <item>ຮັບຂໍ້ຄວາມ SMS/MMS</item>
+        <item>ຮັບຂໍ້ຄວາມ SMS/MMS</item>
+        <item>ຮັບຂໍ້ຄວາມ SMS/MMS</item>
+        <item>ຮັບຂໍ້ຄວາມ SMS/MMS</item>
+        <item>ສົ່ງຂໍ້ຄວາມ SMS/MMS</item>
+        <item>ອ່ານຂໍ້ຄວາມ SMS/MMS</item>
+        <item>ຂຽນຂໍ້ຄວາມ SMS/MMS</item>
+        <item>ແກ້ໄຂການຕັ້ງຄ່າ</item>
+        <item>ແຕ້ມໃສ່ເທິງສຸດ</item>
+        <item>ເຂົ້າເຖິງການແຈ້ງເຕືອນ</item>
+        <item>ກ້ອງຖ່າຍຮູບ</item>
+        <item>ບັນທຶກສຽງ</item>
+        <item>ຫຼິ້ນສຽງ</item>
+        <item>ອ່ານເນື້ອໃນຄລິບບອດ</item>
+        <item>ແກ້ໄຂຄລິບບອດ</item>
+        <item>ປຸ່ມ​ມີເດຍ</item>
+        <item>ຈຸດສູນກາງສຽງ</item>
+        <item>ລະດັບສຽງຫຼັກ</item>
+        <item>ລະດັບສຽງເວົ້າ</item>
+        <item>ລະດັບສຽງເຕືອນ</item>
+        <item>ລະດັບສຽງມີເດຍ</item>
+        <item>ລະດັບສຽງໂມງປຸກ</item>
+        <item>ລະດັບສຽງແຈ້ງເຕືອນ</item>
+        <item>ລະດັບສຽງ Bluetooth</item>
+        <item>ເປີດໜ້າຈໍຕະຫຼອດ</item>
+        <item>ສະຖານທີ່</item>
+        <item>ຂໍ້ມູນຈຸດທີ່ຕັ້ງ</item>
+        <item>ໂຫຼດ​ສະ​ຖິ​ຕິ​ການ​ນຳ​ໃຊ້</item>
+        <item>ປິດສຽງ/ເປີດສຽງໄມໂຄຣໂຟນ</item>
+        <item>​ໂປ​ຣ​ເຈັກ​ມີ​ເດຍ</item>
+        <item>​​ເປີດ​ນຳ​ໃຊ້ VPN</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>ສັ້ນ</item>
+        <item>ປານກາງ</item>
+        <item>ຍາວ</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>ຄ່າເລີ່ມຕົ້ນ</item>
+        <item>Sans-serif</item>
+        <item>Sans-serif condensed</item>
+        <item>Sans-serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>Casual</item>
+        <item>Cursive</item>
+        <item>Small capitals</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>ນ້ອຍເປັນພິເສດ</item>
+        <item>ນ້ອຍ</item>
+        <item>ປົກກະຕິ</item>
+        <item>ໃຫ່ຍ</item>
+        <item>"ದು 
+ໃຫຍ່ເປັນພິເສດ"</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>ຄ່າເລີ່ມຕົ້ນ</item>
+        <item>ບໍ່ມີ</item>
+        <item>ເສັ້ນຂອບ</item>
+        <item>ເງົາ</item>
+        <item>ຍົກຂຶ້ນແລ້ວ</item>
+        <item>ກົດແລ້ວ</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>ໃຊ້​ຄ່າ​ເລີ່ມ​ຕົ້ນ​ຂອງ​ແອັບ</item>
+        <item>ສີຂາວພື້ນດຳ</item>
+        <item>ສີດຳພື້ນຂາວ</item>
+        <item>ສີເຫຼືອງພື້ນດຳ</item>
+        <item>ສີເຫຼືອງພື້ນຟ້າ</item>
+        <item>ກຳນົດເອງ</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>ບັບ​ເຟີ 64K ​ຕໍ່​ລັອກ</item>
+        <item>ບັບ​ເຟີ 256K ​ຕໍ່​ລັອກ</item>
+        <item>ບັບ​ເຟີ 1M ​ຕໍ່​ລັອກ</item>
+        <item>ບັບ​ເຟີ 4M ​ຕໍ່​ລັອກ</item>
+        <item>ບັບ​ເຟີ 16M ​ຕໍ່​ລັອກ</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>ບໍ່ຕ້ອງກວດ</item>
+        <item>ກວດສອບເນື້ອຫາ DRM ເທົ່ານັ້ນ</item>
+        <item>ກວດສອບສະເໝີ</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>ບໍ່ໃຊ້ການກວດສອບ HDCP</item>
+        <item>ໃຊ້ການກວດສອບ HDCP ສຳລັບເນື້ອຫາ DRM ເທົ່ານັ້ນ</item>
+        <item>ໃຊ້ການກວດສອບ HDCP ສະເໝີ</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>ປິດອະນິເມຊັນ</item>
+        <item>ສັດສ່ວນອະນິເມຊັນ 0.5x</item>
+        <item>ສັດສ່ວນອະນິເມຊັນ 1x</item>
+        <item>ສັດສ່ວນອະນິເມຊັນ 1.5x</item>
+        <item>ສັດສ່ວນອະນິເມຊັນ.2x</item>
+        <item>ສັດສ່ວນອະນິເມຊັນ.5x</item>
+        <item>ສັດສ່ວນອະນິເມຊັນ.10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>ປິດອະນິເມຊັນ</item>
+        <item>ສັດສ່ວນອະນິເມຊັນ 0.5x</item>
+        <item>ສັດສ່ວນອະນິເມຊັນ 1x</item>
+        <item>ສັດສ່ວນອະນິເມຊັນ 1.5x</item>
+        <item>ສັດສ່ວນອະນິເມຊັນ.2x</item>
+        <item>ສັດສ່ວນອະນິເມຊັນ.5x</item>
+        <item>ສັດສ່ວນອະນິເມຊັນ.10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>ປິດອະນິເມຊັນ</item>
+        <item>ສັດສ່ວນອະນິເມຊັນ 0.5x</item>
+        <item>ສັດສ່ວນອະນິເມຊັນ 1x</item>
+        <item>ສັດສ່ວນອະນິເມຊັນ 1.5x</item>
+        <item>ສັດສ່ວນອະນິເມຊັນ.2x</item>
+        <item>ສັດສ່ວນອະນິເມຊັນ.5x</item>
+        <item>ສັດສ່ວນອະນິເມຊັນ.10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>ບໍ່ມີ</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (ປອດໄພ)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (ປອດໄພ)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (ປອດໄພ)</item>
+        <item>1280x720 tvdpi ແລະ 1920x1080 xhdpi</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>ບໍ່ມີ</item>
+        <item>Logcat</item>
+        <item>Systrace (ກຣາບຟິກ)</item>
+        <item>Call stack ໃນ glGetError</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>ປິດ</item>
+        <item>ແຕ້ມຄລິບທີ່ບໍ່ແມ່ນສີ່ຫຼ່ຽມເປັນສີຟ້າ</item>
+        <item>ສະແດງຄຳສັ່ງແຕ້ມທີ່ທົດສອບເປັນສີຂຽວ</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>ປິດ</item>
+        <item>ສະແດງໃນໜ້າຈໍເປັນແຜນຜັງຮູບແທ່ງ</item>
+        <item>ໃນ adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>ປິດ</item>
+        <item>ສະແດງຂອບເຂດການແຕ້ມທັບ</item>
+        <item>ສະແດງພື້ນທີ່ສຳລັບ Deuteranomaly</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>ຂີດຈຳກັດມາດຕະຖານ</item>
+        <item>ບໍໍອະນຸຍາດ ການປະມວນຜົນໃນພື້ນຫລັງ</item>
+        <item>ຫຼາຍສຸດ 1 ການປະມວນຜົນ</item>
+        <item>ຫຼາຍສຸດ 2 ການປະມວນຜົນ</item>
+        <item>ຫຼາຍສຸດ 3 ການປະມວນຜົນ</item>
+        <item>ຫຼາຍສຸດ 4 ການປະມວນຜົນ</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>L2TP/IPSec VPN ທີ່ມີກະແຈທີ່ແບ່ງປັນລ່ວງໜ້າ</item>
+        <item>L2TP/IPSec VPN ພ້ອມໃບຮັບຮອງ</item>
+        <item>IPSec VPN ທີ່ມີກະແຈທີ່ແບ່ງປັນລ່ວງໜ້າ ແລະການພິສູດຢືນຢັນແບບ Xauth</item>
+        <item>IPSec VPN ພ້ອມໃບຮັບຮອງ ແລະການກວດສອບສິດ Xauth</item>
+        <item>VPN ຂອງ IPSec ພ້ອມໃບຮັບຮອງ ແລະການພິສູດຢືນຢັນແບບປະສົມ</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>ຕັດເຊື່ອມຕໍ່ແລ້ວ</item>
+        <item>ກຳລັງເລີ່ມຕົ້ນ…</item>
+        <item>ກຳລັງເຊື່ອມຕໍ່...</item>
+        <item>ເຊື່ອມຕໍ່ແລ້ວ</item>
+        <item>ໄລຍະໝົດເວລາ</item>
+        <item>ບໍ່ສຳເລັດ</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>ຖາມ</item>
+        <item>ບໍ່ອະນຸຍາດ</item>
+        <item>ອະນຸຍາດສະເໝີ</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>ພໍໃຊ້</item>
+        <item>ປານກາງ</item>
+        <item>ຕ່ຳ</item>
+        <item>ວິ​ກິ​ດ</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>ປົກກະຕິ</item>
+        <item>ປານກາງ</item>
+        <item>ຕ່ຳ</item>
+        <item>ວິ​ກິ​ດ</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>ໜຽວແໜ້ນ</item>
+        <item>​ການເຄື່ອນ​ໄຫວ​ສູງ​ສຸດ</item>
+        <item>​ສຳ​ຄັນ (​ເບື້ອງ​ໜ້າ)</item>
+        <item>​ສຳ​ຄັນ (​ເບື້ອງຫຼັງ)</item>
+        <item>ສຳຮອງ​ຂໍ້ມູນ</item>
+        <item>​ນ້ຳ​ໜັກ​ສູງ</item>
+        <item>​​ການບໍ​ລິ​ການ (​ກຳ​ລັງ​ເຮັດ​ວຽກ)</item>
+        <item>​​ການບໍ​ລິ​ການ (​ກຳ​ລັງ​ເລີ່ມ​ຕົ້ນ​ໃໝ່)</item>
+        <item>​ຕົວ​ຮັບ​ຂໍ້​ມູນ</item>
+        <item>ໜ້າຈໍຫຼັກ</item>
+        <item>​ການ​ເຄື່ອນ​ໄຫວຫຼ້າ​ສຸດ</item>
+        <item>Cached (​ການ​ເຄື່ອນ​ໄຫວ)</item>
+        <item>Cached (​ການ​ເຄື່ອນ​ໄຫວ​ລູກ​ຂ່າຍ)</item>
+        <item>Cached (​ຫວ່າງ​ເປົ່າ)</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>ສີຂຽວອົມຟ້າ</item>
+        <item>ຟ້າ</item>
+        <item>ສີຄາມ</item>
+        <item>ສີມ່ວງ</item>
+        <item>ສີບົວ</item>
+        <item>ແດງ</item>
+    </string-array>
+    <string-array name="ring_or_mtp_change_entries">
+        <item>ຣິງໂທນ</item>
+        <item>ມີເດຍ</item>
+    </string-array>
+    <string-array name="app_loc_permission">
+        <item>ປິດໃຊ້</item>
+        <item>ອະນຸຍາດ</item>
+        <item>ຖາມ</item>
+    </string-array>
+    <string-array name="key_light_control_mode">
+        <item>1.5 ວິນາທີ</item>
+        <item>6 ວິນາທີ</item>
+        <item>ເປີດຕະຫລອດ</item>
+        <item>ປິດທຸກເວລາ</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_amoled">
+        <item>15 ວິນາທີ</item>
+        <item>30 ວິນາທີ</item>
+        <item>1 ນາ​ທີ</item>
+        <item>2 ນາທີ</item>
+        <item>5 ນາທີ</item>
+        <item>10 ນາທີ</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_mtfp">
+        <item>15 ວິນາທີ</item>
+        <item>30 ວິນາທີ</item>
+        <item>1 ນາ​ທີ</item>
+        <item>2 ນາທີ</item>
+        <item>5 ນາທີ</item>
+        <item>10 ນາທີ</item>
+        <item>30 ນາທີ</item>
+        <item>ບໍ່ມີກຳນົດ</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>ຊື່ພໍ່ຂອງທ່ານແມ່ນຫຍັງ?</item>
+        <item>ຊື່ຂອງແມ່ທ່ານແມ່ນຫຍັງ?</item>
+        <item>ຊື່ຄູ່ສົມລັດຂອງທ່ານແມ່ນຫຍັງ?</item>
+        <item>ໂຮງຮຽນປະຖົມທີ່ທ່ານໄດ້ຮຽນນັ້ນຊື່ຫຍັງ?</item>
+        <item>ຊື່ຄູອະນຸບານຂອງທ່ານແມ່ນຫຍັງ?</item>
+        <item>ຄູສອນໃນມັດທະຍົມຕອນປາຍຂອງທ່ານມີຊື່ວ່າແນວໃດ?</item>
+        <item>ເພື່ອນໃນໄວເດັກທີ່ດີທີ່ສຸດຂອງທ່ານມີຊື່ວ່າແນວໃດ?</item>
+        <item>ສະຖານທີ່ເກີດຂອງທ່ານຢູ່ໃສ?</item>
+        <item>ເລກປະຈໍາຕົວນັກຮຽນ (ເຮັດວຽກ)ຂອງທ່ານແມ່ນ​ຫຍັງ​?</item>
+        <item>6 ຕົວເລກສຸດທ້າຍຂອງເລກທີບັດປະຈຳຕົວຂອງທ່ານແມ່ນຫຍັງ?</item>
+        <item>ປ້າຍລົດຂອງທ່ານແມ່ນເລກຫຍັງ?</item>
+        <item>ບໍລິສັດທຳອິດທີ່ທ່ານໄດ້ເຮັດວຽກນຳມີຊື່ແນວໃດ?</item>
+        <item>ຄຳຖາມທີ່ກຳນົດເອງ</item>
+    </string-array>
+    <string-array name="area_entrys">
+        <item>ປະເທດໄທ</item>
+        <item>ປະເທດມາເລເຊຍ</item>
+        <item>ປະເທດອິນໂດເນເຊຍ</item>
+        <item>ປະເທດອິນເດຍ</item>
+        <item>ປະເທດມຽນມ່າ</item>
+        <item>ປະເທດຟິລິບປິ່ນ</item>
+        <item>ປະເທດຫວຽດນາມ</item>
+        <item>ບຣູໄນ</item>
+        <item>ກໍາປູເຈຍ</item>
+        <item>ລາວ</item>
+        <item>ສິງກະໂປ</item>
+        <item>ປະເທດບັງກລາເດັດ</item>
+        <item>ປະເທດເນປານ</item>
+        <item>ປະເທດປາກິດສະຖານ</item>
+        <item>ສີລັງກາ</item>
+    </string-array>
+    <string-array name="vivo_rom_25problem_ask_lables">
+        <item>ໂຮງຮຽນປະຖົມທີ່ທ່ານໄດ້ຮຽນນັ້ນຊື່ຫຍັງ?</item>
+        <item>ຊື່ພໍ່ຂອງທ່ານແມ່ນຫຍັງ?</item>
+        <item>ຊື່ຂອງແມ່ທ່ານແມ່ນຫຍັງ?</item>
+        <item>ຊື່ຄູ່ສົມລັດຂອງທ່ານແມ່ນຫຍັງ?</item>
+        <item>ສະຖານທີ່ເກີດຂອງທ່ານຢູ່ໃສ?</item>
+        <item>ຊື່ຫຼິ້ນຂອງທ່ານແມ່ນຫຍັງ?</item>
+        <item>ຄູສອນໃນໂຮງຮຽນມັດທະຍົມຕອນປາຍຂອງທ່ານແມ່ນໃຜ?</item>
+        <item>ໃຜເປັນເພື່ອນທີ່ດີທີ່ສຸດໃນໄວເດັກຂອງເຈົ້າ?</item>
+        <item>ເລກປະຈໍາຕົວນັກຮຽນ (ເຮັດວຽກ)ຂອງທ່ານແມ່ນ​ຫຍັງ​?</item>
+        <item>ໝາຍເລກລະຫັດ 6 ຕົວເລກສຸດທ້າຍຂອງID ທ່ານແມ່ນຫຍັງ.?</item>
+        <item>ປ້າຍລົດຂອງທ່ານແມ່ນເລກຫຍັງ?</item>
+        <item>ບໍລິສັດທຳອິດທີ່ທ່ານໄດ້ເຮັດວຽກນຳມີຊື່ແນວໃດ?</item>
+        <item>ຄຳຖາມທີ່ກຳນົດເອງ</item>
+    </string-array>
+    <string-array name="timezones_cities_array">
+        <item>ອາບິດຈານ,ກົດດີວົວ</item>
+        <item>ອາບູດາບີ, ສະຫະລັດອາຫຼັບເອມິເຣທ໌</item>
+        <item>ອັກກຣາ, ການາ</item>
+        <item>ແອດດິສ ອາບາບາ, ເອທິໂອປີ</item>
+        <item>ແອດິເລດ, ອົດສະຕຣາລີ</item>
+        <item>ອາລາສກາ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ແອນເຈີສ, ອານຊີຣີ</item>
+        <item>ອັລມາຕີ, ຄາຊັກສະຖານ</item>
+        <item>ອາມບອນ, ອິນໂດເນເຊຍ</item>
+        <item>ອຳມານ, ຊອກດານີ</item>
+        <item>ອາມສະເຕີດາມ, ໂຮນລັງ</item>
+        <item>ອານາເດຍຣ໌, ຣັດເຊຍ</item>
+        <item>ແອນໂຄຣາ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ແອນຄາຣາ, ຕວກກີ</item>
+        <item>ອານຊານ, ປະເທດຈີນ</item>
+        <item>ແອນຕານານາຣີໂວ, ມາດາກັສກາ</item>
+        <item>ແອັສກາບາດ, ເຕີກມິນິດສະຖານ</item>
+        <item>ແອສເມຣາ, ເອຣິເທຣຍ</item>
+        <item>ອາສຕານາ, ຄາຊັກສະຖານ</item>
+        <item>ອາຊູນຊີອອນ, ປາຣາກວາຍ</item>
+        <item>ເອເທັນສ, ປະເທດເກຼັກ</item>
+        <item>ແອັດລານຕາ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ອັອກແລນ, ນີວຊີແລນ</item>
+        <item>ອັອສຕິນ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ໝູ່ເກາະອະໂຊເຣສ, ປັອກຕຸຍການ</item>
+        <item>ແບັກແດດ, ອີຣັກ</item>
+        <item>ບາຄູ, ອາເຊີໄບຈານ</item>
+        <item>ບາຕີມໍ, ສະຫາລັດອາເມລິກາ</item>
+        <item>ບາມາໂກ, ມາລີ</item>
+        <item>ບັງກາລໍຣ໌, ອິນເດຍ</item>
+        <item>ບາງກອກ, ໄທ</item>
+        <item>ບານກຸຍ, ສາທາລະນະລັດອາຝຣິກາກາງ</item>
+        <item>ບາວດິງ, ປະເທດຈີນ</item>
+        <item>ບາວຕູ, ປະເທດຈີນ</item>
+        <item>ບາເຊໂລນາ, ແອັດສະປາຍ</item>
+        <item>ບາຣີ, ອີຕາລີ</item>
+        <item>ບາດເຊ-ເທີເຣ, ກົວດາລູບ</item>
+        <item>ປັກກິ່ງ, ປະເທດຈີນ</item>
+        <item>ເບຣຸທ໌, ລີບັງ</item>
+        <item>ເບລເກຣດ, ແຊັກບີ</item>
+        <item>ເບລີຊ ຊີຕີ້, ເບລີຊ</item>
+        <item>ເບນຊີ, ປະເທດຈີນ</item>
+        <item>ເບີລິນ, ເຢຍລະມັນ</item>
+        <item>ເບີນ, ສະວິດເຊີແລນ</item>
+        <item>ບິຊເຄກ, ຄີກິດສະຖານ</item>
+        <item>ບິສເຊົາ, ກີເນຍ ບິສເຊົາ</item>
+        <item>ໂບໂກຕາ, ໂຄລຳເບຍ</item>
+        <item>ໂບໂລຢາ, ອີຕາລີ</item>
+        <item>ບັອສຕັນ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ບຣາຊີເລຍ, ບຣາຊິນ</item>
+        <item>ບຣາຕິສລາວາ, ສະໂລວາກີ</item>
+        <item>ບຣາຊາວີເລ, ຄອງໂກ</item>
+        <item>ບຣິດທາວ, ບາບາດອສ</item>
+        <item>ບຣິສເບນ, ອົດສະຕຣາລີ</item>
+        <item>ບຣັສເຊລສ໌, ແບນຊິກ</item>
+        <item>ບູຄາເຣສທ໌, ຣູມານີ</item>
+        <item>ບູດາເປສຕ໌, ຮົງກາລີ</item>
+        <item>ບົວໂນສ ໄອເຣສ, ອາກຊັງຕິນ</item>
+        <item>ໄຄໂຣ, ອີຢິບ</item>
+        <item>ແຄລກາຣີ, ການາດາ</item>
+        <item>ໝູ່ເກາະການາຣີ, ແອັດສະປາຍ</item>
+        <item>ແຄນເບີຣາ, ອົດສະຕຣາລີ</item>
+        <item>ເຄັບທາວ, ອາຝຣິກາໃຕ້</item>
+        <item>ກາຣາກາສ, ເວເນຊູເອລາ</item>
+        <item>ຄາດິຟ, ເວລສ໌</item>
+        <item>ຄາຊາບລັງກາ, ໂມຣອກໂຄ</item>
+        <item>ຄາທາງຊາໂຣ, ອີຕາລີ</item>
+        <item>ກາແຍນ, ກິອານາ ຝຣັ່ງ</item>
+        <item>ສາງຊູນ, ປະເທດຈີນ</item>
+        <item>ສາງຊາ, ປະເທດຈີນ</item>
+        <item>ສາງໂຈ, ປະເທດຈີນ</item>
+        <item>ຈາລອດເຕ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ຈາລອດເຕ ອາມາລີ, ໝູ່ເກາະເວີຈີເນຍຂອງສະຫະລັດ</item>
+        <item>ເຊເລຍບິນສ, ຣັດເຊຍ</item>
+        <item>ເສີງຕູ, ປະເທດຈີນ</item>
+        <item>ເຈັນໄນ, ອິນເດຍ</item>
+        <item>ຊິກາໂກ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ຊີວາວາ, ແມັກຊີກ</item>
+        <item>ຄີຊີເນົາ, ມອນໂດວາ</item>
+        <item>ຊີຕາ, ຣັດເຊຍ</item>
+        <item>ສົງຊິ່ງ, ປະເທດຈີນ</item>
+        <item>ເຄລັບເວແລນ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ໂຄລົມໂບ, ສີລັງກາ</item>
+        <item>ໂຄລໍາບັສ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ໂຄນາກຣີ, ກີເນ</item>
+        <item>ໂຄເປນເຮເກນ, ດານມາກ</item>
+        <item>ຄອກ, ອຽກລັງ</item>
+        <item>ໂກຣໂຕນ, ອີຕາລີ</item>
+        <item>ດາກາຣ໌, ເຊເນການ</item>
+        <item>ຕ້າຫຼຽນ, ປະເທດຈີນ</item>
+        <item>ດາລາສ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ດາມາສກັສ, ຊີລີ</item>
+        <item>ຕ້າຄິງ, ປະເທດຈີນ</item>
+        <item>ດາຣ໌ເອສຊາລາມ, ຕັງຊານີ</item>
+        <item>ດາຣວິນ, ອົດສະຕຣາລີ</item>
+        <item>ຕ້າຕົງ, ປະເທດຈີນ</item>
+        <item>ເດນປາຊາຣ໌, ອິນໂດເນເຊຍ</item>
+        <item>ເດັນເວີ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ດີທຣອຍ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ດາຄາ, ບັງກະລາເທດ</item>
+        <item>ດີເອໂກ ກາເກຍ, ສະຫະລາຊະອານາຈັກ</item>
+        <item>ເມືອງດາຈິໂບຕິ</item>
+        <item>ໂດຮາ, ກາຕ້າ</item>
+        <item>ດູອາລາ, ກາເມີຣູນ</item>
+        <item>ດູໄບ, ສະຫະລັດອາຫຼັບເອມິເຣທ໌</item>
+        <item>ດັບລິນ, ອຽກລັງ</item>
+        <item>ດູເຊນເບ, ຕາຈິກິດສະຖານ</item>
+        <item>ເກາະອີສເຕີ, ຊີລີ</item>
+        <item>ເອດິນເບີກ, ສະກັອດແລນ</item>
+        <item>ເອັດມອນໂທນ, ແຄນນາດາ</item>
+        <item>ເອລປາໂຊ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ເຟີນັນໂດ ເດີ ໂນຣອນຮາ, ບຣາຊິນ</item>
+        <item>ຟລໍເຣັນສ, ອີຕາລີ</item>
+        <item>ພອດ-ເດ-ຟຣານຊ໌, ມາຕິນີກ</item>
+        <item>ແຟຣັງເຟີດ, ເຢຍລະມັນ</item>
+        <item>ຟຣີທາວ, ເຊຍຣາ ລີໂອນ</item>
+        <item>ຟູຊູນ, ປະເທດຈີນ</item>
+        <item>ຟູຊິນ, ປະເທດຈີນ</item>
+        <item>ຟູໂຈ, ຈີນ</item>
+        <item>ກາໂບຣອນ, ບອດສະວານາ</item>
+        <item>ໝູ່ເກາະກາລາປາໂກສ, ເອກວາດໍ</item>
+        <item>ເກເນວາ, ສະວິດເຊີແລນ</item>
+        <item>ເຈນົວ, ອີຕາລີ</item>
+        <item>ຈອດສທາວ, ກາຍຢານາ</item>
+        <item>ເກາະກຣີນແລນ</item>
+        <item>ກຣີວິກີນ, ປະເທດຈໍເຈຍຕອນໃຕ້</item>
+        <item>ກວມ</item>
+        <item>ກວາງໂຈ, ຈີນ</item>
+        <item>ປະເທດກົວເຕມາລາ</item>
+        <item>ນະຄອນກົວເຕມາລາ, ປະເທດກົວເຕມາລາ</item>
+        <item>ກຸ້ຍຢາງ, ຈີນ</item>
+        <item>ກັສຕາເວຍ, ເຊນບາເທເລມີ</item>
+        <item>ໄຮໂຄ, ຈີນ</item>
+        <item>ຮາລີແຟັກ, ການາດາ</item>
+        <item>ຮາມບຸຣກ, ເຢຍລະມັນ</item>
+        <item>ຮານຕານ, ຈີນ</item>
+        <item>ສາງໂຈ, ຈີນ</item>
+        <item>ຮາໂນ້ຍ,ຫວຽດນາມ</item>
+        <item>ຮາຣາເຣ, ຊິມບຳເວ</item>
+        <item>ຮາຣປິນ, ປະເທດຈີນ</item>
+        <item>ຮາວານາ, ກຸຍບາ</item>
+        <item>ຮາວາຍ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ເຂີເຟ, ຈີນ</item>
+        <item>ເຮລຊິງກິ, ແຟງລັງ</item>
+        <item>ໂຮຈິມິນ ຊີຕີ້, ປະເທດຫວຽດນາມ</item>
+        <item>ໂຮບາດ, ອົດສະຕຣາລີ</item>
+        <item>ໂຮຮອດ, ຈີນ</item>
+        <item>ຮົງກົງ, ປະເທດຈີນ</item>
+        <item>ໂຮໂນລູລູ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ຮາວສຕັນ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ຮອຟດ, ມົງໂກເດຍ</item>
+        <item>ຮວາຍອານ, ຈີນ</item>
+        <item>ຮວາຍນານ, ຈີນ</item>
+        <item>ໄຮເດີຣາບາດ, ອິນເດຍ</item>
+        <item>ອິນເດຍນາໂປລິສ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ອີຣຄຸຕສຄ໌, ຣັດເຊຍ</item>
+        <item>ອິສລາມມາບາດ, ປາກິດສະຖານ</item>
+        <item>ອິສຕານບູລ, ຕວກກີ</item>
+        <item>ອິຊເຊຟສ໌, ຣັດເຊຍ</item>
+        <item>ຈາກາຕ້າ, ອິນໂດເນເຊຍ</item>
+        <item>ເຈດດາ, ຊາອຸດິອາຣາເບຍ</item>
+        <item>ເຢຣູຊາເລັມ, ອິດສະຣາເອລ</item>
+        <item>ເມືອງຈີລິນ, ຈີນ</item>
+        <item>ຈີນານ, ຈີນ</item>
+        <item>ຈິນໂຈ, ຈີນ</item>
+        <item>ຈິຊິ, ຈີນ</item>
+        <item>ຈອນຮານເນັສເບີກ, ອາຝຣິກາໃຕ້</item>
+        <item>ຄາບູ, ອາຟການີສະຖານ</item>
+        <item>ກາລິນິກຣາດ, ຣັດເຊຍ</item>
+        <item>ກຳແຊັດກາ, ຣັດເຊຍ</item>
+        <item>ກຳປາລາ, ອູການດາ</item>
+        <item>ຄາຣາຈິ, ປາກິດສະຖານ</item>
+        <item>ກາດມານດູ, ເນປານ</item>
+        <item>ກາບາຣອຟສ໌, ຣັດເຊຍ</item>
+        <item>ຄາກີຟ,ອູແກຣນ</item>
+        <item>ຄາຕູມ, ຊູດານ</item>
+        <item>ຄິງສຕັນ, ການາດາ</item>
+        <item>ຄິນຊາຊາ, ສາທາລະນະລັດຄອງໂກ</item>
+        <item>ກິຣິຕິມາຕິ, ກິຣິບາຕິ</item>
+        <item>ໂຄຄາຕ້າ, ອິນເດຍ</item>
+        <item>ຄຣັສໂນຍາ, ຣັດເຊຍ</item>
+        <item>ກົວລາລໍາເປີ, ມາເລເຊຍ</item>
+        <item>ຄູນມິງ, ຈີນ</item>
+        <item>ຄູເວດ ຊີຕີ້, ຄູເວດ</item>
+        <item>ຄຽຟ, ອູແກຣນ</item>
+        <item>ລາປາສ, ໂບລີວີ</item>
+        <item>ລາໂກສ, ໄນເຈີເຣຍ</item>
+        <item>ລາຮໍ, ປາກິດສະຖານ</item>
+        <item>ລານໂຈ, ຈີນ</item>
+        <item>ລາສເວກັສ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ລິມາ, ເປຣູ</item>
+        <item>ລິສບອນ, ປັອກຕຸຍການ</item>
+        <item>ລີວໂຈ, ຈີນ</item>
+        <item>ລູບລິຍານາ, ສະໂລວາເນຍ</item>
+        <item>ລອນດອນ, ອັງກິດ</item>
+        <item>ລອສແອນເຈີລິສ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ລຸຍສວິລ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ລວນດາ, ແອງໂກລາ</item>
+        <item>ສາທາລະນະລັດ ລູບູມບາຊີ ຄອງໂກ</item>
+        <item>ລົວຢັງ, ຈີນ</item>
+        <item>ລູຊາກາ, ແຊມເບຍ</item>
+        <item>ລຸກຊໍາບວກ</item>
+        <item>ລິຟ, ອູແກຣນ</item>
+        <item>ມາເກົາ, ຈີນ</item>
+        <item>ມາດຣິດ, ແອັດສະປາຍ</item>
+        <item>ມາກາດານ, ຣັດເຊຍ</item>
+        <item>ມາຈູໂຣ, ໝູ່ເກາະມາຊອນ</item>
+        <item>ມາລາໂບ, ອີກົວທໍເຣຍກີນາ</item>
+        <item>ເມລ, ມອນດີບ</item>
+        <item>ມານາກົວ, ນີກາຣາກົວ</item>
+        <item>ມານາມາ, ບາເຣນ</item>
+        <item>ມາເນົາສ, ບຣາຊິນ</item>
+        <item>ມານີລາ, ຟິລິບປິນ</item>
+        <item>ມາປູໂຕ, ໂມຊຳບິກ</item>
+        <item>ມາຣິກອດ, ເຊນມາຕິນ</item>
+        <item>ມາໂຍດເຕ, ຝຣັ່ງ</item>
+        <item>ມາຊາທລານ, ແມັກຊີກ</item>
+        <item>ເມັກກາຸດິອາຣາເບຍ</item>
+        <item>ເມລເບີນ, ອົດສະຕຣາລີ</item>
+        <item>ແມັມຟິສ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ແມັສຊີນາ, ອີຕາລີ</item>
+        <item>ແມັກຊີໂກ ຊີຕີ້, ແມັກຊີກ</item>
+        <item>ໄມອາມມີ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ແອັດລານຕິກກາງ</item>
+        <item>ໝູ່ເກາະມິດເວ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ມີລານ, ອີຕາລີ</item>
+        <item>ມີລເມົາຄີ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ມິນນີແອັບໂປລິສ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ມິນສຄ໌, ເບລາຣຸດຊີ</item>
+        <item>ໂມກາດິຊູ, ໂຊມາເລຍ</item>
+        <item>ມອນໂຣເວຍ, ໄລບີເຣຍ</item>
+        <item>ມອນເຕວີດີໂອ, ອູຣຸກກວາຍ</item>
+        <item>ມອນທຣີລ, ການາດາ</item>
+        <item>ມອສໂຄ, ຣັດເຊຍ</item>
+        <item>ມູຕານຈັງ, ຈີນ</item>
+        <item>ມູມໄບ, ອິນເດຍ</item>
+        <item>ມູນິກ, ເຢຍລະມັນ</item>
+        <item>ມັສກັດທ໌, ໂອມານ</item>
+        <item>ໄນໂຣບີ, ເຄນຍາ</item>
+        <item>ນານຊັງ, ຈີນ</item>
+        <item>ນານຈິງ, ຈີນ</item>
+        <item>ນານນິງ, ຈີນ</item>
+        <item>ເນເປິນ, ອີຕາລີ</item>
+        <item>ນາເທີ, ສະວິດເຊີແລນ</item>
+        <item>ເອັນຈາເມນາ, ຊາດ</item>
+        <item>ນີວເດລີ, ອິນເດຍ</item>
+        <item>ນີວອໍລີນສ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ນິວຢອກ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ນິວຟັນດ໌ແລນ , ການາດາ</item>
+        <item>ເນຍເມ, ໄນເຈີ</item>
+        <item>ນິງໂບ, ຈີນ</item>
+        <item>ນູແອກຊອທ໌, ມົວຣິດຕາເນຍ</item>
+        <item>ນູເມອາ, ນິວແຄລີໂດເນຍ</item>
+        <item>ໂນໂວກູສເນັທສ໌, ຣັດເຊຍ</item>
+        <item>ໂນໂວຊີບີສ໌, ຣັດເຊຍ</item>
+        <item>ນູກົວໂລຟາ, ຕົງກາ</item>
+        <item>ນູອຸກ, ເກາະກຣີນແລນ</item>
+        <item>ອອມສ໌,ຣັດເຊຍ</item>
+        <item>ອໍຣອລ, ຄາຊັກສະຖານ</item>
+        <item>ໂອຊາກະ, ຍີ່ປຸ່ນ</item>
+        <item>ອອສໂລ, ນອກແວ</item>
+        <item>ໂອຕາວະ, ແຄນນາດາ</item>
+        <item>ວາກາດູກູ, ບູກີນາ ຟາໂຊ</item>
+        <item>ປາໂກ ປາໂກ, ອາເມຣິກາ ຊາມົວ</item>
+        <item>ປາເລີໂມ, ອີຕາລີ</item>
+        <item>ປານາມາ ຊີຕີ້, ປານາມາ</item>
+        <item>ປາຣາມາຣີໂບ, ຊູຣິນາມິ</item>
+        <item>ປາຣີສ, ຝຣັ່ງ</item>
+        <item>ເປີມ, ຣັດເຊຍ</item>
+        <item>ເພີດ, ອົດສະຕຣາລີ</item>
+        <item>ເປໂຕຣປາລອບສກ໌-ກຳແຊັດສກີ, ຣັດເຊຍ</item>
+        <item>ຟີລາເດລເຟຍ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ພະນົມເປັນ, ກຳປູເຈຍ</item>
+        <item>ພອນນິກສ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ພິງຕິງຊານ, ຈີນ</item>
+        <item>ພອດໂກຣີກາ, ມອນເຕເນໂກຣ</item>
+        <item>ປອນຕາ ເດລກາດາ, ປັອກຕຸຍການ</item>
+        <item>ພອດ ລຸຍສ, ມົວຣິເຊຍ</item>
+        <item>ພອດອາວພຣິນຊ, ເຮຕິ</item>
+        <item>ພອດແລນ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ປຣາກ, ສາທາລະນະລັດເຊັກ</item>
+        <item>ໄປຣອາ, ກັບແວກ</item>
+        <item>ປຽງຢາງ, ສາທາລະນະລັດ ປະຊາທິປະໄຕ ປະຊາຊົນເກົາຫຼີ</item>
+        <item>ຊິງຕາວ, ຈີນ</item>
+        <item>ຊີຊີຮາ, ຈີນ</item>
+        <item>ກີໂຕ, ເອກົວດໍ</item>
+        <item>ຣາບັດ, ໂມຣອກໂຄ</item>
+        <item>ເຣຊີຟີ, ບຣາຊິລ</item>
+        <item>ເຣກີນາ, ແຄນນາດາ</item>
+        <item>ເຣກຍາວິກ, ອິດສະລັງ</item>
+        <item>ຣິກາ, ລັດເວຍ</item>
+        <item>ຣີໂອເດີຈາເນໂຣ, ບຣາຊິລ</item>
+        <item>ຣີຢາດ, ຊາອຸດິອາຣາເບຍ</item>
+        <item>ໂຣມ, ອີຕາລີ</item>
+        <item>ຊາວເປົາໂລ, ບຣາຊິລ</item>
+        <item>ເຊນ-ດີນິສ໌, ເກາະຣີຢູນຽນ</item>
+        <item>ຊາລເລກຊີດຕີ້, ສະຫະລັດອາເມລິກາ</item>
+        <item>ຊາມາຣາ, ຣັດເຊຍ</item>
+        <item>ຊານອານເຕນີໂອ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ຊານດິເອໂກ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ຊານຟຣານຊິສໂກ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ຊາຍໂຈເຊ, ຄັອສຕາຣີກາ</item>
+        <item>ຊານຈວນ, ເປີໂຕຣິໂກ</item>
+        <item>ເມືອງຊານມາຣິໂນ</item>
+        <item>ຊານຊາລວາດໍ, ເອລຊານວາດໍ</item>
+        <item>ຊານາ, ເຢເມນ</item>
+        <item>ຊານຕິເອໂກ, ຊີລີ</item>
+        <item>ຊານໂຕ ໂດມິງໂກ, ສາທາລະນະລັດໂດມີນີກັນ</item>
+        <item>ຊາຣາເຈໂວ, ບອສເນຍ ແລະ ເຮີຣ໌ເຊໂກວິນາ</item>
+        <item>ຊີດເທີນ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ກຸງໂຊລ, ເກົາຫຼີໃຕ້</item>
+        <item>ຊຽງໄຮ້, ຈີນ</item>
+        <item>ຊັງຊີວ, ຈີນ</item>
+        <item>ຊານໂຖ, ຈີນ</item>
+        <item>ເສີນຢາງ, ຈີນ</item>
+        <item>ເສີນເຈີນ, ຈີນ</item>
+        <item>ສືຈາຈວງ, ຈີນ</item>
+        <item>ສິງກະໂປ</item>
+        <item>ສະຄັອບເຈ, ມາອາຊິໂດເນຍ</item>
+        <item>ໂຊເຟຍ, ບູນກາຣີ</item>
+        <item>ເຊນຈອນ, ແຄນນາດາ</item>
+        <item>ເຊັນເປີເຕີສະເບີກ, ຣັດເຊຍ</item>
+        <item>ເຊນປີແຢ ແລະ ມີເກີລົງ, ຝຣັ່ງ</item>
+        <item>ສະຕອກໂຮມ,ຊູແອດ</item>
+        <item>ຊູວາ, ຟີຈິ</item>
+        <item>ສູໂຈ, ຈີນ</item>
+        <item>ຊິດນີ, ອົດສະຕຣາລີ</item>
+        <item>ຕາຮີຕິ, ໂປລີເນເຊຍໃນ ຝຣັ່ງ</item>
+        <item>ໄທເປ, ປະເທດຈີນ</item>
+        <item>ໄທຢວນ, ຈີນ</item>
+        <item>ທາລລິນ, ແອັດສະໂຕນີ</item>
+        <item>ຖັງຊານ, ຈີນ</item>
+        <item>ຕາຣາວາ, ກິຣິບາຕິ</item>
+        <item>ທາສເຄັນທ, ອຸດສະເບກິດສະຖານ</item>
+        <item>ທບິລີຊີ, ຊອກຊີ</item>
+        <item>ເຕກູຊິກັລປາ, ຮອນດູຣັສ</item>
+        <item>ເຕຣານ, ອີຣານ</item>
+        <item>ນິຄົມ, ໝູ່ເກາະແກຣນບາຮາມາເວີຈີນ</item>
+        <item>ທຽນຈິນ, ຈີນ</item>
+        <item>ຕີຈົວນາ, ແມັກຊີໂກ</item>
+        <item>ໂຕກຽວ, ຍີ່ປຸ່ນ</item>
+        <item>ຕົງກາ</item>
+        <item>ໂຕຣອນໂຕ, ແຄນນາດາ</item>
+        <item>ຕຣີໂປລີ, ລິເບຍ</item>
+        <item>ຕູນິສ, ຕູນິເຊຍ</item>
+        <item>ຕູຣິນ, ອີຕາລີ</item>
+        <item>ຢູຟາ, ຣັດເຊຍ</item>
+        <item>ອູລານບາເຕີ, ມົງໂກເລຍ</item>
+        <item>ອູຣູມຊິ, ຈີນ</item>
+        <item>ວາດູຊ, ລິກເຕນສະໄຕນ໌</item>
+        <item>ວາເລຕາ, ມານຕາ</item>
+        <item>ແວນຄູເວີ, ແຄນນາດາ</item>
+        <item>ເວີໂຣນາ, ອີຕາລີ</item>
+        <item>ວິກຕໍເຣຍ, ເຊເຊລສ</item>
+        <item>ກຸງວຽນນາ, ໂອຕຣິດ</item>
+        <item>ວິລນີອຸ, ລິດຕັວນີ</item>
+        <item>ວລາດີໂວສຕັອກ, ຣັດເຊຍ</item>
+        <item>ໂວນໂກກຣາດ, ຣັດເຊຍ</item>
+        <item>ວອຣ໌ຊໍ, ໂປໂລຍ</item>
+        <item>ວໍຊິງຕັນ ດີຊີ, ສະຫະລັດອາເມລິກາ</item>
+        <item>ເວຟາງ, ຈີນ</item>
+        <item>ເວລລິງຕັນ, ນີວຊີແລນ</item>
+        <item>ວິນດ໌ຮຸກ, ນາມີເບຍ</item>
+        <item>ວິນນີເພັກ, ແຄນນາດາ</item>
+        <item>ວູຫານ, ຈີນ</item>
+        <item>ວູຊີ, ຈີນ</item>
+        <item>ຊີ ອານ, ຈີນ</item>
+        <item>ຊຽງຢາງ, ຈີນ</item>
+        <item>ຊີນິງ, ຈີນ</item>
+        <item>ຊູໂຈ, ຈີນ</item>
+        <item>ຢາຄຸທ໌, ຣັດເຊຍ</item>
+        <item>ຢາມູຊູໂຄຣ, ກົດດີວົວ</item>
+        <item>ຢ້າງກຸ້ງ, ມຽນມ້າ</item>
+        <item>ຢານໄຕ, ຈີນ</item>
+        <item>ຢາອູນເດ, ກາເມີຣູນ</item>
+        <item>ເຢຄາເຕີຣິນເບີກ, ຣັດເຊຍ</item>
+        <item>ເຢເຣວານ, ອາກເມນີ</item>
+        <item>ຢີຊັງ, ຈີນ</item>
+        <item>ຢີຊຸນ, ຈີນ</item>
+        <item>ຢູສໂນ-ຊາຄາລິນສ໌, ຣັດເຊຍ</item>
+        <item>ແຊກເຣັບ, ກຣົວຊີ</item>
+        <item>ຊາວຊູ, ຈີນ</item>
+        <item>ຈັງຈາໂຄ, ປະເທດຈີນ</item>
+        <item>ຈານຈຽງ, ປະເທດຈີນ</item>
+        <item>ເຈີ້ງໂຈ, ປະເທດຈີນ</item>
+        <item>ຊີໂບ, ປະເທດຈີນ</item>
+        <item>ຊູຣິດຈ, ສະວິດເຊີແລນ</item>
+        <item>ປະເທດຈໍເຈຍຕອນໃຕ້</item>
+        <item>ບານດາ ເສຣີ ເບກາວັນ</item>
+        <item>ວຽງຈັນ</item>
+    </string-array>
+</resources>

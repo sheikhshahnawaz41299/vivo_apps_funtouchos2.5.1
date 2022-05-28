@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/zen_mode_option_title_novoice" android:key="zen_mode_selection"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:title="@string/zen_mode_option_off" android:key="mode_off" />
+    <Preference android:persistent="false" android:title="@string/zen_mode_option_important_interruptions" android:key="mode_important_interruptions" android:fragment="com.vivo.settings.notification.VivoZenModeCondition" />
+    <Preference android:persistent="false" android:title="@string/zen_mode_option_no_interruptions" android:key="mode_no_interruptions" android:fragment="com.vivo.settings.notification.VivoZenModeCondition" />
+</PreferenceScreen>

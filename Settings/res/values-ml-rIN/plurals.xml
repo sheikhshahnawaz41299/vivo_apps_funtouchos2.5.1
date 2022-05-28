@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">ഒരു ഡെവലപ്പർ ആകുന്നതിൽ നിന്നും നിങ്ങൾ %1$d ചുവട് അകലെയാണ്.</item>
+        <item quantity="one">ഒരു ഡെവലപ്പർ ആകുന്നതിൽ നിന്നും നിങ്ങൾ %1$d ചുവട് അകലെയാണ്.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">പാസ്‌വേഡിൽ ചുരുങ്ങിയത് %d അക്ഷരങ്ങളെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
+        <item quantity="one">പാസ്‌വേഡിൽ ഒരു അക്ഷരമെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">പാസ്‌വേഡിൽ ചുരുങ്ങിയത് %d ചെറിയക്ഷരങ്ങളെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
+        <item quantity="one">പാസ്‌വേഡിൽ ചുരുങ്ങിയത് ഒരു ചെറിയക്ഷരമെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">പാസ്‌വേഡിൽ ചുരുങ്ങിയത് %d വലിയക്ഷരങ്ങളെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
+        <item quantity="one">പാസ്‌വേഡിൽ ചുരുങ്ങിയത് ഒരു വലിയക്ഷരമെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">പാസ്‌വേഡിൽ ചുരുങ്ങിയത് %d അക്കങ്ങളെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
+        <item quantity="one">പാസ്‌വേഡിൽ ഒരു സംഖ്യയെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">പാസ്‌വേഡിൽ ചുരുങ്ങിയത് %d സവിശേഷ പ്രതീകങ്ങളെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
+        <item quantity="one">പാസ്‌വേഡിൽ ചുരുങ്ങിയത് 1 സവിശേഷ പ്രതീകമെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">പാസ്‌വേഡിൽ ചുരുങ്ങിയത് അക്ഷരമല്ലാത്ത %d പ്രതീകങ്ങളെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
+        <item quantity="one">പാസ്‌വേഡിൽ ചുരുങ്ങിയത് അക്ഷരമല്ലാത്ത 1 പ്രതീകമെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">തെറ്റായ SIM PIN കോഡ്, നിങ്ങൾക്ക് %d ശ്രമങ്ങൾ ബാക്കിയുണ്ട്.</item>
+        <item quantity="one">SIM PIN കോഡ് തെറ്റാണ്, നിങ്ങളുടെ ഉപകരണത്തിന്റെ ലോക്ക് നീക്കുന്നതിന് നിങ്ങളുടെ കാരിയറിനെ ബന്ധപ്പെടുന്നതിന് മുമ്പ് നിങ്ങൾക്ക് %d ശ്രമം അവശേഷിക്കുന്നുണ്ട്.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d ആപ്പിന്(കൾക്ക്) അറിയിപ്പുകൾ വായിക്കാൻ കഴിയില്ല</item>
+        <item quantity="one">%d ആപ്പിന്(കൾക്ക്) അറിയിപ്പുകൾ വായിക്കാൻ കഴിയില്ല</item>
+    </plurals>
+    <plurals name="manage_condition_providers_summary_nonzero">
+        <item quantity="other">%d ആപ്പ് നിബന്ധനകൾ നൽകുന്നു</item>
+        <item quantity="one">%d ആപ്പ് നിബന്ധനകൾ നൽകുന്നു</item>
+    </plurals>
+</resources>

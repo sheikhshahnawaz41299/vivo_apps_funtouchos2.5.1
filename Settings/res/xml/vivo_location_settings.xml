@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/location_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <VivoCheckBoxPreference android:title="@string/location_network_based" android:key="location_network" />
+    <VivoCheckBoxPreference android:title="@string/location_gps" android:key="location_gps" />
+    <VivoCheckBoxPreference android:title="@string/auto_time_gps_title" android:key="auto_time_gps" android:dependency="location_gps" />
+    <PreferenceCategory android:title="@string/gps_location_instruction" style="?vivo:attr/explainPreferenceStyle" />
+    <VivoCheckBoxPreference android:title="@string/pic_use_gps" android:key="pic_use_gps" />
+    <PreferenceCategory android:title="@string/pic_use_gps_explain" style="?vivo:attr/explainPreferenceStyle" />
+    <PreferenceScreen android:title="@string/agps_settings_eng_enable" android:key="agps_settings_screen" android:dependency="location_gps" />
+    <PreferenceCategory android:key="permission_divider" />
+    <PreferenceCategory android:title="@string/location_permission_title" android:key="location_permission" style="?vivo:attr/explainPreferenceStyle" />
+</PreferenceScreen>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/tts_engine_settings" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingEnd="8.0dip">
+        <TextView android:textAppearance="@style/TextAppearance.TileTitle" android:id="@android:id/title" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@vivo:dimen/preference_left_margin" android:singleLine="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/raido_container" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <RadioButton android:gravity="center_vertical" android:id="@id/tts_engine_radiobutton" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@vivo:dimen/preference_left_margin" android:layout_marginRight="@vivo:dimen/preference_right_margin" />
+    </LinearLayout>
+</LinearLayout>

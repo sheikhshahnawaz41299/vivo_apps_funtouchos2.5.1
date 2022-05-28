@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:vivo="http://schemas.android.com/apk/res/vivo">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?vivo:generalBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+        <TextView android:gravity="end|center" android:id="@id/problem_label" android:layout_width="57.0dip" android:layout_height="46.0dip" android:text="@string/problem_label" android:maxLines="2" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout_question" android:layout_width="fill_parent" android:layout_height="46.0dip">
+            <EditText android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/edit_question" android:background="@null" android:layout_width="wrap_content" android:layout_height="46.0dip" android:hint="@string/input_question" android:maxLines="2" android:layout_weight="1.0" />
+            <RelativeLayout android:id="@id/background" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentEnd="true">
+                <Button android:id="@id/btn_question" android:background="@null" android:layout_width="24.0dip" android:layout_height="fill_parent" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/spinner_bt" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:background="?vivo:generalBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+        <TextView android:ellipsize="end" android:gravity="end|center" android:layout_width="@dimen/answer_label_width" android:layout_height="@dimen/answer_label_height" android:text="@string/answer_label" android:singleLine="true" />
+        <EditText android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/edit_answer" android:background="@null" android:layout_width="fill_parent" android:layout_height="46.0dip" android:hint="@string/input_answer" android:singleLine="true" />
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textColor="#ff343434" android:id="@id/promt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:hint="@string/explain_problem_explain" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+</LinearLayout>

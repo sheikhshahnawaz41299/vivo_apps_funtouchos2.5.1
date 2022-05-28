@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="screen_timeout_entries">
+        <item>15 วินาที</item>
+        <item>30 วินาที</item>
+        <item>1 นาที</item>
+        <item>2 นาที</item>
+        <item>5 นาที</item>
+        <item>10 นาที</item>
+        <item>30 นาที</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>ทันที</item>
+        <item>5 วินาที</item>
+        <item>15 วินาที</item>
+        <item>30 วินาที</item>
+        <item>1 นาที</item>
+        <item>2 นาที</item>
+        <item>5 นาที</item>
+        <item>10 นาที</item>
+        <item>30 นาที</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>เล็ก</item>
+        <item>ปกติ</item>
+        <item>ใหญ่</item>
+        <item>ใหญ่พิเศษ</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>ช้ามาก</item>
+        <item>ช้า</item>
+        <item>ปกติ</item>
+        <item>เร็ว</item>
+        <item>เร็วขึ้น</item>
+        <item>เร็วมาก</item>
+        <item>เร็ว</item>
+        <item>เร็วมาก</item>
+        <item>เร็วที่สุด</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>กำลังสแกน...</item>
+        <item>กำลังเชื่อมต่อ...</item>
+        <item>กำลังตรวจสอบบัญชี...</item>
+        <item>กำลังรับ IP แอดเดรส...</item>
+        <item>เชื่อมต่อแล้ว</item>
+        <item>หยุดชั่วคราว</item>
+        <item>กำลังยกเลิกการเชื่อมต่อ...</item>
+        <item>ยกเลิกการเชื่อมต่อแล้ว</item>
+        <item>ล้มเหลว</item>
+        <item>ถูกปิดใช้งาน</item>
+        <item>หลีกเลี่ยงการเชื่อมต่อกับสัญญาณที่ไม่แรงพอชั่วคราว</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>กำลังสแกน...</item>
+        <item>กำลังเชื่อมต่อ %1$s...</item>
+        <item>กำลังตรวจสอบบัญชีผ่าน %1$s...</item>
+        <item>กำลังรับ IP แอดเดรส จาก %1$s...</item>
+        <item>เชื่อมต่อกับ %1$s แล้ว</item>
+        <item>หยุดชั่วคราว</item>
+        <item>กำลังยกเลิกการเชื่อมต่อกับ %1$s...</item>
+        <item>ยกเลิกการเชื่อมต่อแล้ว</item>
+        <item>ล้มเหลว</item>
+        <item>ถูกปิดใช้งาน</item>
+        <item>หลีกเลี่ยงการเชื่อมต่อกับสัญญาณที่ไม่แรงพอชั่วคราว</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>เชื่อมต่อแล้ว</item>
+        <item>เชิญแล้ว</item>
+        <item>ล้มเหลว</item>
+        <item>ใช้ได้</item>
+        <item>อยู่นอกระยะ</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 นาที</item>
+        <item>5 นาที</item>
+        <item>1 ชั่วโมง</item>
+        <item>ไม่มีการหมดเวลา</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>อ่อน</item>
+        <item>ปานกลาง</item>
+        <item>ค่อนข้างชัดเจน</item>
+        <item>ชัดเจน</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>ทุกครั้ง</item>
+        <item>เมื่อเสียบปลั๊กเท่านั้น</item>
+        <item>ไม่ต้องเลย</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>ไม่ปิด</item>
+        <item>เมื่อเสียบปลั๊กเท่านั้น</item>
+        <item>ไม่ต้องเลย</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>อัตโนมัติ</item>
+        <item>ใช้เฉพาะแถบความถี่ 5GHz เท่านั้น</item>
+        <item>ใช้เฉพาะแถบความถี่ 2.4GHz เท่านั้น</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>เวลาที่ใช้</item>
+        <item>เวลาใช้งานล่าสุด</item>
+        <item>ชื่อแอปพลิเคชัน</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>ไม่มี</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>ไม่มี</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>สถิติ</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>ไม่มี</item>
+        <item>แมนวล</item>
+        <item>การกำหนดค่าอัตโนมัติของพร็อกซี่</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>ไม่มี</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP หรือ CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>ไม่ระบุ</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>ไม่มี</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>อุปกรณ์เก็บข้อมูลภายในเครื่อง</item>
+        <item>สามารถต่อเชื่อมการ์ด SD</item>
+        <item>ให้ระบบเลือก</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>ตำแหน่ง</item>
+        <item>บุคคล</item>
+        <item>ข้อความ</item>
+        <item>มีเดีย</item>
+        <item>อุปกรณ์</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>ตำแหน่งคร่าวๆ</item>
+        <item>ตำแหน่งโดยละเอียด</item>
+        <item>GPS</item>
+        <item>ระบบสั่น</item>
+        <item>อ่านรายชื่อติดต่อ</item>
+        <item>แก้ไขรายชื่อผู้ติดต่อ</item>
+        <item>อ่านประวัติการโทร</item>
+        <item>แก้ไขบันทึกการโทร</item>
+        <item>อ่านปฏิทิน</item>
+        <item>แก้ไขปฏิทิน</item>
+        <item>สแกน Wi-Fi</item>
+        <item>การแจ้งเตือน</item>
+        <item>ค้นหาเซลล์</item>
+        <item>การโทร</item>
+        <item>อ่าน SMS</item>
+        <item>เขียนข้อความ SMS</item>
+        <item>รับ SMS</item>
+        <item>รับ SMS ฉุกเฉิน</item>
+        <item>รับ MMS</item>
+        <item>รับ WAP Push</item>
+        <item>ส่งข้อความ</item>
+        <item>อ่าน ICC SMS</item>
+        <item>เขียน ICC SMS</item>
+        <item>แก้ไขการตั้งค่า</item>
+        <item>วาดด้านบน</item>
+        <item>เข้าถึงการแจ้งเตือน</item>
+        <item>กล้อง</item>
+        <item>บันทึกเสียง</item>
+        <item>เล่นเสียง</item>
+        <item>อ่านคลิปบอร์ด</item>
+        <item>แก้ไขคลิปบอร์ด</item>
+        <item>ปุ่มสื่อ</item>
+        <item>โฟกัสอัตโนมัติ</item>
+        <item>ระดับเสียงหลัก</item>
+        <item>ระดับเสียงสนทนา</item>
+        <item>ระดับเสียงเรียกเข้า</item>
+        <item>ระดับเสียงมีเดีย</item>
+        <item>ระดับเสียงปลุก</item>
+        <item>ระดับเสียงของการแจ้งเตือน</item>
+        <item>ระดับบลูทูธ</item>
+        <item>พร้อมใช้งานตลอดเวลา</item>
+        <item>ตำแหน่งจอภาพ</item>
+        <item>ติดตามตำแหน่งโดยใช้พลังงานมาก</item>
+        <item>รับข้อมูลสถิติการใช้งาน</item>
+        <item>ปิดเสียงไมโครโฟนหรือยกเลิกการปิดเสียง</item>
+        <item>สื่อการฉายภาพ</item>
+        <item>เปิดใช้งาน VPN</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>ตำแหน่ง</item>
+        <item>ตำแหน่ง</item>
+        <item>ตำแหน่ง</item>
+        <item>ระบบสั่น</item>
+        <item>อ่านรายชื่อติดต่อ</item>
+        <item>แก้ไขรายชื่อผู้ติดต่อ</item>
+        <item>อ่านประวัติการโทร</item>
+        <item>แก้ไขบันทึกการโทร</item>
+        <item>อ่านปฏิทิน</item>
+        <item>แก้ไขปฏิทิน</item>
+        <item>ตำแหน่ง</item>
+        <item>การแจ้งเตือนโพสต์</item>
+        <item>ตำแหน่ง</item>
+        <item>การโทร</item>
+        <item>อ่านข้อความ SMS/MMS</item>
+        <item>เขียนข้อความ SMS/MMS</item>
+        <item>รับข้อความ SMS/MMS</item>
+        <item>รับข้อความ SMS/MMS</item>
+        <item>รับข้อความ SMS/MMS</item>
+        <item>รับข้อความ SMS/MMS</item>
+        <item>ส่งข้อความ SMS/MMS</item>
+        <item>อ่านข้อความ SMS/MMS</item>
+        <item>เขียนข้อความ SMS/MMS</item>
+        <item>แก้ไขการตั้งค่า</item>
+        <item>วาดด้านบน</item>
+        <item>เข้าถึงการแจ้งเตือน</item>
+        <item>กล้อง</item>
+        <item>บันทึกเสียง</item>
+        <item>เล่นเสียง</item>
+        <item>อ่านคลิปบอร์ด</item>
+        <item>แก้ไขคลิปบอร์ด</item>
+        <item>ปุ่มสื่อ</item>
+        <item>โฟกัสอัตโนมัติ</item>
+        <item>ระดับเสียงหลัก</item>
+        <item>ระดับเสียงสนทนา</item>
+        <item>ระดับเสียงเรียกเข้า</item>
+        <item>ระดับเสียงมีเดีย</item>
+        <item>ระดับเสียงปลุก</item>
+        <item>ระดับเสียงของการแจ้งเตือน</item>
+        <item>ระดับบลูทูธ</item>
+        <item>พร้อมใช้งานตลอดเวลา</item>
+        <item>ตำแหน่ง</item>
+        <item>สถานที่ที่ใช้งาน</item>
+        <item>รับข้อมูลสถิติการใช้งาน</item>
+        <item>ปิดเสียงไมโครโฟนหรือยกเลิกการปิดเสียง</item>
+        <item>สื่อการฉายภาพ</item>
+        <item>เปิดใช้งาน VPN</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>สั้น</item>
+        <item>กลาง</item>
+        <item>ยาว</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>ค่าเริ่มต้น</item>
+        <item>Sans Serif</item>
+        <item>Sans-serif แบบย่อ</item>
+        <item>Sans-serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>Casual</item>
+        <item>Cursive</item>
+        <item>Small capitals</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>เล็กพิเศษ</item>
+        <item>เล็ก</item>
+        <item>ปกติ</item>
+        <item>ใหญ่</item>
+        <item>ใหญ่พิเศษ</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>ค่าเริ่มต้น</item>
+        <item>ไม่มี</item>
+        <item>ตีกรอบ</item>
+        <item>เงา</item>
+        <item>ลายนูน</item>
+        <item>การเจาะ</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>ใช้รูปแบบค่าเริ่มต้นของแอพ</item>
+        <item>สีขาวบนพื้นสีดำ</item>
+        <item>สีดำบนพื้นสีขาว</item>
+        <item>สีเหลืองบนพื้นสีดำ</item>
+        <item>สีเหลืองบนพื้นสีน้ำเงิน</item>
+        <item>ระบุเอง</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>บัพเฟอร์การบันทึกข้อมูลทุกรายการ 64K</item>
+        <item>บัพเฟอร์การบันทึกข้อมูลทุกรายการ 256K</item>
+        <item>บัพเฟอร์การบันทึกข้อมูลทุกรายการ 1M</item>
+        <item>บัพเฟอร์การบันทึกข้อมูลทุกรายการ 4M</item>
+        <item>บัพเฟอร์การบันทึกข้อมูลทุกรายการ 16M</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>ไม่ต้องตรวจสอบ</item>
+        <item>ตรวจสอบเฉพาะเนื้อหา DRM</item>
+        <item>ตลอดเวลา</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>ไม่ใช้ HDCP เพื่อตรวจสอบในทุกกรณี</item>
+        <item>ใช้ HDCP เพื่อตรวจสอบเนื้อหา DRM เท่านั้น</item>
+        <item>ใช้ HDCP เพื่อตรวจสอบเสมอ</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>ปิดภาพเคลื่อนไหว</item>
+        <item>ซูมแบบเคลื่อนไหว 0.5x</item>
+        <item>ซูมแบบเคลื่อนไหว 1x</item>
+        <item>ซูมแบบเคลื่อนไหว 1.5x</item>
+        <item>ซูมแบบเคลื่อนไหว 2x</item>
+        <item>ซูมแบบเคลื่อนไหว 5x</item>
+        <item>ซูมแบบเคลื่อนไหว 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>ปิดภาพเคลื่อนไหว</item>
+        <item>ซูมแบบเคลื่อนไหว 0.5x</item>
+        <item>ซูมแบบเคลื่อนไหว 1x</item>
+        <item>ซูมแบบเคลื่อนไหว 1.5x</item>
+        <item>ซูมแบบเคลื่อนไหว 2x</item>
+        <item>ซูมแบบเคลื่อนไหว 5x</item>
+        <item>ซูมแบบเคลื่อนไหว 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>ปิดภาพเคลื่อนไหว</item>
+        <item>ภาพเคลื่อนไหวขนาด .5 เท่า</item>
+        <item>ซูมแบบเคลื่อนไหว 1x</item>
+        <item>ซูมแบบเคลื่อนไหว 1.5x</item>
+        <item>ซูมแบบเคลื่อนไหว 2x</item>
+        <item>ซูมแบบเคลื่อนไหว 5x</item>
+        <item>ซูมแบบเคลื่อนไหว 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>ไม่เลือก</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (ปลอดภัย)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (ปลอดภัย)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (ปลอดภัย)</item>
+        <item>1280x720 tvdpi และ 1920x1080 xhdpi</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>ไม่เลือก</item>
+        <item>Logcat</item>
+        <item>Systrace (กราฟิก)</item>
+        <item>ชุดรายการเรียกใน glGetError</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>ปิด</item>
+        <item>วาดคลิปที่ไม่ใช่สี่เหลี่ยมด้วยสีฟ้า</item>
+        <item>ไฮไลต์คำสั่งวาดที่ทดสอบด้วยสีเขียว</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>ปิด</item>
+        <item>เป็นแถบบนหน้าจอ</item>
+        <item>ใน adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>ปิด</item>
+        <item>แสดงพื้นที่การวาดทับ</item>
+        <item>แสดงพื้นที่สำหรับคนตาบอดสีเขียว</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>ขีดจำกัดมาตรฐาน</item>
+        <item>ไม่อนุญาตกระบวนการบนพื้นหลัง</item>
+        <item>ไม่เกิน 1 กระบวนการ</item>
+        <item>ไม่เกิน 2 กระบวนการ</item>
+        <item>ไม่เกิน 3 กระบวนการ</item>
+        <item>ไม่เกิน 4 กระบวนการ</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>L2TP/IPSec VPN ที่มีคีย์ที่แชร์ไว้ล่วงหน้า</item>
+        <item>L2TP/IPSec VPN ที่มีใบรับรอง</item>
+        <item>IPSec VPN ที่มีคีย์ที่แชร์ไว้ล่วงหน้าและการอนุญาตสิทธิ์ Xauth</item>
+        <item>IPSec VPN ที่มีคีย์ที่แชร์ไว้ล่วงหน้าและได้รับอนุญาตสิทธิ์จาก Xauth</item>
+        <item>IPSec VPN ที่มีใบรับรองและการอนุญาตแบบผสม</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>ยกเลิกการเชื่อมต่อแล้ว</item>
+        <item>กำลังเริ่ม...</item>
+        <item>กำลังเชื่อมต่อ...</item>
+        <item>เชื่อมต่อแล้ว</item>
+        <item>หมดเวลา</item>
+        <item>ล้มเหลว</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>ถามก่อนเสมอ</item>
+        <item>ไม่อนุญาตเลย</item>
+        <item>อนุญาตทุกครั้ง</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>ปานกลาง</item>
+        <item>ปานกลาง</item>
+        <item>ต่ำ</item>
+        <item>วิกฤต</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>ปกติ</item>
+        <item>ระดับปานกลาง</item>
+        <item>ไม่เพียงพอ</item>
+        <item>วิกฤต</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>ผู้พำนักอยู่ในประเทศ</item>
+        <item>กิจกรรมระดับสูง</item>
+        <item>สำคัญ (เบื้องหน้า)</item>
+        <item>สำคัญ (พื้นหลัง)</item>
+        <item>สำรองข้อมูล</item>
+        <item>สีเข้ม</item>
+        <item>บริการ (การทำงาน)</item>
+        <item>บริการ (การรีสตาร์ท)</item>
+        <item>ตัวรับสัญญาณ</item>
+        <item>หน้าแรก</item>
+        <item>กิจกรรมก่อนหน้า</item>
+        <item>บัพเฟอร์แล้ว (ที่ใช้งานอยู่)</item>
+        <item>บัพเฟอร์แล้ว (ไคลเอ็นต์ที่ใช้งานอยู่)</item>
+        <item>บัพเฟอร์แล้ว (ว่าง)</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>ฟ้า</item>
+        <item>น้ำเงิน</item>
+        <item>สีน้ำเงินเข้ม</item>
+        <item>สีม่วงแดง</item>
+        <item>สีชมพู</item>
+        <item>แดง</item>
+    </string-array>
+    <string-array name="ring_or_mtp_change_entries">
+        <item>เสียงเตือน</item>
+        <item>มีเดีย</item>
+    </string-array>
+    <string-array name="app_loc_permission">
+        <item>ปิดใช้งาน</item>
+        <item>ใช่</item>
+        <item>ถาม</item>
+    </string-array>
+    <string-array name="key_light_control_mode">
+        <item>1.5 วินาที</item>
+        <item>6 วินาที</item>
+        <item>เปิดเสมอ</item>
+        <item>ปิดเสมอ</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_amoled">
+        <item>15 วินาที</item>
+        <item>30 วินาที</item>
+        <item>1 นาที</item>
+        <item>2 นาที</item>
+        <item>5 นาที</item>
+        <item>10 นาที</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_mtfp">
+        <item>15 วินาที</item>
+        <item>30 วินาที</item>
+        <item>1 นาที</item>
+        <item>2 นาที</item>
+        <item>5 นาที</item>
+        <item>10 นาที</item>
+        <item>30 นาที</item>
+        <item>ไม่เลย</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>พ่อของคุณชื่ออะไร</item>
+        <item>แม่ของคุณชื่ออะไร</item>
+        <item>คู่สมรสของคุณชื่ออะไร</item>
+        <item>คุณเรียนที่โรงเรียนประถมศึกษาอะไร</item>
+        <item>ครูโรงเรียนอนุบาลของคุณชื่ออะไร</item>
+        <item>ครูโรงเรียนมัธยมศึกษาของคุณชื่ออะไร</item>
+        <item>เพื่อนในวัยเด็กที่สนิทที่สุดของคุณชื่ออะไร</item>
+        <item>คุณเกิดที่ไหน</item>
+        <item>รหัสประจำตัวนักศึกษา (การจ้างงาน) ของคุณหมายเลขอะไร</item>
+        <item>ตัวเลข 6 หลักสุดท้ายของบัตรประจำตัวประชาชนของคุณคือหมายเลขอะไร</item>
+        <item>ทะเบียนรถของคุณหมายเลขอะไร</item>
+        <item>บริษัทแรกที่คุณทำงานชื่ออะไร</item>
+        <item>คำถามที่กำหนดเอง</item>
+    </string-array>
+    <string-array name="area_entrys">
+        <item>ไทย</item>
+        <item>มาเลเซีย</item>
+        <item>อินโดนีเซีย</item>
+        <item>อินเดีย</item>
+        <item>พม่า</item>
+        <item>ฟิลิปปินส์</item>
+        <item>เวียดนาม</item>
+        <item>บรูไน</item>
+        <item>กัมพูชา</item>
+        <item>ลาว</item>
+        <item>สิงคโปร์</item>
+        <item>บังคลาเทศ</item>
+        <item>เนปาล</item>
+        <item>ปากีสถาน</item>
+        <item>ศรีลังกา</item>
+    </string-array>
+    <string-array name="vivo_rom_25problem_ask_lables">
+        <item>คุณเรียนที่โรงเรียนประถมศึกษาอะไร</item>
+        <item>พ่อของคุณชื่ออะไร</item>
+        <item>แม่ของคุณชื่ออะไร</item>
+        <item>คู่สมรสของคุณชื่ออะไร</item>
+        <item>คุณเกิดที่ไหน</item>
+        <item>พ่อแม่ของคุณเรียกคุณว่าอะไร</item>
+        <item>คุณครูโรงเรียนมัธยมศึกษาของคุณชื่ออะไร</item>
+        <item>เพื่อนในวัยเด็กที่ดีที่สุดของคุณชื่ออะไร</item>
+        <item>รหัสประจำตัวนักศึกษา (การจ้างงาน) ของคุณหมายเลขอะไร</item>
+        <item>หมายเลข IC 6 หลักสุดท้ายมีอะไรบ้าง</item>
+        <item>ทะเบียนรถของคุณหมายเลขอะไร</item>
+        <item>บริษัทแรกที่คุณทำงานชื่ออะไร</item>
+        <item>คำถามที่กำหนดเอง</item>
+    </string-array>
+    <string-array name="timezones_cities_array">
+        <item>อาบีจาน ไอวอรี่โคสต์</item>
+        <item>อาบู ดาบี, สหรัฐอาหรับเอมิเรตส์</item>
+        <item>อักกรา, กาน่า</item>
+        <item>แอดดิสอาบาบา เอธิโอเปีย</item>
+        <item>แอดิเลด ออสเตรเลีย</item>
+        <item>อะแลสกา, สหรัฐ</item>
+        <item>แอลเจียร์ แอลจีเรีย</item>
+        <item>อัลมาตี คาซัคสถาน</item>
+        <item>เกาะอัมบน อินโดนีเซีย</item>
+        <item>อัมมาน จอร์แดน</item>
+        <item>อัมสเตอร์ดัม เนเธอร์แลนด์</item>
+        <item>อนาไดร์ รัสเซีย</item>
+        <item>แองเคอเรจ, สหรัฐ</item>
+        <item>อังการา ตุรกี</item>
+        <item>อันชาน, จีน</item>
+        <item>อันตานานาริโว, มาดากัสการ์</item>
+        <item>อาชกาบัต เติร์กเมนิสถาน</item>
+        <item>แอสมารา, เอริเทรีย</item>
+        <item>อัสตานา, คาซัคสถาน</item>
+        <item>อะซุนซิออง ปารากวัย</item>
+        <item>เอเธนส์ กรีซ</item>
+        <item>แอตแลนตา สหรัฐ</item>
+        <item>ออกแลนด์ นิวซีแลนด์</item>
+        <item>ออสติน สหรัฐ</item>
+        <item>อะโซร์ส, โปรตุเกส</item>
+        <item>แบกแดด อิรัก</item>
+        <item>บากู อาเซอร์ไบจาน</item>
+        <item>บอลทิมอร์ สหรัฐ</item>
+        <item>บามาโก, มาลี</item>
+        <item>บังคาลอร์ อินเดีย</item>
+        <item>กรุงเทพ ไทย</item>
+        <item>บังกี, สาธารณรัฐ แอฟริกากลาง</item>
+        <item>เป่าติ้ง, จีน</item>
+        <item>บาวตู, จีน</item>
+        <item>บาร์เซโลนา, สเปน</item>
+        <item>บาริ อิตาลี</item>
+        <item>บาสแตร์, กวาเดอลูป</item>
+        <item>ปักกิ่ง,จีน</item>
+        <item>เบรุต เลบานอน</item>
+        <item>เบลเกรด เซอร์เบีย</item>
+        <item>เบลีซซิตี, เบลีซ</item>
+        <item>เบนซี, จีน</item>
+        <item>เบอร์ลิน เยอรมนี</item>
+        <item>เบิร์น, สวิตเซอร์แลนด์</item>
+        <item>บิชเคก คีร์กีซสถาน</item>
+        <item>บิสเซา, กินี-บิสเซา</item>
+        <item>โบโกตา, โคลอมเบีย</item>
+        <item>โบโลญญา อิตาลี</item>
+        <item>บอสตัน สหรัฐ</item>
+        <item>บราซีเลีย บราซิล</item>
+        <item>บราติสลาวา, สโลวาเกีย</item>
+        <item>บราซซาวิล คองโก</item>
+        <item>บริดจ์ทาวน์ บาร์เบโดส</item>
+        <item>บริสเบน ออสเตรเลีย</item>
+        <item>บรัสเซลส์ เบลเยียม</item>
+        <item>บูคาเรสต์ โรมาเนีย</item>
+        <item>บูดาเปสต์ ฮังการี</item>
+        <item>บัวโนสไอเรส อาร์เจนตินา</item>
+        <item>ไคโร อียิปต์</item>
+        <item>แคลกะรี แคนาดา</item>
+        <item>หมู่เกาะคะแนรี, สเปน</item>
+        <item>แคนเบอร์รา ออสเตรเลีย</item>
+        <item>เคปทาวน์ แอฟริกาใต้</item>
+        <item>การากัส เวเนซุเอลา</item>
+        <item>คาร์ดิฟฟ์, เวลส์</item>
+        <item>กาซาบล็องกา โมร็อกโก</item>
+        <item>กาตันซาโร, อิตาลี</item>
+        <item>กาแยน, เฟรนช์เกียนา</item>
+        <item>ฉางชุน จีน</item>
+        <item>ฉางชา, จีน</item>
+        <item>ฉางโจว, จีน</item>
+        <item>ชาร์ลอตต์ สหรัฐ</item>
+        <item>ชาร์ลอตต์อะมาลี, หมู่เกาะเวอร์จิน สหรัฐ</item>
+        <item>เชลยาบินสค์, รัสเซีย</item>
+        <item>เฉิงตู จีน</item>
+        <item>เจนไน, อินเดีย</item>
+        <item>ซิคาโก้ สหรัฐ</item>
+        <item>ซิวาวา เม็กซิโก</item>
+        <item>คีชีเนา, มอลโดวา</item>
+        <item>ชิตาร์, รัสเซีย</item>
+        <item>ฉงชิ่ง จีน</item>
+        <item>คลีฟแลนด์, สหรัฐ</item>
+        <item>โคลัมโบ ศรีลังกา</item>
+        <item>โคลัมบัส สหรัฐ</item>
+        <item>โกนากรี กินี</item>
+        <item>โคเปนเฮเกน เดนมาร์ก</item>
+        <item>คอร์ก ไอร์แลนด์</item>
+        <item>โครโตเน, อิตาลี</item>
+        <item>ดาการ์, เซเนกัล</item>
+        <item>ต้าเหลียน จีน</item>
+        <item>แดลลัส สหรัฐ</item>
+        <item>ดามัสกัส ซีเรีย</item>
+        <item>ต้าชิ่ง, จีน</item>
+        <item>ดาร์-เอส-ซาลาม แทนซาเนีย</item>
+        <item>ดาร์วิน ออสเตรเลีย</item>
+        <item>ต้าถัง, จีน</item>
+        <item>เดนปาซาร์, อินโดนีเซีย</item>
+        <item>เดนเวอร์ สหรัฐ</item>
+        <item>ดีทรอยต์ สหรัฐ</item>
+        <item>ธากา บังกลาเทศ</item>
+        <item>ดีเอโกการ์ซีอา, สหราชอาณาจักร</item>
+        <item>จิบูตี</item>
+        <item>โดฮา กาตาร์</item>
+        <item>ดูอาลา, แคเมอรูน</item>
+        <item>ดูไบ, สหรัฐอาหรับเอมิเรตส์</item>
+        <item>ดับลิน, ไอร์แลนด์</item>
+        <item>ดูชานเบ ทาจิกิสถาน</item>
+        <item>เกาะอีสเตอร์,ชิลี</item>
+        <item>เอดินเบิร์ก, สกอตแลนด์</item>
+        <item>เอดมันตัน แคนาดา</item>
+        <item>เอลแพโซ สหรัฐ</item>
+        <item>เฟร์นันดูจีนอโรนยา, บราซิล</item>
+        <item>ฟลอเรนซ์ อิตาลี</item>
+        <item>ฟอร์-เดอ-ฟร็องส์, มาร์ตินีก</item>
+        <item>แฟรงก์เฟิร์ต เยอรมนี</item>
+        <item>ฟรีทาวน์, เซียร์ราลีโอน</item>
+        <item>ฟุชุน, จีน</item>
+        <item>ฟู่ซิน, จีน</item>
+        <item>ฝูโจว, จีน</item>
+        <item>กาโบโรเน บอตสวานา</item>
+        <item>หมู่เกาะกาลาปาโกส เอกวาดอร์</item>
+        <item>เจนีวา สวิตเซอร์แลนด์</item>
+        <item>เจนัว อิตาลี</item>
+        <item>จอร์จทาวน์ กายอานา</item>
+        <item>กอดแธบ</item>
+        <item>กริตวิเคน, เซาท์ จอร์เจีย</item>
+        <item>กวม</item>
+        <item>กว่างโจว จีน</item>
+        <item>กัวเตมาลา</item>
+        <item>กัวเตมาลาซิตี, กัวเตมาลา</item>
+        <item>กุ้ยหยาง จีน</item>
+        <item>กุสตาวียา, แซ็ง-บาร์เตเลมี</item>
+        <item>ไฮกุ จีน</item>
+        <item>แฮลิแฟกซ์, แคนาดา</item>
+        <item>ฮัมบูร์ก เยอรมนี</item>
+        <item>ฮานดัง, จีน</item>
+        <item>หางโจว, จีน</item>
+        <item>ฮานอย เวียดนาม</item>
+        <item>ฮาราเร ซิมบับเว</item>
+        <item>ฮาร์บิน จีน</item>
+        <item>ฮาวานา</item>
+        <item>ฮาวาย, สหรัฐ</item>
+        <item>เหอเฟย์, จีน</item>
+        <item>เฮลซิงกิ ฟินแลนด์</item>
+        <item>นครโฮจิมินห์ เวียดนาม</item>
+        <item>โฮบาท, ออสเตรเลีย</item>
+        <item>ฮูฮอต, จีน</item>
+        <item>ฮ่องกง, จีน</item>
+        <item>โฮโนลูลู, สหรัฐ</item>
+        <item>ฮิวสตัน สหรัฐ</item>
+        <item>ฮอฟด์, มองโกเลีย</item>
+        <item>หวายอัน, จีน</item>
+        <item>หวยหนาน, จีน</item>
+        <item>ไฮเดอราบาด, อินเดีย</item>
+        <item>อินเดียแนโพลิส สหรัฐ</item>
+        <item>อีร์คุตสค์ รัสเซีย</item>
+        <item>อิสลามาบัด ปากีสถาน</item>
+        <item>อิสตันบูล ตุรกี</item>
+        <item>อิชเซฟ, รัสเซีย</item>
+        <item>จาการ์ตา, อินโดนีเซีย</item>
+        <item>ญิดดะฮ์ ซาอุดีอาระเบีย</item>
+        <item>เยรูซาเลม อิสราเอล</item>
+        <item>มณฑลจี๋หลิน, จีน</item>
+        <item>จี้หนาน, จีน</item>
+        <item>จินซู, จีน</item>
+        <item>จี้ซี, จีน</item>
+        <item>โจฮันเนสเบิร์ก, แอฟริกาใต้</item>
+        <item>คาบูล อัฟกานิสถาน</item>
+        <item>คาลินินกราด, รัสเซีย</item>
+        <item>คาบสมุทรคัมชัตคา, รัสเซีย</item>
+        <item>กัมปาลา ยูกันดา</item>
+        <item>การาจี ปากีสถาน</item>
+        <item>กาฐมาณฑุ เนปาล</item>
+        <item>ฮาบารอฟสค์, รัสเซีย</item>
+        <item>คาร์คิฟ, ยูเครน</item>
+        <item>คาร์ทูม ซูดาน</item>
+        <item>คิงส์ตัน จาเมกา</item>
+        <item>กินชาซา, สาธารณรัฐประชาธิปไตยคองโก</item>
+        <item>คิริสมาส คิริบาส</item>
+        <item>โกลกาตา อินเดีย</item>
+        <item>ครัสโนยาสค์ รัสเซีย</item>
+        <item>กัวลาลัมเปอร์ มาเลเซีย</item>
+        <item>คุนหมิง, จีน</item>
+        <item>คูเวตซิตี้</item>
+        <item>เคียฟ ยูเครน</item>
+        <item>ลาปาซ โบลิเวีย</item>
+        <item>เลกอส ไนจีเรีย</item>
+        <item>ลาฮอร์ ปากีสถาน</item>
+        <item>หลานโจว, จีน</item>
+        <item>ลาสเวกัส สหรัฐ</item>
+        <item>ลิมา เปรู</item>
+        <item>ลิสบอน โปรตุเกส</item>
+        <item>หลินโจว, จีน</item>
+        <item>ลุบลิยานา, สโลวีเนีย</item>
+        <item>ลอนดอน สหราชอาณาจักร</item>
+        <item>ลอสแอนเจลิส สหรัฐ</item>
+        <item>ลุยส์วิลล์ สหรัฐ</item>
+        <item>ลูอันดา, แองโกลา</item>
+        <item>ลูบุมบาชี, สาธารณรัฐประชาธิปไตย คองโก</item>
+        <item>ลั่วหยาง, จีน</item>
+        <item>ลูซากา แซมเบีย</item>
+        <item>ลักเซมเบิร์ก</item>
+        <item>ลวิฟ, ยูเครน</item>
+        <item>มาเก๊า, จีน</item>
+        <item>มาดริด สเปน</item>
+        <item>มากาดาน รัสเซีย</item>
+        <item>มาจูโร, หมู่เกาะมาร์แชลล์</item>
+        <item>มาลาโบ อิเควทอเรียลกินี</item>
+        <item>มาเล มัลดีฟส์</item>
+        <item>มานากัว นิการากัว</item>
+        <item>มานามา บาห์เรน</item>
+        <item>มาเนาส์, บราซิล</item>
+        <item>มะนิลา ฟิลิปปินส์</item>
+        <item>มาปูโต, โมซัมบิก</item>
+        <item>มาริกอต, เซนต์มาร์ติน</item>
+        <item>มายอต, ฝรั่งเศส</item>
+        <item>มาซัตลาน เม็กซิโก</item>
+        <item>มักกะฮ์, ซาอุดีอาระเบีย</item>
+        <item>เมลเบิร์น ออสเตรเลีย</item>
+        <item>เมมฟิส สหรัฐ</item>
+        <item>เมสซิน่า, อิตาลี</item>
+        <item>เม็กซิโกซิตี เม็กซิโก</item>
+        <item>ไมแอมี สหรัฐ</item>
+        <item>มิดแอตแลนติค</item>
+        <item>เกาะมิดเวย์ อเมริกา</item>
+        <item>มิลาน อิตาลี</item>
+        <item>มิลวอกี สหรัฐ</item>
+        <item>มินนีแอโพลิส, สหรัฐ</item>
+        <item>มินสก์ เบลารุส</item>
+        <item>โมกาดิชู โซมาเลีย</item>
+        <item>มันโรเวีย, ไลบีเรีย</item>
+        <item>มอนเตวิเดโอ อุุรุกวัย</item>
+        <item>มอนทรีออล แคนาดา</item>
+        <item>มอสโก รัสเซีย</item>
+        <item>มูตันเจียงไห่เหลียง, จีน</item>
+        <item>มุมไบ อินเดีย</item>
+        <item>มิวนิก เยอรมนี</item>
+        <item>มัสกัต โอมาน</item>
+        <item>ไนโรบี เคนยา</item>
+        <item>หนานชาง, จีน</item>
+        <item>หนานจิง จีน</item>
+        <item>หนานหนิง, จีน</item>
+        <item>เนเปิลส์ อิตาลี</item>
+        <item>นาเทอส์, สวิตเซอร์แลนด์</item>
+        <item>เอ็นจาเมนา ชาด</item>
+        <item>นิวเดลี อินเดีย</item>
+        <item>นิวออร์ลีนส์ สหรัฐ</item>
+        <item>นิวยอร์ก สหรัฐ</item>
+        <item>นิวฟันด์แลนด์, แคนาดา</item>
+        <item>นีอาเม, ไนเจอร์</item>
+        <item>หนิงป่อ, จีน</item>
+        <item>นูแอกชอต, มอริเตเนีย</item>
+        <item>นูเมีย, นิวแคลิโดเนีย</item>
+        <item>โนโวคซเนทส์, รัสเซีย</item>
+        <item>โนโวซีบีสค์, รัสเซีย</item>
+        <item>นูคูอาโลฟา, ตองกา</item>
+        <item>นุก กรีนแลนด์</item>
+        <item>ออมสค์, รัสเซีย</item>
+        <item>อูรัลส์ค, คาซัคสถาน</item>
+        <item>โอซาก้า ญี่ปุ่น</item>
+        <item>ออสโล นอร์เวย์</item>
+        <item>ออตตาวา แคนาดา</item>
+        <item>วากาดูกู, บูร์กินาฟาโซ</item>
+        <item>ปาโกปาโก, อเมริกัน-ซามัว</item>
+        <item>พาเลอร์โม, อิตาลี</item>
+        <item>ปานามาซิตี ปานามา</item>
+        <item>ปารามารีโบ ซูรินาเม</item>
+        <item>ปารีส ฝรั่งเศส</item>
+        <item>เปียร์ม, รัสเซีย</item>
+        <item>เพิร์ท, ออสเตรเลีย</item>
+        <item>ปิตราปัฟลัฟสค์-คัมชัตสกี, รัสเซีย</item>
+        <item>ฟิลาเดลเฟีย สหรัฐ</item>
+        <item>พนมเปญ กัมพูชา</item>
+        <item>ฟีนิกซ์ สหรัฐ</item>
+        <item>ปิงดิงฉาน, จีน</item>
+        <item>พอดโกริกา, มอนเตเนโกร</item>
+        <item>ปงตาเดลกาดา, โปรตุเกส</item>
+        <item>พอร์ตหลุยส์, มอริเชียส</item>
+        <item>ปอร์โตแปรงซ์ เฮติ</item>
+        <item>พอร์ตแลนด์ สหรัฐ</item>
+        <item>ปราก, สาธารณรัฐเช็ก</item>
+        <item>ไปรอา เคปเวิร์ด</item>
+        <item>เปียงยาง, สาธารณรัฐประชาธิปไตยประชาชนเกาหลี</item>
+        <item>ชิงเต่า, จีน</item>
+        <item>ฉีฉีฮาร์, จีน</item>
+        <item>กีโต เอกวาดอร์</item>
+        <item>ราบัต, โมร็อกโก</item>
+        <item>เรซีฟี, บราซิล</item>
+        <item>ริไจนา แคนาดา</item>
+        <item>เรคจาวิค, ไอซ์แลนด์</item>
+        <item>ริก้า, ลัตเวีย</item>
+        <item>รีโอเดจาเนโร บราซิล</item>
+        <item>ริยาด ซาอุดิอาระเบีย</item>
+        <item>โรม อิตาลี</item>
+        <item>เซาเปาลู บราซิล</item>
+        <item>แซ็ง-เดอนี, เกาะรียูเนียน</item>
+        <item>ซอลต์เลกซิตี, สหรัฐ</item>
+        <item>ซามารา, รัสเซีย</item>
+        <item>แซนแอนโทนีโอ สหรัฐ</item>
+        <item>แซนดีเอโก สหรัฐ</item>
+        <item>ซานฟรานซิสโก สหรัฐ</item>
+        <item>ซันโฮเซ คอสตาริกา</item>
+        <item>ซานฮวน, เปอร์โตริโก</item>
+        <item>ซานมารีโน</item>
+        <item>ซานซัลวาดอร์ เอลซัลวาดอร์</item>
+        <item>ซานา, เยเมน</item>
+        <item>ซานเตียโก ซิสี</item>
+        <item>ซานโตโดมิงโก, สาธารณรัฐโดมินิกัน</item>
+        <item>ซาราเยโว บอสเนียและเฮอร์เซโกวีนา</item>
+        <item>ซีแอตเทิล สหรัฐ</item>
+        <item>โซล, เกาหลีใต้</item>
+        <item>เซี่ยงไฮ้ จีน</item>
+        <item>ซางฉิว, จีน</item>
+        <item>ซัวเถา, จีน</item>
+        <item>เสิ่นหยาง จีน</item>
+        <item>เซินเจิ้น จีน</item>
+        <item>ฉือเจียจวง, จีน</item>
+        <item>สิงคโปร์</item>
+        <item>สโกเปีย มาซิโดเนีย</item>
+        <item>โซเฟีย บัลแกเรีย</item>
+        <item>เซนต์จอห์น แคนาดา</item>
+        <item>เซนต์ปีเตอร์สเบิร์ก รัสเซีย</item>
+        <item>แซงปีแยร์และมีเกอลง, ฝรั่งเศส</item>
+        <item>สตอกโฮล์ม สวีเดน</item>
+        <item>ซูวา ฟิจิ</item>
+        <item>ซูโจว, จีน</item>
+        <item>ซิดนีย์ ออสเตรเลีย</item>
+        <item>ตาฮีตี, เฟรนช์โปลินีเซีย</item>
+        <item>ไทเป จีน</item>
+        <item>ไท่หยวน, จีน</item>
+        <item>ทาลลินน์, เอสโทเนีย</item>
+        <item>ถางซาน, จีน</item>
+        <item>ตาระวา, คิริบาส</item>
+        <item>ทาชเคนต์, อุซเบกิสถาน</item>
+        <item>ทบิลิซิ จอร์เจีย</item>
+        <item>เตกูซิกัลปา, ฮอนดูรัส</item>
+        <item>เตหะราน อิหร่าน</item>
+        <item>เซ็ทเทิลเมนท์ส, หมู่เกาะบริติชเวอร์จิน</item>
+        <item>เทียนจิน จีน</item>
+        <item>ทิจัวน่า เม็กซิโก</item>
+        <item>โตเกียว ญี่ปุ่น</item>
+        <item>ตองกาตาปู</item>
+        <item>โทรอนโต แคนาดา</item>
+        <item>ตริโบลี ลิเบีย</item>
+        <item>ตูนิส, ตูนิเซีย</item>
+        <item>ตูริน อิตาลี</item>
+        <item>อูฟา, รัสเซีย</item>
+        <item>อูลานบาตอร์, มองโกเลีย</item>
+        <item>อุรุมชี จีน</item>
+        <item>วาดุซ, ลิกเตนสไตน์</item>
+        <item>วัลเลตตา, มอลตา</item>
+        <item>แวนคูเวอร์ แคนาดา</item>
+        <item>เวโรนา, อิตาลี</item>
+        <item>วิคตอเรีย, เซเชลส์</item>
+        <item>เวียนนา ออสเตรีย</item>
+        <item>วิลนีอุส ลิทัวเนีย</item>
+        <item>วลาดิวอสต็อก, รัสเซีย</item>
+        <item>วอลโกกราด, รัสเซีย</item>
+        <item>วอร์ซอ โปแลนด์</item>
+        <item>วอชิงตัน ดี.ซี. สหรัฐ</item>
+        <item>เวยฟาง, จีน</item>
+        <item>เวลลิงตัน นิวซีแลนด์</item>
+        <item>วินด์ฮุก นามิเบีย</item>
+        <item>วินนิเพก แคนาดา</item>
+        <item>อู่ฮั่น จีน</item>
+        <item>อู๋ซี, จีน</item>
+        <item>ซีอาน จีน</item>
+        <item>กว่างซีจ้วง, จีน</item>
+        <item>ซีหนิง, จีน</item>
+        <item>ซูโจว, จีน</item>
+        <item>ยาคุตสค์ รัสเซีย</item>
+        <item>ยามุสซุโกร, โกตดิวัวร์</item>
+        <item>ย่างกุ้ง เมียนมาร์</item>
+        <item>ยานไถ, จีน</item>
+        <item>ยาอุนเด, แคเมอรูน</item>
+        <item>เอกาเตรินเบิร์ก, รัสเซีย</item>
+        <item>เยเรวาน อาร์เมเนีย</item>
+        <item>ยี่ฉาง, จีน</item>
+        <item>อี้ชุน, จีน</item>
+        <item>ยจโน-ซาฮาลินสค์, รัสเซีย</item>
+        <item>ซาเกร็บ, โครเอเชีย</item>
+        <item>ซานตง, จีน</item>
+        <item>จางเจี๋ยโกว, จีน</item>
+        <item>จ้านเจียง, จีน</item>
+        <item>เจิ้งโจว, จีน</item>
+        <item>ไซโบ้, จีน</item>
+        <item>ซูริก สวิตเซอร์แลนด์</item>
+        <item>เซาท์ จอร์เจีย</item>
+        <item>บันดาร์เสรีเบกาวัน</item>
+        <item>เวียงจันทน์</item>
+    </string-array>
+</resources>

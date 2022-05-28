@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">"আপুনি এতিয়া এজন দেভেল'পাৰ হোৱাৰ পৰা %1$d পদক্ষেপ আঁতৰত আছে।"</item>
+        <item quantity="one">"আপুনি এতিয়া এজন দেভেল'পাৰ হোৱাৰ পৰা %1$d পদক্ষেপ আঁতৰত আছে।"</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">পাছৱৰ্ডত কমেও %d-টা আখৰ থাকিব লাগিব।</item>
+        <item quantity="one">পাছৱৰ্ডত কমেও 1-টা আখৰ থাকিব লাগিব।</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">পাছৱৰ্ডত কমেও %d-টা সৰুফলাৰ আখৰ থাকিব লাগিব।</item>
+        <item quantity="one">পাছৱৰ্ডত কমেও 1-টা সৰুফলাৰ আখৰ থাকিব লাগিব।</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">পাছৱৰ্ডত কমেও %d-টা বৰফলাৰ আখৰ থাকিব লাগিব।</item>
+        <item quantity="one">পাছৱৰ্ডত কমেও 1-টা বৰফলাৰ আখৰ থাকিব লাগিব।</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">পাছৱৰ্ডত কমেও %d-টা সংখ্যা থাকিব লাগিব।</item>
+        <item quantity="one">পাছৱৰ্ডত কমেও এটা সংখ্যা থাকিব লাগিব।</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">পাছৱৰ্ডত কমেও %d-টা বিশেষ বৰ্ণ থাকিব লাগিব।</item>
+        <item quantity="one">পাছৱৰ্ডত কমেও 1-টা বিশেষ বৰ্ণ থাকিব লাগিব।</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">পাছৱৰ্ডত কমেও %d-টা অ-আখৰৰ বৰ্ণ থাকিব লাগিব</item>
+        <item quantity="one">পাছৱৰ্ডত কমেও 1-টা অ-আখৰৰ বৰ্ণ থাকিব লাগিব</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">অশুদ্ধ SIM PIN, আপোনাৰ %d প্ৰয়াস বাকী আছে।</item>
+        <item quantity="one">অশুদ্ধ SIM PIN, আপুনি আপোনাৰ ডিভাইচ আনলক কৰিবলৈ আপোনাৰ কেৰিয়াৰক যোগাযোগ কৰাৰ পূৰ্বে আপোনাৰ %d প্ৰয়াস বাকী আছে।</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d এপ্প্‌(সমূহ)-এ জাননীসমূহ পঢ়িব পাৰে</item>
+        <item quantity="one">%d এপ্প্‌(সমূহ)-এ জাননীসমূহ পঢ়িব পাৰে</item>
+    </plurals>
+    <plurals name="manage_condition_providers_summary_nonzero">
+        <item quantity="other">%d এপ্পে চৰ্তসমূহ প্ৰদান কৰে</item>
+        <item quantity="one">%d এপ্পে চৰ্তসমূহ প্ৰদান কৰে</item>
+    </plurals>
+</resources>

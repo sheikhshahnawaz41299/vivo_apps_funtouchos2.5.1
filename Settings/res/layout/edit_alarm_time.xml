@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeightSmall">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:id="@id/edit_alarmtime_title" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="8.0" android:paddingStart="@vivo:dimen/preference_left_margin" />
+        <View android:id="@id/divider" android:background="?android:dividerHorizontal" android:visibility="visible" android:layout_width="@vivo:dimen/divider_height" android:layout_height="fill_parent" />
+        <LinearLayout android:id="@id/mainly" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="15.0">
+            <com.vivo.settings.notification.settime.DigitalClock android:gravity="center_vertical" android:id="@id/digitalClock" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="true" android:layout_marginStart="12.0dip">
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:id="@id/am_pm_before" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="6.0dip" />
+                    <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/timeDisplay" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:id="@id/am_pm_after" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </com.vivo.settings.notification.settime.DigitalClock>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/tile_divider" android:background="?android:dividerHorizontal" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@vivo:dimen/divider_height" android:layout_alignParentBottom="true" android:layout_marginStart="@vivo:dimen/preference_left_margin" />
+</RelativeLayout>

@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="screen_timeout_entries">
+        <item>15 விநாடிகள்</item>
+        <item>30 விநாடிகள்</item>
+        <item>1 நிமிடம்</item>
+        <item>2 நிமிடங்கள்</item>
+        <item>5 நிமிடங்கள்</item>
+        <item>10 நிமிடங்கள்</item>
+        <item>30 நிமிடங்கள்</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>உடனடியாக</item>
+        <item>5 விநாடிகள்</item>
+        <item>15 விநாடிகள்</item>
+        <item>30 விநாடிகள்</item>
+        <item>1 நிமிடம்</item>
+        <item>2 நிமிடங்கள்</item>
+        <item>5 நிமிடங்கள்</item>
+        <item>10 நிமிடங்கள்</item>
+        <item>30 நிமிடங்கள்</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>சிறியது</item>
+        <item>சாதாரண</item>
+        <item>பெரியது</item>
+        <item>மிகப் பெரிய</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>மிக மெதுவாக</item>
+        <item>மெதுவாக</item>
+        <item>சாதாரண</item>
+        <item>வேகமாக</item>
+        <item>இன்னும் வேகமாக</item>
+        <item>மிக விரைவாக</item>
+        <item>விரைவாக</item>
+        <item>மிகவும் விரைவாக</item>
+        <item>அதிவேகமாக</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>ஸ்கேன் செய்கிறது...</item>
+        <item>இணைக்கிறது...</item>
+        <item>அங்கீகரிக்கிறது...</item>
+        <item>IP முகவரியைப் பெறுகிறது...</item>
+        <item>இணைக்கப்பட்டது</item>
+        <item>இடைநிறுத்தப்பட்டது</item>
+        <item>துண்டிக்கிறது...</item>
+        <item>துண்டிக்கப்பட்டது</item>
+        <item>தோல்வியடைந்தது</item>
+        <item>முடக்கப்பட்டுள்ளது</item>
+        <item>தற்காலிகமாக அணைக்கப்பட்டிருக்கிறது (மோசமான நெட்வொர்க் இணைப்பு)</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>ஸ்கேன் செய்கிறது...</item>
+        <item>%1$s-க்கு இணைக்கிறது…</item>
+        <item>%1$s உடன் அங்கீகரிக்கிறது…</item>
+        <item>%1$s-இருந்து IP முகவரியைப் பெறுகிறது…</item>
+        <item>%1$s-க்கு இணைக்கப்பட்டது</item>
+        <item>இடைநிறுத்தப்பட்டது</item>
+        <item>%1$s-இலிருந்து துண்டிக்கிறது...</item>
+        <item>துண்டிக்கப்பட்டது</item>
+        <item>தோல்வியடைந்தது</item>
+        <item>முடக்கப்பட்டுள்ளது</item>
+        <item>தற்காலிகமாக அணைக்கப்பட்டிருக்கிறது (மோசமான நெட்வொர்க் இணைப்பு)</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>இணைக்கப்பட்டது</item>
+        <item>அழைக்கப்பட்டது</item>
+        <item>தோல்வியடைந்தது</item>
+        <item>கிடைக்கப்பெறும்</item>
+        <item>வெளிவரம்பு</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 நிமிடங்கள்</item>
+        <item>5 நிமிடங்கள்</item>
+        <item>1 மணிநேரம்</item>
+        <item>ஒருபோதும் காலநிறைவு ஆகாது</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>பலவீனம்</item>
+        <item>பொது</item>
+        <item>நல்லது</item>
+        <item>மிகச் சிறந்த</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>எப்போதும்</item>
+        <item>செருகப்பட்டுள்ள போது மட்டும்</item>
+        <item>ஒருபோதுமில்லை</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>எப்போதும்</item>
+        <item>செருகப்பட்டுள்ள போது மட்டும்</item>
+        <item>எப்போதும் வேண்டாம்</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>தானியங்கு</item>
+        <item>5 GHz மட்டும்</item>
+        <item>2.4 GHz மட்டும்</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>பயன்பாட்டு நேரம்</item>
+        <item>கடைசி பயன்பாட்டு நேரம்</item>
+        <item>பயன்பாட்டு பெயர்</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>ஏதுமில்லை</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>ஏதுமில்லை</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>நிலையான</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>ஏதுமில்லை</item>
+        <item>கைமுறை</item>
+        <item>பதிலி தானியங்கு உள்ளமைவு</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>ஏதுமில்லை</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP அல்லது CHAP</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>குறிப்பிடப்படவில்லை</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>ஏதுமில்லை</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>உள்ளக சேமிப்பக சாதனம்</item>
+        <item>இணைப்புநீக்கக்கூடிய SD கார்டு</item>
+        <item>முடிவுசெய்ய முறைமையை அனுமதிக்கவும்</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>இருப்பிடம்</item>
+        <item>தனிப்பட்ட</item>
+        <item>SMS</item>
+        <item>ஊடகம்</item>
+        <item>சாதனம்</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>தோராயமான இருப்பிடம்</item>
+        <item>துல்லியமான இருப்பிடம்</item>
+        <item>GPS</item>
+        <item>அதிர்</item>
+        <item>தொடர்புகளைப் படி</item>
+        <item>தொடர்பை மாற்றியமை</item>
+        <item>அழைப்புப் பதிவுகளைப் படித்தல்</item>
+        <item>அழைப்புப் பதிவுகளைத் திருத்து</item>
+        <item>நாள்காட்டியைப் படி</item>
+        <item>நாள்காட்டியைத் திருத்து</item>
+        <item>Wi-Fi ஸ்கேன்</item>
+        <item>அறிவிப்பு</item>
+        <item>தொலைபேசி நெட்வொர்க் ஸ்கேன்</item>
+        <item>அழைப்பு</item>
+        <item>SMS-ஐப் படி</item>
+        <item>SMS-ஐ உருவாக்கு</item>
+        <item>SMS -ஐப் பெறு</item>
+        <item>அவசர SMS-ஐப் பெறு</item>
+        <item>MMS-ஐப் பெறு</item>
+        <item>WAP தள்ளு செய்தியைப் பெறு</item>
+        <item>SMS அனுப்புதல்</item>
+        <item>ICC SMS-ஐப் படி</item>
+        <item>ICC SMS-ஐ எழுது</item>
+        <item>அமைப்புகளைத் திருத்து</item>
+        <item>மேலே வரை</item>
+        <item>அறிவிப்புகளை அணுகுதல்</item>
+        <item>கேமரா</item>
+        <item>ஆடியோவைப் பதிவு செய்</item>
+        <item>ஆடியோவை இயக்கு</item>
+        <item>கிளிப்போர்டு உள்ளடக்கத்தைப் படி</item>
+        <item>கிளிப்போர்டைத் திருத்து</item>
+        <item>மீடியா பொத்தான்கள்</item>
+        <item>ஆடியோ குவியம்</item>
+        <item>முதன்மை ஒலியளவு</item>
+        <item>குரல் ஒலியளவு</item>
+        <item>ரிங்கர் ஒலியளவு</item>
+        <item>ஊடக ஒலியளவு</item>
+        <item>அலாரம் ஒலியளவு</item>
+        <item>அறிவிப்பு ஒலியளவு</item>
+        <item>Bluetooth ஒலியளவு</item>
+        <item>விழித்திரு</item>
+        <item>திரை இருப்பிடம்</item>
+        <item>திரை மின்சக்தி நுகரும் இடத் தகவல் சேவைகள்</item>
+        <item>பயன்பாட்டு புள்ளிவிவரத் தகவலைப் பெறவும்</item>
+        <item>மைக்கை ஒலிதடு அல்லது ஒலிதடுத்தலை ரத்துசெய்</item>
+        <item>ப்ரொஜெக்‌ஷன் மீடியா</item>
+        <item>VPN ஐ செயல்படுத்து</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>இருப்பிடம்</item>
+        <item>இருப்பிடம்</item>
+        <item>இருப்பிடம்</item>
+        <item>அதிர்</item>
+        <item>தொடர்புகளைப் படி</item>
+        <item>தொடர்பை மாற்றியமை</item>
+        <item>அழைப்புப் பதிவுகளைப் படித்தல்</item>
+        <item>அழைப்புப் பதிவுகளைத் திருத்து</item>
+        <item>நாள்காட்டியைப் படி</item>
+        <item>நாள்காட்டியைத் திருத்து</item>
+        <item>இருப்பிடம்</item>
+        <item>அறிவிப்பைப் பதிப்பித்தல்</item>
+        <item>இருப்பிடம்</item>
+        <item>அழைப்பு</item>
+        <item>SMS/MMS செய்திகளைப் படி</item>
+        <item>SMS/MMS செய்திகளை உருவாக்கு</item>
+        <item>SMS/MMS செய்திகளைப் பெறு</item>
+        <item>SMS/MMS செய்திகளைப் பெறு</item>
+        <item>SMS/MMS செய்திகளைப் பெறு</item>
+        <item>SMS/MMS செய்திகளைப் பெறு</item>
+        <item>SMS/MMS செய்திகளை அனுப்பு</item>
+        <item>SMS/MMS செய்திகளைப் படி</item>
+        <item>SMS/MMS செய்திகளை உருவாக்கு</item>
+        <item>அமைப்புகளைத் திருத்து</item>
+        <item>மேலே வரை</item>
+        <item>அறிவிப்புகளை அணுகுதல்</item>
+        <item>கேமரா</item>
+        <item>ஆடியோவைப் பதிவு செய்</item>
+        <item>ஆடியோவை இயக்கு</item>
+        <item>கிளிப்போர்டு உள்ளடக்கத்தைப் படி</item>
+        <item>கிளிப்போர்டைத் திருத்து</item>
+        <item>மீடியா பொத்தான்கள்</item>
+        <item>ஆடியோ குவியம்</item>
+        <item>முதன்மை ஒலியளவு</item>
+        <item>குரல் ஒலியளவு</item>
+        <item>ரிங்கர் ஒலியளவு</item>
+        <item>ஊடக ஒலியளவு</item>
+        <item>அலாரம் ஒலியளவு</item>
+        <item>அறிவிப்பு ஒலியளவு</item>
+        <item>Bluetooth ஒலியளவு</item>
+        <item>விழித்திரு</item>
+        <item>இருப்பிடம்</item>
+        <item>இருப்பிடத் தகவல்</item>
+        <item>பயன்பாட்டு புள்ளிவிவரத் தகவலைப் பெறவும்</item>
+        <item>மைக்கை ஒலிதடு அல்லது ஒலிதடுத்தலை ரத்துசெய்</item>
+        <item>ப்ரொஜெக்‌ஷன் மீடியா</item>
+        <item>VPN ஐ செயல்படுத்து</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>குறைவு</item>
+        <item>நடுத்தரம்</item>
+        <item>நீண்ட</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>இயல்புநிலை</item>
+        <item>Sans-serif</item>
+        <item>Sans-serif condensed</item>
+        <item>Sans-serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>Casual</item>
+        <item>Cursive</item>
+        <item>Small capitals</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>மிகச் சிறிய</item>
+        <item>சிறியது</item>
+        <item>சாதாரண</item>
+        <item>பெரியது</item>
+        <item>மிகப் பெரிய</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>இயல்புநிலை</item>
+        <item>ஏதுமில்லை</item>
+        <item>வெளிக்கோடு</item>
+        <item>நிழல்கள்</item>
+        <item>பொதித்தல்</item>
+        <item>உற்சாகமின்மை</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>பயன்பாட்டின் இயல்புநிலை பாணியைப் பயன்படுத்து</item>
+        <item>கருப்பில் வெள்ளை</item>
+        <item>வெள்ளையில் கருப்பு</item>
+        <item>கருப்பில் மஞ்சள்</item>
+        <item>நீலத்தில் மஞ்சள்</item>
+        <item>தனிப்பயனாக்கு</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>ஒவ்வொரு பதிவும் 64K பஃபர் செய்யும்</item>
+        <item>ஒவ்வொரு பதிவும் 256K பஃபர் செய்யும்</item>
+        <item>ஒவ்வொரு பதிவும் 1M பஃபர் செய்யும்</item>
+        <item>ஒவ்வொரு பதிவும் 4M பஃபர் செய்யும்</item>
+        <item>ஒவ்வொரு பதிவும் 16M பஃபர் செய்யும்</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>எப்போதும் சரிபார்க்காதே</item>
+        <item>DRM உள்ளடக்கத்தை மட்டும் சரிபார்</item>
+        <item>எப்போதும் சரிபார்க்கவும்</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>HDCP சரிபார்த்தலை எப்போதும் பயன்படுத்தாதே</item>
+        <item>DRM உள்ளடக்கத்திற்கு மட்டும் HDCP சரிபார்த்தலைப் பயன்படுத்து</item>
+        <item>HDCP சரிபார்த்தலை எப்போதும் பயன்படுத்தவும்</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>அனிமேஷனை அணை</item>
+        <item>அனிமேஷன் அளவு 0.5x</item>
+        <item>அனிமேஷன் அளவு 1x</item>
+        <item>அனிமேஷன் அளவு 1.5x</item>
+        <item>அனிமேஷன் அளவு 2x</item>
+        <item>அனிமேஷன் அளவு 5x</item>
+        <item>அனிமேஷன் அளவு 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>அனிமேஷனை அணை</item>
+        <item>அனிமேஷன் அளவு 0.5x</item>
+        <item>அனிமேஷன் அளவு 1x</item>
+        <item>அனிமேஷன் அளவு 1.5x</item>
+        <item>அனிமேஷன் அளவு 2x</item>
+        <item>அனிமேஷன் அளவு 5x</item>
+        <item>அனிமேஷன் அளவு 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>அனிமேஷனை அணை</item>
+        <item>அனிமேஷன் அளவு 0.5x</item>
+        <item>அனிமேஷன் அளவு 1x</item>
+        <item>அனிமேஷன் அளவு 1.5x</item>
+        <item>அனிமேஷன் அளவு 2x</item>
+        <item>அனிமேஷன் அளவு 5x</item>
+        <item>அனிமேஷன் அளவு 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>ஏதுமில்லை</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (பாதுகாப்பு)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (பாதுகாப்பு)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (பாதுகாப்பு)</item>
+        <item>1280x720 tvdpi மற்றும் 1920x1080 xhdpi</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>ஏதுமில்லை</item>
+        <item>Logcat</item>
+        <item>Systrace (கிராபிக்ஸ்)</item>
+        <item>glGetError-இல் அடுத்தடுத்த அழைப்பு</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>மூடு</item>
+        <item>செவ்வகமல்லாத க்ளிப் பகுதியை நீலத்தில் வரை</item>
+        <item>சோதனை வரையதல் கட்டளைகள் பச்சை நிறத்தில் தனிப்படுத்தப்படும்</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>மூடு</item>
+        <item>ஒரு பட்டி விளக்கப்படமாக திரையில் காண்பிக்கப்படும்</item>
+        <item>adb shell dumpsys gfxinfo-இல்</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>மூடு</item>
+        <item>அதிகப்படுத்துதல் இடங்களைக் காட்டு</item>
+        <item>Deuteranomaly-க்கான பகுதிகளைக் காண்பி</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>நிலையான வரையறைகள்</item>
+        <item>பின்னணி செயலாக்கங்கள் அனுமதிக்காதே</item>
+        <item>அதிகபட்சம் 1 செயல்பாடு</item>
+        <item>அதிகபட்சம் 2 செயல்கள்</item>
+        <item>அதிகபட்சம் 3 செயல்கள்</item>
+        <item>அதிகபட்சம் 4 செயல்கள்</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>முன்-பகிரப்பட்ட விசைகளுடன் L2TP/IPSec VPN</item>
+        <item>சான்றிதழ்களுடன் L2TP/IPSec VPN</item>
+        <item>முன்-பகிரப்பட்ட விசைகள் மற்றும் Xauth அங்கீகாரத்துடன் IPSec VPN</item>
+        <item>சான்றிதழ்கள் மற்றும் Xauth அங்கீகாரத்துடன் IPSec VPN</item>
+        <item>சான்றிதழ்கள் மற்றும் ஹைபிரிட் அங்கீகாரத்துடன் IPSec VPN</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>துண்டிக்கப்பட்டது</item>
+        <item>துவக்குகிறது...</item>
+        <item>இணைக்கிறது...</item>
+        <item>இணைக்கப்பட்டது</item>
+        <item>நேரமுடிவு</item>
+        <item>தோல்வியடைந்தது</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>கேள்</item>
+        <item>ஒருபோதும் அனுமதிக்க வேண்டாம்</item>
+        <item>எப்போதும் அனுமதி</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>பொது</item>
+        <item>நடுத்தரம்</item>
+        <item>குறைவு</item>
+        <item>சிக்கலான</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>சாதாரண</item>
+        <item>நடுத்தர அளவு</item>
+        <item>குறைவு</item>
+        <item>சிக்கலான</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>வீடு</item>
+        <item>மேல் மட்ட செயல்பாடுகள்</item>
+        <item>முக்கியம் (முன்புலம்)</item>
+        <item>முக்கியம் (முன்னணி)</item>
+        <item>மறுபிரதி</item>
+        <item>அதிகபளு</item>
+        <item>சேவை (இயங்குகிறது)</item>
+        <item>சேவை (மறுதுவக்குகிறது)</item>
+        <item>ரிசீவர்</item>
+        <item>முகப்புத் திரை</item>
+        <item>முந்தைய செயல்பாடு</item>
+        <item>பஃபர்செய்தது (செயலில்)</item>
+        <item>பஃபர்செய்தது (செயலில் உள்ள கிளையண்ட்)</item>
+        <item>பஃபர்செய்தது (காலி)</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>நீலப்பச்சை</item>
+        <item>நீலம்</item>
+        <item>கருநீலம்</item>
+        <item>பர்கண்டி</item>
+        <item>இளஞ்சிவப்பு</item>
+        <item>சிவப்பு</item>
+    </string-array>
+    <string-array name="ring_or_mtp_change_entries">
+        <item>ரிங்டோன்</item>
+        <item>ஊடகம்</item>
+    </string-array>
+    <string-array name="app_loc_permission">
+        <item>முடக்கு</item>
+        <item>அனுமதி</item>
+        <item>கேள்</item>
+    </string-array>
+    <string-array name="key_light_control_mode">
+        <item>1.5 விநாடிகள்</item>
+        <item>6 விநாடிகள்</item>
+        <item>எப்போதும் ஆன்</item>
+        <item>எப்போதும் ஆஃப்</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_amoled">
+        <item>15 விநாடிகள்</item>
+        <item>30 விநாடிகள்</item>
+        <item>1 நிமிடம்</item>
+        <item>2 நிமிடங்கள்</item>
+        <item>5 நிமிடங்கள்</item>
+        <item>10 நிமிடங்கள்</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_mtfp">
+        <item>15 விநாடிகள்</item>
+        <item>30 விநாடிகள்</item>
+        <item>1 நிமிடம்</item>
+        <item>2 நிமிடங்கள்</item>
+        <item>5 நிமிடங்கள்</item>
+        <item>10 நிமிடங்கள்</item>
+        <item>30 நிமிடங்கள்</item>
+        <item>ஒருபோதுமில்லை</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>உங்கள் தந்தையின் பெயர் என்ன?</item>
+        <item>உங்கள் தாயின் பெயர் என்ன?</item>
+        <item>உங்கள் மனைவியின் பெயர் என்ன?</item>
+        <item>நீங்கள் எந்த தொடக்கப் பள்ளிக்கு சென்றீர்கள்?</item>
+        <item>உங்கள் துவக்க பள்ளி ஆசிரியரின் பெயர் என்ன?</item>
+        <item>உங்கள் உயர் பள்ளி ஆசிரியர் பெயர் என்ன?</item>
+        <item>உங்கள் குழந்தைப்பருவ நண்பரின் பெயர் என்ன?</item>
+        <item>நீங்கள் பிறந்த இடம்?</item>
+        <item>உங்கள் மாணவர் (வேலை) அடையாள எண் என்ன?</item>
+        <item>உங்கள் அடையாள அட்டை எண்ணின் கடைசி 6 இலக்கங்கள் என்ன?</item>
+        <item>உங்கள் கார் உரிமம் பிளேட் எண் என்ன?</item>
+        <item>நீங்கள் வேலை செய்த முதல் நிறுவனத்தின் பெயர் என்ன?</item>
+        <item>தனிப்பயனாக்கப்பட்ட கேள்வி</item>
+    </string-array>
+    <string-array name="area_entrys">
+        <item>தாய்லாந்து</item>
+        <item>மலேசியா</item>
+        <item>இந்தோனேஷியா</item>
+        <item>இந்தியா</item>
+        <item>மியான்மர்</item>
+        <item>பிலிப்பைன்ஸ்</item>
+        <item>வியட்நாம்</item>
+        <item>புருனே</item>
+        <item>கம்போடியா</item>
+        <item>லாஸ்</item>
+        <item>சிங்கப்பூர்</item>
+        <item>பங்களாதேஷ்</item>
+        <item>நேபாள்</item>
+        <item>பாகிஸ்தான்</item>
+        <item>இலங்கை</item>
+    </string-array>
+    <string-array name="vivo_rom_25problem_ask_lables">
+        <item>நீங்கள் எந்த தொடக்கப் பள்ளிக்கு சென்றீர்கள்?</item>
+        <item>உங்கள் தந்தையின் பெயர் என்ன?</item>
+        <item>உங்கள் தாயின் பெயர் என்ன?</item>
+        <item>உங்கள் மனைவியின் பெயர் என்ன?</item>
+        <item>நீங்கள் பிறந்த இடம்?</item>
+        <item>பெற்றோர் உங்களை எப்படி அழைப்பார்கள்?</item>
+        <item>உங்கள் உயர்நிலைப்பள்ளி வகுப்பாசிரியர்?</item>
+        <item>உங்கள் நெருங்கிய குழந்தை பருவ நண்பர்?</item>
+        <item>உங்கள் மாணவர் (வேலை) அடையாள எண் என்ன?</item>
+        <item>உங்கள் IC எண்ணின் கடைசி 6 இலக்க எண்?</item>
+        <item>உங்கள் கார் உரிமம் பிளேட் எண் என்ன?</item>
+        <item>நீங்கள் வேலை செய்த முதல் நிறுவனத்தின் பெயர் என்ன?</item>
+        <item>தனிப்பயனாக்கப்பட்ட கேள்வி</item>
+    </string-array>
+    <string-array name="timezones_cities_array">
+        <item>அபிட்ஜான், ஐவரி கோஸ்ட்</item>
+        <item>அபுதாபி, யுஏஇ</item>
+        <item>அக்ரா, கானா</item>
+        <item>அட்டிஸ் அபாபா, எத்தியோப்பியா</item>
+        <item>அடிலெய்ட், ஆஸ்திரேலியா</item>
+        <item>அலாஸ்கா, அமெரிக்கா</item>
+        <item>அல்ஜீர்ஸ், அல்ஜீரியா</item>
+        <item>அல்மாதி, கசகஸ்தான்</item>
+        <item>அம்பான், இந்தோனேசியா</item>
+        <item>அம்மன், ஜோர்தான்</item>
+        <item>ஆம்ஸ்டர்டேம், நெதர்லாந்து</item>
+        <item>அனாடிர், ரஷ்யா</item>
+        <item>அங்கோரேஜ், அமெரிக்கா</item>
+        <item>அங்காரா, துருக்கி</item>
+        <item>அன்ஷான், சீனா</item>
+        <item>அன்டனரவியோ, மடகஸ்கார்</item>
+        <item>ஆஷ்காபாத், துருக்மேனிஸ்தான்</item>
+        <item>அஸ்மாரா, எரித்ரியா</item>
+        <item>அஸ்தானா, கசகஸ்தான்</item>
+        <item>அசுன்சியன், பராகுவே</item>
+        <item>ஏதென்ஸ், கிரேக்கம்</item>
+        <item>அட்லாந்தா, யு.எஸ்.ஏ</item>
+        <item>ஆக்லாந்து, நியூசிலாந்து</item>
+        <item>ஆஸ்டின், யு.எஸ்.ஏ</item>
+        <item>அசாரேஸ், போர்சுகல்</item>
+        <item>பாக்தாத், ஈராக்</item>
+        <item>பாகு, அஜர்பைஜான்</item>
+        <item>பால்டிமோர், அமெரிக்கா</item>
+        <item>பமாகோ, மாலி</item>
+        <item>பெங்களூரு, இந்தியா</item>
+        <item>பாங்காக், தாய்லாந்து</item>
+        <item>பங்குய், சென்ட்ரல் ஆப்ரிக்க ரீபப்ளிக்</item>
+        <item>போடிங், சீனா</item>
+        <item>பௌடோ, சீனா</item>
+        <item>பார்சிலோனா, ஸ்பெயின்</item>
+        <item>பாரி, இத்தாலி</item>
+        <item>பஸ்ஸே-டெர்ரி, கௌதிலூப்</item>
+        <item>பெய்ஜிங், சீனா</item>
+        <item>பெய்ரூட், லெபனான்</item>
+        <item>பெல்கிரேட், செர்பியா</item>
+        <item>பெலிஸ் சிட்டி, பெலிஸ்</item>
+        <item>பென்க்ஸி, சீனா</item>
+        <item>பெர்லின், ஜெர்மனி</item>
+        <item>பெர்ன், சுவிட்சர்லாந்து</item>
+        <item>பிஷ்கெக், கிர்கிஸ்தான்</item>
+        <item>பிசொவ், கினியா பிசொவ்</item>
+        <item>பகோடா, கொலம்பியா</item>
+        <item>போலோக்னா, இத்தாலி</item>
+        <item>போஸ்டன், யு.எஸ்.ஏ</item>
+        <item>பிரேசிலியா, பிரேசில்</item>
+        <item>பிரதிஸ்லாவா, ஸ்லோவாகியா</item>
+        <item>ப்ரஜாவில்லே, காங்கோ</item>
+        <item>பிரிட்ஜ்டவுன், பார்படோஸ்</item>
+        <item>பிரிஸ்பேன், ஆஸ்திரேலியா</item>
+        <item>புரூசெல்ஸ், பெல்ஜியம்</item>
+        <item>புச்சாரெஸ்ட், ரோமானியா</item>
+        <item>புடாபெஸ்ட், ஹங்கேரி</item>
+        <item>பியூனஸ் ஏர்ஸ், அர்ஜென்டினா</item>
+        <item>கெய்ரோ, எகிப்து</item>
+        <item>கல்காரி, கனடா</item>
+        <item>கானரி தீவுகள், ஸ்பெயின்</item>
+        <item>கான்பெரா, ஆஸ்திரேலியா</item>
+        <item>கேப் டவுன், தென் ஆப்ரிக்கா</item>
+        <item>கராகஸ், வெனிசுலா</item>
+        <item>கார்டிப், வேல்ஸ்</item>
+        <item>காசாபிளாங்கா, மொராக்கோ</item>
+        <item>காடன்சரோ, இத்தாலி</item>
+        <item>கெய்ன்னே, பிரெஞ்ச் கயானா</item>
+        <item>சாங்சூன், சீனா</item>
+        <item>ஷங்ஷா, சீனா</item>
+        <item>ஷங்க்சுவோ, சீனா</item>
+        <item>கார்லொட்டே, யு.எஸ்.ஏ</item>
+        <item>சார்லட் அமலி, US விர்ஜின் தீவு</item>
+        <item>செல்யபின்ஸ், ரஷ்யா</item>
+        <item>செங்டு, சீனா</item>
+        <item>சென்னை, இந்தியா</item>
+        <item>சிகாகோ, யு.எஸ்.ஏ</item>
+        <item>சிஹுவாஹுவா, மெக்சிகன்</item>
+        <item>கிசினவ், மல்டோவா</item>
+        <item>சிட்டா, ரஷ்யா</item>
+        <item>சோங்கிங், சீனா</item>
+        <item>கிளேவ்லேன்ட், அமெரிக்கா  </item>
+        <item>கொழும்பு, இலங்கை</item>
+        <item>காலம்பஸ், யு.எஸ்.ஏ</item>
+        <item>கோனாக்ரி, கினியா</item>
+        <item>கோபன்ஹேகன், டென்மார்க்</item>
+        <item>கோர்கை, அயர்லாந்து</item>
+        <item>க்ரோடோனே, இத்தாலி</item>
+        <item>தகர், செனெகல்</item>
+        <item>டேலியன், சீனா</item>
+        <item>டல்லாஸ், யு.எஸ்.ஏ</item>
+        <item>டமாஸ்கஸ், சிரியா</item>
+        <item>டக்கிங், சீனா</item>
+        <item>தார் எஸ் சலாம், தான்சானியா</item>
+        <item>டார்வின், ஆஸ்திரேலியா</item>
+        <item>தடங், சீனா</item>
+        <item>டென்பசார், இந்தோனேசியா</item>
+        <item>டென்வர், யு.எஸ்.ஏ</item>
+        <item>டிட்ராய்ட், யு.எஸ்.ஏ</item>
+        <item>டாக்கா, பங்களாதேஷ்</item>
+        <item>டீகோ கார்சியா, யு கே</item>
+        <item>ஜிபோடி</item>
+        <item>தோஹா, கத்தார்</item>
+        <item>டுவோலா, கமேரூன்</item>
+        <item>துபாய், யுஏஇ</item>
+        <item>டுப்ளின், ஐயர்லாந்து</item>
+        <item>துசான்பே, தஜிகிஸ்தான்</item>
+        <item>ஈஸ்டர் தீவு, சிலி</item>
+        <item>எடின்புர்க், ஸ்காட்லாந்து</item>
+        <item>எட்மாண்டன், கனடா</item>
+        <item>எல் பாஸோ, யு.எஸ்.ஏ</item>
+        <item>பெர்னாண்டோ டி நோரோன்ஹா, பிரேசில்</item>
+        <item>பிளாரன்ஸ், இத்தாலி</item>
+        <item>போர்ட்-டி-பிரான்ஸ், மார்டினிக்</item>
+        <item>பிராங்க்பர்ட், ஜெர்மனி</item>
+        <item>ப்ரீடவுன், சியரா லியோன்</item>
+        <item>புஷுன், சீனா</item>
+        <item>புக்ஸின், சீனா</item>
+        <item>புசோவ், சீனா</item>
+        <item>காபரோன், போட்ஸ்வானா</item>
+        <item>கலாபகோஸ் தீவுகள், ஈகுவேடார்</item>
+        <item>ஜெனீவா, சுவிட்சர்லாந்து</item>
+        <item>ஜெனோவா, இத்தாலி</item>
+        <item>ஜார்ஜ்டவுன், கயானா</item>
+        <item>கிரீன்லாந்து</item>
+        <item>கிரேட்விகேன், தென்ஜார்ஜியா</item>
+        <item>குவாம்</item>
+        <item>குவாங்சூ, சீனா</item>
+        <item>குவாதிமாலா</item>
+        <item>கௌதிமாலா சிட்டி, கெளதிமாலா</item>
+        <item>குல்யாங், சீனா</item>
+        <item>கஸ்டவயா, செயின்ட் பர்தேலேமி</item>
+        <item>ஹைக்கௌ, சீனா</item>
+        <item>ஹாலிபாக்ஸ், கனடா</item>
+        <item>ஹம்பர்க், ஜெர்மனி</item>
+        <item>ஹன்டன், சீனா</item>
+        <item>ஹங்சோ, சீனா</item>
+        <item>ஹனாய், வியட்நாம்</item>
+        <item>ஹரேரே, ஜிம்பாப்வே</item>
+        <item>ஹார்பின், சீனா</item>
+        <item>ஹவானா, கியூபா</item>
+        <item>ஹவாய், அமெரிக்கா</item>
+        <item>ஹெபெய், சீனா</item>
+        <item>ஹெல்சிங்கி, பின்லாந்து</item>
+        <item>ஹோ சி மின் நகரம், வியட்நாம்</item>
+        <item>ஹோபர்ட், ஆஸ்திரேலியா</item>
+        <item>ஹோஹோட், சீனா</item>
+        <item>ஹாங் காங், சீனா</item>
+        <item>ஹோனோலுலு, அமெரிக்கா</item>
+        <item>ஹௌஸ்டான், யு.எஸ்.ஏ</item>
+        <item>ஹோவ், மங்கோலியா</item>
+        <item>ஹுஅய்யன், சீனா</item>
+        <item>ஹுஅனியன், சீனா</item>
+        <item>ஹைதராபாத், இந்தியா</item>
+        <item>இந்தியன்போலிஸ், யு.எஸ்.ஏ</item>
+        <item>இர்குட்ஸ்க், ரஷ்யா</item>
+        <item>இஸ்லாமாபாத், பாகிஸ்தான்</item>
+        <item>இஸ்தான்புல், துருக்கி</item>
+        <item>இசெவச், ரஷ்யா</item>
+        <item>ஜகார்த்தா, இந்தோனேசியா</item>
+        <item>ஜித்தான், சவுதி அரேபியா</item>
+        <item>ஜெருசலேம், இஸ்ரேல்</item>
+        <item>ஜிலின் சிட்டி, சீனா</item>
+        <item>ஜினான், சீனா</item>
+        <item>சின்சோ, சீனா</item>
+        <item>ஜிக்ஸ்ஸி, சீனா</item>
+        <item>ஜோகனஸ்பர்க், தென்னாப்பிரிக்கா</item>
+        <item>காபூல், ஆப்கானிஸ்தான்</item>
+        <item>களின்க்ராத், ரஷ்யா</item>
+        <item>கம்சாட்கா, ரஷ்யா</item>
+        <item>கம்பாலா, உகாண்டா</item>
+        <item>கராச்சி, பாகிஸ்தான்</item>
+        <item>காத்மாண்டு, நேபாளம்</item>
+        <item>காபரோவ்ஸ், ரஷ்யா</item>
+        <item>கர்கிவ், உக்ரைன்</item>
+        <item>கார்ட்டூம், சூடான்</item>
+        <item>கிங்ஸ்டன், ஜமைக்கா</item>
+        <item>கின்ஸாசா, காங்கோ டேம்.ரெப்.</item>
+        <item>கிரிதிமாடி, கிரிபாடி</item>
+        <item>கொல்கத்தா, இந்தியா</item>
+        <item>கிராஸ்னயார்ஸ்க், ரஷ்யா</item>
+        <item>கோலாலம்பூர், மலேசியா</item>
+        <item>குன்மிங், சீனா</item>
+        <item>குவைத் நகரம்</item>
+        <item>கீவ், உக்ரைன்</item>
+        <item>லா பாஸ், பொலிவியா</item>
+        <item>லாகோஸ், நைஜீரியா</item>
+        <item>லாகூர், பாகிஸ்தான்</item>
+        <item>லான்சௌவ், சீனா</item>
+        <item>லாஸ் வேகாஸ், யு.எஸ்.ஏ</item>
+        <item>லிமா, பெரு</item>
+        <item>லிஸ்பன், போர்ச்சுகல்</item>
+        <item>லயுசோவ், சீனா</item>
+        <item>சுப்ஜனா, ச்லோவானியா</item>
+        <item>லண்டன், யு.கே</item>
+        <item>லாஸ் ஏஞ்ஜெல்ஸ், யு.எஸ்.ஏ</item>
+        <item>லூயிஸ்வில்லே, யு.எஸ்.ஏ</item>
+        <item>லுவண்டா, அங்கோலா</item>
+        <item>லுபம்பஷி, D.R.காங்கோ</item>
+        <item>லியோயங், சீனா</item>
+        <item>லுசாக்கா, சாம்பியா</item>
+        <item>லக்ஸ்ஸம்போர்க்</item>
+        <item>எல்விவ், உக்ரைன்</item>
+        <item>மக்காவோ, சீனா</item>
+        <item>மேட்ரிட், ஸ்பெயின்</item>
+        <item>மகதான், ரஷ்யா</item>
+        <item>மஜுரோ, மார்சல் தீவுகள்</item>
+        <item>மலாபோ, ஈக்குவடோரியல் கினியா</item>
+        <item>மலே, மாலத்தீவுகள்</item>
+        <item>மனாகுவா, நிக்காராகுவா</item>
+        <item>மனாமா, பஹ்ரைன்</item>
+        <item>மனாஸ், பிரேசில்</item>
+        <item>மணிலா, பிலிப்பைன்ஸ்</item>
+        <item>மாபுடோ, மொசாம்பிக்</item>
+        <item>மரிகோட், செயின்ட் மார்டின்</item>
+        <item>மையோ, பிரான்சு</item>
+        <item>மஸால்டன், மெக்சிகன்</item>
+        <item>மெக்கா, சவுதி அரேபியா</item>
+        <item>மெல்போர்ன், ஆஸ்திரேலியா</item>
+        <item>மெம்ஃபிஸ், யு.எஸ்.ஏ</item>
+        <item>மெச்சினா, இத்தாலி</item>
+        <item>மெக்சிகோ நகரம், மெக்சிகோ</item>
+        <item>மியாமி, யு.எஸ்.ஏ</item>
+        <item>மத்திய அட்லாண்டிக்</item>
+        <item>மிட்வே தீவுகள், அமெரிக்கா</item>
+        <item>மிலன், இத்தாலி</item>
+        <item>மில்வௌக்கீ, யு.எஸ்.ஏ</item>
+        <item>மின்னேபோலிஸ், அமெரிக்கா</item>
+        <item>மின்ஸ்க், பெலாரஸ்</item>
+        <item>மொஹாடிஷு, சோமாலியா</item>
+        <item>மொன்ரோவியா, லைபீரியா</item>
+        <item>மாண்டிவீடியோ, உருகுவே</item>
+        <item>மாண்ட்ரியல், கனடா</item>
+        <item>மாஸ்கோ, ரஷியா</item>
+        <item>முடஞ்சியாங், சீனா</item>
+        <item>மும்பை, இந்தியா</item>
+        <item>மூனிச், ஜெர்மனி</item>
+        <item>மஸ்கட், ஓமான்</item>
+        <item>நைரோபி, கென்யா</item>
+        <item>நஞ்சங், சீனா</item>
+        <item>நான்ஜிங், சீனா</item>
+        <item>நன்னிங், சீனா</item>
+        <item>நபோலி, இத்தாலி</item>
+        <item>நடேர்ஸ், சுவிட்சர்லாந்து</item>
+        <item>நிஜாமீனா, சாட்</item>
+        <item>புது டில்லி, இந்தியா</item>
+        <item>நியூ ஓர்லியன்ஸ், யு.எஸ்.ஏ</item>
+        <item>நியூயார்க், யு.எஸ்.ஏ</item>
+        <item>நியூ பௌன்ட் லேன்ட், கனடா</item>
+        <item>நியாமே, நைஜர்</item>
+        <item>நிங்போ, சீனா</item>
+        <item>நவ்ஷோட், மௌரிடானியா</item>
+        <item>நௌமியா, நியூ கலேடோனியா</item>
+        <item>நோவோகுநெட்ஸ், ரஷ்யா</item>
+        <item>நோவோசிபிர்ஸ், ரஷ்யா</item>
+        <item>நுகொல்போ, டோங்க</item>
+        <item>நூக், கிரீன்லாந்து</item>
+        <item>ஓம்சக், ரஷ்யா</item>
+        <item>ஓரல், கசகஸ்தான்</item>
+        <item>ஓஸாகா, ஜப்பான்</item>
+        <item>ஆஸ்லோ, நார்வே</item>
+        <item>ஒட்டாவா, கனடா</item>
+        <item>ஒகடோவ்கோவ், பர்கின பாசோ</item>
+        <item>பாகோ பாகோ, அமெரிக்கன் சமோவா</item>
+        <item>பலேர்மோ, இத்தாலி</item>
+        <item>பனாமா நகரம், பனாமா</item>
+        <item>பராமரிபோ, சூரிநேம்</item>
+        <item>பாரிஸ், பிரான்ஸ்</item>
+        <item>பேர்ம், ரஷ்யா</item>
+        <item>பெர்த், ஆஸ்திரேலியா</item>
+        <item>பெட்ரோபவால்ஸ்க்-காம்சத்ஸ்கை, ரஷ்யா</item>
+        <item>பிலாடெல்ஃபியா, யு.எஸ்.ஏ</item>
+        <item>ஃபினோம் பென், கம்போடியா</item>
+        <item>ஃபீனிக்ஸ், யு.எஸ்.ஏ</item>
+        <item>பிங்டிங்ஷேன், சீனா</item>
+        <item>போட்கோரிக்க, மொண்டேநேக்ரோ</item>
+        <item>பொண்ட தேல்கட, போர்சுகல்</item>
+        <item>போர்ட் லூயிஸ், மொரிசியஸ்</item>
+        <item>போர்ட்-ஔ-பிரின்ஸ், ஹெய்டி</item>
+        <item>போர்ட்லாந்து, யு.எஸ்.ஏ</item>
+        <item>பிரக்யு, செக் ரீபப்ளிக்</item>
+        <item>பிரையா, கேப் வேர்டே</item>
+        <item>யோங்யாங், டெமோக்ரடிக் பீப்பில்ஸ் ரீபப்ளிக் ஆப் கொரியா</item>
+        <item>கிங்டவோ, சீனா</item>
+        <item>கிகிகார், சீனா</item>
+        <item>குயிட்டோ, ஈகுவேடார்</item>
+        <item>ராபட், மொராக்கோ</item>
+        <item>ரேசிபே, பிரேசில்</item>
+        <item>ரெஜினா, கனடா</item>
+        <item>ரெய்கவிக், ஐஸ்லேன்ட்</item>
+        <item>ரிக, லட்வியா</item>
+        <item>ரியோ டி ஜனீரோ, பிரேசில்</item>
+        <item>ரியாத், சவுதி அரேபியா</item>
+        <item>ரோம், இத்தாலி</item>
+        <item>சாவோ பௌலோ, பிரேசில்</item>
+        <item>செயின்ட்-டெனிஸ், ரீயூனியன் தீவு</item>
+        <item>சால்ட் லேக் சிட்டி, அமெரிக்கா</item>
+        <item>சமர, ரஷ்யா</item>
+        <item>சான் அண்டோனியோ, யு.எஸ்.ஏ</item>
+        <item>சான் டீகோ, யு.எஸ்.ஏ</item>
+        <item>சான் பிரான்ஸிஸ்கோ, யு.எஸ்.ஏ</item>
+        <item>சான் ஜோஸ், கோஸ்ட்டா ரிக்கா</item>
+        <item>சான் ஹுவான், புர்டோ ரிகோ</item>
+        <item>சான் மரினோ</item>
+        <item>சான் சல்வாடோர், எல்சல்வாடோர்</item>
+        <item>சனா, ஏமன்</item>
+        <item>சாண்டியாகோ, சிலி</item>
+        <item>சாண்டோ டோமிங்கோ, டொமினிக்கன் ரீபப்ளிக்</item>
+        <item>சராஜீவோ, போஸ்னியா மற்றும் ஹெர்கோவினா</item>
+        <item>சீட்டில், யு.எஸ்.ஏ</item>
+        <item>சியோல், தென் கொரியா</item>
+        <item>ஷாங்காய், சீனா</item>
+        <item>சாங்கியு, சீனா</item>
+        <item>சாண்டு, சீனா</item>
+        <item>ஷெனியாங், சீனா</item>
+        <item>ஷென்ஞென், சீனா</item>
+        <item>ஷிஜிஆஷுங், சீனா</item>
+        <item>சிங்கப்பூர்</item>
+        <item>ஸ்கோப்ஜே, மசிடோனியா</item>
+        <item>சோபியா, பல்கேரியா</item>
+        <item>செயிண்ட் ஜான், கனடா</item>
+        <item>செயிண்ட் பீட்டர்ஸ்பர்க், ரஷியா</item>
+        <item>செயின்ட் பிறீ அண்ட் மிகுளின், பிரான்சு</item>
+        <item>ஸ்டாக்ஹோம், சுவீடன்</item>
+        <item>சுவா, பிஜி</item>
+        <item>சூசோவ், சீனா</item>
+        <item>சிட்னி, ஆஸ்திரேலியா</item>
+        <item>தகிதி, பிரெஞ்ச் பாலிநேசியா</item>
+        <item>தைபே, சீனா</item>
+        <item>தையுவான், சீனா</item>
+        <item>தள்ளின், எஸ்டோனியா</item>
+        <item>தன்க்ஷன், சீனா</item>
+        <item>தரவா, கிரிபாடி</item>
+        <item>தஷ்கன்ட், உஸ்பெகிஸ்தான்</item>
+        <item>திபிளிஸி, ஜார்ஜியா</item>
+        <item>டேகுசிகல்பா, ஹோண்டுராஸ்</item>
+        <item>டெஹ்ரான், ஈரான்</item>
+        <item>தி செட்டில்மென்ட், GB Vrgn தீவுகள்</item>
+        <item>தியான்ஜின், சீனா</item>
+        <item>தியுவானா, மெக்சிகன்</item>
+        <item>டோக்கியோ, ஜப்பான்</item>
+        <item>டோங்கா</item>
+        <item>டொரண்டோ, கனடா</item>
+        <item>திரிபோலி, லிபியா</item>
+        <item>துனிஸ், துனிசியா</item>
+        <item>டொரினோ, இத்தாலி</item>
+        <item>உபா, ரஷ்யா</item>
+        <item>உலான்பாட்டார், மங்கோலியா</item>
+        <item>உரும்கி, சீனா</item>
+        <item>வடுஸ், லீச்டேன்ஸ்டீன்</item>
+        <item>வல்லெட்டா, மால்டா</item>
+        <item>வன்கூவர், கனடா</item>
+        <item>வெரோனா, இத்தாலி</item>
+        <item>விக்டோரியா, செசெல்ஸ்</item>
+        <item>வியன்னா, ஆஸ்திரியா</item>
+        <item>வில்னியஸ், லிதுவேனியா</item>
+        <item>விளடிவோச்டோக், ரஷ்யா</item>
+        <item>வோல்கோக்ராத், ரஷ்யா</item>
+        <item>வார்சா, போலந்து</item>
+        <item>வாஷிங்டன், டி.சி. யு.எஸ்.ஏ</item>
+        <item>வேய்பாங், சீனா</item>
+        <item>வெலிங்டன், நியூசிலாந்து</item>
+        <item>விண்டோக், நமீபியா</item>
+        <item>வின்னிபெக், கனடா</item>
+        <item>வுஹான், சீனா</item>
+        <item>வுக்ஸி, சீனா</item>
+        <item>ஸியான், சீனா</item>
+        <item>சியன்யங், சீனா</item>
+        <item>சினிங், சீனா</item>
+        <item>ஷுஷோ, சீனா</item>
+        <item>யகுட்ஸ்க், ரஷ்யா</item>
+        <item>யோமுசொற்கோ, கோட்டே டி வோரே</item>
+        <item>யாங்ஹோன், மியான்மர்</item>
+        <item>யண்டை, சீனா</item>
+        <item>யாவுண்டே, கமேரூன்</item>
+        <item>ஏகடரின்புர்க், ரஷ்யா</item>
+        <item>எரேவன், அர்மேனியா</item>
+        <item>இச்சங், சீனா</item>
+        <item>இச்ஹன், சீனா</item>
+        <item>உஸ்னோ- ஷகளின், ரஷ்யா</item>
+        <item>சக்றேப், குரோசியா</item>
+        <item>சொசோங், சீனா</item>
+        <item>ஜாஞ்சிகொவா, சீனா</item>
+        <item>ஜாஞ்சியாங், சீனா</item>
+        <item>ஜேன்சாகு, சீனா</item>
+        <item>ஜிபோ, சீனா</item>
+        <item>சூரிச், சுவிட்சர்லாந்து</item>
+        <item>தென்ஜார்ஜியா</item>
+        <item>பந்தர் சேரி பெகாவன்</item>
+        <item>வியென்டியானெ</item>
+    </string-array>
+</resources>

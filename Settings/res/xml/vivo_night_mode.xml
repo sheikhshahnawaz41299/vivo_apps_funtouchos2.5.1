@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/zen_mode_title" android:key="zen_mode_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/night_mode_explain" android:key="night_mode_explain" style="?vivo:attr/explainPreferenceStyle" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/auto_open_zen_mode" android:key="auto_open_night_mode" />
+    <PreferenceCategory android:key="shecdul_category">
+        <VivoCheckBoxPreference android:persistent="false" android:title="@string/shedul_open_zen_mode" android:key="shecdul_open_night_mode" />
+    </PreferenceCategory>
+    <PreferenceCategory style="?vivo:attr/dividerPreferenceStyle" />
+    <PreferenceCategory android:title="@string/night_seekbar_category" android:key="night_mode_category" style="?vivo:attr/explainPreferenceStyle" />
+    <com.vivo.settings.preference.SeekBarPreference android:layout="@layout/layout_seek_bar_pref_night" android:key="seekbar_night_mode" settings:max="100" settings:scaleMax="true" settings:middleAdsorb="true" />
+    <PreferenceCategory android:title="@string/night_seekbar_explain" android:key="night_mode_explain_bottom" style="?vivo:attr/explainPreferenceStyle" />
+</PreferenceScreen>

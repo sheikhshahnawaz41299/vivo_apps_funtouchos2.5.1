@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">អ្នកឥឡូវនេះនៅ %1$d ជំហានពីការក្លាយជាអ្នកបង្កើតកម្មវិធីម្នាក់។</item>
+        <item quantity="one">អ្នកឥឡូវនេះនៅ %1$d ជំហានពីការក្លាយជាអ្នកបង្កើតកម្មវិធីម្នាក់។</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">ពាក្យសម្ងាត់ត្រូវតែមានយ៉ាងហោចណាស់ %d អក្សរ។</item>
+        <item quantity="one">ពាក្យ​សម្ងាត់​ត្រូវ​តែ​មាន​យ៉ាង​ហោច​ណាស់​តួអក្សរ​មួយ។</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">ពាក្យសម្ងាត់ត្រូវតែមានយ៉ាងហោចណាស់ %d អក្សរតូច។</item>
+        <item quantity="one">ពាក្យសម្ងាត់ត្រូវតែមានយ៉ាងហោចណាស់ 1 អក្សរតូច។</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">ពាក្យសម្ងាត់ត្រូវតែមានយ៉ាងហោចណាស់ %d អក្សរធំ។</item>
+        <item quantity="one">ពាក្យសម្ងាត់ត្រូវតែមានយ៉ាងហោចណាស់ 1 អក្សរធំ។</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">ពាក្យសម្ងាត់ត្រូវតែមានយ៉ាងហោចណាស់ %d ខ្ទង់។</item>
+        <item quantity="one">ពាក្យ​សម្ងាត់​ត្រូវ​តែ​មាន​លេខ​​យ៉ាង​ហោច​ណាស់​មួយ។</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">ពាក្យសម្ងាត់ត្រូវតែមានយ៉ាងហោចណាស់ %d តួអក្សរពិសេស។</item>
+        <item quantity="one">ពាក្យសម្ងាត់ត្រូវតែមានយ៉ាងហោចណាស់ 1 តួអក្សរពិសេស។</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">ពាក្យសម្ងាត់ត្រូវតែមានយ៉ាងហោចណាស់ %d តួមិនមែនអក្សរ។</item>
+        <item quantity="one">ពាក្យសម្ងាត់ត្រូវតែមានយ៉ាងហោចណាស់ 1 តួមិនមែនអក្សរ។</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">កូដ PIN របស់ SIM មិនត្រឹមត្រូវ អ្នកនៅសល់ការព្យាយាម %d ដង។</item>
+        <item quantity="one">កូដ PIN របស់ SIM មិនត្រឹមត្រូវ អ្នកនៅសល់ការព្យាយាម %d ដង មុន​ពេល​អ្នកត្រូវទំនាក់ទំនងទៅកាន់ក្រុមហ៊ុនផ្ដល់សេវារបស់អ្នកឲ្យ​ដោះសោ​ឧបករណ៍របស់អ្នក។</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d កម្មវិធី អាចអានការជូនដំណឹង</item>
+        <item quantity="one">%d កម្មវិធី អាចអានការជូនដំណឹង</item>
+    </plurals>
+    <plurals name="manage_condition_providers_summary_nonzero">
+        <item quantity="other">%d កម្មវិធីអាចផ្ដល់លក្ខខណ្ឌ</item>
+        <item quantity="one">%d កម្មវិធីអាចផ្ដល់លក្ខខណ្ឌ</item>
+    </plurals>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <VivoCheckBoxPreference android:persistent="false" android:layout="@vivo:layout/vigour_preference_summary_down" android:title="@string/tether_share_phone_via_wlan" android:key="enable_wifi_ap" />
+    <PreferenceScreen android:persistent="false" android:title="@string/wifi_tether_configure_ap_text" android:key="wifi_ap_ssid_and_security" />
+    <PreferenceCategory />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/tether_share_phone_via_bluetooth" android:key="enable_bluetooth_tethering" />
+    <PreferenceCategory />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/tether_share_phone_via_usb" android:key="usb_tether_settings" />
+    <PreferenceCategory android:title="@string/category_tether_warning" android:key="category_tether_warning" style="?vivo:attr/explainPreferenceStyle" />
+    <PreferenceCategory android:title="@string/tether_share_pc_network" android:key="category_share_pc_network" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/usb_sharing_title" android:key="usb_internet" />
+    <com.vivo.settings.preference.VivoListPreference android:persistent="false" android:entries="@array/usb_sharing_pc_system_entry" android:title="@string/usb_tethering_select_version" android:key="usb_internet_os_ver" android:entryValues="@array/usb_sharing_pc_system_entry_values" />
+    <PreferenceScreen android:title="@string/tethering_help_button_text" android:key="tethering_help" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/tethering_ipv4_ipv6" android:key="tethering_ipv4_ipv6" />
+</PreferenceScreen>

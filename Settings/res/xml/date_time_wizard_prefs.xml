@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/date_and_time"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/date_time_set_time" android:key="time" android:summary="12:00am" />
+    <Preference android:title="@string/date_time_set_date" android:key="date" android:summary="03/10/2008" />
+</PreferenceScreen>

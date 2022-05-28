@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/touch_key" android:key="touch_key"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.vivo.settings.preference.VivoListPreference android:entries="@array/key_light_control_mode" android:title="@string/Touch_key_light_duration" android:key="touch_key_light_duration" android:entryValues="@array/key_light_control_mode_values" />
+    <PreferenceCategory android:key="divider" style="?vivo:attr/dividerPreferenceStyle" />
+    <PreferenceCategory android:title="@string/main_touch_key" android:key="main_touch_key" style="?vivo:attr/explainPreferenceStyle" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/touch_to_desktop" android:key="touch_to_desktop" />
+</PreferenceScreen>

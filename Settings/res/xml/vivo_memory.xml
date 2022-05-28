@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/storage_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:key="data_loc_space" />
+    <PreferenceScreen android:persistent="false" android:title="@string/data_pkg_mount_location" android:key="data_location" android:summary="@string/phone_mount">
+        <intent android:action="android.settings.DATA_MOUNT_LOCATION" />
+    </PreferenceScreen>
+</PreferenceScreen>

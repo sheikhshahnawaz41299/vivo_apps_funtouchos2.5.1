@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?vivo:generalBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:layout_marginEnd="?android:scrollbarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:vivo="http://schemas.android.com/apk/res/vivo">
+    <TextView android:textAppearance="?vivo:textAppearancePreferenceTitle" android:ellipsize="end" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="@vivo:dimen/preference_left_margin" android:layout_marginEnd="40.0dip" android:layout_toStartOf="@id/radio" android:layout_alignParentStart="true" />
+    <RadioButton android:id="@id/radio" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_marginEnd="22.0dip" android:layout_alignParentEnd="true" />
+    <View android:id="@id/tile_divider" android:background="?android:dividerHorizontal" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@vivo:dimen/divider_height" android:layout_alignParentBottom="true" android:layout_marginStart="@vivo:dimen/preference_left_margin" />
+</RelativeLayout>

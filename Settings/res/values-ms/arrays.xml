@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="screen_timeout_entries">
+        <item>15 saat</item>
+        <item>30 saat</item>
+        <item>1 minit</item>
+        <item>2 minit</item>
+        <item>5 minit</item>
+        <item>10 minit</item>
+        <item>30 minit</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Serta-merta</item>
+        <item>5 saat</item>
+        <item>15 saat</item>
+        <item>30 saat</item>
+        <item>1 minit</item>
+        <item>2 minit</item>
+        <item>5 minit</item>
+        <item>10 minit</item>
+        <item>30 minit</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Kecil</item>
+        <item>Normal</item>
+        <item>Besar</item>
+        <item>Lagi besar</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Sangat perlahan</item>
+        <item>Perlahan</item>
+        <item>Normal</item>
+        <item>Cepat</item>
+        <item>Lebih cepat</item>
+        <item>Sangat cepat</item>
+        <item>Cepat</item>
+        <item>Sangat cepat</item>
+        <item>Terpantas</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Mengimbas...</item>
+        <item>Menyambung..</item>
+        <item>Menentusahkan akaun…</item>
+        <item>Mendapatkan alamat IP…</item>
+        <item>Bersambung</item>
+        <item>Dijeda</item>
+        <item>Memutuskan sambungan...</item>
+        <item>Sambungan terputus</item>
+        <item>Gagal</item>
+        <item>Dinyahaktifkan</item>
+        <item>Mengelakkan sambungan lemah buat sementara</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Mengimbas...</item>
+        <item>Menyambung ke %1$s...</item>
+        <item>Menentusahkan akaun melalui %1$s...</item>
+        <item>Mendapatkan alamat IP daripada %1$s...</item>
+        <item>Bersambung ke %1$s</item>
+        <item>Dijeda</item>
+        <item>Memutuskan sambungan dari %1$s...</item>
+        <item>Sambungan terputus</item>
+        <item>Gagal</item>
+        <item>Dinyahaktifkan</item>
+        <item>Mengelakkan sambungan lemah buat sementara</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Bersambung</item>
+        <item>Dijemput</item>
+        <item>Gagal</item>
+        <item>Tersedia</item>
+        <item>Di luar lingkungan</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minit</item>
+        <item>5 minit</item>
+        <item>1 jam</item>
+        <item>Jangan tamat masa</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Lemah</item>
+        <item>Sederhana</item>
+        <item>Agak kuat</item>
+        <item>Kuat</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Sentiasa</item>
+        <item>Hanya apabila dipasang</item>
+        <item>Jangan sekali-kali</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Sentiasa</item>
+        <item>Hanya apabila dipasang</item>
+        <item>Jangan sekali-kali</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Automatik</item>
+        <item>Gunakan jalur frekuensi 5GHz sahaja</item>
+        <item>Gunakan jalur frekuensi 2,4GHz sahaja</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Masa berlalu</item>
+        <item>Masa penggunaan kali terakhir</item>
+        <item>Nama apl</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>Tiada</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Tiada</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Statik</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Tiada</item>
+        <item>Manual</item>
+        <item>Konfigurasi automatik proksi</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Tiada</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP atau CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>Tidak ditentukan</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>Tiada</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Peranti storan dalaman</item>
+        <item>Kad SD tidak boleh dilekapkan</item>
+        <item>Biar sistem menentukan</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>Lokasi</item>
+        <item>Individu</item>
+        <item>Mesej</item>
+        <item>Media</item>
+        <item>PERANTI</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>lokasi kasar</item>
+        <item>lokasi terperinci</item>
+        <item>GPS</item>
+        <item>Getaran</item>
+        <item>Baca kenalan</item>
+        <item>Ubah kenalan</item>
+        <item>baca log panggilan</item>
+        <item>Ubahsuai log panggilan</item>
+        <item>Baca kalendar</item>
+        <item>Ubah suai kalendar</item>
+        <item>Imbas Wi-Fi</item>
+        <item>Pemberitahuan</item>
+        <item>imbasan sel</item>
+        <item>Panggilan</item>
+        <item>baca SMS</item>
+        <item>Karang mesej SMS</item>
+        <item>terima SMS</item>
+        <item>terima SMS kecemasan</item>
+        <item>terima MMS</item>
+        <item>terima penolakan WAP</item>
+        <item>Hantar mesej teks</item>
+        <item>baca SMS ICC</item>
+        <item>tulis SMS ICC</item>
+        <item>Ubah suai tetapan</item>
+        <item>Lukiskan di atas</item>
+        <item>Pemberitahuan akses</item>
+        <item>Kamera</item>
+        <item>Rakam audio</item>
+        <item>Mainkan audio</item>
+        <item>Baca papan keratan</item>
+        <item>Ubah suai papan keratan</item>
+        <item>Butang media</item>
+        <item>Tumpuan audio</item>
+        <item>Kelantangan utama</item>
+        <item>Kelantangan suara</item>
+        <item>Kelantangan nada dering</item>
+        <item>Kelantangan media</item>
+        <item>Kelantangan penggera</item>
+        <item>Kelantangan pemberitahuan</item>
+        <item>Kelantangan Bluetooth</item>
+        <item>“Kekal jaga”</item>
+        <item>pantau lokasi</item>
+        <item>awasi lokasi kuasa tinggi</item>
+        <item>Dapatkan maklumat statistik penggunaan</item>
+        <item>Redam mikrofon atau batal mikrofon</item>
+        <item>Tayangan media</item>
+        <item>Aktifkan VPN</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>Lokasi</item>
+        <item>Lokasi</item>
+        <item>Lokasi</item>
+        <item>Getaran</item>
+        <item>Baca kenalan</item>
+        <item>Ubah kenalan</item>
+        <item>baca log panggilan</item>
+        <item>Ubahsuai log panggilan</item>
+        <item>Baca kalendar</item>
+        <item>Ubah suai kalendar</item>
+        <item>Lokasi</item>
+        <item>Siarkan pemberitahuan</item>
+        <item>Lokasi</item>
+        <item>Panggilan</item>
+        <item>Baca mesej SMS/MMS</item>
+        <item>Karang mesej SMS/MMS</item>
+        <item>Terima mesej SMS/MMS</item>
+        <item>Terima mesej SMS/MMS</item>
+        <item>Terima mesej SMS/MMS</item>
+        <item>Terima mesej SMS/MMS</item>
+        <item>Hantar mesej SMS/MMS</item>
+        <item>Baca mesej SMS/MMS</item>
+        <item>Karang mesej SMS/MMS</item>
+        <item>Ubah suai tetapan</item>
+        <item>Lukiskan di atas</item>
+        <item>Pemberitahuan akses</item>
+        <item>Kamera</item>
+        <item>Rakam audio</item>
+        <item>Mainkan audio</item>
+        <item>Baca papan keratan</item>
+        <item>Ubah suai papan keratan</item>
+        <item>Butang media</item>
+        <item>Tumpuan audio</item>
+        <item>Kelantangan utama</item>
+        <item>Kelantangan suara</item>
+        <item>Kelantangan nada dering</item>
+        <item>Kelantangan media</item>
+        <item>Kelantangan penggera</item>
+        <item>Kelantangan pemberitahuan</item>
+        <item>Kelantangan Bluetooth</item>
+        <item>“Kekal jaga”</item>
+        <item>Lokasi</item>
+        <item>Lokasi sedang digunakan</item>
+        <item>Dapatkan maklumat statistik penggunaan</item>
+        <item>Redam mikrofon atau batal mikrofon</item>
+        <item>Tayangan media</item>
+        <item>Aktifkan VPN</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Pendek</item>
+        <item>Sederhana</item>
+        <item>Panjang</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>Lalai</item>
+        <item>Sans-serif</item>
+        <item>Sans-serif diringkaskan</item>
+        <item>Sans-serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>Casual</item>
+        <item>Cursive</item>
+        <item>Small capitals</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>Lebih kecil</item>
+        <item>Kecil</item>
+        <item>Normal</item>
+        <item>Besar</item>
+        <item>Lagi besar</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>Lalai</item>
+        <item>Tiada</item>
+        <item>Garis bentuk</item>
+        <item>Bayang</item>
+        <item>ukiran timbul</item>
+        <item>Penggalian</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>Guna gaya lalai apl</item>
+        <item>Putih atas hitam</item>
+        <item>Hitam atas putih</item>
+        <item>Kuning atas hitam</item>
+        <item>Kuning atas biru</item>
+        <item>Suaikan</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Setiap log penimbal 64K</item>
+        <item>Setiap log penimbal 256K</item>
+        <item>Setiap log penimbal 1M</item>
+        <item>Setiap log penimbal 4M</item>
+        <item>Setiap log penimbal 16M</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Jangan sekali-kali semak</item>
+        <item>Semak kandungan DRM sahaja</item>
+        <item>Sentiasa</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Walau apa pun jangan gunakan HDCP untuk menyemak</item>
+        <item>Gunakan HDCP untuk menyemak kandungan DRM sahaja</item>
+        <item>Sentiasa gunakan HDCP untuk menyemak</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Tutup animasi</item>
+        <item>Zum beranimasi 0.5x</item>
+        <item>Zum beranimasi 1x</item>
+        <item>Zum beranimasi 1.5x</item>
+        <item>Zum beranimasi 2x</item>
+        <item>Zum beranimasi 5x</item>
+        <item>Zum beranimasi 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Tutup animasi</item>
+        <item>Zum beranimasi 0.5x</item>
+        <item>Zum beranimasi 1x</item>
+        <item>Zum beranimasi 1.5x</item>
+        <item>Zum beranimasi 2x</item>
+        <item>Zum beranimasi 5x</item>
+        <item>Zum beranimasi 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>Tutup animasi</item>
+        <item>Skala animasi 0.5x</item>
+        <item>Zum beranimasi 1x</item>
+        <item>Zum beranimasi 1.5x</item>
+        <item>Zum beranimasi 2x</item>
+        <item>Zum beranimasi 5x</item>
+        <item>Zum beranimasi 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Nyahpilih</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (selamat)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (selamat)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (selamat)</item>
+        <item>1280x720 tvdpi dan 1920x1080 xhdpi</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Nyahpilih</item>
+        <item>Logcat</item>
+        <item>Systrace (Grafik)</item>
+        <item>Tindanan panggilan pada glGetError</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Matikan</item>
+        <item>Lukis kawasan keratan bukan segi empat tepat berwarna biru</item>
+        <item>Serlahkan perintah lukisan berwarna hijau yang diuji</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Mati</item>
+        <item>Pada skrin sebagai bar</item>
+        <item>Dalam adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Matikan</item>
+        <item>Tunjukkan kawasan lebih lukis</item>
+        <item>Tunjukkan kaunter lebih lukis</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Had standard</item>
+        <item>Proses latar belakang tidak dibenarkan</item>
+        <item>Tidak lebih 1 proses</item>
+        <item>Tidak lebih 2 proses</item>
+        <item>Tidak lebih 3 proses</item>
+        <item>Tidak lebih 4 proses</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>L2TP/IPSec VPN dengan kekunci prakongsi</item>
+        <item>L2TP/IPSec VPN dengan sijil</item>
+        <item>IPSec VPN dengan kekunci prakongsi dan pengsahihan Xauth</item>
+        <item>IPSec VPN dengan sijil dan disahihkan oleh Xauth</item>
+        <item>IPSec VPN dengan sijil dan pengsahihan hibrid</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Sambungan terputus</item>
+        <item>Mengawalkan...</item>
+        <item>Menyambung..</item>
+        <item>Bersambung</item>
+        <item>Tamat masa</item>
+        <item>Gagal</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Sentiasa tanya</item>
+        <item>Jangan benarkan</item>
+        <item>Sentiasa Benarkan</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>Sederhana</item>
+        <item>Sederhana</item>
+        <item>Rendah</item>
+        <item>kritikal</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>Normal</item>
+        <item>Tahap sederhana</item>
+        <item>Tidak mencukupi</item>
+        <item>kritikal</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>Penduduk</item>
+        <item>Aktiviti tahap tinggi</item>
+        <item>Penting (latar hadapan)</item>
+        <item>Penting (latar belakang)</item>
+        <item>Sandarkan</item>
+        <item>Berat</item>
+        <item>Khidmat (berjalan)</item>
+        <item>Khidmat (mula semula)</item>
+        <item>Penerima</item>
+        <item>Rumah</item>
+        <item>Aktiviti sebelumnya</item>
+        <item>Ditimbal (aktif)</item>
+        <item>Ditimbal (pelayan aktif)</item>
+        <item>Ditimbal (kosong)</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>Biru kehijauan</item>
+        <item>Biru</item>
+        <item>Nila</item>
+        <item>"Ungu
+kemerahan"</item>
+        <item>Merah jambu</item>
+        <item>Merah</item>
+    </string-array>
+    <string-array name="ring_or_mtp_change_entries">
+        <item>Nada dering</item>
+        <item>Media</item>
+    </string-array>
+    <string-array name="app_loc_permission">
+        <item>Nyahdayakan</item>
+        <item>Ya</item>
+        <item>Tanya</item>
+    </string-array>
+    <string-array name="key_light_control_mode">
+        <item>1.5 Saat</item>
+        <item>6 Saat</item>
+        <item>Sentiasa hidup</item>
+        <item>Sentiasa mati</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_amoled">
+        <item>15 saat</item>
+        <item>30 saat</item>
+        <item>1 minit</item>
+        <item>2 minit</item>
+        <item>5 minit</item>
+        <item>10 minit</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_mtfp">
+        <item>15 saat</item>
+        <item>30 saat</item>
+        <item>1 minit</item>
+        <item>2 minit</item>
+        <item>5 minit</item>
+        <item>10 minit</item>
+        <item>30 minit</item>
+        <item>Jangan</item>
+    </string-array>
+    <string-array name="vivo_problem_ask_lables">
+        <item>Siapakah nama bapa anda?</item>
+        <item>Siapakah nama ibu anda?</item>
+        <item>Siapakah nama pasangan anda?</item>
+        <item>Apakah nama sekolah rendah yang anda hadiri?</item>
+        <item>Siapakah nama guru tadika anda?</item>
+        <item>Siapakah nama guru sekolah menengah anda?</item>
+        <item>Siapakah nama rakan baik anda?</item>
+        <item>Di manakah anda dilahirkan?</item>
+        <item>Apakah nombor pengenalan (pendaftaran) pelajar anda?</item>
+        <item>Apakah 6 digit terakhir nombor kad pengenalan anda?</item>
+        <item>Apakah nombor pendaftaran kenderaan anda?</item>
+        <item>Apakah nama syarikat pertama anda pernah bekerja?</item>
+        <item>Soalan tersuai</item>
+    </string-array>
+    <string-array name="area_entrys">
+        <item>Thailand</item>
+        <item>Malaysia</item>
+        <item>Indonesia</item>
+        <item>India</item>
+        <item>Myanmar</item>
+        <item>Filipina</item>
+        <item>Vietnam</item>
+        <item>Brunei</item>
+        <item>Kemboja</item>
+        <item>Laos</item>
+        <item>Singapura</item>
+        <item>Bangladesh</item>
+        <item>Nepal</item>
+        <item>Pakistan</item>
+        <item>Sri Lanka</item>
+    </string-array>
+    <string-array name="vivo_rom_25problem_ask_lables">
+        <item>Apakah nama sekolah rendah yang anda hadiri?</item>
+        <item>Siapakah nama bapa anda?</item>
+        <item>Siapakah nama ibu anda?</item>
+        <item>Siapakah nama pasangan anda?</item>
+        <item>Di manakah anda dilahirkan?</item>
+        <item>Apakah nama panggilan yang diberikan oleh ibu bapa anda?</item>
+        <item>Nama guru kelas sekolah menengah anda?</item>
+        <item>Kawan karib anda sejak zaman kanak-kanak?</item>
+        <item>Apakah nombor pengenalan (pendaftaran) pelajar anda?</item>
+        <item>6 digit terakhir daripada nombor IC anda?</item>
+        <item>Apakah nombor pendaftaran kenderaan anda?</item>
+        <item>Apakah nama syarikat pertama anda pernah bekerja?</item>
+        <item>Soalan tersuai</item>
+    </string-array>
+    <string-array name="timezones_cities_array">
+        <item>Abidjan,Ivory Coast</item>
+        <item>Abu Dhabi, UAE</item>
+        <item>Accra, Ghana</item>
+        <item>Addis Ababa,Ethiopia</item>
+        <item>Adelaide,Australia</item>
+        <item>Alaska, AS</item>
+        <item>Algiers,Algeria</item>
+        <item>Almaty,Kazakhstan</item>
+        <item>Ambon,Indonesia</item>
+        <item>Amman,Jordan</item>
+        <item>Amsterdam,Belanda</item>
+        <item>Anadyr,Rusia</item>
+        <item>Anchorage, AS</item>
+        <item>Ankara,Turki</item>
+        <item>Anshan, China</item>
+        <item>Antananarivo, Madagascar</item>
+        <item>Ashgabat,Turkmenistan</item>
+        <item>Asmara, Eritrea</item>
+        <item>Astana, Kazakhstan</item>
+        <item>Asuncion,Paraguay</item>
+        <item>Athens,Greece</item>
+        <item>Atlanta,A.S</item>
+        <item>Auckland,New Zealand</item>
+        <item>Austin,A.S</item>
+        <item>Azores, Portugal</item>
+        <item>Baghdad,Iraq</item>
+        <item>Baku,Azerbaijan</item>
+        <item>Baltimore,Amerika</item>
+        <item>Bamako, Mali</item>
+        <item>Bangalore,India</item>
+        <item>Bangkok,Thailand</item>
+        <item>Bangui, Republik Afrika Tengah</item>
+        <item>Baoding, China</item>
+        <item>Baotou, China</item>
+        <item>Barcelona, Sepanyol</item>
+        <item>Bari,Itali</item>
+        <item>Basse-Terre, Guadeloupe</item>
+        <item>Beijing, China</item>
+        <item>Beirut,Lebanon</item>
+        <item>Belgrade,Serbia</item>
+        <item>Bandar Belize, Belize</item>
+        <item>Benxi, China</item>
+        <item>Berlin,Jerman</item>
+        <item>Bern, Switzerland</item>
+        <item>Bishkek,Kyrgyzstan</item>
+        <item>Bissau, Guinea Bissau</item>
+        <item>Bogotá, Colombia</item>
+        <item>Bologna,Itali</item>
+        <item>Boston,A.S</item>
+        <item>Brasilia,Brazil</item>
+        <item>Bratislava, Slovakia</item>
+        <item>Brazzaville,Congo</item>
+        <item>Bridgetown,Barbados</item>
+        <item>Brisbane,Australia</item>
+        <item>Brussels,Belgium</item>
+        <item>Bucharest,Romania</item>
+        <item>Budapest,Hungary</item>
+        <item>Buenos Aires,Argentina</item>
+        <item>Cairo,Mesir</item>
+        <item>Calgary,Kanada</item>
+        <item>Kepulauan Canary, Sepanyol</item>
+        <item>Canberra,Australia</item>
+        <item>Cape Town,Afrika Selatan</item>
+        <item>Caracas,Venezuela</item>
+        <item>Cardiff, Wales</item>
+        <item>Casablanca,Morocco</item>
+        <item>Catanzaro, Itali</item>
+        <item>Cayenne, Guiana Perancis</item>
+        <item>Changchun,China</item>
+        <item>Changsha, China</item>
+        <item>Changzhou, China</item>
+        <item>Charlotte,A.S</item>
+        <item>Charlotte Amalie, Kepulauan Virgin AS</item>
+        <item>Chelyabinsk, Rusia</item>
+        <item>Chengdu,China</item>
+        <item>Chennai, India</item>
+        <item>Chicago,A.S</item>
+        <item>Chihuahua,Mexico</item>
+        <item>Chisinau, Moldova</item>
+        <item>Chita, Rusia</item>
+        <item>Chongqing,China</item>
+        <item>Cleveland, AS</item>
+        <item>Colombo,Sri Lanka</item>
+        <item>Columbus,A.S</item>
+        <item>Conakry,Guinea</item>
+        <item>Copenhagen,Denmark</item>
+        <item>Corcaigh,Ireland</item>
+        <item>Crotone, Itali</item>
+        <item>Dakar, Senegal</item>
+        <item>Dalian,China</item>
+        <item>Dallas,A.S</item>
+        <item>Damascus,Syria</item>
+        <item>Daqing, China</item>
+        <item>Dar es Salaam,Tanzania</item>
+        <item>Darwin,Australia</item>
+        <item>Datong, China</item>
+        <item>Denpasar, Indonesia</item>
+        <item>Denver,A.S</item>
+        <item>Detroit,A.S</item>
+        <item>Dhaka,Bangladesh</item>
+        <item>Diego Garcia, UK</item>
+        <item>Djibouti</item>
+        <item>Doha,Qatar</item>
+        <item>Douala, Cameroon</item>
+        <item>Dubai, UAE</item>
+        <item>Dublin, Ireland</item>
+        <item>Dushanbe,Tajikistan</item>
+        <item>Pulau Easter, Chile</item>
+        <item>Edinburgh, Scotland</item>
+        <item>Edmonton,Kanada</item>
+        <item>El Paso,A.S</item>
+        <item>Fernando de Noronha, Brazil</item>
+        <item>Florence,Itali</item>
+        <item>Fort-de-France, Martinique</item>
+        <item>Frankfurt,Jerman</item>
+        <item>Freetown, Sierra Leone</item>
+        <item>Fushun, China</item>
+        <item>Fuxin, China</item>
+        <item>Fuzhou, China</item>
+        <item>Gaborone,Botswana</item>
+        <item>Kepulauan Galapagos,Ecuador</item>
+        <item>Geneva,Switzerland</item>
+        <item>Genoa,Itali</item>
+        <item>Georgetown,Guyana</item>
+        <item>Greenland</item>
+        <item>Grytviken, Georgia Selatan</item>
+        <item>Guan</item>
+        <item>Guangzhou,China</item>
+        <item>Guatemala</item>
+        <item>Bandar Guatemala, Guatemala</item>
+        <item>Guiyang,China</item>
+        <item>Gustavia, Saint Barthelemy</item>
+        <item>Haikou,China</item>
+        <item>Halifax, Kanada</item>
+        <item>Hamburg,Jerman</item>
+        <item>Handan, China</item>
+        <item>Hangzhou, China</item>
+        <item>Hanoi,Vietnam</item>
+        <item>Harare,Zimbabwe</item>
+        <item>Harbin,China</item>
+        <item>Havana,Cuba</item>
+        <item>Hawaii, AS</item>
+        <item>Hefei, China</item>
+        <item>Helsinki,Finland</item>
+        <item>Bandar Ho Chi Minh,Vietnam</item>
+        <item>Hobart, Australia</item>
+        <item>Hohhot, China</item>
+        <item>Hong Kong, China</item>
+        <item>Honolulu, AS</item>
+        <item>Houston,A.S</item>
+        <item>Hovd, Mongolia</item>
+        <item>"Huai'an, China"</item>
+        <item>Huainan, China</item>
+        <item>Hyderabad, India</item>
+        <item>Indianapolis,A.S</item>
+        <item>Irkutsk,Rusia</item>
+        <item>Islamabad,Pakistan</item>
+        <item>Istanbul,Turki</item>
+        <item>Izhevsk, Rusia</item>
+        <item>Jakarta, Indonesia</item>
+        <item>Jiddan,Arab Saudi</item>
+        <item>Jerusalem,Israel</item>
+        <item>Bandar Jilin, China</item>
+        <item>Jinan, China</item>
+        <item>Jinzhou, China</item>
+        <item>Jixi, China</item>
+        <item>Johannesburg, Afrika Selatan</item>
+        <item>Kabul,Afghanistan</item>
+        <item>Kaliningrad, Rusia</item>
+        <item>Kamchatka, Rusia</item>
+        <item>Kampala,Uganda</item>
+        <item>Karachi,Pakistan</item>
+        <item>Kathmandu,Nepal</item>
+        <item>Khabarovsk, Rusia</item>
+        <item>Kharkiv, Ukraine</item>
+        <item>Khartoum,Sudan</item>
+        <item>Kingston,Jamaica</item>
+        <item>Kinshasa, Rep. Dem. Congo</item>
+        <item>Kiritimati,Kiribati</item>
+        <item>Kolkata,India</item>
+        <item>Krasnoyarsk,Rusia</item>
+        <item>Kuala Lumpur,Malaysia</item>
+        <item>Kunming, China</item>
+        <item>Bandar Kuwait</item>
+        <item>Kyiv,Ukraine</item>
+        <item>La Paz,Bolivia</item>
+        <item>Lagos,Nigeria</item>
+        <item>Lahore,Pakistan</item>
+        <item>Lanzhou, China</item>
+        <item>Las Vegas,A.S</item>
+        <item>Lima,Peru</item>
+        <item>Lisbon,Portugal</item>
+        <item>Liuzhou, China</item>
+        <item>Ljubljana, Slovenia</item>
+        <item>London,U.K</item>
+        <item>Los Angeles,A.S</item>
+        <item>Louisville,A.S</item>
+        <item>Luanda, Angola</item>
+        <item>Lubumbashi, D.R. Congo</item>
+        <item>Luoyang, China</item>
+        <item>Lusaka,Zambia</item>
+        <item>Luxembourg</item>
+        <item>Lviv, Ukraine</item>
+        <item>Macau, China</item>
+        <item>Madrid,Sepanyol</item>
+        <item>Magadan,Rusia</item>
+        <item>Majuro, Kepulauan Marshall</item>
+        <item>Malabo,Equatorial Guinea</item>
+        <item>Male,Maldives</item>
+        <item>Managua,Nicaragua</item>
+        <item>Manama,Bahrain</item>
+        <item>Manaus, Brazil</item>
+        <item>Manila,Filipina</item>
+        <item>Maputo, Mozambique</item>
+        <item>Marigot, Saint Martin</item>
+        <item>Mayotte, Perancis</item>
+        <item>Mazatlan,Mexico</item>
+        <item>Mekah, Arab Saudi</item>
+        <item>Melbourne,Australia</item>
+        <item>Memphis,A.S</item>
+        <item>Messina, Itali</item>
+        <item>Bandar Mexico,Mexico</item>
+        <item>Miami,A.S</item>
+        <item>Atlantik Tengah</item>
+        <item>Pulau Midway,Amerika</item>
+        <item>Milan,Itali</item>
+        <item>Milwaukee,A.S</item>
+        <item>Minneapolis, AS</item>
+        <item>Minsk,Belarus</item>
+        <item>Mogadishu,Somalia</item>
+        <item>Monrovia, Liberia</item>
+        <item>Montevideo,Uruguay</item>
+        <item>Montreal,Kanada</item>
+        <item>Moscow,Rusia</item>
+        <item>Mudanjiang, China</item>
+        <item>Mumbai,India</item>
+        <item>Munich,Jerman</item>
+        <item>Muscat,Oman</item>
+        <item>Nairobi,Kenya</item>
+        <item>Nanchang, China</item>
+        <item>Nanjing,China</item>
+        <item>Nanning, China</item>
+        <item>Napoli,Itali</item>
+        <item>Naters, Switzerland</item>
+        <item>Ndjamena,Chad</item>
+        <item>New Delhi,India</item>
+        <item>New Orleans,A.S</item>
+        <item>New York,A.S</item>
+        <item>Newfoundland, Kanada</item>
+        <item>Niamey, Niger</item>
+        <item>Ningbo, China</item>
+        <item>Nouakchott, Mauritania</item>
+        <item>Noumea, New Caledonia</item>
+        <item>Novokuznetsk, Rusia</item>
+        <item>Novosibirsk, Rusia</item>
+        <item>Nukualofa, Tonga</item>
+        <item>Nuuk,Greenland</item>
+        <item>Omsk, Rusia</item>
+        <item>Oral, Kazakhstan</item>
+        <item>Osaka,Jepun</item>
+        <item>Oslo,Norway</item>
+        <item>Ottawa,Kanada</item>
+        <item>Ouagadougou, Burkina Faso</item>
+        <item>Pago Pago, Samoa Amerika</item>
+        <item>Palermo, Itali</item>
+        <item>Panama City,Panama</item>
+        <item>Paramaribo,Suriname</item>
+        <item>Paris,Perancis</item>
+        <item>Perm, Rusia</item>
+        <item>Perth, Australia</item>
+        <item>Petropavlovsk-Kamchatsky, Rusia</item>
+        <item>Philadelphia,A.S</item>
+        <item>Phnom Penh,Cambodia</item>
+        <item>Phoenix,A.S</item>
+        <item>Pingdingshan, China</item>
+        <item>Podgorica, Montenegro</item>
+        <item>Ponta Delgada, Portugal</item>
+        <item>Port Louis, Mauritius</item>
+        <item>Port-au-Prince,Haiti</item>
+        <item>Portland,A.S</item>
+        <item>Prague, Republik Czech</item>
+        <item>Praia,Cape Verde</item>
+        <item>Pyongyang, Republik Rakyat Demokratik Korea</item>
+        <item>Qingdao, China</item>
+        <item>Qiqihar, China</item>
+        <item>Quito,Ecuador</item>
+        <item>Rabat, Morocco</item>
+        <item>Recife, Brazil</item>
+        <item>Regina,Kanada</item>
+        <item>Reykjavik, Iceland</item>
+        <item>Riga, Latvia</item>
+        <item>Rio de Janeiro,Brazil</item>
+        <item>Riyadh,Arab Saudi</item>
+        <item>Rome,Itali</item>
+        <item>Sao Paulo,Brazil</item>
+        <item>Saint-Denis, Pulau Reunion</item>
+        <item>Bandar Salt Lake, AS</item>
+        <item>Samara, Rusia</item>
+        <item>San Antonio,A.S</item>
+        <item>San Diego,A.S</item>
+        <item>San Francisco,A.S</item>
+        <item>San Joes,Costa Rica</item>
+        <item>San Juan, Puerto Rico</item>
+        <item>San Marino</item>
+        <item>San Salvador,El Salvador</item>
+        <item>"Sana'a, Yemen"</item>
+        <item>Santiago,Chile</item>
+        <item>Santo Domingo, Republik Dominikan</item>
+        <item>Sarajevo,Bosnia dan Herzegovina</item>
+        <item>Seattle,A.S</item>
+        <item>Seoul, Korea Selatan</item>
+        <item>Shanghai,China</item>
+        <item>Shangqiu, China</item>
+        <item>Shantou, China</item>
+        <item>Shenyang,China</item>
+        <item>Shenzhen,China</item>
+        <item>Shijiazhuang, China</item>
+        <item>Singapura</item>
+        <item>Skopje,Macedonia</item>
+        <item>Sofia,Bulgaria</item>
+        <item>Saint John,Kanada</item>
+        <item>St.Petersburg,Rusia</item>
+        <item>St. Pierre dan Miquelon, Perancis</item>
+        <item>Stockholm,Sweden</item>
+        <item>Suva,Fiji</item>
+        <item>Suzhou, China</item>
+        <item>Sydney,Australia</item>
+        <item>Tahiti, Polinesia Perancis</item>
+        <item>Taipei,China</item>
+        <item>Taiyuan, China</item>
+        <item>Tallinn, Estonia</item>
+        <item>Tangshan, China</item>
+        <item>Tarawa, Kiribati</item>
+        <item>Tashkent, Uzbekistan</item>
+        <item>Tbilisi,Georgia</item>
+        <item>Tegucigalpa, Honduras</item>
+        <item>Tehran,Iran</item>
+        <item>The Settlement, Kepulauan Virgin GB</item>
+        <item>Tianjin,China</item>
+        <item>Tijuana,Mexico</item>
+        <item>Tokyo,Jepun</item>
+        <item>Tonga</item>
+        <item>Toronto,Kanada</item>
+        <item>Tripoli,Libya</item>
+        <item>Tunis, Tunisia</item>
+        <item>Torino,Itali</item>
+        <item>Ufa, Rusia</item>
+        <item>Ulaanbaatar, Mongolia</item>
+        <item>Urumqi,China</item>
+        <item>Vaduz, Liechtenstein</item>
+        <item>Valletta, Malta</item>
+        <item>Vancouver,Kanada</item>
+        <item>Verona, Itali</item>
+        <item>Victoria, Seychelles</item>
+        <item>Vienna,Austria</item>
+        <item>Vilnius,Lithuania</item>
+        <item>Vladivostok, Rusia</item>
+        <item>Volgograd, Rusia</item>
+        <item>Warsaw,Poland</item>
+        <item>Washington,D.C,A.S</item>
+        <item>Weifang, China</item>
+        <item>Wellington,New Zealand</item>
+        <item>Windhoek,Namibia</item>
+        <item>Winnipeg,Kanada</item>
+        <item>Wuhan,China</item>
+        <item>Wuxi, China</item>
+        <item>"Xi'an,China"</item>
+        <item>Xiangyang, China</item>
+        <item>Xining, China</item>
+        <item>Xuzhou, China</item>
+        <item>Yakutsk,Rusia</item>
+        <item>Yamoussoukro, Ivory Coast</item>
+        <item>Yangon,Myanmar</item>
+        <item>Yantai, China</item>
+        <item>Yaounde, Cameroon</item>
+        <item>Yekaterinburg, Rusia</item>
+        <item>Yerevan,Armenia</item>
+        <item>Yichang, China</item>
+        <item>Yichun, China</item>
+        <item>Yuzhno-Sakhalinsk, Rusia</item>
+        <item>Zagreb, Croatia</item>
+        <item>Zaozhuang, China</item>
+        <item>Zhangjiakou, China</item>
+        <item>Zhanjiang, China</item>
+        <item>Zhengzhou, China</item>
+        <item>Zibo, China</item>
+        <item>Zurich,Switzerland</item>
+        <item>Georgia Selatan</item>
+        <item>Bandar Seri Begawan</item>
+        <item>Vientiane</item>
+    </string-array>
+</resources>

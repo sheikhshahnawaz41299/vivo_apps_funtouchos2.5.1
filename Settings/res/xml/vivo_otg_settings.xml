@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/fast_charge_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/otg_storage_category_title" android:key="otg_settings" />
+    <PreferenceCategory android:title="@string/otg_settings_explain" style="?vivo:attr/explainPreferenceStyle" />
+</PreferenceScreen>

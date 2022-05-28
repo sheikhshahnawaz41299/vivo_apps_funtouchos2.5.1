@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/icon" android:layout_width="@dimen/app_icon_size_large" android:layout_height="@dimen/app_icon_size_large" android:layout_centerVertical="true" android:layout_marginStart="@vivo:dimen/preference_left_margin" android:layout_marginEnd="@vivo:dimen/preference_left_margin" />
+    <BbkMoveBoolButton android:layout_gravity="center" android:id="@android:id/checkbox" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="8.0dip" android:layout_marginEnd="@vivo:dimen/preference_right_margin" android:layout_alignParentEnd="true" />
+    <TextView android:textAppearance="?vivo:textAppearancePreferenceTitle" android:gravity="center_vertical" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:layout_toStartOf="@android:id/checkbox" android:layout_toEndOf="@id/icon" />
+    <View android:id="@id/divider" android:background="?android:dividerHorizontal" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@vivo:dimen/divider_height" android:layout_alignParentBottom="true" android:layout_marginStart="@vivo:dimen/preference_left_margin" android:layout_toEndOf="@android:id/icon" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/vpn_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/vpn_create" android:key="vpn_create" android:order="2147483645" />
+    <Preference android:title="@string/vpn_menu_lockdown" android:key="vpn_lockdown" android:order="2147483646" />
+</PreferenceScreen>

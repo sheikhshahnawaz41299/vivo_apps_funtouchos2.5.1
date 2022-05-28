@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/development_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <VivoCheckBoxPreference android:title="@string/enable_adb" android:key="enable_adb" />
+    <VivoCheckBoxPreference android:title="@string/keep_screen_on" android:key="keep_screen_on" />
+    <VivoCheckBoxPreference android:title="@string/allow_mock_location" android:key="allow_mock_location" />
+</PreferenceScreen>

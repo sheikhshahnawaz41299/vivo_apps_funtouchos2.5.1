@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">ನೀವೀಗ ಒಬ್ಬ ಡೆವಲಪರ್‌ ಆಗಲು %1$d ಹೆಜ್ಜೆಗಳ ದೂರದಲ್ಲಿದ್ದೀರಿ</item>
+        <item quantity="one">ನೀವೀಗ ಒಬ್ಬ ಡೆವಲಪರ್‌ ಆಗಲು %1$d ಹೆಜ್ಜೆಗಳ ದೂರದಲ್ಲಿದ್ದೀರಿ</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">ಪಾಸ್‌ವರ್ಡ್ ಕನಿಷ್ಠ %d ಅಕ್ಷರಗಳು ಒಳಗೊಂಡಿರಬೇಕು.</item>
+        <item quantity="one">ಪಾಸ್‌ವರ್ಡ್‌ ಕನಿಷ್ಠ ಒಂದು ಅಕ್ಷರವನ್ನು ಹೊಂದಿರಬೇಕು.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">ಪಾಸ್‌ವರ್ಡ್ ಕನಿಷ್ಠ %d ಕೆಳಸ್ತರದ ಅಕ್ಷರಗಳನ್ನು ಒಳಗೊಂಡಿರಬೇಕು.</item>
+        <item quantity="one">ಪಾಸ್‌ವರ್ಡ್ ಕನಿಷ್ಠ 1 ಕೆಳಸ್ತರದ ಅಕ್ಷರವನ್ನು ಒಳಗೊಂಡಿರಬೇಕು.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">ಪಾಸ್‌ವರ್ಡ್ ಕನಿಷ್ಠ %d ಮೇಲಿನಸ್ತರದ ಅಕ್ಷರಗಳನ್ನು ಒಳಗೊಂಡಿರಬೇಕು.</item>
+        <item quantity="one">ಪಾಸ್‌ವರ್ಡ್ ಕನಿಷ್ಠ 1 ಮೇಲಿನಸ್ತರದ ಅಕ್ಷರವನ್ನು ಒಳಗೊಂಡಿರಬೇಕು.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">ಪಾಸ್‌ವರ್ಡ್ ಕನಿಷ್ಠ %d ಅಂಕಿಗಳನ್ನು ಒಳಗೊಂಡಿರಬೇಕು</item>
+        <item quantity="one">ಪಾಸ್‌ವರ್ಡ್‌ ಕನಿಷ್ಠ ಒಂದು ಸಂಖ್ಯಾತ್ಮಕ ಅಂಕಿಯನ್ನು ಹೊಂದಿರಬೇಕು.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">ಪಾಸ್‌ವರ್ಡ್ ಕನಿಷ್ಠ %d ವಿಶೇಷ ಅಕ್ಷರಗಳನ್ನು ಒಳಗೊಂಡಿರಬೇಕು.</item>
+        <item quantity="one">ಪಾಸ್‌ವರ್ಡ್ ಕನಿಷ್ಠ 1 ವಿಶೇಷ ಅಕ್ಷರವನ್ನು ಒಳಗೊಂಡಿರಬೇಕು.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">ಪಾಸ್‌ವರ್ಡ್ ಕನಿಷ್ಠ %d ಅಕ್ಷರಯೇತರ ಅಕ್ಷರಗಳನ್ನು ಒಳಗೊಂಡಿರಬೇಕು</item>
+        <item quantity="one">ಪಾಸ್‌ವರ್ಡ್ ಕನಿಷ್ಠ 1 ಅಕ್ಷರಯೇತರ ಅಕ್ಷರವನ್ನು ಒಳಗೊಂಡಿರಬೇಕು</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">ತಪ್ಪಾದ SIM PIN ಕೋಡ್, ನಿಮ್ಮಲ್ಲಿ %d ಪ್ರಯತ್ನಗಳು ಬಾಕಿ ಉಳಿದಿವೆ.</item>
+        <item quantity="one">ತಪ್ಪಾದ SIM PIN ಕೋಡ್, ನೀವು ನಿಮ್ಮ ಸಾಧನವನ್ನು ಅನ್ಲಾಕ್ ಮಾಡಲು ನಿಮ್ಮ ವಾಹಕವನ್ನು ಸಂಪರ್ಕಿಸುವುದಕ್ಕೂ ಮುನ್ನ %d ಪ್ರಯತ್ನಗಳು ಬಾಕಿಯಿವೆ.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d ಅಪ್ಲಿಕೇಶನ್ ಪ್ರಕಟಣೆಗಳನ್ನು ಓದಬಹುದು</item>
+        <item quantity="one">%d ಅಪ್ಲಿಕೇಶನ್ ಪ್ರಕಟಣೆಗಳನ್ನು ಓದಬಹುದು</item>
+    </plurals>
+    <plurals name="manage_condition_providers_summary_nonzero">
+        <item quantity="other">%d ಅಪ್ಲಿಕೇಶನ್‌ ಪೂರೈಕೆದಾರರ ಷರತ್ತುಗಳು</item>
+        <item quantity="one">%d ಅಪ್ಲಿಕೇಶನ್‌ ಪೂರೈಕೆದಾರರ ಷರತ್ತುಗಳು</item>
+    </plurals>
+</resources>

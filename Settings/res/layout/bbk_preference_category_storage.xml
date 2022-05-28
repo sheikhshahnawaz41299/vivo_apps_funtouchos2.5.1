@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@vivo:dimen/preference_divider_height" android:layout_marginEnd="?android:scrollbarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="marquee" android:gravity="center_vertical" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:layout_marginStart="@vivo:dimen/preference_left_margin" style="?vivo:attr/textAppearancePreferenceCategory" />
+    <TextView android:textSize="14.0sp" android:ellipsize="end" android:gravity="center|right" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" android:layout_marginStart="5.0dip" android:layout_marginEnd="16.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@vivo:dimen/preference_right_margin" />
+</LinearLayout>

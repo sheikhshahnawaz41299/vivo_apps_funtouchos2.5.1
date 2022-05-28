@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/category" android:paddingBottom="@vivo:dimen/preference_divider_height" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.CategoryTitle" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/category_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dashboard_category_title_height" android:singleLine="true" android:textAlignment="viewStart" android:paddingStart="@dimen/dashboard_category_title_margin_start" />
+    <com.android.settings.dashboard.DashboardContainerView android:id="@id/category_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:gravity="center_vertical" android:id="@android:id/summary" android:paddingLeft="@vivo:dimen/preference_left_margin" android:paddingRight="@vivo:dimen/preference_right_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

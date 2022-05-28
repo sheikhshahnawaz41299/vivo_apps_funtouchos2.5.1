@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:textSize="15.0sp" android:textColor="#ff818181" android:layout_gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="@dimen/pattern_example_message_top" android:layout_marginRight="5.0dip" android:text="@string/lock_example_message" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/VivoLockPatternOne" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pattern_one_top">
+        <ImageView android:id="@id/VivocellOne" android:background="@drawable/pattern_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pattern_one_left" />
+        <ImageView android:background="@drawable/pattern_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pattern_two_left" />
+        <ImageView android:background="@drawable/pattern_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pattern_two_left" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/VivoLockPatternTwo" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pattern_two_top">
+        <ImageView android:id="@id/Vivocelltwo" android:background="@drawable/pattern_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pattern_one_left" />
+        <ImageView android:id="@id/Vivocellthree" android:background="@drawable/pattern_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pattern_two_left" />
+        <ImageView android:id="@id/Vivocellfour" android:background="@drawable/pattern_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pattern_two_left" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/VivoLockPatternThree" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pattern_three_top">
+        <ImageView android:background="@drawable/pattern_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pattern_one_left" />
+        <ImageView android:background="@drawable/pattern_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pattern_two_left" />
+        <ImageView android:background="@drawable/pattern_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pattern_two_left" />
+    </LinearLayout>
+    <com.android.settings.ChooseLockPatternView android:id="@id/examplePattern" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

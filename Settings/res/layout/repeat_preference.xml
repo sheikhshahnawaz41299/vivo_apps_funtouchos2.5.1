@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/sun_layout" android:layout_width="32.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="4.0dip" android:layout_weight="1.0">
+        <TextView android:gravity="center" android:id="@id/sun1" android:background="@drawable/repeat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/day7_ex" android:layout_centerInParent="true" />
+        <TextView android:gravity="center" android:id="@id/sun2" android:background="@drawable/repeat_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/day7_ex" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/mon_layout" android:layout_width="32.0dip" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip" android:layout_marginRight="4.0dip" android:layout_weight="1.0">
+        <TextView android:gravity="center" android:id="@id/mon1" android:background="@drawable/repeat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/day1_ex" android:layout_centerInParent="true" />
+        <TextView android:gravity="center" android:id="@id/mon2" android:background="@drawable/repeat_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/day1_ex" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/tue_layout" android:layout_width="32.0dip" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip" android:layout_marginRight="4.0dip" android:layout_weight="1.0">
+        <TextView android:gravity="center" android:id="@id/tue1" android:background="@drawable/repeat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/day2_ex" android:layout_centerInParent="true" />
+        <TextView android:gravity="center" android:id="@id/tue2" android:background="@drawable/repeat_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/day2_ex" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/wed_layout" android:layout_width="32.0dip" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip" android:layout_marginRight="4.0dip" android:layout_weight="1.0">
+        <TextView android:gravity="center" android:id="@id/wed1" android:background="@drawable/repeat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/day3_ex" android:layout_centerInParent="true" />
+        <TextView android:gravity="center" android:id="@id/wed2" android:background="@drawable/repeat_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/day3_ex" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/thu_layout" android:layout_width="32.0dip" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip" android:layout_marginRight="4.0dip" android:layout_weight="1.0">
+        <TextView android:gravity="center" android:id="@id/thu1" android:background="@drawable/repeat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/day4_ex" android:layout_centerInParent="true" />
+        <TextView android:gravity="center" android:id="@id/thu2" android:background="@drawable/repeat_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/day4_ex" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/fri_layout" android:layout_width="32.0dip" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip" android:layout_marginRight="4.0dip" android:layout_weight="1.0">
+        <TextView android:gravity="center" android:id="@id/fri1" android:background="@drawable/repeat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/day5_ex" android:layout_centerInParent="true" />
+        <TextView android:gravity="center" android:id="@id/fri2" android:background="@drawable/repeat_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/day5_ex" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/sat_layout" android:layout_width="32.0dip" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip" android:layout_marginRight="5.0dip" android:layout_weight="1.0">
+        <TextView android:gravity="center" android:id="@id/sat1" android:background="@drawable/repeat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/day6_ex" android:layout_centerInParent="true" />
+        <TextView android:gravity="center" android:id="@id/sat2" android:background="@drawable/repeat_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/day6_ex" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

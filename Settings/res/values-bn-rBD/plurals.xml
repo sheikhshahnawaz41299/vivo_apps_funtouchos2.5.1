@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">একজন বিকাশকারী হওয়া থেকে আপনি এখন %1$d ধাপ দূরে।</item>
+        <item quantity="one">একজন বিকাশকারী হওয়া থেকে আপনি এখন %1$d ধাপ দূরে।</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">পাসওয়ার্ডে অন্ততপক্ষে %d টি অক্ষর থাকতে হবে।</item>
+        <item quantity="one">পাসওয়ার্ডে অবশ্যই অন্ততপক্ষে 1টি বর্ণ থাকতে হবে।</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">পাসওয়ার্ডে অন্ততপক্ষে %dটি ছোট হাতের অক্ষর থাকতে হবে।</item>
+        <item quantity="one">পাসওয়ার্ডে অন্ততপক্ষে 1টি ছোট হাতের অক্ষর থাকতে হবে।</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">পাসওয়ার্ডে অন্ততপক্ষে %dটি বড় হাতের বর্ণ থাকতে হবে।</item>
+        <item quantity="one">পাসওয়ার্ডে অন্ততপক্ষে 1টি বড় হাতের বর্ণ থাকতে হবে।</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">পাসওয়ার্ডে অন্ততপক্ষে %dটি সংখ্যা থাকতে হবে।</item>
+        <item quantity="one">পাসওয়ার্ডে অন্ততপক্ষে একটি সংখ্যা থাকতে হবে।</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">পাসওয়ার্ডে অন্ততপক্ষে %dটি বিশেষ অক্ষর থাকতে হবে।</item>
+        <item quantity="one">পাসওয়ার্ডে অন্ততপক্ষে 1টি বিশেষ অক্ষর থাকতে হবে।</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">পাসওয়ার্ডে অবশ্যই অন্ততপক্ষে %dটি নন-আলফা অক্ষর থাকতে হবে</item>
+        <item quantity="one">পাসওয়ার্ডে কমপক্ষে 1টি নন-আলফা অক্ষর থাকতে হবে</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">ভুল SIM কার্ড PIN, এখনও আপনার %d টি প্রচেষ্টা বাকী আছে।</item>
+        <item quantity="one">ভুল সিম কার্ড PIN। আপনার ডিভাইস আনলক করতে আপনার ক্যারিয়ারের সাথে যোগাযোগ করতে হওয়ার আগে আপনার আর %dটি প্রয়াস অবশিষ্ট রয়েছে।</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d অ্যাপ বিজ্ঞপ্তিগুলি পড়তে পারবে</item>
+        <item quantity="one">%d অ্যাপ বিজ্ঞপ্তিগুলি পড়তে পারবে</item>
+    </plurals>
+    <plurals name="manage_condition_providers_summary_nonzero">
+        <item quantity="other">%d টি অ্যাপ শর্তাবলী দিতে পারে</item>
+        <item quantity="one">%d টি অ্যাপ শর্তাবলী দিতে পারে</item>
+    </plurals>
+</resources>

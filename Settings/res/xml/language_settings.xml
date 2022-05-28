@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/language_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceScreen android:title="@string/phone_language" android:key="phone_language" android:fragment="com.vivo.settings.VivoLocalePicker" />
+    <PreferenceScreen android:title="@string/area_settings_title" android:key="phone_area" android:fragment="com.vivo.settings.AreaPicker" />
+    <PreferenceCategory android:title="@string/keyboard_settings_category" android:key="keyboard_inputmethod_category" />
+    <Preference android:title="@string/default_inputmethod" android:key="current_input_method" />
+    <PreferenceCategory android:title="@string/text_category" android:key="keyboard_settings_category" />
+</PreferenceScreen>

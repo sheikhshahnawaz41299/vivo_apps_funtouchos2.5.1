@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">သင်သည် ယခု စနစ်ဖန်တီးသူအဖြစ်မှအဆင့် %1$d ဆင့် ဝေးကွာနေသည်။</item>
+        <item quantity="one">သင်သည် ယခု စနစ်ဖန်တီးသူအဖြစ်မှအဆင့် %1$d ဆင့် ဝေးကွာနေသည်။</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">စကားဝွက္တြင္ အနည္းဆံုး စကားလံုး %d လံုးပါရမည္</item>
+        <item quantity="one">စကားဝွက္ထဲမွာ အနည္းဆံုး စာ 1 လံုး ပါရမည္</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">စကားဝွက္သည္ အနည္းဆံုး စာလုံးေသး %d လံုး ပါရမည္</item>
+        <item quantity="one">စကားဝွက္သည္ အနည္းဆံုး စာလံုးေသး 1 လံုး ပါရမည္</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">စကားဝွက္သည္ အနည္းဆံုး စာလုံးႀကီး %d လံုး ပါရမည္</item>
+        <item quantity="one">စကားဝွက္သည္ အနည္းဆံုး စာလံုးအႀကီး 1 လံုး ပါရမည္</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">စကားဝွက္သည္ အနည္းဆံုး ကိန္းဂဏန္း %d လံုး ပါရမည္</item>
+        <item quantity="one">စကားဝွက္ထဲမွာ အနည္းဆံုး ဂဏန္း 1 လံုး ပါရမည္</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">စကားဝွက္သည္ အနည္းဆံုး အထူးသေကၤတ %d လံုး ပါရမည္</item>
+        <item quantity="one">စကားဝွက္သည္ အနည္းဆံုး အထူးသေကၤတ 1 လံုး ပါရမည္</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">လွ်ိဳ႕၀ွက္စကားလံုးတြင္ အနည္းဆံုး အယ္လ္ဖာ မဟုတ္သည့္ စကားလံုး %d လံုး ပါ၀င္ရမည္</item>
+        <item quantity="one">လွ်ိဳ႕၀ွက္စကားလံုးတြင္ အနည္းဆံုး အယ္လ္ဖာ မဟုတ္သည့္ စာလံုး 1 လံုးပါ၀င္ရမည္</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">မမွန္ကန္သည့္ SIM ကဒ္ PIN၊ သင့္တြင္ႀကိဳးစားရန္ %d ႀကိမ္ က်န္ေသးသည္။</item>
+        <item quantity="one">မမွန္ကန္သည့္ SIM ကဒ္ PIN၊ သင့္တြင္ႀကိဳးစားရန္ %d ႀကိမ္ က်န္ေသးသည္။ အကယ္၍ သင္ဆက္တုိက္ မေအာင္ျမင္ပါက စက္ပစၥည္းကို ေသာ့ဖြင့္ရန္ ကယ္ရီယာသို႕ ဆက္သြယ္ပါ။</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d apps can read notifications</item>
+        <item quantity="one">%d apps can read notifications</item>
+    </plurals>
+    <plurals name="manage_condition_providers_summary_nonzero">
+        <item quantity="other">အေျခအေနမ်ားကို ပံ့ပိုးႏုိင္သည့္ အက္ပ္မ်ား %d ခု</item>
+        <item quantity="one">အေျခအေနမ်ားကို ပံ့ပိုးႏုိင္သည့္ အက္ပ္မ်ား %d ခု</item>
+    </plurals>
+</resources>

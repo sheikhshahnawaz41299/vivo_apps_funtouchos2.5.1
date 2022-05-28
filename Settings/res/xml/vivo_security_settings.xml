@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/security_privacy" android:key="security_category" />
+    <PreferenceScreen android:persistent="false" android:title="@string/unlock_set_unlock_launch_picker_title" android:key="unlock_set_or_change" android:summary="@string/unlock_set_unlock_mode_pattern">
+        <intent android:action="android.app.action.SET_NEW_PASSWORD" />
+    </PreferenceScreen>
+    <PreferenceScreen android:persistent="false" android:title="@string/visit_title" android:key="visit_mode" android:fragment="com.vivo.settings.VisitMode" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/lockpattern_settings_enable_visible_pattern_title" android:key="visible_pattern" />
+    <PreferenceCategory android:key="eyep_category" />
+    <PreferenceScreen android:persistent="false" android:title="@string/eyeprint_tite" android:key="eye_print" android:summary=" ">
+        <intent android:action="vivo.intent.action.start_vivoeye_prefrenece" />
+    </PreferenceScreen>
+    <PreferenceCategory android:persistent="false" android:key="sim_lock_divider" style="?vivo:attr/dividerPreferenceStyle" />
+    <PreferenceCategory android:persistent="false" android:title="@string/sim_lock_settings_title" android:key="sim_lock" />
+    <PreferenceScreen android:persistent="false" android:title="@string/sim_lock_settings" android:key="sim_lock_pref" />
+    <PreferenceCategory android:title="@string/crypt_keeper_settings_title" android:key="security_category_crypt">
+        <PreferenceScreen android:title="@string/crypt_keeper_encrypt_title" android:key="encryption" android:fragment="com.android.settings.CryptKeeperSettings" />
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@string/device_admin_title" />
+    <PreferenceScreen android:persistent="false" android:title="@string/manage_device_admin" android:fragment="com.android.settings.DeviceAdminSettings" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/install_applications" android:key="toggle_install_applications" />
+    <PreferenceCategory android:title="@string/install_unknown_applications" style="?vivo:attr/explainPreferenceStyle" />
+    <VivoCheckBoxPreference android:persistent="false" android:title="@string/verify_applications" android:key="toggle_verify_applications" />
+    <PreferenceCategory android:title="@string/verify_applications_summary" android:key="toggle_verify_applications_category" />
+    <PreferenceScreen android:persistent="false" android:title="@string/manage_notification_access_title" android:key="manage_notification_access" android:fragment="com.android.settings.notification.NotificationAccessSettings" />
+    <PreferenceScreen android:title="@string/screen_pinning_title" android:key="screen_pinning_settings" android:summary="@string/switch_off_text" android:fragment="com.android.settings.ScreenPinningSettings" />
+    <PreferenceCategory android:persistent="false" android:title="@string/credentials_title" />
+    <PreferenceScreen android:persistent="false" android:title="@string/trusted_credentials" android:key="key_trusted_credentials" android:fragment="com.android.settings.TrustedCredentialsSettings" />
+    <Preference android:persistent="false" android:title="@string/credentials_install" android:key="toggle_install_title">
+        <intent android:targetPackage="com.android.certinstaller" android:action="android.credentials.INSTALL" android:targetClass="com.android.certinstaller.CertInstallerMain" />
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/credentials_reset" android:key="reset_credentials">
+        <intent android:targetPackage="com.android.settings" android:action="com.android.credentials.RESET" android:targetClass="com.android.settings.CredentialStorage" />
+    </Preference>
+</PreferenceScreen>
