@@ -1,0 +1,22 @@
+/*
+ * =====================================================================================
+ *
+ *       Filename:  init.msm8916.rc
+ *
+ *    Description:  init.rc only for msm8916
+ *
+ *        Version:  1.0
+ *        Created:  03/02/2015 04:32:25 PM
+ *       Revision:  none
+ *       Compiler:  gcc
+ *
+ *         Author:  zengqingming (), 
+ *        Company:  
+ *
+ * =====================================================================================
+ */
+
+	
+#vivo huangxinyuan add for PD1505L/A wifi nv file
+on early-boot
+    write /sys/module/wcnsscore/parameters/project_name ${ro.vivo.product.model}
